@@ -1,0 +1,130 @@
+{
+    "en_lus": [],
+    "ko_lu": "보이다.v.Categorization",
+    "ko_pos": "v",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "lu_id": "2141",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3800",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "보였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 26
+                            },
+                            "text": "갑자기 읽을 수 없을 정도의 많은 수로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3800",
+                    "lu": "보이다.v.Categorization",
+                    "text": "그 수는 갑자기 읽을 수 없을 정도의 많은 수로 보였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2233",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 89,
+                                "end": 91
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "보여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Category",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 84
+                            },
+                            "text": "국제 협약을 시행하는데 있어서 이중잣대를 적용하는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2233",
+                    "lu": "보이다.v.Categorization",
+                    "text": "이란 군에 대한 이라크의 화학무기 작용제의 사용에 대한 미약한 국제적인 반응--특히 유엔의 반응--은 국제 협약을 시행하는데 있어서 이중잣대를 적용하는 것으로 보여 이란을 불쾌하게 했다."
+                }
+            ]
+        }
+    ]
+}

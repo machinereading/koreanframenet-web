@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "제조자.n.Manufacturing",
+    "frameID": 408,
+    "frameName": "Manufacturing",
+    "en_lus": [
+        "maker"
+    ],
+    "lu_id": 2008,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2985",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "makers"
+                    ],
+                    "ko_annotation_id": 2985,
+                    "annotation_id": 5730,
+                    "frameName": "Manufacturing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "제조자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "관인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1095,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제조자.n.Manufacturing",
+                    "text": "당신은 약초와 의료 가게, 향 가게, 관인 제조자 가게 ( 중국 인장 제조자 ), 그리고 더 많은 것을 발견할 것이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "유소년.n.Timespan",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "en_lus": [
+        "zidai .時代 "
+    ],
+    "lu_id": 4894,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11796",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zidai .時代 "
+                    ],
+                    "ko_annotation_id": 11796,
+                    "annotation_id": 0,
+                    "frameName": "Timespan",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "유소년기를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 14
+                            },
+                            "text": "나카타의 유소년기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4642,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유소년.n.Timespan",
+                    "text": "하지만 나카타의 유소년기를 아는 사람이 본다면, 그것은 일본 사회가 에도에서 메이지로 바뀐 것만큼이나 커다란 변화였다."
+                }
+            ]
+        }
+    ]
+}

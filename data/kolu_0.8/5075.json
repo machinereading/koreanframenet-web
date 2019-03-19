@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "백톤.n.Measure_mass",
+    "frameID": 147,
+    "frameName": "Measure_mass",
+    "en_lus": [
+        "ton"
+    ],
+    "lu_id": 5075,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6134",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tons"
+                    ],
+                    "ko_annotation_id": 6134,
+                    "annotation_id": 11088,
+                    "frameName": "Measure_mass",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Measure_mass",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "백톤의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "수 백톤의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stuff",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "화학 작용제를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2221,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "백톤.n.Measure_mass",
+                    "text": "미국 관리들은 이란이 연간 수 백톤의 화학 작용제를 생산할 수 있고 Qazvin, Parchin, 그리고 Esfahan 인근의 공장에서 겨자, 시아나이드, 그리고 아마 사린 신경 작용제를 포함하여 이미 2,000 톤 정도의 작용제들을 생산하였을지도 모른다고 보도한다."
+                }
+            ]
+        }
+    ]
+}

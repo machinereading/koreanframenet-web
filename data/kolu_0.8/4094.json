@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "펼쳐지다.v.Dispersal",
+    "frameID": 267,
+    "frameName": "Dispersal",
+    "en_lus": [
+        "spread"
+    ],
+    "lu_id": 4094,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13461",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "spread"
+                    ],
+                    "ko_annotation_id": 13461,
+                    "annotation_id": 5732,
+                    "frameName": "Dispersal",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dispersal",
+                            "span": {
+                                "begin": 27,
+                                "end": 34
+                            },
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "펼쳐저 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "홍콩대학의 캠퍼스는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal_Area",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 26
+                            },
+                            "text": "Bonham Road를 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1096,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "펼쳐지다.v.Dispersal",
+                    "text": "홍콩대학의 캠퍼스는 Bonham Road를 따라 펼쳐저 있다."
+                }
+            ]
+        }
+    ]
+}

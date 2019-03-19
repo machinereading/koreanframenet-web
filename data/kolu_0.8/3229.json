@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "저버리다.v.Abandonment",
+    "frameID": 2031,
+    "frameName": "Abandonment",
+    "en_lus": [
+        "misuteru .見捨てる"
+    ],
+    "lu_id": 3229,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11726",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "misuteru .見捨てる"
+                    ],
+                    "ko_annotation_id": 11726,
+                    "annotation_id": 0,
+                    "frameName": "Abandonment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Abandonment",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "저버리지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "운명의 여신은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "text": "나를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4591,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "저버리다.v.Abandonment",
+                    "text": "그렇지만 운명의 여신은 나를 저버리지 않았다."
+                }
+            ]
+        }
+    ]
+}

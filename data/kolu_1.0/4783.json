@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "참견하다.v.Assistance",
+    "ko_pos": "v",
+    "frameID": 391,
+    "frameName": "Assistance",
+    "lu_id": "4783",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3620",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assistance",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "참견하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Co_Agent",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "text": "다른 사람",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Focal_Entity",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 36
+                            },
+                            "text": "참견하는 것도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3620",
+                    "lu": "참견하다.v.Assistance",
+                    "text": "하지만, 그저 뻔뻔하기만 할 뿐 아니라, 다른 사람 참견하는 것도 매우 좋아한다."
+                }
+            ]
+        }
+    ]
+}

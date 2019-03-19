@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "학살하다.v.Killing",
+    "frameID": 590,
+    "frameName": "Killing",
+    "en_lus": [
+        "slaughter"
+    ],
+    "lu_id": 3821,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1773",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "slaughtering"
+                    ],
+                    "ko_annotation_id": 1773,
+                    "annotation_id": 3673,
+                    "frameName": "Killing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Killing",
+                            "span": {
+                                "begin": 66,
+                                "end": 72
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "학살함으로써"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Killer",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "text": "십자군이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 65
+                            },
+                            "text": "무슬림과 유대인을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 693,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학살하다.v.Killing",
+                    "text": "1099년에 그들의 지도자인 Godfrey de Bouillon 과 Tancred 휘하에서 십자군이 무슬림과 유대인을 학살함으로써 전 세계 기독교도들을 위한 Holy City를 점령하였다."
+                }
+            ]
+        }
+    ]
+}

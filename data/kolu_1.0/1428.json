@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "들어오다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "1428",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-831",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "들어오고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "기업들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "들어오고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "831",
+                    "lu": "들어오다.v.Motion",
+                    "text": "기업들이 들어오고 마피아가 서서히 밀려남에 따라 새로운 라스 베이거스가 부상하였다."
+                }
+            ]
+        }
+    ]
+}

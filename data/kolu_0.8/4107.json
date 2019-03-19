@@ -1,0 +1,86 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "사후.n.Relative_time",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "en_lus": [
+        "Following"
+    ],
+    "lu_id": 4107,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1367",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Following"
+                    ],
+                    "ko_annotation_id": 1367,
+                    "annotation_id": 2860,
+                    "frameName": "Relative_time",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "사후,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Occasion",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "알렉산더 사후,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Focal_Occasion",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 31
+                            },
+                            "text": "그의 영토는 그의 장군들에게 분배되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 543,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사후.n.Relative_time",
+                    "text": "알렉산더 사후, 그의 영토는 그의 장군들에게 분배되었다."
+                }
+            ]
+        }
+    ]
+}

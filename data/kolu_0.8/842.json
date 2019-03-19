@@ -1,0 +1,66 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "시내.n.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "where"
+    ],
+    "lu_id": 842,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 997",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "where"
+                    ],
+                    "ko_annotation_id": 997,
+                    "annotation_id": 2118,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 34,
+                                "end": 42
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "시내와 이웃으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 33
+                            },
+                            "text": "그들이 가장 필요한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 401,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시내.n.Locative_relation",
+                    "text": "우리는 Goodwill의 입증된 방법들을 그들이 가장 필요한 시내와 이웃으로 넓혔습니다."
+                }
+            ]
+        }
+    ]
+}

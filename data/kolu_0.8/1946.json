@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "한숨짓다.v.Complaining",
+    "frameID": 1621,
+    "frameName": "Complaining",
+    "en_lus": [
+        "nageku .嘆く"
+    ],
+    "lu_id": 1946,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16293",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nageku .嘆く"
+                    ],
+                    "ko_annotation_id": 16293,
+                    "annotation_id": 0,
+                    "frameName": "Complaining",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Complaining",
+                            "span": {
+                                "begin": 48,
+                                "end": 52
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "한숨짓던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Complainer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "text": "동년배들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Complaint",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 47
+                            },
+                            "text": "정형외과 의사에게 그런 진단을 받았다며,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3913,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "한숨짓다.v.Complaining",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
+                }
+            ]
+        }
+    ]
+}

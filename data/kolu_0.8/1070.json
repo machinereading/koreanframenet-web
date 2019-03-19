@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "선호하다.v.Taking_sides",
+    "frameID": 1306,
+    "frameName": "Taking_sides",
+    "en_lus": [
+        "in"
+    ],
+    "lu_id": 1070,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7766",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "in"
+                    ],
+                    "ko_annotation_id": 7766,
+                    "annotation_id": 14115,
+                    "frameName": "Taking_sides",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Taking_sides",
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "선호하였지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "외무성은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "제도에 가입하기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2791,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선호하다.v.Taking_sides",
+                    "text": "외무성은 분명히 제도에 가입하기를 선호하였지만, 군은 반대하였고, 김일성은 분명하게 후자 편을 들었다."
+                }
+            ]
+        }
+    ]
+}

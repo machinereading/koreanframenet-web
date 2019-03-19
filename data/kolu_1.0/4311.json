@@ -1,0 +1,83 @@
+{
+    "en_lus": [],
+    "ko_lu": "정하다.v.Control",
+    "ko_pos": "v",
+    "frameID": 1799,
+    "frameName": "Control",
+    "lu_id": "4311",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4085",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Control",
+                            "span": {
+                                "begin": 70,
+                                "end": 76
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "정해집니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 41
+                            },
+                            "text": "특허발명이 어디까지 보호 범위에 속하는지는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 69
+                            },
+                            "text": "원서에 첨부한 특허청구 범위에 기재된 내용에 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4085",
+                    "lu": "정하다.v.Control",
+                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다."
+                }
+            ]
+        }
+    ]
+}

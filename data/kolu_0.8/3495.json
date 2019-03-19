@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "균등하다.a.Compliance",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "en_lus": [
+        "singai .侵害"
+    ],
+    "lu_id": 3495,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10824",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "singai .侵害"
+                    ],
+                    "ko_annotation_id": 10824,
+                    "annotation_id": 0,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 82,
+                                "end": 92
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "보여(균등침해.),"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 82,
+                                "end": 92
+                            },
+                            "text": "보여(균등침해.),",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4011,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "균등하다.a.Compliance",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "속하다.v.Membership",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "en_lus": [
+        "belongs"
+    ],
+    "lu_id": 1620,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9283",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "belongs"
+                    ],
+                    "ko_annotation_id": 9283,
+                    "annotation_id": 17269,
+                    "frameName": "Membership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 61,
+                                "end": 63
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "속한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Member",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 60
+                            },
+                            "text": "팔레스타인 자치 정부 대통령 Mahmoud Abbas의 Fatah Party에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 69
+                            },
+                            "text": "이 단체는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3260,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "속하다.v.Membership",
+                    "text": "가자 지구에 배포된 전단에서, 팔레스타인 자치 정부 대통령 Mahmoud Abbas의 Fatah Party에 속한 이 단체는 무기가 3 년 노력의 결과였다고 언급하였다."
+                }
+            ]
+        }
+    ]
+}

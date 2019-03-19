@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "더미.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "collection"
+    ],
+    "lu_id": 949,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15035",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "collections"
+                    ],
+                    "ko_annotation_id": 15035,
+                    "annotation_id": 13465,
+                    "frameName": "Aggregate",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aggregate",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "더미를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Aggregateproperty",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "광범위한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individuals",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "text": "독성 염좌",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2687,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "더미.n.Aggregate",
+                    "text": "SCQZI 및 SCQZI는 광범위한 독성 염좌 더미를 보관하고 있다."
+                }
+            ]
+        }
+    ]
+}

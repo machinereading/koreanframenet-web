@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "소풍.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "picnic"
+    ],
+    "lu_id": 90,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4040",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "picnic"
+                    ],
+                    "ko_annotation_id": 4040,
+                    "annotation_id": 7483,
+                    "frameName": "Social_event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "소풍"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 29
+                            },
+                            "text": "Barefoot in the Grass",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attendee",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "text": "가족",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1545,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소풍.n.Social_event",
+                    "text": "추신 우리들의 Barefoot in the Grass 가족 소풍 ( 2000년 7월 23일 ) 과 연례 SCS 창립 기념 행사 ( 2000년 10월 11일 ) 는 Georgia O ' Keefee 멤버에게 무료입니다."
+                }
+            ]
+        }
+    ]
+}

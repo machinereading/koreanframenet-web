@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "올라가다.v.Path_shape",
+    "frameID": 61,
+    "frameName": "Path_shape",
+    "en_lus": [
+        "rise"
+    ],
+    "lu_id": 5253,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3139",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "rising"
+                    ],
+                    "ko_annotation_id": 3139,
+                    "annotation_id": 6009,
+                    "frameName": "Path_shape",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "올라가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Direction",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "바다 위를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Road",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 28
+                            },
+                            "text": "거대한 롤러 코스터,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1142,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "올라가다.v.Path_shape",
+                    "text": "바다 위를 아주 높이 올라가는 거대한 롤러 코스터, 공중 바퀴, 그리고 하이 다이빙 쇼들은 흥분의 날이 될 것을 보증한다."
+                }
+            ]
+        }
+    ]
+}

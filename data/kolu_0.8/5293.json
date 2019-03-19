@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "유아어.n.Simple_name",
+    "frameID": 1260,
+    "frameName": "Simple_name",
+    "en_lus": [
+        "yoozi go .幼児 語 "
+    ],
+    "lu_id": 5293,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10489",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "yoozi go .幼児 語 "
+                    ],
+                    "ko_annotation_id": 10489,
+                    "annotation_id": 0,
+                    "frameName": "Simple_name",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Simple_name",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "유아어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Term",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "text": "맘마입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3782,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유아어.n.Simple_name",
+                    "text": "어원은, 유아어 맘마입니다."
+                }
+            ]
+        }
+    ]
+}

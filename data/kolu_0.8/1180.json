@@ -1,0 +1,103 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "행복하다.a.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "happily"
+    ],
+    "lu_id": 1180,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2701",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "happily"
+                    ],
+                    "ko_annotation_id": 2701,
+                    "annotation_id": 5277,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "행복하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 25
+                            },
+                            "text": "젊은이와 늙은이, 이방인과 더블린인은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 27
+                            },
+                            "text": "꽤",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 40
+                            },
+                            "text": "어깨를 비비며",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1002,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "행복하다.a.Experiencer_focus",
+                    "text": "그러나, 젊은이와 늙은이, 이방인과 더블린인은 꽤 행복하게 어깨를 비비며 살아가고 있다."
+                }
+            ]
+        }
+    ]
+}

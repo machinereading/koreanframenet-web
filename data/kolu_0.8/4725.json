@@ -1,0 +1,155 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "예배소.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "house",
+        "Temple"
+    ],
+    "lu_id": 4725,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13469",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Temple",
+                        "house"
+                    ],
+                    "ko_annotation_id": 13469,
+                    "annotation_id": 5770,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "예배소"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "text": "Man Mo",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1103,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예배소.n.Buildings",
+                    "text": "섬의 가장 오래된 예배소 ( 설립 날짜는 논란이지만 ) 인, Man Mo 사원에 이를 때까지 Hollywood Road를 따라 서쪽으로 걸어라."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13470",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Temple",
+                        "house"
+                    ],
+                    "ko_annotation_id": 13470,
+                    "annotation_id": 5770,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "예배소"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "섬의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "가장 오래된",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Function",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "예배소",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1103,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예배소.n.Buildings",
+                    "text": "섬의 가장 오래된 예배소 ( 설립 날짜는 논란이지만 ) 인, Man Mo 사원에 이를 때까지 Hollywood Road를 따라 서쪽으로 걸어라."
+                }
+            ]
+        }
+    ]
+}

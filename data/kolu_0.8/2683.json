@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "진일보.n.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "step"
+    ],
+    "lu_id": 2683,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3722",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "step"
+                    ],
+                    "ko_annotation_id": 3722,
+                    "annotation_id": 6935,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "진일보"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 24
+                            },
+                            "text": "화학무기 비축량을 확보하려는 시도에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1447,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진일보.n.Intentionally_act",
+                    "text": "이란은 화학무기 비축량을 확보하려는 시도에서 진일보 하였다."
+                }
+            ]
+        }
+    ]
+}

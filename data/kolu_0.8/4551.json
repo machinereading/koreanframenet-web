@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "관여되다.v.Participation",
+    "frameID": 1144,
+    "frameName": "Participation",
+    "en_lus": [
+        "involve"
+    ],
+    "lu_id": 4551,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3721",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "involved"
+                    ],
+                    "ko_annotation_id": 3721,
+                    "annotation_id": 6933,
+                    "frameName": "Participation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Participation",
+                            "span": {
+                                "begin": 41,
+                                "end": 47
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "관여되었다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 17
+                            },
+                            "text": "러시아 독립국가들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 40
+                            },
+                            "text": "대량살상무기 기술을 이란에 이전하는 것과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1446,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관여되다.v.Participation",
+                    "text": "미국 정부는 러시아 독립국가들이 대량살상무기 기술을 이란에 이전하는 것과 관여되었다는 첩보를 폭로하였다."
+                }
+            ]
+        }
+    ]
+}

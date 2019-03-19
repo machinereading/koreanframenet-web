@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "응용.n.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "application"
+    ],
+    "lu_id": 4384,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8219",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "applications"
+                    ],
+                    "ko_annotation_id": 8219,
+                    "annotation_id": 15008,
+                    "frameName": "Using",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Using",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "응용을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "민간 및 군",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 35
+                            },
+                            "text": "핵 프로그램을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2925,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "응용.n.Using",
+                    "text": "1970년대 말, 북한은 민간 및 군 응용을 위한 핵 프로그램을 지원하기 위해 교육 및 연구 기관들을 계속 확장하였다."
+                }
+            ]
+        }
+    ]
+}

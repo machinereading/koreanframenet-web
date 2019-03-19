@@ -1,0 +1,199 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "부르다.v.Labeling",
+    "frameID": 1250,
+    "frameName": "Labeling",
+    "en_lus": [
+        "call"
+    ],
+    "lu_id": 194,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4566",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "called"
+                    ],
+                    "ko_annotation_id": 4566,
+                    "annotation_id": 8301,
+                    "frameName": "Labeling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Labeling",
+                            "span": {
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "부르는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 64
+                            },
+                            "text": "두바이 왕세자 Sheikh Mohamed Bin Rashid Al Maktoumim은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 73
+                            },
+                            "text": "Dubai",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Label",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 74,
+                                "end": 88
+                            },
+                            "text": "Internet City라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1706,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부르다.v.Labeling",
+                    "text": "두바이 10-28 (FP) - 두바이 왕세자 Sheikh Mohamed Bin Rashid Al Maktoumim은 오늘 Dubai Internet City라 부르는 전자상거래를 위한 자유지역을 출범시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4765",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "call",
+                        "called"
+                    ],
+                    "ko_annotation_id": 4765,
+                    "annotation_id": 8666,
+                    "frameName": "Labeling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Labeling",
+                            "span": {
+                                "begin": 47,
+                                "end": 51
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "부르고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "정착자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 38
+                            },
+                            "text": "막 결론이 난 이스라엘-미국-팔레스타인 정상회담을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Label",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "text": "항복이라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1792,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부르다.v.Labeling",
+                    "text": "기자 : 정착자들은 막 결론이 난 이스라엘-미국-팔레스타인 정상회담을 단지 항복이라 부르고, 감명을 받지 않았다."
+                }
+            ]
+        }
+    ]
+}

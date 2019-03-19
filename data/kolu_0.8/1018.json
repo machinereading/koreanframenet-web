@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "소리내다.v.Sounds",
+    "frameID": 850,
+    "frameName": "Sounds",
+    "en_lus": [
+        "sound"
+    ],
+    "lu_id": 1018,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 135",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sound"
+                    ],
+                    "ko_annotation_id": 135,
+                    "annotation_id": 243,
+                    "frameName": "Sounds",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sounds",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "소리를 내는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 25
+                            },
+                            "text": "밧줄의 꿈틀거림은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 36,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소리내다.v.Sounds",
+                    "text": "아무도 말하지 않고, 그리고 밧줄의 꿈틀거림은 종 자체만큼 큰 소리를 내는 것 같고, 천정에 의해 약해진다."
+                }
+            ]
+        }
+    ]
+}

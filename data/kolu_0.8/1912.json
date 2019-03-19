@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "인품.n.Impression",
+    "frameID": 2262,
+    "frameName": "Impression",
+    "en_lus": [
+        "zinbutu .人物"
+    ],
+    "lu_id": 1912,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11825",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zinbutu .人物"
+                    ],
+                    "ko_annotation_id": 11825,
+                    "annotation_id": 0,
+                    "frameName": "Impression",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Impression",
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "인품이나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "그녀의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impression",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "text": "인품이나",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4656,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인품.n.Impression",
+                    "text": "그녀의 허물의 이유를 말할 수도 없고, 그녀의 인품이나 두 사람의 관계를 수상히 여겨, 주저하게 된다면 곤란한 일이다."
+                }
+            ]
+        }
+    ]
+}

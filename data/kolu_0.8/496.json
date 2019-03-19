@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "증명되다.v.Reasoning",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "en_lus": [
+        "prove"
+    ],
+    "lu_id": 496,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6888",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "proved"
+                    ],
+                    "ko_annotation_id": 6888,
+                    "annotation_id": 12555,
+                    "frameName": "Reasoning",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reasoning",
+                            "span": {
+                                "begin": 52,
+                                "end": 58
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "증명되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Arguer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 51
+                            },
+                            "text": "초기의 미사일 생산 프로그램 개발을 포기하지 않을 것임이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2512,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "증명되다.v.Reasoning",
+                    "text": "2004년 초부터 현재까지, 이란은 초기의 미사일 생산 프로그램 개발을 포기하지 않을 것임이 증명되었다."
+                }
+            ]
+        }
+    ]
+}

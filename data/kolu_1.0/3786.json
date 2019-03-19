@@ -1,0 +1,93 @@
+{
+    "en_lus": [],
+    "ko_lu": "이끌다.v.Cause_motion",
+    "ko_pos": "v",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "lu_id": "3786",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1720",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "이끌었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "민주당은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "상원을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "보기 드문 비밀회의로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1720",
+                    "lu": "이끌다.v.Cause_motion",
+                    "text": "민주당은 상원을 보기 드문 비밀회의로 이끌었다."
+                }
+            ]
+        }
+    ]
+}

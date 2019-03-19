@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "소지품.n.Possession",
+    "ko_pos": "n",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "2769",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1622",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "소지품"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "1622",
+                    "lu": "소지품.n.Possession",
+                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1622",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "소지품"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "개인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1622",
+                    "lu": "소지품.n.Possession",
+                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비."
+                }
+            ]
+        }
+    ]
+}

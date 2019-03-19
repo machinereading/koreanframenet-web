@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "이르다.a.Continued_state_of_affairs",
+    "ko_pos": "a",
+    "frameID": 1594,
+    "frameName": "Continued_state_of_affairs",
+    "lu_id": "3813",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4009",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Continued_state_of_affairs",
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "이른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 30
+                            },
+                            "text": "가게가 있었던 모퉁이에는 빌딩이 새로 지어져,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Reference_Occasion",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "현재에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4009",
+                    "lu": "이르다.a.Continued_state_of_affairs",
+                    "text": "그 후, 가게가 있었던 모퉁이에는 빌딩이 새로 지어져, 현재에 이른다."
+                }
+            ]
+        }
+    ]
+}

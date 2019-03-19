@@ -1,0 +1,89 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "못하다.a.Success_or_failure",
+    "frameID": 1388,
+    "frameName": "Success_or_failure",
+    "en_lus": [
+        "fail"
+    ],
+    "lu_id": 351,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4602",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "failing"
+                    ],
+                    "ko_annotation_id": 4602,
+                    "annotation_id": 8412,
+                    "frameName": "Success_or_failure",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Success_or_failure",
+                            "span": {
+                                "begin": 74,
+                                "end": 78
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "못했다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 73
+                            },
+                            "text": "백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "text": "공화당원들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1725,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "못하다.a.Success_or_failure",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
+                }
+            ]
+        }
+    ]
+}

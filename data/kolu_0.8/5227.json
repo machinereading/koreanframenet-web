@@ -1,0 +1,101 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "교신하다.v.Communication",
+    "frameID": 6,
+    "frameName": "Communication",
+    "en_lus": [
+        "communicate",
+        "koosin .交信 "
+    ],
+    "lu_id": 5227,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4277",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "communicate",
+                        "koosin .交信 "
+                    ],
+                    "ko_annotation_id": 4277,
+                    "annotation_id": 7821,
+                    "frameName": "Communication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "교신하고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "타워는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "서로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "쉽게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1604,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교신하다.v.Communication",
+                    "text": "2- 타워는 서로 쉽게 교신하고, 감시하고 있는 지역을 완전히 포함할 수 있는 방식으로 위치해 있어야 한다."
+                }
+            ]
+        }
+    ]
+}

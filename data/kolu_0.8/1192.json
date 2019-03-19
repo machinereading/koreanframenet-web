@@ -1,0 +1,104 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "행동하다.v.Performers_and_roles",
+    "frameID": 413,
+    "frameName": "Performers_and_roles",
+    "en_lus": [
+        "act"
+    ],
+    "lu_id": 1192,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15662",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "acted"
+                    ],
+                    "ko_annotation_id": 15662,
+                    "annotation_id": 16490,
+                    "frameName": "Performers_and_roles",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Performers_and_roles",
+                            "span": {
+                                "begin": 45,
+                                "end": 51
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "행동하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Performer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 35
+                            },
+                            "text": "HGTC의 등록 간호사이고 강사인 Jennifer McLeod는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Performance",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "text": "훈련에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Role",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "text": "환자로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3158,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "행동하다.v.Performers_and_roles",
+                    "text": "HGTC의 등록 간호사이고 강사인 Jennifer McLeod는 훈련에서 환자로 행동하였다."
+                }
+            ]
+        }
+    ]
+}

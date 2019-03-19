@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "모욕당하다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "anadoru .侮る "
+    ],
+    "lu_id": 5405,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10700",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "anadoru .侮る "
+                    ],
+                    "ko_annotation_id": 10700,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "모욕은 당하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "관동지방 놈들한테",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Quotation",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "겁쟁이라는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3955,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "모욕당하다.v.Experiencer_focus",
+                    "text": "관동지방 놈들한테 겁쟁이라는 모욕은 당하지 말아라."
+                }
+            ]
+        }
+    ]
+}

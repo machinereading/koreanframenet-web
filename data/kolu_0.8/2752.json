@@ -1,0 +1,118 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "분석가.n.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "analyst",
+        "analysis"
+    ],
+    "lu_id": 2752,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2791",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "analysis",
+                        "analyst"
+                    ],
+                    "ko_annotation_id": 2791,
+                    "annotation_id": 5395,
+                    "frameName": "Scrutiny",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "분석가가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "text": "ABC News",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1031,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분석가.n.Scrutiny",
+                    "text": "지금 그 위선자와 조력자는 학자 그리고 ABC News 분석가가 되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8293",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "analysis",
+                        "analyst"
+                    ],
+                    "ko_annotation_id": 8293,
+                    "annotation_id": 15149,
+                    "frameName": "Scrutiny",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "분석가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "IAEA",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2947,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분석가.n.Scrutiny",
+                    "text": "그러나, IAEA 분석가는 북한의 기술자들이 1989년, 1990년, 그리고 1991년의 세 번에 걸쳐 플루토늄을 재처리하였다고 지적하였다."
+                }
+            ]
+        }
+    ]
+}

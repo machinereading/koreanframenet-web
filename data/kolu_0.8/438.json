@@ -1,0 +1,150 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "사장.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "syatyoo .社長 "
+    ],
+    "lu_id": 438,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16464",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syatyoo .社長 "
+                    ],
+                    "ko_annotation_id": 16464,
+                    "annotation_id": 0,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "사장"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "text": "누가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "사장",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4344,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사장.n.Leadership",
+                    "text": "문제는 누가 사장을 하고, 누가 사장 대리를 하느냐 하는 점이었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16465",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syatyoo .社長 "
+                    ],
+                    "ko_annotation_id": 16465,
+                    "annotation_id": 0,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사장을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "누가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "사장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4344,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사장.n.Leadership",
+                    "text": "문제는 누가 사장을 하고, 누가 사장 대리를 하느냐 하는 점이었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "체류.n.Temporary_stay",
+    "frameID": 1885,
+    "frameName": "Temporary_stay",
+    "en_lus": [
+        "stay"
+    ],
+    "lu_id": 141,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3948",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "stay"
+                    ],
+                    "ko_annotation_id": 3948,
+                    "annotation_id": 7337,
+                    "frameName": "Temporary_stay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporary_stay",
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "체류"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "4일간의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Guest",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "Hall은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1526,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "체류.n.Temporary_stay",
+                    "text": "4일간의 체류 동안, Hall은 바그다와 남부 Muthana 지방의 병원과 보건기관을 방문하였다."
+                }
+            ]
+        }
+    ]
+}

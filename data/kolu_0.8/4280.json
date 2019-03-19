@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "밀려오다.v.Coming_to_be",
+    "frameID": 316,
+    "frameName": "Coming_to_be",
+    "en_lus": [
+        "hasiru .走る"
+    ],
+    "lu_id": 4280,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11456",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hasiru .走る"
+                    ],
+                    "ko_annotation_id": 11456,
+                    "annotation_id": 0,
+                    "frameName": "Coming_to_be",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Coming_to_be",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "밀려온다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "가벼운 통증이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4402,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "밀려오다.v.Coming_to_be",
+                    "text": "움직이면 가벼운 통증이 밀려온다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "폭풍.n.Weather",
+    "frameID": 303,
+    "frameName": "Weather",
+    "en_lus": [
+        "storm"
+    ],
+    "lu_id": 2360,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1023",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "storm",
+                        "storms"
+                    ],
+                    "ko_annotation_id": 1023,
+                    "annotation_id": 2187,
+                    "frameName": "Weather",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Weather",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "폭풍처럼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "바다의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 416,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "폭풍.n.Weather",
+                    "text": "복지 개혁에 대한 논란이 바다의 폭풍처럼 더해지고 있는 동안, 일자리를 필요로 하는 사람들은 온갖 고생을 하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2334",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "storm",
+                        "storms"
+                    ],
+                    "ko_annotation_id": 2334,
+                    "annotation_id": 4612,
+                    "frameName": "Weather",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Weather",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "폭풍에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "열대",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 886,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "폭풍.n.Weather",
+                    "text": "열대 폭풍에서 오는 담수는 120 개의 강과 지구상에서 가장 유명한 폭포와 작은 폭포일부에 물을 공급한다."
+                }
+            ]
+        }
+    ]
+}

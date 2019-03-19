@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "말아먹다.v.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "should"
+    ],
+    "lu_id": 4785,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2596",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "ko_annotation_id": 2596,
+                    "annotation_id": 5108,
+                    "frameName": "Being_obligated",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_obligated",
+                            "span": {
+                                "begin": 53,
+                                "end": 60
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "말아야 한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "text": "어떤 방문객도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duty",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 52
+                            },
+                            "text": "Abbey 극장이나 Gate 극장에서의 공연을 놓치지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 979,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말아먹다.v.Being_obligated",
+                    "text": "더블린 극장은 전설적이며, 어떤 방문객도 Abbey 극장이나 Gate 극장에서의 공연을 놓치지 말아야 한다."
+                }
+            ]
+        }
+    ]
+}

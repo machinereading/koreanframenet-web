@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "거주민.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "population"
+    ],
+    "lu_id": 4317,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2009",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "population"
+                    ],
+                    "ko_annotation_id": 2009,
+                    "annotation_id": 4077,
+                    "frameName": "Aggregate",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aggregate",
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "거주민으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 17
+                            },
+                            "text": "라스 베이거스의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 779,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거주민.n.Aggregate",
+                    "text": "경매 후 일년, 라스 베이거스의 인구는 1500명의 거주민으로 급속히 늘어났는데, 이는 향후 90년 동안 일어날 일들의 전조였다."
+                }
+            ]
+        }
+    ]
+}

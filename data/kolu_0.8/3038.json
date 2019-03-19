@@ -1,0 +1,67 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "남성.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "man"
+    ],
+    "lu_id": 3038,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5312",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "man"
+                    ],
+                    "ko_annotation_id": 5312,
+                    "annotation_id": 9589,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "남성으로부터"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 31
+                            },
+                            "text": "그의 동생 Guillermo가 1986년에 살해된",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1983,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "남성.n.People",
+                    "text": "이것은 그의 동생 Guillermo가 1986년에 살해된 한 남성으로부터 나왔다."
+                }
+            ]
+        }
+    ]
+}

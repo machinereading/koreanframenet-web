@@ -1,0 +1,67 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "가치있다.a.Usefulness",
+    "frameID": 726,
+    "frameName": "Usefulness",
+    "en_lus": [
+        "valuable"
+    ],
+    "lu_id": 2106,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13001",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "valuable"
+                    ],
+                    "ko_annotation_id": 13001,
+                    "annotation_id": 2997,
+                    "frameName": "Usefulness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Usefulness",
+                            "span": {
+                                "begin": 24,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "가치가 있다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "text": "농업과 무역을 하기 위해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 566,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가치있다.a.Usefulness",
+                    "text": "제노바인들은 농업과 무역을 하기 위해 가장 가치가 있다고 여겨졌던 동 에게 해 제도를 장악하였다."
+                }
+            ]
+        }
+    ]
+}

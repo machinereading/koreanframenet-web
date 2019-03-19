@@ -1,0 +1,119 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "구역.n.Locale",
+    "frameID": 192,
+    "frameName": "Locale",
+    "en_lus": [
+        "zone",
+        "area"
+    ],
+    "lu_id": 3872,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3222",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "area",
+                        "zone"
+                    ],
+                    "ko_annotation_id": 3222,
+                    "annotation_id": 6159,
+                    "frameName": "Locale",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locale",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "구역으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "로마 공항",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1181,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구역.n.Locale",
+                    "text": "QN : John은 로마 공항 세관 구역으로 통과하였나 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4164",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "area",
+                        "zone"
+                    ],
+                    "ko_annotation_id": 4164,
+                    "annotation_id": 7672,
+                    "frameName": "Locale",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locale",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "구역이면,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 13
+                            },
+                            "text": "고도로 위험",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1576,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구역.n.Locale",
+                    "text": "6- 위치가 고도로 위험 구역이면, 그때는 두 개의 평행한 울타리가 3 미터 떨어져 세워져야 한다."
+                }
+            ]
+        }
+    ]
+}

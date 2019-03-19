@@ -1,0 +1,83 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "비스듬하다.a.Direction",
+    "frameID": 215,
+    "frameName": "Direction",
+    "en_lus": [
+        "naname .斜め "
+    ],
+    "lu_id": 613,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11926",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "naname .斜め "
+                    ],
+                    "ko_annotation_id": 11926,
+                    "annotation_id": 0,
+                    "frameName": "Direction",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Direction",
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "비스듬히 흐르는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Base_Position",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "도지마를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "강 건너편에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4724,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비스듬하다.a.Direction",
+                    "text": "도지마를 비스듬히 흐르는 강 건너편에 오사카병원이 있는 큰 빌딩은 1층이 아케이드로 되어있는데, 미무라는 그곳에 있는 약국에서 키다 씨를 위한 히루도이드 크림을 손에 넣을 수 있었다."
+                }
+            ]
+        }
+    ]
+}

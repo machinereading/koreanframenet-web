@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "찾다.v.Perception_active",
+    "ko_pos": "v",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "lu_id": "4811",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-5020",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "찾아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "백자나 민예품을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 22
+                            },
+                            "text": "미술전집이나 박물관에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "5020",
+                    "lu": "찾다.v.Perception_active",
+                    "text": "백자나 민예품을, 미술전집이나 박물관에서 찾아 봅시다."
+                }
+            ]
+        }
+    ]
+}

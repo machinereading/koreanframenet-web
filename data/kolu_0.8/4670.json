@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "맛있다.a.Chemical-sense_description",
+    "frameID": 271,
+    "frameName": "Chemical-sense_description",
+    "en_lus": [
+        "oisii .おいしい "
+    ],
+    "lu_id": 4670,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10945",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "oisii .おいしい "
+                    ],
+                    "ko_annotation_id": 10945,
+                    "annotation_id": 0,
+                    "frameName": "Chemical-sense_description",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chemical-sense_description",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "맛있어서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "너무",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4080,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맛있다.a.Chemical-sense_description",
+                    "text": "너무 맛있어서 밥이 부족해, 얻으러 갔다는 것입니다."
+                }
+            ]
+        }
+    ]
+}

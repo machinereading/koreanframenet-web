@@ -1,0 +1,169 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "물다.v.Questioning",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "en_lus": [
+        "tazuneru .尋ねる",
+        "kiku .聞く"
+    ],
+    "lu_id": 3395,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11586",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kiku .聞く"
+                    ],
+                    "ko_annotation_id": 11586,
+                    "annotation_id": 0,
+                    "frameName": "Questioning",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "물어봐도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "고모노 씨에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4492,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "물다.v.Questioning",
+                    "text": "고모노 씨에게 물어봐도 좋다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17361",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tazuneru .尋ねる",
+                        "kiku .聞く"
+                    ],
+                    "ko_annotation_id": 17361,
+                    "annotation_id": 0,
+                    "frameName": "Questioning",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "물어보아도"
+                        }
+                    ],
+                    "sent_id": 4143,
+                    "relations": [],
+                    "lu": "물다.v.Questioning",
+                    "text": "회사 내에서 물어보아도 아무도 모른다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17388",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tazuneru .尋ねる",
+                        "kiku .聞く"
+                    ],
+                    "ko_annotation_id": 17388,
+                    "annotation_id": 0,
+                    "frameName": "Questioning",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "물었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "게이조가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "작은 목소리로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4364,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "물다.v.Questioning",
+                    "text": "게이조가 작은 목소리로 물었다."
+                }
+            ]
+        }
+    ]
+}

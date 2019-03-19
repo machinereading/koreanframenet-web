@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "연설.n.Communication",
+    "ko_pos": "n",
+    "frameID": 6,
+    "frameName": "Communication",
+    "lu_id": "3359",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3255",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "연설"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 38
+                            },
+                            "text": "국무장관 콜린 파월의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 41
+                            },
+                            "text": "유엔",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3255",
+                    "lu": "연설.n.Communication",
+                    "text": "중앙정보부 관리 Tyler Drumheller는 국무장관 콜린 파월의 유엔 연설 비밀 초안에서 실험실에 대한 언급을 개인적으로 지웠다고 말했는데 이유는 출처가 정신적으로 불안정하고 거짓말쟁이로 의심되는 암호명이 Curveball인 한 망명자로 인식했기 때문이었다."
+                }
+            ]
+        }
+    ]
+}

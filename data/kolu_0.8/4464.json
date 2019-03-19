@@ -1,0 +1,89 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "지연되다.v.Hindering",
+    "frameID": 480,
+    "frameName": "Hindering",
+    "en_lus": [
+        "delay"
+    ],
+    "lu_id": 4464,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6928",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "delay"
+                    ],
+                    "ko_annotation_id": 6928,
+                    "annotation_id": 12619,
+                    "frameName": "Hindering",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hindering",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "지연될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hindrance",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 32
+                            },
+                            "text": "많은 국제적인 혹은 국내적인 요인들 중 어느 하나로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "text": "이 개발들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2524,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지연되다.v.Hindering",
+                    "text": "그러나 많은 국제적인 혹은 국내적인 요인들 중 어느 하나로 이 개발들은 가소되거나 지연될 수 있을 것이다."
+                }
+            ]
+        }
+    ]
+}

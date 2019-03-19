@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이름.n.Name_conferral",
+    "frameID": 221,
+    "frameName": "Name_conferral",
+    "en_lus": [
+        "nadukeru .名づける "
+    ],
+    "lu_id": 3852,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10837",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nadukeru .名づける "
+                    ],
+                    "ko_annotation_id": 10837,
+                    "annotation_id": 0,
+                    "frameName": "Name_conferral",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Name_conferral",
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이름을 지어준"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "사람은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4013,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이름.n.Name_conferral",
+                    "text": "서명은 『보석함』 이름을 지어준 사람은 남편이다."
+                }
+            ]
+        }
+    ]
+}

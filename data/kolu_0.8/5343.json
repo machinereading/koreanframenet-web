@@ -1,0 +1,158 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "오르다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "climb",
+        "susumu .進む"
+    ],
+    "lu_id": 5343,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3052",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "climb",
+                        "susumu .進む"
+                    ],
+                    "ko_annotation_id": 3052,
+                    "annotation_id": 5855,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 71,
+                                "end": 75
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "오른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "일부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Area",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 68
+                            },
+                            "text": "9 미터 ( 30 피트 )",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1119,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오르다.v.Self_motion",
+                    "text": "8월 마다 젊은 여성들이 선향을 피우기 위해 모이고 일부는 심지어 좋은 남편을 위한 기도를 위해 9 미터 ( 30 피트 ) 를 오른다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11620",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "climb",
+                        "susumu .進む"
+                    ],
+                    "ko_annotation_id": 11620,
+                    "annotation_id": 0,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "올랐다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "나중에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "대사마대장군에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4514,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오르다.v.Self_motion",
+                    "text": "무제에서 봉차도위로 임명되고, 나중에 대사마대장군에 올랐다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "킬로그램.n.Measure_mass",
+    "frameID": 147,
+    "frameName": "Measure_mass",
+    "en_lus": [
+        "kilogram"
+    ],
+    "lu_id": 4393,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7398",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kilograms"
+                    ],
+                    "ko_annotation_id": 7398,
+                    "annotation_id": 13427,
+                    "frameName": "Measure_mass",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Measure_mass",
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "킬로그램의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "text": "600",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stuff",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 24
+                            },
+                            "text": "무기급 고농축 우라늄은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2679,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "킬로그램.n.Measure_mass",
+                    "text": "약 600 킬로그램의 무기급 고농축 우라늄은 프로젝트 Sapphire로 알려진 미국 - 카자흐스탄의 합동 작전 하에 1994년에 Ulba 야금 공장에서 미국으로 옮겨졌다."
+                }
+            ]
+        }
+    ]
+}

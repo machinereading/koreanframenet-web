@@ -1,0 +1,69 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "관계.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "kankee .関係 ",
+        "tukiai .付き合い "
+    ],
+    "lu_id": 1578,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17416",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tukiai .付き合い ",
+                        "kankee .関係 "
+                    ],
+                    "ko_annotation_id": 17416,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "관계는,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relationship",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 23
+                            },
+                            "text": "출산 전부터 동거 생활을 시작했던",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4800,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관계.n.Personal_relationship",
+                    "text": "하지만, 출산 전부터 동거 생활을 시작했던 다카코와 마사오의 관계는, 이때 이미 톱니바퀴가 엇나가고 있었다."
+                }
+            ]
+        }
+    ]
+}

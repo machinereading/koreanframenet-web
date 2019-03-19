@@ -1,0 +1,125 @@
+{
+    "en_lus": [],
+    "ko_lu": "사랑받다.v.Experiencer_focus",
+    "ko_pos": "v",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "lu_id": "2406",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3873",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "사랑받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Explanation",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "인격도 장남이기 때문인지 온화해서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 33
+                            },
+                            "text": "연배가 있는 사람들로부터도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3873",
+                    "lu": "사랑받다.v.Experiencer_focus",
+                    "text": "인격도 장남이기 때문인지 온화해서 연배가 있는 사람들로부터도 사랑받았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4655",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 38,
+                                "end": 42
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "사랑받고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Quotation",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 37
+                            },
+                            "text": "「한차례 지나가는 비」로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4655",
+                    "lu": "사랑받다.v.Experiencer_focus",
+                    "text": "현재는 쫒기는 몸이지만, 정의심이 강하고, 「한차례 지나가는 비」로 사랑받고 있다."
+                }
+            ]
+        }
+    ]
+}

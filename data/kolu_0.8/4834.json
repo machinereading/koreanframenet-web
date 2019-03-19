@@ -1,0 +1,66 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "교구민들.n.People_by_jurisdiction",
+    "frameID": 1023,
+    "frameName": "People_by_jurisdiction",
+    "en_lus": [
+        "parishioner"
+    ],
+    "lu_id": 4834,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 76",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "parishioners"
+                    ],
+                    "ko_annotation_id": 76,
+                    "annotation_id": 96,
+                    "frameName": "People_by_jurisdiction",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_jurisdiction",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "교구민들은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Jurisdiction",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "text": "St. Michael과 All Angels의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 14,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교구민들.n.People_by_jurisdiction",
+                    "text": "St. Michael과 All Angels의 교구민들은 이곳의 멤버들이 항상 하는 것처럼, 교회 문에서 담소를 나누기 위해 멈춘다."
+                }
+            ]
+        }
+    ]
+}

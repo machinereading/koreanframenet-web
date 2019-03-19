@@ -1,0 +1,133 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "무장되다.v.Bearing_arms",
+    "frameID": 470,
+    "frameName": "Bearing_arms",
+    "en_lus": [
+        "arm"
+    ],
+    "lu_id": 3946,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1803",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "armed"
+                    ],
+                    "ko_annotation_id": 1803,
+                    "annotation_id": 3743,
+                    "frameName": "Bearing_arms",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bearing_arms",
+                            "span": {
+                                "begin": 72,
+                                "end": 77
+                            },
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "무장된 군"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 78,
+                                "end": 84
+                            },
+                            "text": "야영지였다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 714,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무장되다.v.Bearing_arms",
+                    "text": "그러나 새로운 유대인들의 이민과 팔레스타인 안의 건설에 대한 아랍의 반대가 점증하는 불화로 이어졌다 ; 1946년에는 예루살렘은 무장된 군 야영지였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6589",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "armed"
+                    ],
+                    "ko_annotation_id": 6589,
+                    "annotation_id": 12034,
+                    "frameName": "Bearing_arms",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bearing_arms",
+                            "span": {
+                                "begin": 55,
+                                "end": 61
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "무장되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "text": "혁명경비대는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Weapon",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "text": "미사일로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2384,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무장되다.v.Bearing_arms",
+                    "text": "가장 최근의 이 시험비행에 이어, Shehab-3는 사용 상태이고 혁명경비대는 공식적으로 미사일로 무장되었다."
+                }
+            ]
+        }
+    ]
+}

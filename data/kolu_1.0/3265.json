@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "없다.a.Possession",
+    "ko_pos": "a",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "3265",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2767",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 70,
+                                "end": 73
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "없다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 51
+                            },
+                            "text": "한국의 민간 주민은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 73
+                            },
+                            "text": "화학무기 공격에 대비한 보호책이 없다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2767",
+                    "lu": "없다.a.Possession",
+                    "text": "서울은 북한의 포와 로케트 시스템의 쉬운 폭격 거리 내에 있고, 오늘날, 한국의 민간 주민은 화학무기 공격에 대비한 보호책이 없다."
+                }
+            ]
+        }
+    ]
+}

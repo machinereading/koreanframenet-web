@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "총살되다.v.Hit_target",
+    "frameID": 485,
+    "frameName": "Hit_target",
+    "en_lus": [
+        "shot"
+    ],
+    "lu_id": 989,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5290",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shot"
+                    ],
+                    "ko_annotation_id": 5290,
+                    "annotation_id": 9560,
+                    "frameName": "Hit_target",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hit_target",
+                            "span": {
+                                "begin": 42,
+                                "end": 48
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "총살되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 41
+                            },
+                            "text": "그의 집 근처에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1977,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "총살되다.v.Hit_target",
+                    "text": "한 시간 후, 신문 유통 매니저인 Migel Soler가 그의 집 근처에서 총살되었다."
+                }
+            ]
+        }
+    ]
+}

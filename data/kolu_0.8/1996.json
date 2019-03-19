@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "오래다.a.Degree",
+    "frameID": 2001,
+    "frameName": "Degree",
+    "en_lus": [
+        "zutto .ずっと "
+    ],
+    "lu_id": 1996,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10380",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zutto .ずっと "
+                    ],
+                    "ko_annotation_id": 10380,
+                    "annotation_id": 0,
+                    "frameName": "Degree",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Degree",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "오래"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Gradable_Attribute",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "전부터,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3705,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오래다.a.Degree",
+                    "text": "그런데, 이 신사의 숲에는 말이지, 오래 전부터, 여우 모자가 살고 있었대."
+                }
+            ]
+        }
+    ]
+}

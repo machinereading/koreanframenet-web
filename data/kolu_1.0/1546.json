@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "마지막.n.Process_end",
+    "ko_pos": "n",
+    "frameID": 232,
+    "frameName": "Process_end",
+    "lu_id": "1546",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-486",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_end",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "마지막"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "text": "편지이다,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "486",
+                    "lu": "마지막.n.Process_end",
+                    "text": "이제 나는 너무 철학적으로 생각하고 있지만, 이것이 나의 마지막 편지이다, 그러니 그러면 어떤가 ?"
+                }
+            ]
+        }
+    ]
+}

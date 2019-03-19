@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "도망가다.v.Escaping",
+    "frameID": 273,
+    "frameName": "Escaping",
+    "en_lus": [
+        "escape"
+    ],
+    "lu_id": 4759,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1732",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "escape"
+                    ],
+                    "ko_annotation_id": 1732,
+                    "annotation_id": 3582,
+                    "frameName": "Escaping",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Escaping",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "도망가지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Escapee",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "사람들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 671,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도망가다.v.Escaping",
+                    "text": "도망가지 못한 사람들은 처형되거나 노예로 팔렸다."
+                }
+            ]
+        }
+    ]
+}

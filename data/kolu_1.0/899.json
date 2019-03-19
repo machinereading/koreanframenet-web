@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "나머지.n.Left_to_do",
+    "ko_pos": "n",
+    "frameID": 1041,
+    "frameName": "Left_to_do",
+    "lu_id": "899",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3566",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Left_to_do",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "나머지는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Remainder",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 22
+                            },
+                            "text": "돈 문제를 해결하면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "쉽다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3566",
+                    "lu": "나머지.n.Left_to_do",
+                    "text": "분명 귀찮기는 하나, 돈 문제를 해결하면 나머지는 쉽다."
+                }
+            ]
+        }
+    ]
+}

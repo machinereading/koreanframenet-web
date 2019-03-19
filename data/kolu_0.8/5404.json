@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "비행체.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "vehicle"
+    ],
+    "lu_id": 5404,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6594",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "vehicle"
+                    ],
+                    "ko_annotation_id": 6594,
+                    "annotation_id": 12045,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 76,
+                                "end": 79
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "비행체"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 75
+                            },
+                            "text": "위성발사",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2386,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행체.n.Vehicle",
+                    "text": "미국 정보부는 북한으로부터 완전한 시스템이나 주요 하부 시스템의 획득이 없다면, 이란은 향후 5년 내에 대륙간 탄도 미사일이나 위성발사 비행체 ( SLV ) 를 발사할 것 같지 않다고 보고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "재미있다.a.Mental_stimulus_stimulus_focus",
+    "frameID": 2046,
+    "frameName": "Mental_stimulus_stimulus_focus",
+    "en_lus": [
+        "omosiroi .おもしろい "
+    ],
+    "lu_id": 3055,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12380",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "omosiroi .おもしろい "
+                    ],
+                    "ko_annotation_id": 12380,
+                    "annotation_id": 0,
+                    "frameName": "Mental_stimulus_stimulus_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Mental_stimulus_stimulus_focus",
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재미있었어요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 부분이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "저한테는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5002,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재미있다.a.Mental_stimulus_stimulus_focus",
+                    "text": "그 부분이 저한테는 재미있었어요."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Measure_duration",
+    "frameID": 224,
+    "frameName": "Measure_duration",
+    "en_lus": [
+        "hour"
+    ],
+    "lu_id": 4158,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2727",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hours"
+                    ],
+                    "ko_annotation_id": 2727,
+                    "annotation_id": 5302,
+                    "frameName": "Measure_duration",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Measure_duration",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "얼마되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "text": "얼마되지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1008,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Measure_duration",
+                    "text": "Lewinsky 이야기가 나온지 얼마되지 않았던 지난 주에, Stephanopoulos는 갑자기 Good Morning America에 나타나 우려를 나타냈다."
+                }
+            ]
+        }
+    ]
+}

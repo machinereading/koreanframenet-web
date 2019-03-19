@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "방해받다.v.Thwarting",
+    "frameID": 518,
+    "frameName": "Thwarting",
+    "en_lus": [
+        "stymie"
+    ],
+    "lu_id": 3204,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4631",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "stymied"
+                    ],
+                    "ko_annotation_id": 4631,
+                    "annotation_id": 8444,
+                    "frameName": "Thwarting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Thwarting",
+                            "span": {
+                                "begin": 36,
+                                "end": 43
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "방해 받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "이 조사는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1732,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "방해받다.v.Thwarting",
+                    "text": "Harry_Reed : 이 조사는 매 단계마다 위로부터 중단되고 방해 받았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "결심하다.v.Choosing",
+    "ko_pos": "v",
+    "frameID": 352,
+    "frameName": "Choosing",
+    "lu_id": "320",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-132",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Choosing",
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "결심하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Chosen",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "폭풍을 이겨내기로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "132",
+                    "lu": "결심하다.v.Choosing",
+                    "text": "나는 폭풍을 이겨내기로 결심하였다."
+                }
+            ]
+        }
+    ]
+}

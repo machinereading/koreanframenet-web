@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "공연.n.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "see"
+    ],
+    "lu_id": 5485,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2598",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "seeing"
+                    ],
+                    "ko_annotation_id": 2598,
+                    "annotation_id": 5109,
+                    "frameName": "Perception_experience",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_experience",
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "공연을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "text": "어떤 방문객도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 44
+                            },
+                            "text": "Abbey 극장이나 Gate 극장에서의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 979,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "공연.n.Perception_experience",
+                    "text": "더블린 극장은 전설적이며, 어떤 방문객도 Abbey 극장이나 Gate 극장에서의 공연을 놓치지 말아야 한다."
+                }
+            ]
+        }
+    ]
+}

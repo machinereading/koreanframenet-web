@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "알다.v.Research",
+    "frameID": 1152,
+    "frameName": "Research",
+    "en_lus": [
+        "siraberu .調べる"
+    ],
+    "lu_id": 2663,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11836",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "siraberu .調べる"
+                    ],
+                    "ko_annotation_id": 11836,
+                    "annotation_id": 0,
+                    "frameName": "Research",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Research",
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "알아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Researcher",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "그쪽에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4664,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "알다.v.Research",
+                    "text": "거래처라고 하면, 「우리로서는 그 정도는 상식이니까, 그쪽에서 알아 보십시오."
+                }
+            ]
+        }
+    ]
+}

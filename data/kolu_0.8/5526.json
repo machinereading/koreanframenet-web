@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "보다.v.Becoming_aware",
+    "frameID": 20,
+    "frameName": "Becoming_aware",
+    "en_lus": [
+        "notice"
+    ],
+    "lu_id": 5526,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 395",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "noticed"
+                    ],
+                    "ko_annotation_id": 395,
+                    "annotation_id": 811,
+                    "frameName": "Becoming_aware",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Becoming_aware",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 27
+                            },
+                            "text": "이상한 새의 행동을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 141,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보다.v.Becoming_aware",
+                    "text": "아무것도 느끼지 못했지만,약간 이상한 새의 행동을 보았다."
+                }
+            ]
+        }
+    ]
+}

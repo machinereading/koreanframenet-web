@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "냄새나다.v.Perception_experience",
+    "ko_pos": "v",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "lu_id": "990",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4611",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_experience",
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "냄새가 났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "숏펭슈테햐 씨도,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "물씬",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4611",
+                    "lu": "냄새나다.v.Perception_experience",
+                    "text": "숏펭슈테햐 씨도, 물씬 냄새가 났다."
+                }
+            ]
+        }
+    ]
+}

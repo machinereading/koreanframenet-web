@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "모호하다.a.Suspicion",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "en_lus": [
+        "dubious"
+    ],
+    "lu_id": 2470,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 651",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dubious"
+                    ],
+                    "ko_annotation_id": 651,
+                    "annotation_id": 1360,
+                    "frameName": "Suspicion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "모호한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "text": "이론들에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 251,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "모호하다.a.Suspicion",
+                    "text": "그들은 교육적인 경험보다는 모호한 심리학적 그리고 사회학적 이론들에 바탕을 두고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "장.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "director"
+    ],
+    "lu_id": 410,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17248",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "director"
+                    ],
+                    "ko_annotation_id": 17248,
+                    "annotation_id": 16592,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "장은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "센터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3174,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "장.n.Leadership",
+                    "text": "센터 장은 안전 절차의 철저한 검토를 약속하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "교전하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "engage"
+    ],
+    "lu_id": 4591,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4297",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "engage"
+                    ],
+                    "ko_annotation_id": 4297,
+                    "annotation_id": 7847,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "교전하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 44
+                            },
+                            "text": "인접 지역에 접근하는 사람들과 교전하고 감시자들의 업무를 지원한다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1610,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교전하다.v.Intentionally_act",
+                    "text": "그들은 또한 인접 지역에 접근하는 사람들과 교전하고 감시자들의 업무를 지원한다."
+                }
+            ]
+        }
+    ]
+}

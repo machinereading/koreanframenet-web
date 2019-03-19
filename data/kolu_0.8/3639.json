@@ -1,0 +1,95 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이용.n.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "us"
+    ],
+    "lu_id": 3639,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6042",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "uses"
+                    ],
+                    "ko_annotation_id": 6042,
+                    "annotation_id": 10921,
+                    "frameName": "Purpose",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "이용이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Means",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "이 모든 연구 분야는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 57
+                            },
+                            "text": "작물 수확량 향상과 해충과 질병으로 제기되는 이란의 농업 산업에 대한 위협 감소에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2190,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이용.n.Purpose",
+                    "text": "이 모든 연구 분야는 작물 수확량 향상과 해충과 질병으로 제기되는 이란의 농업 산업에 대한 위협 감소에 합법적이고 중요한 이용이 된다."
+                }
+            ]
+        }
+    ]
+}

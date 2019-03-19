@@ -1,0 +1,90 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "예고하다.v.Omen",
+    "frameID": 412,
+    "frameName": "Omen",
+    "en_lus": [
+        "herald"
+    ],
+    "lu_id": 5130,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4731",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "heralded"
+                    ],
+                    "ko_annotation_id": 4731,
+                    "annotation_id": 8623,
+                    "frameName": "Omen",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Omen",
+                            "span": {
+                                "begin": 62,
+                                "end": 68
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "예고하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon_1",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 47
+                            },
+                            "text": "이스라엘의 점령에 반대하는 자발적인 1987년 팔레스타인의 봉기인 Intifada는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Outcome",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 61
+                            },
+                            "text": "무슬림 원리주의의 발흥을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1777,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예고하다.v.Omen",
+                    "text": "이스라엘의 점령에 반대하는 자발적인 1987년 팔레스타인의 봉기인 Intifada는, 무슬림 원리주의의 발흥을 예고하였다."
+                }
+            ]
+        }
+    ]
+}

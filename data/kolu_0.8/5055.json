@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "유력하다.a.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "Potential"
+    ],
+    "lu_id": 5055,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 743",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Potential"
+                    ],
+                    "ko_annotation_id": 743,
+                    "annotation_id": 1566,
+                    "frameName": "Capability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "유력한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "후보자들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 283,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유력하다.a.Capability",
+                    "text": "유력한 후보자들은 민주당 반대파에 의해 예상되는 패배보다 의원 급여 때문에 덜 출마의 용기를 잃게 된다."
+                }
+            ]
+        }
+    ]
+}

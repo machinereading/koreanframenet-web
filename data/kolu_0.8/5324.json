@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "학업.n.Studying",
+    "frameID": 1130,
+    "frameName": "Studying",
+    "en_lus": [
+        "gakugyoo .学業 "
+    ],
+    "lu_id": 5324,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11954",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "gakugyoo .学業 "
+                    ],
+                    "ko_annotation_id": 11954,
+                    "annotation_id": 0,
+                    "frameName": "Studying",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Studying",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "학업에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "잘하는 아이들은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Subject",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "학업에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4744,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학업.n.Studying",
+                    "text": "잘하는 아이들은, 이 사실을 잘 알고 있어, 학업에 힘쓴다."
+                }
+            ]
+        }
+    ]
+}

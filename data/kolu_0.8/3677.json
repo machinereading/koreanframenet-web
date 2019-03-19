@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "여인.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "woman"
+    ],
+    "lu_id": 3677,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12532",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "woman"
+                    ],
+                    "ko_annotation_id": 12532,
+                    "annotation_id": 733,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "여인은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "어느 3층 아파트의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 123,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "여인.n.People",
+                    "text": "어느 3층 아파트의 한 여인은 지진 발생 후 3층의 창문에서 나와 거리를 걸을 수 있었다."
+                }
+            ]
+        }
+    ]
+}

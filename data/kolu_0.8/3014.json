@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "신중하다.a.Mental_property",
+    "frameID": 29,
+    "frameName": "Mental_property",
+    "en_lus": [
+        "teenee .ていねい "
+    ],
+    "lu_id": 3014,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11942",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "teenee .ていねい "
+                    ],
+                    "ko_annotation_id": 11942,
+                    "annotation_id": 0,
+                    "frameName": "Mental_property",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Mental_property",
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "신중하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Practice",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 35
+                            },
+                            "text": "번호를 눌렀다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4734,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신중하다.a.Mental_property",
+                    "text": "나는 10엔 동전을 밀어 넣고, 하나씩 신중하게 번호를 눌렀다."
+                }
+            ]
+        }
+    ]
+}

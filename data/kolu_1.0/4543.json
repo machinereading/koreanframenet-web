@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "줄이다.v.Change_event_duration",
+    "ko_pos": "v",
+    "frameID": 1770,
+    "frameName": "Change_event_duration",
+    "lu_id": "4543",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1134",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_event_duration",
+                            "span": {
+                                "begin": 57,
+                                "end": 59
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "줄일"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "text": "운전자가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "text": "당신 여행을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1134",
+                    "lu": "줄이다.v.Change_event_duration",
+                    "text": "반 시간 여행에 50 홍콩달러가 든다 ; 마지막에 지불하라, 그렇지 않으면 운전자가 당신 여행을 짧게 줄일 지도 모른다."
+                }
+            ]
+        }
+    ]
+}

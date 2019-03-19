@@ -1,0 +1,116 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "성장하다.v.Expansion",
+    "frameID": 725,
+    "frameName": "Expansion",
+    "en_lus": [
+        "grow"
+    ],
+    "lu_id": 1799,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1676",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "grew"
+                    ],
+                    "ko_annotation_id": 1676,
+                    "annotation_id": 3492,
+                    "frameName": "Expansion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expansion",
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "성장하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "예루살렘은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 651,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성장하다.v.Expansion",
+                    "text": "예루살렘은 성장하였고 엄청난 성벽으로 둘러쌓여으며 Jaffa Gate 옆의 타워에 의해 방어되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14347",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "growing"
+                    ],
+                    "ko_annotation_id": 14347,
+                    "annotation_id": 10703,
+                    "frameName": "Expansion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expansion",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "성장하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "생명 공학 산업은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2145,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성장하다.v.Expansion",
+                    "text": "현재, 성장하는 생명 공학 산업은 불법적인 전투 목적을 위해 군민 양용 작용제로 전환할 가능성이 있다."
+                }
+            ]
+        }
+    ]
+}

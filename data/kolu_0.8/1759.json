@@ -1,0 +1,67 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "거래.n.Resolve_problem",
+    "frameID": 1523,
+    "frameName": "Resolve_problem",
+    "en_lus": [
+        "deal"
+    ],
+    "lu_id": 1759,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3930",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "deal"
+                    ],
+                    "ko_annotation_id": 3930,
+                    "annotation_id": 7308,
+                    "frameName": "Resolve_problem",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Resolve_problem",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "거래를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Problem",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 32
+                            },
+                            "text": "경제 및 건강 문제로 이라크와의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1520,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거래.n.Resolve_problem",
+                    "text": "그러나 그는 국제 공동체는 경제 및 건강 문제로 이라크와의 거래를 돕는데 훨씬 더 좋은 일을 할 수 있다고 주장하였다."
+                }
+            ]
+        }
+    ]
+}

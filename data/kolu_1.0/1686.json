@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "명명하다.v.Labeling",
+    "ko_pos": "v",
+    "frameID": 1250,
+    "frameName": "Labeling",
+    "lu_id": "1686",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4945",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Labeling",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "명명할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Label",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "결점이라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4945",
+                    "lu": "명명하다.v.Labeling",
+                    "text": "셜록 홈스의 결점 중 하나는-만약 그것을 결점이라 명명할 수 있다면- 정말로 실행하는 최후의 순간까지, 아무에게도 심중의 계획을 밝히지 않는다는 점이다."
+                }
+            ]
+        }
+    ]
+}

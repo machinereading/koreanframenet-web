@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "나오다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "Step"
+    ],
+    "lu_id": 1465,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2471",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Step"
+                    ],
+                    "ko_annotation_id": 2471,
+                    "annotation_id": 4843,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "나오면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "호텔에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 936,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나오다.v.Self_motion",
+                    "text": "호텔에서 나오면 당신의 감각들은 당신이 자마이카에 있을 수 밖에 없다는 것을 알게해주는 다양한 광경, 소리, 냄새, 맛, 그리고 감촉으로 폭격당할 것이다."
+                }
+            ]
+        }
+    ]
+}

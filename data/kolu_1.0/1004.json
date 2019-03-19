@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "넣다.v.Cooking_creation",
+    "ko_pos": "v",
+    "frameID": 268,
+    "frameName": "Cooking_creation",
+    "lu_id": "1004",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4768",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cooking_creation",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "넣은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "스스로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Produced_Food",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 22
+                            },
+                            "text": "그게 무엇인지는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4768",
+                    "lu": "넣다.v.Cooking_creation",
+                    "text": "스스로 넣은 것이니만큼, 그게 무엇인지는 보지 않아도 안다."
+                }
+            ]
+        }
+    ]
+}

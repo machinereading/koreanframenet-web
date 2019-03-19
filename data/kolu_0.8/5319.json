@@ -1,0 +1,66 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "만들다.v.Assistance",
+    "frameID": 391,
+    "frameName": "Assistance",
+    "en_lus": [
+        "tetudai .手伝い"
+    ],
+    "lu_id": 5319,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10750",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tetudai .手伝い"
+                    ],
+                    "ko_annotation_id": 10750,
+                    "annotation_id": 0,
+                    "frameName": "Assistance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assistance",
+                            "span": {
+                                "begin": 58,
+                                "end": 64
+                            },
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "만드는 것을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Focal_Entity",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 64
+                            },
+                            "text": "음식 만드는 것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3985,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Assistance",
+                    "text": "그렇다고는 하지만 집에 있는 건 주말이라는 한정된 시간뿐이므로, 기껏 식사 후의 뒷정리나, 이따금 음식 만드는 것을 돕는 정도다."
+                }
+            ]
+        }
+    ]
+}

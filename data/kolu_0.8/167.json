@@ -1,0 +1,71 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "막중하다.a.Size",
+    "frameID": 2282,
+    "frameName": "Size",
+    "en_lus": [
+        "ookii .大きい"
+    ],
+    "lu_id": 167,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10866",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ookii .大きい"
+                    ],
+                    "ko_annotation_id": 10866,
+                    "annotation_id": 0,
+                    "frameName": "Size",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Size",
+                            "span": {
+                                "begin": 45,
+                                "end": 50
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "막중하다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 44
+                            },
+                            "text": "적어도 그 한 순간, 이성을 잃고, 말을 해버렸다는 사실은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4033,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "막중하다.a.Size",
+                    "text": "그럴지는 모르겠지만, 적어도 그 한 순간, 이성을 잃고, 말을 해버렸다는 사실은 막중하다."
+                }
+            ]
+        }
+    ]
+}

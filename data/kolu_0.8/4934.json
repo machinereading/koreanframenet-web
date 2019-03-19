@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "쓰라리다.a.Chemical-sense_description",
+    "frameID": 271,
+    "frameName": "Chemical-sense_description",
+    "en_lus": [
+        "bitter"
+    ],
+    "lu_id": 4934,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16931",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "bitter"
+                    ],
+                    "ko_annotation_id": 16931,
+                    "annotation_id": 4652,
+                    "frameName": "Chemical-sense_description",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chemical-sense_description",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "쓰라린"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceptual_Source",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "노예 제도의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sensory_Attribute",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "맛이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 894,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쓰라리다.a.Chemical-sense_description",
+                    "text": "노예 제도의 쓰라린 맛이 항상 배경에 있다."
+                }
+            ]
+        }
+    ]
+}

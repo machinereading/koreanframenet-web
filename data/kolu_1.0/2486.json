@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "산책하다.v.Self_motion",
+    "ko_pos": "v",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "lu_id": "2486",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3993",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 26,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "산책하셨습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "「나으리는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 18
+                            },
+                            "text": "무코가와의 강을 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3993",
+                    "lu": "산책하다.v.Self_motion",
+                    "text": "「나으리는, 무코가와의 강을 따라 자주 부인과 산책하셨습니다."
+                }
+            ]
+        }
+    ]
+}

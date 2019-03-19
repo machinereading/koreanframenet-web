@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "레이더.n.Gizmo",
+    "frameID": 106,
+    "frameName": "Gizmo",
+    "en_lus": [
+        "reedaa .レーダー "
+    ],
+    "lu_id": 688,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12262",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "reedaa .レーダー "
+                    ],
+                    "ko_annotation_id": 12262,
+                    "annotation_id": 0,
+                    "frameName": "Gizmo",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Gizmo",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "레이더가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "User",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "박쥐는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Use",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 28
+                            },
+                            "text": "초음파를 감지하는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4928,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "레이더.n.Gizmo",
+                    "text": "박쥐는 거의 눈이 보이지 않으나, 초음파를 감지하는 레이더가 있어, 4백 미터 정도 떨어진 곳에서도 모깃소리를 들을 수 있습니다."
+                }
+            ]
+        }
+    ]
+}

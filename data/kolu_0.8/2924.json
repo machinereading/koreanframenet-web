@@ -1,0 +1,89 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "진행하다.v.Process_continue",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "en_lus": [
+        "proceed"
+    ],
+    "lu_id": 2924,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4470",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "proceed"
+                    ],
+                    "ko_annotation_id": 4470,
+                    "annotation_id": 8146,
+                    "frameName": "Process_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 50,
+                                "end": 55
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "진행한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 36
+                            },
+                            "text": "알 카에다 임무와 그것의 다른 계획들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 49
+                            },
+                            "text": "이슬람 법 조항에 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진행하다.v.Process_continue",
+                    "text": "그리고 그에 맞춰 : 1- 알 카에다 임무와 그것의 다른 계획들은 이슬람 법 조항에 따라 진행한다."
+                }
+            ]
+        }
+    ]
+}

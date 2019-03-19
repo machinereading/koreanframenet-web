@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "동의하다.v.Agree_or_refuse_to_act",
+    "frameID": 1625,
+    "frameName": "Agree_or_refuse_to_act",
+    "en_lus": [
+        "agree"
+    ],
+    "lu_id": 1672,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5314",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "agreed"
+                    ],
+                    "ko_annotation_id": 5314,
+                    "annotation_id": 9595,
+                    "frameName": "Agree_or_refuse_to_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Agree_or_refuse_to_act",
+                            "span": {
+                                "begin": 58,
+                                "end": 64
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "동의하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposed_Action",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 57
+                            },
+                            "text": "오늘 판 신문에 사설로 그들의 분노를 표현하기로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1984,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동의하다.v.Agree_or_refuse_to_act",
+                    "text": "몬테레이의 발행인들은 부대를 지휘하지는 않지만, 그들은 오늘 판 신문에 사설로 그들의 분노를 표현하기로 동의하였다."
+                }
+            ]
+        }
+    ]
+}

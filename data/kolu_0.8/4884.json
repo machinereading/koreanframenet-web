@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "전화.n.Communication_means",
+    "frameID": 242,
+    "frameName": "Communication_means",
+    "en_lus": [
+        "denwa .電話 "
+    ],
+    "lu_id": 4884,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11360",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "denwa .電話 "
+                    ],
+                    "ko_annotation_id": 11360,
+                    "annotation_id": 0,
+                    "frameName": "Communication_means",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_means",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "전화를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "「목사를 내놔라!!」",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4324,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전화.n.Communication_means",
+                    "text": "포켓몬스터 카드 「목사를 내놔라!!」 전화를 받자마자 욕설이 퍼부어졌다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "약간.n.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "dose",
+        "a little"
+    ],
+    "lu_id": 2387,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2544",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "a little",
+                        "dose"
+                    ],
+                    "ko_annotation_id": 2544,
+                    "annotation_id": 5011,
+                    "frameName": "Quantity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Quantity",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "약간의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Mass",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 33
+                            },
+                            "text": "기분 좋은 경쟁과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 962,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "약간.n.Quantity",
+                    "text": "역사적 및 문화적으로 두 지역 간의 약간의 기분 좋은 경쟁과 함께 북쪽 - 남쪽의 구별은 항상 중요했고 지금도 여전히 그렇다."
+                }
+            ]
+        }
+    ]
+}

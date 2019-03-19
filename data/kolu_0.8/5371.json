@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "나다.v.State_continue",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "en_lus": [
+        "stay"
+    ],
+    "lu_id": 5371,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13571",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "stay"
+                    ],
+                    "ko_annotation_id": 13571,
+                    "annotation_id": 6199,
+                    "frameName": "State_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_continue",
+                            "span": {
+                                "begin": 27,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "날"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 17
+                            },
+                            "text": "나노튜브 수요가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "이익이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1211,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나다.v.State_continue",
+                    "text": "Nanolab은 나노튜브 수요가 감소하면 이익이 날 수 없다고 말한다."
+                }
+            ]
+        }
+    ]
+}

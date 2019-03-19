@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "세대.n.Timespan",
+    "ko_pos": "n",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "lu_id": "2721",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4548",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "세대에는,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "할아버지 세대에는,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4548",
+                    "lu": "세대.n.Timespan",
+                    "text": "할아버지 세대에는, 초등학교도, 아이들이 뛰놀던 신사도, 모두 나카타 가문이 소유하는 토지에 속해 있었다."
+                }
+            ]
+        }
+    ]
+}

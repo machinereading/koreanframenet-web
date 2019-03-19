@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "결성되다.v.Intentionally_create",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "en_lus": [
+        "kessee .結成 "
+    ],
+    "lu_id": 5501,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11028",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kessee .結成 "
+                    ],
+                    "ko_annotation_id": 11028,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "결성되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "각지에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 23
+                            },
+                            "text": "「뇌 외상 친우회」 및 관련 단체가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4112,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결성되다.v.Intentionally_create",
+                    "text": "각지에 「뇌 외상 친우회」 및 관련 단체가 결성되어 가는 가운데, 가족 단체의 권고로 장애 연금, 장애인 수첩의 취득률도 오르고 있어, 작년의 해당 단체의 조사에 따르면, 장애인 수첩을 가지고 있지 않은 사람은 약 20%로 나타났다."
+                }
+            ]
+        }
+    ]
+}

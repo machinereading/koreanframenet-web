@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "교환.n.Exchange",
+    "frameID": 1170,
+    "frameName": "Exchange",
+    "en_lus": [
+        "exchange"
+    ],
+    "lu_id": 1296,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6725",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "exchanges"
+                    ],
+                    "ko_annotation_id": 6725,
+                    "annotation_id": 12304,
+                    "frameName": "Exchange",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exchange",
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "교환을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Exchangers",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "text": "쌍무적인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Themes",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "text": "미사일 기술",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2447,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교환.n.Exchange",
+                    "text": "두 나라에서, Hashemi - Rafsanjani는 이란제 미사일을 판매하고 쌍무적인 미사일 기술 교환을 하기 위한 증가된 군사 지원과 협정을 확보하였다."
+                }
+            ]
+        }
+    ]
+}

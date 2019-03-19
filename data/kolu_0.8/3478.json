@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "숙련되다.v.Expertise",
+    "frameID": 136,
+    "frameName": "Expertise",
+    "en_lus": [
+        "Skilled"
+    ],
+    "lu_id": 3478,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 153",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Skilled"
+                    ],
+                    "ko_annotation_id": 153,
+                    "annotation_id": 260,
+                    "frameName": "Expertise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expertise",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "숙련된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "종지기들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 39,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "숙련되다.v.Expertise",
+                    "text": "숙련된 종지기들은 하나의 종이 다음 순서로 서로 위치를 바꿀 수 있도록, 다음 스윙을 미리 하거나 늦추도록 하기 위해 그들의 팔목을 사용한다."
+                }
+            ]
+        }
+    ]
+}

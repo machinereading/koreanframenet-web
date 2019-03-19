@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "출현하다.v.Presence",
+    "frameID": 1922,
+    "frameName": "Presence",
+    "en_lus": [
+        "presence"
+    ],
+    "lu_id": 3724,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2107",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "presence"
+                    ],
+                    "ko_annotation_id": 2107,
+                    "annotation_id": 4222,
+                    "frameName": "Presence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Presence",
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "출현하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 22
+                            },
+                            "text": "라스 베이거스에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "text": "폭력 무리가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 809,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "출현하다.v.Presence",
+                    "text": "사실, Flamingo는 라스 베이거스에 이십년에 걸쳐 힘센 폭력 무리가 출현하는 가운데 시작되었다."
+                }
+            ]
+        }
+    ]
+}

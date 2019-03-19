@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "정장.n.Clothing",
+    "frameID": 134,
+    "frameName": "Clothing",
+    "en_lus": [
+        "sebiro .せびろ"
+    ],
+    "lu_id": 316,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16083",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sebiro .せびろ"
+                    ],
+                    "ko_annotation_id": 16083,
+                    "annotation_id": 0,
+                    "frameName": "Clothing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Clothing",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "정장을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Garment",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "어설픈 줄무늬 정장을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Wearer",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 60,
+                                "end": 71
+                            },
+                            "text": "독특한 어린이입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3545,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정장.n.Clothing",
+                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다."
+                }
+            ]
+        }
+    ]
+}

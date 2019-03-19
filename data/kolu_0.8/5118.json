@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "개발하다.v.Intentionally_create",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "en_lus": [
+        "create"
+    ],
+    "lu_id": 5118,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9113",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "create"
+                    ],
+                    "ko_annotation_id": 9113,
+                    "annotation_id": 16813,
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 95,
+                                "end": 99
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "개발하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "text": "생물학자들의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 76
+                            },
+                            "text": "테러리스트들이 비밀리에 만드는 균주에 필적하는 병원균을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3208,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개발하다.v.Intentionally_create",
+                    "text": "선임 과학자 Bernard Courtney에 의하면, 생물학자들의 일 중의 하나는 테러리스트들이 비밀리에 만드는 균주에 필적하는 병원균을 만들고 이들과 싸울 백신과 약을 개발하는 것일 것이다."
+                }
+            ]
+        }
+    ]
+}

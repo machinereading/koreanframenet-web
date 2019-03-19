@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "요청_받다.v.Request",
+    "ko_pos": "v",
+    "frameID": 41,
+    "frameName": "Request",
+    "lu_id": "3545",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-825",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "요청 받았고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "몇 주 후에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 34
+                            },
+                            "text": "돈을 많이 쓰는 사람들을 위해 방을 비우도록",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "825",
+                    "lu": "요청_받다.v.Request",
+                    "text": "몇 주 후에 그는 돈을 많이 쓰는 사람들을 위해 방을 비우도록 요청 받았고 그런 후 명령을 받았다."
+                }
+            ]
+        }
+    ]
+}

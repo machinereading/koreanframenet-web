@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "기차.n.Vehicle",
+    "ko_pos": "n",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "lu_id": "838",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1201",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "기차는"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "1201",
+                    "lu": "기차.n.Vehicle",
+                    "text": "그의 뉴욕행 기차는 10 : 30에 역을 출발하기로 예정되어 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4804",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "기차표를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "text": "기차표를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4804",
+                    "lu": "기차.n.Vehicle",
+                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다."
+                }
+            ]
+        }
+    ]
+}

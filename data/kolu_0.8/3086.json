@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "가져가다.v.Bringing",
+    "frameID": 240,
+    "frameName": "Bringing",
+    "en_lus": [
+        "bring"
+    ],
+    "lu_id": 3086,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12672",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "bringing"
+                    ],
+                    "ko_annotation_id": 12672,
+                    "annotation_id": 1500,
+                    "frameName": "Bringing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bringing",
+                            "span": {
+                                "begin": 80,
+                                "end": 84
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "가져가지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 72
+                            },
+                            "text": "다른 지역/주와 그들 의원들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 79
+                            },
+                            "text": "지역 혜택을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 274,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가져가다.v.Bringing",
+                    "text": "공화당 대통령이 투표자의 해당 지역/주에 지역에 대한 혜택을 제한할지라도, 그와 같은 대통령은 또한 다른 지역/주와 그들 의원들이 지역 혜택을 가져가지 못하게 하는데 더 효과적일 수도 있다."
+                }
+            ]
+        }
+    ]
+}

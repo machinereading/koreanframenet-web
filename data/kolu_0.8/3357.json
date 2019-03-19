@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "활주로.n.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "kassoo .滑走 "
+    ],
+    "lu_id": 3357,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11808",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kassoo .滑走 "
+                    ],
+                    "ko_annotation_id": 11808,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 53,
+                                "end": 57
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "활주로를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 57
+                            },
+                            "text": "활주로를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4646,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "활주로.n.Motion",
+                    "text": "여기서 말하는 「육상 다발기」란, 해상이나 호면에서 이착륙할 수 있는 수상기와 달리, 통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는 용어로 이해해주시기 바란다."
+                }
+            ]
+        }
+    ]
+}

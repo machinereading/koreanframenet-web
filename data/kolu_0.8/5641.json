@@ -1,0 +1,116 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비축하다.v.Store",
+    "frameID": 1511,
+    "frameName": "Store",
+    "en_lus": [
+        "stockpile"
+    ],
+    "lu_id": 5641,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3537",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "stockpiles",
+                        "stockpile"
+                    ],
+                    "ko_annotation_id": 3537,
+                    "annotation_id": 6661,
+                    "frameName": "Store",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Store",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "비축하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "리비아는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Resource",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "생물학 무기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1341,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비축하다.v.Store",
+                    "text": "리비아는 생물학 무기를 비축하고 있음을 시인하였나 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8384",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "stockpiles",
+                        "stockpile"
+                    ],
+                    "ko_annotation_id": 8384,
+                    "annotation_id": 15366,
+                    "frameName": "Store",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Store",
+                            "span": {
+                                "begin": 54,
+                                "end": 60
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "비축하였고,"
+                        }
+                    ],
+                    "sent_id": 2982,
+                    "relations": [],
+                    "lu": "비축하다.v.Store",
+                    "text": "천연자원보호협의회의 추정에 의하면, 1991년까지, 소비에트 연방은 약 35,000 개의 무기를 비축하였고, 그것은 1986년의 최고치인 약 45,000 개에서 감소한 것이다."
+                }
+            ]
+        }
+    ]
+}

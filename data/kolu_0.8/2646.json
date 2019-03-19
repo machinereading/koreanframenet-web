@@ -1,0 +1,93 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "의심하다.v.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "doubtful"
+    ],
+    "lu_id": 2646,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5951",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "doubtful"
+                    ],
+                    "ko_annotation_id": 5951,
+                    "annotation_id": 10724,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "의심한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 26
+                            },
+                            "text": "이란이 접근한 캐나다 독물학자 Bruno 박사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 58
+                            },
+                            "text": "이란이 이 변종을 불법 생물무기 목적으로 사용할 것이라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2151,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의심하다.v.Certainty",
+                    "text": "이란이 접근한 캐나다 독물학자 Bruno 박사는 이란이 이 변종을 불법 생물무기 목적으로 사용할 것이라고 의심한 것을 주목해야 한다."
+                }
+            ]
+        }
+    ]
+}

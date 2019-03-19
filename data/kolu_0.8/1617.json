@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "발행.n.Creating",
+    "frameID": 319,
+    "frameName": "Creating",
+    "en_lus": [
+        "issuance"
+    ],
+    "lu_id": 1617,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14273",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "issuance"
+                    ],
+                    "ko_annotation_id": 14273,
+                    "annotation_id": 10433,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 90,
+                                "end": 94
+                            },
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "발행으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 75
+                            },
+                            "text": "2002년의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                20,
+                                21,
+                                22,
+                                23
+                            ],
+                            "span": {
+                                "begin": 76,
+                                "end": 89
+                            },
+                            "text": "새로운 수출 통제 규정의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2111,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발행.n.Creating",
+                    "text": "그러나 중국은 화학 및 생물무기에 초점을 맞춘 자발적인 공급 측면의 수출 통제 체제인 호주그룹( AG ) 의 멤버는 아니나 2002년의 새로운 수출 통제 규정의 발행으로 베이징의 수출 통제 정책은 호주그룹의 것과 일치하게 되었다,"
+                }
+            ]
+        }
+    ]
+}

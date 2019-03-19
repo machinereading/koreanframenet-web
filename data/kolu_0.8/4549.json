@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "관리하다.v.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "administer"
+    ],
+    "lu_id": 4549,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13046",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "administer"
+                    ],
+                    "ko_annotation_id": 13046,
+                    "annotation_id": 3142,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "관리하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그리스는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "영토를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 593,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관리하다.v.Leadership",
+                    "text": "그리스는 영토를 관리하기 위해 이동하였으나 새로운 영향이 이 지역을 더 큰 그리스 의 일부로 만들려는 위대한 꿈을 좌절시켰다."
+                }
+            ]
+        }
+    ]
+}

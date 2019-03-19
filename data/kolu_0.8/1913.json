@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "뻗다.v.Body_movement",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "en_lus": [
+        "nobasu .伸ばす"
+    ],
+    "lu_id": 1913,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11743",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nobasu .伸ばす"
+                    ],
+                    "ko_annotation_id": 11743,
+                    "annotation_id": 0,
+                    "frameName": "Body_movement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Body_movement",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "뻗는다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "손을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "컵을 항해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4605,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뻗다.v.Body_movement",
+                    "text": "손을 컵을 항해 뻗는다."
+                }
+            ]
+        }
+    ]
+}

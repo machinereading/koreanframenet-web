@@ -1,0 +1,109 @@
+{
+    "en_lus": [],
+    "ko_lu": "나중.n.Time_vector",
+    "ko_pos": "n",
+    "frameID": 379,
+    "frameName": "Time_vector",
+    "lu_id": "912",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3028",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Time_vector",
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "나중에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 54
+                            },
+                            "text": "Project Jota",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3028",
+                    "lu": "나중.n.Time_vector",
+                    "text": "남아공의 생물 무기 프로그램은 암호명이 Project Coast ( 나중에 Project Jota ) 인 은밀한 국가 후원의 화학 및 생물 무기 프로그램의 두 가지 주요 구성 요소 가운데 하나였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2000",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Time_vector",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "나중에,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 60
+                            },
+                            "text": "고위급 밀매자인 Leoidas Vagas가 체포되었고 1,000 파운드의 다이나마이트가 압수되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2000",
+                    "lu": "나중.n.Time_vector",
+                    "text": "나중에, 고위급 밀매자인 Leoidas Vagas가 체포되었고 1,000 파운드의 다이나마이트가 압수되었다."
+                }
+            ]
+        }
+    ]
+}

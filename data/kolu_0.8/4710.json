@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "교재.n.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "kyoozai .教材"
+    ],
+    "lu_id": 4710,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10802",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kyoozai .教材"
+                    ],
+                    "ko_annotation_id": 10802,
+                    "annotation_id": 0,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "교재"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Material",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "교재",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4005,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교재.n.Education_teaching",
+                    "text": "그런 뜻에서, 모형 만들기는 교재 내용과 상관없이, 중학교 이과 과목 안에 일관되게 넣을 가치가 있는 내용이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "눈.n.Waking_up",
+    "frameID": 295,
+    "frameName": "Waking_up",
+    "en_lus": [
+        "me ga sameru .目 が 覚める"
+    ],
+    "lu_id": 39,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10667",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "me ga sameru .目 が 覚める"
+                    ],
+                    "ko_annotation_id": 10667,
+                    "annotation_id": 0,
+                    "frameName": "Waking_up",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Waking_up",
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "눈이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "해결방법,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "시즈는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3925,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "눈.n.Waking_up",
+                    "text": "제39장 위화감 해결방법, 시즈는 어떤 자극에 눈이 떠졌다."
+                }
+            ]
+        }
+    ]
+}

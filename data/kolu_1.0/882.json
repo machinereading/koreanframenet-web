@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "끝나다.v.Temporal_subregion",
+    "ko_pos": "v",
+    "frameID": 1470,
+    "frameName": "Temporal_subregion",
+    "lu_id": "882",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-538",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_subregion",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "끝나기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "기원 전 401년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time_Period",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "전쟁이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "538",
+                    "lu": "끝나다.v.Temporal_subregion",
+                    "text": "기원 전 401년에 전쟁이 끝나기 전, 많은 섬들이 이미 Macedon의 Philip II가 이끄는 승리자들에게로 그들의 충성의 대상을 옮겼다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "절도.n.Theft",
+    "frameID": 94,
+    "frameName": "Theft",
+    "en_lus": [
+        "theft"
+    ],
+    "lu_id": 5345,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14140",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "theft"
+                    ],
+                    "ko_annotation_id": 14140,
+                    "annotation_id": 9380,
+                    "frameName": "Theft",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Theft",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "절도는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "외국 및 산업 스파이와 불만스러워 하는 종업원에 의한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "text": "전자",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1947,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "절도.n.Theft",
+                    "text": "외국 및 산업 스파이와 불만스러워 하는 종업원에 의한 전자 절도는 미국 회사들에 수십억의 비용이 들게 하고 그들의 국제 경쟁력의 이점을 잠식하고 있다."
+                }
+            ]
+        }
+    ]
+}

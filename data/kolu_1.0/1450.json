@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "따르다.v.Contingency",
+    "ko_pos": "v",
+    "frameID": 900,
+    "frameName": "Contingency",
+    "lu_id": "1450",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3559",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Contingency",
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "따라"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Outcome",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 39
+                            },
+                            "text": "사용하는지, 「귀하」를 사용하는지는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Determinant",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "text": "수신인에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3559",
+                    "lu": "따르다.v.Contingency",
+                    "text": "부탁합니다, 알려주십시오! 「님」을 사용하는지, 「귀하」를 사용하는지는 수신인에 따라 다릅니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-3330",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Contingency",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "따라"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Determinant",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "무기 설계에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3330",
+                    "lu": "따르다.v.Contingency",
+                    "text": "무기 설계에 따라 최단 경로는 핵분열성 물질을 구매하거나 훔치는 것일 것이다."
+                }
+            ]
+        }
+    ]
+}

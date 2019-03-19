@@ -1,0 +1,134 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "고려되다.v.Cogitation",
+    "frameID": 22,
+    "frameName": "Cogitation",
+    "en_lus": [
+        "consider"
+    ],
+    "lu_id": 932,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4140",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "considered"
+                    ],
+                    "ko_annotation_id": 4140,
+                    "annotation_id": 7639,
+                    "frameName": "Cogitation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "고려되어야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "다음은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "울타리를 세울 때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1568,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고려되다.v.Cogitation",
+                    "text": "다음은 울타리를 세울 때 고려되어야 한다 :"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4449",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "considered"
+                    ],
+                    "ko_annotation_id": 4449,
+                    "annotation_id": 8105,
+                    "frameName": "Cogitation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "고려될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "요청은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1652,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고려되다.v.Cogitation",
+                    "text": "요청은 특별한 경우를 제외하고, 지시된 대로 시기 적절한 방법으로 제출된 경우에만 고려될 것이다."
+                }
+            ]
+        }
+    ]
+}

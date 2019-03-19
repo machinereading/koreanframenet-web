@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "총경.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "see .正"
+    ],
+    "lu_id": 3144,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16763",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "see .正"
+                    ],
+                    "ko_annotation_id": 16763,
+                    "annotation_id": 0,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "총경의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "경찰 총경의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4902,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "총경.n.Leadership",
+                    "text": "카림은 경찰 총경의 모습을 바라보고 있었다."
+                }
+            ]
+        }
+    ]
+}

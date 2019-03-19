@@ -1,0 +1,90 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "못하다.a.Preventing_or_letting",
+    "frameID": 516,
+    "frameName": "Preventing_or_letting",
+    "en_lus": [
+        "prevent"
+    ],
+    "lu_id": 4633,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12676",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "preventing"
+                    ],
+                    "ko_annotation_id": 12676,
+                    "annotation_id": 1498,
+                    "frameName": "Preventing_or_letting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Preventing_or_letting",
+                            "span": {
+                                "begin": 85,
+                                "end": 92
+                            },
+                            "token_span": [
+                                20,
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "못하게 하는데"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Preventing_Cause",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 52
+                            },
+                            "text": "그와 같은 대통령은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 84
+                            },
+                            "text": "다른 지역/주와 그들 의원들이 지역 혜택을 가져가지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 274,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "못하다.a.Preventing_or_letting",
+                    "text": "공화당 대통령이 투표자의 해당 지역/주에 지역에 대한 혜택을 제한할지라도, 그와 같은 대통령은 또한 다른 지역/주와 그들 의원들이 지역 혜택을 가져가지 못하게 하는데 더 효과적일 수도 있다."
+                }
+            ]
+        }
+    ]
+}

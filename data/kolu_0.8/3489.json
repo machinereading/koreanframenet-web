@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "성공.n.Successful_action",
+    "frameID": 1389,
+    "frameName": "Successful_action",
+    "en_lus": [
+        "unsuccessful"
+    ],
+    "lu_id": 3489,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1482",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "unsuccessful"
+                    ],
+                    "ko_annotation_id": 1482,
+                    "annotation_id": 3078,
+                    "frameName": "Successful_action",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Successful_action",
+                            "span": {
+                                "begin": 11,
+                                "end": 22
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "성공적이지 않았지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Means",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "시도가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 581,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성공.n.Successful_action",
+                    "text": "비록 이러한 시도가 성공적이지 않았지만, 그리스 국가를 위한 캠페인은 19세기에 계속되었고 세력이 증가하기 시작하였다."
+                }
+            ]
+        }
+    ]
+}

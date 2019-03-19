@@ -1,0 +1,119 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "기다리다.v.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "matu .待つ ",
+        "expect"
+    ],
+    "lu_id": 5030,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10691",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "matu .待つ ",
+                        "expected"
+                    ],
+                    "ko_annotation_id": 10691,
+                    "annotation_id": 0,
+                    "frameName": "Expectation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expectation",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "기다리던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "text": "나의 첫 책이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3946,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기다리다.v.Expectation",
+                    "text": "『보석함』기다리고 기다리던 나의 첫 책이 완성되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12609",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "matu .待つ ",
+                        "expected"
+                    ],
+                    "ko_annotation_id": 12609,
+                    "annotation_id": 984,
+                    "frameName": "Expectation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expectation",
+                            "span": {
+                                "begin": 33,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "기다리며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "여진을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 176,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기다리다.v.Expectation",
+                    "text": "오전 9시 38분 FIG : 예상되지만 무섭기만 한 여진을 기다리며, 우리는 모두 이곳에서 아주 임시로 생활하고 있다고 나는 생각한다."
+                }
+            ]
+        }
+    ]
+}

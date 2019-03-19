@@ -1,0 +1,102 @@
+{
+    "en_lus": [],
+    "ko_lu": "맞서다.v.Hostile_encounter",
+    "ko_pos": "v",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "lu_id": "1627",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1552",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "맞서기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Issue",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 16
+                            },
+                            "text": "내부로부터의 위험에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1552",
+                    "lu": "맞서다.v.Hostile_encounter",
+                    "text": "내부적 : 내부로부터의 위험에 맞서기 위해 취하는 모든 조치와 방법."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1551",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "맞서기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Side_2",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 16
+                            },
+                            "text": "외부로부터의 위험에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1551",
+                    "lu": "맞서다.v.Hostile_encounter",
+                    "text": "외부적 : 외부로부터의 위험에 맞서기 위해 취하는 모든 조치와 방법."
+                }
+            ]
+        }
+    ]
+}

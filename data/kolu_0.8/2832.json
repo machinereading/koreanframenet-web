@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비행하다.v.Operational_testing",
+    "frameID": 1301,
+    "frameName": "Operational_testing",
+    "en_lus": [
+        "flight-tested"
+    ],
+    "lu_id": 2832,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15211",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "flight-tested"
+                    ],
+                    "ko_annotation_id": 15211,
+                    "annotation_id": 14379,
+                    "frameName": "Operational_testing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operational_testing",
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "비행시험을 하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "대포동-2는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행하다.v.Operational_testing",
+                    "text": "대포동-2는 비행시험을 하지 않았지만, 미국 정보 분석가들은 언제나 시험을 위한 준비가 되었다고 믿으며, 평양은 약 175 기의 노동을 포함하여, 600 - 700 기의 탄도 미사일을 배치하였다."
+                }
+            ]
+        }
+    ]
+}

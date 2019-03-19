@@ -1,0 +1,97 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "학교.n.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "schoolteacher"
+    ],
+    "lu_id": 2357,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 515",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "schoolteacher"
+                    ],
+                    "ko_annotation_id": 515,
+                    "annotation_id": 1105,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "학교 선생이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 201,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학교.n.Education_teaching",
+                    "text": "나는 결국 학교 선생이 될지도 모른다는 생각을 하며, 나 자신은 대학에서 그와 같은 과목들을 수강했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12627",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "schoolteachers"
+                    ],
+                    "ko_annotation_id": 12627,
+                    "annotation_id": 1112,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "학교 선생들을"
+                        }
+                    ],
+                    "sent_id": 204,
+                    "relations": [],
+                    "lu": "학교.n.Education_teaching",
+                    "text": "나는 많은 학교 선생들을 알고 그리고, 대체적으로, 그들은 양심적인 교육에 진지하게 전념하고 있다."
+                }
+            ]
+        }
+    ]
+}

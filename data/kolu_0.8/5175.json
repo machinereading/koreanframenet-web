@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "생각하다.v.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "omou .思う "
+    ],
+    "lu_id": 5175,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12232",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "omou .思う "
+                    ],
+                    "ko_annotation_id": 12232,
+                    "annotation_id": 0,
+                    "frameName": "Expectation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expectation",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "생각하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 11
+                            },
+                            "text": "팔릴 것이라고는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4910,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생각하다.v.Expectation",
+                    "text": "물론 팔릴 것이라고는 생각하지 않지만…."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "미끼.n.Food",
+    "frameID": 277,
+    "frameName": "Food",
+    "en_lus": [
+        "esa .餌 "
+    ],
+    "lu_id": 863,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11125",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "esa .餌 "
+                    ],
+                    "ko_annotation_id": 11125,
+                    "annotation_id": 0,
+                    "frameName": "Food",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Food",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "미끼를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "꼬임",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4191,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "미끼.n.Food",
+                    "text": "제7장 가다랑어 꼬임 미끼를 단 낚싯대를 다시 드리운다."
+                }
+            ]
+        }
+    ]
+}

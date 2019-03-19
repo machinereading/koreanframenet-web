@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "판단하다.v.Attempt",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "en_lus": [
+        "try"
+    ],
+    "lu_id": 2116,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3236",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "trying"
+                    ],
+                    "ko_annotation_id": 3236,
+                    "annotation_id": 6195,
+                    "frameName": "Attempt",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 29,
+                                "end": 41
+                            },
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "판단하려고 하고 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "행정부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 34
+                            },
+                            "text": "사담 후세인이 대량살상무기를 가지고 있는지 판단하려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1208,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판단하다.v.Attempt",
+                    "text": "행정부는 사담 후세인이 대량살상무기를 가지고 있는지 판단하려고 하고 있다."
+                }
+            ]
+        }
+    ]
+}

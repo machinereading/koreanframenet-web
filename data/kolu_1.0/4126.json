@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "재빠르다.a.Speed_description",
+    "ko_pos": "a",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "lu_id": "4126",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3701",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Speed_description",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재빠르다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이 타이밍이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "정말로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3701",
+                    "lu": "재빠르다.a.Speed_description",
+                    "text": "이 타이밍이 정말로 재빠르다."
+                }
+            ]
+        }
+    ]
+}

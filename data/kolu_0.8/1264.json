@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "주도하다.v.First_rank",
+    "frameID": 402,
+    "frameName": "First_rank",
+    "en_lus": [
+        "lead"
+    ],
+    "lu_id": 1264,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5987",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "leading"
+                    ],
+                    "ko_annotation_id": 5987,
+                    "annotation_id": 10810,
+                    "frameName": "First_rank",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "First_rank",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "주도하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Limits_Of_Consideration",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 43
+                            },
+                            "text": "백신의 개발과 제조에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 57
+                            },
+                            "text": "지역 시설이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2169,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주도하다.v.First_rank",
+                    "text": "혈청과 백신을 위한 Razi 연구소와 파스퇴르 연구소는 백신의 개발과 제조에서 주도하는 지역 시설이다."
+                }
+            ]
+        }
+    ]
+}

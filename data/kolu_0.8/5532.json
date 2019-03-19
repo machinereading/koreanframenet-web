@@ -1,0 +1,103 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비축하다.v.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 5532,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8383",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "had"
+                    ],
+                    "ko_annotation_id": 8383,
+                    "annotation_id": 15365,
+                    "frameName": "Possession",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 54,
+                                "end": 60
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "비축하였고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 37
+                            },
+                            "text": "소비에트 연방은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 53
+                            },
+                            "text": "약 35,000 개의 무기를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Depictive",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 60
+                            },
+                            "text": "비축하였고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2982,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비축하다.v.Possession",
+                    "text": "천연자원보호협의회의 추정에 의하면, 1991년까지, 소비에트 연방은 약 35,000 개의 무기를 비축하였고, 그것은 1986년의 최고치인 약 45,000 개에서 감소한 것이다."
+                }
+            ]
+        }
+    ]
+}

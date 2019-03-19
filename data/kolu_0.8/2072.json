@@ -1,0 +1,158 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "개시하다.v.Activity_start",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "en_lus": [
+        "initiate",
+        "kaisi .開始"
+    ],
+    "lu_id": 2072,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6749",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kaisi .開始",
+                        "initiated"
+                    ],
+                    "ko_annotation_id": 6749,
+                    "annotation_id": 12340,
+                    "frameName": "Activity_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "개시하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 46
+                            },
+                            "text": "바그다드와 Kirkuk에 대해 고립된 스커드-B 공격을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2454,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개시하다.v.Activity_start",
+                    "text": "1986년 6월 초, 이란은 바그다드와 Kirkuk에 대해 고립된 스커드-B 공격을 개시하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10148",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kaisi .開始",
+                        "initiated"
+                    ],
+                    "ko_annotation_id": 10148,
+                    "annotation_id": 0,
+                    "frameName": "Activity_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "개시했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "행동을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3578,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개시하다.v.Activity_start",
+                    "text": "나는 곧바로 행동을 개시했다."
+                }
+            ]
+        }
+    ]
+}

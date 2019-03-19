@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "변경.n.Undergo_change",
+    "frameID": 1172,
+    "frameName": "Undergo_change",
+    "en_lus": [
+        "change"
+    ],
+    "lu_id": 4020,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "change"
+                    ],
+                    "ko_annotation_id": 15,
+                    "annotation_id": 21,
+                    "frameName": "Undergo_change",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undergo_change",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "회계변경을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Attribute",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "회계변경을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "변경.n.Undergo_change",
+                    "text": "그 해 - 이전 결과는 회계변경을 반영하기 위해 다시 정정되었다."
+                }
+            ]
+        }
+    ]
+}

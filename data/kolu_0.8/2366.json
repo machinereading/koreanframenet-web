@@ -1,0 +1,90 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "심기일전하다.v.Telling",
+    "frameID": 750,
+    "frameName": "Telling",
+    "en_lus": [
+        "tell"
+    ],
+    "lu_id": 2366,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12721",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "telling"
+                    ],
+                    "ko_annotation_id": 12721,
+                    "annotation_id": 1808,
+                    "frameName": "Telling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Telling",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "전하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 47
+                            },
+                            "text": "Goodwill의 도움으로 일자리를 얻은 사람들의 성공 이야기들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 65
+                            },
+                            "text": "한 통의 편지를 나로부터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 332,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심기일전하다.v.Telling",
+                    "text": "몇 달 전에 당신은 Goodwill의 도움으로 일자리를 얻은 사람들의 성공 이야기들을 전하는 한 통의 편지를 나로부터 받았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "대결.n.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "showdown"
+    ],
+    "lu_id": 3875,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5635",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "showdown"
+                    ],
+                    "ko_annotation_id": 5635,
+                    "annotation_id": 10192,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "대결을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Side_2",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 40
+                            },
+                            "text": "연방 정부나 유엔군과의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "text": "예상되는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "text": "폭력적인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2077,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대결.n.Hostile_encounter",
+                    "text": "농촌지역에서 애국자 단체들은 흔히 무기를 저장하고 연방 정부나 유엔군과의 예상되는 폭력적인 대결을 준비하기 위해 훈련하는 군 민병대를 조직한다."
+                }
+            ]
+        }
+    ]
+}

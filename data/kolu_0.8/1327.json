@@ -1,0 +1,98 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "교장.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "head",
+        "principal"
+    ],
+    "lu_id": 1327,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 653",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "principals",
+                        "head"
+                    ],
+                    "ko_annotation_id": 653,
+                    "annotation_id": 1379,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 70,
+                                "end": 73
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "교장이"
+                        }
+                    ],
+                    "sent_id": 254,
+                    "relations": [],
+                    "lu": "교장.n.Leadership",
+                    "text": "무엇보다 가장 중요한 것은 학교는 교직원, 교과과정, 그리고 모든 학생 규율과 관련된 문제들에 대해 상당한 양의 권위를 갖는 교장이 있어야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 658",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "principals",
+                        "head"
+                    ],
+                    "ko_annotation_id": 658,
+                    "annotation_id": 1386,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 61,
+                                "end": 64
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "교장에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 60
+                            },
+                            "text": "강력한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 255,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교장.n.Leadership",
+                    "text": "부르킹연구소의 가장 최근 연구를 포함하여 연구에 이은 연구는 최상의 학교들은 외부으로부터 간섭이 없는 강력한 교장에 의해 운영되는 학교라고 우리들에게 말한다."
+                }
+            ]
+        }
+    ]
+}

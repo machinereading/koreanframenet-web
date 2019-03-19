@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "완전.n.Process_completed_state",
+    "frameID": 234,
+    "frameName": "Process_completed_state",
+    "en_lus": [
+        "complete"
+    ],
+    "lu_id": 4331,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7333",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "complete"
+                    ],
+                    "ko_annotation_id": 7333,
+                    "annotation_id": 13304,
+                    "frameName": "Process_completed_state",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_completed_state",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "완전"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "text": "핵 연료 주기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2655,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "완전.n.Process_completed_state",
+                    "text": "이중 두 곳인 연구 및 연료 생산은 이란에서 완전 핵 연료 주기를 개발하는데 필수적이다."
+                }
+            ]
+        }
+    ]
+}

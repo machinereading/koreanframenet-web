@@ -1,0 +1,134 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "개인전.n.Competition",
+    "frameID": 241,
+    "frameName": "Competition",
+    "en_lus": [
+        "kozin sen .個人 戦 "
+    ],
+    "lu_id": 3174,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12119",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kozin sen .個人 戦 "
+                    ],
+                    "ko_annotation_id": 12119,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "개인전이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 44
+                            },
+                            "text": "여자유도 개인전이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개인전.n.Competition",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12120",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kozin sen .個人 戦 "
+                    ],
+                    "ko_annotation_id": 12120,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "개인전은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "개인전은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 16
+                            },
+                            "text": "6월에 열리고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개인전.n.Competition",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
+                }
+            ]
+        }
+    ]
+}

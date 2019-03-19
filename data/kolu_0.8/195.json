@@ -1,0 +1,101 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "회신.n.Hearsay",
+    "frameID": 37,
+    "frameName": "Hearsay",
+    "en_lus": [
+        "hear"
+    ],
+    "lu_id": 195,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4813",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hear"
+                    ],
+                    "ko_annotation_id": 4813,
+                    "annotation_id": 8778,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "회신을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 37
+                            },
+                            "text": "5월과 6월에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Speaker",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 50
+                            },
+                            "text": "Patti로부터 회신을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1818,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "회신.n.Hearsay",
+                    "text": "나는 그들이 그녀와 잘 지내고 있는지 확인 하기 위해 5월과 6월에 Patti로부터 회신을 기다리고 있는 중이다."
+                }
+            ]
+        }
+    ]
+}

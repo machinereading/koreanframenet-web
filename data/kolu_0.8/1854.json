@@ -1,0 +1,171 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "맡다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "kagu .かぐ "
+    ],
+    "lu_id": 1854,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10168",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kagu .かぐ "
+                    ],
+                    "ko_annotation_id": 10168,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "맡아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "text": "커피를 마시는 척하며",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "향기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3588,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맡다.v.Perception_active",
+                    "text": "나는 밥을 먹은 후, 커피를 마시는 척하며 향기를 맡아 보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10549",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kagu .かぐ "
+                    ],
+                    "ko_annotation_id": 10549,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "맡아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "맥주 냄새를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "조심스레",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맡다.v.Perception_active",
+                    "text": "맥주 냄새를 조심스레 맡아 본다."
+                }
+            ]
+        }
+    ]
+}

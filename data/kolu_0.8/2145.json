@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "나라.n.Foreign_or_domestic_country",
+    "frameID": 1483,
+    "frameName": "Foreign_or_domestic_country",
+    "en_lus": [
+        "kokunai .国内"
+    ],
+    "lu_id": 2145,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16242",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kokunai .国内"
+                    ],
+                    "ko_annotation_id": 16242,
+                    "annotation_id": 0,
+                    "frameName": "Foreign_or_domestic_country",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Foreign_or_domestic_country",
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "나라에서는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Discourse_Salient_Country",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "일본이라는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3845,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나라.n.Foreign_or_domestic_country",
+                    "text": "그런 사고방식도, 일본이라는 나라에서는 가능한 것입니다."
+                }
+            ]
+        }
+    ]
+}

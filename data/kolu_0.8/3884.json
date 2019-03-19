@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "들다.v.Adducing",
+    "frameID": 1601,
+    "frameName": "Adducing",
+    "en_lus": [
+        "ageru .挙げる "
+    ],
+    "lu_id": 3884,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16108",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ageru .挙げる "
+                    ],
+                    "ko_annotation_id": 16108,
+                    "annotation_id": 0,
+                    "frameName": "Adducing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Adducing",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "들어서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Specified_Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 23
+                            },
+                            "text": "재판까지 가게 된 경우를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "text": "예로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3587,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Adducing",
+                    "text": "그래서, 오늘은, 재판까지 가게 된 경우를 예로 들어서, 법률가의 사고 프로세스가 어떠한지를 간단하게 설명해 보겠습니다."
+                }
+            ]
+        }
+    ]
+}

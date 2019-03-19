@@ -1,0 +1,66 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "많다.a.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "ooi .多い "
+    ],
+    "lu_id": 1981,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16636",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ooi .多い "
+                    ],
+                    "ko_annotation_id": 16636,
+                    "annotation_id": 0,
+                    "frameName": "Frequency",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "많지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "손님들께 「컨설턴트」라 불리는 경우도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4688,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "많다.a.Frequency",
+                    "text": "손님들께 「컨설턴트」라 불리는 경우도 많지만, 그다지 진심으로 느껴지지는 않는다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "고통.n.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "distressed"
+    ],
+    "lu_id": 2422,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 401",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "distressed"
+                    ],
+                    "ko_annotation_id": 401,
+                    "annotation_id": 834,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 31,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "정신적 고통이었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "그것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "상당한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 146,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고통.n.Emotion_directed",
+                    "text": "쥐는 때때로 미친듯이 뛰어 다니고, 그것은 분명 상당한 정신적 고통이었다."
+                }
+            ]
+        }
+    ]
+}

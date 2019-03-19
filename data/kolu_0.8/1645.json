@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "시험.n.Examination",
+    "frameID": 107,
+    "frameName": "Examination",
+    "en_lus": [
+        "test"
+    ],
+    "lu_id": 1645,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8997",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "test",
+                        "tests"
+                    ],
+                    "ko_annotation_id": 8997,
+                    "annotation_id": 16544,
+                    "frameName": "Examination",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Examination",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "시험이자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Knowledge",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "대 테러",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3168,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시험.n.Examination",
+                    "text": "그것은 대 테러 시험이자 다가올 태풍 시즌에 대비한 훈련이었다."
+                }
+            ]
+        }
+    ]
+}

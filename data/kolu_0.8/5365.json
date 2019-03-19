@@ -1,0 +1,102 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "쓰다.a.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "employ"
+    ],
+    "lu_id": 5365,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2781",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "employed"
+                    ],
+                    "ko_annotation_id": 2781,
+                    "annotation_id": 5382,
+                    "frameName": "Using",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Using",
+                            "span": {
+                                "begin": 25,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "쓴"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Containing_Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "오늘 뉴욕 타임즈에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 24
+                            },
+                            "text": "Maureen Dowd가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Instrument",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "단어를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1029,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쓰다.a.Using",
+                    "text": "오늘 뉴욕 타임즈에 Maureen Dowd가 쓴 단어를 사용하면, 그는 클린턴의 주된 조력자 중 한 명이었다."
+                }
+            ]
+        }
+    ]
+}

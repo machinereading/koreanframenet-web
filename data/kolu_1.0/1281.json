@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "도움.n.Trust",
+    "ko_pos": "n",
+    "frameID": 1731,
+    "frameName": "Trust",
+    "lu_id": "1281",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4854",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Trust",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "도움이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "현장의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 30
+                            },
+                            "text": "목소리밖에 없다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4854",
+                    "lu": "도움.n.Trust",
+                    "text": "이 경우, 도움이 되는 것은, 현장의 목소리밖에 없다는 것이다."
+                }
+            ]
+        }
+    ]
+}

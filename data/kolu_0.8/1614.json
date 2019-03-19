@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "지난해.n.Calendric_unit",
+    "frameID": 229,
+    "frameName": "Calendric_unit",
+    "en_lus": [
+        "year"
+    ],
+    "lu_id": 1614,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "year"
+                    ],
+                    "ko_annotation_id": 10,
+                    "annotation_id": 19,
+                    "frameName": "Calendric_unit",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Calendric_unit",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "지난해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relative_Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "지난해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지난해.n.Calendric_unit",
+                    "text": "지난해 재해 손실은 순이익이 235.5 백만 달러 또는 주당 2.07 달러 시 5 백만 달러의 총합에 이르렀다."
+                }
+            ]
+        }
+    ]
+}

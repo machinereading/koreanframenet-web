@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이름지.n.Being_named",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "en_lus": [
+        "name"
+    ],
+    "lu_id": 1501,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3025",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "named"
+                    ],
+                    "ko_annotation_id": 3025,
+                    "annotation_id": 5794,
+                    "frameName": "Being_named",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_named",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "이름지은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 33
+                            },
+                            "text": "Ladder Street이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1108,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이름지.n.Being_named",
+                    "text": "사원을 막 지나면 잘 이름지은 Ladder Street이다."
+                }
+            ]
+        }
+    ]
+}

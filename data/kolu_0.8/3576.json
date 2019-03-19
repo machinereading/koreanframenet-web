@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "축하받다.v.Undergoing",
+    "frameID": 1725,
+    "frameName": "Undergoing",
+    "en_lus": [
+        "undergone"
+    ],
+    "lu_id": 3576,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17167",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "undergone"
+                    ],
+                    "ko_annotation_id": 17167,
+                    "annotation_id": 13289,
+                    "frameName": "Undergoing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undergoing",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "기구는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 23
+                            },
+                            "text": "임무와 구조에서 몇 차례의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2650,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "축하받다.v.Undergoing",
+                    "text": "그러나, 기구는 임무와 구조에서 몇 차례의 수정을 받았다."
+                }
+            ]
+        }
+    ]
+}

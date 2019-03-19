@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "사항.n.Entity",
+    "ko_pos": "n",
+    "frameID": 251,
+    "frameName": "Entity",
+    "lu_id": "2463",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4372",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Entity",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "사항을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Formational_Cause",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 22
+                            },
+                            "text": "어른이 전달하고자 하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "사항을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4372",
+                    "lu": "사항.n.Entity",
+                    "text": "이러한 아이들은, 어른이 전달하고자 하는 중요한 사항을 배우는 것이 힘들다."
+                }
+            ]
+        }
+    ]
+}

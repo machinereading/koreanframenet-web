@@ -1,0 +1,71 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "리더.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "say"
+    ],
+    "lu_id": 2297,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10033",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "said"
+                    ],
+                    "ko_annotation_id": 10033,
+                    "annotation_id": 18539,
+                    "frameName": "Statement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "리더인,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 47
+                            },
+                            "text": "네 번째 순위의 기업 연합 리더인, Jose Abello Silva를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3537,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "리더.n.Statement",
+                    "text": "이번주, 정부는 네 번째 순위의 기업 연합 리더인, Jose Abello Silva를 체포하였다"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "전환되다.v.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "convert"
+    ],
+    "lu_id": 2479,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7422",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "converted"
+                    ],
+                    "ko_annotation_id": 7422,
+                    "annotation_id": 13504,
+                    "frameName": "Cause_change",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 81,
+                                "end": 87
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "전환되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 47
+                            },
+                            "text": "Almaty에 주둔한 소비에트 시대 잠수함 발사 미사일 생산자인 Gidromahs사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 70,
+                                "end": 80
+                            },
+                            "text": "민간 영리 기업으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2695,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전환되다.v.Cause_change",
+                    "text": "Almaty에 주둔한 소비에트 시대 잠수함 발사 미사일 생산자인 Gidromahs사는 CTR의 산업 파트너십 프로그램에 의거 민간 영리 기업으로 전환되었다."
+                }
+            ]
+        }
+    ]
+}

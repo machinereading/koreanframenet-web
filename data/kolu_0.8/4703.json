@@ -1,0 +1,83 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "찜찜하다.a.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "harahara .ハラハラ "
+    ],
+    "lu_id": 4703,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11516",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "harahara .ハラハラ "
+                    ],
+                    "ko_annotation_id": 11516,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "찜찜할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 35
+                            },
+                            "text": "예산을 초과해서 사버렸다면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "text": "누구라도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4449,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찜찜하다.a.Emotion_directed",
+                    "text": "물건을 고르다가, 저도 모르는 사이에 예산을 초과해서 사버렸다면 누구라도 찜찜할 것입니다."
+                }
+            ]
+        }
+    ]
+}

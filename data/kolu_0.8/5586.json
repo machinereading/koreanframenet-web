@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "관련되다.v.Participation",
+    "frameID": 1144,
+    "frameName": "Participation",
+    "en_lus": [
+        "involve"
+    ],
+    "lu_id": 5586,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14982",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "involved"
+                    ],
+                    "ko_annotation_id": 14982,
+                    "annotation_id": 13334,
+                    "frameName": "Participation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Participation",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "관련된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "text": "우라늄염 생산에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 42
+                            },
+                            "text": "시설들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2665,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관련되다.v.Participation",
+                    "text": "선광 및 습식제련 연구센터 (BHRC ) 는 우라늄염 생산에 관련된 시설들을 운영하고 있다."
+                }
+            ]
+        }
+    ]
+}

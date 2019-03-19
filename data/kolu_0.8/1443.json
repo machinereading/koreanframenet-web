@@ -1,0 +1,102 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "달리다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "ran"
+    ],
+    "lu_id": 1443,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2878",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ran"
+                    ],
+                    "ko_annotation_id": 2878,
+                    "annotation_id": 5532,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "달렸지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "1904년에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "좁은 이층 전차들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Path",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "text": "해안가를 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1058,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "달리다.v.Self_motion",
+                    "text": "1904년에, 좁은 이층 전차들이 해안가를 따라 달렸지만, 토지 간척으로 이들은 먼 내륙으로 위치하게 되었다."
+                }
+            ]
+        }
+    ]
+}

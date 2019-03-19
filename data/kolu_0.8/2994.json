@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "세대.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "people"
+    ],
+    "lu_id": 2994,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 496",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "people"
+                    ],
+                    "ko_annotation_id": 496,
+                    "annotation_id": 1048,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 38,
+                                "end": 43
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "세대이다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Age",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "text": "젊은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 190,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "세대.n.People",
+                    "text": "결과는 무지와 지적 무능력이 그들 자신의 좋은 생각과 일치되는 젊은 세대이다."
+                }
+            ]
+        }
+    ]
+}

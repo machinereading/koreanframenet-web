@@ -1,0 +1,156 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "지불.n.Commerce_pay",
+    "frameID": 180,
+    "frameName": "Commerce_pay",
+    "en_lus": [
+        "payment",
+        "pay"
+    ],
+    "lu_id": 2027,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4860",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "pay",
+                        "payment"
+                    ],
+                    "ko_annotation_id": 4860,
+                    "annotation_id": 8828,
+                    "frameName": "Commerce_pay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "지불에"
+                        }
+                    ],
+                    "sent_id": 1836,
+                    "relations": [],
+                    "lu": "지불.n.Commerce_pay",
+                    "text": "지불에 관해 … 우리는 지금 5 일 전에 예측해야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9621",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "pay",
+                        "payment"
+                    ],
+                    "ko_annotation_id": 9621,
+                    "annotation_id": 17908,
+                    "frameName": "Commerce_pay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "지불을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 61
+                            },
+                            "text": "Eurodif가 재처리한 3% U-235으로 농축한 우라늄의 인수에 대한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3380,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지불.n.Commerce_pay",
+                    "text": "1980년에서 1990년 까지 이란은 Eurodif가 재처리한 3% U-235으로 농축한 우라늄의 인수에 대한 지불을 거부하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14068",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "pay",
+                        "payment"
+                    ],
+                    "ko_annotation_id": 14068,
+                    "annotation_id": 8820,
+                    "frameName": "Commerce_pay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "지불을"
+                        }
+                    ],
+                    "sent_id": 1833,
+                    "relations": [],
+                    "lu": "지불.n.Commerce_pay",
+                    "text": "지불을 위해 우리는 이틀 전에 돈을 예측해야 한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "노인.n.People_by_age",
+    "frameID": 973,
+    "frameName": "People_by_age",
+    "en_lus": [
+        "roozin .老人 "
+    ],
+    "lu_id": 714,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12042",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "roozin .老人 "
+                    ],
+                    "ko_annotation_id": 12042,
+                    "annotation_id": 0,
+                    "frameName": "People_by_age",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_age",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "노인."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "노인.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4797,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노인.n.People_by_age",
+                    "text": "노인."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "새것.n.Age",
+    "frameID": 972,
+    "frameName": "Age",
+    "en_lus": [
+        "new"
+    ],
+    "lu_id": 3163,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5044",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "new"
+                    ],
+                    "ko_annotation_id": 5044,
+                    "annotation_id": 9116,
+                    "frameName": "Age",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "새것을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "새것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1888,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "새것.n.Age",
+                    "text": "11 BILL : 너는 방금 새것을 받았니 ?"
+                }
+            ]
+        }
+    ]
+}

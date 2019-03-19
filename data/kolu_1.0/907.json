@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "나오다.v.Existence",
+    "ko_pos": "v",
+    "frameID": 660,
+    "frameName": "Existence",
+    "lu_id": "907",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4942",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Existence",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "나오는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "성서에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 60
+                            },
+                            "text": "“In the beginning was the word.”(태초에 말씀이 계시니라.)가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4942",
+                    "lu": "나오다.v.Existence",
+                    "text": "이건, 성서에 나오는 “In the beginning was the word.”(태초에 말씀이 계시니라.)가 아니예요."
+                }
+            ]
+        }
+    ]
+}

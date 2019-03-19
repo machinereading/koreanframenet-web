@@ -1,0 +1,67 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "정당화시키다.v.Justifying",
+    "frameID": 512,
+    "frameName": "Justifying",
+    "en_lus": [
+        "justify"
+    ],
+    "lu_id": 3042,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15844",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "justify"
+                    ],
+                    "ko_annotation_id": 15844,
+                    "annotation_id": 17605,
+                    "frameName": "Justifying",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Justifying",
+                            "span": {
+                                "begin": 29,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "정당화시키는데"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 28
+                            },
+                            "text": "이집트 대통령 안와르 사다트의 암살을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3306,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정당화시키다.v.Justifying",
+                    "text": "종교적 법령이 이집트 대통령 안와르 사다트의 암살을 정당화시키는데 사용되었다."
+                }
+            ]
+        }
+    ]
+}

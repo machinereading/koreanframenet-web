@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "규모.n.Size",
+    "frameID": 2282,
+    "frameName": "Size",
+    "en_lus": [
+        "kibo .規模 "
+    ],
+    "lu_id": 4499,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16203",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kibo .規模 "
+                    ],
+                    "ko_annotation_id": 16203,
+                    "annotation_id": 0,
+                    "frameName": "Size",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Size",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "규모의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "text": "그보다 큰",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "text": "건조물을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3786,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "규모.n.Size",
+                    "text": "대체로 일반 주택 또는, 그보다 큰 규모의 건조물을 가리키는 단어로 받아들여진다."
+                }
+            ]
+        }
+    ]
+}

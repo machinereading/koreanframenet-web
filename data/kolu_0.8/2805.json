@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "잘못되다.v.Bungling",
+    "frameID": 266,
+    "frameName": "Bungling",
+    "en_lus": [
+        "matigaeru .間違える "
+    ],
+    "lu_id": 2805,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10437",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "matigaeru .間違える "
+                    ],
+                    "ko_annotation_id": 10437,
+                    "annotation_id": 0,
+                    "frameName": "Bungling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bungling",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "잘못된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "계산이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3739,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잘못되다.v.Bungling",
+                    "text": "그것은, 계산이 잘못된 것은 아닌지, 과연 얼마나 산 것인지, 신경이 쓰이기 때문입니다."
+                }
+            ]
+        }
+    ]
+}

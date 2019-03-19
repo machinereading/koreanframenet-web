@@ -1,0 +1,66 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "시작하다.v.Temporal_subregion",
+    "frameID": 1470,
+    "frameName": "Temporal_subregion",
+    "en_lus": [
+        "start"
+    ],
+    "lu_id": 879,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1197",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "start"
+                    ],
+                    "ko_annotation_id": 1197,
+                    "annotation_id": 2587,
+                    "frameName": "Temporal_subregion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_subregion",
+                            "span": {
+                                "begin": 66,
+                                "end": 70
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time_Period",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 65
+                            },
+                            "text": "지중해 항해의 오랜 유산을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 490,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Temporal_subregion",
+                    "text": "그들의 호기심은 공해를 건너고 이들 섬에 도착할만큼 충분히 튼튼한 선박을 건조하게 하였고, 지중해 항해의 오랜 유산을 시작하게 하였다."
+                }
+            ]
+        }
+    ]
+}

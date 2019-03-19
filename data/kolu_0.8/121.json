@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "발휘.n.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "hakki .発揮 "
+    ],
+    "lu_id": 121,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16722",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hakki .発揮 "
+                    ],
+                    "ko_annotation_id": 16722,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "발휘"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "그 작가가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "text": "실력을 발휘",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4823,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발휘.n.Intentionally_act",
+                    "text": "따라서, 그 작가가 충분히 실력을 발휘 할 수 있는 주제나 방향성을 찾도록 도움을 줄 것."
+                }
+            ]
+        }
+    ]
+}

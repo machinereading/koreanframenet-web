@@ -1,0 +1,105 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "전달되다.v.Communication",
+    "frameID": 6,
+    "frameName": "Communication",
+    "en_lus": [
+        "communicate"
+    ],
+    "lu_id": 1513,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17113",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "communicated"
+                    ],
+                    "ko_annotation_id": 17113,
+                    "annotation_id": 11907,
+                    "frameName": "Communication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "전달되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "관계를 정상화하기 위한 한 이란인의 계획이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 32
+                            },
+                            "text": "2003년 5월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Addressee",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "미국에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2363,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전달되다.v.Communication",
+                    "text": "관계를 정상화하기 위한 한 이란인의 계획이 2003년 5월 미국에 전달되었다."
+                }
+            ]
+        }
+    ]
+}

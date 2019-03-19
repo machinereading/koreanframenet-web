@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "건너다.v.Traversing",
+    "frameID": 1310,
+    "frameName": "Traversing",
+    "en_lus": [
+        "cross"
+    ],
+    "lu_id": 1639,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 371",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "crossing"
+                    ],
+                    "ko_annotation_id": 371,
+                    "annotation_id": 781,
+                    "frameName": "Traversing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Traversing",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "건너기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "Richmond-San Rafael 다리를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 133,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건너다.v.Traversing",
+                    "text": "Richmond-San Rafael 다리를 건너기 전에 Chevron 정유공장을 내가 지날 때 지독한 가스 냄새가 있었다."
+                }
+            ]
+        }
+    ]
+}

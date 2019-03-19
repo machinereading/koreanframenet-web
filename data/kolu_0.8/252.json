@@ -1,0 +1,135 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "발전하다.v.Progression",
+    "frameID": 1340,
+    "frameName": "Progression",
+    "en_lus": [
+        "develop",
+        "Progress",
+        "development"
+    ],
+    "lu_id": 252,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1875",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "development"
+                    ],
+                    "ko_annotation_id": 1875,
+                    "annotation_id": 3861,
+                    "frameName": "Progression",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Progression",
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "발전하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "인간이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rate",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "서서히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 734,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발전하다.v.Progression",
+                    "text": "화석은 인간이 서서히 그리고 산발적으로 발전하는 불분명한 이야기를 말해준다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14435",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "developing"
+                    ],
+                    "ko_annotation_id": 14435,
+                    "annotation_id": 10952,
+                    "frameName": "Progression",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Progression",
+                            "span": {
+                                "begin": 67,
+                                "end": 74
+                            },
+                            "token_span": [
+                                17,
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "발전하고 있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 75,
+                                "end": 79
+                            },
+                            "text": "세계에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2194,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발전하다.v.Progression",
+                    "text": "Razi와 Pasteur 연구소는 백신 개발 및 생산 경험이 1920 년대부터 시작되었고, 여러 해 동안 이 두 시설은 발전하고 있는 세계에서 가장 진보된 종류로 인식되었다."
+                }
+            ]
+        }
+    ]
+}

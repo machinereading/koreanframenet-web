@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "들다.v.Choosing",
+    "frameID": 352,
+    "frameName": "Choosing",
+    "en_lus": [
+        "hirou .拾う"
+    ],
+    "lu_id": 1023,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10232",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hirou .拾う"
+                    ],
+                    "ko_annotation_id": 10232,
+                    "annotation_id": 0,
+                    "frameName": "Choosing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Choosing",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "들어보자."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Chosen",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "노에를 향한 후렴을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3622,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Choosing",
+                    "text": "노에를 향한 후렴을 들어보자."
+                }
+            ]
+        }
+    ]
+}

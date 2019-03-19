@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "깨우다.v.Cause_to_wake",
+    "frameID": 293,
+    "frameName": "Cause_to_wake",
+    "en_lus": [
+        "wake"
+    ],
+    "lu_id": 5063,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2321",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "wakes"
+                    ],
+                    "ko_annotation_id": 2321,
+                    "annotation_id": 4589,
+                    "frameName": "Cause_to_wake",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_wake",
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "깨우고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "일출은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "text": "동쪽 끝을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 883,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깨우다.v.Cause_to_wake",
+                    "text": "섬은 해양에서 거의 동에서 서로 일직선이어서 일출은 동쪽 끝을 깨우고, 섬의 길이를 어루만지기 위해 이동하고, 그리고 굿나잇으로 서쪽 끝에 키스한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "자극하다.v.Cause_to_start",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "en_lus": [
+        "provoke"
+    ],
+    "lu_id": 2018,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5570",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "provoke"
+                    ],
+                    "ko_annotation_id": 5570,
+                    "annotation_id": 10093,
+                    "frameName": "Cause_to_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_start",
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "자극하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "대량 살상 공격은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 74
+                            },
+                            "text": "정부 당국으로 하여금 매우 공격적으로 테러리스트를 찾도록 자극하여 그들은 결국 살아있는 조직으로서는 파멸될 것이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2059,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자극하다.v.Cause_to_start",
+                    "text": "대량 살상 공격은 정부 당국으로 하여금 매우 공격적으로 테러리스트를 찾도록 자극하여 그들은 결국 살아있는 조직으로서는 파멸될 것이다."
+                }
+            ]
+        }
+    ]
+}

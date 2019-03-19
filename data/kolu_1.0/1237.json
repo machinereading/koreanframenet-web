@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "더_오래되다.a.Age",
+    "ko_pos": "a",
+    "frameID": 972,
+    "frameName": "Age",
+    "lu_id": "1237",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-250",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "더 오래된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 48
+                            },
+                            "text": "교과서들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "250",
+                    "lu": "더_오래되다.a.Age",
+                    "text": "많은 그것들이, 맙소사, 절판되었지만 더 새로운 것들보다는 오히려 더 오래된 교과서들을 사용하는 것이 일반적으로 바람직하다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "거치다.v.Undergoing",
+    "ko_pos": "v",
+    "frameID": 1725,
+    "frameName": "Undergoing",
+    "lu_id": "230",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-986",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undergoing",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "거쳤다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "더블린의 음식은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "대변모를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "986",
+                    "lu": "거치다.v.Undergoing",
+                    "text": "더블린의 음식은 대변모를 거쳤다."
+                }
+            ]
+        }
+    ]
+}

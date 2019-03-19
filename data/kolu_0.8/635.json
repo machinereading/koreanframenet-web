@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비평하다.v.Judgment_communication",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "en_lus": [
+        "critic"
+    ],
+    "lu_id": 635,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12803",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "critics"
+                    ],
+                    "ko_annotation_id": 12803,
+                    "annotation_id": 2159,
+                    "frameName": "Judgment_communication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "비평하는 사람들"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "우리 복지 제도에 대해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "text": "가장 강력하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 412,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비평하다.v.Judgment_communication",
+                    "text": "우리 복지 제도에 대해 가장 강력하게 비평하는 사람들 중 몇 명은 그것에 의존하게 된 사람들이다."
+                }
+            ]
+        }
+    ]
+}

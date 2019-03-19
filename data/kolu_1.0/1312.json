@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "돌리다.v.Membership",
+    "ko_pos": "v",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "lu_id": "1312",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4023",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "돌리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "이러한 결과에 대한 책임을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "그 학파로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4023",
+                    "lu": "돌리다.v.Membership",
+                    "text": "그들은, 이러한 결과에 대한 책임을, 주로 그 학파로 돌리고 있었다."
+                }
+            ]
+        }
+    ]
+}

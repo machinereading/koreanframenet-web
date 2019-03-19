@@ -1,0 +1,99 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "취약하다.a.Being_at_risk",
+    "frameID": 1560,
+    "frameName": "Being_at_risk",
+    "en_lus": [
+        "vulnerable"
+    ],
+    "lu_id": 5451,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 739",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "vulnerable"
+                    ],
+                    "ko_annotation_id": 739,
+                    "annotation_id": 1558,
+                    "frameName": "Being_at_risk",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_at_risk",
+                            "span": {
+                                "begin": 69,
+                                "end": 75
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "취약하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Asset",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 61
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Harmful_Event",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "text": "패배에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Degree",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 68
+                            },
+                            "text": "더욱",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 281,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "취약하다.a.Being_at_risk",
+                    "text": "이들 신참 의원들은 국가정책 결정에서 레이건 혁명을 전파하면서 당파적인 역할을 훨씬 더 강조했기 때문에 그들은 패배에 더욱 취약하였다."
+                }
+            ]
+        }
+    ]
+}

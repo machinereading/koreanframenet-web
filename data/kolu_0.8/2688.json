@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "들리다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "kiku .聴く"
+    ],
+    "lu_id": 2688,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16158",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kiku .聴く"
+                    ],
+                    "ko_annotation_id": 16158,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 30,
+                                "end": 38
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "들려주었습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 26
+                            },
+                            "text": "당시, 유행하던 뮤지컬 영화음악이 담긴 레코드를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "text": "틀고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3636,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들리다.v.Perception_active",
+                    "text": "당시, 유행하던 뮤지컬 영화음악이 담긴 레코드를 틀고 들려주었습니다."
+                }
+            ]
+        }
+    ]
+}

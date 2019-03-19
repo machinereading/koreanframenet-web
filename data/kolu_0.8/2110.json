@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "무능력하다.a.Expertise",
+    "frameID": 136,
+    "frameName": "Expertise",
+    "en_lus": [
+        "incompetence"
+    ],
+    "lu_id": 2110,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 494",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "incompetence"
+                    ],
+                    "ko_annotation_id": 494,
+                    "annotation_id": 1049,
+                    "frameName": "Expertise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expertise",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "무능력이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Knowledge",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "지적",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 190,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무능력하다.a.Expertise",
+                    "text": "결과는 무지와 지적 무능력이 그들 자신의 좋은 생각과 일치되는 젊은 세대이다."
+                }
+            ]
+        }
+    ]
+}

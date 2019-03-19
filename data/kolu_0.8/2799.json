@@ -1,0 +1,305 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "먹다.v.Ingestion",
+    "frameID": 263,
+    "frameName": "Ingestion",
+    "en_lus": [
+        "taberu .食べる ",
+        "consume",
+        "eat"
+    ],
+    "lu_id": 2799,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4411",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "eating",
+                        "consuming",
+                        "taberu .食べる "
+                    ],
+                    "ko_annotation_id": 4411,
+                    "annotation_id": 8049,
+                    "frameName": "Ingestion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "먹기를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 15
+                            },
+                            "text": "이슬람 Halal 음식",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1642,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "먹다.v.Ingestion",
+                    "text": "3- 이슬람 Halal 음식 먹기를 고수하기 ( T.C : 코란 구절 )."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10057",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "eating",
+                        "consuming",
+                        "taberu .食べる "
+                    ],
+                    "ko_annotation_id": 10057,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "먹지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "박쥐는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "하룻밤에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 21
+                            },
+                            "text": "약 2천 마리의 모기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3542,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "먹다.v.Ingestion",
+                    "text": "박쥐는 하룻밤에 약 2천 마리의 모기를 먹지 않으면, 살 수 없습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10238",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "taberu .食べる "
+                    ],
+                    "ko_annotation_id": 10238,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "먹는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "박쥐는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "모기의 몸을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3625,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "먹다.v.Ingestion",
+                    "text": "박쥐는 모기의 몸을 먹는 것이 아니라, 모기가 마신 피를 마실 뿐이므로, 몸은 바로 배출해버립니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13702",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "eating",
+                        "consuming",
+                        "taberu .食べる "
+                    ],
+                    "ko_annotation_id": 13702,
+                    "annotation_id": 6781,
+                    "frameName": "Ingestion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "먹고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "한 아버지와 아들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 21
+                            },
+                            "text": "Herron 제품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1376,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "먹다.v.Ingestion",
+                    "text": "한 아버지와 아들이 Herron 제품을 먹고 스트리크닌 중독으로 병원에 입원하였다."
+                }
+            ]
+        }
+    ]
+}

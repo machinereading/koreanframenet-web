@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "육군성.n.Organization",
+    "frameID": 1371,
+    "frameName": "Organization",
+    "en_lus": [
+        "syoo .省"
+    ],
+    "lu_id": 1419,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10282",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syoo .省"
+                    ],
+                    "ko_annotation_id": 10282,
+                    "annotation_id": 0,
+                    "frameName": "Organization",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Organization",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "육군성과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "육군성과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3649,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "육군성.n.Organization",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "검토하다.v.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "study"
+    ],
+    "lu_id": 1517,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14006",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "study"
+                    ],
+                    "ko_annotation_id": 14006,
+                    "annotation_id": 8536,
+                    "frameName": "Scrutiny",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "검토할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 35
+                            },
+                            "text": "대통령이 오늘 제시한 계획을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1755,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검토하다.v.Scrutiny",
+                    "text": "Paula_Zahn : 나는 당신이 대통령이 오늘 제시한 계획을 검토할 기회를 가졌다고 생각한다."
+                }
+            ]
+        }
+    ]
+}

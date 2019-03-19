@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "얼굴.n.Facial_expression",
+    "frameID": 161,
+    "frameName": "Facial_expression",
+    "en_lus": [
+        "omomoti .面持ち "
+    ],
+    "lu_id": 4502,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16482",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "omomoti .面持ち "
+                    ],
+                    "ko_annotation_id": 16482,
+                    "annotation_id": 0,
+                    "frameName": "Facial_expression",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Facial_expression",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "얼굴로,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "두 사람 모두",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Conveyed_Emotion",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "긴장한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4383,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "얼굴.n.Facial_expression",
+                    "text": "두 사람 모두 긴장한 얼굴로, 가만히 생각에 잠겨 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "들어오다.v.Hearsay",
+    "frameID": 37,
+    "frameName": "Hearsay",
+    "en_lus": [
+        "hearing"
+    ],
+    "lu_id": 2669,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14001",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hearing"
+                    ],
+                    "ko_annotation_id": 14001,
+                    "annotation_id": 8492,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "들어왔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 19
+                            },
+                            "text": "조류 독감에 대해 아주 많이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1744,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들어오다.v.Hearsay",
+                    "text": "당신은 조류 독감에 대해 아주 많이 들어왔다."
+                }
+            ]
+        }
+    ]
+}

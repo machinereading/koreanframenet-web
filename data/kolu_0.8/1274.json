@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "실패하다.v.Success_or_failure",
+    "frameID": 1388,
+    "frameName": "Success_or_failure",
+    "en_lus": [
+        "fails"
+    ],
+    "lu_id": 1274,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14035",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fails"
+                    ],
+                    "ko_annotation_id": 14035,
+                    "annotation_id": 8648,
+                    "frameName": "Success_or_failure",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Success_or_failure",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "실패한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "그들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "text": "전달하는데",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1784,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "실패하다.v.Success_or_failure",
+                    "text": "Hamas의 기본 메시지는 그들이 전달하는데 실패한 팔레스타인 당국은 부패하고 Hamas는 부패하지 않다는 것이다."
+                }
+            ]
+        }
+    ]
+}

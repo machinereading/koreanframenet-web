@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "매일.n.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "every"
+    ],
+    "lu_id": 327,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12793",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "every"
+                    ],
+                    "ko_annotation_id": 12793,
+                    "annotation_id": 2147,
+                    "frameName": "Frequency",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "매일의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interval",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "text": "매일의 그들의 삶에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 407,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "매일.n.Frequency",
+                    "text": "그리고 매일의 그들의 삶에서 이러한 도전에 직면하는 많은 사람이 있습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "강타.n.Attack",
+    "frameID": 424,
+    "frameName": "Attack",
+    "en_lus": [
+        "strike"
+    ],
+    "lu_id": 5633,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7121",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "strikes"
+                    ],
+                    "ko_annotation_id": 7121,
+                    "annotation_id": 12928,
+                    "frameName": "Attack",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attack",
+                            "span": {
+                                "begin": 71,
+                                "end": 74
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "강타,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 60,
+                                "end": 66
+                            },
+                            "text": "도시에 대한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Weapon",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "text": "미사일",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2581,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "강타.n.Attack",
+                    "text": "이라크와의 8년간의 전쟁, Bushehr 원자로 사이트에서의 많은 폭격, 이란의 군사력에 대한 화학 공격, 도시에 대한 미사일 강타,  그리고 전체적인 자원 고갈은 분명히 이란에 파괴적인 영향을 주었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "당국자.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "official"
+    ],
+    "lu_id": 2442,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6254",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "officials"
+                    ],
+                    "ko_annotation_id": 6254,
+                    "annotation_id": 11305,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "당국자들을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "미국",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Domain",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "정보",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2260,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "당국자.n.Leadership",
+                    "text": "미국 정보 당국자들을 인용한 일부 출처는 또한 이란이 사린, 타분, 그리고 V-계열 신경 작용제를 개발하였다고 주장한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "예측.n.Estimated_value",
+    "frameID": 1516,
+    "frameName": "Estimated_value",
+    "en_lus": [
+        "Estimates"
+    ],
+    "lu_id": 4815,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7840",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Estimates"
+                    ],
+                    "ko_annotation_id": 7840,
+                    "annotation_id": 14264,
+                    "frameName": "Estimated_value",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Estimated_value",
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "예측은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Question",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 38
+                            },
+                            "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2813,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예측.n.Estimated_value",
+                    "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한 예측은 서로 다르지만, 북한은 아마도 10년 내에는 상당량의 무기급 고농축 우라늄을 생산할 수 없을 것이다."
+                }
+            ]
+        }
+    ]
+}

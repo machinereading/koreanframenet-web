@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "분출되다.v.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "erupt"
+    ],
+    "lu_id": 1685,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1810",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "erupted"
+                    ],
+                    "ko_annotation_id": 1810,
+                    "annotation_id": 3753,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "분출된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 50
+                            },
+                            "text": "영국이 1948년에 그들의 병력을 철수하면서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "text": "싸움을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 716,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분출되다.v.Process_start",
+                    "text": "그러나 결정을 집행할 수단의 부족으로, 유엔은 영국이 1948년에 그들의 병력을 철수하면서 분출된 싸움을 멈추게 할 힘이 없었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "고통스럽다.a.Emotion_directed",
+    "ko_pos": "a",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "lu_id": "455",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-146",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "고통이었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "그것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "상당한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "146",
+                    "lu": "고통스럽다.a.Emotion_directed",
+                    "text": "쥐는 때때로 미친듯이 뛰어 다니고, 그것은 분명 상당한 고통이었다."
+                }
+            ]
+        }
+    ]
+}

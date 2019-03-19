@@ -1,0 +1,123 @@
+{
+    "en_lus": [],
+    "ko_lu": "받다.v.Communication_response",
+    "ko_pos": "v",
+    "frameID": 42,
+    "frameName": "Communication_response",
+    "lu_id": "1885",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3609",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_response",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Trigger",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "호출음이 한 번 울리는 중에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "어머니가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3609",
+                    "lu": "받다.v.Communication_response",
+                    "text": "호출음이 한 번 울리는 중에 어머니가 받았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4604",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_response",
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "받자마자,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 32
+                            },
+                            "text": "「다카시냐？」라고 물었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4604",
+                    "lu": "받다.v.Communication_response",
+                    "text": "받자마자, 신경질적인 목소리로, 「다카시냐？」라고 물었다."
+                }
+            ]
+        }
+    ]
+}

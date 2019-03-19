@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "서두.n.Temporal_subregion",
+    "frameID": 1470,
+    "frameName": "Temporal_subregion",
+    "en_lus": [
+        "bootoo .冒頭"
+    ],
+    "lu_id": 5085,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10560",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "bootoo .冒頭"
+                    ],
+                    "ko_annotation_id": 10560,
+                    "annotation_id": 0,
+                    "frameName": "Temporal_subregion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_subregion",
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "서두"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time_Period",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "text": "이 여자 토너먼트전의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sub_Part",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "서두",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3837,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "서두.n.Temporal_subregion",
+                    "text": "따라서 이 여자 토너먼트전의 서두 인사말에서 가와이시 미키노스케가 말했다시피, 이것은 「세계 최초이자, 유도의 종주국인 일본에서조차 개최된 적이 없는」 의욕적인 실험이었다."
+                }
+            ]
+        }
+    ]
+}

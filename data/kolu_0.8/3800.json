@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "이상하다.a.Grasp",
+    "frameID": 979,
+    "frameName": "Grasp",
+    "en_lus": [
+        "hen .変 "
+    ],
+    "lu_id": 3800,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10563",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hen .変 "
+                    ],
+                    "ko_annotation_id": 10563,
+                    "annotation_id": 0,
+                    "frameName": "Grasp",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grasp",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이상한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "일이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이상하다.a.Grasp",
+                    "text": "하지만, 극히 드물게, 이상한 일이 일어난다."
+                }
+            ]
+        }
+    ]
+}

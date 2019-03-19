@@ -1,0 +1,86 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "못하다.a.Deny_or_grant_permission",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "en_lus": [
+        "prohibit"
+    ],
+    "lu_id": 1331,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16077",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "prohibited"
+                    ],
+                    "ko_annotation_id": 16077,
+                    "annotation_id": 18468,
+                    "frameName": "Deny_or_grant_permission",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 112,
+                                "end": 115
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "못하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 95
+                            },
+                            "text": "Siemens의 자회사인 스페인의 Empresarios Agrupados사",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 101,
+                                "end": 111
+                            },
+                            "text": "원자로들을 완성하지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3520,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "못하다.a.Deny_or_grant_permission",
+                    "text": "독일 정부는 지멘스/KWU 사업부가 이란의 Bushehr 원자로를 완성하도록 허용하지 않을 것과 Siemens의 자회사인 스페인의 Empresarios Agrupados사 또한 그 원자로들을 완성하지 못하게 할 것임을 발표한다."
+                }
+            ]
+        }
+    ]
+}

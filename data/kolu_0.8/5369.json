@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "건너다.v.Intentional_traversing",
+    "frameID": 1642,
+    "frameName": "Intentional_traversing",
+    "en_lus": [
+        "ford"
+    ],
+    "lu_id": 5369,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1206",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ford"
+                    ],
+                    "ko_annotation_id": 1206,
+                    "annotation_id": 2583,
+                    "frameName": "Intentional_traversing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentional_traversing",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "건너고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "공해를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "text": "선박을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 490,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건너다.v.Intentional_traversing",
+                    "text": "그들의 호기심은 공해를 건너고 이들 섬에 도착할만큼 충분히 튼튼한 선박을 건조하게 하였고, 지중해 항해의 오랜 유산을 시작하게 하였다."
+                }
+            ]
+        }
+    ]
+}

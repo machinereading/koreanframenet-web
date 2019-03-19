@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "지배하다.v.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "rule"
+    ],
+    "lu_id": 1767,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1313",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ruled"
+                    ],
+                    "ko_annotation_id": 1313,
+                    "annotation_id": 2751,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "지배하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "text": "아테네가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 45
+                            },
+                            "text": "성스러운 섬이고 종교 센터인 Delos",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 522,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지배하다.v.Leadership",
+                    "text": "이 시대의 발군의 섬들은 아테네가 지배하는 성스러운 섬이고 종교 센터인 Delos ; 폭군 Polycrates가 지배하는 Samos ; 그리고 통치자 Lygdamis가 일부 중요한 건설 프로젝트를 맡았던 Naxos 섬이였다."
+                }
+            ]
+        }
+    ]
+}

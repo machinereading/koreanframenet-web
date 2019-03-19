@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "재잘거리다.v.Make_noise",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "en_lus": [
+        "chatter"
+    ],
+    "lu_id": 3110,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2964",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "chattering"
+                    ],
+                    "ko_annotation_id": 2964,
+                    "annotation_id": 5693,
+                    "frameName": "Make_noise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "재잘거리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "text": "정글 새들의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1090,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재잘거리다.v.Make_noise",
+                    "text": "공원의 동물원은 신기하고 멋진 재잘거리는 정글 새들의 집합장이다."
+                }
+            ]
+        }
+    ]
+}

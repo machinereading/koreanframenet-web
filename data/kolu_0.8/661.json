@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "수많다.a.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "numerous"
+    ],
+    "lu_id": 661,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2389",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "numerous"
+                    ],
+                    "ko_annotation_id": 2389,
+                    "annotation_id": 4687,
+                    "frameName": "Quantity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Quantity",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "수많은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "타운은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 904,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수많다.a.Quantity",
+                    "text": "13개의 지역 교구와 수많은 타운은 원래 영국인 정착지의 이름을 따서 명명되어졌다."
+                }
+            ]
+        }
+    ]
+}

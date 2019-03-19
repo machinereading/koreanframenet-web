@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "동감하다.v.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "dookan .同感 "
+    ],
+    "lu_id": 2070,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16736",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dookan .同感 "
+                    ],
+                    "ko_annotation_id": 16736,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "동감한다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이런 사람들은,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4846,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동감하다.v.Emotion_directed",
+                    "text": "이런 사람들은, 일반적으로, 실행에 옮길지는 차치하고라도, 적어도 동감한다는 점에서는, 정치적으로 토리당와 한편이다."
+                }
+            ]
+        }
+    ]
+}

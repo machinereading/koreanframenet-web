@@ -1,0 +1,71 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "확실하다.a.Likelihood",
+    "frameID": 114,
+    "frameName": "Likelihood",
+    "en_lus": [
+        "certainly",
+        "Certainly"
+    ],
+    "lu_id": 5503,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5359",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "certainly",
+                        "Certainly"
+                    ],
+                    "ko_annotation_id": 5359,
+                    "annotation_id": 9695,
+                    "frameName": "Likelihood",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Likelihood",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "확실히,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hypothetical_Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 30
+                            },
+                            "text": "콜롬비아 언론은 그것을 더 필요로 하고 있다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2005,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확실하다.a.Likelihood",
+                    "text": "확실히, 콜롬비아 언론은 그것을 더 필요로 하고 있다."
+                }
+            ]
+        }
+    ]
+}

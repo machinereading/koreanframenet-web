@@ -1,0 +1,155 @@
+{
+    "en_lus": [],
+    "ko_lu": "알리다.v.Reporting",
+    "ko_pos": "v",
+    "frameID": 483,
+    "frameName": "Reporting",
+    "lu_id": "3143",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1663",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reporting",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "알려야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Informer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "문제를 해결하도록",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Authorities",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "지휘관에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1663",
+                    "lu": "알리다.v.Reporting",
+                    "text": "그는 문제를 해결하도록 지휘관에게 알려야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2360",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reporting",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "알리지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Informer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Authorities",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "IAEA에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2360",
+                    "lu": "알리다.v.Reporting",
+                    "text": "이와같은 위반은 이란이 IAEA에 알리지 않고, 핵 물질을 시설에서 시험했다면 발생했을 것이다."
+                }
+            ]
+        }
+    ]
+}

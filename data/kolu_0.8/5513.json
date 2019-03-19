@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "밝혀지다.v.Reveal_secret",
+    "frameID": 1146,
+    "frameName": "Reveal_secret",
+    "en_lus": [
+        "reveal"
+    ],
+    "lu_id": 5513,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8253",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "revealed"
+                    ],
+                    "ko_annotation_id": 8253,
+                    "annotation_id": 15059,
+                    "frameName": "Reveal_secret",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reveal_secret",
+                            "span": {
+                                "begin": 34,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "밝혀지지 않은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 33
+                            },
+                            "text": "1990년대 말까지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 54
+                            },
+                            "text": "우라늄 농축 프로그램을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2932,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "밝혀지다.v.Reveal_secret",
+                    "text": "이 기간 동안 획득한 일부 기술과 장비는 1990년대 말까지 밝혀지지 않은 우라늄 농축 프로그램을 위한 군민 겸용으로 응용되었다."
+                }
+            ]
+        }
+    ]
+}

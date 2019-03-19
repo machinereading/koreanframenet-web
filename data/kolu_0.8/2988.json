@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "알아보다.v.Research",
+    "frameID": 1152,
+    "frameName": "Research",
+    "en_lus": [
+        "siraberu .調べる"
+    ],
+    "lu_id": 2988,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11558",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "siraberu .調べる"
+                    ],
+                    "ko_annotation_id": 11558,
+                    "annotation_id": 0,
+                    "frameName": "Research",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Research",
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "알아보아도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Field",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "인터넷에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4475,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "알아보다.v.Research",
+                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다."
+                }
+            ]
+        }
+    ]
+}

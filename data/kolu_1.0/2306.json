@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "비.n.Precipitation",
+    "ko_pos": "n",
+    "frameID": 314,
+    "frameName": "Precipitation",
+    "lu_id": "2306",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-972",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Precipitation",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "비를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Frequency",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "언제나",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "더블린에서는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "972",
+                    "lu": "비.n.Precipitation",
+                    "text": "언제나 더블린에서는 당신은 비를 맞지 않을 것이다."
+                }
+            ]
+        }
+    ]
+}

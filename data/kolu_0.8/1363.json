@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "계약하다.v.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "keeyaku .契約 "
+    ],
+    "lu_id": 1363,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12198",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "keeyaku .契約 "
+                    ],
+                    "ko_annotation_id": 12198,
+                    "annotation_id": 0,
+                    "frameName": "Being_obligated",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_obligated",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "계약한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "계약한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duty",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 33
+                            },
+                            "text": "잘 나가는 작품을 만들어내지 못하면,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "계약하다.v.Being_obligated",
+                    "text": "따라서, 계약한 작가가 잘 나가는 작품을 만들어내지 못하면, 작가 에이전트도 운영이 곧바로 어려워진다."
+                }
+            ]
+        }
+    ]
+}

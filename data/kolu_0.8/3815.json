@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "찾다.v.Existence",
+    "frameID": 660,
+    "frameName": "Existence",
+    "en_lus": [
+        "nai .ない"
+    ],
+    "lu_id": 3815,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11560",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nai .ない"
+                    ],
+                    "ko_annotation_id": 11560,
+                    "annotation_id": 0,
+                    "frameName": "Existence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Existence",
+                            "span": {
+                                "begin": 49,
+                                "end": 57
+                            },
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "찾을 수 없다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Point_Of_View",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 40
+                            },
+                            "text": "개개의 부품에 관해서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "text": "설명도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4475,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찾다.v.Existence",
+                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다."
+                }
+            ]
+        }
+    ]
+}

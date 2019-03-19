@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "빗다.v.Separating",
+    "frameID": 15,
+    "frameName": "Separating",
+    "en_lus": [
+        "wakeru .分ける "
+    ],
+    "lu_id": 1364,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16085",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "wakeru .分ける "
+                    ],
+                    "ko_annotation_id": 16085,
+                    "annotation_id": 0,
+                    "frameName": "Separating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Separating",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "빗고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "붉은 머리카락을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "깔끔하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3545,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빗다.v.Separating",
+                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다."
+                }
+            ]
+        }
+    ]
+}

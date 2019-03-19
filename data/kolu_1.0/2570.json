@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "생명.n.Importance",
+    "ko_pos": "n",
+    "frameID": 407,
+    "frameName": "Importance",
+    "lu_id": "2570",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4309",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Importance",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "생명선이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Factor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이것이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Interested_Party",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "작가 에이전트에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4309",
+                    "lu": "생명.n.Importance",
+                    "text": "이것이 작가 에이전트에게 문자 그대로 생명선이 된다."
+                }
+            ]
+        }
+    ]
+}

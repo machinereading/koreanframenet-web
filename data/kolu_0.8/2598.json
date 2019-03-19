@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "리듬.n.Temporal_pattern",
+    "frameID": 1040,
+    "frameName": "Temporal_pattern",
+    "en_lus": [
+        "rhythm"
+    ],
+    "lu_id": 2598,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12457",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "rhythm"
+                    ],
+                    "ko_annotation_id": 12457,
+                    "annotation_id": 205,
+                    "frameName": "Temporal_pattern",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_pattern",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "리듬은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "타종의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "지속적인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 30,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "리듬.n.Temporal_pattern",
+                    "text": "그러면, 신호에 맞추어 종지기들은 타종의 지속적인 리듬은 바꾸지 않고 종이 울리는 순서를 바꾸기 시작한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "사건.n.Trial",
+    "frameID": 201,
+    "frameName": "Trial",
+    "en_lus": [
+        "case"
+    ],
+    "lu_id": 63,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5050",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "cases"
+                    ],
+                    "ko_annotation_id": 5050,
+                    "annotation_id": 9134,
+                    "frameName": "Trial",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Trial",
+                            "span": {
+                                "begin": 49,
+                                "end": 51
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "형사"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Defendant",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "text": "가져올",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1895,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사건.n.Trial",
+                    "text": "음  나는 개인적으로 재판제도에 eogo 검토할 생각하며 우리는 그들이 가져올 형사 - 형사 사건에 대해 얘기하는 중이다."
+                }
+            ]
+        }
+    ]
+}

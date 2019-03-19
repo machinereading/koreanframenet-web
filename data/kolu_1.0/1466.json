@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "떠나다.v.Giving",
+    "ko_pos": "v",
+    "frameID": 139,
+    "frameName": "Giving",
+    "lu_id": "1466",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-45",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "떠나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 57
+                            },
+                            "text": "아래에 있는 다른 사람들의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 61
+                            },
+                            "text": "예배를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "45",
+                    "lu": "떠나다.v.Giving",
+                    "text": "교대가 완료되었을 때, 그리고 그들이 땀이 날 때까지 작업한 후, 종지기들은 아래에 있는 다른 사람들의 예배를 떠나, 종종 지역 선술집으로 빠져나간다."
+                }
+            ]
+        }
+    ]
+}

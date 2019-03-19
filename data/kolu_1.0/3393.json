@@ -1,0 +1,59 @@
+{
+    "en_lus": [],
+    "ko_lu": "영역.n.Range",
+    "ko_pos": "n",
+    "frameID": 1350,
+    "frameName": "Range",
+    "lu_id": "3393",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3814",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Range",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "영역은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 34
+                            },
+                            "text": "천황을 중심으로 한 하나의 나라입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3814",
+                    "lu": "영역.n.Range",
+                    "text": "다시 말해서 그 영역은 천황을 중심으로 한 하나의 나라입니다."
+                }
+            ]
+        }
+    ]
+}

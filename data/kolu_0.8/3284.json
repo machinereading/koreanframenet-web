@@ -1,0 +1,96 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "도서관.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "library"
+    ],
+    "lu_id": 3284,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 331",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "library"
+                    ],
+                    "ko_annotation_id": 331,
+                    "annotation_id": 704,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 32,
+                                "end": 38
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "중앙도서관에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 38
+                            },
+                            "text": "버클리 중앙도서관에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 112,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도서관.n.Buildings",
+                    "text": "오전 12시 6분 HRH : 나는 지진이 났을 때 버클리 중앙도서관에 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13539",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "library"
+                    ],
+                    "ko_annotation_id": 13539,
+                    "annotation_id": 6086,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "도서관,"
+                        }
+                    ],
+                    "sent_id": 1161,
+                    "relations": [],
+                    "lu": "도서관.n.Buildings",
+                    "text": "중앙은 갈채를 받고 있는 음향 기기, 극장, 도서관, 전시 갤러리, 가게, 식당, 그리고 바를 갖춘 콘서트 홀을 포함하고 있다."
+                }
+            ]
+        }
+    ]
+}

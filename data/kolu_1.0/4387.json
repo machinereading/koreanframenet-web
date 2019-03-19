@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "조사하다.v.Criminal_investigation",
+    "ko_pos": "v",
+    "frameID": 500,
+    "frameName": "Criminal_investigation",
+    "lu_id": "4387",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1725",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Criminal_investigation",
+                            "span": {
+                                "begin": 69,
+                                "end": 73
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "조사하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Incident",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 68
+                            },
+                            "text": "백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Investigator",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "text": "공화당원들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1725",
+                    "lu": "조사하다.v.Criminal_investigation",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
+                }
+            ]
+        }
+    ]
+}

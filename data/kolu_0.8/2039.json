@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "적용되다.v.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "application"
+    ],
+    "lu_id": 2039,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9721",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "applications"
+                    ],
+                    "ko_annotation_id": 9721,
+                    "annotation_id": 18038,
+                    "frameName": "Purpose",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "적용될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Means",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이 품목들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "핵무기에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3414,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "적용되다.v.Purpose",
+                    "text": "이 품목들은 핵무기에 적용될 수 있을 것이다 ( 6577 )."
+                }
+            ]
+        }
+    ]
+}

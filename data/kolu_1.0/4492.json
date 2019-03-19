@@ -1,0 +1,63 @@
+{
+    "en_lus": [],
+    "ko_lu": "주시당하다.v.Statement",
+    "ko_pos": "v",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "4492",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1349",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "주었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 45
+                            },
+                            "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1349",
+                    "lu": "주시당하다.v.Statement",
+                    "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한 계약을 주었다."
+                }
+            ]
+        }
+    ]
+}

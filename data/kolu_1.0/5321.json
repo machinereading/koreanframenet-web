@@ -1,0 +1,83 @@
+{
+    "en_lus": [],
+    "ko_lu": "학교_선생.n.Education_teaching",
+    "ko_pos": "n",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "lu_id": "5321",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-204",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "학교 선생들을"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "204",
+                    "lu": "학교_선생.n.Education_teaching",
+                    "text": "나는 많은 학교 선생들을 알고 그리고, 대체적으로, 그들은 양심적인 교육에 진지하게 전념하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-201",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "학교 선생이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "201",
+                    "lu": "학교_선생.n.Education_teaching",
+                    "text": "나는 결국 학교 선생이 될지도 모른다는 생각을 하며, 나 자신은 대학에서 그와 같은 과목들을 수강했다."
+                }
+            ]
+        }
+    ]
+}

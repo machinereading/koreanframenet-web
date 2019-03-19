@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "전진하다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "susumu .進む"
+    ],
+    "lu_id": 2260,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17390",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "susumu .進む"
+                    ],
+                    "ko_annotation_id": 17390,
+                    "annotation_id": 0,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "전진하라.」"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Direction",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "「앞으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4410,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전진하다.v.Self_motion",
+                    "text": "「앞으로 전진하라.」 큰 북과 징도 울리며, 군은 엄숙하게 행진했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "원인.n.Causation",
+    "ko_pos": "n",
+    "frameID": 5,
+    "frameName": "Causation",
+    "lu_id": "3607",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1236",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "원인으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 44
+                            },
+                            "text": "전국적으로 큰 것들과 \" 특대 \" 를 좋아하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "비만의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1236",
+                    "lu": "원인.n.Causation",
+                    "text": "건강 전문가와 연구자들은 점점 더 전국적으로 큰 것들과 \" 특대 \" 를 좋아하는 것이 비만의 주된 원인으로 지적하고 있다."
+                }
+            ]
+        }
+    ]
+}

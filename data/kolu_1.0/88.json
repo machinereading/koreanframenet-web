@@ -1,0 +1,59 @@
+{
+    "en_lus": [],
+    "ko_lu": "간격.n.Frequency",
+    "ko_pos": "n",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "lu_id": "88",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-145",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "간격으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 35
+                            },
+                            "text": "흔들림은 나의 집 전체로 퍼졌고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "145",
+                    "lu": "간격.n.Frequency",
+                    "text": "예측 못할 간격으로 몇 분마다 흔들림은 나의 집 전체로 퍼졌고, 나의 부엌에 살고 있던 쥐가 나의 책상 밑으로 피난하였다."
+                }
+            ]
+        }
+    ]
+}

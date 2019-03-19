@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "배출하다.v.Emitting",
+    "ko_pos": "v",
+    "frameID": 359,
+    "frameName": "Emitting",
+    "lu_id": "2007",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3625",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emitting",
+                            "span": {
+                                "begin": 47,
+                                "end": 55
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "배출해버립니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source_Emitter",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "박쥐는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Emission",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "text": "몸은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3625",
+                    "lu": "배출하다.v.Emitting",
+                    "text": "박쥐는 모기의 몸을 먹는 것이 아니라, 모기가 마신 피를 마실 뿐이므로, 몸은 바로 배출해버립니다."
+                }
+            ]
+        }
+    ]
+}

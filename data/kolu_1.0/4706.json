@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "직전.n.Locative_relation",
+    "ko_pos": "n",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "lu_id": "4706",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4379",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "직전에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "신호",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4379",
+                    "lu": "직전.n.Locative_relation",
+                    "text": "신호 직전에서 택시는 정지한다."
+                }
+            ]
+        }
+    ]
+}

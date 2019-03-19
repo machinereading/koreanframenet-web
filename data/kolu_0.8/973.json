@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "포함하다.v.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "cover"
+    ],
+    "lu_id": 973,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13908",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "cover"
+                    ],
+                    "ko_annotation_id": 13908,
+                    "annotation_id": 7940,
+                    "frameName": "Topic",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Topic",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "포함해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "엄격한 통제 체제가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "상기 항목을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1623,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포함하다.v.Topic",
+                    "text": "엄격한 통제 체제가 상기 항목을 포함해야 한다."
+                }
+            ]
+        }
+    ]
+}

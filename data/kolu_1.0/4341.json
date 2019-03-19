@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "제자.n.Education_teaching",
+    "ko_pos": "n",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "lu_id": "4341",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4473",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "제자들은,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "동양의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Student",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "제자들은,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4473",
+                    "lu": "제자.n.Education_teaching",
+                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다."
+                }
+            ]
+        }
+    ]
+}

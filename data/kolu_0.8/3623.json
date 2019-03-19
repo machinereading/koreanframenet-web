@@ -1,0 +1,125 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "괴롭다.a.Experiencer_obj",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "en_lus": [
+        "kurusimeru .苦しめる "
+    ],
+    "lu_id": 3623,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16205",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kurusimeru .苦しめる "
+                    ],
+                    "ko_annotation_id": 16205,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_obj",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "괴롭게 한다."
+                        }
+                    ],
+                    "sent_id": 3789,
+                    "relations": [],
+                    "lu": "괴롭다.a.Experiencer_obj",
+                    "text": "게다가 병까지 얻어 와서 괴롭게 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16485",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kurusimeru .苦しめる "
+                    ],
+                    "ko_annotation_id": 16485,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_obj",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 55,
+                                "end": 60
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "괴로웠다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Explanation",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 47
+                            },
+                            "text": "환골탈태, 내용은 내가 쓴 내용과 전혀 다른 드라마가, 높은 시청률을 기록했기 때문에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 54
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4392,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "괴롭다.a.Experiencer_obj",
+                    "text": "환골탈태, 내용은 내가 쓴 내용과 전혀 다른 드라마가, 높은 시청률을 기록했기 때문에 더더욱 나는 괴로웠다."
+                }
+            ]
+        }
+    ]
+}

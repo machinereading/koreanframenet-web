@@ -1,0 +1,103 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "취하하다.v.Verdict",
+    "frameID": 318,
+    "frameName": "Verdict",
+    "en_lus": [
+        "acquit"
+    ],
+    "lu_id": 164,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4526",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "acquitted"
+                    ],
+                    "ko_annotation_id": 4526,
+                    "annotation_id": 8220,
+                    "frameName": "Verdict",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verdict",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "취하되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Defendant",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Charges",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 24
+                            },
+                            "text": "알 카이다와 유대관계를 가졌다는 고소가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "text": "요르단에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1679,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "취하하다.v.Verdict",
+                    "text": "그는 알 카이다와 유대관계를 가졌다는 고소가 요르단에서 취하되었다."
+                }
+            ]
+        }
+    ]
+}

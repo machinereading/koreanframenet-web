@@ -1,0 +1,94 @@
+{
+    "en_lus": [],
+    "ko_lu": "받다.v.Giving",
+    "ko_pos": "v",
+    "frameID": 139,
+    "frameName": "Giving",
+    "lu_id": "1887",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3913",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "받았다며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 24
+                            },
+                            "text": "동년배들이 하나둘,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 34
+                            },
+                            "text": "정형외과 의사에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "text": "그런 진단을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3913",
+                    "lu": "받다.v.Giving",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
+                }
+            ]
+        }
+    ]
+}

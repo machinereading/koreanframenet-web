@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "빠지다.v.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "bent"
+    ],
+    "lu_id": 5011,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2503",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "bent"
+                    ],
+                    "ko_annotation_id": 2503,
+                    "annotation_id": 4924,
+                    "frameName": "Purpose",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "빠진"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "text": "즐거운 시간에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "text": "사람들로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 948,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빠지다.v.Purpose",
+                    "text": "밤에 거리는 즐거운 시간에 빠진 사람들로 붐빈다."
+                }
+            ]
+        }
+    ]
+}

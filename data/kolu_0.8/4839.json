@@ -1,0 +1,121 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "않다.a.Existence",
+    "frameID": 660,
+    "frameName": "Existence",
+    "en_lus": [
+        "there",
+        "nai .ない"
+    ],
+    "lu_id": 4839,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8389",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nai .ない",
+                        "there"
+                    ],
+                    "ko_annotation_id": 8389,
+                    "annotation_id": 15371,
+                    "frameName": "Existence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Existence",
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "않지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 23
+                            },
+                            "text": "전술 핵무기의 정확한 집계가 없기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2983,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "않다.a.Existence",
+                    "text": "러시아는 전술 핵무기의 정확한 집계가 없기 때문에 총 보유 규모는 확실하지 않지만, 약 20,000 개의 핵무기를 현재 보유한 것으로 추정된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11364",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nai .ない",
+                        "there"
+                    ],
+                    "ko_annotation_id": 11364,
+                    "annotation_id": 0,
+                    "frameName": "Existence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Existence",
+                            "span": {
+                                "begin": 83,
+                                "end": 86
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "않다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 82
+                            },
+                            "text": "다르지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4326,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "않다.a.Existence",
+                    "text": "마을 수가 늘어난 최대 이유는, 에도시 가운데 백성들이 사는 곳이 거리화가 되거나 주변부 개발이 진행되었기 때문으로, 이것은 현대의 도시화와 다르지 않다."
+                }
+            ]
+        }
+    ]
+}

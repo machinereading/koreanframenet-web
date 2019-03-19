@@ -1,0 +1,104 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "출연하다.v.Coming_to_be",
+    "frameID": 316,
+    "frameName": "Coming_to_be",
+    "en_lus": [
+        "syutuen .出演 "
+    ],
+    "lu_id": 5263,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10878",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syutuen .出演 "
+                    ],
+                    "ko_annotation_id": 10878,
+                    "annotation_id": 0,
+                    "frameName": "Coming_to_be",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Coming_to_be",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "출연한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "TV 프로그램 『보도 스테이션』에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "게스트로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Entity",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 53
+                            },
+                            "text": "무라카미 류 씨는,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4038,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "출연하다.v.Coming_to_be",
+                    "text": "이 사건과 관련하여, TV 프로그램 『보도 스테이션』에 게스트로 출연한 작가 무라카미 류 씨는, 「더는, 이러저러한 이유로, 이런 사건이 발생했습니다, 라고 설명할 수 없는 사건이 앞으로 일어날 수 있다고 생각해야 한다」는 취지의 논평을 했다."
+                }
+            ]
+        }
+    ]
+}

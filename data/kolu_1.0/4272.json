@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "정기적.n.Frequency",
+    "ko_pos": "n",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "lu_id": "4272",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3557",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "정기적으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "회의할",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3557",
+                    "lu": "정기적.n.Frequency",
+                    "text": "그래서, 아무리 경비가 든다 하더라도 매주, 정기적으로 회의할 필요가 있다는 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4485",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "정기적인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "text": "미팅을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4485",
+                    "lu": "정기적.n.Frequency",
+                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기 위한 연구회를 만드는 것도 좋겠습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "범행.n.Claim_ownership",
+    "frameID": 550,
+    "frameName": "Claim_ownership",
+    "en_lus": [
+        "claim"
+    ],
+    "lu_id": 1391,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4998",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "claim"
+                    ],
+                    "ko_annotation_id": 4998,
+                    "annotation_id": 9048,
+                    "frameName": "Claim_ownership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "범행 성명을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "text": "어떤 살해에 대해서도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1868,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "범행.n.Claim_ownership",
+                    "text": "또한 무슬림 형제단은 어떤 살해에 대해서도 범행 성명을 발표하지 않았다."
+                }
+            ]
+        }
+    ]
+}

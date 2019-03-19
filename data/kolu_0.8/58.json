@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "부서지다.v.Being_operational",
+    "frameID": 1200,
+    "frameName": "Being_operational",
+    "en_lus": [
+        "broken"
+    ],
+    "lu_id": 58,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 453",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "broken"
+                    ],
+                    "ko_annotation_id": 453,
+                    "annotation_id": 965,
+                    "frameName": "Being_operational",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_operational",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "부서진"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Artifact",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "크리스털로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 171,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부서지다.v.Being_operational",
+                    "text": "부엌은 온통 부서진 크리스털로 꽉찼다."
+                }
+            ]
+        }
+    ]
+}

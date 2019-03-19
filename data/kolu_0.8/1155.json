@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "완료.n.Activity_finish",
+    "frameID": 165,
+    "frameName": "Activity_finish",
+    "en_lus": [
+        "completion"
+    ],
+    "lu_id": 1155,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15666",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "completion"
+                    ],
+                    "ko_annotation_id": 15666,
+                    "annotation_id": 16609,
+                    "frameName": "Activity_finish",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_finish",
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "완료를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 58
+                            },
+                            "text": "비밀의 우라늄 이전의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3176,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "완료.n.Activity_finish",
+                    "text": "미국은 우즈베키스탄이 위험 핵 물질을 확보하도록 도운다 : 에너지 단체는 러시아로의 비밀의 우라늄 이전의 완료를 선언한다"
+                }
+            ]
+        }
+    ]
+}

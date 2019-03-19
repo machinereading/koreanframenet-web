@@ -1,0 +1,138 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "항공기.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "plane",
+        "vehicle"
+    ],
+    "lu_id": 2801,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6272",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "vehicle",
+                        "plane"
+                    ],
+                    "ko_annotation_id": 6272,
+                    "annotation_id": 11329,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "항공기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "text": "무인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 55
+                            },
+                            "text": "Muajar -4 ( Mohajer )",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2265,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "항공기.n.Vehicle",
+                    "text": "2002년에 이란은 새로운 형태의 무인 항공기 ( UAV ) Muajar -4 ( Mohajer ) 를 시험하였는데, 이것은 일부 전문가들의 주장에 의하면 잠재적인 화학 생물 무기 투하에 사용될 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13553",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "vehicle",
+                        "plane"
+                    ],
+                    "ko_annotation_id": 13553,
+                    "annotation_id": 6161,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "항공기는"
+                        }
+                    ],
+                    "sent_id": 1183,
+                    "relations": [],
+                    "lu": "항공기.n.Vehicle",
+                    "text": "QN : 항공기는 바그다드에 있나 ?"
+                }
+            ]
+        }
+    ]
+}

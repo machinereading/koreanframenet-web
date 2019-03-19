@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "생성.n.Intentionally_create",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "en_lus": [
+        "generation"
+    ],
+    "lu_id": 2602,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6543",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "generation"
+                    ],
+                    "ko_annotation_id": 6543,
+                    "annotation_id": 11945,
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "생성만을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "전기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "생성만을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2369,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생성.n.Intentionally_create",
+                    "text": "이란은 그러나, 핵 프로그램은 전기 생성만을 위한 것이라고 계속 주장하고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "교수님.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "kyoozyu .教授 "
+    ],
+    "lu_id": 4607,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11005",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kyoozyu .教授 "
+                    ],
+                    "ko_annotation_id": 11005,
+                    "annotation_id": 0,
+                    "frameName": "People_by_vocation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_vocation",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "교수님께"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "하라노",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rank",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "교수님께",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4109,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교수님.n.People_by_vocation",
+                    "text": "하라노 교수님께 상담받은 것을 후회하지는 않는다."
+                }
+            ]
+        }
+    ]
+}

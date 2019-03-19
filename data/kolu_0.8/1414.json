@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이츠카이치카이도.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "kaidoo .街道 "
+    ],
+    "lu_id": 1414,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16418",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kaidoo .街道 "
+                    ],
+                    "ko_annotation_id": 16418,
+                    "annotation_id": 0,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이츠카이치카이도에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "이츠카이치카이도에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4258,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이츠카이치카이도.n.Roadways",
+                    "text": "말과는 정반대로 택시는 이츠카이치카이도에 들어섰다."
+                }
+            ]
+        }
+    ]
+}

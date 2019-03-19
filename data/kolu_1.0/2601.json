@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "서두르다.v.Self_motion",
+    "ko_pos": "v",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "lu_id": "2601",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4486",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "서두르고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "헤이시치로는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 19
+                            },
+                            "text": "하나카와도 하안을 향해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4486",
+                    "lu": "서두르다.v.Self_motion",
+                    "text": "헤이시치로는 하나카와도 하안을 향해 서두르고 있었다."
+                }
+            ]
+        }
+    ]
+}

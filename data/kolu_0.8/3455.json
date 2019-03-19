@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "저물다.v.Process_end",
+    "frameID": 232,
+    "frameName": "Process_end",
+    "en_lus": [
+        "kureru .暮れる "
+    ],
+    "lu_id": 3455,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11539",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kureru .暮れる "
+                    ],
+                    "ko_annotation_id": 11539,
+                    "annotation_id": 0,
+                    "frameName": "Process_end",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_end",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "저물었음을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "text": "날이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4465,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "저물다.v.Process_end",
+                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다."
+                }
+            ]
+        }
+    ]
+}

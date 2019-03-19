@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "나이.n.Calendric_unit",
+    "frameID": 229,
+    "frameName": "Calendric_unit",
+    "en_lus": [
+        "year"
+    ],
+    "lu_id": 3434,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 585",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "years"
+                    ],
+                    "ko_annotation_id": 585,
+                    "annotation_id": 1226,
+                    "frameName": "Calendric_unit",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Calendric_unit",
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "나이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relative_Time",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 34
+                            },
+                            "text": "유치원에 들어가기 전의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 227,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나이.n.Calendric_unit",
+                    "text": "클린턴 주지사가 옹호하는 것은 사실상, 유치원에 들어가기 전의 나이 까지 교육 제도를 확대하는 것이다."
+                }
+            ]
+        }
+    ]
+}

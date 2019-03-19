@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "보호책.n.Protecting",
+    "frameID": 1631,
+    "frameName": "Protecting",
+    "en_lus": [
+        "protection"
+    ],
+    "lu_id": 5549,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7681",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "protection"
+                    ],
+                    "ko_annotation_id": 7681,
+                    "annotation_id": 13981,
+                    "frameName": "Protecting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Protecting",
+                            "span": {
+                                "begin": 65,
+                                "end": 69
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "보호책이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Asset",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 51
+                            },
+                            "text": "한국의 민간 주민은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Danger",
+                            "token_span": [
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 64
+                            },
+                            "text": "화학무기 공격에 대비한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2767,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보호책.n.Protecting",
+                    "text": "서울은 북한의 포와 로케트 시스템의 쉬운 폭격 거리 내에 있고, 오늘날, 한국의 민간 주민은 화학무기 공격에 대비한 보호책이 없다."
+                }
+            ]
+        }
+    ]
+}

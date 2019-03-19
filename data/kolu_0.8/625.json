@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "용도.n.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "use"
+    ],
+    "lu_id": 625,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15180",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "use"
+                    ],
+                    "ko_annotation_id": 15180,
+                    "annotation_id": 14217,
+                    "frameName": "Using",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Using",
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "용도로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 63
+                            },
+                            "text": "핵분열성 물질이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 66
+                            },
+                            "text": "군사",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2808,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "용도.n.Using",
+                    "text": "IAEA는 1992년에 제출된 북한의 최초 선언의 완전성과 정확성을 입증할 수 없었고, 그 단체는 핵분열성 물질이 군사 용도로 전환되었는지 입증할 수 없게 되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "선적.n.Sending",
+    "frameID": 243,
+    "frameName": "Sending",
+    "en_lus": [
+        "shipment"
+    ],
+    "lu_id": 1095,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7812",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shipments"
+                    ],
+                    "ko_annotation_id": 7812,
+                    "annotation_id": 14185,
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "선적을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "text": "중유",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2804,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선적.n.Sending",
+                    "text": "미국은 북한이 플루토늄 생산 시설을 동결하도록 한 핵동결 협약 아래 제공되고 있는 중유 선적을 보류할 것을 2002년 11월에 알리는 것으로 반응하였다."
+                }
+            ]
+        }
+    ]
+}

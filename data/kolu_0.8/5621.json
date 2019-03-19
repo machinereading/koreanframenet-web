@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "획득하다.v.Seeking",
+    "frameID": 269,
+    "frameName": "Seeking",
+    "en_lus": [
+        "seek"
+    ],
+    "lu_id": 5621,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17141",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "seeking"
+                    ],
+                    "ko_annotation_id": 17141,
+                    "annotation_id": 12250,
+                    "frameName": "Seeking",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Seeking",
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "획득하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer_Agent",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sought_Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 38
+                            },
+                            "text": "미사일 기술과 스커드-B 급의 전술 탄도 미사일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2433,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "획득하다.v.Seeking",
+                    "text": "이때가 이란이 또한 미사일 기술과 스커드-B 급의 전술 탄도 미사일을 획득하기 위해 북한과 중국 ( PRC ) 에 접근한 기간이었다."
+                }
+            ]
+        }
+    ]
+}

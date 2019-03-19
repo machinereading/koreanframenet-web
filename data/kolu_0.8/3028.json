@@ -1,0 +1,138 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "건축물.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "kenzoo butu .建造 物 ",
+        "structure"
+    ],
+    "lu_id": 3028,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2997",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kenzoo butu .建造 物 ",
+                        "structure"
+                    ],
+                    "ko_annotation_id": 2997,
+                    "annotation_id": 5740,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "건축물은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "text": "위풍당당한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Type",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 44
+                            },
+                            "text": "Edward 건축물은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1098,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건축물.n.Buildings",
+                    "text": "경사진 차도의 맨 위에는, 원래 대학 건물이었던 위풍당당한 Edward 건축물은 연구원의 더 새로운 빌딩들을 주도하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11847",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kenzoo butu .建造 物 ",
+                        "structure"
+                    ],
+                    "ko_annotation_id": 11847,
+                    "annotation_id": 0,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "건축물을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Building",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 16
+                            },
+                            "text": "전 세계의 건축물을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4674,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건축물.n.Buildings",
+                    "text": "무엇보다도 전 세계의 건축물을 수없이 봐온 나의 감성을 자극한 것은, 그 디자인 감각의 훌륭함이었습니다."
+                }
+            ]
+        }
+    ]
+}

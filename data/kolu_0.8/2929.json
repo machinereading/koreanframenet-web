@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "기초.n.Architectural_part",
+    "frameID": 971,
+    "frameName": "Architectural_part",
+    "en_lus": [
+        "kiso .基礎 "
+    ],
+    "lu_id": 2929,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10163",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kiso .基礎 "
+                    ],
+                    "ko_annotation_id": 10163,
+                    "annotation_id": 0,
+                    "frameName": "Architectural_part",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Architectural_part",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "기초를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "바른 인성의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "기초를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3585,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기초.n.Architectural_part",
+                    "text": "초등학교에 다니는 동안 바른 인성의 기초를 만들어줄 수 있다면, 문제행동을 일으키는 십 대 청소년은 크게 줄 것이 틀림없다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "마다하다.v.Temporal_collocation",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "en_lus": [
+        "do .度 "
+    ],
+    "lu_id": 1828,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11040",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "do .度 "
+                    ],
+                    "ko_annotation_id": 11040,
+                    "annotation_id": 0,
+                    "frameName": "Temporal_collocation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "때마다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Event",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "때마다",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 40
+                            },
+                            "text": "기억이 되살아나,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4117,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "마다하다.v.Temporal_collocation",
+                    "text": "한 장을 적어도 3번 이상 읽는데, 읽을 때마다 그때의 기억이 되살아나, 그때의 감상에 젖어들었다."
+                }
+            ]
+        }
+    ]
+}

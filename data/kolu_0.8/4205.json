@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "공격자들.n.Attack",
+    "frameID": 424,
+    "frameName": "Attack",
+    "en_lus": [
+        "attacker"
+    ],
+    "lu_id": 4205,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15653",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "attackers"
+                    ],
+                    "ko_annotation_id": 15653,
+                    "annotation_id": 16470,
+                    "frameName": "Attack",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attack",
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "공격자들은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Assailant",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 40
+                            },
+                            "text": "환경 테러리스트들이었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3153,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "공격자들.n.Attack",
+                    "text": "공격자들은 마을에 들어서는 새로운 산업에 언짢은 환경 테러리스트들이었다."
+                }
+            ]
+        }
+    ]
+}

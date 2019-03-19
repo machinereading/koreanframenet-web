@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "독서실.n.Building_subparts",
+    "frameID": 188,
+    "frameName": "Building_subparts",
+    "en_lus": [
+        "room"
+    ],
+    "lu_id": 4023,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 339",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "room"
+                    ],
+                    "ko_annotation_id": 339,
+                    "annotation_id": 713,
+                    "frameName": "Building_subparts",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building_subparts",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "독서실에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "독서실에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 114,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "독서실.n.Building_subparts",
+                    "text": "몇 권의 책만이 독서실에 떨어졌다."
+                }
+            ]
+        }
+    ]
+}

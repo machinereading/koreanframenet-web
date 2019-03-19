@@ -1,0 +1,99 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "남다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "nokosu .残す "
+    ],
+    "lu_id": 3893,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11380",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nokosu .残す "
+                    ],
+                    "ko_annotation_id": 11380,
+                    "annotation_id": 0,
+                    "frameName": "Giving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "남긴"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "아카마츠씨가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "하리마에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "text": "것은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4343,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "남다.v.Giving",
+                    "text": "◎부드러운 반골로서는, 아카마츠씨가 하리마에 남긴 것은 무엇이었을까요?"
+                }
+            ]
+        }
+    ]
+}

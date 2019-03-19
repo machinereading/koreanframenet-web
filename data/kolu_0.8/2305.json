@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "중이.n.Discussion",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "en_lus": [
+        "negotiate"
+    ],
+    "lu_id": 2305,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9708",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "negotiating"
+                    ],
+                    "ko_annotation_id": 9708,
+                    "annotation_id": 18018,
+                    "frameName": "Discussion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 56,
+                                "end": 63
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "협상 중이라고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "text": "KWU사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Interlocutor_2",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 55
+                            },
+                            "text": "아르헨티나 및 스페인과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3406,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중이.n.Discussion",
+                    "text": "계약에 대한 보도들은 부인되었으나 ( 576 ), KWU사는 이란의 요청으로 아르헨티나 및 스페인과 협상 중이라고 한다 ( 2219 )."
+                }
+            ]
+        }
+    ]
+}

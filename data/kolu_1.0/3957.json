@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "일으키다.v.Causation",
+    "ko_pos": "v",
+    "frameID": 5,
+    "frameName": "Causation",
+    "lu_id": "3957",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-665",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "일으켰다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "예수의 성전으로의 입장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "소란을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "665",
+                    "lu": "일으키다.v.Causation",
+                    "text": "예수의 성전으로의 입장은 소란을 일으켰다 ; 유월절 만찬 후 그는 로마의 직접 통치하에 있었던 성전 제사장들에 의해 체포되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4295",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "일으킨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "테러를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4295",
+                    "lu": "일으키다.v.Causation",
+                    "text": "종종 뉴스에서는, 이슬람교 그 자체와 테러를 일으킨 그룹의 가르침은, 전혀 다르다고 보도됩니다."
+                }
+            ]
+        }
+    ]
+}

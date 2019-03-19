@@ -1,0 +1,140 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "못하다.a.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "dekiru .できる "
+    ],
+    "lu_id": 2981,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11518",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dekiru .できる "
+                    ],
+                    "ko_annotation_id": 11518,
+                    "annotation_id": 0,
+                    "frameName": "Capability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "못한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "화장실에서 만족스럽게 용무를 보지도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4450,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "못하다.a.Capability",
+                    "text": "화장실에서 만족스럽게 용무를 보지도 못한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16328",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dekiru .できる "
+                    ],
+                    "ko_annotation_id": 16328,
+                    "annotation_id": 0,
+                    "frameName": "Capability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "못한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "사과라는 단어를 줘도,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 48
+                            },
+                            "text": "사과의 붉은 색을 떠올리지는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4044,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "못하다.a.Capability",
+                    "text": "사과라는 단어를 줘도, 떠올릴 수 있는 것은 사과의 모양뿐 사과의 붉은 색을 떠올리지는 못한다."
+                }
+            ]
+        }
+    ]
+}

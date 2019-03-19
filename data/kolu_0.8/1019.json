@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "정당화하다.v.Justifying",
+    "frameID": 512,
+    "frameName": "Justifying",
+    "en_lus": [
+        "justify"
+    ],
+    "lu_id": 1019,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4607",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "justify"
+                    ],
+                    "ko_annotation_id": 4607,
+                    "annotation_id": 8418,
+                    "frameName": "Justifying",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Justifying",
+                            "span": {
+                                "begin": 46,
+                                "end": 51
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "정당화하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "백악관이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 45
+                            },
+                            "text": "이라크에서의 전쟁을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1725,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정당화하다.v.Justifying",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "매도하다.v.Judgment_communication",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "en_lus": [
+        "dump"
+    ],
+    "lu_id": 4822,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 520",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dump"
+                    ],
+                    "ko_annotation_id": 520,
+                    "annotation_id": 1109,
+                    "frameName": "Judgment_communication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "매도하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "text": "교육기관과는 별개로,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "선생들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 203,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "매도하다.v.Judgment_communication",
+                    "text": "그러나 교육기관과는 별개로, 선생들을 매도하는 것은 부당하다."
+                }
+            ]
+        }
+    ]
+}

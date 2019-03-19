@@ -1,0 +1,99 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "부르다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "call"
+    ],
+    "lu_id": 158,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 58",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "calling"
+                    ],
+                    "ko_annotation_id": 58,
+                    "annotation_id": 88,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 122,
+                                "end": 126
+                            },
+                            "token_span": [
+                                29
+                            ],
+                            "role": "TARGET",
+                            "text": "부른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                25
+                            ],
+                            "span": {
+                                "begin": 98,
+                                "end": 102
+                            },
+                            "text": "종소리가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                27
+                            ],
+                            "span": {
+                                "begin": 111,
+                                "end": 115
+                            },
+                            "text": "신도들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                28
+                            ],
+                            "span": {
+                                "begin": 116,
+                                "end": 121
+                            },
+                            "text": "저녁예배에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 13,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부르다.v.Request",
+                    "text": "ASLACTON, 영국 -- 영국의 시골을 떠오르게 하는 모든 경관들 중에서, 이것은 가장 아름다운 것들 중의 하나이다 : 고대의 석조 교회가 들판 가운데 서 있고, 종탑에서 종소리가 흘러나오면서, 신도들을 저녁예배에 부른다."
+                }
+            ]
+        }
+    ]
+}

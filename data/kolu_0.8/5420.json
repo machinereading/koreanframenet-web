@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "도움.n.Reliance",
+    "frameID": 901,
+    "frameName": "Reliance",
+    "en_lus": [
+        "ate .あて "
+    ],
+    "lu_id": 5420,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16656",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ate .あて "
+                    ],
+                    "ko_annotation_id": 16656,
+                    "annotation_id": 0,
+                    "frameName": "Reliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reliance",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "도움이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "강물은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "졸졸 흐르니",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4699,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도움.n.Reliance",
+                    "text": "강물은 졸졸 흐르니 도움이 안되고, 마을 사람들이, 여기저기 우물을 파봐도 시원스레 깨끗한 물이 나오지 않았지."
+                }
+            ]
+        }
+    ]
+}

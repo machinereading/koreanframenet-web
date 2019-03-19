@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "응찰.n.Response",
+    "frameID": 1302,
+    "frameName": "Response",
+    "en_lus": [
+        "response"
+    ],
+    "lu_id": 595,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5270",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "responses"
+                    ],
+                    "ko_annotation_id": 5270,
+                    "annotation_id": 9502,
+                    "frameName": "Response",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Response",
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "응찰"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Responding_Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "그 스위스 거래자가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1968,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "응찰.n.Response",
+                    "text": "그 스위스 거래자가 받은 응찰 가운데 하나는 입찰 초청을 받지 않은 소련의 국립 선박 회사로 온 것도 있었다."
+                }
+            ]
+        }
+    ]
+}

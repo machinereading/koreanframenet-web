@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "불행.n.Catastrophe",
+    "frameID": 115,
+    "frameName": "Catastrophe",
+    "en_lus": [
+        "hukoo .不幸 "
+    ],
+    "lu_id": 4821,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10301",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hukoo .不幸 "
+                    ],
+                    "ko_annotation_id": 10301,
+                    "annotation_id": 0,
+                    "frameName": "Catastrophe",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Catastrophe",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "불행이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undesirable_Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "불행이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3657,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "불행.n.Catastrophe",
+                    "text": "불행이 너무도 커서 눈물조차 나오지 않았다."
+                }
+            ]
+        }
+    ]
+}

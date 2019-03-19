@@ -1,0 +1,118 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "도전.n.Difficulty",
+    "frameID": 375,
+    "frameName": "Difficulty",
+    "en_lus": [
+        "challenge"
+    ],
+    "lu_id": 1415,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1125",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "challenges",
+                        "challenge"
+                    ],
+                    "ko_annotation_id": 1125,
+                    "annotation_id": 2409,
+                    "frameName": "Difficulty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Difficulty",
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "도전이고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "거의 모든 과제는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Parameter",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "text": "다른 방식으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 461,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도전.n.Difficulty",
+                    "text": "거의 모든 과제는 다른 방식으로 하나의 도전이고 그것은 결코 더 수월해질 것으로 보이지 않는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12796",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "challenges",
+                        "challenge"
+                    ],
+                    "ko_annotation_id": 12796,
+                    "annotation_id": 2146,
+                    "frameName": "Difficulty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Difficulty",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "도전에"
+                        }
+                    ],
+                    "sent_id": 407,
+                    "relations": [],
+                    "lu": "도전.n.Difficulty",
+                    "text": "그리고 매일의 그들의 삶에서 이러한 도전에 직면하는 많은 사람이 있습니다."
+                }
+            ]
+        }
+    ]
+}

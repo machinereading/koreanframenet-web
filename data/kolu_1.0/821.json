@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "기여.n.Giving",
+    "ko_pos": "n",
+    "frameID": 139,
+    "frameName": "Giving",
+    "lu_id": "821",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-437",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "기여로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "여러분의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 36
+                            },
+                            "text": "Pleasant Run Children's Homes에의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "437",
+                    "lu": "기여.n.Giving",
+                    "text": "여러분의 Pleasant Run Children's Homes에의 기여로 어떤 종류의 사람들이 혜택을 받는가 ?"
+                }
+            ]
+        }
+    ]
+}

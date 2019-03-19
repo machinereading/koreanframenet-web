@@ -1,0 +1,123 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "나다.v.Departing",
+    "frameID": 57,
+    "frameName": "Departing",
+    "en_lus": [
+        "deru .出る "
+    ],
+    "lu_id": 5448,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11923",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "deru .出る "
+                    ],
+                    "ko_annotation_id": 11923,
+                    "annotation_id": 0,
+                    "frameName": "Departing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Departing",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "나섰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 18
+                            },
+                            "text": "오늘 아침 8시 조금 넘어,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 30
+                            },
+                            "text": "실직한 마부로 둔갑해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Source",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "text": "집을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4717,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나다.v.Departing",
+                    "text": "나는 오늘 아침 8시 조금 넘어, 실직한 마부로 둔갑해 집을 나섰다."
+                }
+            ]
+        }
+    ]
+}

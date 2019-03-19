@@ -1,0 +1,123 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "강화하다.v.Cause_to_amalgamate",
+    "frameID": 13,
+    "frameName": "Cause_to_amalgamate",
+    "en_lus": [
+        "consolidated"
+    ],
+    "lu_id": 3212,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2027",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "consolidated"
+                    ],
+                    "ko_annotation_id": 2027,
+                    "annotation_id": 4105,
+                    "frameName": "Cause_to_amalgamate",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_amalgamate",
+                            "span": {
+                                "begin": 46,
+                                "end": 52
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "강화하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "그리고 나서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 21
+                            },
+                            "text": "Union Pacific은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Means",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 41
+                            },
+                            "text": "라스 베이거스 수리 시설을 제거하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Parts",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "text": "운영을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 785,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "강화하다.v.Cause_to_amalgamate",
+                    "text": "그리고 나서 Union Pacific은 라스 베이거스 수리 시설을 제거하여 운영을 강화하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "주시당하다.v.Calendric_unit",
+    "frameID": 229,
+    "frameName": "Calendric_unit",
+    "en_lus": [
+        "week"
+    ],
+    "lu_id": 1234,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3564",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "weeks"
+                    ],
+                    "ko_annotation_id": 3564,
+                    "annotation_id": 6696,
+                    "frameName": "Calendric_unit",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Calendric_unit",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "몇 주"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relative_Time",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "text": "최근",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1352,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주시당하다.v.Calendric_unit",
+                    "text": "Mayak에서의 사고는 러시아에서 핵무기나 시설과 관련하여 최근 몇 주 동안 일어난 세 번째 발사였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "건립하다.v.Intentionally_create",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "en_lus": [
+        "establish"
+    ],
+    "lu_id": 4807,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4774",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "establish"
+                    ],
+                    "ko_annotation_id": 4774,
+                    "annotation_id": 8676,
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 71,
+                                "end": 75
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "건립하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 70
+                            },
+                            "text": "팔레스타인 국가를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1793,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건립하다.v.Intentionally_create",
+                    "text": "통역사 : 무장한 Intifada는 끝나야 하며 우리는 팔레스타인과 이스라엘의 점령과 고통을 끝내고, 그리고 팔레스타인 국가를 건립하기 위한 우리의 요구에서 평화적인 수단을 사용하고 의지해야 한다."
+                }
+            ]
+        }
+    ]
+}

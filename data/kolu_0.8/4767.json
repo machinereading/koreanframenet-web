@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "장치.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "assembly"
+    ],
+    "lu_id": 4767,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17169",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "assemblies"
+                    ],
+                    "ko_annotation_id": 17169,
+                    "annotation_id": 13316,
+                    "frameName": "Aggregate",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aggregate",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "장치의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Aggregateproperty",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "text": "미임계",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2659,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "장치.n.Aggregate",
+                    "text": "ENTC는 소형 중성자 원자로 ( MNSR ), 다른 연구 원자로, 그리고 미임계 장치의 본거지이다."
+                }
+            ]
+        }
+    ]
+}

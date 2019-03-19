@@ -1,0 +1,148 @@
+{
+    "en_lus": [],
+    "ko_lu": "기억하다.v.Memory",
+    "ko_pos": "v",
+    "frameID": 135,
+    "frameName": "Memory",
+    "lu_id": "818",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-207",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "기억할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "우리 모두는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experience",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "text": "학창 시절의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 44
+                            },
+                            "text": "한두 분의 참으로 영감을 주는 선생님들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "207",
+                    "lu": "기억하다.v.Memory",
+                    "text": "그렇다, 우리 모두는 우리 학창 시절의 한두 분의 참으로 영감을 주는 선생님들을 기억할 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-340",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "기억하나?"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 25
+                            },
+                            "text": "그녀가 나의 마지막 편지에 무엇을 말하였는가를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "340",
+                    "lu": "기억하다.v.Memory",
+                    "text": "그녀가 나의 마지막 편지에 무엇을 말하였는가를 기억하나?"
+                }
+            ]
+        }
+    ]
+}

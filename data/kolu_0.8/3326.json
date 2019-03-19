@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "주장하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "call"
+    ],
+    "lu_id": 3326,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13206",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "calling"
+                    ],
+                    "ko_annotation_id": 13206,
+                    "annotation_id": 3822,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "주장하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "text": "독립을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 69
+                            },
+                            "text": "팔레스타인인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 727,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주장하다.v.Request",
+                    "text": "늘 그렇듯, 오늘날 예루살렘은 논란의 도시이다 : 세속적인 유대인과 충돌하는 종교적인 유대인 ; 독립을 주장하는 팔레스타인인 ; 많은 사람이 Holy City를 성스러운 거대 도시로 바꿀 것이라 많이 주장하며 일고 있는 고층 건물 개발의 물결에 반대하는 많은 거주민들."
+                }
+            ]
+        }
+    ]
+}

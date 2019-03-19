@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Impact",
+    "frameID": 311,
+    "frameName": "Impact",
+    "en_lus": [
+        "hit"
+    ],
+    "lu_id": 852,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1039",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hit"
+                    ],
+                    "ko_annotation_id": 1039,
+                    "annotation_id": 2216,
+                    "frameName": "Impact",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Impact",
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "text": "현실이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 422,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Impact",
+                    "text": "그가 자기 부인과 화해할 수 없고 결국 길거리로 나오게 되었을 때 현실이 되었다."
+                }
+            ]
+        }
+    ]
+}

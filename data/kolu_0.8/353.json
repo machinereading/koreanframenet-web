@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "배치.n.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "position"
+    ],
+    "lu_id": 353,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9361",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "positioning"
+                    ],
+                    "ko_annotation_id": 9361,
+                    "annotation_id": 17467,
+                    "frameName": "Placing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Placing",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "배치"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "기관의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "카메라를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3279,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배치.n.Placing",
+                    "text": "이란으로서는, 이란이 기관의 카메라를 배치 못하게 하였다는 것을 오늘 부인하였으나, 명확하게 카메라 위치를 거론하지 않았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "말.n.Chatting",
+    "frameID": 910,
+    "frameName": "Chatting",
+    "en_lus": [
+        "hanasu .話す "
+    ],
+    "lu_id": 5463,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16338",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanasu .話す "
+                    ],
+                    "ko_annotation_id": 16338,
+                    "annotation_id": 0,
+                    "frameName": "Chatting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chatting",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "말이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "「유노,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Interlocutor_2",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "유나가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4062,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말.n.Chatting",
+                    "text": "「유노, 기운이 없네」 말이 채 끝나기 전에 유나가 말했다."
+                }
+            ]
+        }
+    ]
+}

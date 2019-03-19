@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "빈곤.n.Wealthiness",
+    "frameID": 85,
+    "frameName": "Wealthiness",
+    "en_lus": [
+        "poverty"
+    ],
+    "lu_id": 1721,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 257",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "poverty"
+                    ],
+                    "ko_annotation_id": 257,
+                    "annotation_id": 561,
+                    "frameName": "Wealthiness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Wealthiness",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "빈곤이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supp",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "text": "존재하고 있다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 82,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빈곤.n.Wealthiness",
+                    "text": "대규모 빈곤이 여전히 존재하고 있다."
+                }
+            ]
+        }
+    ]
+}

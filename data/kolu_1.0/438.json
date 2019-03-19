@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "고용하다.v.Attempt",
+    "ko_pos": "v",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "lu_id": "438",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3486",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 49,
+                                "end": 54
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "고용하려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "text": "그의 나라가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 54
+                            },
+                            "text": "그 과학자들을 고용하려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3486",
+                    "lu": "고용하다.v.Attempt",
+                    "text": "그러나, 이란의 Ali Akbar Velayati 외무장관은 그의 나라가 그 과학자들을 고용하려고 했다는 추측을 거부한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "하얗다.a.Color",
+    "frameID": 423,
+    "frameName": "Color",
+    "en_lus": [
+        "siroi .白い "
+    ],
+    "lu_id": 160,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16184",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "siroi .白い "
+                    ],
+                    "ko_annotation_id": 16184,
+                    "annotation_id": 0,
+                    "frameName": "Color",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Color",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "하얀"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Color",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "하얀",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "봉투를,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3756,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하얗다.a.Color",
+                    "text": "자, 이거 편지」라고 말하며, 하얀 봉투를, 다케시에게 내밀었습니다."
+                }
+            ]
+        }
+    ]
+}

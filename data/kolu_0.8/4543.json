@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "말하다.v.Simple_naming",
+    "frameID": 1261,
+    "frameName": "Simple_naming",
+    "en_lus": [
+        "iu .いう "
+    ],
+    "lu_id": 4543,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12385",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iu .いう "
+                    ],
+                    "ko_annotation_id": 12385,
+                    "annotation_id": 0,
+                    "frameName": "Simple_naming",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Simple_naming",
+                            "span": {
+                                "begin": 25,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "큰길을 말하는데,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Term",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "짓켄다나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 24
+                            },
+                            "text": "니혼바시 혼고쿠 쵸・혼 쵸 사이의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5007,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말하다.v.Simple_naming",
+                    "text": "짓켄다나는 니혼바시 혼고쿠 쵸・혼 쵸 사이의 큰길을 말하는데, 정식 마을 이름은 아닙니다."
+                }
+            ]
+        }
+    ]
+}

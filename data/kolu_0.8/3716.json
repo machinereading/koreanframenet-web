@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "닮다.v.Similarity",
+    "frameID": 481,
+    "frameName": "Similarity",
+    "en_lus": [
+        "niru .似る",
+        "resembles"
+    ],
+    "lu_id": 3716,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2935",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "niru .似る",
+                        "resembles"
+                    ],
+                    "ko_annotation_id": 2935,
+                    "annotation_id": 5640,
+                    "frameName": "Similarity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Similarity",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "닮았고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity_2",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "text": "공항 타워를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity_1",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 75
+                            },
+                            "text": "Peak Tower가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1080,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "닮다.v.Similarity",
+                    "text": "상부 터미널에는 4층 쇼핑 센터인 Peak Galleria와 공항 타워를 닮았고 상점들, 위락시설, 식당들이 있는 Peak Tower가 있다."
+                }
+            ]
+        }
+    ]
+}

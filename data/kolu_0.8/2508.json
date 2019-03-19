@@ -1,0 +1,67 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "남.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "nin .人 ",
+        "hito .人",
+        "zin .人"
+    ],
+    "lu_id": 2508,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11934",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zin .人",
+                        "hito .人",
+                        "nin .人 "
+                    ],
+                    "ko_annotation_id": 11934,
+                    "annotation_id": 0,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "「남의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "text": "「남의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4725,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "남.n.People",
+                    "text": "혼자서도 괜찮아, 협력자가 넘치는 「상생 상법」 관서지방 사람은 「남의 샅바 차고 씨름한다」는 말을 좋아한다."
+                }
+            ]
+        }
+    ]
+}

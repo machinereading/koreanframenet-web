@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "마지막.n.Process_end",
+    "frameID": 232,
+    "frameName": "Process_end",
+    "en_lus": [
+        "final"
+    ],
+    "lu_id": 1134,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12909",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "final"
+                    ],
+                    "ko_annotation_id": 12909,
+                    "annotation_id": 2569,
+                    "frameName": "Process_end",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_end",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "마지막"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "text": "편지이다,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 486,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "마지막.n.Process_end",
+                    "text": "이제 나는 너무 철학적으로 생각하고 있지만, 이것이 나의 마지막 편지이다, 그러니 그러면 어떤가 ?"
+                }
+            ]
+        }
+    ]
+}

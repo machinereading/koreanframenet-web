@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "충혈되다.v.Color",
+    "frameID": 423,
+    "frameName": "Color",
+    "en_lus": [
+        "akai .赤い"
+    ],
+    "lu_id": 5481,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16497",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "akai .赤い"
+                    ],
+                    "ko_annotation_id": 16497,
+                    "annotation_id": 0,
+                    "frameName": "Color",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Color",
+                            "span": {
+                                "begin": 60,
+                                "end": 67
+                            },
+                            "token_span": [
+                                17,
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "붉게 충혈되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 59
+                            },
+                            "text": "눈은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4425,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "충혈되다.v.Color",
+                    "text": "하지만 풋볼 경기를 할 때와 같은 축제 분위기는 결코 아니었고, 학생들은 모두 어깨를 축 늘어뜨린 채 눈은 붉게 충혈되어 있었다."
+                }
+            ]
+        }
+    ]
+}

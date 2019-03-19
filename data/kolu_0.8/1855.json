@@ -1,0 +1,100 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "연계.n.Cognitive_connection",
+    "frameID": 720,
+    "frameName": "Cognitive_connection",
+    "en_lus": [
+        "relationship"
+    ],
+    "lu_id": 1855,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6116",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "relationship"
+                    ],
+                    "ko_annotation_id": 6116,
+                    "annotation_id": 11042,
+                    "frameName": "Cognitive_connection",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cognitive_connection",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "연계와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Concept_1",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "text": "대학은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Concept_2",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "text": "국가 산업과의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Degree",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "강한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2213,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연계.n.Cognitive_connection",
+                    "text": "이 대학은 국가 산업과의 강한 연계와 훈련 프로그램의 실질적인 적용을 강조한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "en_lus": [],
+    "ko_lu": "실험하다.v.Operational_testing",
+    "ko_pos": "v",
+    "frameID": 1301,
+    "frameName": "Operational_testing",
+    "lu_id": "3039",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1354",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operational_testing",
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "실험하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 45
+                            },
+                            "text": "세균전작용제에 저항할 군 백신을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1354",
+                    "lu": "실험하다.v.Operational_testing",
+                    "text": "유타주의 Dugway Proving Ground는 세균전작용제에 저항할 군 백신을 실험하기 위한 장소로 선정되었다."
+                }
+            ]
+        }
+    ]
+}

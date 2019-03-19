@@ -1,0 +1,101 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "미군.n.Military",
+    "frameID": 1514,
+    "frameName": "Military",
+    "en_lus": [
+        "military",
+        "force",
+        "Army"
+    ],
+    "lu_id": 673,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5350",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "military",
+                        "Army",
+                        "forces"
+                    ],
+                    "ko_annotation_id": 5350,
+                    "annotation_id": 9679,
+                    "frameName": "Military",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Military",
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "미군"
+                        }
+                    ],
+                    "sent_id": 2001,
+                    "relations": [],
+                    "lu": "미군.n.Military",
+                    "text": "Barco 씨는 미군 부대나 조언자를 거부하였으나 미군의 지원을 받아들였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6615",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "military",
+                        "Army",
+                        "forces"
+                    ],
+                    "ko_annotation_id": 6615,
+                    "annotation_id": 12103,
+                    "frameName": "Military",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Military",
+                            "span": {
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "주한미군에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "text": "주한미군에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2398,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "미군.n.Military",
+                    "text": "이란은 현재 지역의 이웃인 이스라엘과 그 지역에 배치된 주한미군에 맞서 탄도 미사일 및 / 혹은 장거리 로케트 포를 사용할 능력을 보유하고 있다."
+                }
+            ]
+        }
+    ]
+}

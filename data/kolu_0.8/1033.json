@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "부적합하다.a.Suitability",
+    "frameID": 368,
+    "frameName": "Suitability",
+    "en_lus": [
+        "unsuitable"
+    ],
+    "lu_id": 1033,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15565",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "unsuitable"
+                    ],
+                    "ko_annotation_id": 15565,
+                    "annotation_id": 16080,
+                    "frameName": "Suitability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suitability",
+                            "span": {
+                                "begin": 90,
+                                "end": 97
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "부적합하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "MNSR은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 82,
+                                "end": 89
+                            },
+                            "text": "무기 생산에는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3087,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부적합하다.a.Suitability",
+                    "text": "MNSR은 핵 분석을 위한 중성자, 산업용을 위한 동위 원소, 그리고 훈련 목적의 방사성 동위 원소를 생산하기 위한 능력을 시리아에 제공하였으나, 무기 생산에는 부적합하였다."
+                }
+            ]
+        }
+    ]
+}

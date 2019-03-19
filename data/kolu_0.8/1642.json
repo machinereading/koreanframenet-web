@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "만족하다.v.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "displeased"
+    ],
+    "lu_id": 1642,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2101",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "displeased"
+                    ],
+                    "ko_annotation_id": 2101,
+                    "annotation_id": 4217,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 39,
+                                "end": 48
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "만족하지 못하였다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 24
+                            },
+                            "text": "운영을 재정지원한 Mafia 두목들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "성과에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 807,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만족하다.v.Emotion_directed",
+                    "text": "그러나 운영을 재정지원한 Mafia 두목들은 Flamingo의 성과에 만족하지 못하였다  ; 1947년 여름에 Siegel은 살해되었다."
+                }
+            ]
+        }
+    ]
+}

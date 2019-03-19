@@ -1,0 +1,60 @@
+{
+    "en_lus": [],
+    "ko_lu": "날씨.n.Weather",
+    "ko_pos": "n",
+    "frameID": 303,
+    "frameName": "Weather",
+    "lu_id": "929",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4107",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Weather",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "날씨도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 30
+                            },
+                            "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4107",
+                    "lu": "날씨.n.Weather",
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다."
+                }
+            ]
+        }
+    ]
+}

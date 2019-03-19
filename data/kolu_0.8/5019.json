@@ -1,0 +1,94 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "건립하다.v.Building",
+    "frameID": 259,
+    "frameName": "Building",
+    "en_lus": [
+        "built"
+    ],
+    "lu_id": 5019,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7796",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 7796,
+                    "annotation_id": 14146,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 67,
+                                "end": 73
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "건립하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "북한은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 66
+                            },
+                            "text": "대형 플루토늄 재처리 공장 ( 방사 화학 실험소 ) 을 포함한, 다수의 새로운 시설을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2797,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건립하다.v.Building",
+                    "text": "북한은 뒤이어 그 단지를 확장하고 대형 플루토늄 재처리 공장 ( 방사 화학 실험소 ) 을 포함한, 다수의 새로운 시설을 건립하였다."
+                }
+            ]
+        }
+    ]
+}

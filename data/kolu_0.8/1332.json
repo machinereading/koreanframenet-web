@@ -1,0 +1,99 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "누르다.a.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "osu .押す"
+    ],
+    "lu_id": 1332,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11941",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "osu .押す"
+                    ],
+                    "ko_annotation_id": 11941,
+                    "annotation_id": 0,
+                    "frameName": "Cause_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "눌렀다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "text": "신중하게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "번호를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4734,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "누르다.a.Cause_motion",
+                    "text": "나는 10엔 동전을 밀어 넣고, 하나씩 신중하게 번호를 눌렀다."
+                }
+            ]
+        }
+    ]
+}

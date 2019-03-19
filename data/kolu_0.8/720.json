@@ -1,0 +1,71 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이외.n.Increment",
+    "frameID": 1001,
+    "frameName": "Increment",
+    "en_lus": [
+        "hoka .ほか "
+    ],
+    "lu_id": 720,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11203",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hoka .ほか "
+                    ],
+                    "ko_annotation_id": 11203,
+                    "annotation_id": 0,
+                    "frameName": "Increment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Increment",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "이외에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Added_Set",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 34
+                            },
+                            "text": "「배를 등과 바꿀 수 없다」 또는 「꽃보다 경단」 등도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4239,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이외.n.Increment",
+                    "text": "이외에 「배를 등과 바꿀 수 없다」 또는 「꽃보다 경단」 등도 좋아하는 부류에 속한다."
+                }
+            ]
+        }
+    ]
+}

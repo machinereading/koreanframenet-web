@@ -1,0 +1,125 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "적하물.n.Sending",
+    "frameID": 243,
+    "frameName": "Sending",
+    "en_lus": [
+        "shipment"
+    ],
+    "lu_id": 456,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7538",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shipments",
+                        "shipment"
+                    ],
+                    "ko_annotation_id": 7538,
+                    "annotation_id": 13721,
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "적하물을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 33
+                            },
+                            "text": "미사일 부품",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2726,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "적하물.n.Sending",
+                    "text": "이것은 1999년에 시작한 것으로 전해지는 다른 미사일 부품 적하물을 보완하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17184",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shipments",
+                        "shipment"
+                    ],
+                    "ko_annotation_id": 17184,
+                    "annotation_id": 13710,
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 74,
+                                "end": 78
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "적하물을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 70
+                            },
+                            "text": "발사 능력을 포함하여, 북한의 노동 탄도 미사일 총 50기의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2724,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "적하물.n.Sending",
+                    "text": "2000년 11월, 600 백만 달러 협정의 일부분으로, 리비아는 발사 능력을 포함하여, 북한의 노동 탄도 미사일 총 50기의 최초 적하물을 회득한 것으로 추정된다."
+                }
+            ]
+        }
+    ]
+}

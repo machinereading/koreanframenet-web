@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "루프.n.Architectural_part",
+    "frameID": 971,
+    "frameName": "Architectural_part",
+    "en_lus": [
+        "ruuhu .ルーフ"
+    ],
+    "lu_id": 3799,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10518",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ruuhu .ルーフ"
+                    ],
+                    "ko_annotation_id": 10518,
+                    "annotation_id": 0,
+                    "frameName": "Architectural_part",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Architectural_part",
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "<루프roof>라고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "<루프roof>라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3811,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "루프.n.Architectural_part",
+                    "text": "이런 <단위>를 <루프roof>라고 부른다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "거론하다.v.Topic",
+    "ko_pos": "v",
+    "frameID": 373,
+    "frameName": "Topic",
+    "lu_id": "212",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3279",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Topic",
+                            "span": {
+                                "begin": 60,
+                                "end": 64
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "거론하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 59
+                            },
+                            "text": "카메라 위치를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3279",
+                    "lu": "거론하다.v.Topic",
+                    "text": "이란으로서는, 이란이 기관의 카메라를 배치 못하게 하였다는 것을 오늘 부인하였으나, 명확하게 카메라 위치를 거론하지 않았다."
+                }
+            ]
+        }
+    ]
+}

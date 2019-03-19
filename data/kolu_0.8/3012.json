@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "잊다.v.Memory",
+    "frameID": 135,
+    "frameName": "Memory",
+    "en_lus": [
+        "wasureru .忘れる"
+    ],
+    "lu_id": 3012,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10894",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "wasureru .忘れる"
+                    ],
+                    "ko_annotation_id": 10894,
+                    "annotation_id": 0,
+                    "frameName": "Memory",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "잊어버리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "나 자신은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4053,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잊다.v.Memory",
+                    "text": "나 자신은, 테니스, 골프로 일을 잊어버리고 싶은 생각이 간절합니다만."
+                }
+            ]
+        }
+    ]
+}

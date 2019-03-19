@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "부양하다.v.Supporting",
+    "ko_pos": "v",
+    "frameID": 2000,
+    "frameName": "Supporting",
+    "lu_id": "2211",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-343",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supporting",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "부양할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supporter",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "그녀가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Supported",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 35
+                            },
+                            "text": "그녀의 가족을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "343",
+                    "lu": "부양하다.v.Supporting",
+                    "text": "Sherry는 그녀가 복지 제도의 수렁에서 벗어나 그녀의 가족을 부양할 수 있다는 것을 우리들의 미래 직업반을 통해 배웠다."
+                }
+            ]
+        }
+    ]
+}

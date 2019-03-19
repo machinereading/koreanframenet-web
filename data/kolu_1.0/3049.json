@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "싶다.v.Desiring",
+    "ko_pos": "v",
+    "frameID": 366,
+    "frameName": "Desiring",
+    "lu_id": "3049",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1899",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Desiring",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "싶다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 13
+                            },
+                            "text": "오클라호마를 말하고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1899",
+                    "lu": "싶다.v.Desiring",
+                    "text": "나는 오클라호마를 말하고 싶다."
+                }
+            ]
+        }
+    ]
+}

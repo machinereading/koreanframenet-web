@@ -1,0 +1,159 @@
+{
+    "en_lus": [],
+    "ko_lu": "입다.v.Wearing",
+    "ko_pos": "v",
+    "frameID": 160,
+    "frameName": "Wearing",
+    "lu_id": "3983",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3545",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Wearing",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "입은,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Clothing",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "어설픈 줄무늬 정장을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Wearer",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 71
+                            },
+                            "text": "어린이입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3545",
+                    "lu": "입다.v.Wearing",
+                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1857",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Wearing",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "입고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Wearer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "형제들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Clothing",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "국가 경호원 유니폼을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "text": "한 밤중에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1857",
+                    "lu": "입다.v.Wearing",
+                    "text": "그래서 형제들은 국가 경호원 유니폼을 입고 비슷한 차를 운전하고 한 밤중에 그의 집을 습격하였다."
+                }
+            ]
+        }
+    ]
+}

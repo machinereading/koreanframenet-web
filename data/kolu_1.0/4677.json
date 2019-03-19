@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "지정하다.v.Appointing",
+    "ko_pos": "v",
+    "frameID": 1925,
+    "frameName": "Appointing",
+    "lu_id": "4677",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1586",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Appointing",
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "지정해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Official",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 23
+                            },
+                            "text": "고도의 보안 허가가 있는 방문자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "위치 내부의 주차장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1586",
+                    "lu": "지정하다.v.Appointing",
+                    "text": "또한, 고도의 보안 허가가 있는 방문자들은 위치 내부의 주차장을 지정해야 한다."
+                }
+            ]
+        }
+    ]
+}

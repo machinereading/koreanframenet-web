@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "나가다.v.Commerce_sell",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "en_lus": [
+        "ureru .売れる"
+    ],
+    "lu_id": 4618,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12205",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "ko_annotation_id": 12205,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "잘 나가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "작품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나가다.v.Commerce_sell",
+                    "text": "따라서, 계약한 작가가 잘 나가는 작품을 만들어내지 못하면, 작가 에이전트도 운영이 곧바로 어려워진다."
+                }
+            ]
+        }
+    ]
+}

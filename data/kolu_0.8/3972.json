@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "사양하다.v.Agree_or_refuse_to_act",
+    "frameID": 1625,
+    "frameName": "Agree_or_refuse_to_act",
+    "en_lus": [
+        "zitai .辞退 "
+    ],
+    "lu_id": 3972,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16143",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zitai .辞退 "
+                    ],
+                    "ko_annotation_id": 16143,
+                    "annotation_id": 0,
+                    "frameName": "Agree_or_refuse_to_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Agree_or_refuse_to_act",
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "사양했으나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposed_Action",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "내가, 병원까지 데려다주겠다고 하자,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "text": "그녀는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3617,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사양하다.v.Agree_or_refuse_to_act",
+                    "text": "내가, 병원까지 데려다주겠다고 하자, 처음에, 그녀는 사양했으나, 무척 아팠던지, 몇 번인가 권하자 차에 올라탔다."
+                }
+            ]
+        }
+    ]
+}

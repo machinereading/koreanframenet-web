@@ -1,0 +1,69 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "탐험하다.v.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "explore"
+    ],
+    "lu_id": 2733,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2486",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "explored"
+                    ],
+                    "ko_annotation_id": 2486,
+                    "annotation_id": 4896,
+                    "frameName": "Scrutiny",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "탐험하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 39
+                            },
+                            "text": "풍성한 자연, 역사, 예술, 그리고 현대 문화가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 943,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "탐험하다.v.Scrutiny",
+                    "text": "탐험하고 즐길 수 있는 풍성한 자연, 역사, 예술, 그리고 현대 문화가 있다."
+                }
+            ]
+        }
+    ]
+}

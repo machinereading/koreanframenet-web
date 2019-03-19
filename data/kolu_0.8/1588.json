@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "갔다오다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "iku .行く "
+    ],
+    "lu_id": 1588,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11493",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iku .行く "
+                    ],
+                    "ko_annotation_id": 11493,
+                    "annotation_id": 0,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "갔습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Reason",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "스승 고노무카이의 명령에 따라,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 26
+                            },
+                            "text": "빈집을 청소하러",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4441,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "갔다오다.v.Self_motion",
+                    "text": "스승 고노무카이의 명령에 따라, 빈집을 청소하러 갔습니다."
+                }
+            ]
+        }
+    ]
+}

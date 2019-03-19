@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "실시되다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "conduct"
+    ],
+    "lu_id": 5316,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15306",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "conducted"
+                    ],
+                    "ko_annotation_id": 15306,
+                    "annotation_id": 14657,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "실시될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "핵실험을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "text": "6월에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2870,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "실시되다.v.Intentionally_act",
+                    "text": "북한은 핵실험을 하지 않았지만, 2005년 5월 초에 미국 인공위성이 보내온 사진이 북한이 6월에 실시될 핵실험을 위한 준비가 될 수 있는 신호를 탐지하였다고 언론 보도는 지적하였다."
+                }
+            ]
+        }
+    ]
+}

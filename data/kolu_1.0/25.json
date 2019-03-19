@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "가다.v.Operate_vehicle",
+    "ko_pos": "v",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "lu_id": "25",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1491",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operate_vehicle",
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "가기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "text": "이라크로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1491",
+                    "lu": "가다.v.Operate_vehicle",
+                    "text": "Hall은 금요일에 요르단의 암만으로 비행기로 가고, 거기서 그는 이라크로 가기 전에 하룻밤을 보낼 것이다."
+                }
+            ]
+        }
+    ]
+}

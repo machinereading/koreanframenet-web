@@ -1,0 +1,65 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "없다.a.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "never"
+    ],
+    "lu_id": 1766,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2465",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "never"
+                    ],
+                    "ko_annotation_id": 2465,
+                    "annotation_id": 4840,
+                    "frameName": "Frequency",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "없는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "호텔에서 떼어낼 수",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 934,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "없다.a.Frequency",
+                    "text": "빈번하게 자신을 호텔에서 떼어낼 수 없는 유혹이 있다."
+                }
+            ]
+        }
+    ]
+}

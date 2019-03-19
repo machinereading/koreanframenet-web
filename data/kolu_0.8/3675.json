@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "직전.n.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "temae .手前 "
+    ],
+    "lu_id": 3675,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11429",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "temae .手前 "
+                    ],
+                    "ko_annotation_id": 11429,
+                    "annotation_id": 0,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "직전에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "신호",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4379,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "직전.n.Locative_relation",
+                    "text": "신호 직전에서 택시는 정지한다."
+                }
+            ]
+        }
+    ]
+}

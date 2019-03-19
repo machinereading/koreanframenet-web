@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "울다.v.Communication_noise",
+    "frameID": 39,
+    "frameName": "Communication_noise",
+    "en_lus": [
+        "cry"
+    ],
+    "lu_id": 874,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12593",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "cry"
+                    ],
+                    "ko_annotation_id": 12593,
+                    "annotation_id": 923,
+                    "frameName": "Communication_noise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_noise",
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "울기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Reason",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 27
+                            },
+                            "text": "880과 Bay 다리의 사진들을 보았을 때,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 161,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "울다.v.Communication_noise",
+                    "text": "내가 880과 Bay 다리의 사진들을 보았을 때, 나는 울기 시작하였다."
+                }
+            ]
+        }
+    ]
+}

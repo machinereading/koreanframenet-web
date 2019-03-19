@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "갖다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "suru .する "
+    ],
+    "lu_id": 3641,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12055",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suru .する "
+                    ],
+                    "ko_annotation_id": 12055,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 54,
+                                "end": 56
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "갖고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "도즈카는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 44
+                            },
+                            "text": "자신의 손으로 초등학교를 운영하겠다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4801,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "갖다.v.Intentionally_act",
+                    "text": "그런 미래를 실현하는 첫걸음으로, 도즈카는 자신의 손으로 초등학교를 운영하겠다는 것을 큰 목표로 갖고 있다."
+                }
+            ]
+        }
+    ]
+}

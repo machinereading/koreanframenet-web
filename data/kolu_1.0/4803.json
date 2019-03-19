@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "창작하다.v.Creating",
+    "ko_pos": "v",
+    "frameID": 319,
+    "frameName": "Creating",
+    "lu_id": "4803",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4892",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "창작하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "잘 나가는 작품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4892",
+                    "lu": "창작하다.v.Creating",
+                    "text": "따라서, 계약한 작가가 잘 나가는 작품을 창작하지 못하면, 작가 에이전트도 운영이 곧바로 어려워진다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "en_lus": [],
+    "ko_lu": "깨어나다.v.Waking_up",
+    "ko_pos": "v",
+    "frameID": 295,
+    "frameName": "Waking_up",
+    "lu_id": "862",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4058",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Waking_up",
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "깨어나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sleep_State",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 36
+                            },
+                            "text": "가슴 속의 섬세해진 어떤 부분이 깨어나,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4058",
+                    "lu": "깨어나다.v.Waking_up",
+                    "text": "이 시기에 밤잠이 들면, 가슴 속의 섬세해진 어떤 부분이 깨어나, 등이 쫙 펴지는 순간을 느낄 수 있습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "침울하다.a.Being_wet",
+    "frameID": 332,
+    "frameName": "Being_wet",
+    "en_lus": [
+        "simeppoi .湿っぽい "
+    ],
+    "lu_id": 4435,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11080",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "simeppoi .湿っぽい "
+                    ],
+                    "ko_annotation_id": 11080,
+                    "annotation_id": 0,
+                    "frameName": "Being_wet",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_wet",
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "침울했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 30
+                            },
+                            "text": "우울한 하늘을 바라보면서 방으로 향하는 부원들의 마음도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4163,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "침울하다.a.Being_wet",
+                    "text": "우울한 하늘을 바라보면서 방으로 향하는 부원들의 마음도 마찬가지로 침울했다."
+                }
+            ]
+        }
+    ]
+}

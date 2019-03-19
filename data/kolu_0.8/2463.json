@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "평가.n.Fame",
+    "frameID": 1880,
+    "frameName": "Fame",
+    "en_lus": [
+        "hyooban .評判 "
+    ],
+    "lu_id": 2463,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11232",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hyooban .評判 "
+                    ],
+                    "ko_annotation_id": 11232,
+                    "annotation_id": 0,
+                    "frameName": "Fame",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fame",
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "평가를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 67
+                            },
+                            "text": "유럽",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 76
+                            },
+                            "text": "레스토랑 평가를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4250,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "평가.n.Fame",
+                    "text": "하지만, 이 말이 새로이 사용되게 된 것은, 앙리 고와 크리스티앙 미요(고에미요로 알려진 음식평론가.)가 라디오에서 유럽 레스토랑 평가를 하면서 우물가의 쑥덕공론을 하게 된 것에서 출발했다고 한다."
+                }
+            ]
+        }
+    ]
+}

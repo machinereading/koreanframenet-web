@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "크다.a.Expertise",
+    "frameID": 136,
+    "frameName": "Expertise",
+    "en_lus": [
+        "ookii .大きい"
+    ],
+    "lu_id": 3776,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10136",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ookii .大きい"
+                    ],
+                    "ko_annotation_id": 10136,
+                    "annotation_id": 0,
+                    "frameName": "Expertise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expertise",
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "큰,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 58
+                            },
+                            "text": "신을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3575,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "크다.a.Expertise",
+                    "text": "일본 고유의 신령에 대한 상식도, 거짓은 아닙니다만, 그런 것에 매달리기보다는, 더 큰, 전세계적인 신을 제대로 알아가는 방법을 취하는 것이 좋습니다."
+                }
+            ]
+        }
+    ]
+}

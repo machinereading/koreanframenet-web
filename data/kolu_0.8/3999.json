@@ -1,0 +1,135 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "전환시키다.v.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "turn",
+        "convert"
+    ],
+    "lu_id": 3999,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 980",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "convert",
+                        "turns"
+                    ],
+                    "ko_annotation_id": 980,
+                    "annotation_id": 2075,
+                    "frameName": "Cause_change",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "전환시킨다."
+                        }
+                    ],
+                    "sent_id": 383,
+                    "relations": [],
+                    "lu": "전환시키다.v.Cause_change",
+                    "text": "궁극적으로, 그는 당신의 지원을 우리의 모두를 위한 이익으로 전환시킨다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7450",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "convert",
+                        "turns"
+                    ],
+                    "ko_annotation_id": 7450,
+                    "annotation_id": 13563,
+                    "frameName": "Cause_change",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 39,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "전환시키기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "text": "농축시켜",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 38
+                            },
+                            "text": "무기급 물질로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2703,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전환시키다.v.Cause_change",
+                    "text": "리비아는 비밀리에 수입한 천연 우라늄과 그것을 농축시켜 무기급 물질로 전환시키기 위해 필요한 장비를 가지고 있다고 인정하였으나 농축 계획은 해체되었고 고농축 우라늄은 과거 10년에 걸쳐 생산하지 않았다고 부언하였다."
+                }
+            ]
+        }
+    ]
+}

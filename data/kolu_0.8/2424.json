@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "대가.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "taika .大家 "
+    ],
+    "lu_id": 2424,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10275",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "taika .大家 "
+                    ],
+                    "ko_annotation_id": 10275,
+                    "annotation_id": 0,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "대가가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "의학의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "대가가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3644,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대가.n.Leadership",
+                    "text": "교토에, 천왕의 시의였던 야마와키 도요라는 의학의 대가가 있었다."
+                }
+            ]
+        }
+    ]
+}

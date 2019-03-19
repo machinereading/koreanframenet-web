@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "접경.n.Boundary",
+    "frameID": 329,
+    "frameName": "Boundary",
+    "en_lus": [
+        "border"
+    ],
+    "lu_id": 4875,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 355",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "border"
+                    ],
+                    "ko_annotation_id": 355,
+                    "annotation_id": 749,
+                    "frameName": "Boundary",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Boundary",
+                            "span": {
+                                "begin": 59,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "Berkeley"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entities",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 58
+                            },
+                            "text": " Oakland -",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 124,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "접경.n.Boundary",
+                    "text": "오전 12시 38분 DAYAC : 지진이 강타했을 때 나는 나의 트럭을 몰고 있었고,  Oakland - Berkeley 접경에 있는 Shattuck과 Alcatraz 모퉁이의 신호등 빨간불에 멈추어 있었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "엄격하다.a.Strictness",
+    "ko_pos": "a",
+    "frameID": 75,
+    "frameName": "Strictness",
+    "lu_id": "3253",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4086",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Strictness",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "엄격해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "고객",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4086",
+                    "lu": "엄격하다.a.Strictness",
+                    "text": "고객 안전기준이 엄격해 지킬 수 있을 것 같지 않다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1623",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Strictness",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "엄격한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "통제 체제가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1623",
+                    "lu": "엄격하다.a.Strictness",
+                    "text": "엄격한 통제 체제가 상기 항목을 포함해야 한다."
+                }
+            ]
+        }
+    ]
+}

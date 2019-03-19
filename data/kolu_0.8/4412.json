@@ -1,0 +1,103 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "응답하다.v.Response",
+    "frameID": 1302,
+    "frameName": "Response",
+    "en_lus": [
+        "respond"
+    ],
+    "lu_id": 4412,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8352",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "responded"
+                    ],
+                    "ko_annotation_id": 8352,
+                    "annotation_id": 15311,
+                    "frameName": "Response",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Response",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "응답하였고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "미국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Response",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 19
+                            },
+                            "text": "중유 수송을 유보하는 것으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 30
+                            },
+                            "text": "2002년 12월에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2973,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "응답하다.v.Response",
+                    "text": "미국은 중유 수송을 유보하는 것으로 2002년 12월에 응답하였고, 이때 북한은 핵시설 동결 해제, 동결을 감시하는 IAEA 조사관 축출, 그리고 2003년 1월 10일 NPT로부터 탈퇴를 선언하여 핵시설 동결에 대해 보복하였다."
+                }
+            ]
+        }
+    ]
+}

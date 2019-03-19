@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "알리다.v.Make_noise",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "en_lus": [
+        "sound"
+    ],
+    "lu_id": 1230,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13027",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sound"
+                    ],
+                    "ko_annotation_id": 13027,
+                    "annotation_id": 3117,
+                    "frameName": "Make_noise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "알리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Noisy_Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "20세기 초에 일련의 처참한 결정으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sound",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 35
+                            },
+                            "text": "오토만 제국에 대한 종말을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 588,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "알리다.v.Make_noise",
+                    "text": "20세기 초에 일련의 처참한 결정으로 오토만 제국에 대한 종말을 알리는 전조가 들리기 시작하였다."
+                }
+            ]
+        }
+    ]
+}

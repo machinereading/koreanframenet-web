@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "교환하다.v.Exchange",
+    "frameID": 1170,
+    "frameName": "Exchange",
+    "en_lus": [
+        "exchange"
+    ],
+    "lu_id": 2411,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16069",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "exchange"
+                    ],
+                    "ko_annotation_id": 16069,
+                    "annotation_id": 18432,
+                    "frameName": "Exchange",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exchange",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "교환한다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Exchangers",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "인도와 이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Themes",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "text": "핵 과학자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3510,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교환하다.v.Exchange",
+                    "text": "인도와 이란은 핵 과학자를 교환한다 ( Timmerman, 44 )."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "택시.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "takusii .タクシー"
+    ],
+    "lu_id": 4873,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11430",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "takusii .タクシー"
+                    ],
+                    "ko_annotation_id": 11430,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "택시는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4379,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "택시.n.Vehicle",
+                    "text": "신호 직전에서 택시는 정지한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16420",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "takusii .タクシー"
+                    ],
+                    "ko_annotation_id": 16420,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "택시는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4258,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "택시.n.Vehicle",
+                    "text": "말과는 정반대로 택시는 이츠카이치카이도에 들어섰다."
+                }
+            ]
+        }
+    ]
+}

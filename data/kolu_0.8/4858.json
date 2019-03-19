@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "일치하다.v.Compatibility",
+    "frameID": 360,
+    "frameName": "Compatibility",
+    "en_lus": [
+        "itti .一致 "
+    ],
+    "lu_id": 4858,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11267",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "itti .一致 "
+                    ],
+                    "ko_annotation_id": 11267,
+                    "annotation_id": 0,
+                    "frameName": "Compatibility",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compatibility",
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "일치했을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item_1",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "text": "몇 가지 우연과,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item_2",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 25
+                            },
+                            "text": "몇 가지 암시가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4280,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "일치하다.v.Compatibility",
+                    "text": "그저 단순히 몇 가지 우연과, 몇 가지 암시가 일치했을 뿐이다."
+                }
+            ]
+        }
+    ]
+}

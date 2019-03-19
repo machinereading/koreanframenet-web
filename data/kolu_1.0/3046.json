@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "심하다.a.Prominence",
+    "ko_pos": "a",
+    "frameID": 1460,
+    "frameName": "Prominence",
+    "lu_id": "3046",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-984",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Prominence",
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "심하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 38
+                            },
+                            "text": "다른 곳 보다 덜",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "984",
+                    "lu": "심하다.a.Prominence",
+                    "text": "그리고 다국적 체인점들이 잠식해 들어왔지만, 그들은 다른 곳 보다 덜 심하게 눈에 뛰는 것 같다."
+                }
+            ]
+        }
+    ]
+}

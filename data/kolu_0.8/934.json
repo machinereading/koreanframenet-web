@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "스승.n.Expertise",
+    "frameID": 136,
+    "frameName": "Expertise",
+    "en_lus": [
+        "si .師"
+    ],
+    "lu_id": 934,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11491",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "si .師"
+                    ],
+                    "ko_annotation_id": 11491,
+                    "annotation_id": 0,
+                    "frameName": "Expertise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expertise",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "스승"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "고노무카이의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4441,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "스승.n.Expertise",
+                    "text": "스승 고노무카이의 명령에 따라, 빈집을 청소하러 갔습니다."
+                }
+            ]
+        }
+    ]
+}

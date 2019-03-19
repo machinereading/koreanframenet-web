@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "일컫다.v.Suitability",
+    "frameID": 368,
+    "frameName": "Suitability",
+    "en_lus": [
+        "atehamaru .あてはまる "
+    ],
+    "lu_id": 4047,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10661",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "atehamaru .あてはまる "
+                    ],
+                    "ko_annotation_id": 10661,
+                    "annotation_id": 0,
+                    "frameName": "Suitability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suitability",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "일컫는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "루푸는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 29
+                            },
+                            "text": "문턱에 의해 규정된 닫힌 영역 전부를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3919,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "일컫다.v.Suitability",
+                    "text": "말하자면 루푸는 문턱에 의해 규정된 닫힌 영역 전부를 일컫는 개념이다."
+                }
+            ]
+        }
+    ]
+}

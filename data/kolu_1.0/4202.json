@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "전장.n.Hostile_encounter",
+    "ko_pos": "n",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "lu_id": "4202",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2217",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "전장에서"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "2217",
+                    "lu": "전장.n.Hostile_encounter",
+                    "text": "전장에서 화학전 ( CW ) 을 경험한 세계에서 몇 안되는 국가들 중 하나인 이란은 1997년에 화학무기협정을 비준하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1265",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "전장에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "화학무기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1265",
+                    "lu": "전장.n.Hostile_encounter",
+                    "text": "전장에서 화학무기를 경험한 세계에서 몇 안되는 국가 중의 하나인, 이란은 1997년에 화학무기금지협약을 비준하였다."
+                }
+            ]
+        }
+    ]
+}

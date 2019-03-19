@@ -1,0 +1,95 @@
+{
+    "en_lus": [],
+    "ko_lu": "신청하다.v.Request",
+    "ko_pos": "v",
+    "frameID": 41,
+    "frameName": "Request",
+    "lu_id": "3008",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4473",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 63,
+                                "end": 68
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "신청했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "동양의 제자들은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 58
+                            },
+                            "text": "교토의 치안을 담당하던 쇼시다이에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "text": "해부를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4473",
+                    "lu": "신청하다.v.Request",
+                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다."
+                }
+            ]
+        }
+    ]
+}

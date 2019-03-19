@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "길다.a.Duplication",
+    "frameID": 11,
+    "frameName": "Duplication",
+    "en_lus": [
+        "nagai .長い"
+    ],
+    "lu_id": 4640,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12129",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nagai .長い"
+                    ],
+                    "ko_annotation_id": 12129,
+                    "annotation_id": 0,
+                    "frameName": "Duplication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Duplication",
+                            "span": {
+                                "begin": 14,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "긴"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "전쟁",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4843,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "길다.a.Duplication",
+                    "text": "나는 도시 출생인데다가, 긴 전쟁 때문에 수영을 배울 기회도 없었다."
+                }
+            ]
+        }
+    ]
+}

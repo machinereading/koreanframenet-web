@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "위치하다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "3644",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3569",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "위치한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "앞바다에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "영도가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3569",
+                    "lu": "위치하다.v.Motion",
+                    "text": "부산만은, 앞바다에 위치한 영도가 보호하는 안쪽으로 길게 펼쳐진 주머니같은 모양새를 띈 항구를 산이 둘러싸고 있는 천혜의 양항이다."
+                }
+            ]
+        }
+    ]
+}

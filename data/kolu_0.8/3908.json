@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "혐의.n.Notification_of_charges",
+    "frameID": 129,
+    "frameName": "Notification_of_charges",
+    "en_lus": [
+        "charge"
+    ],
+    "lu_id": 3908,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14627",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "charges"
+                    ],
+                    "ko_annotation_id": 14627,
+                    "annotation_id": 11810,
+                    "frameName": "Notification_of_charges",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Notification_of_charges",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "혐의를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Charges",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 19
+                            },
+                            "text": "핵무기 프로그램을 추구한다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2348,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "혐의.n.Notification_of_charges",
+                    "text": "이란은 핵무기 프로그램을 추구한다는 혐의를 부인하였고, 민간용 핵 기술은 핵확산 방지 조약에 대한 모든 핵무기 비보유국 당사자의 권리라고 주장한다."
+                }
+            ]
+        }
+    ]
+}

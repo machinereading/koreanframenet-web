@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "몸담다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "tuku .就く"
+    ],
+    "lu_id": 3449,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11916",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tuku .就く"
+                    ],
+                    "ko_annotation_id": 11916,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "몸담은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "교직에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "text": "자로서,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4713,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "몸담다.v.Intentionally_act",
+                    "text": "이것을 못하는, 또는 하려고 하지 않는 교사는, 유약하고, 교직에 몸담은 자로서, 받아들여질 수 없으며, 용서받을 수 없다."
+                }
+            ]
+        }
+    ]
+}

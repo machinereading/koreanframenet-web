@@ -1,0 +1,137 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "개최되다.v.Event",
+    "frameID": 187,
+    "frameName": "Event",
+    "en_lus": [
+        "kaisai .開催 ",
+        "take place"
+    ],
+    "lu_id": 4024,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3670",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "take place",
+                        "kaisai .開催 "
+                    ],
+                    "ko_annotation_id": 3670,
+                    "annotation_id": 6859,
+                    "frameName": "Event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "개최되었나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "축제는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "9월에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1410,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개최되다.v.Event",
+                    "text": "QN : 축제는 9월에 개최되었나 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10559",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "take place",
+                        "kaisai .開催 "
+                    ],
+                    "ko_annotation_id": 10559,
+                    "annotation_id": 0,
+                    "frameName": "Event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 74,
+                                "end": 77
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "개최된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 73
+                            },
+                            "text": "유도의 종주국인 일본에서조차",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3837,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개최되다.v.Event",
+                    "text": "따라서 이 여자 토너먼트전의 서두 인사말에서 가와이시 미키노스케가 말했다시피, 이것은 「세계 최초이자, 유도의 종주국인 일본에서조차 개최된 적이 없는」 의욕적인 실험이었다."
+                }
+            ]
+        }
+    ]
+}

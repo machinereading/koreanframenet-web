@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "들어가다.v.Activity_start",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "en_lus": [
+        "enter"
+    ],
+    "lu_id": 4265,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6776",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "entered"
+                    ],
+                    "ko_annotation_id": 6776,
+                    "annotation_id": 12371,
+                    "frameName": "Activity_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 58,
+                                "end": 63
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "들어갔다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "text": "미사일이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "text": "생산에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2462,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들어가다.v.Activity_start",
+                    "text": "Shehab-1 프로그램의 발전은 비교적 지속적이었고 1988년 초 동안 이란 관리들은 미사일이 생산에 들어갔다고 주장하였다."
+                }
+            ]
+        }
+    ]
+}

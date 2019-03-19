@@ -1,0 +1,106 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "좌절시키다.v.Thwarting",
+    "frameID": 518,
+    "frameName": "Thwarting",
+    "en_lus": [
+        "thwart"
+    ],
+    "lu_id": 4165,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13751",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "thwarted"
+                    ],
+                    "ko_annotation_id": 13751,
+                    "annotation_id": 7044,
+                    "frameName": "Thwarting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Thwarting",
+                            "span": {
+                                "begin": 61,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "좌절시켰다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Preventing_Cause",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "경제적 제재",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Preventing_Cause",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "text": "이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Action",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 60
+                            },
+                            "text": "폭격 작전의 황폐로부터 회복하기 위한 나라의 능력을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1486,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "좌절시키다.v.Thwarting",
+                    "text": "이라크는 전쟁 종료 이후 경제적 제재 하에 있었고, 이는 폭격 작전의 황폐로부터 회복하기 위한 나라의 능력을 좌절시켰다고 누군가가 말하고 있다."
+                }
+            ]
+        }
+    ]
+}

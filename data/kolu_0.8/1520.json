@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "거래하다.v.Exchange",
+    "frameID": 1170,
+    "frameName": "Exchange",
+    "en_lus": [
+        "trade"
+    ],
+    "lu_id": 1520,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12922",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "trade"
+                    ],
+                    "ko_annotation_id": 12922,
+                    "annotation_id": 2649,
+                    "frameName": "Exchange",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exchange",
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "거래하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Exchanger_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme_1",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "text": "흑요석과 지역 대리석을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 503,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거래하다.v.Exchange",
+                    "text": "그들은 흑요석과 지역 대리석을 계속 거래하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "끌어오다.v.Process_continue",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "en_lus": [
+        "dragged on"
+    ],
+    "lu_id": 3126,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5130",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dragged on"
+                    ],
+                    "ko_annotation_id": 5130,
+                    "annotation_id": 9264,
+                    "frameName": "Process_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 44,
+                                "end": 52
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "질질 끌어와야만"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "해결을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "text": "수 년 동안",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1921,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "끌어오다.v.Process_continue",
+                    "text": "살해된 이 사람들의 가족 패해자들은 그들이 어떤 해결을 갖기 전에 수 년 동안 질질 끌어와야만 했다."
+                }
+            ]
+        }
+    ]
+}

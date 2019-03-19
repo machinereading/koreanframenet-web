@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "들다.v.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "hairu .入る "
+    ],
+    "lu_id": 2821,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16419",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hairu .入る "
+                    ],
+                    "ko_annotation_id": 16419,
+                    "annotation_id": 0,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "들어섰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "이츠카이치카이도에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4258,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Arriving",
+                    "text": "말과는 정반대로 택시는 이츠카이치카이도에 들어섰다."
+                }
+            ]
+        }
+    ]
+}

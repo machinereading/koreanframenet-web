@@ -1,0 +1,116 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "학파.n.Organization",
+    "frameID": 1371,
+    "frameName": "Organization",
+    "en_lus": [
+        "gakuha .学派"
+    ],
+    "lu_id": 4376,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10851",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "gakuha .学派"
+                    ],
+                    "ko_annotation_id": 10851,
+                    "annotation_id": 0,
+                    "frameName": "Organization",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Organization",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "학파로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Organization",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "그 학파로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4023,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학파.n.Organization",
+                    "text": "그들은, 이러한 결과에 대한 책임을, 주로 그 학파로 돌리고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10903",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "gakuha .学派"
+                    ],
+                    "ko_annotation_id": 10903,
+                    "annotation_id": 0,
+                    "frameName": "Organization",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Organization",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "학파의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "text": "벤담 학파의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4059,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학파.n.Organization",
+                    "text": "그와 그 후계자들의 역할은, 벤담 학파의 반역사적 성향에 대응하여, 강력한 평형력을 유지하는 것이었다."
+                }
+            ]
+        }
+    ]
+}

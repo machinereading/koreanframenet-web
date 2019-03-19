@@ -1,0 +1,67 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "속력.n.Speed_description",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "en_lus": [
+        "sokuryoku .速力 "
+    ],
+    "lu_id": 2156,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11034",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sokuryoku .速力 "
+                    ],
+                    "ko_annotation_id": 11034,
+                    "annotation_id": 0,
+                    "frameName": "Speed_description",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Speed_description",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "속력은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speed",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 53
+                            },
+                            "text": "브린디시, 수에즈 간이 1시간 10마일,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4114,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "속력.n.Speed_description",
+                    "text": "이 배는, 같은 회사의 쾌속정 중 하나로, 정규 속력은 브린디시, 수에즈 간이 1시간 10마일, 수에즈, 뭄바이 간이 9마일 반이었으나, 늘 이를 초과했다."
+                }
+            ]
+        }
+    ]
+}

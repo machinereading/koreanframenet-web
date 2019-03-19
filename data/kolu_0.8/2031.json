@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "선고되다.v.Sentencing",
+    "frameID": 297,
+    "frameName": "Sentencing",
+    "en_lus": [
+        "sentence"
+    ],
+    "lu_id": 2031,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5073",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sentenced"
+                    ],
+                    "ko_annotation_id": 5073,
+                    "annotation_id": 9164,
+                    "frameName": "Sentencing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sentencing",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "선고된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Convict",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "살인자의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1903,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선고되다.v.Sentencing",
+                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다."
+                }
+            ]
+        }
+    ]
+}

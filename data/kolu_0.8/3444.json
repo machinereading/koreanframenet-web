@@ -1,0 +1,72 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "의문.n.Point_of_dispute",
+    "frameID": 1608,
+    "frameName": "Point_of_dispute",
+    "en_lus": [
+        "question"
+    ],
+    "lu_id": 3444,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2732",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "question"
+                    ],
+                    "ko_annotation_id": 2732,
+                    "annotation_id": 5308,
+                    "frameName": "Point_of_dispute",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Point_of_dispute",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "의문의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Question",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 48
+                            },
+                            "text": "그것들은 탄핵 절차로까지 갈 수 있다는 것은 의문의 여지가 없다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1010,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의문.n.Point_of_dispute",
+                    "text": "그것들이 사실이라면, 그것들은 탄핵 절차로까지 갈 수 있다는 것은 의문의 여지가 없다. \""
+                }
+            ]
+        }
+    ]
+}

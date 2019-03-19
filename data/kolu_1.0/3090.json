@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "아프다.a.Medical_conditions",
+    "ko_pos": "a",
+    "frameID": 239,
+    "frameName": "Medical_conditions",
+    "lu_id": "3090",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1762",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_conditions",
+                            "span": {
+                                "begin": 112,
+                                "end": 114
+                            },
+                            "token_span": [
+                                30
+                            ],
+                            "role": "TARGET",
+                            "text": "아픈"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                29
+                            ],
+                            "span": {
+                                "begin": 107,
+                                "end": 111
+                            },
+                            "text": "위태롭게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                31
+                            ],
+                            "span": {
+                                "begin": 115,
+                                "end": 119
+                            },
+                            "text": "환자들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1762",
+                    "lu": "아프다.a.Medical_conditions",
+                    "text": "Dr _Gupto : Paula 가 정말 중요한 다른 한 가지는 우리가 1918 년에 있던 것 보다 지금은 우리가 환자를 돌보는 것이 훨씬 좋다는 사실에 대하 많이 이야기하는 것이고, 우리는 위태롭게 아픈 환자들을 돌볼 수 있는 나의 뒤에 있는 병원에 많은 ICU를 가지고 있다."
+                }
+            ]
+        }
+    ]
+}

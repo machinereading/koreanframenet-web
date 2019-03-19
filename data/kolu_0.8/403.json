@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "시내.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "town"
+    ],
+    "lu_id": 403,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 996",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "towns"
+                    ],
+                    "ko_annotation_id": 996,
+                    "annotation_id": 2117,
+                    "frameName": "Political_locales",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Political_locales",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "시내와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 33
+                            },
+                            "text": "그들이 가장 필요한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 401,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시내.n.Political_locales",
+                    "text": "우리는 Goodwill의 입증된 방법들을 그들이 가장 필요한 시내와 이웃으로 넓혔습니다."
+                }
+            ]
+        }
+    ]
+}

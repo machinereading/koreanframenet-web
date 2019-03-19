@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "주장되다.v.Claim_ownership",
+    "frameID": 550,
+    "frameName": "Claim_ownership",
+    "en_lus": [
+        "claimed"
+    ],
+    "lu_id": 328,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8857",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "claimed"
+                    ],
+                    "ko_annotation_id": 8857,
+                    "annotation_id": 16239,
+                    "frameName": "Claim_ownership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 38,
+                                "end": 46
+                            },
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "주장되고 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "타이완은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Claimant",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 37
+                            },
+                            "text": "중국 정부와 타이완 자치정부 모두가 자기의 소유라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3111,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주장되다.v.Claim_ownership",
+                    "text": "주 : 타이완은 중국 정부와 타이완 자치정부 모두가 자기의 소유라고 주장되고 있다."
+                }
+            ]
+        }
+    ]
+}

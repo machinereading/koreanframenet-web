@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "시설.n.System",
+    "ko_pos": "n",
+    "frameID": 1610,
+    "frameName": "System",
+    "lu_id": "2947",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-627",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "System",
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "급수시설의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 27
+                            },
+                            "text": "Cananite",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Component_Entities",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "text": "급수시설의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "627",
+                    "lu": "시설.n.System",
+                    "text": "19세기 고고학자들에 의해 발견된 Cananite 급수시설의 일부이고 방문객들에게 개방한 Warren 's Shaft는 바로 다윗의 군대가 침투한 터널일지도 모른다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-655",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "System",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "급수시설이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Component_Entities",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "급수시설이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "655",
+                    "lu": "시설.n.System",
+                    "text": "여러 왕궁이 건축되고 급수시설이 설치되었다."
+                }
+            ]
+        }
+    ]
+}

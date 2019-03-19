@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "의견.n.Opinion",
+    "frameID": 1412,
+    "frameName": "Opinion",
+    "en_lus": [
+        "iken .意見 "
+    ],
+    "lu_id": 3699,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10117",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iken .意見 "
+                    ],
+                    "ko_annotation_id": 10117,
+                    "annotation_id": 0,
+                    "frameName": "Opinion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Opinion",
+                            "span": {
+                                "begin": 70,
+                                "end": 73
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "의견을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Opinion",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 65
+                            },
+                            "text": "아름다운 제목이 낫다는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 69
+                            },
+                            "text": "남편의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3570,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의견.n.Opinion",
+                    "text": "서점에 진열될지 모른다고 생각하면 조금 더 사람들의 이목을 끄는 제목으로 할까 생각도 했으나, 아름다운 제목이 낫다는 남편의 의견을 따랐다."
+                }
+            ]
+        }
+    ]
+}

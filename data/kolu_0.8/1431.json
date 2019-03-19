@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "가정.n.Medical_professionals",
+    "frameID": 255,
+    "frameName": "Medical_professionals",
+    "en_lus": [
+        "doctor"
+    ],
+    "lu_id": 1431,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 530",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "doctor"
+                    ],
+                    "ko_annotation_id": 530,
+                    "annotation_id": 1141,
+                    "frameName": "Medical_professionals",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_professionals",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "가정의가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Professional",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Type",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "가정의가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 210,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가정.n.Medical_professionals",
+                    "text": "그가 똑똑했다면, 그는 아마 우선 가정의가 되지 않았을 것이다."
+                }
+            ]
+        }
+    ]
+}

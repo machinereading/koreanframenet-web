@@ -1,0 +1,101 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "봉기.n.Change_of_leadership",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "en_lus": [
+        "uprise"
+    ],
+    "lu_id": 2709,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4730",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "uprising"
+                    ],
+                    "ko_annotation_id": 4730,
+                    "annotation_id": 8621,
+                    "frameName": "Change_of_leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "봉기인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old_Leader",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "이스라엘의 점령에 반대하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "text": "1987년",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Selector",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "text": "팔레스타인의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1777,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "봉기.n.Change_of_leadership",
+                    "text": "이스라엘의 점령에 반대하는 자발적인 1987년 팔레스타인의 봉기인 Intifada는, 무슬림 원리주의의 발흥을 예고하였다."
+                }
+            ]
+        }
+    ]
+}

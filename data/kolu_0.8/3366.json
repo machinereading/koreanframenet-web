@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "빼앗다.v.Robbery",
+    "frameID": 99,
+    "frameName": "Robbery",
+    "en_lus": [
+        "rob"
+    ],
+    "lu_id": 3366,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4902",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "robbing"
+                    ],
+                    "ko_annotation_id": 4902,
+                    "annotation_id": 8886,
+                    "frameName": "Robbery",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Robbery",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "빼앗는 것은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "text": "무슬림들로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "종교를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1847,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빼앗다.v.Robbery",
+                    "text": "무슬림 학자들로 우리가 배운 것은 무슬림들로부터 종교를 빼앗는 것은 그들의 명예와 토지를 빼앗는 것보다 더 크다는 것이다."
+                }
+            ]
+        }
+    ]
+}

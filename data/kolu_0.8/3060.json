@@ -1,0 +1,98 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "근로자.n.Employing",
+    "frameID": 323,
+    "frameName": "Employing",
+    "en_lus": [
+        "worker",
+        "kinroo sya .勤労 者 "
+    ],
+    "lu_id": 3060,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 948",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kinroo sya .勤労 者 ",
+                        "worker"
+                    ],
+                    "ko_annotation_id": 948,
+                    "annotation_id": 2001,
+                    "frameName": "Employing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Employing",
+                            "span": {
+                                "begin": 93,
+                                "end": 98
+                            },
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "근로자뿐만"
+                        }
+                    ],
+                    "sent_id": 371,
+                    "relations": [],
+                    "lu": "근로자.n.Employing",
+                    "text": "우리는 누군가가 그들의 고용 장벽에 대한 해결책을 발견하도록 도울 때마다, 긍정적인 효과가 우리들의 지역사회 전반에 발산된다 : 기업 공동체는 단지 또 다른 한 명의 근로자뿐만 아니라 증가된 구매력을 가진 한 명의 소비자를 맞이하는 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10321",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kinroo sya .勤労 者 ",
+                        "worker"
+                    ],
+                    "ko_annotation_id": 10321,
+                    "annotation_id": 0,
+                    "frameName": "Employing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Employing",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "근로자의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "근로자의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "근로자.n.Employing",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
+                }
+            ]
+        }
+    ]
+}

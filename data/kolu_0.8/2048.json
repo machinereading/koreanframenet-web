@@ -1,0 +1,90 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "있다.a.Event",
+    "frameID": 187,
+    "frameName": "Event",
+    "en_lus": [
+        "aru .ある "
+    ],
+    "lu_id": 2048,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12332",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "aru .ある "
+                    ],
+                    "ko_annotation_id": 12332,
+                    "annotation_id": 0,
+                    "frameName": "Event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 57,
+                                "end": 60
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 24
+                            },
+                            "text": "아침 일찍 외출했을 때,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 53
+                            },
+                            "text": "검고 불길한 기독교식 장례행렬을 만나게 되는 경우가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4964,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "있다.a.Event",
+                    "text": "사소한 용무가 있어 아침 일찍 외출했을 때, 검고 불길한 기독교식 장례행렬을 만나게 되는 경우가 종종 있다."
+                }
+            ]
+        }
+    ]
+}

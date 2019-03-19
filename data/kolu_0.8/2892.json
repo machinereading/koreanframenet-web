@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "운용.n.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "employ"
+    ],
+    "lu_id": 2892,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7728",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "employing"
+                    ],
+                    "ko_annotation_id": 7728,
+                    "annotation_id": 14063,
+                    "frameName": "Using",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Using",
+                            "span": {
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "운용에서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "북한은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 25
+                            },
+                            "text": "화학무기 작용제의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2779,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "운용.n.Using",
+                    "text": "미사여구는 차치하고, 북한은 화학무기 작용제의 실제적인 운용에서, 이들의 제조와 저장은 말할 것 없고 많은 장애에 직면하고 있다."
+                }
+            ]
+        }
+    ]
+}

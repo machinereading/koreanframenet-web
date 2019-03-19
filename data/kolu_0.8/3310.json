@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "맡다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "tutomeru .務める "
+    ],
+    "lu_id": 3310,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11408",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tutomeru .務める "
+                    ],
+                    "ko_annotation_id": 11408,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 35,
+                                "end": 40
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "맡고 있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 30
+                            },
+                            "text": "마쓰오카 히로마사 씨가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "대표를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4366,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맡다.v.Intentionally_act",
+                    "text": "이번에, 감수를 맡아주시기도 한 마쓰오카 히로마사 씨가 대표를 맡고 있는 나카지마 홈은, 그중에서도 매우 뛰어납니다."
+                }
+            ]
+        }
+    ]
+}

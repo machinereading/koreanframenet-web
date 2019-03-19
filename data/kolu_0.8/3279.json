@@ -1,0 +1,66 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "고소.n.Notification_of_charges",
+    "frameID": 129,
+    "frameName": "Notification_of_charges",
+    "en_lus": [
+        "charge"
+    ],
+    "lu_id": 3279,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4528",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "charges"
+                    ],
+                    "ko_annotation_id": 4528,
+                    "annotation_id": 8222,
+                    "frameName": "Notification_of_charges",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Notification_of_charges",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "고소가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Charges",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 20
+                            },
+                            "text": "알 카이다와 유대관계를 가졌다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1679,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고소.n.Notification_of_charges",
+                    "text": "그는 알 카이다와 유대관계를 가졌다는 고소가 요르단에서 취하되었다."
+                }
+            ]
+        }
+    ]
+}

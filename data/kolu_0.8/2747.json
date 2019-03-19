@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "검토하다.v.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "kentoo .検討 "
+    ],
+    "lu_id": 2747,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11198",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kentoo .検討 "
+                    ],
+                    "ko_annotation_id": 11198,
+                    "annotation_id": 0,
+                    "frameName": "Topic",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Topic",
+                            "span": {
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "검토하겠습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "사업소 독립회계제도에 대해서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4236,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검토하다.v.Topic",
+                    "text": "여기서, 사업소 독립회계제도에 대해서 다시 한 번 검토하겠습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "비행기.n.Ride_vehicle",
+    "frameID": 690,
+    "frameName": "Ride_vehicle",
+    "en_lus": [
+        "fly"
+    ],
+    "lu_id": 1139,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13761",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "flies"
+                    ],
+                    "ko_annotation_id": 13761,
+                    "annotation_id": 7075,
+                    "frameName": "Ride_vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ride_vehicle",
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "비행기로 가고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "Hall은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "금요일에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "text": "요르단의 암만으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1491,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행기.n.Ride_vehicle",
+                    "text": "Hall은 금요일에 요르단의 암만으로 비행기로 가고, 거기서 그는 이라크로 가기 전에 하룻밤을 보낼 것이다."
+                }
+            ]
+        }
+    ]
+}

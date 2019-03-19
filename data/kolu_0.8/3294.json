@@ -1,0 +1,136 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "수송.n.Sending",
+    "frameID": 243,
+    "frameName": "Sending",
+    "en_lus": [
+        "shipment"
+    ],
+    "lu_id": 3294,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8053",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shipments"
+                    ],
+                    "ko_annotation_id": 8053,
+                    "annotation_id": 14710,
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 43,
+                                "end": 45
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "수송"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sender",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "미국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 42
+                            },
+                            "text": "중유 오일 ( HFO )",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2879,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수송.n.Sending",
+                    "text": "핵확산 방지 조약의 탈퇴는 미국이 핵동결 협약 하에 중유 오일 ( HFO ) 수송 유보 결정에 대한 반응으로 북한은 핵 프로그램 동결을 해제한다는 2002년 12월 선언에 신속히 이어 나왔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8350",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shipments"
+                    ],
+                    "ko_annotation_id": 8350,
+                    "annotation_id": 15313,
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "수송을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "중유",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2973,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수송.n.Sending",
+                    "text": "미국은 중유 수송을 유보하는 것으로 2002년 12월에 응답하였고, 이때 북한은 핵시설 동결 해제, 동결을 감시하는 IAEA 조사관 축출, 그리고 2003년 1월 10일 NPT로부터 탈퇴를 선언하여 핵시설 동결에 대해 보복하였다."
+                }
+            ]
+        }
+    ]
+}

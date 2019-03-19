@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "성취하다.v.Accomplishment",
+    "frameID": 1519,
+    "frameName": "Accomplishment",
+    "en_lus": [
+        "achieve"
+    ],
+    "lu_id": 3621,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2044",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "achieve"
+                    ],
+                    "ko_annotation_id": 2044,
+                    "annotation_id": 4129,
+                    "frameName": "Accomplishment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Accomplishment",
+                            "span": {
+                                "begin": 71,
+                                "end": 74
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "성취할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 61
+                            },
+                            "text": "라스 베이거스에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "text": "번영을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 788,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성취하다.v.Accomplishment",
+                    "text": "그러나 남서부의 증가하는 물 수요와 함께 라스 베이거스가 운 좋게 콜로라도 강과 근접해 있음이 라스 베이거스에 두번 째 번영을 성취할 기회를 주었다."
+                }
+            ]
+        }
+    ]
+}

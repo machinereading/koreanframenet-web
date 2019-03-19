@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "노하우.n.Expertise",
+    "frameID": 136,
+    "frameName": "Expertise",
+    "en_lus": [
+        "nouhau .ノウハウ"
+    ],
+    "lu_id": 3257,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11352",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nouhau .ノウハウ"
+                    ],
+                    "ko_annotation_id": 11352,
+                    "annotation_id": 0,
+                    "frameName": "Expertise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expertise",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "노하우의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Focal_Participant",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "세일즈",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4322,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노하우.n.Expertise",
+                    "text": "좋게 말하면, 성장이 빠른 나머지, 영업력, 세일즈 노하우의 확립이 제때 이루어지지 못했다고도 생각할 수 있다."
+                }
+            ]
+        }
+    ]
+}

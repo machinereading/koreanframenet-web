@@ -1,0 +1,68 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "모델.n.Exemplar",
+    "frameID": 2252,
+    "frameName": "Exemplar",
+    "en_lus": [
+        "moderu .モデル"
+    ],
+    "lu_id": 3704,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10808",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "moderu .モデル"
+                    ],
+                    "ko_annotation_id": 10808,
+                    "annotation_id": 0,
+                    "frameName": "Exemplar",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exemplar",
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "모델을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Instance",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 33
+                            },
+                            "text": "어떻게 기업이 개입할 수 있을지에 대한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4008,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "모델.n.Exemplar",
+                    "text": "저희의 경험으로부터, 어떻게 기업이 개입할 수 있을지에 대한 세가지 특정의 모델을 인식하고 있습니다."
+                }
+            ]
+        }
+    ]
+}

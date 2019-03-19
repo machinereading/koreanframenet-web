@@ -1,0 +1,189 @@
+{
+    "en_lus": [],
+    "ko_lu": "연회.n.Social_event",
+    "ko_pos": "n",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "lu_id": "3370",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3649",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "연회는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "연회는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attendee",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 43
+                            },
+                            "text": "육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3649",
+                    "lu": "연회.n.Social_event",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4004",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "연회도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Attendee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "일반적인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "연회도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4004",
+                    "lu": "연회.n.Social_event",
+                    "text": "일반적인 연회도 줄었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3649",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "연회가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "연회가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3649",
+                    "lu": "연회.n.Social_event",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
+                }
+            ]
+        }
+    ]
+}

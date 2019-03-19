@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "가입하다.v.Participation",
+    "frameID": 1144,
+    "frameName": "Participation",
+    "en_lus": [
+        "participate"
+    ],
+    "lu_id": 4741,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7768",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "participating"
+                    ],
+                    "ko_annotation_id": 7768,
+                    "annotation_id": 14116,
+                    "frameName": "Participation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Participation",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "가입하기를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Institution",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "제도에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2791,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가입하다.v.Participation",
+                    "text": "외무성은 분명히 제도에 가입하기를 선호하였지만, 군은 반대하였고, 김일성은 분명하게 후자 편을 들었다."
+                }
+            ]
+        }
+    ]
+}

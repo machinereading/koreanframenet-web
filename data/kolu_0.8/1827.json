@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "미끄러지다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "slide"
+    ],
+    "lu_id": 1827,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12569",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sliding"
+                    ],
+                    "ko_annotation_id": 12569,
+                    "annotation_id": 872,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "미끄러졌다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 13
+                            },
+                            "text": "컴퓨터 중 한 대가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "text": "바닥에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 153,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "미끄러지다.v.Motion",
+                    "text": "그는 컴퓨터 중 한 대가 바닥에서 3 피트 이동하여 미끄러졌다고 말했다."
+                }
+            ]
+        }
+    ]
+}

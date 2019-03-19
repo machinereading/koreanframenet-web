@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "세우다.v.Cause_to_make_progress",
+    "frameID": 1349,
+    "frameName": "Cause_to_make_progress",
+    "en_lus": [
+        "developed"
+    ],
+    "lu_id": 881,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5681",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "developed"
+                    ],
+                    "ko_annotation_id": 5681,
+                    "annotation_id": 10266,
+                    "frameName": "Cause_to_make_progress",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_make_progress",
+                            "span": {
+                                "begin": 85,
+                                "end": 89
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "세웠다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "그 조직이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Project",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 84
+                            },
+                            "text": "탄저병 생산을 위한 실행 가능한 계획을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2096,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "세우다.v.Cause_to_make_progress",
+                    "text": "이 자료들로부터 그 조직이 파키스탄의 미생물학자를 충원하고, 보툴리누스균 독소를 제조하기 위한 물질을 확보하고, 탄저병 생산을 위한 실행 가능한 계획을 세웠다는 것이 드러났다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "춤추다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "dance"
+    ],
+    "lu_id": 3029,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 425",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dance"
+                    ],
+                    "ko_annotation_id": 425,
+                    "annotation_id": 899,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 97,
+                                "end": 100
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "춤추는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "text": "쓰레기통들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 86,
+                                "end": 96
+                            },
+                            "text": "콘크리트를 가로질러",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 158,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "춤추다.v.Self_motion",
+                    "text": "찬장 문이 날아가고, 부엌의 쓰레기통이 몇 피트 움직였고, 개들이 달려왔으며, 나는 서둘러 개들을 개집에 넣고 나 자신이 출입구에 서서,밖의 쓰레기통들이 콘크리트를 가로질러 춤추는 것을 보았다."
+                }
+            ]
+        }
+    ]
+}

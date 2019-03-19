@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "얼마.n.Expensiveness",
+    "frameID": 83,
+    "frameName": "Expensiveness",
+    "en_lus": [
+        "ikura .いくら"
+    ],
+    "lu_id": 5201,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12416",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ikura .いくら"
+                    ],
+                    "ko_annotation_id": 12416,
+                    "annotation_id": 0,
+                    "frameName": "Expensiveness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expensiveness",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "얼마"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "얼마",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5022,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "얼마.n.Expensiveness",
+                    "text": "하지만, 구체적으로 어떤 것이 있고, 얼마 정도 하는 물건인지 모른다."
+                }
+            ]
+        }
+    ]
+}

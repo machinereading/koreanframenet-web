@@ -1,0 +1,81 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "풍족하다.a.Abounding_with",
+    "frameID": 262,
+    "frameName": "Abounding_with",
+    "en_lus": [
+        "megumareru .めぐまれる "
+    ],
+    "lu_id": 3574,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10155",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "megumareru .めぐまれる "
+                    ],
+                    "ko_annotation_id": 10155,
+                    "annotation_id": 0,
+                    "frameName": "Abounding_with",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Abounding_with",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "풍족하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Collection",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "물이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "마을이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3581,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "풍족하다.a.Abounding_with",
+                    "text": "야마토노구니 안에는 물이 풍족하지 않은 마을이 꽤 많았다."
+                }
+            ]
+        }
+    ]
+}

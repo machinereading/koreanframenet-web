@@ -1,0 +1,61 @@
+{
+    "en_lus": [],
+    "ko_lu": "문제.n.Experiencer_obj",
+    "ko_pos": "n",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "lu_id": "1768",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1015",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "문제는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 46
+                            },
+                            "text": "Stephanopoulos 자신이 애초부터 이들 거짓들을 전파하도록 도왔다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1015",
+                    "lu": "문제.n.Experiencer_obj",
+                    "text": "문제는 Stephanopoulos 자신이 애초부터 이들 거짓들을 전파하도록 도왔다는 것이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "토론하다.v.Discussion",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "en_lus": [
+        "discus"
+    ],
+    "lu_id": 89,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5352",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "discuss"
+                    ],
+                    "ko_annotation_id": 5352,
+                    "annotation_id": 9687,
+                    "frameName": "Discussion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "토론하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "부시 대통령은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2002,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "토론하다.v.Discussion",
+                    "text": "부시 대통령은 페루 대통령 Baroc와 볼리비아의 Jaime Paz Zamora 대통령과 토론하기 위해 90일 이내에 만나기로 합의하였다."
+                }
+            ]
+        }
+    ]
+}

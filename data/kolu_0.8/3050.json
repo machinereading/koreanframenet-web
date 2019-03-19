@@ -1,0 +1,67 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "부당하다.a.Fairness_evaluation",
+    "frameID": 376,
+    "frameName": "Fairness_evaluation",
+    "en_lus": [
+        "unfair"
+    ],
+    "lu_id": 3050,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 519",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "unfair"
+                    ],
+                    "ko_annotation_id": 519,
+                    "annotation_id": 1107,
+                    "frameName": "Fairness_evaluation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fairness_evaluation",
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "부당하다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 28
+                            },
+                            "text": "교육기관과는 별개로, 선생들을 매도하는 것은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 203,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부당하다.a.Fairness_evaluation",
+                    "text": "그러나 교육기관과는 별개로, 선생들을 매도하는 것은 부당하다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "얻다.v.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "provide"
+    ],
+    "lu_id": 1117,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12808",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "provides"
+                    ],
+                    "ko_annotation_id": 12808,
+                    "annotation_id": 2166,
+                    "frameName": "Supply",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 40,
+                                "end": 47
+                            },
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "얻을 수 있기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 32
+                            },
+                            "text": "많은 초보적인 일자리가 포함되지 않는 혜택을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Supplier",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "text": "실업으로부터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 413,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "얻다.v.Supply",
+                    "text": "그들의 불평은 많은 초보적인 일자리가 포함되지 않는 혜택을 실업으로부터 얻을 수 있기 때문에 이 제도는 일할 의욕을 꺾는다는 것이다."
+                }
+            ]
+        }
+    ]
+}

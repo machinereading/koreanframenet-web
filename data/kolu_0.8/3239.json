@@ -1,0 +1,95 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "간호사.n.Medical_professionals",
+    "frameID": 255,
+    "frameName": "Medical_professionals",
+    "en_lus": [
+        "nurse"
+    ],
+    "lu_id": 3239,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8973",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nurse"
+                    ],
+                    "ko_annotation_id": 8973,
+                    "annotation_id": 16495,
+                    "frameName": "Medical_professionals",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_professionals",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "간호사로"
+                        }
+                    ],
+                    "sent_id": 3159,
+                    "relations": [],
+                    "lu": "간호사.n.Medical_professionals",
+                    "text": "간호사로 일했기 때문에 그녀는 직원들에게 커브볼을 몇 개 던지기로 결정하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15663",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nurse"
+                    ],
+                    "ko_annotation_id": 15663,
+                    "annotation_id": 16491,
+                    "frameName": "Medical_professionals",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_professionals",
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "간호사이고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "text": "등록",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3158,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "간호사.n.Medical_professionals",
+                    "text": "HGTC의 등록 간호사이고 강사인 Jennifer McLeod는 훈련에서 환자로 행동하였다."
+                }
+            ]
+        }
+    ]
+}

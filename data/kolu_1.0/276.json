@@ -1,0 +1,147 @@
+{
+    "en_lus": [],
+    "ko_lu": "검사.n.Inspecting",
+    "ko_pos": "n",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "lu_id": "276",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1383",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "무기검사"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Unwanted_Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "무기검사",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1383",
+                    "lu": "검사.n.Inspecting",
+                    "text": "과학자들은 새로운 무기검사 팀의 헝가리 멤버들 출신인가 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2178",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "검사는"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "2178",
+                    "lu": "검사.n.Inspecting",
+                    "text": "사실은 비밀 활동이 이 장소에서 일어나고 있었다면, 이들 검사는 이와 같은 노력을 심각하게 위협했을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2115",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "검사를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 28
+                            },
+                            "text": "화학무기 금지 기구에 의한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location_Of_Inspector",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "text": "현장",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2115",
+                    "lu": "검사.n.Inspecting",
+                    "text": "1997년 이후, 중국은 화학무기 금지 기구에 의한 14 번의 현장 검사를 주관받았다."
+                }
+            ]
+        }
+    ]
+}

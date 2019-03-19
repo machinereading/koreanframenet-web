@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "싶다.v.Desiring",
+    "frameID": 366,
+    "frameName": "Desiring",
+    "en_lus": [
+        "want"
+    ],
+    "lu_id": 4793,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5057",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "want"
+                    ],
+                    "ko_annotation_id": 5057,
+                    "annotation_id": 9143,
+                    "frameName": "Desiring",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Desiring",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "싶다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 13
+                            },
+                            "text": "오클라호마를 말하고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1899,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "싶다.v.Desiring",
+                    "text": "나는 오클라호마를 말하고 싶다."
+                }
+            ]
+        }
+    ]
+}

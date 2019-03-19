@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "건조.n.Building",
+    "ko_pos": "n",
+    "frameID": 259,
+    "frameName": "Building",
+    "lu_id": "252",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3008",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 107,
+                                "end": 109
+                            },
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "건조"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "text": "현재",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                28,
+                                29,
+                                30,
+                                31
+                            ],
+                            "span": {
+                                "begin": 113,
+                                "end": 129
+                            },
+                            "text": "신형급의 탄도 미사일 잠수함에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3008",
+                    "lu": "건조.n.Building",
+                    "text": "해상 발사 탄도 미사일 ( SLBM ) 이 현재 생산되지 않는 반명, 러시아는 Bulava라 불리는 신형 SLBM을 개발중이며, 이것은 기존의 Typhoon 급 잠수함에 그리고 향후에는 현재 건조 중인 신형급의 탄도 미사일 잠수함에 장착할 예정이다."
+                }
+            ]
+        }
+    ]
+}

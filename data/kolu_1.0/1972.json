@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "방식.n.System",
+    "ko_pos": "n",
+    "frameID": 1610,
+    "frameName": "System",
+    "lu_id": "1972",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4993",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "System",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "방식인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Salient_Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "셀프",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Complex",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "방식인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4993",
+                    "lu": "방식.n.System",
+                    "text": "특히 셀프 방식인 식료품 가게의 경우가 그렇습니다."
+                }
+            ]
+        }
+    ]
+}

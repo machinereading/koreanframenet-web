@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "승천하다.v.Traversing",
+    "frameID": 1310,
+    "frameName": "Traversing",
+    "en_lus": [
+        "ascend"
+    ],
+    "lu_id": 4508,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1765",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ascended"
+                    ],
+                    "ko_annotation_id": 1765,
+                    "annotation_id": 3658,
+                    "frameName": "Traversing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Traversing",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "승천했다던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "text": "그가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 41
+                            },
+                            "text": "성전산 위의 바위는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 689,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "승천하다.v.Traversing",
+                    "text": "파괴된 신전의 위치 또는 그 가까이에서 그가 승천했다던 성전산 위의 바위는 691년에 바위 돔의 건설에 의해 기념되고 있다."
+                }
+            ]
+        }
+    ]
+}

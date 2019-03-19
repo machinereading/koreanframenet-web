@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "앞두다.v.Relative_time",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "en_lus": [
+        "sakidatu .先立つ "
+    ],
+    "lu_id": 3790,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12183",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sakidatu .先立つ "
+                    ],
+                    "ko_annotation_id": 12183,
+                    "annotation_id": 0,
+                    "frameName": "Relative_time",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "앞둔"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Occasion",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "명절을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Focal_Occasion",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 25
+                            },
+                            "text": "2월 25일부터 3월 3일까지는,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4883,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "앞두다.v.Relative_time",
+                    "text": "명절을 앞둔 2월 25일부터 3월 3일까지는, 히나인형을 파는 히나이치가 짓켄다나・오와리 쵸・닌교 쵸・아사쿠사 가야 쵸・이케노 하타 나카 쵸・우시고메 진라쿠자카우에・고우지마치 산쵸메・시바신메이마에・고마고메 등 각지에 섰는데, 가장 성황을 이룬 것은 물론 짓켄다나였다."
+                }
+            ]
+        }
+    ]
+}

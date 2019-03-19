@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "정형외.n.Medical_specialties",
+    "ko_pos": "n",
+    "frameID": 256,
+    "frameName": "Medical_specialties",
+    "lu_id": "4312",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3913",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_specialties",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "정형외과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Specialty",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "text": "정형외과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Type",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "의사에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3913",
+                    "lu": "정형외.n.Medical_specialties",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
+                }
+            ]
+        }
+    ]
+}

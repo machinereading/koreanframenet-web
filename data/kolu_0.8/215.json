@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "반감.n.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "hanpatu .反発 "
+    ],
+    "lu_id": 215,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12278",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanpatu .反発 "
+                    ],
+                    "ko_annotation_id": 12278,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "반감을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "내가 「진화」를 이야기하는 것에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "사람도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4933,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "반감.n.Emotion_directed",
+                    "text": "내가 「진화」를 이야기하는 것에, 반감을 느끼는 사람도 많을지 모른다."
+                }
+            ]
+        }
+    ]
+}

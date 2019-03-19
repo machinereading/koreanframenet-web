@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "증여.n.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "gift"
+    ],
+    "lu_id": 2869,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 837",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "gift"
+                    ],
+                    "ko_annotation_id": 837,
+                    "annotation_id": 1704,
+                    "frameName": "Giving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "증여는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "Goodwill에의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "당신의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 307,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "증여.n.Giving",
+                    "text": "Goodwill에의 당신의 증여는 신체적 그리고 정신적 장애가 있는 사람들이 일과 함께 오는 자부심을 알도록 하기 위해 때로는 별도의 도움을 필요로 하기 때문에 중요합니다."
+                }
+            ]
+        }
+    ]
+}

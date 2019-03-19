@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "회의실.n.Building_subparts",
+    "frameID": 188,
+    "frameName": "Building_subparts",
+    "en_lus": [
+        "room"
+    ],
+    "lu_id": 1453,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8999",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "room"
+                    ],
+                    "ko_annotation_id": 8999,
+                    "annotation_id": 16550,
+                    "frameName": "Building_subparts",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building_subparts",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "회의실에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "text": "회의실에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3169,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "회의실.n.Building_subparts",
+                    "text": "시험은 치명적인 사린 가스가 수십 명을 감염시키는 회의실에 방출될 때 어떻게 할 것인가였다."
+                }
+            ]
+        }
+    ]
+}

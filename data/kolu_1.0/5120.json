@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "통제하다.v.Being_in_control",
+    "ko_pos": "v",
+    "frameID": 1800,
+    "frameName": "Being_in_control",
+    "lu_id": "5120",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-560",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_in_control",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "통제하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "바다를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "text": "사람이 없었고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "560",
+                    "lu": "통제하다.v.Being_in_control",
+                    "text": "비잔틴 영토가 분할되는 동안 바다를 통제하는 사람이 없었고, 그래서 해적들이 많은 섬들의 마을들을 습격하였다."
+                }
+            ]
+        }
+    ]
+}

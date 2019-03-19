@@ -1,0 +1,122 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "해보다.v.Intentionally_affect",
+    "frameID": 230,
+    "frameName": "Intentionally_affect",
+    "en_lus": [
+        "do"
+    ],
+    "lu_id": 545,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4540",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "done"
+                    ],
+                    "ko_annotation_id": 4540,
+                    "annotation_id": 8248,
+                    "frameName": "Intentionally_affect",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_affect",
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "해보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 28
+                            },
+                            "text": "그들의 심각한 실수들로 알려져 있던 사람들과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "text": "전에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1686,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "해보다.v.Intentionally_affect",
+                    "text": "우리는 그들의 심각한 실수들로 알려져 있던 사람들과 그것을 전에 해보았다."
+                }
+            ]
+        }
+    ]
+}

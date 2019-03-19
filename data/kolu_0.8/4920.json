@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "주인.n.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "kainusi .飼い主 "
+    ],
+    "lu_id": 4920,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11048",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kainusi .飼い主 "
+                    ],
+                    "ko_annotation_id": 11048,
+                    "annotation_id": 0,
+                    "frameName": "Possession",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "주인이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "강아지를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Owner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "text": "주인이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4122,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주인.n.Possession",
+                    "text": "그곳에는 소파가 놓여있어, 강아지를 품에 안은 주인이 앉습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "중지하다.v.Activity_stop",
+    "ko_pos": "v",
+    "frameID": 166,
+    "frameName": "Activity_stop",
+    "lu_id": "4581",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4692",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_stop",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "중지하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 23
+                            },
+                            "text": "수백 명에 달하는 사람들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "흡연을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4692",
+                    "lu": "중지하다.v.Activity_stop",
+                    "text": "저는, 지금까지 수백 명에 달하는 사람들이 흡연을 중지하게 하는 데 성공했습니다."
+                }
+            ]
+        }
+    ]
+}

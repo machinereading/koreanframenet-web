@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "부탁하다.v.Request",
+    "ko_pos": "v",
+    "frameID": 41,
+    "frameName": "Request",
+    "lu_id": "2233",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3660",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 33,
+                                "end": 40
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "부탁해봅시다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "그에 대해서도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "해설을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3660",
+                    "lu": "부탁하다.v.Request",
+                    "text": "마침 안토니우스라는 이름이 나왔으니, 그에 대해서도 해설을 부탁해봅시다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "분석가.n.Scrutiny",
+    "ko_pos": "n",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "lu_id": "2260",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2947",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "분석가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "IAEA",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2947",
+                    "lu": "분석가.n.Scrutiny",
+                    "text": "그러나, IAEA 분석가는 북한의 기술자들이 1989년, 1990년, 그리고 1991년의 세 번에 걸쳐 플루토늄을 재처리하였다고 지적하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1031",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "분석가가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "text": "ABC News",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1031",
+                    "lu": "분석가.n.Scrutiny",
+                    "text": "지금 그 위선자와 조력자는 학자 그리고 ABC News 분석가가 되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "바르다.a.Correctness",
+    "frameID": 1512,
+    "frameName": "Correctness",
+    "en_lus": [
+        "tadasii .正しい"
+    ],
+    "lu_id": 4889,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11344",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tadasii .正しい"
+                    ],
+                    "ko_annotation_id": 11344,
+                    "annotation_id": 0,
+                    "frameName": "Correctness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Correctness",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "바르지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "신이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4316,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바르다.a.Correctness",
+                    "text": "바른 신과, 바르지 않은 신이 있는 것입니다."
+                }
+            ]
+        }
+    ]
+}

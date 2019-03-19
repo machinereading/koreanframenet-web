@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "쓰다.a.Intentionally_affect",
+    "ko_pos": "a",
+    "frameID": 230,
+    "frameName": "Intentionally_affect",
+    "lu_id": "3059",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-463",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_affect",
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "쓰는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "책을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "463",
+                    "lu": "쓰다.a.Intentionally_affect",
+                    "text": "그것이 내가 책을 쓰는 것을 환영한 이유라고 나는 생각한다 -- 그것은 사람에게 매일 언론 편집실 바닥에 남겨진 것 중 많은 것을 사용할 능력을 준다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "해당.n.Idiosyncrasy",
+    "frameID": 982,
+    "frameName": "Idiosyncrasy",
+    "en_lus": [
+        "particular"
+    ],
+    "lu_id": 4388,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12673",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "particular"
+                    ],
+                    "ko_annotation_id": 12673,
+                    "annotation_id": 1503,
+                    "frameName": "Idiosyncrasy",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Idiosyncrasy",
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "해당"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "투표자의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "text": "지역/주에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 274,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "해당.n.Idiosyncrasy",
+                    "text": "공화당 대통령이 투표자의 해당 지역/주에 지역에 대한 혜택을 제한할지라도, 그와 같은 대통령은 또한 다른 지역/주와 그들 의원들이 지역 혜택을 가져가지 못하게 하는데 더 효과적일 수도 있다."
+                }
+            ]
+        }
+    ]
+}

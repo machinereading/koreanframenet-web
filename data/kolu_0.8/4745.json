@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "선출되다.v.Change_of_leadership",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "en_lus": [
+        "elect"
+    ],
+    "lu_id": 4745,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 619",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "elected"
+                    ],
+                    "ko_annotation_id": 619,
+                    "annotation_id": 1281,
+                    "frameName": "Change_of_leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "선출된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "text": "지역적으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New_Leader",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 31
+                            },
+                            "text": "학교 위원회는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 237,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선출되다.v.Change_of_leadership",
+                    "text": "특히 더 큰 도시들에서, 지역적으로 선출된 학교 위원회는 야심차고, 일반적으로 부패하고, 그리고 너나 없이 선동적인 지역 정치인 또는 정치인 지망생들의 먹이감이 된다."
+                }
+            ]
+        }
+    ]
+}

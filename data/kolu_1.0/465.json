@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "골치가_아프다.v.Experiencer_obj",
+    "ko_pos": "v",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "lu_id": "465",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4435",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "골치가 아플"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 20
+                            },
+                            "text": "여섯 명이나 살해를 당한다면,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "골치가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4435",
+                    "lu": "골치가_아프다.v.Experiencer_obj",
+                    "text": "보통은 여섯 명이나 살해를 당한다면, 꽤나 골치가 아플 겁니다."
+                }
+            ]
+        }
+    ]
+}

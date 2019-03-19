@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "완성되다.v.Activity_finish",
+    "frameID": 165,
+    "frameName": "Activity_finish",
+    "en_lus": [
+        "kansee .完成 ",
+        "complete"
+    ],
+    "lu_id": 1131,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11557",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kansee .完成 ",
+                        "completed"
+                    ],
+                    "ko_annotation_id": 11557,
+                    "annotation_id": 0,
+                    "frameName": "Activity_finish",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_finish",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "완성된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "시스템만",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4475,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "완성되다.v.Activity_finish",
+                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다."
+                }
+            ]
+        }
+    ]
+}

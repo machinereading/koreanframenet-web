@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "상대.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "aite .相手 "
+    ],
+    "lu_id": 4432,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10612",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "aite .相手 "
+                    ],
+                    "ko_annotation_id": 10612,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "상대"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relationship",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "사례◆불륜",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3891,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "상대.n.Personal_relationship",
+                    "text": "제1 법정◆다카코 씨의 사례◆불륜 상대 용서 못 해…위자료까지 받아 챙긴 여자의 집념 다카코 씨는 당시 36세."
+                }
+            ]
+        }
+    ]
+}

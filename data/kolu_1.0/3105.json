@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "안다.v.Possession",
+    "ko_pos": "v",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "3105",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4279",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "안고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "문제를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Owner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "text": "젊은이를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4279",
+                    "lu": "안다.v.Possession",
+                    "text": "그렇게 된다면, 문제를 안고 있는 많은 젊은이를 상대로, 도쓰카 요트 스쿨이 고전할 필요는 없어질 것이다."
+                }
+            ]
+        }
+    ]
+}

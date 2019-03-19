@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "맞추다.v.Cogitation",
+    "frameID": 22,
+    "frameName": "Cogitation",
+    "en_lus": [
+        "tatu .立つ "
+    ],
+    "lu_id": 3297,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10925",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tatu .立つ "
+                    ],
+                    "ko_annotation_id": 10925,
+                    "annotation_id": 0,
+                    "frameName": "Cogitation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "맞추어,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "중학교 이과 수업은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "이러한 아이들의 학습 성장 실태에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4066,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맞추다.v.Cogitation",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
+                }
+            ]
+        }
+    ]
+}

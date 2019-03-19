@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "진일보.n.Intentionally_act",
+    "ko_pos": "n",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "lu_id": "4716",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1447",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "진일보"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 24
+                            },
+                            "text": "화학무기 비축량을 확보하려는 시도에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1447",
+                    "lu": "진일보.n.Intentionally_act",
+                    "text": "이란은 화학무기 비축량을 확보하려는 시도에서 진일보 하였다."
+                }
+            ]
+        }
+    ]
+}

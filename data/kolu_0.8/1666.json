@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "억제하다.v.Attempt",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "en_lus": [
+        "try"
+    ],
+    "lu_id": 1666,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4682",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "try"
+                    ],
+                    "ko_annotation_id": 4682,
+                    "annotation_id": 8531,
+                    "frameName": "Attempt",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "억제하기 위해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 25
+                            },
+                            "text": "질병을 억제하기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1752,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "억제하다.v.Attempt",
+                    "text": "세계의 수백 백만의 새들이 그 질병을 억제하기 위해 살처분되었다."
+                }
+            ]
+        }
+    ]
+}

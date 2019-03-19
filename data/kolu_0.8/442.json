@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "소설.n.Text",
+    "frameID": 298,
+    "frameName": "Text",
+    "en_lus": [
+        "syoosetu .小説 "
+    ],
+    "lu_id": 442,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10080",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syoosetu .小説 "
+                    ],
+                    "ko_annotation_id": 10080,
+                    "annotation_id": 0,
+                    "frameName": "Text",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "소설의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "text": "이 소설의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3563,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소설.n.Text",
+                    "text": "플라톤 신학인지 뭔지가 들어오면서, 그런 성서가 만들어졌다고 생각합니다만, 이 소설의 도입은, 그런 말과는 달리 궁지에 몰린 소녀가 한 발로 선 자세로 시작됩니다."
+                }
+            ]
+        }
+    ]
+}

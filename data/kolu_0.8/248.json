@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "용량.n.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "capacity"
+    ],
+    "lu_id": 248,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8881",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "capacity"
+                    ],
+                    "ko_annotation_id": 8881,
+                    "annotation_id": 16269,
+                    "frameName": "Capability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "용량의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 23
+                            },
+                            "text": "5,144 메가와트",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 40
+                            },
+                            "text": "세 개의 원자력발전소에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3118,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "용량.n.Capability",
+                    "text": "타이완은 현재 총 용량 5,144 메가와트 용량의 세 개의 원자력발전소에 보관된 여섯 곳에 핵 물질을 보유하고 있다."
+                }
+            ]
+        }
+    ]
+}

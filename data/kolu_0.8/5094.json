@@ -1,0 +1,86 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "처형.n.Execution",
+    "frameID": 225,
+    "frameName": "Execution",
+    "en_lus": [
+        "execution"
+    ],
+    "lu_id": 5094,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1725",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "execution"
+                    ],
+                    "ko_annotation_id": 1725,
+                    "annotation_id": 3569,
+                    "frameName": "Execution",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Execution",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "처형은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Executed",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 37
+                            },
+                            "text": "갈리리 출신의 또 다른 종교 지도자의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 45
+                            },
+                            "text": "예루살렘에서의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 667,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "처형.n.Execution",
+                    "text": "반란과 보복이 만연한 지방에서 갈리리 출신의 또 다른 종교 지도자의 예루살렘에서의 처형은 그것만으로는 역사상 즉각적인 영향을 갖지 못하였다."
+                }
+            ]
+        }
+    ]
+}

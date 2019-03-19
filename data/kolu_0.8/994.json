@@ -1,0 +1,144 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "머물다.v.State_continue",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "en_lus": [
+        "remains"
+    ],
+    "lu_id": 994,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2798",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "remains"
+                    ],
+                    "ko_annotation_id": 2798,
+                    "annotation_id": 5416,
+                    "frameName": "State_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_continue",
+                            "span": {
+                                "begin": 110,
+                                "end": 116
+                            },
+                            "token_span": [
+                                26,
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "머물고 있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                21,
+                                22,
+                                23,
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 89,
+                                "end": 109
+                            },
+                            "text": "정부, 기업, 그리고 상업의 중심으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                28
+                            ],
+                            "span": {
+                                "begin": 117,
+                                "end": 120
+                            },
+                            "text": "홍콩의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1037,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "머물다.v.State_continue",
+                    "text": "붐비는 Kowloon 반도와 본토의 급속히 발전하는 New Territory 들은 일부 진지한 관광을 필요로 하고 있다 ; 그러나 우리는 도시가 최초 세워지고 정부, 기업, 그리고 상업의 중심으로 머물고 있는 홍콩의 빅토리아 항구를 가로지르기 시작한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15881",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "remains"
+                    ],
+                    "ko_annotation_id": 15881,
+                    "annotation_id": 17757,
+                    "frameName": "State_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_continue",
+                            "span": {
+                                "begin": 89,
+                                "end": 96
+                            },
+                            "token_span": [
+                                22,
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "머물고 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 88
+                            },
+                            "text": "화학전 관련 기술을 위해 외국 자원에 의존하는데",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3345,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "머물다.v.State_continue",
+                    "text": "이란은 모든 측면의 화학무기 프로그램을 위한 독자적인 생산 능력을 갖추기 위한 혼신의 노력을 하고 있을지라도, 화학전 관련 기술을 위해 외국 자원에 의존하는데 머물고 있다."
+                }
+            ]
+        }
+    ]
+}

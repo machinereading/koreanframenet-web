@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "무역.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "route"
+    ],
+    "lu_id": 2158,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1648",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "routes"
+                    ],
+                    "ko_annotation_id": 1648,
+                    "annotation_id": 3439,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 70,
+                                "end": 74
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "무역로를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 70,
+                                "end": 74
+                            },
+                            "text": "무역로를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 636,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무역.n.Roadways",
+                    "text": "솔로몬의 지혜로운 통치하에 이 도시는 다마스커스에서 홍해까지 펼쳐진 제국의 수도로 번성하였고 그리고 이집트에서 페니키아까지의 무역로를 통제하였다."
+                }
+            ]
+        }
+    ]
+}

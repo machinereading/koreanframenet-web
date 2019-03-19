@@ -1,0 +1,90 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "하다.a.Subjective_influence",
+    "frameID": 1083,
+    "frameName": "Subjective_influence",
+    "en_lus": [
+        "push"
+    ],
+    "lu_id": 3954,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1202",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "pushed"
+                    ],
+                    "ko_annotation_id": 1202,
+                    "annotation_id": 2588,
+                    "frameName": "Subjective_influence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Subjective_influence",
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "하였고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Situation",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "그들의 호기심은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 45
+                            },
+                            "text": "공해를 건너고 이들 섬에 도착할만큼 충분히 튼튼한 선박을 건조하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 490,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하다.a.Subjective_influence",
+                    "text": "그들의 호기심은 공해를 건너고 이들 섬에 도착할만큼 충분히 튼튼한 선박을 건조하게 하였고, 지중해 항해의 오랜 유산을 시작하게 하였다."
+                }
+            ]
+        }
+    ]
+}

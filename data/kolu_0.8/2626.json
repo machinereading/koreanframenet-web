@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "예술가.n.Create_physical_artwork",
+    "frameID": 1658,
+    "frameName": "Create_physical_artwork",
+    "en_lus": [
+        "artist"
+    ],
+    "lu_id": 2626,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2565",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "artists"
+                    ],
+                    "ko_annotation_id": 2565,
+                    "annotation_id": 5052,
+                    "frameName": "Create_physical_artwork",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Create_physical_artwork",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "예술가와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "더블린의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "text": "최첨단",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 970,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예술가.n.Create_physical_artwork",
+                    "text": "Liffey를 따라 서쪽으로는 밤유흥의 중심지이고 많은 더블린의 최첨단 예술가와 예술적인 시도의 본거지인 Temple Bar가 있다."
+                }
+            ]
+        }
+    ]
+}

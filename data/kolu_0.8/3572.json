@@ -1,0 +1,89 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "계속되다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "mitumeru .見つめる"
+    ],
+    "lu_id": 3572,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16669",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる"
+                    ],
+                    "ko_annotation_id": 16669,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 38,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "계속 쳐다볼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Explanation",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "여기 만주의 풍경도 마지막이라고 생각하자,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 37
+                            },
+                            "text": "한 시간이고 두 시간이고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4729,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "계속되다.v.Perception_active",
+                    "text": "여기 만주의 풍경도 마지막이라고 생각하자, 한 시간이고 두 시간이고 계속 쳐다볼 수 있었습니다."
+                }
+            ]
+        }
+    ]
+}

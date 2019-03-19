@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "흥분.n.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "excitement"
+    ],
+    "lu_id": 986,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3137",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "excitement"
+                    ],
+                    "ko_annotation_id": 3137,
+                    "annotation_id": 6008,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "흥분의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "text": "날이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1142,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "흥분.n.Emotion_directed",
+                    "text": "바다 위를 아주 높이 올라가는 거대한 롤러 코스터, 공중 바퀴, 그리고 하이 다이빙 쇼들은 흥분의 날이 될 것을 보증한다."
+                }
+            ]
+        }
+    ]
+}

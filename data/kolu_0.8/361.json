@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "화가.n.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "iradatu .苛立つ "
+    ],
+    "lu_id": 361,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10485",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iradatu .苛立つ "
+                    ],
+                    "ko_annotation_id": 10485,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "화가 났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "경찰의 의욕 없는 태도에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3781,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "화가.n.Experiencer_focus",
+                    "text": "경찰의 의욕 없는 태도에 나는 화가 났다."
+                }
+            ]
+        }
+    ]
+}

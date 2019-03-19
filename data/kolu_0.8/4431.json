@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "오다.v.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "akeru .明ける "
+    ],
+    "lu_id": 4431,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11694",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "akeru .明ける "
+                    ],
+                    "ko_annotation_id": 11694,
+                    "annotation_id": 0,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "오기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "새벽이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4563,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오다.v.Process_start",
+                    "text": "마치 새벽이 오기 전에, 다시 한 번 산들을 씻어내는 것처럼."
+                }
+            ]
+        }
+    ]
+}

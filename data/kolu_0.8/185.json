@@ -1,0 +1,141 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "전념하다.v.Commitment",
+    "frameID": 33,
+    "frameName": "Commitment",
+    "en_lus": [
+        "commit",
+        "commitment"
+    ],
+    "lu_id": 185,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12625",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "committed"
+                    ],
+                    "ko_annotation_id": 12625,
+                    "annotation_id": 1113,
+                    "frameName": "Commitment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commitment",
+                            "span": {
+                                "begin": 47,
+                                "end": 55
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "전념하고 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 41
+                            },
+                            "text": "양심적인 교육에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 204,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전념하다.v.Commitment",
+                    "text": "나는 많은 학교 선생들을 알고 그리고, 대체적으로, 그들은 양심적인 교육에 진지하게 전념하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13725",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "commitment"
+                    ],
+                    "ko_annotation_id": 13725,
+                    "annotation_id": 0,
+                    "frameName": "Commitment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commitment",
+                            "span": {
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "전념하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 61
+                            },
+                            "text": "결국 활기를 찾기 시작한 경제에서 인플레이션과의 싸움에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1460,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전념하다.v.Commitment",
+                    "text": "5 년간의 완화된 신용 이후, Fed는 코스를 뒤바꾸어 결국 활기를 찾기 시작한 경제에서 인플레이션과의 싸움에 전념하는 것에 대해 의심의 여지를 남기지 않았다."
+                }
+            ]
+        }
+    ]
+}

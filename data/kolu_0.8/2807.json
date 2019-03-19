@@ -1,0 +1,107 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "명명되다.v.Name_conferral",
+    "frameID": 221,
+    "frameName": "Name_conferral",
+    "en_lus": [
+        "rename"
+    ],
+    "lu_id": 2807,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2050",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "renamed"
+                    ],
+                    "ko_annotation_id": 2050,
+                    "annotation_id": 4131,
+                    "frameName": "Name_conferral",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Name_conferral",
+                            "span": {
+                                "begin": 49,
+                                "end": 57
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "다시 명명되었다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "후버 댐 ( 원래 Boulder Dam이고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "뒤이어",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Name",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 41
+                            },
+                            "text": "프로젝트를 승인한 대통령",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 789,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "명명되다.v.Name_conferral",
+                    "text": "후버 댐 ( 원래 Boulder Dam이고 뒤이어 프로젝트를 승인한 대통령 이름을 따서 다시 명명되었다 ) 건설은 1931년에 라스 베이거스의 남동쪽으로 45 마일 ( 72 km ) 떨어진 협곡에서 시작되었다."
+                }
+            ]
+        }
+    ]
+}

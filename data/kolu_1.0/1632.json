@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "맡다.v.Attempt",
+    "ko_pos": "v",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "lu_id": "1632",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-522",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 110,
+                                "end": 113
+                            },
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "맡았던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 84,
+                                "end": 93
+                            },
+                            "text": "Lygdamis가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                20,
+                                21,
+                                22,
+                                23
+                            ],
+                            "span": {
+                                "begin": 94,
+                                "end": 109
+                            },
+                            "text": "일부 중요한 건설 프로젝트를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "522",
+                    "lu": "맡다.v.Attempt",
+                    "text": "이 시대의 발군의 섬들은 아테네가 지배하는 성스러운 섬이고 종교 센터인 Delos ; 폭군 Polycrates가 지배하는 Samos ; 그리고 통치자 Lygdamis가 일부 중요한 건설 프로젝트를 맡았던 Naxos 섬이였다."
+                }
+            ]
+        }
+    ]
+}

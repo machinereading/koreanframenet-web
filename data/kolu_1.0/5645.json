@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "흡연.n.Ingest_substance",
+    "ko_pos": "n",
+    "frameID": 386,
+    "frameName": "Ingest_substance",
+    "lu_id": "5645",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4692",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingest_substance",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "흡연을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 23
+                            },
+                            "text": "수백 명에 달하는 사람들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Substance",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "흡연을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4692",
+                    "lu": "흡연.n.Ingest_substance",
+                    "text": "저는, 지금까지 수백 명에 달하는 사람들이 흡연을 중지하게 하는 데 성공했습니다."
+                }
+            ]
+        }
+    ]
+}

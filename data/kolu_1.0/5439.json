@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "허락하다.v.Deny_or_grant_permission",
+    "ko_pos": "v",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": "5439",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4451",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "허락해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Grantor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "의사가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4451",
+                    "lu": "허락하다.v.Deny_or_grant_permission",
+                    "text": "상처가 나았으니 의사가 허락해 준 것이겠지."
+                }
+            ]
+        }
+    ]
+}

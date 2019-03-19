@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "추진.n.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "fuel"
+    ],
+    "lu_id": 3378,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14299",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fueled"
+                    ],
+                    "ko_annotation_id": 14299,
+                    "annotation_id": 10525,
+                    "frameName": "Supply",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "추진"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                21
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 73
+                            },
+                            "text": "고체",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 77,
+                                "end": 83
+                            },
+                            "text": "이동 미사일",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2120,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "추진.n.Supply",
+                    "text": "비교적 부정확한 액체 추진 사일로 / cave 바탕의 미사일 ( DF -3, DF - 4, DF -5 ) 로부터 더 정확하고, 고체 추진 이동 미사일 ( DF -11, DF - 15, 그리고 DF -21, 그리고 현재 개발 중인 신형 대륙간 탄도 미사일 [ DF-31 ] 과 단거리 탄도 미사일 [ JL-2 ] 으로의 변천이 현재 진행 중이다."
+                }
+            ]
+        }
+    ]
+}

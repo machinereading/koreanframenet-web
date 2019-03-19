@@ -1,0 +1,69 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "판례.n.Law",
+    "frameID": 950,
+    "frameName": "Law",
+    "en_lus": [
+        "hanree .判例 "
+    ],
+    "lu_id": 3298,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10420",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanree .判例 "
+                    ],
+                    "ko_annotation_id": 10420,
+                    "annotation_id": 0,
+                    "frameName": "Law",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Law",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "판례를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 27
+                            },
+                            "text": "그 특허가 보호받을 수 있는 범위에 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3722,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판례.n.Law",
+                    "text": "여기서, 그 특허가 보호받을 수 있는 범위에 대해 판례를 참고로 설명하도록 하겠습니다."
+                }
+            ]
+        }
+    ]
+}

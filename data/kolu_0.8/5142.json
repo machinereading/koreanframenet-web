@@ -1,0 +1,84 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "특수하다.a.Idiosyncrasy",
+    "frameID": 982,
+    "frameName": "Idiosyncrasy",
+    "en_lus": [
+        "tokusyu .特殊 "
+    ],
+    "lu_id": 5142,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11328",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tokusyu .特殊 "
+                    ],
+                    "ko_annotation_id": 11328,
+                    "annotation_id": 0,
+                    "frameName": "Idiosyncrasy",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Idiosyncrasy",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "특수하다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "기기선정은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Idiosyncrasy",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 25
+                            },
+                            "text": "커넥터부터 제어판 선정에 이르기까지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4313,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "특수하다.a.Idiosyncrasy",
+                    "text": "기기선정은 커넥터부터 제어판 선정에 이르기까지 특수하다."
+                }
+            ]
+        }
+    ]
+}

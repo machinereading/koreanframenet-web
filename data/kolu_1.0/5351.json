@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "함께.ad.Evaluative_comparison",
+    "ko_pos": "ad",
+    "frameID": 353,
+    "frameName": "Evaluative_comparison",
+    "lu_id": "5351",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4300",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "함께"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "이 주변 일대는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Comparison_Set",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 25
+                            },
+                            "text": "시나가와의 스즈가모리와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4300",
+                    "lu": "함께.ad.Evaluative_comparison",
+                    "text": "원래 이 주변 일대는, 시나가와의 스즈가모리와 함께 에도막부의 처형장(사형장.)으로, 고즈캇파라라 불렸습니다."
+                }
+            ]
+        }
+    ]
+}

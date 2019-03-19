@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "줄어들다.v.Expansion",
+    "frameID": 725,
+    "frameName": "Expansion",
+    "en_lus": [
+        "shrink"
+    ],
+    "lu_id": 5134,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12862",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shrinking"
+                    ],
+                    "ko_annotation_id": 12862,
+                    "annotation_id": 2397,
+                    "frameName": "Expansion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expansion",
+                            "span": {
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "줄어들고 있지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "자금 출처는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 458,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "줄어들다.v.Expansion",
+                    "text": "자금 출처는 줄어들고 있지만, 필요는 폭발적으로 증가하고 있다."
+                }
+            ]
+        }
+    ]
+}

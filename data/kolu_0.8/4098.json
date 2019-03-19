@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "잔소리듣다.v.Telling",
+    "frameID": 750,
+    "frameName": "Telling",
+    "en_lus": [
+        "iu .言う "
+    ],
+    "lu_id": 4098,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12092",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iu .言う "
+                    ],
+                    "ko_annotation_id": 12092,
+                    "annotation_id": 0,
+                    "frameName": "Telling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Telling",
+                            "span": {
+                                "begin": 47,
+                                "end": 54
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "잔소리를 듣지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 38
+                            },
+                            "text": "리더의 입장인 사람으로부터,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 46
+                            },
+                            "text": "귀가 따갑도록",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4824,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잔소리듣다.v.Telling",
+                    "text": "아이들을 가르치는 “가정교사”와 같아서, 리더의 입장인 사람으로부터, 귀가 따갑도록 잔소리를 듣지 않으면 사람은 웬만해서 생활을 바꿀 수 없습니다."
+                }
+            ]
+        }
+    ]
+}

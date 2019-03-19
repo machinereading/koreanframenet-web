@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "중심부.n.Part_inner_outer",
+    "frameID": 327,
+    "frameName": "Part_inner_outer",
+    "en_lus": [
+        "tyuusin .中心 "
+    ],
+    "lu_id": 5217,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10325",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tyuusin .中心 "
+                    ],
+                    "ko_annotation_id": 10325,
+                    "annotation_id": 0,
+                    "frameName": "Part_inner_outer",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Part_inner_outer",
+                            "span": {
+                                "begin": 43,
+                                "end": 47
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "중심부를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 40
+                            },
+                            "text": "젊은 노동자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Whole",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 42
+                            },
+                            "text": "그",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중심부.n.Part_inner_outer",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
+                }
+            ]
+        }
+    ]
+}

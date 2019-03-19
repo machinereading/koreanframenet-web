@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "울리다.v.Sounds",
+    "frameID": 850,
+    "frameName": "Sounds",
+    "en_lus": [
+        "oto .音 "
+    ],
+    "lu_id": 196,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10191",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "oto .音 "
+                    ],
+                    "ko_annotation_id": 10191,
+                    "annotation_id": 0,
+                    "frameName": "Sounds",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sounds",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "울리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "호출음이 한 번",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3609,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "울리다.v.Sounds",
+                    "text": "호출음이 한 번 울리는 중에 어머니가 받았다."
+                }
+            ]
+        }
+    ]
+}

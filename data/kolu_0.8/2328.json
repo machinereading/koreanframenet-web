@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "단장.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "head"
+    ],
+    "lu_id": 2328,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15617",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "head"
+                    ],
+                    "ko_annotation_id": 15617,
+                    "annotation_id": 16229,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "단장"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "이라크 조사 단장",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 26
+                            },
+                            "text": "Charles Duelfer는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3109,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "단장.n.Leadership",
+                    "text": "이라크 조사 단장 Charles Duelfer는 이라크 내의 대량 파괴 무기에 대한 그의 조사를 철저히 하였다."
+                }
+            ]
+        }
+    ]
+}

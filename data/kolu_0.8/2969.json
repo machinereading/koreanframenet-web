@@ -1,0 +1,99 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "온도.n.Temperature",
+    "frameID": 1050,
+    "frameName": "Temperature",
+    "en_lus": [
+        "temperature",
+        "Temperatures"
+    ],
+    "lu_id": 2969,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2345",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Temperatures",
+                        "temperature"
+                    ],
+                    "ko_annotation_id": 2345,
+                    "annotation_id": 4628,
+                    "frameName": "Temperature",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temperature",
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "온도는"
+                        }
+                    ],
+                    "sent_id": 890,
+                    "relations": [],
+                    "lu": "온도.n.Temperature",
+                    "text": "대서양을 가로질러 부는 거의 지속적인 무역풍에 의해 열이 누그러질지라도, 이곳의 온도는 약 27 C ( 80 F ) 로부터 몇 도만 변한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3284",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Temperatures",
+                        "temperature"
+                    ],
+                    "ko_annotation_id": 3284,
+                    "annotation_id": 6273,
+                    "frameName": "Temperature",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temperature",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "온도에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Temperature",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 39
+                            },
+                            "text": "더 시원한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1237,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "온도.n.Temperature",
+                    "text": "2중 핵심 칩은 단일 핵심 칩보다 전력을 덜 소모하고 그리고 더 시원한 온도에서 단지 더 빠르게 작동을 할 수 있다."
+                }
+            ]
+        }
+    ]
+}

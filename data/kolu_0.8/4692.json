@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "이름짓다.v.Name_conferral",
+    "frameID": 221,
+    "frameName": "Name_conferral",
+    "en_lus": [
+        "rename"
+    ],
+    "lu_id": 4692,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13009",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "renaming"
+                    ],
+                    "ko_annotation_id": 13009,
+                    "annotation_id": 3033,
+                    "frameName": "Name_conferral",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Name_conferral",
+                            "span": {
+                                "begin": 56,
+                                "end": 65
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "다시 이름지었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "text": "그곳을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "text": "이스탄불이라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 574,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이름짓다.v.Name_conferral",
+                    "text": "1453년에, 그들은 콘스탄티노플을 차지하고 즉시 그 곳을 그들의 수도를 만들어 그곳을 이스탄불이라 다시 이름지었다."
+                }
+            ]
+        }
+    ]
+}

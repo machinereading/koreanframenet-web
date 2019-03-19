@@ -1,0 +1,107 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "발표하다.v.Creating",
+    "frameID": 319,
+    "frameName": "Creating",
+    "en_lus": [
+        "issue"
+    ],
+    "lu_id": 909,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5884",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "issued"
+                    ],
+                    "ko_annotation_id": 5884,
+                    "annotation_id": 10588,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "발표하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "2002년 8월에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Creator",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 46
+                            },
+                            "text": "미사일과 미사일 기술 수출을 제한하는 규정과 통제 목록을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2128,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발표하다.v.Creating",
+                    "text": "2002년 8월에, 중국은 미사일과 미사일 기술 수출을 제한하는 규정과 통제 목록을 발표하였다."
+                }
+            ]
+        }
+    ]
+}

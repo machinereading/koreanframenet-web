@@ -1,0 +1,105 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "혼나다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "okoru .怒る"
+    ],
+    "lu_id": 1356,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11425",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "okoru .怒る"
+                    ],
+                    "ko_annotation_id": 11425,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "혼났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "아주 늦은 시간에 집으로 돌아간 하나는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "text": "아주 조금",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "text": "엄마에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4377,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "혼나다.v.Experiencer_focus",
+                    "text": "아주 늦은 시간에 집으로 돌아간 하나는, 아주 조금 엄마에게 혼났다."
+                }
+            ]
+        }
+    ]
+}

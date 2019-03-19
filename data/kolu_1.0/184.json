@@ -1,0 +1,141 @@
+{
+    "en_lus": [],
+    "ko_lu": "개시하다.v.Activity_start",
+    "ko_pos": "v",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "lu_id": "184",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3578",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "개시했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "행동을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3578",
+                    "lu": "개시하다.v.Activity_start",
+                    "text": "나는 곧바로 행동을 개시했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2454",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "개시하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 46
+                            },
+                            "text": "바그다드와 Kirkuk에 대해 고립된 스커드-B 공격을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2454",
+                    "lu": "개시하다.v.Activity_start",
+                    "text": "1986년 6월 초, 이란은 바그다드와 Kirkuk에 대해 고립된 스커드-B 공격을 개시하였다."
+                }
+            ]
+        }
+    ]
+}

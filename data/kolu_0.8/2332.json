@@ -1,0 +1,87 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "인수.n.Receiving",
+    "frameID": 411,
+    "frameName": "Receiving",
+    "en_lus": [
+        "accept"
+    ],
+    "lu_id": 2332,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9622",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "accept"
+                    ],
+                    "ko_annotation_id": 9622,
+                    "annotation_id": 17912,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "인수에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 58
+                            },
+                            "text": "Eurodif가 재처리한 3% U-235으로 농축한 우라늄의 인수에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3380,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인수.n.Receiving",
+                    "text": "1980년에서 1990년 까지 이란은 Eurodif가 재처리한 3% U-235으로 농축한 우라늄의 인수에 대한 지불을 거부하였다."
+                }
+            ]
+        }
+    ]
+}

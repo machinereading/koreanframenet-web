@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "대체하다.v.Replacing",
+    "frameID": 1121,
+    "frameName": "Replacing",
+    "en_lus": [
+        "replace"
+    ],
+    "lu_id": 1273,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1996",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "replace"
+                    ],
+                    "ko_annotation_id": 1996,
+                    "annotation_id": 4068,
+                    "frameName": "Replacing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Replacing",
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "대체하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 40
+                            },
+                            "text": "많은 초기 정착자들이 살았던 텐트 도시를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "text": "목재 주택이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 778,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대체하다.v.Replacing",
+                    "text": "사업체들이 하룻밤 사이에 생겼고 많은 초기 정착자들이 살았던 텐트 도시를 대체하기 위해 목재 주택이 세워졌다."
+                }
+            ]
+        }
+    ]
+}

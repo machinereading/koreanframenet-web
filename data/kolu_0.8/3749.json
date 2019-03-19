@@ -1,0 +1,70 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "깨닫다.v.Grasp",
+    "frameID": 979,
+    "frameName": "Grasp",
+    "en_lus": [
+        "satoru .さとる"
+    ],
+    "lu_id": 3749,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11854",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "satoru .さとる"
+                    ],
+                    "ko_annotation_id": 11854,
+                    "annotation_id": 0,
+                    "frameName": "Grasp",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grasp",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "깨달았기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 39
+                            },
+                            "text": "다리, 허리, 팔이 너무도 아파서, 도저히 무리라는 것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4675,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깨닫다.v.Grasp",
+                    "text": "하고 싶어도, 다리, 허리, 팔이 너무도 아파서, 도저히 무리라는 것을 깨달았기 때문이다."
+                }
+            ]
+        }
+    ]
+}

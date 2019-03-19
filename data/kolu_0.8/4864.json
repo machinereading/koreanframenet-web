@@ -1,0 +1,81 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "하다.a.Text_creation",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "en_lus": [
+        "spoken"
+    ],
+    "lu_id": 4864,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2222",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "spoken"
+                    ],
+                    "ko_annotation_id": 2222,
+                    "annotation_id": 4440,
+                    "frameName": "Text_creation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text_creation",
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "하고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "어디서나",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Text",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "text": "영어를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 857,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하다.a.Text_creation",
+                    "text": "당신은 홍콩이 돌아다니기가 쉽고, 사람들이 협조적이고, 어디서나 영어를 하고, 평판에 부합하는 음식이 있음을 발견할 것이다."
+                }
+            ]
+        }
+    ]
+}

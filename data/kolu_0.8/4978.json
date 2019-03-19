@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "풀려나다.v.Releasing",
+    "frameID": 317,
+    "frameName": "Releasing",
+    "en_lus": [
+        "release"
+    ],
+    "lu_id": 4978,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12826",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "released"
+                    ],
+                    "ko_annotation_id": 12826,
+                    "annotation_id": 2205,
+                    "frameName": "Releasing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Releasing",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "풀려났을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "Jerry가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location_Of_Confinement",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "감옥에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 420,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "풀려나다.v.Releasing",
+                    "text": "Jerry가 감옥에서 풀려났을 때, 그는 그의 삶을 바로잡기 위해서는 힘든 작업과 결단을 요할 것으로 알았다."
+                }
+            ]
+        }
+    ]
+}

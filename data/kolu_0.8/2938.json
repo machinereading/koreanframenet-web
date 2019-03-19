@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "결혼.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "marriage"
+    ],
+    "lu_id": 2938,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13404",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "marriage"
+                    ],
+                    "ko_annotation_id": 13404,
+                    "annotation_id": 5352,
+                    "frameName": "Personal_relationship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "결혼에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "그의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1021,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결혼.n.Personal_relationship",
+                    "text": "Stephanopoulos는 \" 그는 그의 결혼에 문제가 있었다, \" 고 그날 미리 쓴 애메한 문구와 다른 Donaldson의 언급을 수정하면서 말한다."
+                }
+            ]
+        }
+    ]
+}

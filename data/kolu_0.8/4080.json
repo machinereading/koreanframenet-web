@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "물러나다.v.Change_of_leadership",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "en_lus": [
+        "depose"
+    ],
+    "lu_id": 4080,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4048",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "deposed"
+                    ],
+                    "ko_annotation_id": 4048,
+                    "annotation_id": 7503,
+                    "frameName": "Change_of_leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "물러나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "정권,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1548,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "물러나다.v.Change_of_leadership",
+                    "text": "그들은 물러나 정권, 부족 파벌, 고용된 투사, 그리고 일반적인 범죄자들 포함한다."
+                }
+            ]
+        }
+    ]
+}

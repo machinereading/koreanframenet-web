@@ -1,0 +1,67 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "보장하다.v.Likelihood",
+    "frameID": 114,
+    "frameName": "Likelihood",
+    "en_lus": [
+        "guaranteed"
+    ],
+    "lu_id": 3243,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2299",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "guaranteed"
+                    ],
+                    "ko_annotation_id": 2299,
+                    "annotation_id": 4573,
+                    "frameName": "Likelihood",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Likelihood",
+                            "span": {
+                                "begin": 64,
+                                "end": 69
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "보장한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hypothetical_Event",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 63
+                            },
+                            "text": "조금의 휴식과 기분 전환을 제공하기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 880,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보장하다.v.Likelihood",
+                    "text": "이곳은 따뜻한 햇볕, 아름다운 해변, 우거진 열대 경관, 그리고 멋진 호텔로 조금의 휴식과 기분 전환을 제공하기를 보장한다."
+                }
+            ]
+        }
+    ]
+}

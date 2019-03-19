@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "시의.n.Medical_professionals",
+    "frameID": 255,
+    "frameName": "Medical_professionals",
+    "en_lus": [
+        "zii .侍医 "
+    ],
+    "lu_id": 318,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10274",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zii .侍医 "
+                    ],
+                    "ko_annotation_id": 10274,
+                    "annotation_id": 0,
+                    "frameName": "Medical_professionals",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_professionals",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "시의였던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Professional",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "시의였던",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3644,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시의.n.Medical_professionals",
+                    "text": "교토에, 천왕의 시의였던 야마와키 도요라는 의학의 대가가 있었다."
+                }
+            ]
+        }
+    ]
+}

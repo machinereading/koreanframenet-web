@@ -1,0 +1,89 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "설명.n.Explaining_the_facts",
+    "frameID": 1462,
+    "frameName": "Explaining_the_facts",
+    "en_lus": [
+        "explanation"
+    ],
+    "lu_id": 1641,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 820",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "explanation"
+                    ],
+                    "ko_annotation_id": 820,
+                    "annotation_id": 1688,
+                    "frameName": "Explaining_the_facts",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
+                            "span": {
+                                "begin": 74,
+                                "end": 77
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "설명이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 64
+                            },
+                            "text": "투표소에서 투표자들이 나타내는 외견상 비합리적인 행동의 적어도 일부에 대해서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 73
+                            },
+                            "text": "이성적인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 302,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설명.n.Explaining_the_facts",
+                    "text": "요약하면, 연방 및 주 정부 차원에서 투표소에서 투표자들이 나타내는 외견상 비합리적인 행동의 적어도 일부에 대해서는 대단히 이성적인 설명이 가능할 수 있다."
+                }
+            ]
+        }
+    ]
+}

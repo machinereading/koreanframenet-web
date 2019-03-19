@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "혐의.n.Suspicion",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "en_lus": [
+        "suspect"
+    ],
+    "lu_id": 2493,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8778",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suspected"
+                    ],
+                    "ko_annotation_id": 8778,
+                    "annotation_id": 16097,
+                    "frameName": "Suspicion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 68,
+                                "end": 74
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "혐의를 받는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Incident",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 67
+                            },
+                            "text": "농축 우라늄에 사용되고 있다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3090,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "혐의.n.Suspicion",
+                    "text": "벨기에의 lon Beam Applications가 공급한 사이클론-30 사이클로톤은 이란이 농축 우라늄에 사용되고 있다는 혐의를 받는 이란의 사이클로트론과 동일한 모델이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "하다.a.Possibility",
+    "frameID": 2120,
+    "frameName": "Possibility",
+    "en_lus": [
+        "can"
+    ],
+    "lu_id": 5447,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1032",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "can"
+                    ],
+                    "ko_annotation_id": 1032,
+                    "annotation_id": 2203,
+                    "frameName": "Possibility",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possibility",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "할 수 있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possible_Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 419,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하다.a.Possibility",
+                    "text": "오늘 당신이 Goodwill에 할 수 있는 가장 큰 기부를 해 주시기 바랍니다."
+                }
+            ]
+        }
+    ]
+}

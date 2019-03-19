@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이란.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "country"
+    ],
+    "lu_id": 3072,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6174",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "country"
+                    ],
+                    "ko_annotation_id": 6174,
+                    "annotation_id": 11161,
+                    "frameName": "Political_locales",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Political_locales",
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "이란"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Constituent_Parts",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "관리들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2234,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이란.n.Political_locales",
+                    "text": "많은 이란 관리들은 이란에 대한 화학무기 사용을 막기 위해 이란은 동일하게 보복할 능력을 발전시켜야 한다고 결론지었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "하다.a.Labeling",
+    "frameID": 1250,
+    "frameName": "Labeling",
+    "en_lus": [
+        "call",
+        "iu .いう "
+    ],
+    "lu_id": 788,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6194",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "calling"
+                    ],
+                    "ko_annotation_id": 6194,
+                    "annotation_id": 11201,
+                    "frameName": "Labeling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Labeling",
+                            "span": {
+                                "begin": 112,
+                                "end": 115
+                            },
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "하면서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Label",
+                            "token_span": [
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 101,
+                                "end": 111
+                            },
+                            "text": "이슬람적이 아니라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2239,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하다.a.Labeling",
+                    "text": "몇몇 이란 지도자들이 화학무기 프로그램 개발은 이라크의 위협에 대응하는 것이고 강력한 제지 효과를 낳을 것이라고 느꼈던 반면, 이슬람 성직자 정권의 다른 사람들은 화학물질의 사용은 이슬람적이 아니라고 하면서 도덕적인 근거로 화확물질의 사용을 공개적으로 비난하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12315",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iu .いう "
+                    ],
+                    "ko_annotation_id": 12315,
+                    "annotation_id": 0,
+                    "frameName": "Labeling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Labeling",
+                            "span": {
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "할 수 있다면-"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Label",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "결점이라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4945,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하다.a.Labeling",
+                    "text": "셜록 홈스의 결점 중 하나는-만약 그것을 결점이라 할 수 있다면- 정말로 실행하는 최후의 순간까지, 아무에게도 심중의 계획을 밝히지 않는다는 점이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "신경질적.n.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "piripiri .ぴりぴり"
+    ],
+    "lu_id": 2282,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16583",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "piripiri .ぴりぴり"
+                    ],
+                    "ko_annotation_id": 16583,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "신경질적인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Expressor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "목소리로,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4604,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신경질적.n.Emotion_directed",
+                    "text": "받자마자, 신경질적인 목소리로, 「다카시냐？」라고 물었다."
+                }
+            ]
+        }
+    ]
+}

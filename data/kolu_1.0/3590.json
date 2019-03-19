@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "울리다.v.Sounds",
+    "ko_pos": "v",
+    "frameID": 850,
+    "frameName": "Sounds",
+    "lu_id": "3590",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3609",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sounds",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "울리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "호출음이 한 번",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3609",
+                    "lu": "울리다.v.Sounds",
+                    "text": "호출음이 한 번 울리는 중에 어머니가 받았다."
+                }
+            ]
+        }
+    ]
+}

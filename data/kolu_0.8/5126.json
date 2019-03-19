@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "이야기하다.v.Chatting",
+    "frameID": 910,
+    "frameName": "Chatting",
+    "en_lus": [
+        "talk"
+    ],
+    "lu_id": 5126,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9397",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "talking"
+                    ],
+                    "ko_annotation_id": 9397,
+                    "annotation_id": 17565,
+                    "frameName": "Chatting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chatting",
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이야기 하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "스테이플톤은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "동영상과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3297,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이야기하다.v.Chatting",
+                    "text": "스테이플톤은 동영상과 이야기 하고 있었으나,  헨리경은 창백하고 넋나간 것처럼 보였다."
+                }
+            ]
+        }
+    ]
+}

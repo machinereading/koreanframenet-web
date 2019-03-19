@@ -1,0 +1,107 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "예측량.n.Estimated_value",
+    "frameID": 1516,
+    "frameName": "Estimated_value",
+    "en_lus": [
+        "estimate"
+    ],
+    "lu_id": 5535,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15122",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "estimates"
+                    ],
+                    "ko_annotation_id": 15122,
+                    "annotation_id": 13867,
+                    "frameName": "Estimated_value",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Estimated_value",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "예측량은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "한국 국방부 ( MND ) 에 의한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 30
+                            },
+                            "text": "북한의 화학 무기의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "text": "최근",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2752,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예측량.n.Estimated_value",
+                    "text": "한국 국방부 ( MND ) 에 의한 북한의 화학 무기의 최근 예측량은 그 이후 수 천톤으로 증가하였고, 이는 아마도 북한군 및 핵.생물.화학 방어 기구 종전 출신을 포함한 탈북자들이 제공한 최근 정보에 기초를 둔 것이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "뜨거운.n.Temperature",
+    "frameID": 1050,
+    "frameName": "Temperature",
+    "en_lus": [
+        "atui .熱い "
+    ],
+    "lu_id": 3068,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16424",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "atui .熱い "
+                    ],
+                    "ko_annotation_id": 16424,
+                    "annotation_id": 0,
+                    "frameName": "Temperature",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temperature",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "뜨거운"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 34
+                            },
+                            "text": "관심의 표적이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4263,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뜨거운.n.Temperature",
+                    "text": "피크 헌터도 있었지만 백명산은 등산가들의 뜨거운 관심의 표적이 되지는 않았다."
+                }
+            ]
+        }
+    ]
+}

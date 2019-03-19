@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "용서하다.v.Deny_or_grant_permission",
+    "ko_pos": "v",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": "3559",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3572",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 47,
+                                "end": 51
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "용서했을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Grantor",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "시즈는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 46
+                            },
+                            "text": "과거의 일은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3572",
+                    "lu": "용서하다.v.Deny_or_grant_permission",
+                    "text": "미움을 끌어안은 채 헤어지고 싶지 않다는 마음 깊숙이에는, 시즈는 분명 과거의 일은 용서했을 것이라 믿고 싶은 마음이 자리하고 있었다."
+                }
+            ]
+        }
+    ]
+}

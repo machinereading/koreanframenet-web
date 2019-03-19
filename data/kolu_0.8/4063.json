@@ -1,0 +1,92 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "어이없다.a.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "osoreiru .恐れ入る "
+    ],
+    "lu_id": 4063,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11045",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "osoreiru .恐れ入る "
+                    ],
+                    "ko_annotation_id": 11045,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 54,
+                                "end": 61
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "어이가 없다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그런데도,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 53
+                            },
+                            "text": "그 1300엔의 주식을 사거나, 「1500엔이 되면 팔려고 했다」 따위의 말을 쓰니까",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4120,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "어이없다.a.Experiencer_focus",
+                    "text": "그런데도, 그 1300엔의 주식을 사거나, 「1500엔이 되면 팔려고 했다」 따위의 말을 쓰니까 어이가 없다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "이름나다.v.Fame",
+    "frameID": 1880,
+    "frameName": "Fame",
+    "en_lus": [
+        "renowned"
+    ],
+    "lu_id": 690,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2457",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "renowned"
+                    ],
+                    "ko_annotation_id": 2457,
+                    "annotation_id": 4825,
+                    "frameName": "Fame",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fame",
+                            "span": {
+                                "begin": 64,
+                                "end": 68
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "이름나게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "text": "섬은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 63
+                            },
+                            "text": "카리브 해에서 최고의 목적지 가운데 하나로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 931,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이름나다.v.Fame",
+                    "text": "1962년에 독립한 이후부터 관광은 자마이카의 주요 산업이었고 이 섬은 카리브 해에서 최고의 목적지 가운데 하나로 이름나게 되었다."
+                }
+            ]
+        }
+    ]
+}

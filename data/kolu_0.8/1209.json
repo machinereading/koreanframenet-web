@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "논의되다.v.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "discuss"
+    ],
+    "lu_id": 1209,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14436",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "discussed"
+                    ],
+                    "ko_annotation_id": 14436,
+                    "annotation_id": 10970,
+                    "frameName": "Topic",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Topic",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "논의되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "아래에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 41
+                            },
+                            "text": "Persian Type Culture Collection의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2198,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "논의되다.v.Topic",
+                    "text": "아래에 논의되는 Persian Type Culture Collection의 내용물들에서 분명히 들어나는 것처럼, 이란은 분명히 많은 위험 병원균에 접근할 수 있다."
+                }
+            ]
+        }
+    ]
+}

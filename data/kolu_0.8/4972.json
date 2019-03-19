@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "가능하다.a.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "dekiru .できる "
+    ],
+    "lu_id": 4972,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16663",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dekiru .できる "
+                    ],
+                    "ko_annotation_id": 16663,
+                    "annotation_id": 0,
+                    "frameName": "Capability",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "가능합니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "입금은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4716,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가능하다.a.Capability",
+                    "text": "입금은 인터넷으로도 가능합니다."
+                }
+            ]
+        }
+    ]
+}

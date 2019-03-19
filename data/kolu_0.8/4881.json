@@ -1,0 +1,140 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "담소.n.Chatting",
+    "frameID": 910,
+    "frameName": "Chatting",
+    "en_lus": [
+        "chat",
+        "conversation"
+    ],
+    "lu_id": 4881,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 77",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "conversation",
+                        "chat"
+                    ],
+                    "ko_annotation_id": 77,
+                    "annotation_id": 100,
+                    "frameName": "Chatting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chatting",
+                            "span": {
+                                "begin": 58,
+                                "end": 61
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "담소를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutors",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 30
+                            },
+                            "text": "St. Michael과 All Angels의 교구민들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 14,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "담소.n.Chatting",
+                    "text": "St. Michael과 All Angels의 교구민들은 이곳의 멤버들이 항상 하는 것처럼, 교회 문에서 담소를 나누기 위해 멈춘다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2428",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "conversation",
+                        "chat"
+                    ],
+                    "ko_annotation_id": 2428,
+                    "annotation_id": 4755,
+                    "frameName": "Chatting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chatting",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "담소를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutors",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "친구들 사이의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "담소를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 920,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "담소.n.Chatting",
+                    "text": "당신이 친구들 사이의 담소를 우연히 듣게 될 때 알아챌지 모르나 그들은 서로와의 교제에서 매우 직선적이다."
+                }
+            ]
+        }
+    ]
+}

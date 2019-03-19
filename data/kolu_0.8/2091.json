@@ -1,0 +1,65 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "힘들다.a.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "struggle"
+    ],
+    "lu_id": 2091,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1083",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "struggle"
+                    ],
+                    "ko_annotation_id": 1083,
+                    "annotation_id": 2296,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "힘들게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sides",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 30
+                            },
+                            "text": "양부모와 친부모 사이에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 438,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "힘들다.a.Hostile_encounter",
+                    "text": "Baby Jessica 처럼, 양부모와 친부모 사이에서 힘들게 살아가고 있는 어린 아이들"
+                }
+            ]
+        }
+    ]
+}

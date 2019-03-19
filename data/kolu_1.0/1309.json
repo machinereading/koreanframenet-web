@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "돌다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "1309",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3595",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "돌며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 31
+                            },
+                            "text": "조류의 흐름이 좋아 보이는 같은 곳을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "text": "빙글빙글",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3595",
+                    "lu": "돌다.v.Motion",
+                    "text": "트롤링이라고는 해도 조류의 흐름이 좋아 보이는 같은 곳을 빙글빙글 돌며, 먹이에 물고기가 달려들기를 기다린다."
+                }
+            ]
+        }
+    ]
+}

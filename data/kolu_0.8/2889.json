@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "모르다.v.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 2889,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14065",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "ko_annotation_id": 14065,
+                    "annotation_id": 8806,
+                    "frameName": "Possession",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "모른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1825,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "모르다.v.Possession",
+                    "text": "나는 무엇이 흐르는 지를 모른다."
+                }
+            ]
+        }
+    ]
+}

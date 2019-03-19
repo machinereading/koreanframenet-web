@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "검토하다.v.Scrutiny",
+    "ko_pos": "v",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "lu_id": "283",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1755",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "검토할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 35
+                            },
+                            "text": "대통령이 오늘 제시한 계획을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1755",
+                    "lu": "검토하다.v.Scrutiny",
+                    "text": "Paula_Zahn : 나는 당신이 대통령이 오늘 제시한 계획을 검토할 기회를 가졌다고 생각한다."
+                }
+            ]
+        }
+    ]
+}

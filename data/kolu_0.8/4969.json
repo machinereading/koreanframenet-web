@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "부르다.v.Being_named",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "en_lus": [
+        "yobu .呼ぶ"
+    ],
+    "lu_id": 4969,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10519",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "yobu .呼ぶ"
+                    ],
+                    "ko_annotation_id": 10519,
+                    "annotation_id": 0,
+                    "frameName": "Being_named",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_named",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이런 <단위>를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "<루프roof>라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3811,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부르다.v.Being_named",
+                    "text": "이런 <단위>를 <루프roof>라고 부른다."
+                }
+            ]
+        }
+    ]
+}

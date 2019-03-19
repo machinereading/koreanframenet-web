@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "빗발.n.Precipitation",
+    "frameID": 314,
+    "frameName": "Precipitation",
+    "en_lus": [
+        "ame .雨 "
+    ],
+    "lu_id": 4737,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12154",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ame .雨 "
+                    ],
+                    "ko_annotation_id": 12154,
+                    "annotation_id": 0,
+                    "frameName": "Precipitation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Precipitation",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "빗발은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Precipitation",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "빗발은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "거세지고 있었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4867,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빗발.n.Precipitation",
+                    "text": "빗발은 거세지고 있었다."
+                }
+            ]
+        }
+    ]
+}

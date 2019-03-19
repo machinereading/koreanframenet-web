@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "실태.n.State_of_entity",
+    "ko_pos": "n",
+    "frameID": 1600,
+    "frameName": "State_of_entity",
+    "lu_id": "3029",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4066",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_of_entity",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "실태에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 26
+                            },
+                            "text": "이러한 아이들의 학습 성장",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "실태에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4066",
+                    "lu": "실태.n.State_of_entity",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
+                }
+            ]
+        }
+    ]
+}

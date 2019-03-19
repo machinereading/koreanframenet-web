@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "거주하다.v.Residence",
+    "frameID": 110,
+    "frameName": "Residence",
+    "en_lus": [
+        "inhabit"
+    ],
+    "lu_id": 4034,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1893",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "inhabited"
+                    ],
+                    "ko_annotation_id": 1893,
+                    "annotation_id": 3899,
+                    "frameName": "Residence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "거주하고 있었을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "text": "Anasazi Indian들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "계곡에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 741,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거주하다.v.Residence",
+                    "text": "Anasazi Indian들이 계곡에 거주하고 있었을 때, 한층 더 진보된 흔적들이 최초의 서기 1000년이 반 자났을 때 나타났다 ."
+                }
+            ]
+        }
+    ]
+}

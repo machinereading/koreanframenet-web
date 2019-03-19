@@ -1,0 +1,109 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "용기.n.Attempt_suasion",
+    "frameID": 87,
+    "frameName": "Attempt_suasion",
+    "en_lus": [
+        "discourage"
+    ],
+    "lu_id": 4455,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 742",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "discouraged"
+                    ],
+                    "ko_annotation_id": 742,
+                    "annotation_id": 1564,
+                    "frameName": "Attempt_suasion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt_suasion",
+                            "span": {
+                                "begin": 48,
+                                "end": 54
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "용기를 잃게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "유력한 후보자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 43
+                            },
+                            "text": "민주당 반대파에 의해 예상되는 패배보다 의원 급여 때문에 덜",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "출마의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 283,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "용기.n.Attempt_suasion",
+                    "text": "유력한 후보자들은 민주당 반대파에 의해 예상되는 패배보다 의원 급여 때문에 덜 출마의 용기를 잃게 된다."
+                }
+            ]
+        }
+    ]
+}

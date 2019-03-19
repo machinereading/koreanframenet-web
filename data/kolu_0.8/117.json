@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "돌리다.v.Cutting",
+    "frameID": 265,
+    "frameName": "Cutting",
+    "en_lus": [
+        "kiru .切る"
+    ],
+    "lu_id": 117,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10262",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kiru .切る"
+                    ],
+                    "ko_annotation_id": 10262,
+                    "annotation_id": 0,
+                    "frameName": "Cutting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cutting",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "돌렸을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "눈을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3637,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "돌리다.v.Cutting",
+                    "text": "그래서 눈을 돌렸을 뿐이예요."
+                }
+            ]
+        }
+    ]
+}

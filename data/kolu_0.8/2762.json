@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "실패.n.Bungling",
+    "frameID": 266,
+    "frameName": "Bungling",
+    "en_lus": [
+        "fiasco"
+    ],
+    "lu_id": 2762,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14186",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fiasco"
+                    ],
+                    "ko_annotation_id": 14186,
+                    "annotation_id": 9692,
+                    "frameName": "Bungling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bungling",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "실패"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "파나마",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2004,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "실패.n.Bungling",
+                    "text": "파나마 실패 후 그들은 안심시키는 것이 필요할 것이다."
+                }
+            ]
+        }
+    ]
+}

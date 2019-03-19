@@ -1,0 +1,122 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "악화시키다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "make"
+    ],
+    "lu_id": 3786,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12645",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "make"
+                    ],
+                    "ko_annotation_id": 12645,
+                    "annotation_id": 1295,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "악화시킬"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 20
+                            },
+                            "text": "우리의 현 상황에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 32
+                            },
+                            "text": "증가하는 교육 비용이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Affected",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "상황을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Effect",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 62
+                            },
+                            "text": "더 악화시킬",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 239,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "악화시키다.v.Causation",
+                    "text": "대부분의 주에서는 우리의 현 상황에서 증가하는 교육 비용이 상황을 더 좋게 하는 것이 아니라 아마도 더 악화시킬 것이다."
+                }
+            ]
+        }
+    ]
+}

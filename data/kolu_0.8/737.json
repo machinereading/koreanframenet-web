@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "집행하다.v.Enforcing",
+    "frameID": 1813,
+    "frameName": "Enforcing",
+    "en_lus": [
+        "enforce"
+    ],
+    "lu_id": 737,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1808",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "enforce"
+                    ],
+                    "ko_annotation_id": 1808,
+                    "annotation_id": 3756,
+                    "frameName": "Enforcing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Enforcing",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "집행할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Rule",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "결정을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "유엔은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 716,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "집행하다.v.Enforcing",
+                    "text": "그러나 결정을 집행할 수단의 부족으로, 유엔은 영국이 1948년에 그들의 병력을 철수하면서 분출된 싸움을 멈추게 할 힘이 없었다."
+                }
+            ]
+        }
+    ]
+}

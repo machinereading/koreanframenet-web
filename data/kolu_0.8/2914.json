@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "밀려나다.v.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "push"
+    ],
+    "lu_id": 2914,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2160",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "pushed"
+                    ],
+                    "ko_annotation_id": 2160,
+                    "annotation_id": 4317,
+                    "frameName": "Cause_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "밀려남에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "마피아가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "서서히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 831,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "밀려나다.v.Cause_motion",
+                    "text": "기업들이 들어오고 마피아가 서서히 밀려남에 따라 새로운 라스 베이거스가 부상하였다."
+                }
+            ]
+        }
+    ]
+}

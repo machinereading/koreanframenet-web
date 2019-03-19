@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "구불텅하다.a.Path_shape",
+    "frameID": 61,
+    "frameName": "Path_shape",
+    "en_lus": [
+        "wind"
+    ],
+    "lu_id": 3610,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2895",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "winding"
+                    ],
+                    "ko_annotation_id": 2895,
+                    "annotation_id": 5563,
+                    "frameName": "Path_shape",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "구불한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Road",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "text": "길은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1064,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구불텅하다.a.Path_shape",
+                    "text": "I.M. Pei 타워를 건너 구불한 길은 홍콩공원으로 다다른다."
+                }
+            ]
+        }
+    ]
+}

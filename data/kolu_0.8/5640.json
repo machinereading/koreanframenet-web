@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "노출되다.v.Required_event",
+    "frameID": 1381,
+    "frameName": "Required_event",
+    "en_lus": [
+        "should"
+    ],
+    "lu_id": 5640,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4210",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "ko_annotation_id": 4210,
+                    "annotation_id": 7733,
+                    "frameName": "Required_event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Required_event",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "노출되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Required_Situation",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "일부 버스는 노출되고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1589,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노출되다.v.Required_event",
+                    "text": "일부 버스는 노출되고 다른 버스는 위장되어야 한다."
+                }
+            ]
+        }
+    ]
+}

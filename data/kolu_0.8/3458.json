@@ -1,0 +1,86 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "마을.n.Being_named",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "en_lus": [
+        "tyoomee .町名 "
+    ],
+    "lu_id": 3458,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12384",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tyoomee .町名 "
+                    ],
+                    "ko_annotation_id": 12384,
+                    "annotation_id": 0,
+                    "frameName": "Being_named",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_named",
+                            "span": {
+                                "begin": 38,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "마을 이름은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "짓켄다나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 24
+                            },
+                            "text": "니혼바시 혼고쿠 쵸・혼 쵸 사이의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5007,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "마을.n.Being_named",
+                    "text": "짓켄다나는 니혼바시 혼고쿠 쵸・혼 쵸 사이의 큰길을 말하는데, 정식 마을 이름은 아닙니다."
+                }
+            ]
+        }
+    ]
+}

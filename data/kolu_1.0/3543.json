@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "요청.n.Attempt",
+    "ko_pos": "n",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "lu_id": "3543",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3104",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "요청은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 21
+                            },
+                            "text": "원자력 발전소 확보를 위한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "text": "시리아의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3104",
+                    "lu": "요청.n.Attempt",
+                    "text": "결과적으로, 원자력 발전소 확보를 위한 시리아의 요청은 응답받지 못한 질문으로 남아 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "인물.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "zinbutu .人物"
+    ],
+    "lu_id": 4203,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10334",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zinbutu .人物"
+                    ],
+                    "ko_annotation_id": 10334,
+                    "annotation_id": 0,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "인물에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "text": "인물에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3671,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인물.n.People",
+                    "text": "이 인물에 대해서도, 당신은 꽤나 낮은 평가를 하고 있군요."
+                }
+            ]
+        }
+    ]
+}

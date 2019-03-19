@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "찾다.v.Hunting",
+    "frameID": 2006,
+    "frameName": "Hunting",
+    "en_lus": [
+        "sagasu .探す "
+    ],
+    "lu_id": 2200,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11535",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sagasu .探す "
+                    ],
+                    "ko_annotation_id": 11535,
+                    "annotation_id": 0,
+                    "frameName": "Hunting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hunting",
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "찾기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hunter",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "박쥐도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "먹이를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4465,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찾다.v.Hunting",
+                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다."
+                }
+            ]
+        }
+    ]
+}

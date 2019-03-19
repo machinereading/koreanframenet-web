@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "배우다.v.Getting",
+    "frameID": 179,
+    "frameName": "Getting",
+    "en_lus": [
+        "oboeru .おぼえる "
+    ],
+    "lu_id": 3027,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12127",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "oboeru .おぼえる "
+                    ],
+                    "ko_annotation_id": 12127,
+                    "annotation_id": 0,
+                    "frameName": "Getting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Getting",
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "배울"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "수영을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4843,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배우다.v.Getting",
+                    "text": "나는 도시 출생인데다가, 긴 전쟁 때문에 수영을 배울 기회도 없었다."
+                }
+            ]
+        }
+    ]
+}

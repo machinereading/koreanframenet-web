@@ -1,0 +1,84 @@
+{
+    "en_lus": [],
+    "ko_lu": "만들어내다.v.Manufacturing",
+    "ko_pos": "v",
+    "frameID": 408,
+    "frameName": "Manufacturing",
+    "lu_id": "1572",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-5023",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "만들어내지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 55
+                            },
+                            "text": "다른 어떤 기업보다도 신속하게 수율 100%로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "5023",
+                    "lu": "만들어내다.v.Manufacturing",
+                    "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을, 다른 어떤 기업보다도 신속하게 수율 100%로 만들어내지 못하는 한 사업은 성공하지 못한다."
+                }
+            ]
+        }
+    ]
+}

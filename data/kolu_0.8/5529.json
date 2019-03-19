@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "불시검문하다.v.Inspecting",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "en_lus": [
+        "check"
+    ],
+    "lu_id": 5529,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4936",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "checking"
+                    ],
+                    "ko_annotation_id": 4936,
+                    "annotation_id": 8931,
+                    "frameName": "Inspecting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "검문하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "차들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Inspector",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 28
+                            },
+                            "text": "그의 부족들 중 Utens,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1855,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "불시검문하다.v.Inspecting",
+                    "text": "차들을 검문하기 시작한 그의 부족들 중 Utens, 그들은 여러차례 우리 형제들을 방해하였다."
+                }
+            ]
+        }
+    ]
+}

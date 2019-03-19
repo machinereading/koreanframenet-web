@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "산업화.n.Manufacturing",
+    "frameID": 408,
+    "frameName": "Manufacturing",
+    "en_lus": [
+        "sangyoo .産業 "
+    ],
+    "lu_id": 5251,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11194",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sangyoo .産業 "
+                    ],
+                    "ko_annotation_id": 11194,
+                    "annotation_id": 0,
+                    "frameName": "Manufacturing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "산업화의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "영국",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4233,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "산업화.n.Manufacturing",
+                    "text": "낭만주의자는 모두, 영국 산업화의 결과에 거세게 반대하며, 고전경제학파나 벤담 학파에게 공세의 화살을 겨누었다."
+                }
+            ]
+        }
+    ]
+}

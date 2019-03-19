@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "a few"
+    ],
+    "lu_id": 5630,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2729",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "a few"
+                    ],
+                    "ko_annotation_id": 2729,
+                    "annotation_id": 5305,
+                    "frameName": "Quantity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Quantity",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "얼마되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "text": "얼마되지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1008,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Quantity",
+                    "text": "Lewinsky 이야기가 나온지 얼마되지 않았던 지난 주에, Stephanopoulos는 갑자기 Good Morning America에 나타나 우려를 나타냈다."
+                }
+            ]
+        }
+    ]
+}

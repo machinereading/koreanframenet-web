@@ -1,0 +1,64 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "특이하다.a.Idiosyncrasy",
+    "frameID": 982,
+    "frameName": "Idiosyncrasy",
+    "en_lus": [
+        "peculiarity"
+    ],
+    "lu_id": 4895,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 57",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "peculiarities"
+                    ],
+                    "ko_annotation_id": 57,
+                    "annotation_id": 75,
+                    "frameName": "Idiosyncrasy",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Idiosyncrasy",
+                            "span": {
+                                "begin": 32,
+                                "end": 39
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "특이한 점들과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "영국의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 12,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "특이하다.a.Idiosyncrasy",
+                    "text": "전조타종의 기술은 영국인들에게 독특하며, 대부분의 영국의 특이한 점들과 같이, 세계의 다른 국가들에서는 이해하기 어렵다."
+                }
+            ]
+        }
+    ]
+}

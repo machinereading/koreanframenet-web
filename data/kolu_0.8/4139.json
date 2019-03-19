@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "조금.n.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "a little"
+    ],
+    "lu_id": 4139,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2304",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "a little"
+                    ],
+                    "ko_annotation_id": 2304,
+                    "annotation_id": 4575,
+                    "frameName": "Quantity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Quantity",
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "조금의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Mass",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 57
+                            },
+                            "text": "휴식과 기분 전환을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 880,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "조금.n.Quantity",
+                    "text": "이곳은 따뜻한 햇볕, 아름다운 해변, 우거진 열대 경관, 그리고 멋진 호텔로 조금의 휴식과 기분 전환을 제공하기를 보장한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "오다.v.Origin",
+    "ko_pos": "v",
+    "frameID": 1103,
+    "frameName": "Origin",
+    "lu_id": "3440",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1968",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Origin",
+                            "span": {
+                                "begin": 52,
+                                "end": 53
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "온"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "하나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Origin",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 51
+                            },
+                            "text": "소련의 국립 선박 회사로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1968",
+                    "lu": "오다.v.Origin",
+                    "text": "그 스위스 거래자가 받은 응찰 가운데 하나는 입찰 초청을 받지 않은 소련의 국립 선박 회사로 온 것도 있었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "선.n.Boundary",
+    "frameID": 329,
+    "frameName": "Boundary",
+    "en_lus": [
+        "sen .線 "
+    ],
+    "lu_id": 1600,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17428",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sen .線 "
+                    ],
+                    "ko_annotation_id": 17428,
+                    "annotation_id": 0,
+                    "frameName": "Boundary",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Boundary",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "국경선에는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entities",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 20
+                            },
+                            "text": "하리마노구니와 셋쓰노구니의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Boundary",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "text": "국경선에는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4955,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선.n.Boundary",
+                    "text": "예를 들어 하리마노구니와 셋쓰노구니의 국경선에는 스마우라 공원 가장 서쪽에 사카이가와라는 것이 있는데, 그것이 말 그대로 양국의 경계였습니다."
+                }
+            ]
+        }
+    ]
+}

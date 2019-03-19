@@ -1,0 +1,100 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "중이.n.Cause_to_make_progress",
+    "frameID": 1349,
+    "frameName": "Cause_to_make_progress",
+    "en_lus": [
+        "develop"
+    ],
+    "lu_id": 2800,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6204",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "developing"
+                    ],
+                    "ko_annotation_id": 6204,
+                    "annotation_id": 11217,
+                    "frameName": "Cause_to_make_progress",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_make_progress",
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "개발 중이라는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "현재",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Project",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "화학무기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2242,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중이.n.Cause_to_make_progress",
+                    "text": "이란이 현재 화학무기를 개발 중이라는 구체적인 증거는 없지만, 화학무기 전구물질이 과거에 외국 출처로부터 구매된 여러 사례가 있다."
+                }
+            ]
+        }
+    ]
+}

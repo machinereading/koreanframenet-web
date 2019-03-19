@@ -1,0 +1,104 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비행하다.v.Travel",
+    "frameID": 343,
+    "frameName": "Travel",
+    "en_lus": [
+        "travel"
+    ],
+    "lu_id": 54,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7558",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "traveling"
+                    ],
+                    "ko_annotation_id": 7558,
+                    "annotation_id": 13743,
+                    "frameName": "Travel",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Travel",
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "비행할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Baggage",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 28
+                            },
+                            "text": "500 킬로그램 적재로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Distance",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 41
+                            },
+                            "text": "300 킬로미터 이상을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Traveler",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 62
+                            },
+                            "text": "탄도 미사일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2729,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행하다.v.Travel",
+                    "text": "2003년 12월, 리비아는 500 킬로그램 적재로 300 킬로미터 이상을 비행할 수 있는 능력의 탄도 미사일을 제거하기로 약속하였다."
+                }
+            ]
+        }
+    ]
+}

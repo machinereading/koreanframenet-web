@@ -1,0 +1,89 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "유보.n.Activity_pause",
+    "frameID": 167,
+    "frameName": "Activity_pause",
+    "en_lus": [
+        "suspend"
+    ],
+    "lu_id": 2379,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8049",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suspend"
+                    ],
+                    "ko_annotation_id": 8049,
+                    "annotation_id": 14709,
+                    "frameName": "Activity_pause",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_pause",
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "유보"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "미국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 45
+                            },
+                            "text": "핵동결 협약 하에 중유 오일 ( HFO ) 수송",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2879,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유보.n.Activity_pause",
+                    "text": "핵확산 방지 조약의 탈퇴는 미국이 핵동결 협약 하에 중유 오일 ( HFO ) 수송 유보 결정에 대한 반응으로 북한은 핵 프로그램 동결을 해제한다는 2002년 12월 선언에 신속히 이어 나왔다."
+                }
+            ]
+        }
+    ]
+}

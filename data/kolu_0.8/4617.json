@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "미소.n.Facial_expression",
+    "frameID": 161,
+    "frameName": "Facial_expression",
+    "en_lus": [
+        "egao .笑顔 ",
+        "smile"
+    ],
+    "lu_id": 4617,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12195",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "smile",
+                        "egao .笑顔 "
+                    ],
+                    "ko_annotation_id": 12195,
+                    "annotation_id": 0,
+                    "frameName": "Facial_expression",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Facial_expression",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "미소가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "차례를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Expression",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "text": "미소가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4887,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "미소.n.Facial_expression",
+                    "text": "긴장한 채 차례를 기다리는 고객에게는, 인사와 미소가 특효약입니다."
+                }
+            ]
+        }
+    ]
+}

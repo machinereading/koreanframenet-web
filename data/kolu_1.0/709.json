@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "그러고_나다.v.Temporal_collocation",
+    "ko_pos": "v",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "lu_id": "709",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-785",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "그러고 나서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 21
+                            },
+                            "text": "Union Pacific은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event_Description",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 41
+                            },
+                            "text": "라스 베이거스 수리 시설을 제거하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 52
+                            },
+                            "text": "운영을 강화하였다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "785",
+                    "lu": "그러고_나다.v.Temporal_collocation",
+                    "text": "그러고 나서 Union Pacific은 라스 베이거스 수리 시설을 제거하여 운영을 강화하였다."
+                }
+            ]
+        }
+    ]
+}

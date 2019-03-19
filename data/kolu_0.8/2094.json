@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "나타내다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "giving rise"
+    ],
+    "lu_id": 2094,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2370",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "giving rise"
+                    ],
+                    "ko_annotation_id": 2370,
+                    "annotation_id": 4659,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "나타내고 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "그들은 함께 혼합되어",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 24
+                            },
+                            "text": "흥미로운 국가 정체성을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 896,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나타내다.v.Causation",
+                    "text": "그들은 함께 혼합되어 흥미로운 국가 정체성을 나타내고 있다."
+                }
+            ]
+        }
+    ]
+}

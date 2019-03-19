@@ -1,0 +1,136 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "붉히다.v.Color",
+    "frameID": 423,
+    "frameName": "Color",
+    "en_lus": [
+        "akai .赤い"
+    ],
+    "lu_id": 4845,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10237",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "akai .赤い"
+                    ],
+                    "ko_annotation_id": 10237,
+                    "annotation_id": 0,
+                    "frameName": "Color",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Color",
+                            "span": {
+                                "begin": 57,
+                                "end": 61
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "붉혔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "text": "얼굴을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3624,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "붉히다.v.Color",
+                    "text": "「아니, 커피는 안돼」「…싫어해?」「커피는 너의 체취를 지워 버리니까 안돼」「바보…」 유미코는 얼굴을 붉혔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11776",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "akai .赤い"
+                    ],
+                    "ko_annotation_id": 11776,
+                    "annotation_id": 0,
+                    "frameName": "Color",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Color",
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "붉히고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 25
+                            },
+                            "text": "매서운 바람이 부는 날씨로 인해,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "코끝을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4617,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "붉히다.v.Color",
+                    "text": "「미안해요」 매서운 바람이 부는 날씨로 인해, 주스케는 코끝을 붉히고 있었다."
+                }
+            ]
+        }
+    ]
+}

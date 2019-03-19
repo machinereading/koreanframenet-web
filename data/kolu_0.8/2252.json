@@ -1,0 +1,135 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "교육시키다.v.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "teach",
+        "educate"
+    ],
+    "lu_id": 2252,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 539",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "educate"
+                    ],
+                    "ko_annotation_id": 539,
+                    "annotation_id": 1150,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 39,
+                                "end": 48
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "교육시킬 것이라고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Student",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 34
+                            },
+                            "text": "우리 어린이들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "더 잘",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 214,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교육시키다.v.Education_teaching",
+                    "text": "그들이 일년에 몇 천 달러를 더 받으면 그들은 우리 어린이들을 더 잘 교육시킬 것이라고 생각하는 것은 선생에 대한 어리석은 모욕이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 857",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "teaching"
+                    ],
+                    "ko_annotation_id": 857,
+                    "annotation_id": 1759,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "교육시키는"
+                        }
+                    ],
+                    "sent_id": 321,
+                    "relations": [],
+                    "lu": "교육시키다.v.Education_teaching",
+                    "text": "사람에게 고기를 잡도록 교육시키는 것은 전 생애 동안 그를 계속해서 먹일 것이기 때문이다."
+                }
+            ]
+        }
+    ]
+}

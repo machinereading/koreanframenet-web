@@ -1,0 +1,105 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "착공.n.Cause_to_fragment",
+    "frameID": 414,
+    "frameName": "Cause_to_fragment",
+    "en_lus": [
+        "break"
+    ],
+    "lu_id": 3629,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9078",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "break"
+                    ],
+                    "ko_annotation_id": 9078,
+                    "annotation_id": 16773,
+                    "frameName": "Cause_to_fragment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_fragment",
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "착공"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "미국 국토안보부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 30
+                            },
+                            "text": "국가 생체방어 분석 및 대책 본부에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "월요일",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3200,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "착공.n.Cause_to_fragment",
+                    "text": "미국 국토안보부는 국가 생체방어 분석 및 대책 본부에서 월요일 착공 예정이었다."
+                }
+            ]
+        }
+    ]
+}

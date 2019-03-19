@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "제창하다.v.Attempt_suasion",
+    "ko_pos": "v",
+    "frameID": 87,
+    "frameName": "Attempt_suasion",
+    "lu_id": "4355",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4934",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt_suasion",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "제창한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "저희가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 64
+                            },
+                            "text": "독서 아니마시온입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4934",
+                    "lu": "제창하다.v.Attempt_suasion",
+                    "text": "그런 아이들에게도 이야기의 재미를 알게 하는 오락적 요소를 지닌 독서지도법이, 저희가 제창한 독서 아니마시온입니다."
+                }
+            ]
+        }
+    ]
+}

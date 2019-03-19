@@ -1,0 +1,105 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "맞다.v.Cause_harm",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "en_lus": [
+        "slap"
+    ],
+    "lu_id": 5140,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4620",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "slapped"
+                    ],
+                    "ko_annotation_id": 4620,
+                    "annotation_id": 8429,
+                    "frameName": "Cause_harm",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 71,
+                                "end": 73
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "맞은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 40
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 66
+                            },
+                            "text": "이 당당한 단체의 리더십에 이와 같은 모욕으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "text": "얼굴을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1729,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맞다.v.Cause_harm",
+                    "text": "Bill_First : 종전의 민주당 대표나 현 민주장 대표와 함께 나는 이 당당한 단체의 리더십에 이와 같은 모욕으로 얼굴을 맞은 적이 없었다."
+                }
+            ]
+        }
+    ]
+}

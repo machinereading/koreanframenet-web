@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "지키다.v.Compliance",
+    "ko_pos": "v",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "lu_id": "4687",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4086",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "지킬"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Norm",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "고객 안전기준이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Reason",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "엄격해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4086",
+                    "lu": "지키다.v.Compliance",
+                    "text": "고객 안전기준이 엄격해 지킬 수 있을 것 같지 않다."
+                }
+            ]
+        }
+    ]
+}

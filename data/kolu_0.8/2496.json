@@ -1,0 +1,65 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "가능성있다.a.Likelihood",
+    "frameID": 114,
+    "frameName": "Likelihood",
+    "en_lus": [
+        "possible"
+    ],
+    "lu_id": 2496,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4671",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "possible"
+                    ],
+                    "ko_annotation_id": 4671,
+                    "annotation_id": 8505,
+                    "frameName": "Likelihood",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Likelihood",
+                            "span": {
+                                "begin": 24,
+                                "end": 31
+                            },
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "가능성이 있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hypothetical_Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 39
+                            },
+                            "text": "독감 유행병에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1746,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가능성있다.a.Likelihood",
+                    "text": "Paula_Zahn : 오늘 대통령 부시는 가능성이 있는 독감 유행병에 대비하기 위한 7.1 십억 달러 계획을 발표하였다."
+                }
+            ]
+        }
+    ]
+}

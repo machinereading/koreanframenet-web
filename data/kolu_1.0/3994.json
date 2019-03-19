@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "입장.n.Posture",
+    "ko_pos": "n",
+    "frameID": 18,
+    "frameName": "Posture",
+    "lu_id": "3994",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4824",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Posture",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "입장인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 30
+                            },
+                            "text": "리더의 입장인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 38
+                            },
+                            "text": "사람으로부터,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4824",
+                    "lu": "입장.n.Posture",
+                    "text": "아이들을 가르치는 “가정교사”와 같아서, 리더의 입장인 사람으로부터, 귀가 따갑도록 잔소리를 듣지 않으면 사람은 웬만해서 생활을 바꿀 수 없습니다."
+                }
+            ]
+        }
+    ]
+}

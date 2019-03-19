@@ -1,0 +1,88 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "정밀조사.n.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "scrutiny"
+    ],
+    "lu_id": 5567,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7371",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "scrutiny"
+                    ],
+                    "ko_annotation_id": 7371,
+                    "annotation_id": 13375,
+                    "frameName": "Scrutiny",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "정밀 조사를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "이 시설들과 이란의 총체적 프로그램은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 34
+                            },
+                            "text": "국제 공동체에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2673,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정밀조사.n.Scrutiny",
+                    "text": "이 시설들과 이란의 총체적 프로그램은 현재 국제 공동체에 의해 정밀 조사를 받고 있고 시설의 목적과 능력에 대한 논쟁이 해결될 때까지 그럴 것 같다."
+                }
+            ]
+        }
+    ]
+}

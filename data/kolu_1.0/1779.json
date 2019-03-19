@@ -1,0 +1,143 @@
+{
+    "en_lus": [],
+    "ko_lu": "묻다.v.Questioning",
+    "ko_pos": "v",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "lu_id": "1779",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1511",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "물었을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 25
+                            },
+                            "text": "그가 이라크 관리들을 만날 어떤 계획이 있는지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "text": "Xinhua가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1511",
+                    "lu": "묻다.v.Questioning",
+                    "text": "그가 이라크 관리들을 만날 어떤 계획이 있는지 Xinhua가 물었을 때, \" 나는 어떤 수뇌부 이라크 관료들을 만나도록 요청받지 않았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4364",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "물었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "게이조가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "작은 목소리로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4364",
+                    "lu": "묻다.v.Questioning",
+                    "text": "게이조가 작은 목소리로 물었다."
+                }
+            ]
+        }
+    ]
+}

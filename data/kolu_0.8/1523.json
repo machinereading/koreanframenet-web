@@ -1,0 +1,99 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "감싸다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "hureru .触れる "
+    ],
+    "lu_id": 1523,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11709",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hureru .触れる "
+                    ],
+                    "ko_annotation_id": 11709,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "감쌌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "손을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "어깨를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4579,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감싸다.v.Perception_active",
+                    "text": "그는 한 발짝 그녀에게 다가가, 손을 뻗어 어깨를 감쌌다."
+                }
+            ]
+        }
+    ]
+}

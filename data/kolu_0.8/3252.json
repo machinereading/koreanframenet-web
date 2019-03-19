@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "주도되다.v.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "lead"
+    ],
+    "lu_id": 3252,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14071",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "led"
+                    ],
+                    "ko_annotation_id": 14071,
+                    "annotation_id": 8849,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "주도된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이런 음모는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "text": "두 편에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1840,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주도되다.v.Leadership",
+                    "text": "이런 음모는 두 편에 의해 주도된다."
+                }
+            ]
+        }
+    ]
+}

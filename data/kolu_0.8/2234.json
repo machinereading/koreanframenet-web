@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "저편.n.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "tooku .遠く"
+    ],
+    "lu_id": 2234,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10634",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tooku .遠く"
+                    ],
+                    "ko_annotation_id": 10634,
+                    "annotation_id": 0,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 2,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "저편에서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "강 저편에서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "다다쓰구가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3898,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "저편.n.Locative_relation",
+                    "text": "강 저편에서, 다다쓰구가 슬프게 울부짓기 시작했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "식민지.n.Colonization",
+    "frameID": 1794,
+    "frameName": "Colonization",
+    "en_lus": [
+        "colonist",
+        "colony"
+    ],
+    "lu_id": 5023,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1215",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "colonies"
+                    ],
+                    "ko_annotation_id": 1215,
+                    "annotation_id": 2593,
+                    "frameName": "Colonization",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Colonization",
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "식민지를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "New_Area",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 34
+                            },
+                            "text": "해의 최단 북쪽 부분의 섬들에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 492,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "식민지.n.Colonization",
+                    "text": "그들은 결국 섬에 도착하여 에게 해의 최단 북쪽 부분의 섬들에 식민지를 건설하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2363",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "colonists"
+                    ],
+                    "ko_annotation_id": 2363,
+                    "annotation_id": 4650,
+                    "frameName": "Colonization",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Colonization",
+                            "span": {
+                                "begin": 17,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "식민지 주민이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Homeland",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "영국",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 893,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "식민지.n.Colonization",
+                    "text": "사백 년 전 이 작물들은 영국 식민지 주민이 이 땅을 다스리도록 하였고 아프리카 노예들이 이 땅을 경작하도록 만들었다."
+                }
+            ]
+        }
+    ]
+}

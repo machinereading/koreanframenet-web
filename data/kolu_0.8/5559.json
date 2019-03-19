@@ -1,0 +1,69 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "이어받다.v.Desirable_event",
+    "frameID": 1383,
+    "frameName": "Desirable_event",
+    "en_lus": [
+        "should"
+    ],
+    "lu_id": 5559,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17000",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "ko_annotation_id": 17000,
+                    "annotation_id": 7596,
+                    "frameName": "Desirable_event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Desirable_event",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 32
+                            },
+                            "text": "도랑은 깊이가 30 센티미터이고 넓이는 20 센티미터이어야",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1563,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이어받다.v.Desirable_event",
+                    "text": "도랑은 깊이가 30 센티미터이고 넓이는 20 센티미터이어야 한다."
+                }
+            ]
+        }
+    ]
+}

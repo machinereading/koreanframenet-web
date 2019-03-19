@@ -1,0 +1,157 @@
+{
+    "en_lus": [],
+    "ko_lu": "예측하다.v.Predicting",
+    "ko_pos": "v",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "lu_id": "3432",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1836",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "예측해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time_Of_Eventuality",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "text": "5 일 전에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1836",
+                    "lu": "예측하다.v.Predicting",
+                    "text": "지불에 관해 … 우리는 지금 5 일 전에 예측해야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1833",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "예측해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time_Of_Eventuality",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "이틀 전에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "돈을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1833",
+                    "lu": "예측하다.v.Predicting",
+                    "text": "지불을 위해 우리는 이틀 전에 돈을 예측해야 한다."
+                }
+            ]
+        }
+    ]
+}

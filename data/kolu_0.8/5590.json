@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "수송.n.Bringing",
+    "frameID": 240,
+    "frameName": "Bringing",
+    "en_lus": [
+        "transport"
+    ],
+    "lu_id": 5590,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13241",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "transport"
+                    ],
+                    "ko_annotation_id": 13241,
+                    "annotation_id": 4101,
+                    "frameName": "Bringing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bringing",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "수송에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Carrier",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "철도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 784,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수송.n.Bringing",
+                    "text": "철도 수송에서 증가하는 경쟁은 Union Pacific이 로스앤젤레스 - 솔트레이크 선로를 사들이는 결과를 가져왔다."
+                }
+            ]
+        }
+    ]
+}

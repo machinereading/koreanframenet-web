@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "바꾸다.v.Undergo_change",
+    "frameID": 1172,
+    "frameName": "Undergo_change",
+    "en_lus": [
+        "henyoo .変容 "
+    ],
+    "lu_id": 1640,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10922",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "henyoo .変容 "
+                    ],
+                    "ko_annotation_id": 10922,
+                    "annotation_id": 0,
+                    "frameName": "Undergo_change",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undergo_change",
+                            "span": {
+                                "begin": 56,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "바꾸어나가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 42
+                            },
+                            "text": "학습 내용을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 55
+                            },
+                            "text": "보다 과학적인 내용으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4066,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바꾸다.v.Undergo_change",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
+                }
+            ]
+        }
+    ]
+}

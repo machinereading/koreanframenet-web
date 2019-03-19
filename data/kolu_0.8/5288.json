@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "그렇다.a.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "iu .言う "
+    ],
+    "lu_id": 5288,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16356",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iu .言う "
+                    ],
+                    "ko_annotation_id": 16356,
+                    "annotation_id": 0,
+                    "frameName": "Statement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "그랬어."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "딜랜드가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4115,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "그렇다.a.Statement",
+                    "text": "그러고 보니, 딜랜드가 그랬어."
+                }
+            ]
+        }
+    ]
+}

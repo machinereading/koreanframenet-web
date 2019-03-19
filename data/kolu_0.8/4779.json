@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "소리치다.v.Make_noise",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "en_lus": [
+        "scream"
+    ],
+    "lu_id": 4779,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 420",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "screamed"
+                    ],
+                    "ko_annotation_id": 420,
+                    "annotation_id": 891,
+                    "frameName": "Make_noise",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 34,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "소리쳤다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 157,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소리치다.v.Make_noise",
+                    "text": "나는 무언가가 발생하고 있음을 깨달았고 개들을 위해 집안으로 소리쳤다."
+                }
+            ]
+        }
+    ]
+}

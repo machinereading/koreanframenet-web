@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "영역.n.Fields",
+    "frameID": 1345,
+    "frameName": "Fields",
+    "en_lus": [
+        "ryooiki .領域"
+    ],
+    "lu_id": 5379,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10626",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ryooiki .領域"
+                    ],
+                    "ko_annotation_id": 10626,
+                    "annotation_id": 0,
+                    "frameName": "Fields",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fields",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "영역에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Practitioner",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 40
+                            },
+                            "text": "서로 상대방의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "text": "영역에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "영역.n.Fields",
+                    "text": "나와 동거인은 파는 사람과 만드는 사람으로 확실히 나뉘어, 서로 상대방의 영역에 관여하지 않게 되었다."
+                }
+            ]
+        }
+    ]
+}

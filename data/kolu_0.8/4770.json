@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "올라오다.v.Motion_directional",
+    "frameID": 362,
+    "frameName": "Motion_directional",
+    "en_lus": [
+        "noboru .上る "
+    ],
+    "lu_id": 4770,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16314",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "noboru .上る "
+                    ],
+                    "ko_annotation_id": 16314,
+                    "annotation_id": 0,
+                    "frameName": "Motion_directional",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion_directional",
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "올라와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 28
+                            },
+                            "text": "그쪽을 허둥거리며 걷고 있는, 환자들을 뛰어넘어서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "text": "문 앞까지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3976,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "올라오다.v.Motion_directional",
+                    "text": "그쪽을 허둥거리며 걷고 있는, 환자들을 뛰어넘어서, 문 앞까지 올라와 있었다."
+                }
+            ]
+        }
+    ]
+}

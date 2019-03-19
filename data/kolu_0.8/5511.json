@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "요리하다.v.Apply_heat",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "en_lus": [
+        "cooked"
+    ],
+    "lu_id": 5511,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13328",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "cooked"
+                    ],
+                    "ko_annotation_id": 13328,
+                    "annotation_id": 4864,
+                    "frameName": "Apply_heat",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "요리한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Co_Participant",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 23
+                            },
+                            "text": "소금에 절인 대구로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "아키의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 938,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "요리하다.v.Apply_heat",
+                    "text": "자마이카의 대표 음식인 소금에 절인 대구로 요리한 아키의 맛, 그리고 바비큐 화덕에서 요리한 뜨거운 jerk pork의 냄새를 맛보아라."
+                }
+            ]
+        }
+    ]
+}

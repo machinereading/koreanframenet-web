@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "게스트.n.Guest_and_host",
+    "frameID": 1890,
+    "frameName": "Guest_and_host",
+    "en_lus": [
+        "gesuto .ゲスト "
+    ],
+    "lu_id": 705,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10869",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "gesuto .ゲスト "
+                    ],
+                    "ko_annotation_id": 10869,
+                    "annotation_id": 0,
+                    "frameName": "Guest_and_host",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Guest_and_host",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "게스트로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Host_Location",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "TV 프로그램 『보도 스테이션』에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Guest",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "게스트로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4038,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "게스트.n.Guest_and_host",
+                    "text": "이 사건과 관련하여, TV 프로그램 『보도 스테이션』에 게스트로 출연한 작가 무라카미 류 씨는, 「더는, 이러저러한 이유로, 이런 사건이 발생했습니다, 라고 설명할 수 없는 사건이 앞으로 일어날 수 있다고 생각해야 한다」는 취지의 논평을 했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,560 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "만들다.v.Creating",
+    "frameID": 319,
+    "frameName": "Creating",
+    "en_lus": [
+        "produce",
+        "create",
+        "creates",
+        "form",
+        "umidasu .生み出す"
+    ],
+    "lu_id": 217,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6956",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "formed"
+                    ],
+                    "ko_annotation_id": 6956,
+                    "annotation_id": 12658,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "만들어질"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "2005년까지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2535,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "2005년까지 Shehab-3을 장착한 세번째 여단이 만들어질 것 같다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7930",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "producing"
+                    ],
+                    "ko_annotation_id": 7930,
+                    "annotation_id": 14449,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 33,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "만들어 내지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "결과로 나온 분석은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 32
+                            },
+                            "text": "국가의 능력에 대한 추정값의 범위만",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2844,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "결과로 나온 분석은 그 국가의 능력에 대한 추정값의 범위만 만들어 내지만, 불확실성에 대한 한계는 정할 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9060",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "produce",
+                        "producing",
+                        "creates",
+                        "form"
+                    ],
+                    "ko_annotation_id": 9060,
+                    "annotation_id": 16749,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 97,
+                                "end": 100
+                            },
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "만드는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 83,
+                                "end": 100
+                            },
+                            "text": "X-레이와 유사한 영상을 만드는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                25,
+                                26,
+                                27,
+                                28,
+                                29,
+                                30
+                            ],
+                            "span": {
+                                "begin": 101,
+                                "end": 119
+                            },
+                            "text": "차량 및 화물 조사 시스템 검사,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3195,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "DHS 보고서는 트럭을 조사하는 세관원들이 현재 사용하고 있는 세 가지 방법을 설명하고 있다 : 방사선 존재를 탐지하기 위한 방사선 출입문 모니터, X-레이와 유사한 영상을 만드는 차량 및 화물 조사 시스템 검사, 그리고 신체 점검이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12200",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "umidasu .生み出す"
+                    ],
+                    "ko_annotation_id": 12200,
+                    "annotation_id": 0,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "만들어내지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "잘 나가는 작품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "따라서, 계약한 작가가 잘 나가는 작품을 만들어내지 못하면, 작가 에이전트도 운영이 곧바로 어려워진다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12995",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "creating"
+                    ],
+                    "ko_annotation_id": 12995,
+                    "annotation_id": 2988,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 122,
+                                "end": 125
+                            },
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "골목을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "Venetian들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 121
+                            },
+                            "text": "요새화하여 침입자들을 혼란시키고 사기를 꺾도록 하기 위해 설계된 좁은 골목의 미로와 막다른",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 565,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "Venetian들은 그들의 주요 마을들을  -- Naxos Town과 Antiparos Town은 이것의 훌륭한 예들이다 -- 요새화하여 침입자들을 혼란시키고 사기를 꺾도록 하기 위해 설계된 좁은 골목의 미로와 막다른 골목을 만들었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14337",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "produce",
+                        "producing",
+                        "creates",
+                        "form"
+                    ],
+                    "ko_annotation_id": 14337,
+                    "annotation_id": 10679,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 72,
+                                "end": 75
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "만드는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 76,
+                                "end": 90
+                            },
+                            "text": "박테리아 바실루스 탄저균의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2141,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "소식통은 또한 이란이 아주까리 씨 ( 치명적인 독소인 리신을 생산하는데 사용되는 것으로 알려진 ) 의 획득을 추구하였고 탄저병을 만드는 박테리아 바실루스 탄저균의 배양 조직을 다수 보유하고 있다고 주장했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14408",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "produce",
+                        "producing",
+                        "creates",
+                        "form"
+                    ],
+                    "ko_annotation_id": 14408,
+                    "annotation_id": 10909,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "만드는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 26
+                            },
+                            "text": "해충에 대한 독소를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "유전자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2189,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "이 분야에서, 이란의 연구는 해충에 대한 독소를 만드는 유전자를 만드는데 집중하고 있다 ; 식물의 생물학적 내성 향상 ; 새로운 살충제 제조 ; 살충제의 분무나 그렇지 않으면 살포의 기술 향상 ; 각종 해충과 질병에 도입된 후 토착 식물 종에 대한 영향 조사 ; 작물에의 진균독균 생산 방지 ; 식물 바이러스와 이에 상응하는 면역혈청 은행을 위한 면역혈청의 생산 ; 그리고 이란의 농업 산업을 해치는 절지동물과  싸우기 위한 페로몬과 호르몬의 제조."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15696",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "produce",
+                        "producing",
+                        "creates",
+                        "form"
+                    ],
+                    "ko_annotation_id": 15696,
+                    "annotation_id": 16864,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "만드는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 16
+                            },
+                            "text": "치명적인 독소를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Creator",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 30
+                            },
+                            "text": "박테리아의 능력을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3215,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Creating",
+                    "text": "Anthim은 치명적인 독소를 만드는 박테리아의 능력을 막는, 탄저병의 보호 항원성분을 목표로 하는 고친화성 단일 클론 항체이다."
+                }
+            ]
+        }
+    ]
+}

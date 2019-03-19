@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "출발하다.v.Departing",
+    "frameID": 57,
+    "frameName": "Departing",
+    "en_lus": [
+        "tatu .発つ"
+    ],
+    "lu_id": 2242,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10179",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tatu .発つ"
+                    ],
+                    "ko_annotation_id": 10179,
+                    "annotation_id": 0,
+                    "frameName": "Departing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Departing",
+                            "span": {
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "출발합니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "text": "내일은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 49
+                            },
+                            "text": "윈체스터로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3598,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "출발하다.v.Departing",
+                    "text": "바로 루커슬씨에게 편지를 보내고, 오늘밤 이런 머리카락은 잘라 버리고, 내일은 윈체스터로 출발합니다."
+                }
+            ]
+        }
+    ]
+}

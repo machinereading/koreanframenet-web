@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "초기.n.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "nascent"
+    ],
+    "lu_id": 1616,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6890",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nascent"
+                    ],
+                    "ko_annotation_id": 6890,
+                    "annotation_id": 12560,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "초기의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "미사일 생산 프로그램",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2512,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "초기.n.Process_start",
+                    "text": "2004년 초부터 현재까지, 이란은 초기의 미사일 생산 프로그램 개발을 포기하지 않을 것임이 증명되었다."
+                }
+            ]
+        }
+    ]
+}

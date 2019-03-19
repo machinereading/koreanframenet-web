@@ -1,0 +1,61 @@
+{
+    "en_lus": [],
+    "ko_lu": "빈번하다.a.Frequency",
+    "ko_pos": "a",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "lu_id": "2360",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-934",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "빈번하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 30
+                            },
+                            "text": "자신을 호텔에서 떼어낼 수 없는 유혹이 있다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "934",
+                    "lu": "빈번하다.a.Frequency",
+                    "text": "빈번하게 자신을 호텔에서 떼어낼 수 없는 유혹이 있다."
+                }
+            ]
+        }
+    ]
+}

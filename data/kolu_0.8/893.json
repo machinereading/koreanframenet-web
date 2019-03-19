@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "솟아나다.v.Motion_directional",
+    "frameID": 362,
+    "frameName": "Motion_directional",
+    "en_lus": [
+        "moriagaru .盛り上がる "
+    ],
+    "lu_id": 893,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16171",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "moriagaru .盛り上がる "
+                    ],
+                    "ko_annotation_id": 16171,
+                    "annotation_id": 0,
+                    "frameName": "Motion_directional",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion_directional",
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "솟아올랐다가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "물결을 남기는 파도는,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3712,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "솟아나다.v.Motion_directional",
+                    "text": "물결을 남기는 파도는, 솟아올랐다가 가라앉기를 반복했다."
+                }
+            ]
+        }
+    ]
+}

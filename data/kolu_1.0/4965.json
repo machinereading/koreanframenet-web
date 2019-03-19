@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "출신.n.Membership",
+    "ko_pos": "n",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "lu_id": "4965",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2752",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 88,
+                                "end": 91
+                            },
+                            "token_span": [
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "출신을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                19,
+                                20,
+                                21,
+                                22,
+                                23
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 84
+                            },
+                            "text": "북한군 및 핵.생물.화학 방어 기구",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standing",
+                            "token_span": [
+                                24
+                            ],
+                            "span": {
+                                "begin": 85,
+                                "end": 87
+                            },
+                            "text": "종전",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2752",
+                    "lu": "출신.n.Membership",
+                    "text": "한국 국방부 ( MND ) 에 의한 북한의 화학 무기의 최근 예측량은 그 이후 수 천톤으로 증가하였고, 이는 아마도 북한군 및 핵.생물.화학 방어 기구 종전 출신을 포함한 탈북자들이 제공한 최근 정보에 기초를 둔 것이다."
+                }
+            ]
+        }
+    ]
+}

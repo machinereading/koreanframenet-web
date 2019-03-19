@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "화.n.Experiencer_focus",
+    "ko_pos": "n",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "lu_id": "5521",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4052",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "화를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "결국",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "캔디가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4052",
+                    "lu": "화.n.Experiencer_focus",
+                    "text": "결국 캔디가 화를 내기 시작했습니다."
+                }
+            ]
+        }
+    ]
+}

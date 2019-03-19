@@ -1,0 +1,134 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "절.n.Part_whole",
+    "frameID": 140,
+    "frameName": "Part_whole",
+    "en_lus": [
+        "section"
+    ],
+    "lu_id": 2024,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5974",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "section"
+                    ],
+                    "ko_annotation_id": 5974,
+                    "annotation_id": 10782,
+                    "frameName": "Part_whole",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Part_whole",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "절에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part_Prop",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 35
+                            },
+                            "text": "생물학적 능력",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2162,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "절.n.Part_whole",
+                    "text": "이란이 보유하고 있는 것으로 알려진 균주의 목록은 생물학적 능력 절에서 볼 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6070",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "section"
+                    ],
+                    "ko_annotation_id": 6070,
+                    "annotation_id": 10972,
+                    "frameName": "Part_whole",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Part_whole",
+                            "span": {
+                                "begin": 52,
+                                "end": 54
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "시설"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "text": "( 이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part_Prop",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 51
+                            },
+                            "text": "프로파일의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2199,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "절.n.Part_whole",
+                    "text": "더욱이, 이란은  분명히 생물무기를 생산하기에 유용한 기술을 보유하고 있다 ( 이 프로파일의 시설 절에서 설명되는 것과 같이 )."
+                }
+            ]
+        }
+    ]
+}

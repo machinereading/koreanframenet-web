@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "주가.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "state"
+    ],
+    "lu_id": 4615,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5055",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "state"
+                    ],
+                    "ko_annotation_id": 5055,
+                    "annotation_id": 9142,
+                    "frameName": "Political_locales",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Political_locales",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "주가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Null",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "있다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1898,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주가.n.Political_locales",
+                    "text": "아무튼 그것을 하는 한 주가 있다."
+                }
+            ]
+        }
+    ]
+}

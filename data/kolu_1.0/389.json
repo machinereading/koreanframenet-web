@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "계속하다.v.State_continue",
+    "ko_pos": "v",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "lu_id": "389",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2522",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_continue",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "계속해서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "여건이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "text": "유리하다면,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2522",
+                    "lu": "계속하다.v.State_continue",
+                    "text": "여건이 계속해서 유리하다면, 이란은 2005년 - 2010년까지 남유럽, 북아프리카, 그리고 남아시아 그리고 아마도 2015년까지 미국 본토를 포함하도록 탄도 미사일 세력의 도달을 확장할 수 있을 것이다."
+                }
+            ]
+        }
+    ]
+}

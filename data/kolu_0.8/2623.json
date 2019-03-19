@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "자객.n.Killing",
+    "frameID": 590,
+    "frameName": "Killing",
+    "en_lus": [
+        "sikaku .刺客 "
+    ],
+    "lu_id": 2623,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17435",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sikaku .刺客 "
+                    ],
+                    "ko_annotation_id": 17435,
+                    "annotation_id": 0,
+                    "frameName": "Killing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Killing",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "자객에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Killer",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "네 명의 자객에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4997,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자객.n.Killing",
+                    "text": "곧바로 네 명의 자객에 대한 일이 가슴을 스쳐지나갔다."
+                }
+            ]
+        }
+    ]
+}

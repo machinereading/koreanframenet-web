@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "제기하다.v.Creating",
+    "frameID": 319,
+    "frameName": "Creating",
+    "en_lus": [
+        "issue"
+    ],
+    "lu_id": 1210,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4639",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "issue"
+                    ],
+                    "ko_annotation_id": 4639,
+                    "annotation_id": 8454,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "제기할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "text": "민주당원들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 58
+                            },
+                            "text": "부시 행정부에 대한 더 광범위한 기소를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1734,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제기하다.v.Creating",
+                    "text": "Ed_Henry : 정말로 일어나고 있는 것은 이것이 민주당원들이 부시 행정부에 대한 더 광범위한 기소를 제기할 기회라고 믿으며 부통령 체니의 전 참모장의 기소로 대담해졌다는 것이다."
+                }
+            ]
+        }
+    ]
+}

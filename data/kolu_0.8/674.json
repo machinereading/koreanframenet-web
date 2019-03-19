@@ -1,0 +1,97 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "위협하다.v.Omen",
+    "frameID": 412,
+    "frameName": "Omen",
+    "en_lus": [
+        "threaten"
+    ],
+    "lu_id": 674,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2036",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "threatened"
+                    ],
+                    "ko_annotation_id": 2036,
+                    "annotation_id": 4121,
+                    "frameName": "Omen",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Omen",
+                            "span": {
+                                "begin": 76,
+                                "end": 82
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "위협하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon_2",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "이러한 유감스러운 상황들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Outcome",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 75
+                            },
+                            "text": "라스 베이거스를 더 이상 그곳의 3000명의 거주민을 지원할 수 없는 작은 사막 공동체의 상태로 격하시키려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 787,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "위협하다.v.Omen",
+                    "text": "이러한 유감스러운 상황들은 라스 베이거스를 더 이상 그곳의 3000명의 거주민을 지원할 수 없는 작은 사막 공동체의 상태로 격하시키려고 위협하였다."
+                }
+            ]
+        }
+    ]
+}

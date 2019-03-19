@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "확인하다.v.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "certain"
+    ],
+    "lu_id": 4395,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 609",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "certain"
+                    ],
+                    "ko_annotation_id": 609,
+                    "annotation_id": 1261,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 61,
+                                "end": 65
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "확인해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 60
+                            },
+                            "text": "아이들이 숙제를 하는데 충분한 시간을 쓰는지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 233,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확인하다.v.Certainty",
+                    "text": "그들은 그들의 아이들이 무단결석하지 않도록 해야 하며 ; 그들은 아이들이 숙제를 하는데 충분한 시간을 쓰는지 확인해야 하고 ; 그들은 학교 통지표를 면밀히 살펴보아야 한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "돌리다.v.Membership",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "en_lus": [
+        "kisuru .帰する "
+    ],
+    "lu_id": 4093,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10850",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kisuru .帰する "
+                    ],
+                    "ko_annotation_id": 10850,
+                    "annotation_id": 0,
+                    "frameName": "Membership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "돌리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "이러한 결과에 대한 책임을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "그 학파로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4023,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "돌리다.v.Membership",
+                    "text": "그들은, 이러한 결과에 대한 책임을, 주로 그 학파로 돌리고 있었다."
+                }
+            ]
+        }
+    ]
+}

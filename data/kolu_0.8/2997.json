@@ -1,0 +1,101 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "명칭.n.Referring_by_name",
+    "frameID": 1253,
+    "frameName": "Referring_by_name",
+    "en_lus": [
+        "designation"
+    ],
+    "lu_id": 2997,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8463",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "designation"
+                    ],
+                    "ko_annotation_id": 8463,
+                    "annotation_id": 15488,
+                    "frameName": "Referring_by_name",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Referring_by_name",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "명칭"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "RS -1M2 Topol-M",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "나토",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Name",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "SS-27",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3005,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "명칭.n.Referring_by_name",
+                    "text": "RS -1M2 Topol-M ( 나토 명칭 SS-27 ) 대륙간 탄도 미사일 ( ICBM ) 은 사일로 기반으로는 개발 되었고 이동 기반 모델은 개발 중이다."
+                }
+            ]
+        }
+    ]
+}

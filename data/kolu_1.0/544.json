@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "관련되다.v.Relation",
+    "ko_pos": "v",
+    "frameID": 248,
+    "frameName": "Relation",
+    "lu_id": "544",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4946",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relation",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "관련되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "술탄이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity2",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "해적행위에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4946",
+                    "lu": "관련되다.v.Relation",
+                    "text": "술탄이 해적행위에 얼마나 관련되어 있는지, 그것은 해적 소탕에 나선 영국, 스페인, 네덜란드에게 매우 중요한 수수께끼였다."
+                }
+            ]
+        }
+    ]
+}

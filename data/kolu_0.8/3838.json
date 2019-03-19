@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "점유율.n.Bragging",
+    "frameID": 1624,
+    "frameName": "Bragging",
+    "en_lus": [
+        "haba o kika seru .幅 を 利か せる"
+    ],
+    "lu_id": 3838,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11714",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "haba o kika seru .幅 を 利か せる"
+                    ],
+                    "ko_annotation_id": 11714,
+                    "annotation_id": 0,
+                    "frameName": "Bragging",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bragging",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "점유율을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "text": "대용품이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "text": "점차",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4581,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "점유율.n.Bragging",
+                    "text": "신선란이 점차 사라지고, 홍콩에서 들어오는 건조란이 늘어나면서, 대용품이 점차 점유율을 높이게 되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "원서.n.Documents",
+    "frameID": 560,
+    "frameName": "Documents",
+    "en_lus": [
+        "gansyo .願書"
+    ],
+    "lu_id": 1940,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10955",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "gansyo .願書"
+                    ],
+                    "ko_annotation_id": 10955,
+                    "annotation_id": 0,
+                    "frameName": "Documents",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Documents",
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "원서에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Right",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 58
+                            },
+                            "text": "특허청구 범위에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4085,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "원서.n.Documents",
+                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "인종.n.People_by_origin",
+    "frameID": 974,
+    "frameName": "People_by_origin",
+    "en_lus": [
+        "zinsyu .人種"
+    ],
+    "lu_id": 4073,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12150",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zinsyu .人種"
+                    ],
+                    "ko_annotation_id": 12150,
+                    "annotation_id": 0,
+                    "frameName": "People_by_origin",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_origin",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "인종인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "text": "명분보다 실리를 취하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Person",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "인종인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4863,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인종.n.People_by_origin",
+                    "text": "요컨데 명분보다 실리를 취하는 인종인 것이다."
+                }
+            ]
+        }
+    ]
+}

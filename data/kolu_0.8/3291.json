@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "재능.n.Fame",
+    "frameID": 1880,
+    "frameName": "Fame",
+    "en_lus": [
+        "stature"
+    ],
+    "lu_id": 3291,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13365",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "stature"
+                    ],
+                    "ko_annotation_id": 13365,
+                    "annotation_id": 5093,
+                    "frameName": "Fame",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fame",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "재능을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 45
+                            },
+                            "text": "이와 같은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 58
+                            },
+                            "text": "예술가들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 977,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재능.n.Fame",
+                    "text": "그러나, 때때로 그 도시는 우연히 심지어는 그 도시의 의도와는 상반되게 이와 같은 재능을 지닌 예술가들을 배출하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이주.n.Ride_vehicle",
+    "frameID": 690,
+    "frameName": "Ride_vehicle",
+    "en_lus": [
+        "cruise"
+    ],
+    "lu_id": 596,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9258",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "cruises"
+                    ],
+                    "ko_annotation_id": 9258,
+                    "annotation_id": 17214,
+                    "frameName": "Ride_vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ride_vehicle",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "이주"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "철새",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3253,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이주.n.Ride_vehicle",
+                    "text": "그러나 철새 이주 20 년 후, 워싱턴 포스트 잡지는 국방부와 스미스소니언 협회 간의 논쟁적인 지지를 파헤쳤다. ( The Times-Standrd ; 06년 6월 26일 ; John Driscoll, Eureka Times Standard ) ( Link )"
+                }
+            ]
+        }
+    ]
+}

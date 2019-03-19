@@ -1,0 +1,63 @@
+{
+    "en_lus": [],
+    "ko_lu": "생각나다.v.Memory",
+    "ko_pos": "v",
+    "frameID": 135,
+    "frameName": "Memory",
+    "lu_id": "2554",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3913",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "생각났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 55
+                            },
+                            "text": "동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3913",
+                    "lu": "생각나다.v.Memory",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
+                }
+            ]
+        }
+    ]
+}

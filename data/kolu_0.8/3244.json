@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "사고.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "man"
+    ],
+    "lu_id": 3244,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1624",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "man"
+                    ],
+                    "ko_annotation_id": 1624,
+                    "annotation_id": 3407,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "사고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Persistent_Characteristic",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "전통에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 66
+                            },
+                            "text": "그의 손에 피를 묻힌",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 632,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사고.n.People",
+                    "text": "성서적 전통에 의하면, 다윗이 그 신전을 위한 부지를 사고 조심스럽게 건축 자재를 모았지만, 그는 그의 손에 피를 묻힌 전사였기 때문에 그 신전을 건축할 자격이 없는 것으로 간주되었다."
+                }
+            ]
+        }
+    ]
+}

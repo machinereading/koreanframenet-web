@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "뛰다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "run"
+    ],
+    "lu_id": 198,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 400",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "runs"
+                    ],
+                    "ko_annotation_id": 400,
+                    "annotation_id": 833,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 12,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "뛰어 다니고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "미친듯이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "그것은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 146,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뛰다.v.Self_motion",
+                    "text": "쥐는 때때로 미친듯이 뛰어 다니고, 그것은 분명 상당한 정신적 고통이었다."
+                }
+            ]
+        }
+    ]
+}

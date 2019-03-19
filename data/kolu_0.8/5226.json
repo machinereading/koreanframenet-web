@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "와중.n.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "transformation"
+    ],
+    "lu_id": 5226,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8594",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "transformation"
+                    ],
+                    "ko_annotation_id": 8594,
+                    "annotation_id": 15715,
+                    "frameName": "Cause_change",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "와중에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "정권의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "자유화",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3037,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "와중.n.Cause_change",
+                    "text": "화학 및 생물 무기 프로그램은 정권의 자유화 와중에 1993년에 공식적으로 해체되었다."
+                }
+            ]
+        }
+    ]
+}

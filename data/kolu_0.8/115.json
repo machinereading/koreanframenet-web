@@ -1,0 +1,147 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "진행되다.v.Process_continue",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "en_lus": [
+        "dragged on",
+        "proceed"
+    ],
+    "lu_id": 115,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 522",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "proceeded"
+                    ],
+                    "ko_annotation_id": 522,
+                    "annotation_id": 1133,
+                    "frameName": "Process_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 42,
+                                "end": 50
+                            },
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "진행되어 왔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "우리들의 교육은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 41
+                            },
+                            "text": "단순히 유능하고 양심적인, 다른 사람들의 손에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 208,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진행되다.v.Process_continue",
+                    "text": "그러나 우리들의 교육은 단순히 유능하고 양심적인, 다른 사람들의 손에 의해 진행되어 왔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8300",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dragged on"
+                    ],
+                    "ko_annotation_id": 8300,
+                    "annotation_id": 15192,
+                    "frameName": "Process_continue",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 24,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "느리게 진행되면서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "미국의 북한과의 NPT 복귀에 관한 회담이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2954,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진행되다.v.Process_continue",
+                    "text": "미국의 북한과의 NPT 복귀에 관한 회담이 느리게 진행되면서, 북한은 영변군의 5 메가와트 ( e ) 원자로를 계속 가동하였다."
+                }
+            ]
+        }
+    ]
+}

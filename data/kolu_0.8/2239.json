@@ -1,0 +1,133 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "통제하다.v.Being_in_control",
+    "frameID": 1800,
+    "frameName": "Being_in_control",
+    "en_lus": [
+        "control"
+    ],
+    "lu_id": 2239,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1414",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "control"
+                    ],
+                    "ko_annotation_id": 1414,
+                    "annotation_id": 2946,
+                    "frameName": "Being_in_control",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_in_control",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "통제하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "바다를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "text": "사람이 없었고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 560,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "통제하다.v.Being_in_control",
+                    "text": "비잔틴 영토가 분할되는 동안 바다를 통제하는 사람이 없었고, 그래서 해적들이 많은 섬들의 마을들을 습격하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1787",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "control"
+                    ],
+                    "ko_annotation_id": 1787,
+                    "annotation_id": 3701,
+                    "frameName": "Being_in_control",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_in_control",
+                            "span": {
+                                "begin": 38,
+                                "end": 42
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "통제하에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "text": "그들의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 702,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "통제하다.v.Being_in_control",
+                    "text": "예루살렘은 1517년에 오스만인들에게 멸망하여 400년 동안 그들의 통제하에 머물렀다."
+                }
+            ]
+        }
+    ]
+}

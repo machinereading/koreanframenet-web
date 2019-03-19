@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "도둑.n.Theft",
+    "frameID": 94,
+    "frameName": "Theft",
+    "en_lus": [
+        "thief",
+        "nusubito .盗人 "
+    ],
+    "lu_id": 2494,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14145",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "thief",
+                        "nusubito .盗人 "
+                    ],
+                    "ko_annotation_id": 14145,
+                    "annotation_id": 9446,
+                    "frameName": "Theft",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Theft",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "도둑을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "전자",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1956,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도둑.n.Theft",
+                    "text": "전자 도둑을 잡는 유일한 방법은 그에게 틀린 정보를 제공하는 것이라고 그는 말하였다."
+                }
+            ]
+        }
+    ]
+}

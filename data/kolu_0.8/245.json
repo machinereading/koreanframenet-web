@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "무기.n.Active_substance",
+    "frameID": 1322,
+    "frameName": "Active_substance",
+    "en_lus": [
+        "agent"
+    ],
+    "lu_id": 245,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5485",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "agents"
+                    ],
+                    "ko_annotation_id": 5485,
+                    "annotation_id": 9951,
+                    "frameName": "Active_substance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Active_substance",
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "생물무기가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "화학 생물무기가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2039,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무기.n.Active_substance",
+                    "text": "화학 생물무기가 거의 핵무기 만큼 파괴적이지는 않지만, 그들은 확보하기가 훨씬 더 쉽고 값싸다."
+                }
+            ]
+        }
+    ]
+}

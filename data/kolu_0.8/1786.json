@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "측근.n.Social_connection",
+    "frameID": 253,
+    "frameName": "Social_connection",
+    "en_lus": [
+        "close"
+    ],
+    "lu_id": 1786,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6370",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "close"
+                    ],
+                    "ko_annotation_id": 6370,
+                    "annotation_id": 11637,
+                    "frameName": "Social_connection",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_connection",
+                            "span": {
+                                "begin": 48,
+                                "end": 52
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "측근인,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individual2",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 47
+                            },
+                            "text": "Rafsanjani 대통령의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individual1",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 79
+                            },
+                            "text": "Majid Tehrani Abbaspur 박사가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2312,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "측근.n.Social_connection",
+                    "text": "그러나 안보 전문가들은 이 거래가 이란의 최고보안수석이자 Rafsanjani 대통령의 측근인, Majid Tehrani Abbaspur 박사가 인가한 것으로 믿는다."
+                }
+            ]
+        }
+    ]
+}

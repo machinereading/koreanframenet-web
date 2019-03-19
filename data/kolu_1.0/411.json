@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "고려되다.v.Cogitation",
+    "ko_pos": "v",
+    "frameID": 22,
+    "frameName": "Cogitation",
+    "lu_id": "411",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1652",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "고려될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "요청은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1652",
+                    "lu": "고려되다.v.Cogitation",
+                    "text": "요청은 특별한 경우를 제외하고, 지시된 대로 시기 적절한 방법으로 제출된 경우에만 고려될 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1568",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "고려되어야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "다음은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "울타리를 세울 때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1568",
+                    "lu": "고려되다.v.Cogitation",
+                    "text": "다음은 울타리를 세울 때 고려되어야 한다 :"
+                }
+            ]
+        }
+    ]
+}

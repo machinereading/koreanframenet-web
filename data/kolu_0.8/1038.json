@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "보급하다.v.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "supply"
+    ],
+    "lu_id": 1038,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10011",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "supply"
+                    ],
+                    "ko_annotation_id": 10011,
+                    "annotation_id": 18517,
+                    "frameName": "Supply",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 35,
+                                "end": 40
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "보급하도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supplier",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "중국에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "text": "원자로를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3533,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보급하다.v.Supply",
+                    "text": "Netanyahu는 말하였다 : 나는 중국이 … 이란이 중국에 보급하도록 요청한 원자로를 건설하기 위한 수단을 제공하지 않는다는 중대 결정을 하였다고 들었다 … 우리는 이것이 매우 중요한 것으로 이를 환영하고 이것이 다른 국가들이 이란과의 접촉에서 그들의 안내 등으로서의 역할을 하길 희망한다."
+                }
+            ]
+        }
+    ]
+}

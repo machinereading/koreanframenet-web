@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "집들.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "house"
+    ],
+    "lu_id": 4340,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9376",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "houses"
+                    ],
+                    "ko_annotation_id": 9376,
+                    "annotation_id": 17522,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "집들"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Gov",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "발견된",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3288,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "집들.n.Buildings",
+                    "text": "집들 중 한 곳에서 발견된 여권들은 남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방 출신으로 확인되었다."
+                }
+            ]
+        }
+    ]
+}

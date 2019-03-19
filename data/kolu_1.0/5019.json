@@ -1,0 +1,93 @@
+{
+    "en_lus": [],
+    "ko_lu": "침체되다.v.Experiencer_obj",
+    "ko_pos": "v",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "lu_id": "5019",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3999",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "침체되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "당시",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "이 나라들은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 27
+                            },
+                            "text": "인플레이션과 스태그플레이션으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3999",
+                    "lu": "침체되다.v.Experiencer_obj",
+                    "text": "당시 이 나라들은, 인플레이션과 스태그플레이션으로 침체되어 있었다."
+                }
+            ]
+        }
+    ]
+}

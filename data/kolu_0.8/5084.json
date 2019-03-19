@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "단품.n.Entity",
+    "frameID": 251,
+    "frameName": "Entity",
+    "en_lus": [
+        "tanpin .単品 "
+    ],
+    "lu_id": 5084,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16156",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tanpin .単品 "
+                    ],
+                    "ko_annotation_id": 16156,
+                    "annotation_id": 0,
+                    "frameName": "Entity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Entity",
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "단품"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Constituent_Parts",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "text": "단품",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3628,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "단품.n.Entity",
+                    "text": "다만 단순히 단품별로 데이터를 파악하는 것이 아니라, 이 표처럼, 최초의 상품구성, 상품 종류별로 단품 데이터의 추이를 파악하는 것이 중요하다."
+                }
+            ]
+        }
+    ]
+}

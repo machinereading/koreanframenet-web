@@ -1,0 +1,103 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "대회.n.Competition",
+    "frameID": 241,
+    "frameName": "Competition",
+    "en_lus": [
+        "taikai .大会 "
+    ],
+    "lu_id": 3947,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11187",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "taikai .大会 "
+                    ],
+                    "ko_annotation_id": 11187,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 32,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "선수권대회가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 14
+                            },
+                            "text": "아와즈 쇼조를 초청하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "그해 5월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Competition",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 38
+                            },
+                            "text": "프랑스 선수권대회가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4231,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대회.n.Competition",
+                    "text": "4 아와즈 쇼조를 초청하여 그해 5월 예년과 같이 프랑스 선수권대회가 열렸다."
+                }
+            ]
+        }
+    ]
+}

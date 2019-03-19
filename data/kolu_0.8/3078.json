@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "진척시키다.v.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "susumeru .進める"
+    ],
+    "lu_id": 3078,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11086",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "susumeru .進める"
+                    ],
+                    "ko_annotation_id": 11086,
+                    "annotation_id": 0,
+                    "frameName": "Cause_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "진척시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "금강호도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "배를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4172,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진척시키다.v.Cause_motion",
+                    "text": "금강호도 그것을 이정표 삼아 배를 진척시켰다."
+                }
+            ]
+        }
+    ]
+}

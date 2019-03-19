@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "등산.n.Intentional_traversing",
+    "frameID": 1642,
+    "frameName": "Intentional_traversing",
+    "en_lus": [
+        "tozan .登山 "
+    ],
+    "lu_id": 240,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10846",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tozan .登山 "
+                    ],
+                    "ko_annotation_id": 10846,
+                    "annotation_id": 0,
+                    "frameName": "Intentional_traversing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentional_traversing",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "등산로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path_Shape",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "등산로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 38
+                            },
+                            "text": "노인 세대에 의해 점령당하고 있다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4020,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "등산.n.Intentional_traversing",
+                    "text": "현재, 일본의 주요 등산로 입구는 노인 세대에 의해 점령당하고 있다."
+                }
+            ]
+        }
+    ]
+}

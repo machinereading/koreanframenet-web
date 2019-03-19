@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "변경시키다.v.Cause_change",
+    "ko_pos": "v",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "lu_id": "2060",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-745",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 88,
+                                "end": 94
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "변경시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 72,
+                                "end": 83
+                            },
+                            "text": "그 계곡의 존재성격을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 84,
+                                "end": 87
+                            },
+                            "text": "영원히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "745",
+                    "lu": "변경시키다.v.Cause_change",
+                    "text": "Anasazi의 농업 기술을 복제할 수 없는 Paiutes는 유럽 정착자들이 도착할 때까지 반 유목민 생활형태를 할 운명이 되어 그 계곡의 존재성격을 영원히 변경시켰다."
+                }
+            ]
+        }
+    ]
+}

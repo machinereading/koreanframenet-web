@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "발언하다.v.Statement",
+    "ko_pos": "v",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "1922",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1680",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "반대발언을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 31
+                            },
+                            "text": "아랍 정권에 반대발언을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1680",
+                    "lu": "발언하다.v.Statement",
+                    "text": "알 자리라와의 최근 회견에서 그는 아랍 정권에 반대발언을 하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "완전.n.Process_completed_state",
+    "ko_pos": "n",
+    "frameID": 234,
+    "frameName": "Process_completed_state",
+    "lu_id": "3500",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2655",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_completed_state",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "완전"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "text": "핵 연료 주기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2655",
+                    "lu": "완전.n.Process_completed_state",
+                    "text": "이중 두 곳인 연구 및 연료 생산은 이란에서 완전 핵 연료 주기를 개발하는데 필수적이다."
+                }
+            ]
+        }
+    ]
+}

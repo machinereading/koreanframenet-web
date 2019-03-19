@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "고속도.n.Roadways",
+    "ko_pos": "n",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "lu_id": "429",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-81",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "고속도로"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "81",
+                    "lu": "고속도.n.Roadways",
+                    "text": "주택은 부족하고 공공 서비스는 -- 법정 시스템, 학교, 우편 서비스, 전화 연결망 그리고 고속도로 -- 수치스러운 상태에 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-802",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 71,
+                                "end": 75
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "고속도로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 70
+                            },
+                            "text": "로스앤젤레스",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "802",
+                    "lu": "고속도.n.Roadways",
+                    "text": "1930년대와 1940년대 초에 많은 도박장들이 Downtown에 개점된데 반해, 궁극적으로 Strip이 된 옛날 로스앤젤레스 고속도로 지역에 단 두 곳이 건설되었다."
+                }
+            ]
+        }
+    ]
+}

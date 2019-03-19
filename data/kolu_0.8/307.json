@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "을러메다.v.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "on"
+    ],
+    "lu_id": 307,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4286",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "on"
+                    ],
+                    "ko_annotation_id": 4286,
+                    "annotation_id": 7838,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "지역을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 17
+                            },
+                            "text": "울타리 외곽 지역을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "순찰을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1608,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "을러메다.v.Locative_relation",
+                    "text": "인근 지역은 울타리 외곽 지역을 배회하는 순찰을 하지 않으면 완전히 보호될 수 없다."
+                }
+            ]
+        }
+    ]
+}

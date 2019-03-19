@@ -1,0 +1,102 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "축하받다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "tukeru .付ける "
+    ],
+    "lu_id": 1283,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16290",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tukeru .付ける "
+                    ],
+                    "ko_annotation_id": 16290,
+                    "annotation_id": 0,
+                    "frameName": "Giving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "받았다며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 24
+                            },
+                            "text": "동년배들이 하나둘,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 34
+                            },
+                            "text": "정형외과 의사에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "text": "그런 진단을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3913,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "축하받다.v.Giving",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "울다.v.Make_noise",
+    "ko_pos": "v",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "lu_id": "3585",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3554",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 3,
+                                "end": 4
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "울"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sound",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 4
+                            },
+                            "text": "울",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3554",
+                    "lu": "울다.v.Make_noise",
+                    "text": "나는 울 수가 없었다."
+                }
+            ]
+        }
+    ]
+}

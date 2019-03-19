@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "발전.n.Electricity",
+    "frameID": 1535,
+    "frameName": "Electricity",
+    "en_lus": [
+        "power"
+    ],
+    "lu_id": 4723,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14852",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "power"
+                    ],
+                    "ko_annotation_id": 14852,
+                    "annotation_id": 12744,
+                    "frameName": "Electricity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Electricity",
+                            "span": {
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "발전으로부터"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "text": "원자력",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발전.n.Electricity",
+                    "text": "1950 년대에, Shah 는 이란의 핵 연구 프로그램을 착수하였고 세기 말 까지 원자력 발전으로부터 23,000 메가와트를 생산하기 위한 야심찬 계획을 발전시켰다."
+                }
+            ]
+        }
+    ]
+}

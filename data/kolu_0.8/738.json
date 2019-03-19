@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "성명.n.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "responsibility"
+    ],
+    "lu_id": 738,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5295",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "responsibility"
+                    ],
+                    "ko_annotation_id": 5295,
+                    "annotation_id": 9565,
+                    "frameName": "Being_obligated",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_obligated",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "성명을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "마약 왕은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1978,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성명.n.Being_obligated",
+                    "text": "그 범행 성명을 낸 마약 왕은 Medellin 에 신문 배포를 계속한다면 보고타 신문사 사무실을 날려버리겠다고 말하였다."
+                }
+            ]
+        }
+    ]
+}

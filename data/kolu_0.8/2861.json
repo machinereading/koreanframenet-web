@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "타이핑되다.v.Text_creation",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "en_lus": [
+        "typed"
+    ],
+    "lu_id": 2861,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 392",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "typed"
+                    ],
+                    "ko_annotation_id": 392,
+                    "annotation_id": 808,
+                    "frameName": "Text_creation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text_creation",
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "타이핑 되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "서있는 자세에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 140,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "타이핑되다.v.Text_creation",
+                    "text": "이것은 서있는 자세에서 타이핑 되고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "방해되다.v.Hindering",
+    "frameID": 480,
+    "frameName": "Hindering",
+    "en_lus": [
+        "boogai .妨害"
+    ],
+    "lu_id": 1355,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10842",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "boogai .妨害"
+                    ],
+                    "ko_annotation_id": 10842,
+                    "annotation_id": 0,
+                    "frameName": "Hindering",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hindering",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "방해된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hindrance",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "text": "방해된다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4018,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "방해되다.v.Hindering",
+                    "text": "그들은 거만하고, 나태하며, 시끄러워, 수업에 방해된다."
+                }
+            ]
+        }
+    ]
+}

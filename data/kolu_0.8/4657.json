@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "닫히다.v.Openness",
+    "frameID": 1872,
+    "frameName": "Openness",
+    "en_lus": [
+        "toziru .閉じる "
+    ],
+    "lu_id": 4657,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10662",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toziru .閉じる "
+                    ],
+                    "ko_annotation_id": 10662,
+                    "annotation_id": 0,
+                    "frameName": "Openness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Openness",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "닫힌"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "text": "문턱에 의해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Barrier",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "text": "영역",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3919,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "닫히다.v.Openness",
+                    "text": "말하자면 루푸는 문턱에 의해 규정된 닫힌 영역 전부를 일컫는 개념이다."
+                }
+            ]
+        }
+    ]
+}

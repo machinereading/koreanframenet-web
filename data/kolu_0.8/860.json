@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "바꾸다.v.Replacing",
+    "frameID": 1121,
+    "frameName": "Replacing",
+    "en_lus": [
+        "kaeru .代える "
+    ],
+    "lu_id": 860,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11204",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kaeru .代える "
+                    ],
+                    "ko_annotation_id": 11204,
+                    "annotation_id": 0,
+                    "frameName": "Replacing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Replacing",
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "바꿀"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "「배를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "등과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4239,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바꾸다.v.Replacing",
+                    "text": "이외에 「배를 등과 바꿀 수 없다」 또는 「꽃보다 경단」 등도 좋아하는 부류에 속한다."
+                }
+            ]
+        }
+    ]
+}

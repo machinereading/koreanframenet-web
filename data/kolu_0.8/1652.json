@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "종료시키다.v.Cause_to_end",
+    "frameID": 1149,
+    "frameName": "Cause_to_end",
+    "en_lus": [
+        "end"
+    ],
+    "lu_id": 1652,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8115",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "end"
+                    ],
+                    "ko_annotation_id": 8115,
+                    "annotation_id": 14837,
+                    "frameName": "Cause_to_end",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_end",
+                            "span": {
+                                "begin": 66,
+                                "end": 71
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "종료시키기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 45
+                            },
+                            "text": "미국의 정치 지도자들과 군 사령관들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 65
+                            },
+                            "text": "한국 전쟁을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2899,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "종료시키다.v.Cause_to_end",
+                    "text": "핵무기가 한국에서 결코 사용되지 않았더라도, 미국의 정치 지도자들과 군 사령관들은 미국에 유리한 조건으로 한국 전쟁을 종료시키기 위해 핵무기를 사용하겠다고 위협하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "기관.n.Entity",
+    "frameID": 251,
+    "frameName": "Entity",
+    "en_lus": [
+        "entity"
+    ],
+    "lu_id": 2682,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14282",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "entities"
+                    ],
+                    "ko_annotation_id": 14282,
+                    "annotation_id": 10453,
+                    "frameName": "Entity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Entity",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "기관들에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "중국의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2113,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기관.n.Entity",
+                    "text": "이와 같은 이전은 중국의 기관들에 부과되고 있는 많은 미국의 비확산 제재들을 초래하였다."
+                }
+            ]
+        }
+    ]
+}

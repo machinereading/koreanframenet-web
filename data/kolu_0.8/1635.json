@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "수확.n.Food_gathering",
+    "frameID": 2008,
+    "frameName": "Food_gathering",
+    "en_lus": [
+        "karitoru .刈り取る "
+    ],
+    "lu_id": 1635,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11980",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "karitoru .刈り取る "
+                    ],
+                    "ko_annotation_id": 11980,
+                    "annotation_id": 0,
+                    "frameName": "Food_gathering",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Food_gathering",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "수확이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Crop",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "text": "밭의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4760,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수확.n.Food_gathering",
+                    "text": "1 신칸센 창문 너머로 펼쳐지는, 수확이 끝난 밭의 끝없는 풍경을 바라보면서, 어느새 그곳에 있었을 천년 전의 숲을 상상하고 있다."
+                }
+            ]
+        }
+    ]
+}

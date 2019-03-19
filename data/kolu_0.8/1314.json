@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "심기일전하다.v.Sending",
+    "frameID": 243,
+    "frameName": "Sending",
+    "en_lus": [
+        "Send"
+    ],
+    "lu_id": 1314,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4562",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Send"
+                    ],
+                    "ko_annotation_id": 4562,
+                    "annotation_id": 8294,
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "전해주세요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "나의 고모, 삼촌 그리고 할머니에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "안부를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1704,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심기일전하다.v.Sending",
+                    "text": "나의 고모, 삼촌 그리고 할머니에게 안부를 전해주세요."
+                }
+            ]
+        }
+    ]
+}

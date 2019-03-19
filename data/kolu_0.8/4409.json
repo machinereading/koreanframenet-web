@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "기다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "slither"
+    ],
+    "lu_id": 4409,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 463",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "slithering"
+                    ],
+                    "ko_annotation_id": 463,
+                    "annotation_id": 975,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 62,
+                                "end": 74
+                            },
+                            "token_span": [
+                                17,
+                                18,
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "기어다니고 있다는 것을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "잔디에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 50
+                            },
+                            "text": "땅의 벌레들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 174,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기다.v.Self_motion",
+                    "text": "또 다른 여진을 기다리면서 나는 Mame과 잔디에 서있는 동안 , 나는 온갖 땅의 벌레들이 땅에서 나와 잔디에 기어다니고 있다는 것을 알았다."
+                }
+            ]
+        }
+    ]
+}

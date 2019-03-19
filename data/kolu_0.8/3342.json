@@ -1,0 +1,116 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "오래다.a.Age",
+    "frameID": 972,
+    "frameName": "Age",
+    "en_lus": [
+        "older"
+    ],
+    "lu_id": 3342,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 648",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "older"
+                    ],
+                    "ko_annotation_id": 648,
+                    "annotation_id": 1358,
+                    "frameName": "Age",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "더 오래된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 48
+                            },
+                            "text": "교과서들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 250,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오래다.a.Age",
+                    "text": "많은 그것들이, 맙소사, 절판되었지만 더 새로운 것들보다는 오히려 더 오래된 교과서들을 사용하는 것이 일반적으로 바람직하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14306",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "older"
+                    ],
+                    "ko_annotation_id": 14306,
+                    "annotation_id": 10526,
+                    "frameName": "Age",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "더 오래된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "미사일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2121,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오래다.a.Age",
+                    "text": "중국은 더 오래된 DF -5 미사일을 신형 DF -5A로 대체 중이며, 이는 결국 다탄두를 장착하게 될 것이다."
+                }
+            ]
+        }
+    ]
+}

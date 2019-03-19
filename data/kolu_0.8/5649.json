@@ -1,0 +1,98 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "열핵무기.n.Weapon",
+    "frameID": 426,
+    "frameName": "Weapon",
+    "en_lus": [
+        "weapon",
+        "nuclear"
+    ],
+    "lu_id": 5649,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5741",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nuclear",
+                        "weapons"
+                    ],
+                    "ko_annotation_id": 5741,
+                    "annotation_id": 10333,
+                    "frameName": "Weapon",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Weapon",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "열핵무기와"
+                        }
+                    ],
+                    "sent_id": 2103,
+                    "relations": [],
+                    "lu": "열핵무기.n.Weapon",
+                    "text": "그 이후, 중국은 열핵무기와 중성자 폭탄을 포함하여, 45 회의 핵실험을 하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5742",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nuclear",
+                        "weapons"
+                    ],
+                    "ko_annotation_id": 5742,
+                    "annotation_id": 10333,
+                    "frameName": "Weapon",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Weapon",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "열핵무기와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "열핵무기와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2103,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "열핵무기.n.Weapon",
+                    "text": "그 이후, 중국은 열핵무기와 중성자 폭탄을 포함하여, 45 회의 핵실험을 하였다."
+                }
+            ]
+        }
+    ]
+}

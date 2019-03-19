@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "정박하다.v.Halt",
+    "frameID": 1024,
+    "frameName": "Halt",
+    "en_lus": [
+        "teehaku .停泊"
+    ],
+    "lu_id": 3936,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12014",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "teehaku .停泊"
+                    ],
+                    "ko_annotation_id": 12014,
+                    "annotation_id": 0,
+                    "frameName": "Halt",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Halt",
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "정박할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 42
+                            },
+                            "text": "대형 선박이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4775,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정박하다.v.Halt",
+                    "text": "마을이 전전의 작은 어촌에서, 양항을 끼고 있다는 점을 살려서, 대형 선박이 정박할 수 있는 원양어업의 기지로 탈바꿈하는 급격한 발전을 겪고 있을 무렵이었다."
+                }
+            ]
+        }
+    ]
+}

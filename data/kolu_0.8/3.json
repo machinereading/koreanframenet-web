@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "의문시되다.v.Suspicion",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "en_lus": [
+        "questionable"
+    ],
+    "lu_id": 3,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8908",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "questionable"
+                    ],
+                    "ko_annotation_id": 8908,
+                    "annotation_id": 16317,
+                    "frameName": "Suspicion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "의문시 되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "신뢰성이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3126,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의문시되다.v.Suspicion",
+                    "text": "신뢰성이 의문시 되는 이 보고서를 국방부 ( MND ) 는 맹렬히 부인하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "차도.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "driveway"
+    ],
+    "lu_id": 1713,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2995",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "driveway"
+                    ],
+                    "ko_annotation_id": 2995,
+                    "annotation_id": 5739,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "차도의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Characteristic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "경사진",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1098,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "차도.n.Roadways",
+                    "text": "경사진 차도의 맨 위에는, 원래 대학 건물이었던 위풍당당한 Edward 건축물은 연구원의 더 새로운 빌딩들을 주도하고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "탄생하다.v.Being_born",
+    "frameID": 793,
+    "frameName": "Being_born",
+    "en_lus": [
+        "born"
+    ],
+    "lu_id": 4153,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1701",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "born"
+                    ],
+                    "ko_annotation_id": 1701,
+                    "annotation_id": 3542,
+                    "frameName": "Being_born",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_born",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "탄생하였을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "기원전 약 4년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Child",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "예수가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "탄생하다.v.Being_born",
+                    "text": "기원전 약 4년에 예수가 탄생하였을 때, 새로 태어난 유아와 함께 이집트로 달아남으로써 요셉과 마리아는 헤롯의 편집증을 피하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "포함되다.v.Containing",
+    "frameID": 397,
+    "frameName": "Containing",
+    "en_lus": [
+        "contain"
+    ],
+    "lu_id": 3477,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1609",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "containing"
+                    ],
+                    "ko_annotation_id": 1609,
+                    "annotation_id": 3386,
+                    "frameName": "Containing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Containing",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "포함된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Contents",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 20
+                            },
+                            "text": "시나이 산에서 받은 법판이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Container",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "text": "이동식 예배소인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 629,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포함되다.v.Containing",
+                    "text": "그는 또한 시나이 산에서 받은 법판이 포함된 이동식 예배소인 언약궤를 예루살렘 방벽 외부에 있는, 기혼 샘에 가져왔다."
+                }
+            ]
+        }
+    ]
+}

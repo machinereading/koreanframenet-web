@@ -1,0 +1,92 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "유발하다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "induces"
+    ],
+    "lu_id": 1010,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2438",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "induces"
+                    ],
+                    "ko_annotation_id": 2438,
+                    "annotation_id": 4772,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 46,
+                                "end": 51
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "유발한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 26
+                            },
+                            "text": "그들에게 던질 몇 가지 말들을 준비해 놓는 것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 45
+                            },
+                            "text": "폭소와 감탄하며 등을 치는 행동을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 925,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유발하다.v.Causation",
+                    "text": "그들에게 던질 몇 가지 말들을 준비해 놓는 것은 폭소와 감탄하며 등을 치는 행동을 유발한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "en_lus": [],
+    "ko_lu": "파악하다.v.Grasp",
+    "ko_pos": "v",
+    "frameID": 979,
+    "frameName": "Grasp",
+    "lu_id": "5161",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3628",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grasp",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "파악하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Category",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "단품별로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "데이터를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3628",
+                    "lu": "파악하다.v.Grasp",
+                    "text": "다만 단순히 단품별로 데이터를 파악하는 것이 아니라, 이 표처럼, 최초의 상품구성, 상품 종류별로 단품 데이터의 추이를 파악하는 것이 중요하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4550",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grasp",
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "파악해,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 50
+                            },
+                            "text": "단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4550",
+                    "lu": "파악하다.v.Grasp",
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다."
+                }
+            ]
+        }
+    ]
+}

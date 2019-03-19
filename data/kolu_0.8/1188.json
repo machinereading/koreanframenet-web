@@ -1,0 +1,90 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "축하받다.v.Judgment_communication",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "en_lus": [
+        "accuse"
+    ],
+    "lu_id": 1188,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15627",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "accused"
+                    ],
+                    "ko_annotation_id": 15627,
+                    "annotation_id": 16311,
+                    "frameName": "Judgment_communication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 34,
+                                "end": 42
+                            },
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "비난받아 왔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "타이완은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Reason",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 33
+                            },
+                            "text": "생물 무기 ( BW ) 능력을 확보하기 위한 노력에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3124,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "축하받다.v.Judgment_communication",
+                    "text": "타이완은 생물 무기 ( BW ) 능력을 확보하기 위한 노력에 비난받아 왔다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "밀다.v.Reshaping",
+    "frameID": 344,
+    "frameName": "Reshaping",
+    "en_lus": [
+        "nobasu .延ばす "
+    ],
+    "lu_id": 1928,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11432",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nobasu .延ばす "
+                    ],
+                    "ko_annotation_id": 11432,
+                    "annotation_id": 0,
+                    "frameName": "Reshaping",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reshaping",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "밀었을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "판금을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "롤러로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4380,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "밀다.v.Reshaping",
+                    "text": "지금 것은 판금을 롤러로 밀었을 뿐이잖아."
+                }
+            ]
+        }
+    ]
+}

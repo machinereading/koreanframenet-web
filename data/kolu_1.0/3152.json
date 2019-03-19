@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "암.n.Medical_conditions",
+    "ko_pos": "n",
+    "frameID": 239,
+    "frameName": "Medical_conditions",
+    "lu_id": "3152",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1248",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_conditions",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "난소암으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "난소암으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1248",
+                    "lu": "암.n.Medical_conditions",
+                    "text": "그녀가 난소암으로 죽기 전에 그들의 엄마가 유전자 테스트를 가졌다는 것을 아는 두 자매는 그녀의 테스트 결과를 알기 원한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4879",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_conditions",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "암세포인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Symptom",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "text": "암세포인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4879",
+                    "lu": "암.n.Medical_conditions",
+                    "text": "악성인 것은 궤양 또는 결절을 형성하기도 하고, 암세포인 경우도 있습니다."
+                }
+            ]
+        }
+    ]
+}

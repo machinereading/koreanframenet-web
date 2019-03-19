@@ -1,0 +1,88 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "유감.n.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "regret"
+    ],
+    "lu_id": 1024,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16992",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "regret"
+                    ],
+                    "ko_annotation_id": 16992,
+                    "annotation_id": 7334,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "유감을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "Hall은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 46
+                            },
+                            "text": "이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1525,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유감.n.Experiencer_focus",
+                    "text": "한 성명에서, Hall은 이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을 표명하였다."
+                }
+            ]
+        }
+    ]
+}

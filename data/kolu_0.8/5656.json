@@ -1,0 +1,102 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "뜯다.v.Cause_to_fragment",
+    "frameID": 414,
+    "frameName": "Cause_to_fragment",
+    "en_lus": [
+        "broke"
+    ],
+    "lu_id": 5656,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15174",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "broke"
+                    ],
+                    "ko_annotation_id": 15174,
+                    "annotation_id": 14202,
+                    "frameName": "Cause_to_fragment",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_fragment",
+                            "span": {
+                                "begin": 52,
+                                "end": 54
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "뜯고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "2002년 12월 말,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 21
+                            },
+                            "text": "북한 기술자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Whole_Patient",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "봉함을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2806,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뜯다.v.Cause_to_fragment",
+                    "text": "2002년 12월 말, 북한 기술자들은 동결을 감시하기 위해 IAEA가 설치한 카메라 봉함을 뜯고 그것을 망가뜨렸다."
+                }
+            ]
+        }
+    ]
+}

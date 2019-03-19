@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "솔직하다.a.Candidness",
+    "frameID": 32,
+    "frameName": "Candidness",
+    "en_lus": [
+        "syooziki .正直 "
+    ],
+    "lu_id": 3448,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11244",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syooziki .正直 "
+                    ],
+                    "ko_annotation_id": 11244,
+                    "annotation_id": 0,
+                    "frameName": "Candidness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Candidness",
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "솔직하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "「저는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4253,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "솔직하다.a.Candidness",
+                    "text": "「저는 저도 모르게 무언가 끔찍한 것이라도 만지는 것 같은 태도를 보였습니다」라고 솔직하게 그때의 기분을 토로하고 있습니다."
+                }
+            ]
+        }
+    ]
+}

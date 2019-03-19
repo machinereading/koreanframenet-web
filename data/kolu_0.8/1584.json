@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "밝히다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "reveal"
+    ],
+    "lu_id": 1584,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8103",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "revealed"
+                    ],
+                    "ko_annotation_id": 8103,
+                    "annotation_id": 14819,
+                    "frameName": "Evidence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 65,
+                                "end": 70
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "밝혀졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "text": "그 결과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 64
+                            },
+                            "text": "Khan의 네트워크에 대해 많이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2894,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "밝히다.v.Evidence",
+                    "text": "리비아는 그 이후 핵 야망을 포기하였고 IAEA 및 미국과 협력하고 있고, 그 결과 Khan의 네트워크에 대해 많이 밝혀졌다."
+                }
+            ]
+        }
+    ]
+}

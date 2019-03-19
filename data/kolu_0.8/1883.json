@@ -1,0 +1,65 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "부인되다.v.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "deny"
+    ],
+    "lu_id": 1883,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9707",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "denied"
+                    ],
+                    "ko_annotation_id": 9707,
+                    "annotation_id": 18017,
+                    "frameName": "Statement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부인되었으나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "계약에 대한 보도들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3406,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부인되다.v.Statement",
+                    "text": "계약에 대한 보도들은 부인되었으나 ( 576 ), KWU사는 이란의 요청으로 아르헨티나 및 스페인과 협상 중이라고 한다 ( 2219 )."
+                }
+            ]
+        }
+    ]
+}

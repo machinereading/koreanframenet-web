@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "물다.v.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "kuru .くる"
+    ],
+    "lu_id": 4614,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16585",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kuru .くる"
+                    ],
+                    "ko_annotation_id": 16585,
+                    "annotation_id": 0,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "물었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 27
+                            },
+                            "text": "「다카시냐？」라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4604,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "물다.v.Arriving",
+                    "text": "받자마자, 신경질적인 목소리로, 「다카시냐？」라고 물었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "같이하다.v.Appeal",
+    "frameID": 504,
+    "frameName": "Appeal",
+    "en_lus": [
+        "seem"
+    ],
+    "lu_id": 4899,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2745",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "seem"
+                    ],
+                    "ko_annotation_id": 2745,
+                    "annotation_id": 5323,
+                    "frameName": "Appeal",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Appeal",
+                            "span": {
+                                "begin": 57,
+                                "end": 59
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "같이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 49
+                            },
+                            "text": "거짓과 반 거짓이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Inference",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "text": "존재하는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1014,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "같이하다.v.Appeal",
+                    "text": "Lewinsky 혐의에 신빙성을 제공하고, 클린턴의 친숙한 방어를 마치 거짓과 반 거짓이 존재하는 것 같이 다룸으로써, Stephanopoulos는 자가가 바보가 아니라는 것을 보여준다."
+                }
+            ]
+        }
+    ]
+}

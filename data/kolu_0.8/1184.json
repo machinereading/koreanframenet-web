@@ -1,0 +1,94 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "배당되다.v.Appeal",
+    "frameID": 504,
+    "frameName": "Appeal",
+    "en_lus": [
+        "appear"
+    ],
+    "lu_id": 1184,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6764",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "appears"
+                    ],
+                    "ko_annotation_id": 6764,
+                    "annotation_id": 12358,
+                    "frameName": "Appeal",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Appeal",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "부대에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 31
+                            },
+                            "text": "이슬람혁명경비군단  공군의 미사일",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Inference",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 82
+                            },
+                            "text": "배당되었고, 이것은 여단 크기로 확대되었고 이라크에 대한 모든 스커드 작전의 책임을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2459,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배당되다.v.Appeal",
+                    "text": "도착하자 마자 미사일은 이슬람혁명경비군단  공군의 미사일 부대에 배당되었고, 이것은 여단 크기로 확대되었고 이라크에 대한 모든 스커드 작전의 책임을 맡았다."
+                }
+            ]
+        }
+    ]
+}

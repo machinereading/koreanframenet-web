@@ -1,0 +1,166 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "의심받다.v.Suspicion",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "en_lus": [
+        "suspect"
+    ],
+    "lu_id": 1368,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6139",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suspected"
+                    ],
+                    "ko_annotation_id": 6139,
+                    "annotation_id": 11101,
+                    "frameName": "Suspicion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "의심받고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Incident",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 50
+                            },
+                            "text": "인도 및 중국은 물론, 서방의 개인과 회사들의 지원으로 이와같은 능력을 발전시켰다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2223,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의심받다.v.Suspicion",
+                    "text": "이란은 인도 및 중국은 물론, 서방의 개인과 회사들의 지원으로 이와같은 능력을 발전시켰다고 의심받고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15199",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suspected"
+                    ],
+                    "ko_annotation_id": 15199,
+                    "annotation_id": 14324,
+                    "frameName": "Suspicion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 78,
+                                "end": 84
+                            },
+                            "token_span": [
+                                22,
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "의심을 받고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "text": "북한은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Incident",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 69
+                            },
+                            "text": "생물 무기 ( BW ) 프로그램을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2822,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의심받다.v.Suspicion",
+                    "text": "평양이 1970년대에 생물 및 독소 무기 금지 협약 ( BWC ) 을 승인하였지만, 북한은 생물 무기 ( BW ) 프로그램을 가지고 있다는 의심을 받고 있다."
+                }
+            ]
+        }
+    ]
+}

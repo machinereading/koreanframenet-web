@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "동안.n.Timespan",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "en_lus": [
+        "aida .間 "
+    ],
+    "lu_id": 1963,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11839",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "aida .間 "
+                    ],
+                    "ko_annotation_id": 11839,
+                    "annotation_id": 0,
+                    "frameName": "Timespan",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "동안에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "text": "이백여 년",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4670,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동안.n.Timespan",
+                    "text": "원이 개설되고부터, 명치 원년에 형장이 폐지되기까지, 이백여 년 동안에 매장된 사체는 20여만 구라 합니다."
+                }
+            ]
+        }
+    ]
+}

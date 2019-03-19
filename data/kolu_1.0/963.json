@@ -1,0 +1,166 @@
+{
+    "en_lus": [],
+    "ko_lu": "내다.v.Creating",
+    "ko_pos": "v",
+    "frameID": 319,
+    "frameName": "Creating",
+    "lu_id": "963",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1692",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "내었다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 26
+                            },
+                            "text": "사담 정권의 정책을 수용하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 36
+                            },
+                            "text": "더 많은 칙령을.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1692",
+                    "lu": "내다.v.Creating",
+                    "text": "[ 그는 내었다 ] 사담 정권의 정책을 수용하는 더 많은 칙령을."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1689",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "내었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "Sheik은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 38
+                            },
+                            "text": "서로 반박하는 동일한 문제에 관해 두 개의 칙령을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1689",
+                    "lu": "내다.v.Creating",
+                    "text": "정말, Sheik은 서로 반박하는 동일한 문제에 관해 두 개의 칙령을 내었다."
+                }
+            ]
+        }
+    ]
+}

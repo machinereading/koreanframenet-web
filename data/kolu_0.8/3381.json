@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "터뜨리다.v.Cause_to_start",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "en_lus": [
+        "set"
+    ],
+    "lu_id": 3381,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9310",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "set"
+                    ],
+                    "ko_annotation_id": 9310,
+                    "annotation_id": 17297,
+                    "frameName": "Cause_to_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_start",
+                            "span": {
+                                "begin": 16,
+                                "end": 24
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "터뜨릴 것이라고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "이슬람교도들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "방사능 폭탄을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3264,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "터뜨리다.v.Cause_to_start",
+                    "text": "이슬람교도들은 방사능 폭탄을 터뜨릴 것이라고 스파이 두목들은 믿고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "구비하다.v.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 1199,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4219",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "ko_annotation_id": 4219,
+                    "annotation_id": 7746,
+                    "frameName": "Possession",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "구비해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "버스들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "다음 사항을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1593,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구비하다.v.Possession",
+                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백"
+                }
+            ]
+        }
+    ]
+}

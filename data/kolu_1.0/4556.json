@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "중단하다.v.Activity_pause",
+    "ko_pos": "v",
+    "frameID": 167,
+    "frameName": "Activity_pause",
+    "lu_id": "4556",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3501",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_pause",
+                            "span": {
+                                "begin": 65,
+                                "end": 69
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "중단해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "text": "중국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 64
+                            },
+                            "text": "이란과의 모든 핵 협력 프로그램을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3501",
+                    "lu": "중단하다.v.Activity_pause",
+                    "text": "게다가, 모든 알려진 이란의 핵 시설은 IAEA의 감시 하에 있기 때문에, 중국이 이란과의 모든 핵 협력 프로그램을 중단해야 한다는 미국의 요구는 부당하고 핵확산 방지 조약의 조항 IV에 어긋나는 것으로 베이징은 보고 있다."
+                }
+            ]
+        }
+    ]
+}

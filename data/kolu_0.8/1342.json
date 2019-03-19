@@ -1,0 +1,89 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "감성.n.Sensation",
+    "frameID": 71,
+    "frameName": "Sensation",
+    "en_lus": [
+        "kansee .感性 "
+    ],
+    "lu_id": 1342,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11845",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kansee .感性 "
+                    ],
+                    "ko_annotation_id": 11845,
+                    "annotation_id": 0,
+                    "frameName": "Sensation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sensation",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "감성을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 26
+                            },
+                            "text": "전 세계의 건축물을 수없이 봐온 나의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 58
+                            },
+                            "text": "그 디자인 감각의 훌륭함이었습니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4674,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감성.n.Sensation",
+                    "text": "무엇보다도 전 세계의 건축물을 수없이 봐온 나의 감성을 자극한 것은, 그 디자인 감각의 훌륭함이었습니다."
+                }
+            ]
+        }
+    ]
+}

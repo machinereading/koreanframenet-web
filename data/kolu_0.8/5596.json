@@ -1,0 +1,142 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "초대하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "invite"
+    ],
+    "lu_id": 5596,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4965",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "invited"
+                    ],
+                    "ko_annotation_id": 4965,
+                    "annotation_id": 8978,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "초대한"
+                        }
+                    ],
+                    "sent_id": 1863,
+                    "relations": [],
+                    "lu": "초대하다.v.Request",
+                    "text": "그는 미국인들을 여러 차례 큰 만찬 파티를 위해 그의 집에 초대한 거물 스파이 / 에이전트이나, 우리 형제들은 그를 살해한 범행에 대해 성명을 내지 않았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4986",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "invited"
+                    ],
+                    "ko_annotation_id": 4986,
+                    "annotation_id": 9019,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 95,
+                                "end": 99
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "족장들을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "족장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 72
+                            },
+                            "text": " 그들의 젊은이들이 경찰과 국가 경호대에 가입하도록 격려하기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Addressee",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 94
+                            },
+                            "text": "위해, Ramadi 의 수장들과 부족의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1866,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "초대하다.v.Request",
+                    "text": "2- Albu'Ubaid ( Salah al-Dhari ) 의 족장은  그들의 젊은이들이 경찰과 국가 경호대에 가입하도록 격려하기 위해, Ramadi 의 수장들과 부족의 족장들을 초대한 한 만찬 파티에서 30마리의 양을 도살하였고, 그것은 Sheik Nasr al-Fahdawi의 살해 이틀 전이었다."
+                }
+            ]
+        }
+    ]
+}

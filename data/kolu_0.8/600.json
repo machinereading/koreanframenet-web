@@ -1,0 +1,134 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "걸다.a.Run_risk",
+    "frameID": 378,
+    "frameName": "Run_risk",
+    "en_lus": [
+        "kakeru .賭ける"
+    ],
+    "lu_id": 600,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10471",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kakeru .賭ける"
+                    ],
+                    "ko_annotation_id": 10471,
+                    "annotation_id": 0,
+                    "frameName": "Run_risk",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Run_risk",
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "걸고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 46
+                            },
+                            "text": "다자이 문학에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3768,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Run_risk",
+                    "text": "거창하게 들릴지 모르겠으나, 자신들의 존재 근거를, 살아가는 이유를, 다자이 문학에 걸고 있었다고도 할 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10638",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kakeru .賭ける"
+                    ],
+                    "ko_annotation_id": 10638,
+                    "annotation_id": 0,
+                    "frameName": "Run_risk",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Run_risk",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "걸었던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Asset",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "주체를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "이 선택으로,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3900,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Run_risk",
+                    "text": "주체를 걸었던 이 선택으로, 그는 기능적 화자에서 소설적 인물로 변모한 것이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "등산가들.n.Intentional_traversing",
+    "frameID": 1642,
+    "frameName": "Intentional_traversing",
+    "en_lus": [
+        "tozan .登山 "
+    ],
+    "lu_id": 5335,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16429",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tozan .登山 "
+                    ],
+                    "ko_annotation_id": 16429,
+                    "annotation_id": 0,
+                    "frameName": "Intentional_traversing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentional_traversing",
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "등산가들의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "백명산은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Direction",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "text": "등산가들의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4263,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "등산가들.n.Intentional_traversing",
+                    "text": "피크 헌터도 있었지만 백명산은 등산가들의 뜨거운 관심의 표적이 되지는 않았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "-려고_하다.v.Attempt",
+    "ko_pos": "v",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "lu_id": "1512",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-169",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 58,
+                                "end": 66
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "일어서려고 하자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 63
+                            },
+                            "text": "일어서려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "169",
+                    "lu": "-려고_하다.v.Attempt",
+                    "text": "우리는 Mame을 잡으려고 집안으로 뛰어들었으나, 그 다음의 진동이 나를 공중으로 팽개쳤고 그리고 내가 일어서려고 하자 나를 튕겨버렸다."
+                }
+            ]
+        }
+    ]
+}

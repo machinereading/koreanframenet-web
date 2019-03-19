@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "홀.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "hall"
+    ],
+    "lu_id": 4842,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16960",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "halls"
+                    ],
+                    "ko_annotation_id": 16960,
+                    "annotation_id": 5840,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 63,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "전시홀을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Function",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 36
+                            },
+                            "text": "전시",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1116,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "홀.n.Buildings",
+                    "text": "Wan Chai 해안가는 아시아에서 가장 큰 홍콩 컨벤션 및 전시 센터가 압도하며, 이곳은 호텔, 극장, 그리고 전시홀을 포함한다."
+                }
+            ]
+        }
+    ]
+}

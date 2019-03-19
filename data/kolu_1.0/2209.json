@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "부수다.v.Cause_to_fragment",
+    "ko_pos": "v",
+    "frameID": 414,
+    "frameName": "Cause_to_fragment",
+    "lu_id": "2209",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-508",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_fragment",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "부수고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "거대한 해일이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Whole_Patient",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "text": "건물을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "508",
+                    "lu": "부수다.v.Cause_to_fragment",
+                    "text": "거대한 해일이 Crete와 지중해의 다른 일부를 휩쓸었고 건물을 부수고 많은 수천 명의 사람들이 익사하였다."
+                }
+            ]
+        }
+    ]
+}

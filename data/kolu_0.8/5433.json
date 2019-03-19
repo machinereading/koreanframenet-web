@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "기소.n.Notification_of_charges",
+    "frameID": 129,
+    "frameName": "Notification_of_charges",
+    "en_lus": [
+        "indictment"
+    ],
+    "lu_id": 5433,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5333",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "indictments"
+                    ],
+                    "ko_annotation_id": 5333,
+                    "annotation_id": 9649,
+                    "frameName": "Notification_of_charges",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Notification_of_charges",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "기소를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "플로리다에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Charges",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "마약",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1995,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기소.n.Notification_of_charges",
+                    "text": "플로리다에서 마약 기소를 다루는 전 미국 변호사 Robert Merkel은 카스트로의 마약 거래에 관련되 고위 관리의 많이 공개된 재판은 그가 Mardellin 마약 기업 연합과의 중단을 뜻한다고 절대 생각하지 않는다 ."
+                }
+            ]
+        }
+    ]
+}

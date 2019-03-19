@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "침략.n.Attack",
+    "frameID": 424,
+    "frameName": "Attack",
+    "en_lus": [
+        "sinryaku .侵略 "
+    ],
+    "lu_id": 2329,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10601",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sinryaku .侵略 "
+                    ],
+                    "ko_annotation_id": 10601,
+                    "annotation_id": 0,
+                    "frameName": "Attack",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attack",
+                            "span": {
+                                "begin": 40,
+                                "end": 46
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "조선침략으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Assailant",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 39
+                            },
+                            "text": "도요토미 히데요시의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 46
+                            },
+                            "text": "조선침략으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3887,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "침략.n.Attack",
+                    "text": "오에이 29년(1422.)에 세워진 최초의 왜관은, 도요토미 히데요시의 조선침략으로 소실되었다."
+                }
+            ]
+        }
+    ]
+}

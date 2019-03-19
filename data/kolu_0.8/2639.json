@@ -1,0 +1,81 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "드물다.a.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "mare .稀 "
+    ],
+    "lu_id": 2639,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10561",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mare .稀 "
+                    ],
+                    "ko_annotation_id": 10561,
+                    "annotation_id": 0,
+                    "frameName": "Frequency",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "드물게,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "극히",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attribute",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "드물게,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "드물다.a.Frequency",
+                    "text": "하지만, 극히 드물게, 이상한 일이 일어난다."
+                }
+            ]
+        }
+    ]
+}

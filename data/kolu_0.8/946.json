@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "스치다.v.Fluidic_motion",
+    "frameID": 345,
+    "frameName": "Fluidic_motion",
+    "en_lus": [
+        "nagareru .流れる "
+    ],
+    "lu_id": 946,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12272",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nagareru .流れる "
+                    ],
+                    "ko_annotation_id": 12272,
+                    "annotation_id": 0,
+                    "frameName": "Fluidic_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fluidic_motion",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "스쳐"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Fluid",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "20여 년 전과 달라지지 않는 풍경이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "창밖을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4931,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "스치다.v.Fluidic_motion",
+                    "text": "20여 년 전과 달라지지 않는 풍경이 창밖을 스쳐 지나간다."
+                }
+            ]
+        }
+    ]
+}

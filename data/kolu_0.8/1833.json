@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비행하다.v.Ride_vehicle",
+    "frameID": 690,
+    "frameName": "Ride_vehicle",
+    "en_lus": [
+        "fly"
+    ],
+    "lu_id": 1833,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3228",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fly"
+                    ],
+                    "ko_annotation_id": 3228,
+                    "annotation_id": 6173,
+                    "frameName": "Ride_vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ride_vehicle",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "비행할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "파리로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1191,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행하다.v.Ride_vehicle",
+                    "text": "QN : 그는 바로 비행기를 타고 파리로 비행할 수 있나 ?"
+                }
+            ]
+        }
+    ]
+}

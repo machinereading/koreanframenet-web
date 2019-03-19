@@ -1,0 +1,69 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "규제.n.Law",
+    "frameID": 950,
+    "frameName": "Law",
+    "en_lus": [
+        "regulation"
+    ],
+    "lu_id": 2465,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5796",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "regulations"
+                    ],
+                    "ko_annotation_id": 5796,
+                    "annotation_id": 10396,
+                    "frameName": "Law",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Law",
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "규제"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Forbidden",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 35
+                            },
+                            "text": "핵 및 핵 민군 양용 사용에 관한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2108,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "규제.n.Law",
+                    "text": "1990년대 초 이후, 중국은 핵 및 핵 민군 양용 사용에 관한 규제 선언을 포함하여, 수출 통제를 향상시켰고 비보호 시설에 대한 핵 기술 수출을 중단하기로 서약하였다."
+                }
+            ]
+        }
+    ]
+}

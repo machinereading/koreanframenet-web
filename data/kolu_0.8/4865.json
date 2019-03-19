@@ -1,0 +1,83 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "불리다.v.Simple_naming",
+    "frameID": 1261,
+    "frameName": "Simple_naming",
+    "en_lus": [
+        "iu .いう "
+    ],
+    "lu_id": 4865,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11287",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iu .いう "
+                    ],
+                    "ko_annotation_id": 11287,
+                    "annotation_id": 0,
+                    "frameName": "Simple_naming",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Simple_naming",
+                            "span": {
+                                "begin": 55,
+                                "end": 61
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "불렸습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "이 주변 일대는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Term",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 54
+                            },
+                            "text": "고즈캇파라라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4300,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "불리다.v.Simple_naming",
+                    "text": "원래 이 주변 일대는, 시나가와의 스즈가모리와 함께 에도막부의 처형장(사형장.)으로, 고즈캇파라라 불렸습니다."
+                }
+            ]
+        }
+    ]
+}

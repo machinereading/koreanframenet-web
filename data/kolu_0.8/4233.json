@@ -1,0 +1,132 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "교구.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "parish"
+    ],
+    "lu_id": 4233,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 204",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "parishes"
+                    ],
+                    "ko_annotation_id": 204,
+                    "annotation_id": 401,
+                    "frameName": "Political_locales",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Political_locales",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "교구와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "작은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Relative_Location",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "text": "시골",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 63,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교구.n.Political_locales",
+                    "text": "또한, 종지기들은 작은 시골 교구와 도심 지역 교회와 같이, 종이 울릴 필요가 있는 곳에서 항상 살지는 않는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2391",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "parishes"
+                    ],
+                    "ko_annotation_id": 2391,
+                    "annotation_id": 4686,
+                    "frameName": "Political_locales",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Political_locales",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "교구와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "지역",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 904,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교구.n.Political_locales",
+                    "text": "13개의 지역 교구와 수많은 타운은 원래 영국인 정착지의 이름을 따서 명명되어졌다."
+                }
+            ]
+        }
+    ]
+}

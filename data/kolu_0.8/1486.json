@@ -1,0 +1,90 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "그리다.v.Creating",
+    "frameID": 319,
+    "frameName": "Creating",
+    "en_lus": [
+        "tukuru .つくる "
+    ],
+    "lu_id": 1486,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10174",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tukuru .つくる "
+                    ],
+                    "ko_annotation_id": 10174,
+                    "annotation_id": 0,
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "그리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "질량이 느껴지는 강한 햇볕이 빌딩과 가로수에 쏟아져,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 42
+                            },
+                            "text": "도로 위에 진한 음영을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3591,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "그리다.v.Creating",
+                    "text": "질량이 느껴지는 강한 햇볕이 빌딩과 가로수에 쏟아져, 도로 위에 진한 음영을 그리고 있었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "지배하다.v.Beat_opponent",
+    "ko_pos": "v",
+    "frameID": 2074,
+    "frameName": "Beat_opponent",
+    "lu_id": "4638",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-195",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Beat_opponent",
+                            "span": {
+                                "begin": 45,
+                                "end": 50
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "지배하도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Winner",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 25
+                            },
+                            "text": "이러한 상식이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Loser",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 44
+                            },
+                            "text": "우리가 또한 공유하고 있는 환상을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "195",
+                    "lu": "지배하다.v.Beat_opponent",
+                    "text": "미국 교육의 미래는 우리 모두가 이러한 상식이 우리가 또한 공유하고 있는 환상을 지배하도록 허용하는 정도에 의해 결정될 것이다."
+                }
+            ]
+        }
+    ]
+}

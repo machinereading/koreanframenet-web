@@ -1,0 +1,127 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "비행하다.v.Operate_vehicle",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "en_lus": [
+        "flew"
+    ],
+    "lu_id": 189,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5661",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "flew"
+                    ],
+                    "ko_annotation_id": 5661,
+                    "annotation_id": 10235,
+                    "frameName": "Operate_vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operate_vehicle",
+                            "span": {
+                                "begin": 74,
+                                "end": 79
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "펜타곤으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "2001년 9월 11일에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Driver",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 31
+                            },
+                            "text": "19 명의  Al Qa'ida",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 62
+                            },
+                            "text": "납치하였고 이들 중 세",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goal",
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 73
+                            },
+                            "text": "대가 세계무역센터와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2087,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행하다.v.Operate_vehicle",
+                    "text": "2001년 9월 11일에, 19 명의  Al Qa'ida 테러리스트들은 네 대의 민항기를 납치하였고 이들 중 세 대가 세계무역센터와 펜타곤으로 비행하였고 ; 네 번째는 펜실바니아 주 Shanksville의 들판에 추락하였다."
+                }
+            ]
+        }
+    ]
+}

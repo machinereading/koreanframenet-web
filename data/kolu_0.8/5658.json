@@ -1,0 +1,124 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "요구하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "call",
+        "demand"
+    ],
+    "lu_id": 5658,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4601",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "demand",
+                        "call",
+                        "demanded"
+                    ],
+                    "ko_annotation_id": 4601,
+                    "annotation_id": 8405,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "요구한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 29
+                            },
+                            "text": "왜 이 조사가 수행되지 않는지 이해한다는 것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1724,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "요구하다.v.Request",
+                    "text": "우리는 왜 이 조사가 수행되지 않는지 이해한다는 것을 미국 국민을 대신하여 요구한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12764",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "demand",
+                        "call",
+                        "demanded"
+                    ],
+                    "ko_annotation_id": 12764,
+                    "annotation_id": 1944,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "요구한다."
+                        }
+                    ],
+                    "sent_id": 362,
+                    "relations": [],
+                    "lu": "요구하다.v.Request",
+                    "text": "그의 직무의 목표는 그가 그것을 30분 안에 할 것을 요구한다."
+                }
+            ]
+        }
+    ]
+}

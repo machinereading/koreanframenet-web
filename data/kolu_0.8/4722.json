@@ -1,0 +1,138 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "쉽다.a.Difficulty",
+    "frameID": 375,
+    "frameName": "Difficulty",
+    "en_lus": [
+        "easy"
+    ],
+    "lu_id": 4722,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 108",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "easy"
+                    ],
+                    "ko_annotation_id": 108,
+                    "annotation_id": 178,
+                    "frameName": "Difficulty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Difficulty",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "쉽게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "왜 고대 예술이 궁지에 몰려 있는지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 26,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쉽다.a.Difficulty",
+                    "text": "왜 고대 예술이 궁지에 몰려 있는지 쉽게 알 수 있다"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2221",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "easy"
+                    ],
+                    "ko_annotation_id": 2221,
+                    "annotation_id": 4437,
+                    "frameName": "Difficulty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Difficulty",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "쉽고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 14
+                            },
+                            "text": "홍콩이 돌아다니기가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 857,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쉽다.a.Difficulty",
+                    "text": "당신은 홍콩이 돌아다니기가 쉽고, 사람들이 협조적이고, 어디서나 영어를 하고, 평판에 부합하는 음식이 있음을 발견할 것이다."
+                }
+            ]
+        }
+    ]
+}

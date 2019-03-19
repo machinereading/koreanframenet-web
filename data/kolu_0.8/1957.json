@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "틀리다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "disprove"
+    ],
+    "lu_id": 1957,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6014",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "disprove"
+                    ],
+                    "ko_annotation_id": 6014,
+                    "annotation_id": 10857,
+                    "frameName": "Evidence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 29,
+                                "end": 38
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "틀렸음을 입증하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "가용한 정보는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 38
+                            },
+                            "text": "다양한 소식통이 하는 주장이 틀렸음을 입증하지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2180,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "틀리다.v.Evidence",
+                    "text": "그러나, 가용한 정보는 다양한 소식통이 하는 주장이 틀렸음을 입증하지 못한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "백악관.n.Color",
+    "frameID": 423,
+    "frameName": "Color",
+    "en_lus": [
+        "White"
+    ],
+    "lu_id": 3264,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4610",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "White"
+                    ],
+                    "ko_annotation_id": 4610,
+                    "annotation_id": 8415,
+                    "frameName": "Color",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Color",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "백악관이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "백악관이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1725,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "백악관.n.Color",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
+                }
+            ]
+        }
+    ]
+}

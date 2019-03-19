@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "쏟아지다.v.Filling",
+    "frameID": 59,
+    "frameName": "Filling",
+    "en_lus": [
+        "shower"
+    ],
+    "lu_id": 2919,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 334",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shower"
+                    ],
+                    "ko_annotation_id": 334,
+                    "annotation_id": 709,
+                    "frameName": "Filling",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Filling",
+                            "span": {
+                                "begin": 27,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "쏟아져 내리지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "유리가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "text": "우리에게로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 113,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쏟아지다.v.Filling",
+                    "text": "잠시동안 큰 창문이 찌그러지고 유리가 우리에게로 쏟아져 내리지 않을까 생각했다."
+                }
+            ]
+        }
+    ]
+}

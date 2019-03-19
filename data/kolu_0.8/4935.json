@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "규정되다.v.Control",
+    "frameID": 1799,
+    "frameName": "Control",
+    "en_lus": [
+        "sadamaru .定まる"
+    ],
+    "lu_id": 4935,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10829",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sadamaru .定まる"
+                    ],
+                    "ko_annotation_id": 10829,
+                    "annotation_id": 0,
+                    "frameName": "Control",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Control",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "규정되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "직접침해는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 23
+                            },
+                            "text": "특허 청구 범위의 문언에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4011,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "규정되다.v.Control",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
+                }
+            ]
+        }
+    ]
+}

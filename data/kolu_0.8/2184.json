@@ -1,0 +1,135 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "훈련되다.v.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "train"
+    ],
+    "lu_id": 2184,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5928",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "trained"
+                    ],
+                    "ko_annotation_id": 5928,
+                    "annotation_id": 10650,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "인원을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2136,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "훈련되다.v.Education_teaching",
+                    "text": "동시에, 이란은 선도적인 연구 시설과 훈련된 인원을 포함하는 매우 정교한 생명 공학 기반시설을 가지고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15956",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "trained"
+                    ],
+                    "ko_annotation_id": 15956,
+                    "annotation_id": 18067,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 44,
+                                "end": 52
+                            },
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련 받게 되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "text": "이란 기술자들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "text": "파키스탄에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3421,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "훈련되다.v.Education_teaching",
+                    "text": "Observer ( 영국 ) 는 파키스탄과 이란이 이란 기술자들이 파키스탄에서 훈련 받게 되는 협력 협정에 서명하였다고 말한다."
+                }
+            ]
+        }
+    ]
+}

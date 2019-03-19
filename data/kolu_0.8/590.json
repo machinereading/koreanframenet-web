@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "접속하다.v.Having_or_lacking_access",
+    "frameID": 1870,
+    "frameName": "Having_or_lacking_access",
+    "en_lus": [
+        "access"
+    ],
+    "lu_id": 590,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4836",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "access"
+                    ],
+                    "ko_annotation_id": 4836,
+                    "annotation_id": 8802,
+                    "frameName": "Having_or_lacking_access",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Having_or_lacking_access",
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "접속할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Useful_Location",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 52
+                            },
+                            "text": "시스템의 어디에도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1823,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "접속하다.v.Having_or_lacking_access",
+                    "text": "Patti가 세부 내용을 가진 사람이고, 나는 단지 거래를 처리하는 사람이고 시스템의 어디에도 접속할 수 없다."
+                }
+            ]
+        }
+    ]
+}

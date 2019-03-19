@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "제한하다.v.Deny_or_grant_permission",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "en_lus": [
+        "restrict"
+    ],
+    "lu_id": 2933,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5888",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "restricting"
+                    ],
+                    "ko_annotation_id": 5888,
+                    "annotation_id": 10587,
+                    "frameName": "Deny_or_grant_permission",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "제한하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Grantor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 30
+                            },
+                            "text": "미사일과 미사일 기술 수출을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2128,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제한하다.v.Deny_or_grant_permission",
+                    "text": "2002년 8월에, 중국은 미사일과 미사일 기술 수출을 제한하는 규정과 통제 목록을 발표하였다."
+                }
+            ]
+        }
+    ]
+}

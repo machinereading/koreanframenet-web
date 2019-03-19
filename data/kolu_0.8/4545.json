@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "옮기다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "move"
+    ],
+    "lu_id": 4545,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5210",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "moving"
+                    ],
+                    "ko_annotation_id": 5210,
+                    "annotation_id": 9357,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "옮기는 것은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 24
+                            },
+                            "text": "Lubbock 이나 어떤 곳에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1935,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "옮기다.v.Motion",
+                    "text": "아니면 그것을 Lubbock 이나 어떤 곳에 옮기는 것은 아마도 답변이 아닌 것 같다."
+                }
+            ]
+        }
+    ]
+}

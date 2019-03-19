@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "주목받다.v.Come_together",
+    "frameID": 730,
+    "frameName": "Come_together",
+    "en_lus": [
+        "atumaru .集まる "
+    ],
+    "lu_id": 3355,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16436",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "atumaru .集まる "
+                    ],
+                    "ko_annotation_id": 16436,
+                    "annotation_id": 0,
+                    "frameName": "Come_together",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Come_together",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "주목받고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "현재",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Configuration",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "text": "주목받고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4276,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주목받다.v.Come_together",
+                    "text": "이와 동시에, 현재 이슬람의 가르침이 주목받고 있습니다."
+                }
+            ]
+        }
+    ]
+}

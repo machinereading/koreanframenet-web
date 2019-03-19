@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "머무르다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "tomaru .止まる"
+    ],
+    "lu_id": 3441,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10965",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tomaru .止まる"
+                    ],
+                    "ko_annotation_id": 10965,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "머물러"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "바로 앞에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "북두칠성이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4089,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "머무르다.v.Motion",
+                    "text": "바로 앞에 북두칠성이 머물러 있다."
+                }
+            ]
+        }
+    ]
+}

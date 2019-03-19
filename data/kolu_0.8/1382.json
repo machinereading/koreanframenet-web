@@ -1,0 +1,89 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "질문하다.v.Questioning",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "en_lus": [
+        "ask"
+    ],
+    "lu_id": 1382,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4644",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ask"
+                    ],
+                    "ko_annotation_id": 4644,
+                    "annotation_id": 8468,
+                    "frameName": "Questioning",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "질문을 하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 23
+                            },
+                            "text": "공화당이 이끄는 상원 정보 위원회는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 38
+                            },
+                            "text": "오보에 대한 어려운 질문을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1738,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "질문하다.v.Questioning",
+                    "text": "그리고 공화당이 이끄는 상원 정보 위원회는 오보에 대한 어려운 질문을 하는 것까지 거부하고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "매달리다.v.Being_attached",
+    "frameID": 307,
+    "frameName": "Being_attached",
+    "en_lus": [
+        "attach"
+    ],
+    "lu_id": 5137,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 86",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "attached"
+                    ],
+                    "ko_annotation_id": 86,
+                    "annotation_id": 109,
+                    "frameName": "Being_attached",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_attached",
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "매달린"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 51
+                            },
+                            "text": "처음으로 1614년에 이곳에서 울렸던 동일한 다섯 개의 종들에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 60
+                            },
+                            "text": "밧줄들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 15,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "매달리다.v.Being_attached",
+                    "text": "종탑에서는, 다섯 명의 남녀가 처음으로 1614년에 이곳에서 울렸던 동일한 다섯 개의 종들에 매달린 밧줄들을 가락에 맞추어 잡아당긴다."
+                }
+            ]
+        }
+    ]
+}

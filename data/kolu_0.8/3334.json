@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "백악관.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "House"
+    ],
+    "lu_id": 3334,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4611",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "House"
+                    ],
+                    "ko_annotation_id": 4611,
+                    "annotation_id": 8416,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "백악관이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "백악관이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1725,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "백악관.n.Buildings",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
+                }
+            ]
+        }
+    ]
+}

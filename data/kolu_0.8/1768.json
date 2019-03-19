@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "패배.n.Finish_competition",
+    "frameID": 798,
+    "frameName": "Finish_competition",
+    "en_lus": [
+        "loss"
+    ],
+    "lu_id": 1768,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8709",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "losses"
+                    ],
+                    "ko_annotation_id": 8709,
+                    "annotation_id": 15977,
+                    "frameName": "Finish_competition",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Finish_competition",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "패배"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "6일 전쟁의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3070,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "패배.n.Finish_competition",
+                    "text": "6일 전쟁의 패배 여파로 시리아는 이스라엘의 공격 행위로부터 보호하기 위해 국제 공동체로부터의 더 폭넓은 지원이 필요하다고 느꼈다."
+                }
+            ]
+        }
+    ]
+}

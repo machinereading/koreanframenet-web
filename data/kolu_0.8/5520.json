@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "바쁘다.a.Lively_place",
+    "frameID": 1904,
+    "frameName": "Lively_place",
+    "en_lus": [
+        "busy"
+    ],
+    "lu_id": 5520,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2518",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "busy"
+                    ],
+                    "ko_annotation_id": 2518,
+                    "annotation_id": 4937,
+                    "frameName": "Lively_place",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Lively_place",
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "바쁘고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "도시는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 951,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바쁘다.a.Lively_place",
+                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다."
+                }
+            ]
+        }
+    ]
+}

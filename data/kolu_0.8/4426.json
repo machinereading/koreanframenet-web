@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "보고.n.Information",
+    "frameID": 1591,
+    "frameName": "Information",
+    "en_lus": [
+        "hookoku .報告 "
+    ],
+    "lu_id": 4426,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10988",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hookoku .報告 "
+                    ],
+                    "ko_annotation_id": 10988,
+                    "annotation_id": 0,
+                    "frameName": "Information",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Information",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "보고에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "간지의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "보고에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4100,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보고.n.Information",
+                    "text": "간지의 보고에 따르면, 시즈는 틀림없이 그 배에 타고 있을 것이었다."
+                }
+            ]
+        }
+    ]
+}

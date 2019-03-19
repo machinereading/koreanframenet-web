@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "이제.n.Temporal_collocation",
+    "ko_pos": "n",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "lu_id": "3862",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-427",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "이제는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "text": "Jerry는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 70
+                            },
+                            "text": "감옥으로 돌아가게 되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "427",
+                    "lu": "이제.n.Temporal_collocation",
+                    "text": "실업 상태이고, 무주택자이고 그리고 전과자인 Jerry는 이제는 자식 양육비 지급을 하지 못해 다시 감옥으로 돌아가게 되었다."
+                }
+            ]
+        }
+    ]
+}

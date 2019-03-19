@@ -1,0 +1,91 @@
+{
+    "en_lus": [],
+    "ko_lu": "여행하다.v.Travel",
+    "ko_pos": "v",
+    "frameID": 343,
+    "frameName": "Travel",
+    "lu_id": "3319",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1190",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Travel",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "여행하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Frequency",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "자주",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "해외로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Traveler",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "John은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1190",
+                    "lu": "여행하다.v.Travel",
+                    "text": "자주 해외로 여행하는 John은 보스턴의 집에 있고 그리고 그가 즉시 파리에 가야 한다는 전화를 받는다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "진짜.n.Candidness",
+    "frameID": 32,
+    "frameName": "Candidness",
+    "en_lus": [
+        "hontoo .本当 "
+    ],
+    "lu_id": 4778,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12379",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hontoo .本当 "
+                    ],
+                    "ko_annotation_id": 12379,
+                    "annotation_id": 0,
+                    "frameName": "Candidness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Candidness",
+                            "span": {
+                                "begin": 56,
+                                "end": 58
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "진짜"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "text": "시즈의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 66
+                            },
+                            "text": "속마음이었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5001,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진짜.n.Candidness",
+                    "text": "가와고에로 돌아가는 것은 당연한 일이나, 헤이시치로의 마음 속에 여전히 응어리져 있는 것은, 시즈의 진짜 속마음이었다."
+                }
+            ]
+        }
+    ]
+}

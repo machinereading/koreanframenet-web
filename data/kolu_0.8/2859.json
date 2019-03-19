@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "출석률.n.Attending",
+    "frameID": 2030,
+    "frameName": "Attending",
+    "en_lus": [
+        "attendance"
+    ],
+    "lu_id": 2859,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 772",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "attendance"
+                    ],
+                    "ko_annotation_id": 772,
+                    "annotation_id": 1628,
+                    "frameName": "Attending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attending",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "출석률은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "민주당",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "text": "하원의원",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 294,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "출석률.n.Attending",
+                    "text": "1959년 이후 민주당 하원의원 출석률은 공화당 하원의원 출석률을 넘지 않았다."
+                }
+            ]
+        }
+    ]
+}

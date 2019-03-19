@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "결과.n.Documents",
+    "frameID": 560,
+    "frameName": "Documents",
+    "en_lus": [
+        "finding"
+    ],
+    "lu_id": 3020,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7801",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "findings"
+                    ],
+                    "ko_annotation_id": 7801,
+                    "annotation_id": 14159,
+                    "frameName": "Documents",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Documents",
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "결과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Issuer",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "IAEA 사찰",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2799,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결과.n.Documents",
+                    "text": "북한의 선언과 IAEA 사찰 결과 사이의 괴리는 북한이 한두 개의 핵무기를 위한 충분한 플루토늄을 재처리하였을지도 모른다는 것을 의미한다."
+                }
+            ]
+        }
+    ]
+}

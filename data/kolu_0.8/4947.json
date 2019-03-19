@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "지나다.v.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "past"
+    ],
+    "lu_id": 4947,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3027",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "past"
+                    ],
+                    "ko_annotation_id": 3027,
+                    "annotation_id": 5792,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "지나면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "사원을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 33
+                            },
+                            "text": "잘 이름지은 Ladder Street이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1108,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지나다.v.Locative_relation",
+                    "text": "사원을 막 지나면 잘 이름지은 Ladder Street이다."
+                }
+            ]
+        }
+    ]
+}

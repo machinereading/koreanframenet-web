@@ -1,0 +1,67 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "만들다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "hossoku .発足 "
+    ],
+    "lu_id": 965,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16522",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hossoku .発足 "
+                    ],
+                    "ko_annotation_id": 16522,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 56,
+                                "end": 60
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "연구회를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 55
+                            },
+                            "text": "더 깊이 학습하기  위한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4485,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Intentionally_act",
+                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기  위한 연구회를 만드는 것도 좋겠습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "요강.n.Summarizing",
+    "frameID": 1722,
+    "frameName": "Summarizing",
+    "en_lus": [
+        "yookoo .要綱 "
+    ],
+    "lu_id": 3635,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10411",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "yookoo .要綱 "
+                    ],
+                    "ko_annotation_id": 10411,
+                    "annotation_id": 0,
+                    "frameName": "Summarizing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Summarizing",
+                            "span": {
+                                "begin": 23,
+                                "end": 30
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "관리요강안에도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "전일본민의련의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "부문별 손익계산 및 관리요강안에도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3720,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "요강.n.Summarizing",
+                    "text": "전일본민의련의 새로운 부문별 손익계산 및 관리요강안에도 「부문 손익계산서 등의 정확성 확보 및 현장 직원이 스스로 관리하는 것을 권장하기 위하여, 부문에서 발생한 경비 등은 가능한 한 부문(현장)에서, 전표 기표하여, 실비로 계상하는 것이 적절합니다」라고 되어 있습니다."
+                }
+            ]
+        }
+    ]
+}

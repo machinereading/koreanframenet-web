@@ -1,0 +1,91 @@
+{
+    "en_lus": [],
+    "ko_lu": "관통하다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "575",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-147",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "관통하였을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "지진이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "읍내를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 15
+                            },
+                            "text": "때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "147",
+                    "lu": "관통하다.v.Motion",
+                    "text": "지진이 읍내를 관통하였을 때 나는 Stinson 해변에 있었다."
+                }
+            ]
+        }
+    ]
+}

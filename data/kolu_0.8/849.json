@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "보이.n.Likelihood",
+    "frameID": 114,
+    "frameName": "Likelihood",
+    "en_lus": [
+        "likely"
+    ],
+    "lu_id": 849,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14240",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "likely"
+                    ],
+                    "ko_annotation_id": 14240,
+                    "annotation_id": 10067,
+                    "frameName": "Likelihood",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Likelihood",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "보이는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hypothetical_Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "화학 생물무기 공격을 수행할것으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Hypothetical_Event",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 33
+                            },
+                            "text": "테러리스트 단체들의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2054,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보이.n.Likelihood",
+                    "text": "화학 생물무기 공격을 수행할것으로 보이는 테러리스트 단체들의 동기와 조직 구조에 대한 더 상세한 내용은 다음 두 페이지에서 제공된다. ( 생물 작용제의 확보와 배달에 요구되는 구체적인 능력들에 대해서는 다음 장들에서 논의된다. )"
+                }
+            ]
+        }
+    ]
+}

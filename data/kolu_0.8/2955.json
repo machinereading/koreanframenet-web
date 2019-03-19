@@ -1,0 +1,66 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "hazimeru .始める"
+    ],
+    "lu_id": 2955,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11233",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hazimeru .始める"
+                    ],
+                    "ko_annotation_id": 11233,
+                    "annotation_id": 0,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 19,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 18
+                            },
+                            "text": "이 말이 새로이 사용되게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4250,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Process_start",
+                    "text": "하지만, 이 말이 새로이 사용되게 된 것은, 앙리 고와 크리스티앙 미요(고에미요로 알려진 음식평론가.)가 라디오에서 유럽 레스토랑 평가를 하면서 우물가의 쑥덕공론을 하게 된 것에서 출발했다고 한다."
+                }
+            ]
+        }
+    ]
+}

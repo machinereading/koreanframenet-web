@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "카락.n.Hair_configuration",
+    "frameID": 126,
+    "frameName": "Hair_configuration",
+    "en_lus": [
+        "ke .毛 "
+    ],
+    "lu_id": 4997,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16091",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ke .毛 "
+                    ],
+                    "ko_annotation_id": 16091,
+                    "annotation_id": 0,
+                    "frameName": "Hair_configuration",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hair_configuration",
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "머리카락을,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hair",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "붉은 머리카락을,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3545,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "카락.n.Hair_configuration",
+                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다."
+                }
+            ]
+        }
+    ]
+}

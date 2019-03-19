@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "장.n.Frequency",
+    "ko_pos": "n",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "lu_id": "4086",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4117",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frequency",
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "장을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interval",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "text": "한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 19
+                            },
+                            "text": "적어도 3번 이상 읽는데,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4117",
+                    "lu": "장.n.Frequency",
+                    "text": "한 장을 적어도 3번 이상 읽는데, 읽을 때마다 그때의 기억이 되살아나, 그때의 감상에 젖어들었다."
+                }
+            ]
+        }
+    ]
+}

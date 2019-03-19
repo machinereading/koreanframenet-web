@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "내.n.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "okoru .おこる "
+    ],
+    "lu_id": 5354,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10893",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "okoru .おこる "
+                    ],
+                    "ko_annotation_id": 10893,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "화를 내기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "결국",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "캔디가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4052,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "내.n.Experiencer_focus",
+                    "text": "결국 캔디가 화를 내기 시작했습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Deny_or_grant_permission",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "en_lus": [
+        "ii .いい "
+    ],
+    "lu_id": 3077,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16178",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ii .いい "
+                    ],
+                    "ko_annotation_id": 16178,
+                    "annotation_id": 0,
+                    "frameName": "Deny_or_grant_permission",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "되겠지요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "지금은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 21
+                            },
+                            "text": "파티시에가 제1후보",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3743,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Deny_or_grant_permission",
+                    "text": "어디까지나, 지금은 파티시에가 제1후보 정도 되겠지요."
+                }
+            ]
+        }
+    ]
+}

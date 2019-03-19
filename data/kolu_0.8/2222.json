@@ -1,0 +1,83 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "안되다.a.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "few"
+    ],
+    "lu_id": 2222,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3808",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "few"
+                    ],
+                    "ko_annotation_id": 3808,
+                    "annotation_id": 7093,
+                    "frameName": "Quantity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Quantity",
+                            "span": {
+                                "begin": 50,
+                                "end": 55
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "몇 안되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "text": "아주",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individuals",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 63
+                            },
+                            "text": "미국 국회의원",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1495,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "안되다.a.Quantity",
+                    "text": "쿠웨이트에 대한 1991년 걸프 전쟁 이후 이라크를 방문하는 오하이오주 민주당원이고 아주 몇 안되는 미국 국회의원 중 하나인 Hall은 이라크 수도 바그다드로의 12 시간의 육로 여행을 일요일에 착수할 예정이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "분할.n.Separating",
+    "frameID": 15,
+    "frameName": "Separating",
+    "en_lus": [
+        "partition",
+        "split"
+    ],
+    "lu_id": 4784,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 807",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "partition",
+                        "splitting"
+                    ],
+                    "ko_annotation_id": 807,
+                    "annotation_id": 1668,
+                    "frameName": "Separating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Separating",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "분할은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 6
+                            },
+                            "text": "표",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 299,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분할.n.Separating",
+                    "text": "더욱이, 표 분할은 연방 정부 차원에서와 주 정부 차원에서 동일한 특정 패턴을 갖는 것처럼 보인다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1807",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "partition",
+                        "splitting"
+                    ],
+                    "ko_annotation_id": 1807,
+                    "annotation_id": 3744,
+                    "frameName": "Separating",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Separating",
+                            "span": {
+                                "begin": 78,
+                                "end": 81
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "분할을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "팔레스타인을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Parts",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 26
+                            },
+                            "text": "두 개 국가로,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 715,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분할.n.Separating",
+                    "text": "1947년에 유엔은 팔레스타인을 두 개 국가로, 예루살렘은 어느 곳에도 속하지 않는 국제 도시로 한채, 하나는 유대 그리고 하나는 아랍으로 분할을 위한 투표를 하였다."
+                }
+            ]
+        }
+    ]
+}

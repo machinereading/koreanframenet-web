@@ -1,0 +1,65 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "슬프다.a.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "kanasii .かなしい",
+        "sad"
+    ],
+    "lu_id": 2311,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10635",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kanasii .かなしい",
+                        "sad"
+                    ],
+                    "ko_annotation_id": 10635,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "슬프게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "다다쓰구가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3898,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "슬프다.a.Emotion_directed",
+                    "text": "강 저편에서, 다다쓰구가 슬프게 울부짓기 시작했다."
+                }
+            ]
+        }
+    ]
+}

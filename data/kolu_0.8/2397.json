@@ -1,0 +1,85 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "이행하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "carry"
+    ],
+    "lu_id": 2397,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2875",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "carrying"
+                    ],
+                    "ko_annotation_id": 2875,
+                    "annotation_id": 5519,
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이행하는,두"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "feng shui 원리를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "text": "마리의 구리 사자가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1056,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이행하다.v.Intentionally_act",
+                    "text": "feng shui 원리를 이행하는,두 마리의 구리 사자가 문을 지킨다."
+                }
+            ]
+        }
+    ]
+}

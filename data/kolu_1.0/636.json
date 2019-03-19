@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "구축하다.v.Building",
+    "ko_pos": "v",
+    "frameID": 259,
+    "frameName": "Building",
+    "lu_id": "636",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3351",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "구축할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 21
+                            },
+                            "text": "더 많은 원심 분리기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3351",
+                    "lu": "구축하다.v.Building",
+                    "text": "조사팀은 이란이 더 많은 원심 분리기를 구축할 능력을 가졌다는 것을 알았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "다리.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "Bridge"
+    ],
+    "lu_id": 4944,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 376",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Bridge"
+                    ],
+                    "ko_annotation_id": 376,
+                    "annotation_id": 778,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "다리를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "Richmond-San Rafael",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 133,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "다리.n.Roadways",
+                    "text": "Richmond-San Rafael 다리를 건너기 전에 Chevron 정유공장을 내가 지날 때 지독한 가스 냄새가 있었다."
+                }
+            ]
+        }
+    ]
+}

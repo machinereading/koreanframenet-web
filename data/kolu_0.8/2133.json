@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "취사.n.Cooking_creation",
+    "frameID": 268,
+    "frameName": "Cooking_creation",
+    "en_lus": [
+        "suizi .炊事 "
+    ],
+    "lu_id": 2133,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11368",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suizi .炊事 "
+                    ],
+                    "ko_annotation_id": 11368,
+                    "annotation_id": 0,
+                    "frameName": "Cooking_creation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cooking_creation",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "취사를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "여자아이가 주로 하는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4328,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "취사.n.Cooking_creation",
+                    "text": "여자아이가 주로 하는 완구로 식사준비나 취사를 하는 주방놀이를, 소꿉놀이라고 합니다."
+                }
+            ]
+        }
+    ]
+}

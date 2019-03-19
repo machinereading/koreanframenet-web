@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "별개.n.Identicality",
+    "frameID": 1029,
+    "frameName": "Identicality",
+    "en_lus": [
+        "distinct"
+    ],
+    "lu_id": 5608,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 521",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "distinct"
+                    ],
+                    "ko_annotation_id": 521,
+                    "annotation_id": 1110,
+                    "frameName": "Identicality",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Identicality",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "별개로,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Previous_Instance",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "교육기관과는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Previous_Instance",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "선생들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 203,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "별개.n.Identicality",
+                    "text": "그러나 교육기관과는 별개로, 선생들을 매도하는 것은 부당하다."
+                }
+            ]
+        }
+    ]
+}

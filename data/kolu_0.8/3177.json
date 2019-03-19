@@ -1,0 +1,63 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "따뜻하다.a.Social_interaction_evaluation",
+    "frameID": 372,
+    "frameName": "Social_interaction_evaluation",
+    "en_lus": [
+        "warm"
+    ],
+    "lu_id": 3177,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2505",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "warm"
+                    ],
+                    "ko_annotation_id": 2505,
+                    "annotation_id": 4929,
+                    "frameName": "Social_interaction_evaluation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_interaction_evaluation",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "따뜻한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "환영은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 950,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따뜻하다.a.Social_interaction_evaluation",
+                    "text": "그 소문난 환대와 따뜻한 환영은 여전히 여기에 있다."
+                }
+            ]
+        }
+    ]
+}

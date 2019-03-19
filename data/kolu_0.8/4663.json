@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "찬성하다.v.Compliance",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "en_lus": [
+        "honor"
+    ],
+    "lu_id": 4663,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13567",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "honoring"
+                    ],
+                    "ko_annotation_id": 13567,
+                    "annotation_id": 6190,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 36,
+                                "end": 45
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "찬성하고 있었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "159명의 유엔 회원국들 가운데 32개국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Norm",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "이라크에 대한 제재에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1203,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찬성하다.v.Compliance",
+                    "text": "159명의 유엔 회원국들 가운데 32개국은 이라크에 대한 제재에 찬성하고 있었다."
+                }
+            ]
+        }
+    ]
+}

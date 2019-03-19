@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "후속.n.Relative_time",
+    "ko_pos": "n",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "lu_id": "5617",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3410",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "후속"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Focal_Participant",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "보고서에 의하면,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3410",
+                    "lu": "후속.n.Relative_time",
+                    "text": "후속 보고서에 의하면, 1987년에 건설을 다시 시작하기로 합의에 도달하였으나, 폭격 후 취소되었다 ( 3029 )."
+                }
+            ]
+        }
+    ]
+}

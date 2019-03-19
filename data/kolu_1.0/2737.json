@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "셋집.n.Buildings",
+    "ko_pos": "n",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "lu_id": "2737",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4609",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "셋집은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "text": "3평 남짓한 방이라고는 해도 단독주택인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Building",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "text": "그 셋집은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4609",
+                    "lu": "셋집.n.Buildings",
+                    "text": "3평 남짓한 방이라고는 해도 단독주택인 그 셋집은 처음부터 이번에야말로 기대해도 좋을 만한 이야기였으나, 그때도 미무라 혼자만 알선자인 지인을 따라 방을 보러 갔다."
+                }
+            ]
+        }
+    ]
+}

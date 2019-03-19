@@ -1,0 +1,143 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "깜짝하다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "ikidooru .憤る",
+        "odoroku .驚く "
+    ],
+    "lu_id": 5049,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12178",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "odoroku .驚く ",
+                        "ikidooru .憤る"
+                    ],
+                    "ko_annotation_id": 12178,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 17,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "깜짝 놀랐습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "사건을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4881,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깜짝하다.v.Experiencer_focus",
+                    "text": "「당시의 사건을 들었을 때에는 깜짝 놀랐습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12387",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "odoroku .驚く ",
+                        "ikidooru .憤る"
+                    ],
+                    "ko_annotation_id": 12387,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 36,
+                                "end": 44
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "깜짝 놀라거나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "이 예문을 읽은 독자는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content+Quotation",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 35
+                            },
+                            "text": "「옴 진리교 도쿄본부가 즐거운가?」하고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5009,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깜짝하다.v.Experiencer_focus",
+                    "text": "이 예문을 읽은 독자는, 「옴 진리교 도쿄본부가 즐거운가?」하고 깜짝 놀라거나, 「옴 진리교 도쿄본부가 즐겁다니 거짓말이다!」라며 분노합니다."
+                }
+            ]
+        }
+    ]
+}

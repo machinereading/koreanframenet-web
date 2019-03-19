@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "동료.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "nakama .仲間 "
+    ],
+    "lu_id": 3520,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10521",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nakama .仲間 "
+                    ],
+                    "ko_annotation_id": 10521,
+                    "annotation_id": 0,
+                    "frameName": "Aggregate",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aggregate",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동료들"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "일본인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3813,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동료.n.Aggregate",
+                    "text": "그것은, 일본인 동료들 밖에는 통용되지 않습니다."
+                }
+            ]
+        }
+    ]
+}

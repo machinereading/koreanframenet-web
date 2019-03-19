@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "풀이.n.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "hirumu .ひるむ "
+    ],
+    "lu_id": 4115,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10389",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hirumu .ひるむ "
+                    ],
+                    "ko_annotation_id": 10389,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 18,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "풀이 죽었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "도너번이라는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "머디는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3714,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "풀이.n.Experiencer_focus",
+                    "text": "도너번이라는 말을 듣고, 머디는 풀이 죽었다."
+                }
+            ]
+        }
+    ]
+}

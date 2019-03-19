@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "가공.n.Processing_materials",
+    "ko_pos": "n",
+    "frameID": 620,
+    "frameName": "Processing_materials",
+    "lu_id": "7",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2210",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Processing_materials",
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "가공,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Material",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "재료",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 33
+                            },
+                            "text": "생물학적 환경에서 사용하기 위한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2210",
+                    "lu": "가공.n.Processing_materials",
+                    "text": "AKU의 생체 재료 실험실은 생물학적 환경에서 사용하기 위한 합성, 가공, 그리고 재료 변경 분야의 연구를 발전시키는 가장 큰 대학 실험실이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "시내.n.Locale_by_use",
+    "frameID": 196,
+    "frameName": "Locale_by_use",
+    "en_lus": [
+        "downtown"
+    ],
+    "lu_id": 2696,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 344",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "downtown"
+                    ],
+                    "ko_annotation_id": 344,
+                    "annotation_id": 725,
+                    "frameName": "Locale_by_use",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locale_by_use",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "시내의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "Berkeley",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 118,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시내.n.Locale_by_use",
+                    "text": "Berkeley 시내의 Hustead 's Towing Service에서 가스 탱크가 폭발해서 타고 있는 것을 제외하고는 여기에 있는 것들은 대체로 평온하다."
+                }
+            ]
+        }
+    ]
+}

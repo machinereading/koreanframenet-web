@@ -1,0 +1,92 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "확인하다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "confirms"
+    ],
+    "lu_id": 4594,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14989",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "confirms"
+                    ],
+                    "ko_annotation_id": 14989,
+                    "annotation_id": 13360,
+                    "frameName": "Evidence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 44,
+                                "end": 51
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "확인해 준다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "이 시설들의 존재는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 43
+                            },
+                            "text": "완전 핵 연료 주기를 달성하기 위한 이란의 증가하는 투지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2670,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확인하다.v.Evidence",
+                    "text": "이 시설들의 존재는 완전 핵 연료 주기를 달성하기 위한 이란의 증가하는 투지를 확인해 준다."
+                }
+            ]
+        }
+    ]
+}

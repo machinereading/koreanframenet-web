@@ -1,0 +1,86 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "의심받다.v.Awareness",
+    "frameID": 19,
+    "frameName": "Awareness",
+    "en_lus": [
+        "suspect"
+    ],
+    "lu_id": 5384,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 7928",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suspected"
+                    ],
+                    "ko_annotation_id": 7928,
+                    "annotation_id": 14438,
+                    "frameName": "Awareness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Awareness",
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "의심을 받는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 32
+                            },
+                            "text": "비밀의 핵무기 프로그램을 가지고 있다는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "text": "국가들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2842,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의심받다.v.Awareness",
+                    "text": "그럼에도 불구하고, 비밀의 핵무기 프로그램을 가지고 있다는 의심을 받는 국가들은 비확산 전문가, 정보 요원, 그리고 다른 관찰자들에 의한 철저한 조사 대상이다."
+                }
+            ]
+        }
+    ]
+}

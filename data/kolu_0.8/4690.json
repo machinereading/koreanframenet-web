@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "보급.n.Store",
+    "frameID": 1511,
+    "frameName": "Store",
+    "en_lus": [
+        "supply"
+    ],
+    "lu_id": 4690,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17211",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "supplies"
+                    ],
+                    "ko_annotation_id": 17211,
+                    "annotation_id": 14721,
+                    "frameName": "Store",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Store",
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "보급"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "중유 오일",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2880,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보급.n.Store",
+                    "text": "평양은 중유 오일 보급 손실에 대한 보상으로 전기를 생산하기 위해 동결을 해제한다고 언급하였고, 북한 기술자들은 봉인을 제거하고  수일 이내에 영변군의 핵 시설의 감시 카메라를 망가뜨릴 수 있었다."
+                }
+            ]
+        }
+    ]
+}

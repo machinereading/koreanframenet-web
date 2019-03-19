@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "젖다.v.Being_wet",
+    "frameID": 332,
+    "frameName": "Being_wet",
+    "en_lus": [
+        "nureru .濡れる "
+    ],
+    "lu_id": 4766,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10584",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nureru .濡れる "
+                    ],
+                    "ko_annotation_id": 10584,
+                    "annotation_id": 0,
+                    "frameName": "Being_wet",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_wet",
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "젖은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "섬이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "흠뻑",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3879,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "젖다.v.Being_wet",
+                    "text": "섬이 흠뻑 젖은 것처럼도 보였다."
+                }
+            ]
+        }
+    ]
+}

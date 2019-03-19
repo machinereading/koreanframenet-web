@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "중심.n.Dominate_situation",
+    "frameID": 1795,
+    "frameName": "Dominate_situation",
+    "en_lus": [
+        "tyuusin .中心 "
+    ],
+    "lu_id": 4936,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10285",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tyuusin .中心 "
+                    ],
+                    "ko_annotation_id": 10285,
+                    "annotation_id": 0,
+                    "frameName": "Dominate_situation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dominate_situation",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "중심을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 47
+                            },
+                            "text": "관공서의 연회가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Situation",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "중심을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3649,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중심.n.Dominate_situation",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
+                }
+            ]
+        }
+    ]
+}

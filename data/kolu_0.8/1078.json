@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이번주.n.Calendric_unit",
+    "frameID": 229,
+    "frameName": "Calendric_unit",
+    "en_lus": [
+        "week"
+    ],
+    "lu_id": 1078,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10032",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "week"
+                    ],
+                    "ko_annotation_id": 10032,
+                    "annotation_id": 18538,
+                    "frameName": "Calendric_unit",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Calendric_unit",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "이번주,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relative_Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "이번주,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3537,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이번주.n.Calendric_unit",
+                    "text": "이번주, 정부는 네 번째 순위의 기업 연합 리더인, Jose Abello Silva를 체포하였다"
+                }
+            ]
+        }
+    ]
+}

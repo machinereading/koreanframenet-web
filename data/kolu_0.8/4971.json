@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "병력.n.Military",
+    "frameID": 1514,
+    "frameName": "Military",
+    "en_lus": [
+        "force"
+    ],
+    "lu_id": 4971,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1828",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "forces"
+                    ],
+                    "ko_annotation_id": 1828,
+                    "annotation_id": 3766,
+                    "frameName": "Military",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Military",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "병력이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "text": "이스라엘",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 718,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "병력.n.Military",
+                    "text": "나머지 새로운 유대 국가로부터 분리된 서 예루살렘은 이스라엘 병력이 해안 지역까지 도시를 연결하는 회랑 지대를 확보할 때까지 수개월 간 포위당한 채로 지속되었다."
+                }
+            ]
+        }
+    ]
+}

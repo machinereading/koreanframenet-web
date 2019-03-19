@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "히나마쓰리.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "hinamaturi .雛祭 "
+    ],
+    "lu_id": 2533,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16352",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hinamaturi .雛祭 "
+                    ],
+                    "ko_annotation_id": 16352,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "히나마쓰리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "음력시대의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "text": "히나마쓰리는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4107,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "히나마쓰리.n.Social_event",
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다."
+                }
+            ]
+        }
+    ]
+}

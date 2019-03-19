@@ -1,0 +1,87 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "소실되다.v.Cause_harm",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "en_lus": [
+        "yakiharau .焼き払う "
+    ],
+    "lu_id": 2719,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10602",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "yakiharau .焼き払う "
+                    ],
+                    "ko_annotation_id": 10602,
+                    "annotation_id": 0,
+                    "frameName": "Cause_harm",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "소실되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 28
+                            },
+                            "text": "오에이 29년(1422.)에 세워진 최초의 왜관은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 46
+                            },
+                            "text": "도요토미 히데요시의 조선침략으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3887,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소실되다.v.Cause_harm",
+                    "text": "오에이 29년(1422.)에 세워진 최초의 왜관은, 도요토미 히데요시의 조선침략으로 소실되었다."
+                }
+            ]
+        }
+    ]
+}

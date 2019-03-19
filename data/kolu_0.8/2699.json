@@ -1,0 +1,65 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "지방출신.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "province"
+    ],
+    "lu_id": 2699,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9374",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "province"
+                    ],
+                    "ko_annotation_id": 9374,
+                    "annotation_id": 17524,
+                    "frameName": "Political_locales",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Political_locales",
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "용이한 지방"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 46
+                            },
+                            "text": "알려진 특권이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3288,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지방출신.n.Political_locales",
+                    "text": "집들 중 한 곳에서 발견된 여권들은 남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방 출신으로 확인되었다."
+                }
+            ]
+        }
+    ]
+}

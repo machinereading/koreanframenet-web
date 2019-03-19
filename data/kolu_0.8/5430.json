@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "다치다.v.Cause_harm",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "en_lus": [
+        "hurt"
+    ],
+    "lu_id": 5430,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13817",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hurt"
+                    ],
+                    "ko_annotation_id": 13817,
+                    "annotation_id": 7292,
+                    "frameName": "Cause_harm",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 84,
+                                "end": 87
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "다치게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "text": "제재가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 83
+                            },
+                            "text": "무고한 이라크인들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1518,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "다치다.v.Cause_harm",
+                    "text": "오하이오주 민주당원 대표 Tony Hall은 이라크의 쿠웨이트 침공에 대해 부과한 제재의 해제를 요청하지 않았으나, 유엔은 제재가 무고한 이라크인들을 다치게 하지 않는다는 것을 확실히 해야 한다고 말하였다."
+                }
+            ]
+        }
+    ]
+}

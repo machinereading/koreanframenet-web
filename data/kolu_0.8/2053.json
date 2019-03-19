@@ -1,0 +1,113 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "장군.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "general"
+    ],
+    "lu_id": 2053,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1369",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "generals"
+                    ],
+                    "ko_annotation_id": 1369,
+                    "annotation_id": 2862,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "장군들에게"
+                        }
+                    ],
+                    "sent_id": 543,
+                    "relations": [],
+                    "lu": "장군.n.Leadership",
+                    "text": "알렉산더 사후, 그의 영토는 그의 장군들에게 분배되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13144",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "general"
+                    ],
+                    "ko_annotation_id": 13144,
+                    "annotation_id": 3578,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "장군"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "로마",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "text": "Titus는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 670,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "장군.n.Leadership",
+                    "text": "결국, 로마 장군 Titus는 서기 70년에 예루살렘을 포위하였고, 마침내 예루살렘의 굶주리고 허약해진 방어자들을 공격하였다."
+                }
+            ]
+        }
+    ]
+}

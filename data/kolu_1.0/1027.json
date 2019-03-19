@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "노출되다.v.Required_event",
+    "ko_pos": "v",
+    "frameID": 1381,
+    "frameName": "Required_event",
+    "lu_id": "1027",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1589",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Required_event",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "노출되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Required_Situation",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "일부 버스는 노출되고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1589",
+                    "lu": "노출되다.v.Required_event",
+                    "text": "일부 버스는 노출되고 다른 버스는 위장되어야 한다."
+                }
+            ]
+        }
+    ]
+}

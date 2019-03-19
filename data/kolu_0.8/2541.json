@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "전문가.n.Exporting",
+    "frameID": 1568,
+    "frameName": "Exporting",
+    "en_lus": [
+        "export"
+    ],
+    "lu_id": 2541,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5867",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "exports"
+                    ],
+                    "ko_annotation_id": 5867,
+                    "annotation_id": 10548,
+                    "frameName": "Exporting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exporting",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "전문가들은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Exporter",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "중국의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "미사일",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2123,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전문가.n.Exporting",
+                    "text": "중국의 미사일 전문가들은 10년 이상 문제가 되었다."
+                }
+            ]
+        }
+    ]
+}

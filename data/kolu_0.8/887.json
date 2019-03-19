@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "분지.n.Natural_features",
+    "frameID": 191,
+    "frameName": "Natural_features",
+    "en_lus": [
+        "bonti .盆地 "
+    ],
+    "lu_id": 887,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16282",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "bonti .盆地 "
+                    ],
+                    "ko_annotation_id": 16282,
+                    "annotation_id": 0,
+                    "frameName": "Natural_features",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Natural_features",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "분지,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "text": "카트만두의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Locale",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "분지,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3903,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분지.n.Natural_features",
+                    "text": "<마나사라>로 표준화된, 카트만두의 분지, 도시, 주거는 각각 하나의 루푸이다."
+                }
+            ]
+        }
+    ]
+}

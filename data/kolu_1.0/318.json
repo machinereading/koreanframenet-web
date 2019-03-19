@@ -1,0 +1,84 @@
+{
+    "en_lus": [],
+    "ko_lu": "결성하다.v.Intentionally_create",
+    "ko_pos": "v",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "lu_id": "318",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-532",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 74,
+                                "end": 80
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "결성하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "text": "몇몇 섬과 그리스 도시국가들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 73
+                            },
+                            "text": "Delos 섬에서 가진 그들의 계획들에 자금을 지원하기 위해 보고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "532",
+                    "lu": "결성하다.v.Intentionally_create",
+                    "text": "몇몇 섬과 그리스 도시국가들이 함께 일하기로 합의하였고, 그들은 Delos 섬에서 가진 그들의 계획들에 자금을 지원하기 위해 보고를 결성하였다."
+                }
+            ]
+        }
+    ]
+}

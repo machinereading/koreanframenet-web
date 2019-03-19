@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "왕조.n.Leadership",
+    "ko_pos": "n",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "lu_id": "3506",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-642",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "왕조의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "바빌론의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 32
+                            },
+                            "text": "Nebuchadnezzar가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "642",
+                    "lu": "왕조.n.Leadership",
+                    "text": "다윗 왕조의 끝은 바빌론의 왕 Nebuchadnezzar가 예루살렘을 포위하기 위해 유다를 침공했을 때인 기원전 587년에 도래하였다."
+                }
+            ]
+        }
+    ]
+}

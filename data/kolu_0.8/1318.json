@@ -1,0 +1,144 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "감사하다.a.Judgment_direct_address",
+    "frameID": 711,
+    "frameName": "Judgment_direct_address",
+    "en_lus": [
+        "arigatoo .ありがとう ",
+        "Thanks"
+    ],
+    "lu_id": 1318,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4809",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "arigatoo .ありがとう ",
+                        "Thanks"
+                    ],
+                    "ko_annotation_id": 4809,
+                    "annotation_id": 8761,
+                    "frameName": "Judgment_direct_address",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_direct_address",
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "감사한다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Reason",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 32
+                            },
+                            "text": "할 수 있는 한 빨리 이들에 대해 작업을 한데 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1813,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감사하다.a.Judgment_direct_address",
+                    "text": "당신이 할 수 있는 한 빨리 이들에 대해 작업을 한데 대해 감사한다 - 수치를 내놓는 것에 우선권이 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10975",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "arigatoo .ありがとう ",
+                        "Thanks"
+                    ],
+                    "ko_annotation_id": 10975,
+                    "annotation_id": 0,
+                    "frameName": "Judgment_direct_address",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_direct_address",
+                            "span": {
+                                "begin": 18,
+                                "end": 31
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "죄송합니다」「감사합니다」"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "text": "손님의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4094,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감사하다.a.Judgment_direct_address",
+                    "text": "「어서 오세요」「기다리시게 해서 죄송합니다」「감사합니다」 같은 활력 넘치는 목소리가 귓가에 들리면, 손님의 긴장은 누그러집니다."
+                }
+            ]
+        }
+    ]
+}

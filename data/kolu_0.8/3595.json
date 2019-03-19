@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "죽이다.v.Cause_harm",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "en_lus": [
+        "kiru .斬る "
+    ],
+    "lu_id": 3595,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10270",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kiru .斬る "
+                    ],
+                    "ko_annotation_id": 10270,
+                    "annotation_id": 0,
+                    "frameName": "Cause_harm",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "죽여라」라는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 14
+                            },
+                            "text": "「요카와 헤이시치로를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3642,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "죽이다.v.Cause_harm",
+                    "text": "만약 「요카와 헤이시치로를 죽여라」라는 명령이 시즈에서 내려졌다면, 아무리 배를 뒤쫓아가도 소용없었을 것이다."
+                }
+            ]
+        }
+    ]
+}

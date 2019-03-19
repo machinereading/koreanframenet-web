@@ -1,0 +1,84 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "있다.a.Containing",
+    "frameID": 397,
+    "frameName": "Containing",
+    "en_lus": [
+        "hold"
+    ],
+    "lu_id": 4976,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2904",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "holds"
+                    ],
+                    "ko_annotation_id": 2904,
+                    "annotation_id": 5573,
+                    "frameName": "Containing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Containing",
+                            "span": {
+                                "begin": 63,
+                                "end": 65
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Contents",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 49
+                            },
+                            "text": "많은 종의 식물과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Container",
+                            "token_span": [
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 72
+                            },
+                            "text": "대형 온실을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1065,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "있다.a.Containing",
+                    "text": "그 공원의 10.5 헥타르 ( 25 에이크 ) 의 조경된 공원과 호수는 많은 종의 식물과 다양한 이국적인 새들이 있는 대형 온실을 가지고 있다."
+                }
+            ]
+        }
+    ]
+}

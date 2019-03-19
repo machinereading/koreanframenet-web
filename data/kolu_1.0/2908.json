@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "습하다.a.Being_wet",
+    "ko_pos": "a",
+    "frameID": 332,
+    "frameName": "Being_wet",
+    "lu_id": "2908",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4654",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_wet",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "습하다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Liquid",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "밤안개일까,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "공기가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4654",
+                    "lu": "습하다.a.Being_wet",
+                    "text": "밤안개일까, 공기가 습하다."
+                }
+            ]
+        }
+    ]
+}

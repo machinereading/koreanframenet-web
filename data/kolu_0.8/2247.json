@@ -1,0 +1,93 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "얻다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "give"
+    ],
+    "lu_id": 2247,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16858",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "given"
+                    ],
+                    "ko_annotation_id": 16858,
+                    "annotation_id": 2377,
+                    "frameName": "Giving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 62,
+                                "end": 68
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "얻게 된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 25
+                            },
+                            "text": "Pleasant Run에 오는 아이들과 가족은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 61
+                            },
+                            "text": "행복하고, 사랑하고, 생산적인 우리 사회의 구성원들이 될 기회를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 454,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "얻다.v.Giving",
+                    "text": "Pleasant Run에 오는 아이들과 가족은 행복하고, 사랑하고, 생산적인 우리 사회의 구성원들이 될 기회를 얻게 된다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "en_lus": [],
+    "ko_lu": "요구하다.v.Request",
+    "ko_pos": "v",
+    "frameID": 41,
+    "frameName": "Request",
+    "lu_id": "3533",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1724",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "요구한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 29
+                            },
+                            "text": "왜 이 조사가 수행되지 않는지 이해한다는 것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1724",
+                    "lu": "요구하다.v.Request",
+                    "text": "우리는 왜 이 조사가 수행되지 않는지 이해한다는 것을 미국 국민을 대신하여 요구한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-362",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "요구한다."
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "362",
+                    "lu": "요구하다.v.Request",
+                    "text": "그의 직무의 목표는 그가 그것을 30분 안에 할 것을 요구한다."
+                }
+            ]
+        }
+    ]
+}

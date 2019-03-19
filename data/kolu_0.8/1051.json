@@ -1,0 +1,102 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "포장하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "packaging"
+    ],
+    "lu_id": 1051,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13347",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "packaging"
+                    ],
+                    "ko_annotation_id": 13347,
+                    "annotation_id": 4959,
+                    "frameName": "Placing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Placing",
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "포장해 놓는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "더블린은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Beneficiary",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "방문객을 위해서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "text": "자신의 과거를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 955,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포장하다.v.Placing",
+                    "text": "더블린은 방문객을 위해서 자신의 과거를 포장해 놓는 일에 탁월합니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "신입.n.Age",
+    "ko_pos": "n",
+    "frameID": 972,
+    "frameName": "Age",
+    "lu_id": "3003",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3565",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "신입"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "부원이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3565",
+                    "lu": "신입.n.Age",
+                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다."
+                }
+            ]
+        }
+    ]
+}

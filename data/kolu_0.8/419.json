@@ -1,0 +1,64 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "인용하다.v.Text",
+    "frameID": 298,
+    "frameName": "Text",
+    "en_lus": [
+        "account"
+    ],
+    "lu_id": 419,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6240",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "accounts"
+                    ],
+                    "ko_annotation_id": 6240,
+                    "annotation_id": 11286,
+                    "frameName": "Text",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "인용한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Author",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 42
+                            },
+                            "text": "미국 신문기사에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2255,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인용하다.v.Text",
+                    "text": "1996년 10월 2일자 일급 비밀 중앙정보부 보고를 인용한 미국 신문기사에 의하면, 중국은 거의 400 미터톤의 이황화탄소, 신경 및 폭동진압 전구물질을 이란에 판매하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "대서.n.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "hureru .触れる "
+    ],
+    "lu_id": 4826,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11820",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hureru .触れる "
+                    ],
+                    "ko_annotation_id": 11820,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "대서는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "text": "100일간은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "text": "여자에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 40
+                            },
+                            "text": "손을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4650,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대서.n.Perception_active",
+                    "text": "도깨비는 「약속대로 여자를 데려왔지만, 100일간은 절대로 여자에게 손을 대서는 안된다."
+                }
+            ]
+        }
+    ]
+}

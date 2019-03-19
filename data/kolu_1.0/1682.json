@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "명령.n.Request",
+    "ko_pos": "n",
+    "frameID": 41,
+    "frameName": "Request",
+    "lu_id": "1682",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3642",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "명령이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 21
+                            },
+                            "text": "「요카와 헤이시치로를 죽여라」라는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "text": "시즈에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3642",
+                    "lu": "명령.n.Request",
+                    "text": "만약 「요카와 헤이시치로를 죽여라」라는 명령이 시즈에서 내려졌다면, 아무리 배를 뒤쫓아가도 소용없었을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4441",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "명령에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "고노무카이의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4441",
+                    "lu": "명령.n.Request",
+                    "text": "스승 고노무카이의 명령에 따라, 빈집을 청소하러 갔습니다."
+                }
+            ]
+        }
+    ]
+}

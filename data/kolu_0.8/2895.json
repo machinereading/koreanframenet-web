@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "공부하다.v.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "education"
+    ],
+    "lu_id": 2895,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13310",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "education"
+                    ],
+                    "ko_annotation_id": 13310,
+                    "annotation_id": 4715,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "공부하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Level",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 12
+                            },
+                            "text": "더",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 911,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "공부하다.v.Education_teaching",
+                    "text": "많은 자마이카인들은 더 공부하기 위해 미국으로 가고 있고, 기업 투자 및 계획과 같은 분야에서 미국의 경제적 영향은 증가하고 있다."
+                }
+            ]
+        }
+    ]
+}

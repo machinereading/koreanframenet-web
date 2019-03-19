@@ -1,0 +1,102 @@
+{
+    "en_lus": [],
+    "ko_lu": "입증하다.v.Evidence",
+    "ko_pos": "v",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "lu_id": "4000",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3216",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 58,
+                                "end": 63
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "입증하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Domain_Of_Relevance",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "동물의 효험 연구에서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "text": "Anthim은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Proposition",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 57
+                            },
+                            "text": "한 번의 예방 투여량으로 탄저병 포자의 도전에 대해 완전한 보호를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3216",
+                    "lu": "입증하다.v.Evidence",
+                    "text": "동물의 효험 연구에서, Anthim은 한 번의 예방 투여량으로 탄저병 포자의 도전에 대해 완전한 보호를 입증하였고 치명적인 도전 후 최대 이틀 간의 투여 시 상당한 보호를 보여주었다."
+                }
+            ]
+        }
+    ]
+}

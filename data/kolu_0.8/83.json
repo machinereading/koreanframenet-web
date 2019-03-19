@@ -1,0 +1,84 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "사업하다.v.Being_employed",
+    "frameID": 282,
+    "frameName": "Being_employed",
+    "en_lus": [
+        "work"
+    ],
+    "lu_id": 83,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 4585",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "working"
+                    ],
+                    "ko_annotation_id": 4585,
+                    "annotation_id": 8369,
+                    "frameName": "Being_employed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_employed",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "사업을 하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Field",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "전자 무역 분야에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Employee",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "text": "회사들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1717,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사업하다.v.Being_employed",
+                    "text": "그는 두바이를 전자 무역 분야에서 사업을 하는 회사들이 두바이를 그들의 본부로 하고 그리고 외국인들이 완전히 소유하고 있는 회사들에게 개방된 이 지역에 사무실을 설치하고 고용을 제공하고 기계류를 소유하는 것이 가능할 것이라고 말하였다."
+                }
+            ]
+        }
+    ]
+}

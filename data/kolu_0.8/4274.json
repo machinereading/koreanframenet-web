@@ -1,0 +1,88 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "도망치다.v.Fleeing",
+    "frameID": 1659,
+    "frameName": "Fleeing",
+    "en_lus": [
+        "flee"
+    ],
+    "lu_id": 4274,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13057",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fleeing"
+                    ],
+                    "ko_annotation_id": 13057,
+                    "annotation_id": 3163,
+                    "frameName": "Fleeing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fleeing",
+                            "span": {
+                                "begin": 70,
+                                "end": 75
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "도망쳤다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "많은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 69
+                            },
+                            "text": "연안의 그리스가 통치하는 섬들인 Lesvos, Chios, 그리고 Samos로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 596,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도망치다.v.Fleeing",
+                    "text": "많은 사람들이 그들의 출생지를 떠나야 했으며, 연안의 그리스가 통치하는 섬들인 Lesvos, Chios, 그리고 Samos로 도망쳤다."
+                }
+            ]
+        }
+    ]
+}

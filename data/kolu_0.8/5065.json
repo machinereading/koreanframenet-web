@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "다이비루.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "biru .ビル "
+    ],
+    "lu_id": 5065,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10393",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "biru .ビル "
+                    ],
+                    "ko_annotation_id": 10393,
+                    "annotation_id": 0,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "다이비루는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Building",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "다이비루는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3716,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "다이비루.n.Buildings",
+                    "text": "다이비루는 그의 회사에서는 가깝다."
+                }
+            ]
+        }
+    ]
+}

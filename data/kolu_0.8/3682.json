@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "유지하다.v.Defending",
+    "frameID": 1330,
+    "frameName": "Defending",
+    "en_lus": [
+        "hold"
+    ],
+    "lu_id": 3682,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 1784",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hold"
+                    ],
+                    "ko_annotation_id": 1784,
+                    "annotation_id": 3688,
+                    "frameName": "Defending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Defending",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "유지할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Defender",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "기독교도들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "도시를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 697,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유지하다.v.Defending",
+                    "text": "그러나 기독교도들은 도시를 유지할 수 없었다."
+                }
+            ]
+        }
+    ]
+}

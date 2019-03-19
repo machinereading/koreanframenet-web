@@ -1,0 +1,89 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "자행하다.v.Committing_crime",
+    "frameID": 700,
+    "frameName": "Committing_crime",
+    "en_lus": [
+        "perpetrate"
+    ],
+    "lu_id": 1169,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 5649",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "perpetrated"
+                    ],
+                    "ko_annotation_id": 5649,
+                    "annotation_id": 10212,
+                    "frameName": "Committing_crime",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Committing_crime",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "자행한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Crime",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 33
+                            },
+                            "text": "오클라호마 시티의 연방 건물에 대한 1995년 4월의 폭격을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 46
+                            },
+                            "text": " Timothy",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2084,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자행하다.v.Committing_crime",
+                    "text": "오클라호마 시티의 연방 건물에 대한 1995년 4월의 폭격을 자행한  Timothy McVeigh는 애국자 조직의 멤버는 아니었으나 신념적으로 반정부 공동체인 것으로 강하게  확인되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "아내.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "tuma .妻 "
+    ],
+    "lu_id": 2918,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12004",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tuma .妻 "
+                    ],
+                    "ko_annotation_id": 12004,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "아내가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Partner_2",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "미무라가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "text": "키다 씨는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4772,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "아내.n.Personal_relationship",
+                    "text": "미무라가 신뢰받는 기업의 직원이라는 점은 유리하게 작용하겠지만, 키다 씨는 아직 아내가 아닌, 약혼자라 부를 수 밖에 없다."
+                }
+            ]
+        }
+    ]
+}

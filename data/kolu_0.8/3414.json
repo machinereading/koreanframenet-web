@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "재빠르다.a.Speed_description",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "en_lus": [
+        "subayai .素早い"
+    ],
+    "lu_id": 3414,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10361",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "subayai .素早い"
+                    ],
+                    "ko_annotation_id": 10361,
+                    "annotation_id": 0,
+                    "frameName": "Speed_description",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Speed_description",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재빠르다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이 타이밍이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "정말로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3701,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재빠르다.a.Speed_description",
+                    "text": "이 타이밍이 정말로 재빠르다."
+                }
+            ]
+        }
+    ]
+}

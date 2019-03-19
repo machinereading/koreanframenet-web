@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "끔찍하다.a.Emotion_directed",
+    "ko_pos": "a",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "lu_id": "874",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4093",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "끔찍한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "사고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4093",
+                    "lu": "끔찍하다.a.Emotion_directed",
+                    "text": "이 끔찍한 사고를 아름다운 것으로 바꾸고 싶었던 것이다."
+                }
+            ]
+        }
+    ]
+}

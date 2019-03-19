@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "매뉴얼.n.Text",
+    "frameID": 298,
+    "frameName": "Text",
+    "en_lus": [
+        "manual"
+    ],
+    "lu_id": 5112,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 15095",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "manual"
+                    ],
+                    "ko_annotation_id": 15095,
+                    "annotation_id": 13806,
+                    "frameName": "Text",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "매뉴얼은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "북한군의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2742,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "매뉴얼.n.Text",
+                    "text": "1947년 초에, 북한군의 매뉴얼은 적어도 화학무기 운용 교리 이론을 다루었다."
+                }
+            ]
+        }
+    ]
+}

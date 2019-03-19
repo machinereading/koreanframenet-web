@@ -1,0 +1,87 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "경매.n.Commerce_sell",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "en_lus": [
+        "auction"
+    ],
+    "lu_id": 1667,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 13505",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "auction"
+                    ],
+                    "ko_annotation_id": 13505,
+                    "annotation_id": 5978,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "경매에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 42
+                            },
+                            "text": "넓은 지역 도매 생선 시장에서 열리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 47
+                            },
+                            "text": "새벽 전",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1137,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "경매.n.Commerce_sell",
+                    "text": "당신이 충분히 일찍 일어날 수 있다면, 넓은 지역 도매 생선 시장에서 열리는 새벽 전 경매에 참석할 수 있다 ; 그렇지 않으면, 나중에 낮에 여는 거리 시장을 보아라."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "안건.n.Project",
+    "ko_pos": "n",
+    "frameID": 1158,
+    "frameName": "Project",
+    "lu_id": "3099",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3995",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Project",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "안건은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "text": "조사만 하고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3995",
+                    "lu": "안건.n.Project",
+                    "text": "애초 나는, 이 안건은 조사만 하고, 기업 회생의 실행은 맡을 생각이 없었다."
+                }
+            ]
+        }
+    ]
+}

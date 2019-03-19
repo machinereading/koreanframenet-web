@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "승리하다.v.Finish_competition",
+    "frameID": 798,
+    "frameName": "Finish_competition",
+    "en_lus": [
+        "victorious"
+    ],
+    "lu_id": 2904,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 6798",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "victorious"
+                    ],
+                    "ko_annotation_id": 6798,
+                    "annotation_id": 12416,
+                    "frameName": "Finish_competition",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Finish_competition",
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "승리한다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competitor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "이라크는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2475,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "승리하다.v.Finish_competition",
+                    "text": "다양한 이유로, 이라크는 -- 승리한다고 느끼면서 -- 1988년 4월 21일에 일방적인 휴전을 선포하였다."
+                }
+            ]
+        }
+    ]
+}

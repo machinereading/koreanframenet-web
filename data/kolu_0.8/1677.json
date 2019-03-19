@@ -1,0 +1,66 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "의혹.n.Awareness",
+    "frameID": 19,
+    "frameName": "Awareness",
+    "en_lus": [
+        "suspicion"
+    ],
+    "lu_id": 1677,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 3666",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "suspicion"
+                    ],
+                    "ko_annotation_id": 3666,
+                    "annotation_id": 6856,
+                    "frameName": "Awareness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Awareness",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "의혹으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 43
+                            },
+                            "text": "아프간 캠페인을 잘못 시행했다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1407,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의혹.n.Awareness",
+                    "text": "빈 라덴이 Tora Bora에 있었다는 사실은 아프간 캠페인을 잘못 시행했다는 의혹으로 이어졌다."
+                }
+            ]
+        }
+    ]
+}

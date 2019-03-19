@@ -1,0 +1,100 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "후계자.n.Take_place_of",
+    "frameID": 1171,
+    "frameName": "Take_place_of",
+    "en_lus": [
+        "kookei .後継 "
+    ],
+    "lu_id": 3139,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10901",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kookei .後継 "
+                    ],
+                    "ko_annotation_id": 10901,
+                    "annotation_id": 0,
+                    "frameName": "Take_place_of",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Take_place_of",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "후계자들의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그와",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "그 후계자들의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Function",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "역할은,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4059,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "후계자.n.Take_place_of",
+                    "text": "그와 그 후계자들의 역할은, 벤담 학파의 반역사적 성향에 대응하여, 강력한 평형력을 유지하는 것이었다."
+                }
+            ]
+        }
+    ]
+}

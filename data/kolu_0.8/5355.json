@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "오래다.a.Measure_duration",
+    "frameID": 224,
+    "frameName": "Measure_duration",
+    "en_lus": [
+        "a while"
+    ],
+    "lu_id": 5355,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2456",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "a while"
+                    ],
+                    "ko_annotation_id": 2456,
+                    "annotation_id": 4814,
+                    "frameName": "Measure_duration",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Measure_duration",
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "오래"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "무언가를 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "기다려야",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 930,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오래다.a.Measure_duration",
+                    "text": "무언가를 위해 오래 기다려야 하는 것이 세상에서 최악의 문제는 아니다."
+                }
+            ]
+        }
+    ]
+}

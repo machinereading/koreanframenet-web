@@ -1,0 +1,81 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "경찰.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "keesi .警視 "
+    ],
+    "lu_id": 5329,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16765",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "keesi .警視 "
+                    ],
+                    "ko_annotation_id": 16765,
+                    "annotation_id": 0,
+                    "frameName": "People_by_vocation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_vocation",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "경찰"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "경찰",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rank",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "총경의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4902,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "경찰.n.People_by_vocation",
+                    "text": "카림은 경찰 총경의 모습을 바라보고 있었다."
+                }
+            ]
+        }
+    ]
+}

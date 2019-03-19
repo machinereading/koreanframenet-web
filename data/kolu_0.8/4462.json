@@ -1,0 +1,82 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Getting",
+    "frameID": 179,
+    "frameName": "Getting",
+    "en_lus": [
+        "get"
+    ],
+    "lu_id": 4462,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 17030",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "getting"
+                    ],
+                    "ko_annotation_id": 17030,
+                    "annotation_id": 9334,
+                    "frameName": "Getting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Getting",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "선발된 그룹이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1928,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Getting",
+                    "text": "그들은 정말로 선발된 그룹이 된다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "원인이_되다.v.Causation",
+    "ko_pos": "v",
+    "frameID": 5,
+    "frameName": "Causation",
+    "lu_id": "3608",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2157",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 43,
+                                "end": 49
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "원인이 되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 42
+                            },
+                            "text": "마르부르크병, 천연두, 전염병, 그리고 야토병과 같은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 55
+                            },
+                            "text": "원인인자로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2157",
+                    "lu": "원인이_되다.v.Causation",
+                    "text": "이들 과학자는 아마도, 마르부르크병, 천연두, 전염병, 그리고 야토병과 같은 원인이 되는 원인인자로 실험할 것이다."
+                }
+            ]
+        }
+    ]
+}

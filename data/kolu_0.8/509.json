@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "고용.n.Employing",
+    "frameID": 323,
+    "frameName": "Employing",
+    "en_lus": [
+        "koyoo .雇用 "
+    ],
+    "lu_id": 509,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11049",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "koyoo .雇用 "
+                    ],
+                    "ko_annotation_id": 11049,
+                    "annotation_id": 0,
+                    "frameName": "Employing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Employing",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "고용에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "text": "13개국의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4123,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고용.n.Employing",
+                    "text": "우리는 주로 경제발전과 고용에 힘쓰는 13개국의 민간부문 제휴로 이루어져 있습니다."
+                }
+            ]
+        }
+    ]
+}

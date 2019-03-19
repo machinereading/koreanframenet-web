@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "오르다.v.Self_motion",
+    "ko_pos": "v",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "lu_id": "3452",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4514",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "올랐다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "나중에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "대사마대장군에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4514",
+                    "lu": "오르다.v.Self_motion",
+                    "text": "무제에서 봉차도위로 임명되고, 나중에 대사마대장군에 올랐다."
+                }
+            ]
+        }
+    ]
+}

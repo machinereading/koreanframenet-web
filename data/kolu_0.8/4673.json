@@ -1,0 +1,115 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "보도.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "sidewalk"
+    ],
+    "lu_id": 4673,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 411",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sidewalk"
+                    ],
+                    "ko_annotation_id": 411,
+                    "annotation_id": 845,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "보도가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relative_Location",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 43
+                            },
+                            "text": "우리의 발 밑의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Material",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "벽돌로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 148,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보도.n.Roadways",
+                    "text": "그리고 상황이 더 악화되자, 우리는 문을 향해 달려갔고 그리고 우리의 발 밑의 벽돌로 된 보도가 상하로 삐져나오고 꽃들이 이상한 리듬으로 흔들리는 것을 보면서 밖에서 몇 분간을 보냈다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2277",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sidewalk"
+                    ],
+                    "ko_annotation_id": 2277,
+                    "annotation_id": 4533,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "보도"
+                        }
+                    ],
+                    "sent_id": 875,
+                    "relations": [],
+                    "lu": "보도.n.Roadways",
+                    "text": "그들의 호주머니에 아무것도 없이 도착하고, 작은 보도 가판대를 설치하고, 그들이 자신의 가게를 가질 때까지 부지런히 일하고, 그리고 나서 그것을 어느 정도 규모가 되는 체인으로 확장한 난민들의 많은 이야기가 있다."
+                }
+            ]
+        }
+    ]
+}

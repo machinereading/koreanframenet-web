@@ -1,0 +1,85 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "무게.n.Dimension",
+    "frameID": 108,
+    "frameName": "Dimension",
+    "en_lus": [
+        "weigh"
+    ],
+    "lu_id": 5121,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 121",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "weigh"
+                    ],
+                    "ko_annotation_id": 121,
+                    "annotation_id": 188,
+                    "frameName": "Dimension",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dimension",
+                            "span": {
+                                "begin": 66,
+                                "end": 73
+                            },
+                            "token_span": [
+                                18,
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "무게가 나가기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Object",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 57
+                            },
+                            "text": "어떤 종들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Measurement",
+                            "token_span": [
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 65
+                            },
+                            "text": "일 톤이 넘는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 28,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무게.n.Dimension",
+                    "text": "380 년 전 영국인이 발명한 마음을 뛰게하는 활동인 전조타종은 강한 전신적 집중력과 함께 어떤 종들은 일 톤이 넘는 무게가 나가기 때문에 육체적인 기민함을 요구한다."
+                }
+            ]
+        }
+    ]
+}

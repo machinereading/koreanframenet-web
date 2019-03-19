@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "매일.n.Calendric_unit",
+    "frameID": 229,
+    "frameName": "Calendric_unit",
+    "en_lus": [
+        "day"
+    ],
+    "lu_id": 3638,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12797",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "day"
+                    ],
+                    "ko_annotation_id": 12797,
+                    "annotation_id": 2148,
+                    "frameName": "Calendric_unit",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Calendric_unit",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "매일의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "매일의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Whole",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "그들의 삶에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 407,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "매일.n.Calendric_unit",
+                    "text": "그리고 매일의 그들의 삶에서 이러한 도전에 직면하는 많은 사람이 있습니다."
+                }
+            ]
+        }
+    ]
+}

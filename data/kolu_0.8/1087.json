@@ -1,0 +1,63 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "갈다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "iku .行く "
+    ],
+    "lu_id": 1087,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10889",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iku .行く "
+                    ],
+                    "ko_annotation_id": 10889,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "사러갈"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "사러갈",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4047,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "갈다.v.Motion",
+                    "text": "앞으로, 사러갈 때도 편리할 것이다."
+                }
+            ]
+        }
+    ]
+}

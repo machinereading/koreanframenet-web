@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "전하다.v.Sending",
+    "ko_pos": "v",
+    "frameID": 243,
+    "frameName": "Sending",
+    "lu_id": "4218",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1704",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sending",
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "전해주세요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "나의 고모, 삼촌 그리고 할머니에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "안부를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1704",
+                    "lu": "전하다.v.Sending",
+                    "text": "나의 고모, 삼촌 그리고 할머니에게 안부를 전해주세요."
+                }
+            ]
+        }
+    ]
+}

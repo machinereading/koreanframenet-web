@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "통증.n.Perception_body",
+    "frameID": 68,
+    "frameName": "Perception_body",
+    "en_lus": [
+        "itami .痛み "
+    ],
+    "lu_id": 2983,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 11455",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "itami .痛み "
+                    ],
+                    "ko_annotation_id": 11455,
+                    "annotation_id": 0,
+                    "frameName": "Perception_body",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_body",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "통증이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "가벼운",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4402,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "통증.n.Perception_body",
+                    "text": "움직이면 가벼운 통증이 밀려온다."
+                }
+            ]
+        }
+    ]
+}

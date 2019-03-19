@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이슈.n.Point_of_dispute",
+    "frameID": 1608,
+    "frameName": "Point_of_dispute",
+    "en_lus": [
+        "issue"
+    ],
+    "lu_id": 2622,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 247",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "issues"
+                    ],
+                    "ko_annotation_id": 247,
+                    "annotation_id": 528,
+                    "frameName": "Point_of_dispute",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Point_of_dispute",
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "이슈들은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "text": "좋은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 78,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이슈.n.Point_of_dispute",
+                    "text": "극좌파는 비록 그것들을 다루기 위한 좋은 프로그램들은 가지고 있지 않았지만 몇 몇 좋은 이슈들은 가지고 있었다."
+                }
+            ]
+        }
+    ]
+}

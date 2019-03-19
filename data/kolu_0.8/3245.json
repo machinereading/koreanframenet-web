@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "대화.n.Discussion",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "en_lus": [
+        "hanasiai .話し合い "
+    ],
+    "lu_id": 3245,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10354",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanasiai .話し合い "
+                    ],
+                    "ko_annotation_id": 10354,
+                    "annotation_id": 0,
+                    "frameName": "Discussion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "대화」를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 17
+                            },
+                            "text": "「내일로 이어지는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3692,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대화.n.Discussion",
+                    "text": "중요한 것은, 「내일로 이어지는 배움과 대화」를 하는 것입니다."
+                }
+            ]
+        }
+    ]
+}

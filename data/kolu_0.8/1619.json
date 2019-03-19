@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "저자.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "tyosya .著者 "
+    ],
+    "lu_id": 1619,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10984",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tyosya .著者 "
+                    ],
+                    "ko_annotation_id": 10984,
+                    "annotation_id": 0,
+                    "frameName": "People_by_vocation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_vocation",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "저자인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "그 저자인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4099,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "저자.n.People_by_vocation",
+                    "text": "독서를 할 때, 그 저자인 나와 독자인 당신 사이에, 이처럼 바보스러운 「추리 게임」을 시작하게 한 것은 과연 무엇인가? 나는 당신과 대화하고 있는 것이 아니며, 당신의 눈앞에 있는 이러한 문장은, 당신의 의견에 따라서 바뀌는 것이 아니다."
+                }
+            ]
+        }
+    ]
+}

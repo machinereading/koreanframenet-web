@@ -1,0 +1,82 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "배포되다.v.Dispersal",
+    "frameID": 267,
+    "frameName": "Dispersal",
+    "en_lus": [
+        "distribute"
+    ],
+    "lu_id": 5591,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9288",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "distributed"
+                    ],
+                    "ko_annotation_id": 9288,
+                    "annotation_id": 17267,
+                    "frameName": "Dispersal",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dispersal",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "배포된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "가자 지구에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individuals",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "전단에서,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3260,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배포되다.v.Dispersal",
+                    "text": "가자 지구에 배포된 전단에서, 팔레스타인 자치 정부 대통령 Mahmoud Abbas의 Fatah Party에 속한 이 단체는 무기가 3 년 노력의 결과였다고 언급하였다."
+                }
+            ]
+        }
+    ]
+}

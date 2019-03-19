@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "중국인.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "people"
+    ],
+    "lu_id": 5211,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 2267",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "people"
+                    ],
+                    "ko_annotation_id": 2267,
+                    "annotation_id": 4525,
+                    "frameName": "People",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "중국인은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ethnicity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "중국인은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 874,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중국인.n.People",
+                    "text": "중국인은 열심히 일하고 실용적인 것으로 묘사되어 왔는데, 이러한 태도들은 홍콩의 성공에 기여하였다."
+                }
+            ]
+        }
+    ]
+}

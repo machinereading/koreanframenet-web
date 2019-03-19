@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "사후.n.Relative_time",
+    "ko_pos": "n",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "lu_id": "2472",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-543",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "사후,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Occasion",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "알렉산더 사후,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Focal_Occasion",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 31
+                            },
+                            "text": "그의 영토는 그의 장군들에게 분배되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "543",
+                    "lu": "사후.n.Relative_time",
+                    "text": "알렉산더 사후, 그의 영토는 그의 장군들에게 분배되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "미팅.n.Discussion",
+    "ko_pos": "n",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "lu_id": "1810",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4077",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "미팅을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "하는 방법은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4077",
+                    "lu": "미팅.n.Discussion",
+                    "text": "학습회를 열거나 미팅을 하는 방법은 다양합니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4485",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "미팅을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "text": "정기적인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4485",
+                    "lu": "미팅.n.Discussion",
+                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기 위한 연구회를 만드는 것도 좋겠습니다."
+                }
+            ]
+        }
+    ]
+}

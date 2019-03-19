@@ -1,0 +1,104 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "리더.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "leader"
+    ],
+    "lu_id": 4193,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10035",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "leader"
+                    ],
+                    "ko_annotation_id": 10035,
+                    "annotation_id": 18541,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "리더인,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 17
+                            },
+                            "text": "네 번째 순위의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "text": "기업 연합",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Leader",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 47
+                            },
+                            "text": "Jose Abello Silva를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3537,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "리더.n.Leadership",
+                    "text": "이번주, 정부는 네 번째 순위의 기업 연합 리더인, Jose Abello Silva를 체포하였다"
+                }
+            ]
+        }
+    ]
+}

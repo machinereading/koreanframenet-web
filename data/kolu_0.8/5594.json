@@ -1,0 +1,132 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "이.n.Fields",
+    "frameID": 1345,
+    "frameName": "Fields",
+    "en_lus": [
+        "rika .理科 "
+    ],
+    "lu_id": 5594,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10804",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "rika .理科 "
+                    ],
+                    "ko_annotation_id": 10804,
+                    "annotation_id": 0,
+                    "frameName": "Fields",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fields",
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "이과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "중학교",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4005,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이.n.Fields",
+                    "text": "그런 뜻에서, 모형 만들기는 교재 내용과 상관없이, 중학교 이과 과목 안에 일관되게 넣을 가치가 있는 내용이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10927",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "rika .理科 "
+                    ],
+                    "ko_annotation_id": 10927,
+                    "annotation_id": 0,
+                    "frameName": "Fields",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fields",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "이과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "중학교",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "수업은,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4066,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이.n.Fields",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
+                }
+            ]
+        }
+    ]
+}

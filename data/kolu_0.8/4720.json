@@ -1,0 +1,69 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "손.n.Assistance",
+    "frameID": 391,
+    "frameName": "Assistance",
+    "en_lus": [
+        "te o kasu .手 を 貸す "
+    ],
+    "lu_id": 4720,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10477",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "te o kasu .手 を 貸す "
+                    ],
+                    "ko_annotation_id": 10477,
+                    "annotation_id": 0,
+                    "frameName": "Assistance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assistance",
+                            "span": {
+                                "begin": 78,
+                                "end": 80
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "손을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Co_Agent",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 63
+                            },
+                            "text": "계단 끝에 유모차를 들고 서 있는 여자에게는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3770,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "손.n.Assistance",
+                    "text": "길바닥에 주저앉아 있으면 「형아, 괜찮아요?」하고 누군가 말을 걸고, 계단 끝에 유모차를 들고 서 있는 여자에게는 「도와줄게요」하고 기꺼이 손을 내민다."
+                }
+            ]
+        }
+    ]
+}

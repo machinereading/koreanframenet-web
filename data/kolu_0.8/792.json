@@ -1,0 +1,64 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "문화.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "bunka zyuutaku .文化 住宅 "
+    ],
+    "lu_id": 792,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 12031",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "bunka zyuutaku .文化 住宅 "
+                    ],
+                    "ko_annotation_id": 12031,
+                    "annotation_id": 0,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "문화주택"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "text": "우미 장」도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4789,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "문화.n.Buildings",
+                    "text": "집 옆에는 주인이 경영하던 문화주택 「다마노 우미 장」도 있다고 한다."
+                }
+            ]
+        }
+    ]
+}

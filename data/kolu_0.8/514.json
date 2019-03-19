@@ -1,0 +1,86 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "있다.a.Becoming",
+    "frameID": 2971,
+    "frameName": "Becoming",
+    "en_lus": [
+        "go"
+    ],
+    "lu_id": 514,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 469",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "goes"
+                    ],
+                    "ko_annotation_id": 469,
+                    "annotation_id": 993,
+                    "frameName": "Becoming",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Becoming",
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "몸은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_State",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 41
+                            },
+                            "text": "도피 또는 싸움을 위해 온통 주의하고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 179,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "있다.a.Becoming",
+                    "text": "오전 9시 53분 PANDA : 몸은 도피 또는 싸움을 위해 온통 주의하고 있다."
+                }
+            ]
+        }
+    ]
+}

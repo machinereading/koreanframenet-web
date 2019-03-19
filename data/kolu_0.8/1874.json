@@ -1,0 +1,81 @@
+{
+    "ko_pos": "v",
+    "ko_lu": "빠지다.v.Process_end",
+    "frameID": 232,
+    "frameName": "Process_end",
+    "en_lus": [
+        "end"
+    ],
+    "lu_id": 1874,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 8194",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ended"
+                    ],
+                    "ko_annotation_id": 8194,
+                    "annotation_id": 14980,
+                    "frameName": "Process_end",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_end",
+                            "span": {
+                                "begin": 82,
+                                "end": 85
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "궁지에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 77
+                            },
+                            "text": "기대하였고,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Result",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 78,
+                                "end": 81
+                            },
+                            "text": "전쟁이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2920,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빠지다.v.Process_end",
+                    "text": "김일성은 한국 전쟁 동안 소비에트와 중국의 지원에  감사하였으나, 그는 더 많은 것을 기대하였고, 특히 소비에트로부터 더 많이 기대하였고, 전쟁이 궁지에 빠진 것에 불만족하였다."
+                }
+            ]
+        }
+    ]
+}

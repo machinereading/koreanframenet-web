@@ -1,0 +1,63 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "글.n.Text",
+    "frameID": 298,
+    "frameName": "Text",
+    "en_lus": [
+        "writing"
+    ],
+    "lu_id": 4627,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14395",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "writings"
+                    ],
+                    "ko_annotation_id": 14395,
+                    "annotation_id": 10833,
+                    "frameName": "Text",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "글,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Author",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "text": "전문가의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2173,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "글.n.Text",
+                    "text": "대부분의 조사 보고서와 고발은 중앙정보부 보고서, 인용되지 않은 전문가의 글, 그리고 이란 반체제 인사가 만든 주장으로부터 나온다."
+                }
+            ]
+        }
+    ]
+}

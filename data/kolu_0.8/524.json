@@ -1,0 +1,97 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "경비.n.Expensiveness",
+    "frameID": 83,
+    "frameName": "Expensiveness",
+    "en_lus": [
+        "keehi .経費"
+    ],
+    "lu_id": 524,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 10070",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "keehi .経費"
+                    ],
+                    "ko_annotation_id": 10070,
+                    "annotation_id": 0,
+                    "frameName": "Expensiveness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expensiveness",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "경비가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Intended_Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 34
+                            },
+                            "text": "매주, 정기적으로 회의할",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3557,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "경비.n.Expensiveness",
+                    "text": "그래서, 아무리 경비가 든다 하더라도 매주, 정기적으로 회의할 필요가 있다는 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10397",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "keehi .経費"
+                    ],
+                    "ko_annotation_id": 10397,
+                    "annotation_id": 0,
+                    "frameName": "Expensiveness",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expensiveness",
+                            "span": {
+                                "begin": 91,
+                                "end": 93
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "경비"
+                        }
+                    ],
+                    "sent_id": 3720,
+                    "relations": [],
+                    "lu": "경비.n.Expensiveness",
+                    "text": "전일본민의련의 새로운 부문별 손익계산 및 관리요강안에도 「부문 손익계산서 등의 정확성 확보 및 현장 직원이 스스로 관리하는 것을 권장하기 위하여, 부문에서 발생한 경비 등은 가능한 한 부문(현장)에서, 전표 기표하여, 실비로 계상하는 것이 적절합니다」라고 되어 있습니다."
+                }
+            ]
+        }
+    ]
+}

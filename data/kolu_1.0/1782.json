@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "물건.n.Entity",
+    "ko_pos": "n",
+    "frameID": 251,
+    "frameName": "Entity",
+    "lu_id": "1782",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-5022",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Entity",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "물건인지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "text": "얼마 정도 하는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "5022",
+                    "lu": "물건.n.Entity",
+                    "text": "하지만, 구체적으로 어떤 것이 있고, 얼마 정도 하는 물건인지 모른다."
+                }
+            ]
+        }
+    ]
+}

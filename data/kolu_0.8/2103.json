@@ -1,0 +1,65 @@
+{
+    "ko_pos": "a",
+    "ko_lu": "선명하다.a.Age",
+    "frameID": 972,
+    "frameName": "Age",
+    "en_lus": [
+        "namanamasii .生々しい "
+    ],
+    "lu_id": 2103,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 16167",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "namanamasii .生々しい "
+                    ],
+                    "ko_annotation_id": 16167,
+                    "annotation_id": 0,
+                    "frameName": "Age",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "선명했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 20
+                            },
+                            "text": "7바늘이나 꿰메어진 상처는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3694,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선명하다.a.Age",
+                    "text": "키다 씨의 7바늘이나 꿰메어진 상처는 아직 선명했다."
+                }
+            ]
+        }
+    ]
+}

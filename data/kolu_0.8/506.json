@@ -1,0 +1,82 @@
+{
+    "ko_pos": "n",
+    "ko_lu": "소유권.n.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "ownership"
+    ],
+    "lu_id": 506,
+    "patterns": [
+        {
+            "valenceText": "annotation id: 9629",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ownership"
+                    ],
+                    "ko_annotation_id": 9629,
+                    "annotation_id": 17918,
+                    "frameName": "Possession",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "소유권을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 39
+                            },
+                            "text": "Eurodif 주식의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3383,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소유권.n.Possession",
+                    "text": "소송은 1991년 말 해결되었지만, 이란은 아직도 Eurodif 주식의 소유권을 유지하고 있다."
+                }
+            ]
+        }
+    ]
+}
