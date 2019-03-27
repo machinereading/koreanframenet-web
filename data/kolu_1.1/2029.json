@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "뒤틀리다.v.Body_movement",
+    "ko_pos": "v",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "lu_id": "2029",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49684",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Body_movement",
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "뒤틀린다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "몸이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뒤틀리다.v.Body_movement",
+                    "text": "몸이 뒤틀린다."
+                }
+            ]
+        }
+    ]
+}

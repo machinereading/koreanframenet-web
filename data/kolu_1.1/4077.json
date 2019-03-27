@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "순항하다.v.Operate_vehicle",
+    "ko_pos": "v",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "lu_id": "4077",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58551",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operate_vehicle",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "순항하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Driver",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "우리 해군이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "동해안에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "순항하다.v.Operate_vehicle",
+                    "text": "우리 해군이 동해안에서 순항하고 있다."
+                }
+            ]
+        }
+    ]
+}

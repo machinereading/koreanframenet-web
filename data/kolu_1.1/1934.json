@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "동거인.n.Personal_relationship",
+    "ko_pos": "n",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "lu_id": "1934",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3892",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "동거인은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나와",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Partner_2",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "동거인은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3892",
+                    "lu": "동거인.n.Personal_relationship",
+                    "text": "나와 동거인은 파는 사람과 만드는 사람으로 확실히 나뉘어, 서로 상대방의 영역에 관여하지 않게 되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "잡다.v.Getting",
+    "ko_pos": "v",
+    "frameID": 179,
+    "frameName": "Getting",
+    "lu_id": "5672",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38821",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Getting",
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "잡지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "우리 극단은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 17
+                            },
+                            "text": "아직 공연할 극장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잡다.v.Getting",
+                    "text": "우리 극단은 아직 공연할 극장을 잡지 못한 상태였다."
+                }
+            ]
+        }
+    ]
+}

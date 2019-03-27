@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "질러가다.v.Intentional_traversing",
+    "ko_pos": "v",
+    "frameID": 1642,
+    "frameName": "Intentional_traversing",
+    "lu_id": "6535",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42709",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentional_traversing",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "질러가시면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "들판으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "질러가다.v.Intentional_traversing",
+                    "text": "들판으로 질러가시면 꽃마을에 빨리 도착하실 것입니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-42708",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentional_traversing",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "질러가려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "꾀가 많은 토끼는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "산을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "질러가다.v.Intentional_traversing",
+                    "text": "꾀가 많은 토끼는 거북이와의 시합에서 산을 질러가려고 했다."
+                }
+            ]
+        }
+    ]
+}

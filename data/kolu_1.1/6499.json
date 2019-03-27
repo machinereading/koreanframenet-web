@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "직후.n.Relative_time",
+    "ko_pos": "n",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "lu_id": "6499",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1681",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "직후,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Occasion",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "회견",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Focal_Occasion",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 30
+                            },
+                            "text": "그는 요르단 당국에 의해 다시 체포되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1681",
+                    "lu": "직후.n.Relative_time",
+                    "text": "회견 직후, 그는 요르단 당국에 의해 다시 체포되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "en_lus": [],
+    "ko_lu": "내다보이다.v.Predicting",
+    "ko_pos": "v",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "lu_id": "1409",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40452",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "내다보이는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "그녀의 결혼은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "불행이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "text": "뻔히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "내다보이다.v.Predicting",
+                    "text": "그녀의 결혼은 불행이 뻔히 내다보이는 것이었다."
+                }
+            ]
+        }
+    ]
+}

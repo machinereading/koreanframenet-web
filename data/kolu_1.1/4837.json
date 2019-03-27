@@ -1,0 +1,96 @@
+{
+    "en_lus": [],
+    "ko_lu": "예측하다.v.Appeal",
+    "ko_pos": "v",
+    "frameID": 504,
+    "frameName": "Appeal",
+    "lu_id": "4837",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4189",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Appeal",
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "예측할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "대부분의 사람이,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "이 건물을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Appraisal",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 38
+                            },
+                            "text": "평당 단가 70만엔 이상으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4189",
+                    "lu": "예측하다.v.Appeal",
+                    "text": "대부분의 사람이, 이 건물을 보면 적어도 평당 단가 70만엔 이상으로 예측할 것이라 생각합니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "납치당하다.v.Kidnapping",
+    "ko_pos": "v",
+    "frameID": 122,
+    "frameName": "Kidnapping",
+    "lu_id": "1378",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32146",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "납치당한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "회사의 총수가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "괴한에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "납치당하다.v.Kidnapping",
+                    "text": "회사의 총수가 괴한에게 납치당한 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-32147",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "납치당해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "6.25 때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "납치당하다.v.Kidnapping",
+                    "text": "6.25 때 납치당해 행방을 모르는 친척들이 몇 명 있다."
+                }
+            ]
+        }
+    ]
+}

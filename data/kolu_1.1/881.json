@@ -1,0 +1,182 @@
+{
+    "en_lus": [],
+    "ko_lu": "구속시키다.v.Imprisonment",
+    "ko_pos": "v",
+    "frameID": 1111,
+    "frameName": "Imprisonment",
+    "lu_id": "881",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-22005",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "구속시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authorities",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "재판부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "그 회사 대표를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "경제사범으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구속시키다.v.Imprisonment",
+                    "text": "재판부는 그 회사 대표를 경제사범으로 구속시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-22006",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "구속시키는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "법 위반자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구속시키다.v.Imprisonment",
+                    "text": "판사는 법 위반자를 구속시키는 일에 인색해서는 안 되지만 그것보다 더 중요한 것은 형평성을 지키는 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-22007",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "구속시키고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "다른 사람을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구속시키다.v.Imprisonment",
+                    "text": "누구나 다른 사람을 구속시키고 싶은 본능을 지니고 있다."
+                }
+            ]
+        }
+    ]
+}

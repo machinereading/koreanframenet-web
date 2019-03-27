@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "복제되다.v.Duplication",
+    "ko_pos": "v",
+    "frameID": 11,
+    "frameName": "Duplication",
+    "lu_id": "3104",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23085",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Duplication",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "복제되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Original",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "레오나르도 다빈치의 작품 중",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Copy",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "몇 점은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "복제되다.v.Duplication",
+                    "text": "레오나르도 다빈치의 작품 중 몇 점은 복제되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-23084",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Duplication",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "복제된"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "복제되다.v.Duplication",
+                    "text": "돌리는 복제된 양이다."
+                }
+            ]
+        }
+    ]
+}

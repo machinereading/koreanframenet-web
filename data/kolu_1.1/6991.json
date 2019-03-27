@@ -1,0 +1,238 @@
+{
+    "en_lus": [],
+    "ko_lu": "치유하다.v.Cure",
+    "ko_pos": "v",
+    "frameID": 50,
+    "frameName": "Cure",
+    "lu_id": "6991",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-11727",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 101,
+                                "end": 106
+                            },
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "치유됐다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "케네디 의원은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "text": "자신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                22
+                            ],
+                            "span": {
+                                "begin": 93,
+                                "end": 96
+                            },
+                            "text": "이제는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Manner",
+                            "token_span": [
+                                23
+                            ],
+                            "span": {
+                                "begin": 97,
+                                "end": 100
+                            },
+                            "text": "완전히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치유하다.v.Cure",
+                    "text": "케네디 의원은 전날 로드 아일랜드주에서 선거운동을 벌이고 있는 앨 고어 부통령의 부인 티퍼 여사를 수행하던 도중 일단의 청년들에게 자신이 한동안 우울증으로 고생했으나 이제는 완전히 치유됐다고 말했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-45845",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "치유하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medication",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 약이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "그의 병을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치유하다.v.Cure",
+                    "text": "그 약이 그의 병을 치유하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-45846",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "치유하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Healer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "시민 운동이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 22
+                            },
+                            "text": "한국의 부정부패라는 고질병을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치유하다.v.Cure",
+                    "text": "시민 운동이 한국의 부정부패라는 고질병을 치유하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "치르다.v.Commerce_pay",
+    "ko_pos": "v",
+    "frameID": 180,
+    "frameName": "Commerce_pay",
+    "lu_id": "6982",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59120",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "치르기로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Money",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "저녁 식사 값을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치르다.v.Commerce_pay",
+                    "text": "저녁 식사 값을 치르기로 해 놓고 어딜 도망가니?"
+                }
+            ]
+        }
+    ]
+}

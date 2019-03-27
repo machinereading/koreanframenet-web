@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "천황.n.Leadership",
+    "ko_pos": "n",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "lu_id": "6738",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3814",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "천황을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "천황을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "나라입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3814",
+                    "lu": "천황.n.Leadership",
+                    "text": "다시 말해서 그 영역은 천황을 중심으로 한 하나의 나라입니다."
+                }
+            ]
+        }
+    ]
+}

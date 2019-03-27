@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "감금하다.v.Imprisonment",
+    "ko_pos": "v",
+    "frameID": 1111,
+    "frameName": "Imprisonment",
+    "lu_id": "148",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38213",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "감금했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authorities",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "경찰들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 25
+                            },
+                            "text": "이번 집회를 주동적으로 이끈 10명을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감금하다.v.Imprisonment",
+                    "text": "경찰들은 이번 집회를 주동적으로 이끈 10명을 감금했다."
+                }
+            ]
+        }
+    ]
+}

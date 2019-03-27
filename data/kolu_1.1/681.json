@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "공개되다.v.Reveal_secret",
+    "ko_pos": "v",
+    "frameID": 1146,
+    "frameName": "Reveal_secret",
+    "lu_id": "681",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28947",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reveal_secret",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "공개되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "드디어",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "사건의 전모가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "공개되다.v.Reveal_secret",
+                    "text": "드디어 사건의 전모가 기자들에게 공개되었다."
+                }
+            ]
+        }
+    ]
+}

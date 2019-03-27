@@ -1,0 +1,104 @@
+{
+    "en_lus": [],
+    "ko_lu": "실적.n.Earnings_and_losses",
+    "ko_pos": "n",
+    "frameID": 1873,
+    "frameName": "Earnings_and_losses",
+    "lu_id": "4274",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-6",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Earnings_and_losses",
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "실적에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "text": "4분기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "6",
+                    "lu": "실적.n.Earnings_and_losses",
+                    "text": "그러나 이들 청구는 평가하기가 더 어렵고 더 느리기 때문에, 회사는 4분기 실적에 대한 지진의 영향을 예측하지 못하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Earnings_and_losses",
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "실적들을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Earner",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 32
+                            },
+                            "text": "회사 내 몇몇 주요 부서들의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1",
+                    "lu": "실적.n.Earnings_and_losses",
+                    "text": "태풍 Hugo가 남긴 피해들과 회사 내 몇몇 주요 부서들의 저조한 실적들을 반영하여, Aetna Life and Casualty Co.의 3분기 순이익이 182.6 백만 달러 또는 주당 1.63 달러로 22 % 하락하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "en_lus": [],
+    "ko_lu": "증명되다.v.Evidence",
+    "ko_pos": "v",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "lu_id": "6352",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35856",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "증명돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 27
+                            },
+                            "text": "지구상에 동일한 지문을 가진 사람이 없다는 사실은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "통계학적으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "증명되다.v.Evidence",
+                    "text": "지구상에 동일한 지문을 가진 사람이 없다는 사실은 통계학적으로 증명돼 왔으며 범죄수사용으로 오래 전부터 이용돼 왔습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-35855",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 58,
+                                "end": 64
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "증명되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 54
+                            },
+                            "text": "현대 과학에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "증명되다.v.Evidence",
+                    "text": "생강에는 마늘, 고추와 같은 살충력과 인체 생리에 이로운 성분들이 많이 함유돼 있음이 현대 과학에 의해 증명되었다."
+                }
+            ]
+        }
+    ]
+}

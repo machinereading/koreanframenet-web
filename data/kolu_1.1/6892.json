@@ -1,0 +1,139 @@
+{
+    "en_lus": [],
+    "ko_lu": "추진되다.v.Process_continue",
+    "ko_pos": "v",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "lu_id": "6892",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31583",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "추진되던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "사업을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "추진되다.v.Process_continue",
+                    "text": "경기가 바닥이어도 추진되던 사업을 멈출 수는 없다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-31582",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "추진되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "그가 죽은 이후에도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 24
+                            },
+                            "text": "그가 세웠던 연구 계획은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "text": "계속",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "추진되다.v.Process_continue",
+                    "text": "그가 죽은 이후에도 그가 세웠던 연구 계획은 계속 추진되었다."
+                }
+            ]
+        }
+    ]
+}

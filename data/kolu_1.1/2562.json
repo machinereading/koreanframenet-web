@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "문답하다.v.Questioning",
+    "ko_pos": "v",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "lu_id": "2562",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20840",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "문답해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "세례는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "한 사람 한 사람",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "문답하다.v.Questioning",
+                    "text": "세례는 한 사람 한 사람 문답해 보고 줄 만한 사람이면 주어야지요."
+                }
+            ]
+        }
+    ]
+}

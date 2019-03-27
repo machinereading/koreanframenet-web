@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "내비치다.v.Communication",
+    "ko_pos": "v",
+    "frameID": 6,
+    "frameName": "Communication",
+    "lu_id": "1435",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3352",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 52,
+                                "end": 57
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "내비쳤지만"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "IAEA의 이란 방문 동안,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Communicator",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "text": "이란 관리들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 51
+                            },
+                            "text": "이란이 IAEA와의 안전 장치 협정을 지킬 것임을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3352",
+                    "lu": "내비치다.v.Communication",
+                    "text": "IAEA의 이란 방문 동안, 이란 관리들은 이란이 IAEA와의 안전 장치 협정을 지킬 것임을 내비쳤지만 , 추가의정서를 수락할 의지를 분명히 나타내지 않았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "글라스.n.Connecting_architecture",
+    "ko_pos": "n",
+    "frameID": 1025,
+    "frameName": "Connecting_architecture",
+    "lu_id": "1039",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1062",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Connecting_architecture",
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "글라스를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Connected_Locations",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 52
+                            },
+                            "text": "Quiet Chapel의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 62
+                            },
+                            "text": "스테인드 글라스를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1062",
+                    "lu": "글라스.n.Connecting_architecture",
+                    "text": "1950년대 후반에 Joseph Edward Nuttgens가 설계한 Quiet Chapel의 스테인드 글라스를 주의 깊게 보라."
+                }
+            ]
+        }
+    ]
+}

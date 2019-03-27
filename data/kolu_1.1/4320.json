@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "썰다.v.Cutting",
+    "ko_pos": "v",
+    "frameID": 265,
+    "frameName": "Cutting",
+    "lu_id": "4320",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34732",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cutting",
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "썰다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "무를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "썰다.v.Cutting",
+                    "text": "그는 무를 썰다 손가락만 베었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "en_lus": [],
+    "ko_lu": "쾌유하다.v.Cure",
+    "ko_pos": "v",
+    "frameID": 50,
+    "frameName": "Cure",
+    "lu_id": "7035",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51626",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "쾌유하셨다니"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "선생님께서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Affliction",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "지병에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쾌유하다.v.Cure",
+                    "text": "선생님께서 지병에서 쾌유하셨다니 다행입니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-51625",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "쾌유하시기를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "속히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쾌유하다.v.Cure",
+                    "text": "속히 쾌유하시기를 빕니다."
+                }
+            ]
+        }
+    ]
+}

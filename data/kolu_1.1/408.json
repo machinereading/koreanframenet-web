@@ -1,0 +1,211 @@
+{
+    "en_lus": [],
+    "ko_lu": "검사하다.v.Inspecting",
+    "ko_pos": "v",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "lu_id": "408",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34017",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "검사할테니까"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "내일은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Unwanted_Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "손톱을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검사하다.v.Inspecting",
+                    "text": "내일은 손톱을 검사할테니까 모두 잘 깎고 오세요."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-14862",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 99,
+                                "end": 102
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "검사할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Unwanted_Entity",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 90
+                            },
+                            "text": "`저널 사이언스' 17 일자에 기고한 논문에서 미토콘드리아로 불리는 인체 세포내에서 일어나는 암 관련 변화는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 91,
+                                "end": 98
+                            },
+                            "text": "인체 분비물로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검사하다.v.Inspecting",
+                    "text": "미국 메릴랜드주 볼티모어시 존스 홉킨스 대학 연구진은 `저널 사이언스' 17 일자에 기고한 논문에서 미토콘드리아로 불리는 인체 세포내에서 일어나는 암 관련 변화는 인체 분비물로 검사할 수 있다고 밝혔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-34016",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "검사하셨다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "선생님은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Unwanted_Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "text": "학생들의 소지품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검사하다.v.Inspecting",
+                    "text": "선생님은 학생들의 소지품을 검사하셨다."
+                }
+            ]
+        }
+    ]
+}

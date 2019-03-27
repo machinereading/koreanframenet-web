@@ -1,0 +1,93 @@
+{
+    "en_lus": [],
+    "ko_lu": "고용되다.v.Hiring",
+    "ko_pos": "v",
+    "frameID": 322,
+    "frameName": "Hiring",
+    "lu_id": "628",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32527",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hiring",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "고용돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "노동자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Task",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 21
+                            },
+                            "text": "건설 현장에서 일하는 경우도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Employer",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "text": "십장에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고용되다.v.Hiring",
+                    "text": "노동자들은 건설 현장에서 일하는 경우도 건설업체가 아니라 십장에게 고용돼 있어 고용관계가 유동적이다."
+                }
+            ]
+        }
+    ]
+}

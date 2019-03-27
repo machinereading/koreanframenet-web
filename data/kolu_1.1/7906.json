@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "흐느끼다.v.Make_noise",
+    "ko_pos": "v",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "lu_id": "7906",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51162",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "흐느끼다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "아이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "한참을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "흐느끼다.v.Make_noise",
+                    "text": "아이는 무엇이 그리 서러운지 한참을 흐느끼다 잠이 들었다."
+                }
+            ]
+        }
+    ]
+}

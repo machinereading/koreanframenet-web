@@ -1,0 +1,137 @@
+{
+    "en_lus": [],
+    "ko_lu": "결제하다.v.Commerce_pay",
+    "ko_pos": "v",
+    "frameID": 180,
+    "frameName": "Commerce_pay",
+    "lu_id": "502",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33599",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "결제할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Money",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 38
+                            },
+                            "text": "상품의 대금을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결제하다.v.Commerce_pay",
+                    "text": "최근에 TV 쇼핑 채널에서는 상품을 받아보고 맘에 들면 상품의 대금을 결제할 수 있는 체계가 도입되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-33600",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "결제했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "컴퓨터 값을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Money",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "text": "6개월 할부로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결제하다.v.Commerce_pay",
+                    "text": "나는 컴퓨터 값을 6개월 할부로 결제했다."
+                }
+            ]
+        }
+    ]
+}

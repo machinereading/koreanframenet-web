@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "털다.v.Theft",
+    "ko_pos": "v",
+    "frameID": 94,
+    "frameName": "Theft",
+    "lu_id": "7131",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42066",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Theft",
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "털었더니"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 집을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "털다.v.Theft",
+                    "text": "그 집을 털었더니 엄청난 돈이 나왔다."
+                }
+            ]
+        }
+    ]
+}

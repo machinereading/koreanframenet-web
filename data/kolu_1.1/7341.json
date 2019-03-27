@@ -1,0 +1,185 @@
+{
+    "en_lus": [],
+    "ko_lu": "포장되다.v.Distributed_position",
+    "ko_pos": "v",
+    "frameID": 76,
+    "frameName": "Distributed_position",
+    "lu_id": "7341",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50030",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Distributed_position",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "포장되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "선물은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "text": "초라해 보이는 종이로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포장되다.v.Distributed_position",
+                    "text": "선물은 초라해 보이는 종이로 포장되어 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-50031",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Distributed_position",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "포장되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "화려한 종이로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포장되다.v.Distributed_position",
+                    "text": "화려한 종이로 포장되어 있지만 내용은 보잘것 없습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-50032",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Distributed_position",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "포장하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "보잘 것 없는 생각을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 19
+                            },
+                            "text": "현란한 수사로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포장되다.v.Distributed_position",
+                    "text": "보잘 것 없는 생각을 현란한 수사로 포장하는 것도 재주라면 재주지."
+                }
+            ]
+        }
+    ]
+}

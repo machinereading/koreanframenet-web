@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "유괴되다.v.Kidnapping",
+    "ko_pos": "v",
+    "frameID": 122,
+    "frameName": "Kidnapping",
+    "lu_id": "5131",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50345",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "유괴된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "철수가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "그 사람에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유괴되다.v.Kidnapping",
+                    "text": "철수가 그 사람에게 유괴된 것 같다."
+                }
+            ]
+        }
+    ]
+}

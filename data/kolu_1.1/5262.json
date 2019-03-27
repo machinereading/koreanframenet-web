@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "의탁하다.v.Reliance",
+    "ko_pos": "v",
+    "frameID": 901,
+    "frameName": "Reliance",
+    "lu_id": "5262",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38218",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reliance",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "의탁해서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Intermediary",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "고향 선배에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의탁하다.v.Reliance",
+                    "text": "그는 고향 선배에게 몸을 의탁해서 지내고 있다."
+                }
+            ]
+        }
+    ]
+}

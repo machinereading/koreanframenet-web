@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "심문하다.v.Questioning",
+    "ko_pos": "v",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "lu_id": "4302",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40705",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "심문하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "시국 사범을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심문하다.v.Questioning",
+                    "text": "그가 시국 사범을 심문하는 솜씨는 잔인하기 이를 데 없다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40704",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "심문하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 14
+                            },
+                            "text": "살인 사건의 용의자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심문하다.v.Questioning",
+                    "text": "그는 살인 사건의 용의자를 데려다가 심문하였다."
+                }
+            ]
+        }
+    ]
+}

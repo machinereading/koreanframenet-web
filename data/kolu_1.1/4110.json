@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "스톱시키다.v.Halt",
+    "ko_pos": "v",
+    "frameID": 1024,
+    "frameName": "Halt",
+    "lu_id": "4110",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-56300",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Halt",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "스톱시키고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "먼저",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "기계를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "스톱시키다.v.Halt",
+                    "text": "먼저 기계를 스톱시키고 나서 문제를 찾아봅시다."
+                }
+            ]
+        }
+    ]
+}

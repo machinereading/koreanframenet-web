@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "기만당하다.v.Intentional_deception",
+    "ko_pos": "v",
+    "frameID": 2570,
+    "frameName": "Intentional_deception",
+    "lu_id": "1103",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-57911",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentional_deception",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "기만당한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Deceiver",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "믿었던 친구로부터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기만당하다.v.Intentional_deception",
+                    "text": "그는 믿었던 친구로부터 기만당한 것이다."
+                }
+            ]
+        }
+    ]
+}

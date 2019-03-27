@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "내다보이다.v.Expectation",
+    "ko_pos": "v",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "lu_id": "1408",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40448",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expectation",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "내다보이는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "들판이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "창가에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "내다보이다.v.Expectation",
+                    "text": "들판이 내다보이는 창가에 서서 나는 그 때 일을 회상했다."
+                }
+            ]
+        }
+    ]
+}

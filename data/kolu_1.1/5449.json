@@ -1,0 +1,156 @@
+{
+    "en_lus": [],
+    "ko_lu": "인증되다.v.Verification",
+    "ko_pos": "v",
+    "frameID": 1230,
+    "frameName": "Verification",
+    "lu_id": "5449",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-43179",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verification",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "인증되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "새로 개발한 약이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "국제적으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "신약으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인증되다.v.Verification",
+                    "text": "새로 개발한 약이 국제적으로 신약으로 인증되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-43178",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verification",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "인증되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "새로 개발한 신약이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "국제적으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인증되다.v.Verification",
+                    "text": "새로 개발한 신약이 국제적으로 인증되었다."
+                }
+            ]
+        }
+    ]
+}

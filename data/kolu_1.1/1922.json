@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "돌아오다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "1922",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17492",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "돌아왔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "황 선수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "반환점을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "돌아오다.v.Motion",
+                    "text": "황 선수는 반환점을 돌아왔다."
+                }
+            ]
+        }
+    ]
+}

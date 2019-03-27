@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "부수다.v.Breaking_apart",
+    "ko_pos": "v",
+    "frameID": 1862,
+    "frameName": "Breaking_apart",
+    "lu_id": "3163",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42014",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Breaking_apart",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "부수지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "멀쩡한 장난감을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부수다.v.Breaking_apart",
+                    "text": "멀쩡한 장난감을 부수지 마라."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-42016",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Breaking_apart",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "부수어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "적의 미사일 기지를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "완전히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부수다.v.Breaking_apart",
+                    "text": "적의 미사일 기지를 완전히 부수어 버렸다."
+                }
+            ]
+        }
+    ]
+}

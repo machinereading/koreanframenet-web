@@ -1,0 +1,104 @@
+{
+    "en_lus": [],
+    "ko_lu": "종사하다.v.Working_a_post",
+    "ko_pos": "v",
+    "frameID": 2603,
+    "frameName": "Working_a_post",
+    "lu_id": "6167",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-43510",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Working_a_post",
+                            "span": {
+                                "begin": 6,
+                                "end": 14
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "종사하는사람들은"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "종사하다.v.Working_a_post",
+                    "text": "유흥업소에 종사하는사람들은 반드시건강검진을 정기적으로 받아야 한다"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-43509",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Working_a_post",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "종사해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "text": "우리 나라 취업 장애인 2명 중 1명은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Post",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 33
+                            },
+                            "text": "농업이나단순 노무직에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "종사하다.v.Working_a_post",
+                    "text": "우리 나라 취업 장애인 2명 중 1명은 농업이나단순 노무직에 종사해 3명 중 1명가량이 전문 직종에서 일하는 비장애인에 비해 취업 구조가극히 열악한 것으로 나타났다"
+                }
+            ]
+        }
+    ]
+}

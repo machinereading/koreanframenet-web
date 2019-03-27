@@ -1,0 +1,122 @@
+{
+    "en_lus": [],
+    "ko_lu": "학습되다.v.Studying",
+    "ko_pos": "v",
+    "frameID": 1130,
+    "frameName": "Studying",
+    "lu_id": "7494",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19111",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Studying",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "학습되면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Subject",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "기초 지식이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학습되다.v.Studying",
+                    "text": "기초 지식이 학습되면 곧바로 실천에 들어가 보는 것도 좋다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-19110",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Studying",
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "학습되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Subject",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 26
+                            },
+                            "text": "부패한 사람들은 스스로 반성하지 않는다는 사실이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "text": "경험적으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학습되다.v.Studying",
+                    "text": "부패한 사람들은 스스로 반성하지 않는다는 사실이 경험적으로 학습되어 시민단체들이 들고 일어난 것인지도 모르겠다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "en_lus": [],
+    "ko_lu": "훈련시키다.v.Education_teaching",
+    "ko_pos": "v",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "lu_id": "7878",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2912",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련시킬"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 34
+                            },
+                            "text": "핵 개발 프로그램을 위해 인적 자원을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Institution",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 48
+                            },
+                            "text": "제도적인 기반을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2912",
+                    "lu": "훈련시키다.v.Education_teaching",
+                    "text": "1950년대 초, 북한은 핵 개발 프로그램을 위해 인적 자원을 훈련시킬 제도적인 기반을 확립하기 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2917",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련시키는데"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "인원을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2917",
+                    "lu": "훈련시키다.v.Education_teaching",
+                    "text": "소형 연구 원자로는 방사성 동위 원소를 생산하고 인원을 훈련시키는데 사용되었다."
+                }
+            ]
+        }
+    ]
+}

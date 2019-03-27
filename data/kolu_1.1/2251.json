@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "마치다.v.Process_end",
+    "ko_pos": "v",
+    "frameID": 232,
+    "frameName": "Process_end",
+    "lu_id": "2251",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1881",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_end",
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "마치는데"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "text": "하나를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 51
+                            },
+                            "text": "한 시간",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1881",
+                    "lu": "마치다.v.Process_end",
+                    "text": "18 BILL : 음, 오늘밤, 아, 네가 정상 QF를 마칠 때는, 하나를 마치는데 한 시간 -"
+                }
+            ]
+        }
+    ]
+}

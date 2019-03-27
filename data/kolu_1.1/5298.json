@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "이래.n.Time_vector",
+    "ko_pos": "n",
+    "frameID": 379,
+    "frameName": "Time_vector",
+    "lu_id": "5298",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1798",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Time_vector",
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "이래,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 30
+                            },
+                            "text": "두 번째 Intifada가 2000년에 시작된",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 59
+                            },
+                            "text": "700 명 이상의 이스라엘인들이 사살되었고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1798",
+                    "lu": "이래.n.Time_vector",
+                    "text": "기자 : 두 번째 Intifada가 2000년에 시작된 이래, 700 명 이상의 이스라엘인들이 사살되었고, 같은 기간 동안, Red Crescent 에 의하면, 암살의 표적이 된 Hamas 지도자들을 포함하여, 2000 명 이상의 팔레스타인이 죽었다."
+                }
+            ]
+        }
+    ]
+}

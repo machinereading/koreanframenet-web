@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "잊어버리다.v.Remembering_to_do",
+    "ko_pos": "v",
+    "frameID": 1221,
+    "frameName": "Remembering_to_do",
+    "lu_id": "5590",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55441",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Remembering_to_do",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "잊어버리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 18
+                            },
+                            "text": "그에게 돈을 빌려주었던 일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잊어버리다.v.Remembering_to_do",
+                    "text": "나는 그에게 돈을 빌려주었던 일을 잊어버리고 있었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "쉬다.v.Emotion_directed",
+    "ko_pos": "v",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "lu_id": "4092",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4919",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_directed",
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "쉴 새"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "또 다른 작고 마른 남자는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Expressor",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 49
+                            },
+                            "text": "눈썹 근육을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4919",
+                    "lu": "쉬다.v.Emotion_directed",
+                    "text": "또 다른 작고 마른 남자는, 신경질적이고 빈틈없어 보이는 얼굴로, 눈에 띄게 눈썹 근육을 쉴 새 없이 경련시키고 있었다."
+                }
+            ]
+        }
+    ]
+}

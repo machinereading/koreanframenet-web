@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "졸다.v.Sleep",
+    "ko_pos": "v",
+    "frameID": 264,
+    "frameName": "Sleep",
+    "lu_id": "6147",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36646",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "졸면서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "어젯밤에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "졸다.v.Sleep",
+                    "text": "어젯밤에 본영화는 졸면서 봤더니 떠오르는 장면과 장면이 어떻게 연결되는지 통 이해가가지 않는다"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "수금하다.v.Placing",
+    "ko_pos": "v",
+    "frameID": 62,
+    "frameName": "Placing",
+    "lu_id": "3984",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58529",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Placing",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "수금하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "영준이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "물품 대금을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수금하다.v.Placing",
+                    "text": "영준이는 물품 대금을 수금하지 못해서 과장에게 혼이 났다."
+                }
+            ]
+        }
+    ]
+}

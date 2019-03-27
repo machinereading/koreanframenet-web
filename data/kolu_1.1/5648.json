@@ -1,0 +1,94 @@
+{
+    "en_lus": [],
+    "ko_lu": "작업하다.v.Work",
+    "ko_pos": "v",
+    "frameID": 1892,
+    "frameName": "Work",
+    "lu_id": "5648",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-37813",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Work",
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "작업했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Salient_Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 21
+                            },
+                            "text": "집 외벽, 풀하나 돌멩이 하나에도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "신경을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작업하다.v.Work",
+                    "text": "그는 집 외벽, 풀하나 돌멩이 하나에도 신경을 써서 작업했다."
+                }
+            ]
+        }
+    ]
+}

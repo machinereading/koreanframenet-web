@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "예측되다.v.Predicting",
+    "ko_pos": "v",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "lu_id": "4835",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2400",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "예측될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Accuracy",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "정확히",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 37
+                            },
+                            "text": "국제 및 국내 요인에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2400",
+                    "lu": "예측되다.v.Predicting",
+                    "text": "이러한 추정들은 정확히 예측될 수 없는 다수의 국제 및 국내 요인에 따라 다소 가속되거나 쉽게 지연될 수 있다."
+                }
+            ]
+        }
+    ]
+}

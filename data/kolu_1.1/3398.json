@@ -1,0 +1,122 @@
+{
+    "en_lus": [],
+    "ko_lu": "빼다.v.Withdraw_from_participation",
+    "ko_pos": "v",
+    "frameID": 1518,
+    "frameName": "Withdraw_from_participation",
+    "lu_id": "3398",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-30564",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Withdraw_from_participation",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "빼겠다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "한 번 더 참석하지 않으면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "모임에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빼다.v.Withdraw_from_participation",
+                    "text": "한 번 더 참석하지 않으면 모임에서 빼겠다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-30572",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Withdraw_from_participation",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "빼려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Organization",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "다 가는 군대를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빼다.v.Withdraw_from_participation",
+                    "text": "다 가는 군대를 빼려고 하는 그런 약은 생각을 하지 말아라."
+                }
+            ]
+        }
+    ]
+}

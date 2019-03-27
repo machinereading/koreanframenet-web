@@ -1,0 +1,139 @@
+{
+    "en_lus": [],
+    "ko_lu": "첨부되다.v.Inclusion",
+    "ko_pos": "v",
+    "frameID": 1153,
+    "frameName": "Inclusion",
+    "lu_id": "6761",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18401",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inclusion",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "첨부되어야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "결과물은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Total",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "최종 보고서에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "첨부되다.v.Inclusion",
+                    "text": "결과물은 최종 보고서에 첨부되어야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-18400",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inclusion",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "첨부되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Total",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "청문회에 제출된 자료에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 27
+                            },
+                            "text": "기업에 발급된 영수증들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "첨부되다.v.Inclusion",
+                    "text": "청문회에 제출된 자료에는 기업에 발급된 영수증들이 첨부되어 있었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "발주하다.v.Request",
+    "ko_pos": "v",
+    "frameID": 41,
+    "frameName": "Request",
+    "lu_id": "2804",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4758",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "발주하더라도,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "늘 거래해온 납입업자에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4758",
+                    "lu": "발주하다.v.Request",
+                    "text": "늘 거래해온 납입업자에게 발주하더라도, 안전기준과 관련된 기기선정 등의 책임은 질 수 없다고 한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "맞히다.v.Suitability",
+    "ko_pos": "v",
+    "frameID": 368,
+    "frameName": "Suitability",
+    "lu_id": "2371",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59272",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suitability",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "맞혔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "User",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 18
+                            },
+                            "text": "총 10 문제 중 5 문제를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맞히다.v.Suitability",
+                    "text": "나는 총 10 문제 중 5 문제를 맞혔다."
+                }
+            ]
+        }
+    ]
+}

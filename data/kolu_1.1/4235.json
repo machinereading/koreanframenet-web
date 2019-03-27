@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "신문당하다.v.Examination",
+    "ko_pos": "v",
+    "frameID": 107,
+    "frameName": "Examination",
+    "lu_id": "4235",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-26356",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Examination",
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "신문당했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Examinee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "범인은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Examiner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "경찰에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신문당하다.v.Examination",
+                    "text": "범인은 경찰에게 신문당했다."
+                }
+            ]
+        }
+    ]
+}

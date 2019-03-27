@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "연락되다.v.Attaching",
+    "ko_pos": "v",
+    "frameID": 197,
+    "frameName": "Attaching",
+    "lu_id": "4726",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-54205",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attaching",
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "연락된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 19
+                            },
+                            "text": "완제품 가격도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연락되다.v.Attaching",
+                    "text": "원료 가격이 하락하면 완제품 가격도 연락된다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "고하다.v.Reporting",
+    "ko_pos": "v",
+    "frameID": 483,
+    "frameName": "Reporting",
+    "lu_id": "656",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19193",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reporting",
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "고해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Informer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Behavior",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 17
+                            },
+                            "text": "철수의 부정행위를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고하다.v.Reporting",
+                    "text": "내가 영희에게 철수의 부정행위를 고해 바쳤다."
+                }
+            ]
+        }
+    ]
+}

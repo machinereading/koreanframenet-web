@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "판매되다.v.Commerce_sell",
+    "ko_pos": "v",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "lu_id": "7270",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1405",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "판매되었나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "원심 분리기는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "북한에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1405",
+                    "lu": "판매되다.v.Commerce_sell",
+                    "text": "QN : 원심 분리기는 북한에 판매되었나 ?"
+                }
+            ]
+        }
+    ]
+}

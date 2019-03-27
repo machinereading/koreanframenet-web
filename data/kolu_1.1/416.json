@@ -1,0 +1,94 @@
+{
+    "en_lus": [],
+    "ko_lu": "검열시키다.v.Inspecting",
+    "ko_pos": "v",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "lu_id": "416",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59329",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "검열시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "정부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 21
+                            },
+                            "text": "지하조직이 만든 모든 출간물들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Inspector",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "text": "검역 위원회에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검열시키다.v.Inspecting",
+                    "text": "정부는 지하조직이 만든 모든 출간물들을 검역 위원회에게 검열시켰다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "오르다.v.Board_vehicle",
+    "ko_pos": "v",
+    "frameID": 1633,
+    "frameName": "Board_vehicle",
+    "lu_id": "4859",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51568",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Board_vehicle",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "오르자,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Traveller",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "영희가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "차에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오르다.v.Board_vehicle",
+                    "text": "영희가 차에 오르자, 사람들은 일제히 환호성을 질렀다."
+                }
+            ]
+        }
+    ]
+}

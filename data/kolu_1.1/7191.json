@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "투옥하다.v.Imprisonment",
+    "ko_pos": "v",
+    "frameID": 1111,
+    "frameName": "Imprisonment",
+    "lu_id": "7191",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-60605",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "투옥하라!"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "저 자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "투옥하다.v.Imprisonment",
+                    "text": "저 자를 잡아다 투옥하라!"
+                }
+            ]
+        }
+    ]
+}

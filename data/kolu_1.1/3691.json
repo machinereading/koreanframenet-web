@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "서명.n.Text",
+    "ko_pos": "n",
+    "frameID": 298,
+    "frameName": "Text",
+    "lu_id": "3691",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4013",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "서명은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Title",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "『보석함』",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4013",
+                    "lu": "서명.n.Text",
+                    "text": "서명은 『보석함』 이름을 지어준 사람은 남편이다."
+                }
+            ]
+        }
+    ]
+}

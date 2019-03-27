@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "열다.v.Body_movement",
+    "ko_pos": "v",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "lu_id": "4763",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1871",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Body_movement",
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "열지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "그의 부족 중 아무도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "text": "자기의 입을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1871",
+                    "lu": "열다.v.Body_movement",
+                    "text": "그의 부족 중 아무도 자기의 입을 열지 않았고, 대신에 그들은 더 두렵고 더 약해졌다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "제명되다.v.Exclude_member",
+    "ko_pos": "v",
+    "frameID": 1131,
+    "frameName": "Exclude_member",
+    "lu_id": "6022",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-29368",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exclude_member",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "제명된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "이번 시합에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "자신이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제명되다.v.Exclude_member",
+                    "text": "그는 이번 시합에서 자신이 제명된 것을 알고는 놀랐다."
+                }
+            ]
+        }
+    ]
+}

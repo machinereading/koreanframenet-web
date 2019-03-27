@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "진술하다.v.Statement",
+    "ko_pos": "v",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "6508",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2872",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 61,
+                                "end": 67
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "진술하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "text": "모든 당사국들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 60
+                            },
+                            "text": "한반도 비핵화라는 궁극적인 목표를 가졌다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2872",
+                    "lu": "진술하다.v.Statement",
+                    "text": "6 자 당사국은 실무자급 회담 개최에 합의하였고, 모든 당사국들은 한반도 비핵화라는 궁극적인 목표를 가졌다고 진술하였다."
+                }
+            ]
+        }
+    ]
+}

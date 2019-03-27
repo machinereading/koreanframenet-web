@@ -1,0 +1,58 @@
+{
+    "en_lus": [],
+    "ko_lu": "사안.n.Trial",
+    "ko_pos": "n",
+    "frameID": 201,
+    "frameName": "Trial",
+    "lu_id": "3471",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4440",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Trial",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사안"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Case",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 24
+                            },
+                            "text": "아들의 잘못은 부모 책임?",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4440",
+                    "lu": "사안.n.Trial",
+                    "text": "이번에 다룰 사안 아들의 잘못은 부모 책임?"
+                }
+            ]
+        }
+    ]
+}

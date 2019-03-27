@@ -1,0 +1,143 @@
+{
+    "en_lus": [],
+    "ko_lu": "칭찬하다.v.Judgment_communication",
+    "ko_pos": "v",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "lu_id": "7012",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53097",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "칭찬했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "선생님은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "남몰래",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 21
+                            },
+                            "text": "착한 일을 한 학생들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "칭찬하다.v.Judgment_communication",
+                    "text": "선생님은 남몰래 착한 일을 한 학생들을 칭찬했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-53098",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "칭찬해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "text": "어머니는 철수에게 맡은 일을 잘 하고 있다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "칭찬하다.v.Judgment_communication",
+                    "text": "어머니는 철수에게 맡은 일을 잘 하고 있다고 칭찬해 주셨다."
+                }
+            ]
+        }
+    ]
+}

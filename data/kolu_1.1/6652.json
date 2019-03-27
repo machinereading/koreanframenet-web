@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "찬성하다.v.Compliance",
+    "ko_pos": "v",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "lu_id": "6652",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1203",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "찬성하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "159명의 유엔 회원국들 가운데 32개국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Norm",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "이라크에 대한 제재에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1203",
+                    "lu": "찬성하다.v.Compliance",
+                    "text": "159명의 유엔 회원국들 가운데 32개국은 이라크에 대한 제재에 찬성하고 있었다."
+                }
+            ]
+        }
+    ]
+}

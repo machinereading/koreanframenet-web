@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "좇다.v.Cotheme",
+    "ko_pos": "v",
+    "frameID": 56,
+    "frameName": "Cotheme",
+    "lu_id": "6184",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40989",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cotheme",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "좇았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cotheme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "그를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "좇다.v.Cotheme",
+                    "text": "나는 멀리 떨어져 그를 좇았다."
+                }
+            ]
+        }
+    ]
+}

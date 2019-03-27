@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "인쇄하다.v.Text_creation",
+    "ko_pos": "v",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "lu_id": "5426",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1700",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text_creation",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "인쇄하세요"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Form",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "얇은 종이에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Text",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1700",
+                    "lu": "인쇄하다.v.Text_creation",
+                    "text": "얇은 종이에 그것을 인쇄하세요 ; 신이 당신에게 보답하기 바래요."
+                }
+            ]
+        }
+    ]
+}

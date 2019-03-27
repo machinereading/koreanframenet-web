@@ -1,0 +1,136 @@
+{
+    "en_lus": [],
+    "ko_lu": "체포당하다.v.Arrest",
+    "ko_pos": "v",
+    "frameID": 202,
+    "frameName": "Arrest",
+    "lu_id": "6787",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-29207",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arrest",
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "체포당하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Charges",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "반역죄로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "체포당하다.v.Arrest",
+                    "text": "그는 반역죄로 체포당하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-29208",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arrest",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "체포당했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Offense",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 14
+                            },
+                            "text": "이번 사건의 용의자로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "체포당하다.v.Arrest",
+                    "text": "그는 이번 사건의 용의자로 체포당했다."
+                }
+            ]
+        }
+    ]
+}

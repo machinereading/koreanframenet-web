@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "수계되다.v.Imprisonment",
+    "ko_pos": "v",
+    "frameID": 1111,
+    "frameName": "Imprisonment",
+    "lu_id": "3979",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51845",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "수계되다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "죄인이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prison",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "감옥에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수계되다.v.Imprisonment",
+                    "text": "죄인이 감옥에 수계되다."
+                }
+            ]
+        }
+    ]
+}

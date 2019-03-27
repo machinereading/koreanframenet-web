@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "감사하다.v.Scrutiny",
+    "ko_pos": "v",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "lu_id": "165",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40310",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "감사하러"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "공무원들의 업무상 비리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감사하다.v.Scrutiny",
+                    "text": "공무원들의 업무상 비리를 감사하러 감사관들이 나왔다."
+                }
+            ]
+        }
+    ]
+}

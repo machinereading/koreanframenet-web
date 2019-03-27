@@ -1,0 +1,135 @@
+{
+    "en_lus": [],
+    "ko_lu": "관광하다.v.Touring",
+    "ko_pos": "v",
+    "frameID": 1907,
+    "frameName": "Touring",
+    "lu_id": "762",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33766",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Touring",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "관광하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Tourist",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "남는 시간에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Attraction",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "시내를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관광하다.v.Touring",
+                    "text": "우리는 남는 시간에 시내를 관광하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-33767",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Touring",
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "관광하며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Attraction",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "유적지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관광하다.v.Touring",
+                    "text": "유적지를 관광하며 즐거운 시간을 보냈다."
+                }
+            ]
+        }
+    ]
+}

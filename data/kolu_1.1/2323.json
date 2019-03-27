@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "말소시키다.v.Erasing",
+    "ko_pos": "v",
+    "frameID": 2481,
+    "frameName": "Erasing",
+    "lu_id": "2323",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53320",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Erasing",
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "말소시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "경찰에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "그의 전과기록을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말소시키다.v.Erasing",
+                    "text": "경찰에서 그의 전과기록을 말소시켰다."
+                }
+            ]
+        }
+    ]
+}

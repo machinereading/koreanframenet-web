@@ -1,0 +1,99 @@
+{
+    "en_lus": [],
+    "ko_lu": "붕괴되다.v.Destroying",
+    "ko_pos": "v",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "lu_id": "3293",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40785",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "붕괴되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "미공군의 폭격으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "text": "건물 수십채가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "붕괴되다.v.Destroying",
+                    "text": "미공군의 폭격으로 건물 수십채가 붕괴되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40784",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "붕괴되려한다."
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "붕괴되다.v.Destroying",
+                    "text": "이번 장마로 축대가 붕괴되려한다."
+                }
+            ]
+        }
+    ]
+}

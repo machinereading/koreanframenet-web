@@ -1,0 +1,139 @@
+{
+    "en_lus": [],
+    "ko_lu": "실험하다.v.Experimentation",
+    "ko_pos": "v",
+    "frameID": 2683,
+    "frameName": "Experimentation",
+    "lu_id": "4291",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42629",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experimentation",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "실험하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experimenter",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 장치는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Hypothesis",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 15
+                            },
+                            "text": "자동차의 안전성을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "실험하다.v.Experimentation",
+                    "text": "이 장치는 자동차의 안전성을 실험하기 위해 고안된 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-42628",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experimentation",
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "실험하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experimenter",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "text": "그 연구소에서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 25
+                            },
+                            "text": "새로 만든 약품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "실험하다.v.Experimentation",
+                    "text": "판매에 앞서 그 연구소에서는 새로 만든 약품을 실험하고 있다."
+                }
+            ]
+        }
+    ]
+}

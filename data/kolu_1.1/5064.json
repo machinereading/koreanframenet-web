@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "원서.n.Documents",
+    "ko_pos": "n",
+    "frameID": 560,
+    "frameName": "Documents",
+    "lu_id": "5064",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4085",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Documents",
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "원서에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Right",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 58
+                            },
+                            "text": "특허청구 범위에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4085",
+                    "lu": "원서.n.Documents",
+                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다."
+                }
+            ]
+        }
+    ]
+}

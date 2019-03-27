@@ -1,0 +1,82 @@
+{
+    "en_lus": [],
+    "ko_lu": "제공되다.v.Supply",
+    "ko_pos": "v",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "lu_id": "6010",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2672",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 50,
+                                "end": 55
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "제공되거나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 25
+                            },
+                            "text": "공급 원료나 제품이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Supplier",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 49
+                            },
+                            "text": "공급자 국가 (연료 생산 공장 ) 에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2672",
+                    "lu": "제공되다.v.Supply",
+                    "text": "그러나, 분석가들은, 특히 공급 원료나 제품이 공급자 국가 (연료 생산 공장 ) 에 의해 제공되거나 이란의 총체적인 핵 프로그램 ( 우라늄 금속 실험실 ) 에 맞지 않는 여러 부품들에 대한 필요성에 의문을 제기한다."
+                }
+            ]
+        }
+    ]
+}

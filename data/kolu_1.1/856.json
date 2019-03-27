@@ -1,0 +1,134 @@
+{
+    "en_lus": [],
+    "ko_lu": "구금되다.v.Imprisonment",
+    "ko_pos": "v",
+    "frameID": 1111,
+    "frameName": "Imprisonment",
+    "lu_id": "856",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45076",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "구금되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "현재",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prison",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "모처에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구금되다.v.Imprisonment",
+                    "text": "그는 현재 모처에 구금되어 있다는 소문이 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-45075",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "구금되었다가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "아이들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prison",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "야산에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구금되다.v.Imprisonment",
+                    "text": "아이들은 유괴범에 의해 납치되어 야산에 구금되었다가 겨우 탈출했다."
+                }
+            ]
+        }
+    ]
+}

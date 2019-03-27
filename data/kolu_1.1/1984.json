@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "되다.a.Intentionally_act",
+    "ko_pos": "a",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "lu_id": "1984",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2850",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 67,
+                                "end": 71
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 35
+                            },
+                            "text": "핵무기를 성공적으로 획득한 것으로 알려진 모든 국가들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 66
+                            },
+                            "text": "그렇게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2850",
+                    "lu": "되다.a.Intentionally_act",
+                    "text": "그러나, 핵무기를 성공적으로 획득한 것으로 알려진 모든 국가들은 주로 자체적으로 생산한 핵분열성 물질을 기반으로 그렇게 되었다."
+                }
+            ]
+        }
+    ]
+}

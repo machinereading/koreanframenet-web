@@ -1,0 +1,58 @@
+{
+    "en_lus": [],
+    "ko_lu": "앞.n.Temporal_collocation",
+    "ko_pos": "n",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "lu_id": "4472",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4047",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "앞으로,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "사러갈 때도 편리할 것이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4047",
+                    "lu": "앞.n.Temporal_collocation",
+                    "text": "앞으로, 사러갈 때도 편리할 것이다."
+                }
+            ]
+        }
+    ]
+}

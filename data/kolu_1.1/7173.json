@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "통제하다.v.Control",
+    "ko_pos": "v",
+    "frameID": 1799,
+    "frameName": "Control",
+    "lu_id": "7173",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34581",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Control",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "통제하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "정문 수위실에서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 20
+                            },
+                            "text": "외부 차량의 출입을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "통제하다.v.Control",
+                    "text": "정문 수위실에서는 외부 차량의 출입을 통제하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1559",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Control",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "통제하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "위치를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1559",
+                    "lu": "통제하다.v.Control",
+                    "text": "위치를 보호하고 더 잘 통제하기 위해 위치로의 개인적인 접근을 가질 수 있는 것이 더 좋다."
+                }
+            ]
+        }
+    ]
+}

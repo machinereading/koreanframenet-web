@@ -1,0 +1,176 @@
+{
+    "en_lus": [],
+    "ko_lu": "인가하다.v.Deny_or_grant_permission",
+    "ko_pos": "v",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": "5404",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59857",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "인가했기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authority",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "관계 당국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "그 사업을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인가하다.v.Deny_or_grant_permission",
+                    "text": "관계 당국이 그 사업을 인가했기 때문에, 이제 안심하고 그 일에 몰두할 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-59856",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "인가해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authority",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "정부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 19
+                            },
+                            "text": "어느 정도의 아이템과 자금만",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "text": "벤처 기업을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "text": "쉽게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인가하다.v.Deny_or_grant_permission",
+                    "text": "정부는 어느 정도의 아이템과 자금만 있으면 벤처 기업을 쉽게 인가해 주었다."
+                }
+            ]
+        }
+    ]
+}

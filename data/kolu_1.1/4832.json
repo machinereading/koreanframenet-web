@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "예찬되다.v.Communication_manner",
+    "ko_pos": "v",
+    "frameID": 38,
+    "frameName": "Communication_manner",
+    "lu_id": "4832",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36907",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_manner",
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "예찬되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "한없이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예찬되다.v.Communication_manner",
+                    "text": "채식은 장수의 지름길이라고 그에 의해 한없이 예찬되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-36908",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_manner",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "예찬된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "김치가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "전 세계에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예찬되다.v.Communication_manner",
+                    "text": "김치가 전 세계에서 예찬된다."
+                }
+            ]
+        }
+    ]
+}

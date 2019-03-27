@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "삭제하다.v.Erasing",
+    "ko_pos": "v",
+    "frameID": 2481,
+    "frameName": "Erasing",
+    "lu_id": "3527",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-41533",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Erasing",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "삭제하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Document",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 글에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "이 문장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "삭제하다.v.Erasing",
+                    "text": "이 글에서 이 문장을 삭제하는 것이 어떻겠니?."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "수행하다.v.Performers_and_roles",
+    "ko_pos": "v",
+    "frameID": 413,
+    "frameName": "Performers_and_roles",
+    "lu_id": "4064",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-402",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Performers_and_roles",
+                            "span": {
+                                "begin": 15,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "수행하였습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Performer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "text": "다른 역할을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "402",
+                    "lu": "수행하다.v.Performers_and_roles",
+                    "text": "물론, 우리는 다른 역할을 수행하였습니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "방면하다.v.Process_stop",
+    "ko_pos": "v",
+    "frameID": 144,
+    "frameName": "Process_stop",
+    "lu_id": "2830",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1908",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_stop",
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "방면하자."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 19
+                            },
+                            "text": "그 제도로 BSing을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1908",
+                    "lu": "방면하다.v.Process_stop",
+                    "text": "그래서 어, 그 제도로 BSing을 방면하자."
+                }
+            ]
+        }
+    ]
+}

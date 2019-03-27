@@ -1,0 +1,96 @@
+{
+    "en_lus": [],
+    "ko_lu": "잡아끌다.v.Manipulation",
+    "ko_pos": "v",
+    "frameID": 17,
+    "frameName": "Manipulation",
+    "lu_id": "5681",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49194",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manipulation",
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "잡아끌었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "박 총무는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "두 사람을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 29
+                            },
+                            "text": "의원 총회장 바로 옆의 총무실로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잡아끌다.v.Manipulation",
+                    "text": "박 총무는 두 사람을 의원 총회장 바로 옆의 총무실로 잡아끌었다."
+                }
+            ]
+        }
+    ]
+}

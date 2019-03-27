@@ -1,0 +1,122 @@
+{
+    "en_lus": [],
+    "ko_lu": "잡아가다.v.Kidnapping",
+    "ko_pos": "v",
+    "frameID": 122,
+    "frameName": "Kidnapping",
+    "lu_id": "5679",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61083",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "잡아갔으니"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "당신 집 개가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 17
+                            },
+                            "text": "우리 집 병아리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잡아가다.v.Kidnapping",
+                    "text": "당신 집 개가 우리 집 병아리를 잡아갔으니 변상해야지."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-61082",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "잡아갔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "여우가 기르던 닭들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잡아가다.v.Kidnapping",
+                    "text": "여우가 기르던 닭들을 잡아갔다."
+                }
+            ]
+        }
+    ]
+}

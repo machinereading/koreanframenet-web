@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "벌어지다.v.Event",
+    "ko_pos": "v",
+    "frameID": 187,
+    "frameName": "Event",
+    "lu_id": "2946",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38226",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "벌어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "논쟁 끝에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "싸움이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "벌어지다.v.Event",
+                    "text": "논쟁 끝에 싸움이 벌어졌다."
+                }
+            ]
+        }
+    ]
+}

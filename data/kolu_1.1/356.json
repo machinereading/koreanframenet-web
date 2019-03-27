@@ -1,0 +1,128 @@
+{
+    "en_lus": [],
+    "ko_lu": "건설.n.Intentionally_create",
+    "ko_pos": "n",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "lu_id": "356",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2453",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "건설에서의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "북한 스커드 변종 미사일 조립을 위한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "공장",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2453",
+                    "lu": "건설.n.Intentionally_create",
+                    "text": "북한 스커드 변종 미사일 조립을 위한 공장 건설에서의 지원."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2450",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 93,
+                                "end": 98
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "건설에서의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 92
+                            },
+                            "text": "이들과 HQ-q/2 SAMs을 위한 조립 시설",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2450",
+                    "lu": "건설.n.Intentionally_create",
+                    "text": "북한 방문은 똑같이 유익하였고, 그는 다음 미사일 관련 분야에서 북한의 지원을 확보하였다 : HN-5A SAM 인도 및 이들과 HQ-q/2 SAMs을 위한 조립 시설 건설에서의 지원."
+                }
+            ]
+        }
+    ]
+}

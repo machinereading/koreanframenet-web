@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "박멸하다.v.Emptying",
+    "ko_pos": "v",
+    "frameID": 58,
+    "frameName": "Emptying",
+    "lu_id": "2693",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36518",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emptying",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "박멸하자."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "새로 나온 살충제로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "모든 해충을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "박멸하다.v.Emptying",
+                    "text": "새로 나온 살충제로 모든 해충을 박멸하자."
+                }
+            ]
+        }
+    ]
+}

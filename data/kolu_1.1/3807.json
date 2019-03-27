@@ -1,0 +1,103 @@
+{
+    "en_lus": [],
+    "ko_lu": "성명.n.Claim_ownership",
+    "ko_pos": "n",
+    "frameID": 550,
+    "frameName": "Claim_ownership",
+    "lu_id": "3807",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1978",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "성명을 낸"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Claimant",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "마약 왕은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1978",
+                    "lu": "성명.n.Claim_ownership",
+                    "text": "그 범행 성명을 낸 마약 왕은 Medellin 에 신문 배포를 계속한다면 보고타 신문사 사무실을 날려버리겠다고 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1851",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "성명을 내지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "text": "범행",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1851",
+                    "lu": "성명.n.Claim_ownership",
+                    "text": "무슬림 형제들은 지금 그들이 시작하자 마자, 배신한 우두머리들을 없애 버리고, 결코 범행 성명을 내지 않고, 우리는 그것에 대해 떠들어대기를 원하는 자들을 우리들 가운데에서 발견하였고, 유감스럽게도 조직 (알케이다) 에서 우리와 함께 하는 일부 형제들은 그것을 무의미고 신이 나의 증인이라고 본다."
+                }
+            ]
+        }
+    ]
+}

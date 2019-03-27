@@ -1,0 +1,199 @@
+{
+    "en_lus": [],
+    "ko_lu": "사인하다.v.Sign_agreement",
+    "ko_pos": "v",
+    "frameID": 1151,
+    "frameName": "Sign_agreement",
+    "lu_id": "3496",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34861",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign_agreement",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "사인했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Signatory",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "박감독은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Signature",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "패스를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사인하다.v.Sign_agreement",
+                    "text": "박감독은 준호에게 패스를 사인했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-34866",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign_agreement",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "사인했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Signatory",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "김감독은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "text": "두손으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사인하다.v.Sign_agreement",
+                    "text": "김감독은 조감독에게 촬영을 개시하도록 두손으로 사인했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-34864",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign_agreement",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "사인했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agreement",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "김감독은 조감독에게 촬영을 개시하라고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Signature",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "text": "두손으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사인하다.v.Sign_agreement",
+                    "text": "김감독은 조감독에게 촬영을 개시하라고 두손으로 사인했다."
+                }
+            ]
+        }
+    ]
+}

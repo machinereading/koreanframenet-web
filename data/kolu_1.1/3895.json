@@ -1,0 +1,214 @@
+{
+    "en_lus": [],
+    "ko_lu": "소속되다.v.Membership",
+    "ko_pos": "v",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "lu_id": "3895",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3260",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 61,
+                                "end": 64
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "소속된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Member",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 60
+                            },
+                            "text": "팔레스타인 자치 정부 대통령 Mahmoud Abbas의 Fatah Party에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 70
+                            },
+                            "text": "이 단체는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3260",
+                    "lu": "소속되다.v.Membership",
+                    "text": "가자 지구에 배포된 전단에서, 팔레스타인 자치 정부 대통령 Mahmoud Abbas의 Fatah Party에 소속된 이 단체는 무기가 3 년 노력의 결과였다고 언급하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-30226",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "소속된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "text": "검찰청이지만",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소속되다.v.Membership",
+                    "text": "그는 소속된 곳은 검찰청이지만 지금은 국정원에 파견나가 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-455",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "소속되고,"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "455",
+                    "lu": "소속되다.v.Membership",
+                    "text": "그들은 소속되고, 자급자족하게 되고, 그들의 자부심과 자신감을 되찾을 기회를 환영한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-30225",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "소속되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Member",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Group",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "축구 대표팀에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소속되다.v.Membership",
+                    "text": "나는 축구 대표팀에 소속되어 있다."
+                }
+            ]
+        }
+    ]
+}

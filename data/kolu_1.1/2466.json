@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "명중되다.v.Cause_impact",
+    "ko_pos": "v",
+    "frameID": 395,
+    "frameName": "Cause_impact",
+    "lu_id": "2466",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-43487",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_impact",
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "명중되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "화살이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactee",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "과녁에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "명중되다.v.Cause_impact",
+                    "text": "화살이 과녁에 명중되었다."
+                }
+            ]
+        }
+    ]
+}

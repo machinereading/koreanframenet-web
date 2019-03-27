@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "읽히다.v.Hearsay",
+    "ko_pos": "v",
+    "frameID": 37,
+    "frameName": "Hearsay",
+    "lu_id": "5522",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33901",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "읽혔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "그녀가 하는 생각이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Hearer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "우리에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "읽히다.v.Hearsay",
+                    "text": "그녀가 하는 생각이 우리에게 읽혔다."
+                }
+            ]
+        }
+    ]
+}

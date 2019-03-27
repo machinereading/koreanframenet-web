@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "단정하다.v.Opinion",
+    "ko_pos": "v",
+    "frameID": 1412,
+    "frameName": "Opinion",
+    "lu_id": "1659",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34240",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Opinion",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "단정하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "경찰은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Opinion",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 23
+                            },
+                            "text": "피의자가 고의로 부도를 낸 것이라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "단정하다.v.Opinion",
+                    "text": "경찰은 피의자가 고의로 부도를 낸 것이라고 단정하고 있다."
+                }
+            ]
+        }
+    ]
+}

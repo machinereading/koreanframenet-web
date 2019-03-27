@@ -1,0 +1,103 @@
+{
+    "en_lus": [],
+    "ko_lu": "클럽.n.Organization",
+    "ko_pos": "n",
+    "frameID": 1371,
+    "frameName": "Organization",
+    "lu_id": "7044",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1061",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Organization",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "클럽으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Members",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 28
+                            },
+                            "text": "일본 장교들을 위한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1061",
+                    "lu": "클럽.n.Organization",
+                    "text": "제2차 세계대전 중, 그 교회는 일본 장교들을 위한 클럽으로 변하였고 ; 그것은 전쟁 후에 복원되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1123",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Organization",
+                            "span": {
+                                "begin": 60,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "클럽"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 59
+                            },
+                            "text": "홍콩 요트",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1123",
+                    "lu": "클럽.n.Organization",
+                    "text": "바닷쪽에 Causeway 만 태풍 피난소가 있는데, 이곳은 비싼 요트가 뱃전마다 정박되어 있고, 홍콩 요트 클럽 본부가 있다."
+                }
+            ]
+        }
+    ]
+}

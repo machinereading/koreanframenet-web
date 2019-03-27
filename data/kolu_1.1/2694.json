@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "박멸하다.v.Removing",
+    "ko_pos": "v",
+    "frameID": 63,
+    "frameName": "Removing",
+    "lu_id": "2694",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36519",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Removing",
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "박멸합니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "새로 나온 이 살충제는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "모든 해충을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "박멸하다.v.Removing",
+                    "text": "새로 나온 이 살충제는 모든 해충을 박멸합니다."
+                }
+            ]
+        }
+    ]
+}

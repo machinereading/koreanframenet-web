@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "증명되다.v.Reasoning",
+    "ko_pos": "v",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "lu_id": "6353",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2512",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reasoning",
+                            "span": {
+                                "begin": 52,
+                                "end": 58
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "증명되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Arguer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 51
+                            },
+                            "text": "초기의 미사일 생산 프로그램 개발을 포기하지 않을 것임이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2512",
+                    "lu": "증명되다.v.Reasoning",
+                    "text": "2004년 초부터 현재까지, 이란은 초기의 미사일 생산 프로그램 개발을 포기하지 않을 것임이 증명되었다."
+                }
+            ]
+        }
+    ]
+}

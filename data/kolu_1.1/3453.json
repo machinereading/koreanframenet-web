@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "사면되다.v.Forgiveness",
+    "ko_pos": "v",
+    "frameID": 401,
+    "frameName": "Forgiveness",
+    "lu_id": "3453",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46473",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Forgiveness",
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "사면되지"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "사면되다.v.Forgiveness",
+                    "text": "간첩죄로 무기형을 선고받고 14년째 복역한 유대계 조나단 폴라드는 사면되지 않은 것으로 확인됐다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-46472",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Forgiveness",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사면되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "살인자들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사면되다.v.Forgiveness",
+                    "text": "살인자들은 이번에도 사면되지 아니한다."
+                }
+            ]
+        }
+    ]
+}

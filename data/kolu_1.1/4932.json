@@ -1,0 +1,219 @@
+{
+    "en_lus": [],
+    "ko_lu": "완쾌하다.v.Cure",
+    "ko_pos": "v",
+    "frameID": 50,
+    "frameName": "Cure",
+    "lu_id": "4932",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59962",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "완쾌하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "아버지의 관절염은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "이제",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "완쾌하다.v.Cure",
+                    "text": "아버지의 관절염은 이제 완쾌하여 달리기도 가능하게 되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-59961",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "완쾌했으니"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Healer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "의사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "환자에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "이제",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "완쾌하다.v.Cure",
+                    "text": "의사는 환자에게 이제 완쾌했으니 퇴원해도 좋다고 말했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-59960",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "완쾌했다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Treatment",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 17
+                            },
+                            "text": "아내의 극진한 간호 덕분에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Affliction",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 25
+                            },
+                            "text": "불치의 병에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "완쾌하다.v.Cure",
+                    "text": "그는 아내의 극진한 간호 덕분에 불치의 병에서 완쾌했다고 믿고 있었다."
+                }
+            ]
+        }
+    ]
+}

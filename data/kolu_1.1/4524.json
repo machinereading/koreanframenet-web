@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "양산시키다.v.Cause_to_start",
+    "ko_pos": "v",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "lu_id": "4524",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49965",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_start",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "양산시킨다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "급격한 산업구조의 변화가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "text": "실업자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "양산시키다.v.Cause_to_start",
+                    "text": "급격한 산업구조의 변화가 실업자를 양산시킨다."
+                }
+            ]
+        }
+    ]
+}

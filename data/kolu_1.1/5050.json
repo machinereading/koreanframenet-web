@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "움직이다.v.Being_in_operation",
+    "ko_pos": "v",
+    "frameID": 880,
+    "frameName": "Being_in_operation",
+    "lu_id": "5050",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51747",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_in_operation",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "움직이지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "파업으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Device",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "한 달 간 공장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "움직이다.v.Being_in_operation",
+                    "text": "우리는 파업으로 한 달 간 공장을 움직이지 못하고 있다."
+                }
+            ]
+        }
+    ]
+}

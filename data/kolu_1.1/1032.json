@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "근무하다.v.Being_employed",
+    "ko_pos": "v",
+    "frameID": 282,
+    "frameName": "Being_employed",
+    "lu_id": "1032",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2651",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_employed",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "근무하는지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "얼마나 많은 사람이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place_Of_Employment",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "AEOI에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2651",
+                    "lu": "근무하다.v.Being_employed",
+                    "text": "얼마나 많은 사람이 AEOI에서 근무하는지 불분명하다."
+                }
+            ]
+        }
+    ]
+}

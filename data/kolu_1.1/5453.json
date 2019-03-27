@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "인지되다.v.Statement",
+    "ko_pos": "v",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "5453",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58782",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "인지되기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "우주 괴물이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인지되다.v.Statement",
+                    "text": "우주 괴물이 사람들에게 인지되기 시작한 것은 얼마 되지 않았다."
+                }
+            ]
+        }
+    ]
+}

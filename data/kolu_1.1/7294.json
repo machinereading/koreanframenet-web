@@ -1,0 +1,92 @@
+{
+    "en_lus": [],
+    "ko_lu": "퍼뜨리다.v.Infecting",
+    "ko_pos": "v",
+    "frameID": 2851,
+    "frameName": "Infecting",
+    "lu_id": "7294",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19769",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Infecting",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "퍼뜨리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Infection_Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "그 에이즈 환자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Infection",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "병을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Infected_Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "아무에게나",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "퍼뜨리다.v.Infecting",
+                    "text": "그 에이즈 환자는 병을 아무에게나 퍼뜨리고 다닌다."
+                }
+            ]
+        }
+    ]
+}

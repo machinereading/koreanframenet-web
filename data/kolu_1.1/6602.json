@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "찌르다.v.Cause_harm",
+    "ko_pos": "v",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "lu_id": "6602",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42835",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "찌른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "역겨운 냄새가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "코를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찌르다.v.Cause_harm",
+                    "text": "역겨운 냄새가 코를 찌른다."
+                }
+            ]
+        }
+    ]
+}

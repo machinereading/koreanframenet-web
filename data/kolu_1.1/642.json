@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "고증되다.v.Evidence",
+    "ko_pos": "v",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "lu_id": "642",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24967",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "고증되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "도자기의 가치가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "철저하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고증되다.v.Evidence",
+                    "text": "도자기의 가치가 자료를 통해 철저하게 고증되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-24966",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "고증되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "팔만대장경의 제작시기, 역사적 배경 등이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고증되다.v.Evidence",
+                    "text": "팔만대장경의 제작시기, 역사적 배경 등이 고증되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "생각나다.v.Evoking",
+    "ko_pos": "v",
+    "frameID": 1012,
+    "frameName": "Evoking",
+    "lu_id": "3634",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18355",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evoking",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "생각난다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "그 영화를 보면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "나의 어린 시절이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생각나다.v.Evoking",
+                    "text": "그 영화를 보면 나의 어린 시절이 생각난다."
+                }
+            ]
+        }
+    ]
+}

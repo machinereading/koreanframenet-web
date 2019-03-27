@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "점령당하다.v.Possession",
+    "ko_pos": "v",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "5912",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40886",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "점령당했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "이라크는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Owner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "미국에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "점령당하다.v.Possession",
+                    "text": "이라크는 미국에 의해 점령당했다."
+                }
+            ]
+        }
+    ]
+}

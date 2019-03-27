@@ -1,0 +1,92 @@
+{
+    "en_lus": [],
+    "ko_lu": "타다.v.Operate_vehicle",
+    "ko_pos": "v",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "lu_id": "7057",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4209",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operate_vehicle",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "타고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Driver",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "한 공터에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "차를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4209",
+                    "lu": "타다.v.Operate_vehicle",
+                    "text": "내가 한 공터에 차를 타고 들어가, 그녀에게 달려들자, 지금껏 축 늘어져 있던 사람이 마치 다른 사람이 된 것처럼 격렬하게 저항했다."
+                }
+            ]
+        }
+    ]
+}

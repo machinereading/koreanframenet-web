@@ -1,0 +1,136 @@
+{
+    "en_lus": [],
+    "ko_lu": "재개되다.v.Activity_resume",
+    "ko_pos": "v",
+    "frameID": 1156,
+    "frameName": "Activity_resume",
+    "lu_id": "5716",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45611",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_resume",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재개된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내일",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "양국의 협상이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재개되다.v.Activity_resume",
+                    "text": "내일 양국의 협상이 재개된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-3375",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_resume",
+                            "span": {
+                                "begin": 53,
+                                "end": 59
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "재개되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "text": "이것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "text": "후에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3375",
+                    "lu": "재개되다.v.Activity_resume",
+                    "text": "아야톨라 호메이니가 1979년 집권 후 그는 이란의 핵개발 프로그램을 취소했지만, 이것은 후에 재개되었다."
+                }
+            ]
+        }
+    ]
+}

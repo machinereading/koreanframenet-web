@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "수호되다.v.Protecting",
+    "ko_pos": "v",
+    "frameID": 1631,
+    "frameName": "Protecting",
+    "lu_id": "4065",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-47143",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Protecting",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "수호되어야"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "수호되다.v.Protecting",
+                    "text": "헌법은 국가가 존속하는 한 수호되어야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-47142",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Protecting",
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "수호되어야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Asset",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "우리 나라는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "text": "그 어느 순간에도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수호되다.v.Protecting",
+                    "text": "우리 나라는 그 어느 순간에도 수호되어야 합니다."
+                }
+            ]
+        }
+    ]
+}

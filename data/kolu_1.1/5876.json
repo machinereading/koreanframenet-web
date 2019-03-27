@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "전화되다.v.Contacting",
+    "ko_pos": "v",
+    "frameID": 286,
+    "frameName": "Contacting",
+    "lu_id": "5876",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-29002",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Contacting",
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "전화되도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 26
+                            },
+                            "text": "전기가 들어가지 않는 마을이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전화되다.v.Contacting",
+                    "text": "그 국회의원 후보는 전기가 들어가지 않는 마을이 전화되도록 정부예산을 끌어들이겠다고 공약했다."
+                }
+            ]
+        }
+    ]
+}

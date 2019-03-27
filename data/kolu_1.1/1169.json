@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "기초되다.v.Cause_to_start",
+    "ko_pos": "v",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "lu_id": "1169",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42492",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_start",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "기초되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 책은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "text": "창조론적 역사관에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기초되다.v.Cause_to_start",
+                    "text": "그 책은 창조론적 역사관에 기초되어 있어 종교성이 강한 것이다."
+                }
+            ]
+        }
+    ]
+}

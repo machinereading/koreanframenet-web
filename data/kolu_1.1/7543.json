@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "합치다.v.Amalgamation",
+    "ko_pos": "v",
+    "frameID": 790,
+    "frameName": "Amalgamation",
+    "lu_id": "7543",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-44202",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Amalgamation",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "합치면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Parts",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "파란색과 빨간색을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "서로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "합치다.v.Amalgamation",
+                    "text": "파란색과 빨간색을 서로 합치면 어떤 색깔이 될까?"
+                }
+            ]
+        }
+    ]
+}

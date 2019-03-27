@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "받다.v.Undergoing",
+    "ko_pos": "v",
+    "frameID": 1725,
+    "frameName": "Undergoing",
+    "lu_id": "2743",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2650",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undergoing",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "기구는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 23
+                            },
+                            "text": "임무와 구조에서 몇 차례의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2650",
+                    "lu": "받다.v.Undergoing",
+                    "text": "그러나, 기구는 임무와 구조에서 몇 차례의 수정을 받았다."
+                }
+            ]
+        }
+    ]
+}

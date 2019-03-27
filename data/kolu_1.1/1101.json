@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "기리다.v.Judgment",
+    "ko_pos": "v",
+    "frameID": 28,
+    "frameName": "Judgment",
+    "lu_id": "1101",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61403",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "기리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "고인의 공적을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "사람들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기리다.v.Judgment",
+                    "text": "아직도 고인의 공적을 기리는 사람들이 많이 있다."
+                }
+            ]
+        }
+    ]
+}

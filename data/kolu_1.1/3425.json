@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "사냥하다.v.Seeking",
+    "ko_pos": "v",
+    "frameID": 269,
+    "frameName": "Seeking",
+    "lu_id": "3425",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31891",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Seeking",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사냥하러"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer_Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "철수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sought_Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "여자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사냥하다.v.Seeking",
+                    "text": "철수는 여자를 사냥하러 나이트클럽으로 갔다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "대리.n.Intentionally_act",
+    "ko_pos": "n",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "lu_id": "1749",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4344",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "대리를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "text": "누가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "사장",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4344",
+                    "lu": "대리.n.Intentionally_act",
+                    "text": "문제는 누가 사장을 하고, 누가 사장 대리를 하느냐 하는 점이었다."
+                }
+            ]
+        }
+    ]
+}

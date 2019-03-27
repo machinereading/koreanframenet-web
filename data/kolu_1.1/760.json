@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "관광.n.Travel",
+    "ko_pos": "n",
+    "frameID": 343,
+    "frameName": "Travel",
+    "lu_id": "760",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-998",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Travel",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "관광이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "도시 외곽에 있는 명소들로 가는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Mode_Of_Transportation",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "text": "버스",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "998",
+                    "lu": "관광.n.Travel",
+                    "text": "도시 외곽에 있는 명소들로 가는 많은 안내 버스 관광이 있고, 몇몇은 도시 버스로 접근할 수도 있다."
+                }
+            ]
+        }
+    ]
+}

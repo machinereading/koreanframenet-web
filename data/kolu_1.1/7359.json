@@ -1,0 +1,102 @@
+{
+    "en_lus": [],
+    "ko_lu": "포획하다.v.Taking_captive",
+    "ko_pos": "v",
+    "frameID": 2663,
+    "frameName": "Taking_captive",
+    "lu_id": "7359",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23324",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Taking_captive",
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "포획해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 51
+                            },
+                            "text": "신고, 출동한 소방대원들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포획하다.v.Taking_captive",
+                    "text": "주택가에 꽃뱀이 똬리를 틀고 있는 것을 마을주민이 발견해 119에 신고, 출동한 소방대원들이 포획해 인근 야산에 놓아줬다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-23323",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Taking_captive",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "포획했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Captive",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "text": "꿩 한 마리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "포획하다.v.Taking_captive",
+                    "text": "김씨는 나무하러 산에 갔다가 꿩 한 마리를 포획했다."
+                }
+            ]
+        }
+    ]
+}

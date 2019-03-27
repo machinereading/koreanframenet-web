@@ -1,0 +1,90 @@
+{
+    "en_lus": [],
+    "ko_lu": "차리다.v.Cooking_creation",
+    "ko_pos": "v",
+    "frameID": 268,
+    "frameName": "Cooking_creation",
+    "lu_id": "6632",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40852",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cooking_creation",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "차리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "어머니는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "부엌에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Produced_Food",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "저녁상을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "차리다.v.Cooking_creation",
+                    "text": "어머니는 부엌에서 저녁상을 차리고 계셨다."
+                }
+            ]
+        }
+    ]
+}

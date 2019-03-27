@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "테스트하다.v.Attempt_means",
+    "ko_pos": "v",
+    "frameID": 2132,
+    "frameName": "Attempt_means",
+    "lu_id": "7137",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24760",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt_means",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "테스트해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "이 기계의 성능을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "테스트하다.v.Attempt_means",
+                    "text": "이 기계의 성능을 테스트해 본 후 구입 여부를 결정하겠습니다."
+                }
+            ]
+        }
+    ]
+}

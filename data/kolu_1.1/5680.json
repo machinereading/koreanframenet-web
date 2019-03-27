@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "잡아끌다.v.Cause_motion",
+    "ko_pos": "v",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "lu_id": "5680",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49193",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "잡아끌었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "text": "그녀의 팔을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잡아끌다.v.Cause_motion",
+                    "text": "나는 그들의 말을 무시하고 그녀의 팔을 잡아끌었다."
+                }
+            ]
+        }
+    ]
+}

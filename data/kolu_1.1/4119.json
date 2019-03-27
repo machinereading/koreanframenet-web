@@ -1,0 +1,92 @@
+{
+    "en_lus": [],
+    "ko_lu": "습격시키다.v.Attack",
+    "ko_pos": "v",
+    "frameID": 424,
+    "frameName": "Attack",
+    "lu_id": "4119",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40554",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attack",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "습격시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Assailant",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "소대장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Assailant",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "소대원 일부에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Victim",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "적의 진지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "습격시키다.v.Attack",
+                    "text": "소대장은 소대원 일부에게 적의 진지를 습격시켰다."
+                }
+            ]
+        }
+    ]
+}

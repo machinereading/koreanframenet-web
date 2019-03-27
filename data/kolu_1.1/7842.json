@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "회의하다.v.Certainty",
+    "ko_pos": "v",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "lu_id": "7842",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34463",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "회의하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "모든 것에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 28
+                            },
+                            "text": "염세적인 성향을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "회의하다.v.Certainty",
+                    "text": "그 사람은 모든 것에 대해 회의하는 염세적인 성향을 지니고 있다."
+                }
+            ]
+        }
+    ]
+}

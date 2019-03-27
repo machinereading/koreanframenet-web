@@ -1,0 +1,126 @@
+{
+    "en_lus": [],
+    "ko_lu": "얘기하다.v.Chatting",
+    "ko_pos": "v",
+    "frameID": 910,
+    "frameName": "Chatting",
+    "lu_id": "4533",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61954",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chatting",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "얘기해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutors",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "text": "앞에 보이는 숫자들의 연관성에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "얘기하다.v.Chatting",
+                    "text": "앞에 보이는 숫자들의 연관성에 대해 얘기해 봅니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1895",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Chatting",
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "얘기하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutors",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 57
+                            },
+                            "text": "그들이 가져올 형사 - 형사 사건에 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1895",
+                    "lu": "얘기하다.v.Chatting",
+                    "text": "음 나는 개인적으로 재판제도에 eogo 검토할 생각하며 우리는 그들이 가져올 형사 - 형사 사건에 대해 얘기하는 중이다."
+                }
+            ]
+        }
+    ]
+}

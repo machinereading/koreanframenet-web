@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "계속.ad.Degree",
+    "ko_pos": "ad",
+    "frameID": 2001,
+    "frameName": "Degree",
+    "lu_id": "564",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3705",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Degree",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "계속"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Gradable_Attribute",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "전부터,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3705",
+                    "lu": "계속.ad.Degree",
+                    "text": "그런데, 이 신사의 숲에는 말이지, 계속 전부터, 여우 모자가 살고 있었대."
+                }
+            ]
+        }
+    ]
+}

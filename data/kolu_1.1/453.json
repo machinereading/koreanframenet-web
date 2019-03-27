@@ -1,0 +1,99 @@
+{
+    "en_lus": [],
+    "ko_lu": "격돌하다.v.Hostile_encounter",
+    "ko_pos": "v",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "lu_id": "453",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24583",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "격돌한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sides",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "격돌하다.v.Hostile_encounter",
+                    "text": "그들이 격돌한 이유는 각자 자신들의 이익을 챙기기 위해서였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-24582",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "격돌하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sides",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "시민단체와 경찰이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "격돌하다.v.Hostile_encounter",
+                    "text": "시민단체와 경찰이 격돌하는 모습을 종로에서 보았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "en_lus": [],
+    "ko_lu": "고증하다.v.Reasoning",
+    "ko_pos": "v",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "lu_id": "644",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-26654",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reasoning",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "고증했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Arguer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "김 교수님은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 24
+                            },
+                            "text": "고려시대에 관한 역사적 문헌들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "text": "하나하나",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고증하다.v.Reasoning",
+                    "text": "김 교수님은 고려시대에 관한 역사적 문헌들을 하나하나 고증했다."
+                }
+            ]
+        }
+    ]
+}

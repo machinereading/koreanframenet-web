@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "청구.n.Claim_ownership",
+    "ko_pos": "n",
+    "frameID": 550,
+    "frameName": "Claim_ownership",
+    "lu_id": "6769",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4085",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "특허청구"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "text": "특허청구",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4085",
+                    "lu": "청구.n.Claim_ownership",
+                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4011",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "청구"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "특허",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4011",
+                    "lu": "청구.n.Claim_ownership",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
+                }
+            ]
+        }
+    ]
+}

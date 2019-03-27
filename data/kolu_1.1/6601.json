@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "찌다.v.Apply_heat",
+    "ko_pos": "v",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "lu_id": "6601",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24886",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "찌기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "자원 봉사 학생들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "text": "모판에서 모를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찌다.v.Apply_heat",
+                    "text": "자원 봉사 학생들은 모판에서 모를 하나씩 찌기 시작했다."
+                }
+            ]
+        }
+    ]
+}

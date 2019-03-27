@@ -1,0 +1,135 @@
+{
+    "en_lus": [],
+    "ko_lu": "신문하다.v.Questioning",
+    "ko_pos": "v",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "lu_id": "4238",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-4169",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 83,
+                                "end": 88
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "신문했다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "미국 로스앤젤레스 경찰은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 82
+                            },
+                            "text": "야후, 아마존 등 유명 인터넷 사이트의 해킹 용의자 중 하나로 지목된 `쿨리오'라는 인터넷 이름을 사용하는 10 대 해커를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신문하다.v.Questioning",
+                    "text": "미국 로스앤젤레스 경찰은 야후, 아마존 등 유명 인터넷 사이트의 해킹 용의자 중 하나로 지목된 `쿨리오'라는 인터넷 이름을 사용하는 10 대 해커를 신문했다고 2 일 밝혔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-4168",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 91,
+                                "end": 94
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "신문할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 82,
+                                "end": 87
+                            },
+                            "text": "피노체트를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신문하다.v.Questioning",
+                    "text": "피노체트의 면책특권이 박탈된다면 그가 집권하던 지난 73-90 년 당시 발생한 수천건의 의문사 사건과 관련, 그동안 제기된 61 건의 소송에 대해 피노체트를 본격 신문할 수 있을 것으로 구스만은 기대하고 있다."
+                }
+            ]
+        }
+    ]
+}

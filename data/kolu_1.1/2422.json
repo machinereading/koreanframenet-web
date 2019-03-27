@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "멈칫하다.v.Activity_stop",
+    "ko_pos": "v",
+    "frameID": 166,
+    "frameName": "Activity_stop",
+    "lu_id": "2422",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35980",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_stop",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "멈칫했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "진은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "신문을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "멈칫하다.v.Activity_stop",
+                    "text": "진은 신문을 던지려다가 멈칫했다."
+                }
+            ]
+        }
+    ]
+}

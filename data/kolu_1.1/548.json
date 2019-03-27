@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "경찰.n.People_by_vocation",
+    "ko_pos": "n",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "lu_id": "548",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4902",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_vocation",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "경찰"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "경찰",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rank",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "총경의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4902",
+                    "lu": "경찰.n.People_by_vocation",
+                    "text": "카림은 경찰 총경의 모습을 바라보고 있었다."
+                }
+            ]
+        }
+    ]
+}

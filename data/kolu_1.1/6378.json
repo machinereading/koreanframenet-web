@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "지나가다.v.Path_shape",
+    "ko_pos": "v",
+    "frameID": 61,
+    "frameName": "Path_shape",
+    "lu_id": "6378",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3301",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "지나갔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 25
+                            },
+                            "text": "내가 쭈그리고 있는 벽의 다른 편의 길을 따라",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Road",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "text": "발걸음이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3301",
+                    "lu": "지나가다.v.Path_shape",
+                    "text": "내가 쭈그리고 있는 벽의 다른 편의 길을 따라 발걸음이 지나갔다."
+                }
+            ]
+        }
+    ]
+}

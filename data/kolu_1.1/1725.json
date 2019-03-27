@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "당선시키다.v.Change_of_leadership",
+    "ko_pos": "v",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "lu_id": "1725",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52707",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "당선시키려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "New_Leader",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "나를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 18
+                            },
+                            "text": "어린이 회장으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "당선시키다.v.Change_of_leadership",
+                    "text": "우리 엄마는 나를 어린이 회장으로 당선시키려고 많은 노력을 하셨다."
+                }
+            ]
+        }
+    ]
+}

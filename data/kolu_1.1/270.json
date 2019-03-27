@@ -1,0 +1,138 @@
+{
+    "en_lus": [],
+    "ko_lu": "개봉되다.v.Closure",
+    "ko_pos": "v",
+    "frameID": 254,
+    "frameName": "Closure",
+    "lu_id": "270",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51657",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Closure",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "개봉되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "올해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Containing_Object",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "우리 영화는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Containing_Object",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "30편만이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개봉되다.v.Closure",
+                    "text": "올해 우리 영화는 단지 30편만이 개봉되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-51656",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Closure",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "개봉되자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Containing_Object",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "임권택 감독의 새 영화가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개봉되다.v.Closure",
+                    "text": "임권택 감독의 새 영화가 개봉되자 사람들의 관심이 모아졌다."
+                }
+            ]
+        }
+    ]
+}

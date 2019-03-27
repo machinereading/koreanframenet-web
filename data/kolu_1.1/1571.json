@@ -1,0 +1,136 @@
+{
+    "en_lus": [],
+    "ko_lu": "누설되다.v.Reveal_secret",
+    "ko_pos": "v",
+    "frameID": 1146,
+    "frameName": "Reveal_secret",
+    "lu_id": "1571",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42133",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reveal_secret",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "누설되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Information",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "가스가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "저장 탱크에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "누설되다.v.Reveal_secret",
+                    "text": "가스가 저장 탱크에서 누설되는 사고가 발생했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-42134",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reveal_secret",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "누설되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Information",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "회사 기밀이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "바람에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "누설되다.v.Reveal_secret",
+                    "text": "회사 기밀이 누설되는 바람에 우리 회사는 큰 타격을 받았다."
+                }
+            ]
+        }
+    ]
+}

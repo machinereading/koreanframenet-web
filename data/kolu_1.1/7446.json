@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "필요하다.a.Have_as_requirement",
+    "ko_pos": "a",
+    "frameID": 1491,
+    "frameName": "Have_as_requirement",
+    "lu_id": "7446",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-781",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Have_as_requirement",
+                            "span": {
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "필요로 하였고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "철도는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Required_Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "중간 기착지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "781",
+                    "lu": "필요하다.a.Have_as_requirement",
+                    "text": "철도는 중간 기착지를 필요로 하였고, 라스 베이거스가 그 장소였다."
+                }
+            ]
+        }
+    ]
+}

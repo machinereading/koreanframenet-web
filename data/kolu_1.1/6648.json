@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "착용시키다.v.Dressing",
+    "ko_pos": "v",
+    "frameID": 1211,
+    "frameName": "Dressing",
+    "lu_id": "6648",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-57321",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dressing",
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "착용시키기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Wearer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "철수에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Clothing",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "text": "유치원모자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "착용시키다.v.Dressing",
+                    "text": "엄마는 철수에게 유치원모자를 착용시키기 위해 옷장을 뒤져 모자를 찾으셨다."
+                }
+            ]
+        }
+    ]
+}

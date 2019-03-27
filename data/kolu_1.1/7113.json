@@ -1,0 +1,158 @@
+{
+    "en_lus": [],
+    "ko_lu": "태우다.v.Apply_heat",
+    "ko_pos": "v",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "lu_id": "7113",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18432",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "태우면서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Heating_Instrument",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "횃불을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "환하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "태우다.v.Apply_heat",
+                    "text": "그들은 횃불을 환하게 태우면서 걸어가고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-18429",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "태웠다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "주변의 모든 여자들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 27
+                            },
+                            "text": "그의 수려한 모습을 잊을 길",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Food",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 36
+                            },
+                            "text": "애를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "태우다.v.Apply_heat",
+                    "text": "주변의 모든 여자들이 그의 수려한 모습을 잊을 길 없어 무척 애를 태웠다."
+                }
+            ]
+        }
+    ]
+}

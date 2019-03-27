@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "사이.n.Time_vector",
+    "ko_pos": "n",
+    "frameID": 379,
+    "frameName": "Time_vector",
+    "lu_id": "3494",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4700",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Time_vector",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "사이에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "초교, 재교, 삼교, 교정을 진행하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 46
+                            },
+                            "text": "참 적절한 제목이라고 생각하게 되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4700",
+                    "lu": "사이.n.Time_vector",
+                    "text": "초교, 재교, 삼교, 교정을 진행하는 사이에 참 적절한 제목이라고 생각하게 되었다."
+                }
+            ]
+        }
+    ]
+}

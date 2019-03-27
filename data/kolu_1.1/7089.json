@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "탈취되다.v.Robbery",
+    "ko_pos": "v",
+    "frameID": 99,
+    "frameName": "Robbery",
+    "lu_id": "7089",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-16799",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Robbery",
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "탈취되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "text": "책의 가치를 모르는 인간들에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 25
+                            },
+                            "text": "수많은 장서들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "탈취되다.v.Robbery",
+                    "text": "책의 가치를 모르는 인간들에게 수많은 장서들이 탈취되었다."
+                }
+            ]
+        }
+    ]
+}

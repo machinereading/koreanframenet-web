@@ -1,0 +1,99 @@
+{
+    "en_lus": [],
+    "ko_lu": "사정되다.v.Assessing",
+    "ko_pos": "v",
+    "frameID": 519,
+    "frameName": "Assessing",
+    "lu_id": "3502",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31420",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "사정되면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "입학이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사정되다.v.Assessing",
+                    "text": "입학이 사정되면 곧 합격자 발표가 난다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-31422",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "사정되기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 환자는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사정되다.v.Assessing",
+                    "text": "이 환자는 삽입하자마자 사정되기 때문에 물리치료와 함께 심리치료도 병행해야 한다."
+                }
+            ]
+        }
+    ]
+}

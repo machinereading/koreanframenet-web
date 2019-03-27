@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "직결되다.v.Rope_manipulation",
+    "ko_pos": "v",
+    "frameID": 246,
+    "frameName": "Rope_manipulation",
+    "lu_id": "6486",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-62024",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Rope_manipulation",
+                            "span": {
+                                "begin": 48,
+                                "end": 53
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "직결된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Rope",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 38
+                            },
+                            "text": "하드디스크의 성능은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rope",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 47
+                            },
+                            "text": "컴퓨터의 성능에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "직결되다.v.Rope_manipulation",
+                    "text": "모든 데이터를 하드디스크를 통해 읽고 쓰기 때문에 하드디스크의 성능은 컴퓨터의 성능에 직결된다."
+                }
+            ]
+        }
+    ]
+}

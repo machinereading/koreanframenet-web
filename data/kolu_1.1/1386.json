@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "낭비되다.v.Frugality",
+    "ko_pos": "v",
+    "frameID": 84,
+    "frameName": "Frugality",
+    "lu_id": "1386",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52876",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frugality",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "낭비된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "text": "시간이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "낭비되다.v.Frugality",
+                    "text": "이렇게 되면 컴퓨터가 남은 시간 동안 하는 일 없이 기다리기 때문에 시간이 낭비된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-52875",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Frugality",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "낭비되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "많은 돈이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Behavior",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 14
+                            },
+                            "text": "행정적 과정에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "낭비되다.v.Frugality",
+                    "text": "많은 돈이 행정적 과정에서 낭비되었다."
+                }
+            ]
+        }
+    ]
+}

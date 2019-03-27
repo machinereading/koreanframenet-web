@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "날리다.v.Body_movement",
+    "ko_pos": "v",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "lu_id": "1347",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17174",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Body_movement",
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "날려"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "영철이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "몸을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "날리다.v.Body_movement",
+                    "text": "영철이는 몸을 날려 아이를 구한 것이다."
+                }
+            ]
+        }
+    ]
+}

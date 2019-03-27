@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "단정되다.v.Categorization",
+    "ko_pos": "v",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "lu_id": "1656",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18736",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 44,
+                                "end": 50
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "단정되었다."
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "단정되다.v.Categorization",
+                    "text": "사실 확인도 없이 많은 사람들에 의해서 그 회사는 소생의 가능성이 없는 것으로 단정되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-18733",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "단정되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Category",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "그는 죽었다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "단정되다.v.Categorization",
+                    "text": "그는 죽었다고 단정되었다."
+                }
+            ]
+        }
+    ]
+}

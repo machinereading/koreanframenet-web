@@ -1,0 +1,143 @@
+{
+    "en_lus": [],
+    "ko_lu": "심판하다.v.Assessing",
+    "ko_pos": "v",
+    "frameID": 519,
+    "frameName": "Assessing",
+    "lu_id": "4304",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61249",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "심판했음에도"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "심판하다.v.Assessing",
+                    "text": "그가 이번 경기를 심판했음에도 부정 심판 의혹이 쏟아져나왔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-61248",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "심판한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Assessor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그녀는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "이번 월드컵을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심판하다.v.Assessing",
+                    "text": "그녀는 이번 월드컵을 심판한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-61253",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "심판할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "그의 말을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심판하다.v.Assessing",
+                    "text": "나는 그의 말을 심판할 권리가 없다."
+                }
+            ]
+        }
+    ]
+}

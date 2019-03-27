@@ -1,0 +1,122 @@
+{
+    "en_lus": [],
+    "ko_lu": "가공하다.v.Grinding",
+    "ko_pos": "v",
+    "frameID": 351,
+    "frameName": "Grinding",
+    "lu_id": "10",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-6182",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grinding",
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "가공하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Grinder",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "위세정보기술은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 32
+                            },
+                            "text": "인터넷 기반 기업들이 축적한 방대한 데이터를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가공하다.v.Grinding",
+                    "text": "위세정보기술은 인터넷 기반 기업들이 축적한 방대한 데이터를 분석, 가공하여 의사결정에 반영하도록 돕는 인터넷 비즈니스 인텔리전스 사업을 주로 하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2853",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grinding",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "가공하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "text": "우라늄을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2853",
+                    "lu": "가공하다.v.Grinding",
+                    "text": "우라늄 기반의 폭탄 프로그램은 우라늄을 채굴 및 가공하고 무기급 혹은 무기급 ( 무기급 우라늄보다 적게 사용된 히로시마 폭탄 ) 에 근접하게 농축하기 위한 능력이 요구된다."
+                }
+            ]
+        }
+    ]
+}

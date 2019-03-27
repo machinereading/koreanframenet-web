@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "틀다.v.Change_direction",
+    "ko_pos": "v",
+    "frameID": 1653,
+    "frameName": "Change_direction",
+    "lu_id": "7217",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-41703",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_direction",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "틀어라."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "채널을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Direction",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "13번으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "틀다.v.Change_direction",
+                    "text": "채널을 13번으로 틀어라."
+                }
+            ]
+        }
+    ]
+}

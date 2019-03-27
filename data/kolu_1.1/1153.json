@@ -1,0 +1,59 @@
+{
+    "en_lus": [],
+    "ko_lu": "기원하다.v.Activity_start",
+    "ko_pos": "v",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "lu_id": "1153",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-54107",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "기원하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "그녀는 건강한 아이를 낳게 해 달라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기원하다.v.Activity_start",
+                    "text": "그녀는 건강한 아이를 낳게 해 달라고 기원하였다."
+                }
+            ]
+        }
+    ]
+}

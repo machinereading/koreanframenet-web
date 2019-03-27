@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "의견_차이.n.Quarreling",
+    "ko_pos": "n",
+    "frameID": 710,
+    "frameName": "Quarreling",
+    "lu_id": "5218",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3499",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Quarreling",
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "의견 차이도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Issue",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 39
+                            },
+                            "text": "핵 이전과 핵 비확산에 관한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Arguers",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 48
+                            },
+                            "text": "미국과 중국 간",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3499",
+                    "lu": "의견_차이.n.Quarreling",
+                    "text": "이란에 대한 다른 견해들과 관련하여, 또한 핵 이전과 핵 비확산에 관한 미국과 중국 간 의견 차이도 있다."
+                }
+            ]
+        }
+    ]
+}

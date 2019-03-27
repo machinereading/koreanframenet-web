@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "낙심하다.v.Experiencer_focus",
+    "ko_pos": "v",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "lu_id": "1339",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4529",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "낙심했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "text": "그리고 나서도 몇번인가 호출이 있었고,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "text": "그 때마다",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4529",
+                    "lu": "낙심하다.v.Experiencer_focus",
+                    "text": "그리고 나서도 몇번인가 호출이 있었고, 그 때마다 낙심했다."
+                }
+            ]
+        }
+    ]
+}

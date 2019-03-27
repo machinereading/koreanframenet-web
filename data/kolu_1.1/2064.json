@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "들어가다.v.Inclusion",
+    "ko_pos": "v",
+    "frameID": 1153,
+    "frameName": "Inclusion",
+    "lu_id": "2064",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4085",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inclusion",
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "들어가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "text": "특허발명이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Total",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "보호 범위에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4085",
+                    "lu": "들어가다.v.Inclusion",
+                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 들어가는 지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다."
+                }
+            ]
+        }
+    ]
+}

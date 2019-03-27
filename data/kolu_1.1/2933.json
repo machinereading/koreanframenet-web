@@ -1,0 +1,138 @@
+{
+    "en_lus": [],
+    "ko_lu": "번민하다.v.Emotion_active",
+    "ko_pos": "v",
+    "frameID": 45,
+    "frameName": "Emotion_active",
+    "lu_id": "2933",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39040",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_active",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "번민하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "사랑으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "번민하다.v.Emotion_active",
+                    "text": "사람으로 태어나 사랑으로 번민하지 않는 사람은 없다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39041",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_active",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "번민하던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "그 많은 시간 동안",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "자신의 삶에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "번민하다.v.Emotion_active",
+                    "text": "그 많은 시간 동안 자신의 삶에 대해 번민하던 그는 어느 날 관직을 버리고 고향으로 내려갔다."
+                }
+            ]
+        }
+    ]
+}

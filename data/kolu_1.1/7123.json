@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "터뜨리다.v.Experience_bodily_harm",
+    "ko_pos": "v",
+    "frameID": 384,
+    "frameName": "Experience_bodily_harm",
+    "lu_id": "7123",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17064",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experience_bodily_harm",
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "터뜨렸다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "몽둥이로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "내 머리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "터뜨리다.v.Experience_bodily_harm",
+                    "text": "상대방이 몽둥이로 내 머리를 터뜨렸다."
+                }
+            ]
+        }
+    ]
+}

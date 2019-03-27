@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "잡다.v.Ride_vehicle",
+    "ko_pos": "v",
+    "frameID": 690,
+    "frameName": "Ride_vehicle",
+    "lu_id": "5675",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38838",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ride_vehicle",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "잡아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "택시를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잡다.v.Ride_vehicle",
+                    "text": "그는 택시를 잡아 타고 떠났다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,260 @@
+{
+    "en_lus": [],
+    "ko_lu": "일치되다.v.Evaluative_comparison",
+    "ko_pos": "v",
+    "frameID": 353,
+    "frameName": "Evaluative_comparison",
+    "lu_id": "5505",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35428",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "일치되도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "글은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attribute",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "처음과 끝이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "일치되다.v.Evaluative_comparison",
+                    "text": "글은 처음과 끝이 일치되도록 일관성 있게 써야 된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-35427",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "일치되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 책상은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standard_Item",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "의자와",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "서로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Attribute",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "text": "색깔 면에서는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "일치되다.v.Evaluative_comparison",
+                    "text": "이 책상은 의자와 서로 색깔 면에서는 일치되지 않는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-190",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "일치되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Profiled_Attribute",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "text": "무지와 지적 무능력이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standard_Attribute",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 29
+                            },
+                            "text": "그들 자신의 좋은 생각과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Profiled_Attribute",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 43
+                            },
+                            "text": "젊은 세대이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "190",
+                    "lu": "일치되다.v.Evaluative_comparison",
+                    "text": "결과는 무지와 지적 무능력이 그들 자신의 좋은 생각과 일치되는 젊은 세대이다."
+                }
+            ]
+        }
+    ]
+}

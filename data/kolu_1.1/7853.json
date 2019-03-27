@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "횡설수설하다.v.Speak_on_topic",
+    "ko_pos": "v",
+    "frameID": 523,
+    "frameName": "Speak_on_topic",
+    "lu_id": "7853",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-47694",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Speak_on_topic",
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "횡설수설했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "당황한 아내는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "아이들이 없어졌다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "횡설수설하다.v.Speak_on_topic",
+                    "text": "당황한 아내는 아이들이 없어졌다고 횡설수설했다."
+                }
+            ]
+        }
+    ]
+}

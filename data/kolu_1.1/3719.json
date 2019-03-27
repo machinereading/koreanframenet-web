@@ -1,0 +1,82 @@
+{
+    "en_lus": [],
+    "ko_lu": "선로.n.Roadways",
+    "ko_pos": "n",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "lu_id": "3719",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4312",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "선로를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Roadway",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "이 선로를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4312",
+                    "lu": "선로.n.Roadways",
+                    "text": "나는, 이 선로를 탄 것에 대해서는, 동기로서 참 다행이라고 생각한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-770",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "선로는"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "770",
+                    "lu": "선로.n.Roadways",
+                    "text": "지도에 그려진 것처럼, 선로는 Helen Stewart의 Las Vegas Ranch를 바로 통과하여 지나갔다."
+                }
+            ]
+        }
+    ]
+}

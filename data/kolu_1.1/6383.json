@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "지나다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "6383",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-44385",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "지나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "저쪽 모퉁이를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지나다.v.Motion",
+                    "text": "저쪽 모퉁이를 지나 오른쪽으로 십분 정도 걸어가면 우체국이 있습니다."
+                }
+            ]
+        }
+    ]
+}

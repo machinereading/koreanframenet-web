@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "연기하다.v.Performers_and_roles",
+    "ko_pos": "v",
+    "frameID": 413,
+    "frameName": "Performers_and_roles",
+    "lu_id": "4724",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24565",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Performers_and_roles",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "연기했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Performer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "고소영이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "춘향이를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연기하다.v.Performers_and_roles",
+                    "text": "고소영이 춘향이를 연기했다."
+                }
+            ]
+        }
+    ]
+}

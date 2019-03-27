@@ -1,0 +1,122 @@
+{
+    "en_lus": [],
+    "ko_lu": "약화되다.v.Cause_change_of_strength",
+    "ko_pos": "v",
+    "frameID": 1781,
+    "frameName": "Cause_change_of_strength",
+    "lu_id": "4512",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42486",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change_of_strength",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "약화되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "우리 상품의 경쟁력이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "약화되다.v.Cause_change_of_strength",
+                    "text": "우리 상품의 경쟁력이 약화되어 가고 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-556",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change_of_strength",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "약화됨에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "비잔틴 제국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 17
+                            },
+                            "text": "처음 천년 말기에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "556",
+                    "lu": "약화되다.v.Cause_change_of_strength",
+                    "text": "비잔틴 제국이 처음 천년 말기에 약화됨에 따라, 십자군은 무슬림 세력에 대응하고 기독교 신앙을 위한 예루살렘 탈환을 위해 서유럽으로부터 보내졌다."
+                }
+            ]
+        }
+    ]
+}

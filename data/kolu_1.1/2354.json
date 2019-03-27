@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "맞먹다.v.Compatibility",
+    "ko_pos": "v",
+    "frameID": 360,
+    "frameName": "Compatibility",
+    "lu_id": "2354",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50096",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compatibility",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "맞먹는다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item_1",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "이 책을 번역하는 데 들인 노력은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item_2",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 29
+                            },
+                            "text": "한 달 봉급에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맞먹다.v.Compatibility",
+                    "text": "이 책을 번역하는 데 들인 노력은 거의 한 달 봉급에 맞먹는다."
+                }
+            ]
+        }
+    ]
+}

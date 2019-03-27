@@ -1,0 +1,97 @@
+{
+    "en_lus": [],
+    "ko_lu": "깜빡이다.v.Light_movement",
+    "ko_pos": "v",
+    "frameID": 131,
+    "frameName": "Light_movement",
+    "lu_id": "1201",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-22987",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Light_movement",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "깜빡이고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Emitter",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "자동차를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Beam",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "불을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깜빡이다.v.Light_movement",
+                    "text": "자동차를 불을 깜빡이고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-22986",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Light_movement",
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "깜빡이며"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "깜빡이다.v.Light_movement",
+                    "text": "네온사인이 깜빡이며 행인들을 유혹하고 있다."
+                }
+            ]
+        }
+    ]
+}

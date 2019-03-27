@@ -1,0 +1,184 @@
+{
+    "en_lus": [],
+    "ko_lu": "가공되다.v.Ground_up",
+    "ko_pos": "v",
+    "frameID": 357,
+    "frameName": "Ground_up",
+    "lu_id": "8",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-54548",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ground_up",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "가공되면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "이런 쓸모 없어 보이는 돌도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "text": "여러 도구들로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가공되다.v.Ground_up",
+                    "text": "이런 쓸모 없어 보이는 돌도 여러 도구들로 가공되면 여러 가지 용도로 쓸 수 있게 된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2856",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ground_up",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "가공된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "text": "우라늄을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2856",
+                    "lu": "가공되다.v.Ground_up",
+                    "text": "예를 들면, 그들은 해외에서 천연 혹은 가공된 우라늄을 구매하고, 그런 다음 이를 무기급 물질로 농축하기 위해 고유의 시설을 사용한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-54547",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ground_up",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "가공되면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "나무가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "기계로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가공되다.v.Ground_up",
+                    "text": "나무가 기계로 가공되면 여러 가지 가구가 된단다."
+                }
+            ]
+        }
+    ]
+}

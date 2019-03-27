@@ -1,0 +1,96 @@
+{
+    "en_lus": [],
+    "ko_lu": "안내하다.v.Aiming",
+    "ko_pos": "v",
+    "frameID": 1901,
+    "frameName": "Aiming",
+    "lu_id": "4388",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1601",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aiming",
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "안내하라."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Target_Location",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 19
+                            },
+                            "text": "울타리와 통제 타워에서 떨어진",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Targeted",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 28
+                            },
+                            "text": "특별 주차장으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Instrument",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "text": "방문자 차를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1601",
+                    "lu": "안내하다.v.Aiming",
+                    "text": "5- 울타리와 통제 타워에서 떨어진 특별 주차장으로 방문자 차를 안내하라."
+                }
+            ]
+        }
+    ]
+}

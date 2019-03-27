@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "지나가다.v.Travel",
+    "ko_pos": "v",
+    "frameID": 343,
+    "frameName": "Travel",
+    "lu_id": "6379",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-770",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Travel",
+                            "span": {
+                                "begin": 57,
+                                "end": 62
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "지나갔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Traveler",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "선로는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Area",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 56
+                            },
+                            "text": "Helen Stewart의 Las Vegas Ranch를 바로 통과하여",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "770",
+                    "lu": "지나가다.v.Travel",
+                    "text": "지도에 그려진 것처럼, 선로는 Helen Stewart의 Las Vegas Ranch를 바로 통과하여 지나갔다."
+                }
+            ]
+        }
+    ]
+}

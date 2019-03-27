@@ -1,0 +1,96 @@
+{
+    "en_lus": [],
+    "ko_lu": "이동하다.v.Travel",
+    "ko_pos": "v",
+    "frameID": 343,
+    "frameName": "Travel",
+    "lu_id": "5291",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2959",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Travel",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "이동했을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Traveler",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "지미 카터 전 대통령이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 24
+                            },
+                            "text": "김일성을 만나기 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "text": "평양으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2959",
+                    "lu": "이동하다.v.Travel",
+                    "text": "지미 카터 전 대통령이 김일성을 만나기 위해 평양으로 이동했을 때인 1994년 6월에 위기가 확산되었다."
+                }
+            ]
+        }
+    ]
+}

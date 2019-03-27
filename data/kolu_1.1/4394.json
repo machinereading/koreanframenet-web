@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "안달하다.v.Emotion_active",
+    "ko_pos": "v",
+    "frameID": 45,
+    "frameName": "Emotion_active",
+    "lu_id": "4394",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61536",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_active",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "안달하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "text": "너",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 7
+                            },
+                            "text": "왜 그렇게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "안달하다.v.Emotion_active",
+                    "text": "너 왜 그렇게 안달하는 거니?."
+                }
+            ]
+        }
+    ]
+}

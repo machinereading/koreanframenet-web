@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "마시다.v.Ingestion",
+    "ko_pos": "v",
+    "frameID": 263,
+    "frameName": "Ingestion",
+    "lu_id": "2229",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3625",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "마신"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "모기가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "text": "피를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3625",
+                    "lu": "마시다.v.Ingestion",
+                    "text": "박쥐는 모기의 몸을 먹는 것이 아니라, 모기가 마신 피를 마실 뿐이므로, 몸은 바로 배출해버립니다."
+                }
+            ]
+        }
+    ]
+}

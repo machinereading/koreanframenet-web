@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "짜다.v.Manipulation",
+    "ko_pos": "v",
+    "frameID": 17,
+    "frameName": "Manipulation",
+    "lu_id": "6587",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31299",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manipulation",
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "짜서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "종기는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "함부로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짜다.v.Manipulation",
+                    "text": "종기는 함부로 짜서 덧나면 큰일난다."
+                }
+            ]
+        }
+    ]
+}

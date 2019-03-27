@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "입학하다.v.Intentionally_act",
+    "ko_pos": "v",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "lu_id": "5567",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4269",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "입학한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "대학에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4269",
+                    "lu": "입학하다.v.Intentionally_act",
+                    "text": "내가 대학에 입학한 것은 1970년이었습니다."
+                }
+            ]
+        }
+    ]
+}

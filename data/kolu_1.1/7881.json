@@ -1,0 +1,170 @@
+{
+    "en_lus": [],
+    "ko_lu": "훈수하다.v.Education_teaching",
+    "ko_pos": "v",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "lu_id": "7881",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39700",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "훈수해"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "훈수하다.v.Education_teaching",
+                    "text": "그에겐 누군가 훈수해 줄 친구가 필요했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39702",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "훈수해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "할아버지는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Subject",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 28
+                            },
+                            "text": "손자에게 그 친구를 이길 수 있는 방책을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "훈수하다.v.Education_teaching",
+                    "text": "할아버지는 손자에게 그 친구를 이길 수 있는 방책을 훈수해 주셨다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39701",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "훈수해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 여자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Student",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 27
+                            },
+                            "text": "동생에게 남자의 마음을 사로잡는 방법을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "훈수하다.v.Education_teaching",
+                    "text": "그 여자는 동생에게 남자의 마음을 사로잡는 방법을 훈수해 주곤 했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "상순.n.Temporal_subregion",
+    "ko_pos": "n",
+    "frameID": 1470,
+    "frameName": "Temporal_subregion",
+    "lu_id": "3598",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4107",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_subregion",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "상순에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time_Period",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "4월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sub_Part",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "상순에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4107",
+                    "lu": "상순.n.Temporal_subregion",
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다."
+                }
+            ]
+        }
+    ]
+}

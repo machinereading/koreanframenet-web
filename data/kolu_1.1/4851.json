@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "오다.v.Process_start",
+    "ko_pos": "v",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "lu_id": "4851",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58037",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "오면,"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "오다.v.Process_start",
+                    "text": "봄이 오면, 꽃이 핀다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4563",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "오기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "새벽이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4563",
+                    "lu": "오다.v.Process_start",
+                    "text": "마치 새벽이 오기 전에, 다시 한 번 산들을 씻어내는 것처럼."
+                }
+            ]
+        }
+    ]
+}

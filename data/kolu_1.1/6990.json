@@ -1,0 +1,139 @@
+{
+    "en_lus": [],
+    "ko_lu": "치유시키다.v.Cure",
+    "ko_pos": "v",
+    "frameID": 50,
+    "frameName": "Cure",
+    "lu_id": "6990",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20583",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "치유시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Healer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "시민 운동이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 22
+                            },
+                            "text": "한국의 부정부패라는 고질병을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치유시키다.v.Cure",
+                    "text": "시민 운동이 한국의 부정부패라는 고질병을 치유시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-20582",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "치유시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medication",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 약이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Affliction",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "그의 병을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치유시키다.v.Cure",
+                    "text": "그 약이 그의 병을 치유시켰다."
+                }
+            ]
+        }
+    ]
+}

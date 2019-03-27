@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "증언되다.v.Evidence",
+    "ko_pos": "v",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "lu_id": "6359",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-16685",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "증언되어야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "그의 무죄가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "증언되다.v.Evidence",
+                    "text": "그의 무죄가 증언되어야 합니다."
+                }
+            ]
+        }
+    ]
+}

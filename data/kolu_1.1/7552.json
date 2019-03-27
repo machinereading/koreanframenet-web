@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "항복시키다.v.Surrendering",
+    "ko_pos": "v",
+    "frameID": 502,
+    "frameName": "Surrendering",
+    "lu_id": "7552",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61510",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Surrendering",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "항복시키기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "싸우지 않고도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Fugitive",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "적군을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "항복시키다.v.Surrendering",
+                    "text": "싸우지 않고도 적군을 항복시키기 위해서 유언비어를 퍼뜨렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-61511",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Surrendering",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "항복시키기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Fugitive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "상대방을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "항복시키다.v.Surrendering",
+                    "text": "상대방을 항복시키기 위해서는 끊임없는 공격이 필요하다."
+                }
+            ]
+        }
+    ]
+}

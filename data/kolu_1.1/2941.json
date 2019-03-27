@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "벌다.v.Cause_change",
+    "ko_pos": "v",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "lu_id": "2941",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-48612",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "벌어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "밤송이가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "스스로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "벌다.v.Cause_change",
+                    "text": "밤송이가 스스로 벌어 떨어졌다."
+                }
+            ]
+        }
+    ]
+}

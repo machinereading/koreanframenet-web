@@ -1,0 +1,124 @@
+{
+    "en_lus": [],
+    "ko_lu": "예지하다.v.Predicting",
+    "ko_pos": "v",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "lu_id": "4831",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59861",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "예지해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "많은 신학자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 39
+                            },
+                            "text": "한국에 복음을 위한 미래 사역의 큰 사명이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예지하다.v.Predicting",
+                    "text": "많은 신학자들은 오래 전부터 한국에 복음을 위한 미래 사역의 큰 사명이 있음을 예지해 왔습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-59860",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "예지해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 38
+                            },
+                            "text": "그녀의 앞날을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예지하다.v.Predicting",
+                    "text": "그 스님은 상념에 잠겨있는 그녀를 불러 하산을 명하고, 그녀의 앞날을 예지해 준다."
+                }
+            ]
+        }
+    ]
+}

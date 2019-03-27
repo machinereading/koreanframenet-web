@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "말살시키다.v.Emptying",
+    "ko_pos": "v",
+    "frameID": 58,
+    "frameName": "Emptying",
+    "lu_id": "2316",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32312",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emptying",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "말살시키려"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "일제는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "민족 정기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말살시키다.v.Emptying",
+                    "text": "일제는 민족 정기를 말살시키려 했다."
+                }
+            ]
+        }
+    ]
+}

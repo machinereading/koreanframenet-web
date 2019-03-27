@@ -1,0 +1,116 @@
+{
+    "en_lus": [],
+    "ko_lu": "끓어오르다.v.Apply_heat",
+    "ko_pos": "v",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "lu_id": "1258",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-21547",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "끓어올랐다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "text": "금방",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "국물이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "끓어오르다.v.Apply_heat",
+                    "text": "뚜겅을 잠시 닫아 두었더니 금방 국물이 끓어올랐다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-21546",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "끓어올라서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Food",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "물이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "끓어오르다.v.Apply_heat",
+                    "text": "물이 끓어올라서 다 넘쳐 버렸다."
+                }
+            ]
+        }
+    ]
+}

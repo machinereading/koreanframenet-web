@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "그리다.v.Communicate_categorization",
+    "ko_pos": "v",
+    "frameID": 796,
+    "frameName": "Communicate_categorization",
+    "lu_id": "1007",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38061",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communicate_categorization",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "그려"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그녀는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "장래 계획을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "그리다.v.Communicate_categorization",
+                    "text": "그녀는 장래 계획을 머리 속에 그려 보았다."
+                }
+            ]
+        }
+    ]
+}

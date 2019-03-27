@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "잃어버리다.v.Losing",
+    "ko_pos": "v",
+    "frameID": 2197,
+    "frameName": "Losing",
+    "lu_id": "5528",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-30436",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Losing",
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "잃어버리는"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "잃어버리다.v.Losing",
+                    "text": "잃어버리는 물건이 생기지 않도록 신경을 써서 자신의 물건을 챙기도록 하세요."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-30437",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Losing",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "잃어버린"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "것은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잃어버리다.v.Losing",
+                    "text": "혹시 잃어버린 것은 없는지 앉아 있던 자리를 꼭 확인해 보세요."
+                }
+            ]
+        }
+    ]
+}

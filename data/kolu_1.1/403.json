@@ -1,0 +1,91 @@
+{
+    "en_lus": [],
+    "ko_lu": "검문당하다.v.Examination",
+    "ko_pos": "v",
+    "frameID": 107,
+    "frameName": "Examination",
+    "lu_id": "403",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28535",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Examination",
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "검문당하기도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Examinee",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 친구는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Examiner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "경찰에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "text": "종종",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검문당하다.v.Examination",
+                    "text": "그 친구는 혐오스러운 생김새 때문에 경찰에게 종종 검문당하기도 한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "en_lus": [],
+    "ko_lu": "익사하다.v.Death",
+    "ko_pos": "v",
+    "frameID": 53,
+    "frameName": "Death",
+    "lu_id": "5400",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-29397",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Death",
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "익사했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "여름 캠핑에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 19
+                            },
+                            "text": "우리 반 아이 두 명이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "익사하다.v.Death",
+                    "text": "여름 캠핑에 우리 반 아이 두 명이 익사했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-29396",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Death",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "익사했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 11
+                            },
+                            "text": "여름 홍수 철에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "text": "강을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "익사하다.v.Death",
+                    "text": "그는 여름 홍수 철에 강을 건너다 익사했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "찌르다.v.Cause_impact",
+    "ko_pos": "v",
+    "frameID": 395,
+    "frameName": "Cause_impact",
+    "lu_id": "6603",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42836",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_impact",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "찌르지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "논의가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactee",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "핵심을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찌르다.v.Cause_impact",
+                    "text": "논의가 핵심을 찌르지 못하고 겉돌고 있다."
+                }
+            ]
+        }
+    ]
+}

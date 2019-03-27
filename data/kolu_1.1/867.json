@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "구부리다.v.Body_movement",
+    "ko_pos": "v",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "lu_id": "867",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33211",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Body_movement",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "구부리기도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "허리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구부리다.v.Body_movement",
+                    "text": "나이가 드니 허리를 구부리기도 쉽지 않다."
+                }
+            ]
+        }
+    ]
+}

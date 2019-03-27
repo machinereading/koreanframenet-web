@@ -1,0 +1,92 @@
+{
+    "en_lus": [],
+    "ko_lu": "진술시키다.v.Telling",
+    "ko_pos": "v",
+    "frameID": 750,
+    "frameName": "Telling",
+    "lu_id": "6507",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49040",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Telling",
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "진술시키려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "증인에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "자신이 목격한 상황을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "text": "법정에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진술시키다.v.Telling",
+                    "text": "검찰은 증인에게 자신이 목격한 상황을 법정에서 진술시키려고 계획하고 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "en_lus": [],
+    "ko_lu": "운전하다.v.Operate_vehicle",
+    "ko_pos": "v",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "lu_id": "5037",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-125",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operate_vehicle",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "운전하여"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "125",
+                    "lu": "운전하다.v.Operate_vehicle",
+                    "text": "최악인 것은 나의 머리 위로 흔들리는 송전선을 보는 것이었고 운전하여 떠날 방법이 없었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-5174",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Operate_vehicle",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "운전하던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "아들을 찾기 위해 차량 앞문을 연 채",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "text": "3.2KM를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "운전하다.v.Operate_vehicle",
+                    "text": "아들을 찾기 위해 차량 앞문을 연 채 3.2KM를 운전하던 중 제지하는 경찰에게 자식들이 없어진 사실을 알린 뒤 나윤양이 마지막으로 목격된 지점으로 다시 왔다가 길언덕 20여 M 아래에 쓰러져 있는 나윤양을 발견했다."
+                }
+            ]
+        }
+    ]
+}

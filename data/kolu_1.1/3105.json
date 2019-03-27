@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "복제품.n.Duplication",
+    "ko_pos": "n",
+    "frameID": 11,
+    "frameName": "Duplication",
+    "lu_id": "3105",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2321",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Duplication",
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "복제품을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 31
+                            },
+                            "text": "결함이 있는 것으로 입증된,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Original",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 49
+                            },
+                            "text": "핀란드의 Kemira 사 방독면",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2321",
+                    "lu": "복제품.n.Duplication",
+                    "text": "1984년에, 한국은 이란에 결함이 있는 것으로 입증된, 핀란드의 Kemira 사 방독면 복제품을 이란에 공급하였다."
+                }
+            ]
+        }
+    ]
+}

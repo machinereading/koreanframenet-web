@@ -1,0 +1,92 @@
+{
+    "en_lus": [],
+    "ko_lu": "재판되다.v.Try_defendant",
+    "ko_pos": "v",
+    "frameID": 320,
+    "frameName": "Try_defendant",
+    "lu_id": "5749",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61627",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Try_defendant",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "재판될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Defendant",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "두 사람간의 분쟁이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Jury",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "법정에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "어떻게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재판되다.v.Try_defendant",
+                    "text": "두 사람간의 분쟁이 법정에서 어떻게 재판될 지는 두고 보아야 할 것이다."
+                }
+            ]
+        }
+    ]
+}

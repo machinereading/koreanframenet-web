@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "기획하다.v.Purpose",
+    "ko_pos": "v",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "lu_id": "1177",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40542",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "기획했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "그 일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기획하다.v.Purpose",
+                    "text": "나는 그 일을 기획했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "되다.a.Verdict",
+    "ko_pos": "a",
+    "frameID": 318,
+    "frameName": "Verdict",
+    "lu_id": "1986",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1930",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verdict",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "되었을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Finding",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "유죄로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Defendant",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 45
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1930",
+                    "lu": "되다.a.Verdict",
+                    "text": "그래, 그래, Price 의 코멘트로 돌아가서 그가 유죄로 되었을 때, 어, 그는 자기 주변에 흑인들을 갖고 있지 않다고 말하였다."
+                }
+            ]
+        }
+    ]
+}

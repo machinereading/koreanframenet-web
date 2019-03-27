@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "종료되다.v.Process_stop",
+    "ko_pos": "v",
+    "frameID": 144,
+    "frameName": "Process_stop",
+    "lu_id": "6157",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-605",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_stop",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "종료되었어도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "10년 이상이 된 후에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "전투가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "605",
+                    "lu": "종료되다.v.Process_stop",
+                    "text": "10년 이상이 된 후에 전투가 종료되었어도 국가는 안정되지 않았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-48267",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_stop",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "종료되려면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "경기가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "종료되다.v.Process_stop",
+                    "text": "경기가 종료되려면 5분이 남아 있다."
+                }
+            ]
+        }
+    ]
+}

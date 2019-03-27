@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "꼬부라지다.v.Posture",
+    "ko_pos": "v",
+    "frameID": 18,
+    "frameName": "Posture",
+    "lu_id": "1226",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55928",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Posture",
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "꼬부라졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "할머니의 허리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "엄청나게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "꼬부라지다.v.Posture",
+                    "text": "할머니의 허리는 엄청나게 꼬부라졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-55931",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Posture",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "꼬부라진"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "꼬부라지다.v.Posture",
+                    "text": "부족한 게 없는데도 꼬부라진 사람들을 보면 화가 나."
+                }
+            ]
+        }
+    ]
+}

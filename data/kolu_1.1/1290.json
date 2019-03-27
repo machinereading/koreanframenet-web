@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "나가다.v.Process_continue",
+    "ko_pos": "v",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "lu_id": "1290",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-48071",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "나가다가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "글을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나가다.v.Process_continue",
+                    "text": "글을 한참 써 나가다가 도중에 멈추면 맥이 끊긴다."
+                }
+            ]
+        }
+    ]
+}

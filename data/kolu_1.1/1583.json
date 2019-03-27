@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "눈짐작하다.v.Predicting",
+    "ko_pos": "v",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "lu_id": "1583",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51765",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "눈짐작한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "text": "실내가 넓다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "눈짐작하다.v.Predicting",
+                    "text": "이 집은 눈짐작한 대로 실내가 넓다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-51766",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "눈짐작한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "대충",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "눈짐작하다.v.Predicting",
+                    "text": "내가 대충 눈짐작한 것만으로도 그가 대학생이 아니라는 것을 알 수 있었다."
+                }
+            ]
+        }
+    ]
+}

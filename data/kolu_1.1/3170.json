@@ -1,0 +1,134 @@
+{
+    "en_lus": [],
+    "ko_lu": "부슬대다.v.Precipitation",
+    "ko_pos": "v",
+    "frameID": 314,
+    "frameName": "Precipitation",
+    "lu_id": "3170",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50844",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Precipitation",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "부슬대는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "오늘",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Precipitation",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "가을비가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부슬대다.v.Precipitation",
+                    "text": "오늘 가을비가 부슬대는 것을 보니 내일부터는 기온이 많이 떨어지겠다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-50845",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Precipitation",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "부슬대며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Precipitation",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "바람은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "그때마다",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부슬대다.v.Precipitation",
+                    "text": "바람은 그때마다 나뭇가지를 흔들고, 부슬대며 일어선 눈가루는 시야를 가리며 회오리바람을 일으켰다."
+                }
+            ]
+        }
+    ]
+}

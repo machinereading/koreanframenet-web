@@ -1,0 +1,206 @@
+{
+    "en_lus": [],
+    "ko_lu": "연설하다.v.Statement",
+    "ko_pos": "v",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "4740",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-378",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "연설하면서,"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "378",
+                    "lu": "연설하다.v.Statement",
+                    "text": "주민 센터에서의 한 집회에서 연설하면서, Goodwill 직원 멤버는 청중들에게 어떻게 Goodwill이 그들이 일자리를 찾고 유지하도록 도울 수 있는 지에 대해 이야기 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-10753",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "연설하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "김 대통령은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "매번",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "예정시간을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연설하다.v.Statement",
+                    "text": "또한 김 대통령은 교민간담회에만 가면 매번 예정시간을 넘겨 연설하고 대화를 나누는 등 교민들의 열광적인 반응에 `엔돌핀이 솟는 것 같았다'고 측근들은 전했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40985",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "연설하려고"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "연설하다.v.Statement",
+                    "text": "많은 사람들 앞에서 연설하려고 하니 떨린다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40984",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 34,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "연설했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "text": "우리",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 33
+                            },
+                            "text": "모두 나서야 한다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연설하다.v.Statement",
+                    "text": "김의원은 주민들에게 환경보존을 위해 우리 모두 나서야 한다고 연설했다."
+                }
+            ]
+        }
+    ]
+}

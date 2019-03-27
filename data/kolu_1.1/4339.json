@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "쓰이다.v.Hiring",
+    "ko_pos": "v",
+    "frameID": 322,
+    "frameName": "Hiring",
+    "lu_id": "4339",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-56556",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hiring",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "쓰인다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Task",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "아파트 시공에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Employee",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "많은 인부들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쓰이다.v.Hiring",
+                    "text": "아파트 시공에 많은 인부들이 쓰인다."
+                }
+            ]
+        }
+    ]
+}

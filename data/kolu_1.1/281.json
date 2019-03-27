@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "개인전.n.Competition",
+    "ko_pos": "n",
+    "frameID": 241,
+    "frameName": "Competition",
+    "lu_id": "281",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4838",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "개인전은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "개인전은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 16
+                            },
+                            "text": "6월에 열리고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4838",
+                    "lu": "개인전.n.Competition",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4838",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "개인전이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 44
+                            },
+                            "text": "여자유도 개인전이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4838",
+                    "lu": "개인전.n.Competition",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
+                }
+            ]
+        }
+    ]
+}

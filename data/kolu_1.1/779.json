@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "관리.n.Possession",
+    "ko_pos": "n",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "779",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-513",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "관리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "그들의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "text": "그 지역",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "513",
+                    "lu": "관리.n.Possession",
+                    "text": "그들은 야만 인종이였고, 그들의 그 지역 관리는 문자 언어가 잊히고 예술이 사라지게 한 암흑시대를 가져왔다."
+                }
+            ]
+        }
+    ]
+}

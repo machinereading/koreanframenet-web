@@ -1,0 +1,92 @@
+{
+    "en_lus": [],
+    "ko_lu": "선출시키다.v.Change_of_leadership",
+    "ko_pos": "v",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "lu_id": "3746",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24782",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "선출시키려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Selector",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "노조는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New_Leader",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 14
+                            },
+                            "text": "강경 성향의 인물을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Role",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "위원장으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선출시키다.v.Change_of_leadership",
+                    "text": "노조는 강경 성향의 인물을 위원장으로 선출시키려고 한다."
+                }
+            ]
+        }
+    ]
+}

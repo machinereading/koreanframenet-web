@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "고용되다.v.Get_a_job",
+    "ko_pos": "v",
+    "frameID": 324,
+    "frameName": "Get_a_job",
+    "lu_id": "627",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32528",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Get_a_job",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "고용돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "수천 명의 미국인들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Employer",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 29
+                            },
+                            "text": "우주 계획의 여러 분야의 기관에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고용되다.v.Get_a_job",
+                    "text": "수천 명의 미국인들이 우주 계획의 여러 분야의 기관에 고용돼 있다."
+                }
+            ]
+        }
+    ]
+}

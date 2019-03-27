@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "서사시.n.Text",
+    "ko_pos": "n",
+    "frameID": 298,
+    "frameName": "Text",
+    "lu_id": "3697",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-511",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "서사시인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Author",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "text": "Homer의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Text",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "text": "서사시인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "511",
+                    "lu": "서사시.n.Text",
+                    "text": "그들의 광범위한 군사 캠페인은 Homer의 서사시인 오디세이와 일리아드에서 Homer에 의해 나중에 그에 의해 연대순으로 기록되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-521",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "서사시"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Genre",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 90,
+                                "end": 94
+                            },
+                            "text": "서정시가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "521",
+                    "lu": "서사시.n.Text",
+                    "text": "Homer는 Chios에 관한 그의 서사시 작품을 썼으며 특히 Paros 출신의 Archilochos와 Lesvos 출신의 Sappho와 같은 시인들의 작품에서 서정시가 많이 찬미되었다."
+                }
+            ]
+        }
+    ]
+}

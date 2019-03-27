@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "가꾸다.v.Distributed_position",
+    "ko_pos": "v",
+    "frameID": 76,
+    "frameName": "Distributed_position",
+    "lu_id": "14",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-29591",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Distributed_position",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "가꾸는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "뒷동산을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "과수원으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가꾸다.v.Distributed_position",
+                    "text": "그는 뒷동산을 과수원으로 가꾸는 데 평생을 보냈다."
+                }
+            ]
+        }
+    ]
+}

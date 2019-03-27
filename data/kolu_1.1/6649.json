@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "착용시키다.v.Wearing",
+    "ko_pos": "v",
+    "frameID": 160,
+    "frameName": "Wearing",
+    "lu_id": "6649",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-57322",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Wearing",
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "착용시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Wearer",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 30
+                            },
+                            "text": "놀이기구를 타기 위해 모인 사람들에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Clothing",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "text": "안전조끼를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "착용시키다.v.Wearing",
+                    "text": "놀이기구 관리자는 놀이기구를 타기 위해 모인 사람들에게 안전조끼를 착용시켰다."
+                }
+            ]
+        }
+    ]
+}

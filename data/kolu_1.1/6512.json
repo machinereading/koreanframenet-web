@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "진열되다.v.Arranging",
+    "ko_pos": "v",
+    "frameID": 921,
+    "frameName": "Arranging",
+    "lu_id": "6512",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51424",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arranging",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "진열돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "바그다드 최대 수입상가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 21
+                            },
+                            "text": "거리인 카라다에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진열되다.v.Arranging",
+                    "text": "바그다드 최대 수입상가 거리인 카라다에 진열돼 있는 제품도 한국산이 대부분을 차지하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-51423",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arranging",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "진열되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "text": "불상 수십 채가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진열되다.v.Arranging",
+                    "text": "국립 경주박물관 뜨락에 들어서면 목없는 불상 수십 채가 진열되어 있는 모습을 볼 수 있다."
+                }
+            ]
+        }
+    ]
+}

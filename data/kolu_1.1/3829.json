@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "세.n.Age",
+    "ko_pos": "n",
+    "frameID": 972,
+    "frameName": "Age",
+    "lu_id": "3829",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3891",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Age",
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "36세."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 54
+                            },
+                            "text": "다카코 씨는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Age",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "text": "36세.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3891",
+                    "lu": "세.n.Age",
+                    "text": "제1 법정◆다카코 씨의 사례◆불륜 상대 용서 못 해…위자료까지 받아 챙긴 여자의 집념 다카코 씨는 당시 36세."
+                }
+            ]
+        }
+    ]
+}

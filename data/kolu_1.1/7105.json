@@ -1,0 +1,99 @@
+{
+    "en_lus": [],
+    "ko_lu": "탓하다.v.Judgment_communication",
+    "ko_pos": "v",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "lu_id": "7105",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38734",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "탓하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "나만 잘못한다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "탓하다.v.Judgment_communication",
+                    "text": "나만 잘못한다고 탓하지 마세요."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-38732",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "탓하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "남을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "탓하다.v.Judgment_communication",
+                    "text": "남을 탓하기 전에 내 탓이요 하시오."
+                }
+            ]
+        }
+    ]
+}

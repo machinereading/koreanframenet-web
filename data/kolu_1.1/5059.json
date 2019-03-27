@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "웅웅거리다.v.Communication_noise",
+    "ko_pos": "v",
+    "frameID": 39,
+    "frameName": "Communication_noise",
+    "lu_id": "5059",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19843",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_noise",
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "웅웅거렸다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "문밖에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Voice",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "사람들 말소리가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "웅웅거리다.v.Communication_noise",
+                    "text": "문밖에서 사람들 말소리가 웅웅거렸다."
+                }
+            ]
+        }
+    ]
+}

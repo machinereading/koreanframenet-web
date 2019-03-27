@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "결정짓다.v.Deciding",
+    "ko_pos": "v",
+    "frameID": 363,
+    "frameName": "Deciding",
+    "lu_id": "496",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-41247",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deciding",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "결정지었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Decision",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "그런 쪽으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결정짓다.v.Deciding",
+                    "text": "우리는 그런 쪽으로 결정지었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-41246",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deciding",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "결정짓는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Decision",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "운명을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결정짓다.v.Deciding",
+                    "text": "운명을 결정짓는 것은 자신의 의지이다."
+                }
+            ]
+        }
+    ]
+}

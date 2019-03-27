@@ -1,0 +1,161 @@
+{
+    "en_lus": [],
+    "ko_lu": "동거하다.v.Residence",
+    "ko_pos": "v",
+    "frameID": 110,
+    "frameName": "Residence",
+    "lu_id": "1935",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-22627",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동거하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "철수와 영희는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동거하다.v.Residence",
+                    "text": "철수와 영희는 동거하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-22625",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동거하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "철수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Co_Resident",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "영희와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동거하다.v.Residence",
+                    "text": "철수는 영희와 동거하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-22626",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "동거하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Co_Resident",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "부모와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동거하다.v.Residence",
+                    "text": "요즘은 장남도 부모와 동거하지 않는 경우가 많다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "갱신시키다.v.Activity_resume",
+    "ko_pos": "v",
+    "frameID": 1156,
+    "frameName": "Activity_resume",
+    "lu_id": "293",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-48484",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_resume",
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "갱신시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "주민등록을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "갱신시키다.v.Activity_resume",
+                    "text": "그는 주민등록을 갱신시켰다."
+                }
+            ]
+        }
+    ]
+}

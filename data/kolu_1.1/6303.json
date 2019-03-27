@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "중단되다.v.Process_stop",
+    "ko_pos": "v",
+    "frameID": 144,
+    "frameName": "Process_stop",
+    "lu_id": "6303",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-60237",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_stop",
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "중단돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "text": "여성 호르몬의 생산이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "text": "거의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중단되다.v.Process_stop",
+                    "text": "여성은 폐경기가 되면 여성 호르몬의 생산이 거의 중단돼 남성에게서 생산되는 여성 호르몬의 수준으로 급감한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "횡설수설하다.v.Communication_manner",
+    "ko_pos": "v",
+    "frameID": 38,
+    "frameName": "Communication_manner",
+    "lu_id": "7852",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-47693",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_manner",
+                            "span": {
+                                "begin": 27,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "횡설수설했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "술에 취한 사내는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 26
+                            },
+                            "text": "경찰관에게 서울에 가야 한다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "횡설수설하다.v.Communication_manner",
+                    "text": "술에 취한 사내는 경찰관에게 서울에 가야 한다고 횡설수설했다."
+                }
+            ]
+        }
+    ]
+}

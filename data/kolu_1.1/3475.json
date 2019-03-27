@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "사업.n.Businesses",
+    "ko_pos": "n",
+    "frameID": 365,
+    "frameName": "Businesses",
+    "lu_id": "3475",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-5023",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Businesses",
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "사업은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Business",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "text": "사업은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "5023",
+                    "lu": "사업.n.Businesses",
+                    "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을, 다른 어떤 기업보다도 신속하게 수율 100%로 만들어내지 못하는 한 사업은 성공하지 못한다."
+                }
+            ]
+        }
+    ]
+}

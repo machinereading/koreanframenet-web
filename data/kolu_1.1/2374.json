@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "맡다.v.Commitment",
+    "ko_pos": "v",
+    "frameID": 33,
+    "frameName": "Commitment",
+    "lu_id": "2374",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3995",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commitment",
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "맡을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "나는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "text": "기업 회생의 실행은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3995",
+                    "lu": "맡다.v.Commitment",
+                    "text": "애초 나는, 이 안건은 조사만 하고, 기업 회생의 실행은 맡을 생각이 없었다."
+                }
+            ]
+        }
+    ]
+}

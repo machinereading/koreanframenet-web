@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "날조되다.v.Feigning",
+    "ko_pos": "v",
+    "frameID": 12,
+    "frameName": "Feigning",
+    "lu_id": "1353",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23839",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Feigning",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "날조되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Original",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "사건이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "날조되다.v.Feigning",
+                    "text": "어느 순간엔가 사건이 날조되어 이상한 방향으로 흘러가기 시작했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-23840",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Feigning",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "날조되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "면밀한 검사 끝에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Original",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "기록이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "날조되다.v.Feigning",
+                    "text": "면밀한 검사 끝에 기록이 날조되어 있는 흔적을 발견하였다."
+                }
+            ]
+        }
+    ]
+}

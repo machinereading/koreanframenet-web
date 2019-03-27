@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "따지다.v.Categorization",
+    "ko_pos": "v",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "lu_id": "2122",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-29344",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "따지지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "사람을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "돈으로만",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따지다.v.Categorization",
+                    "text": "사람을 돈으로만 따지지 마십시요."
+                }
+            ]
+        }
+    ]
+}

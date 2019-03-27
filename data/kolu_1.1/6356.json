@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "증상.n.Sign",
+    "ko_pos": "n",
+    "frameID": 428,
+    "frameName": "Sign",
+    "lu_id": "6356",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-180",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "증상인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Indicator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "메스꺼움은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "180",
+                    "lu": "증상.n.Sign",
+                    "text": "메스꺼움은 흔한 증상인 것 같다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-5024",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign",
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "증상이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Indicated",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "text": "이러한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "5024",
+                    "lu": "증상.n.Sign",
+                    "text": "악성 검은 반점은, 발바닥뿐만 아니라 다른 부위에도, 커지거나, 주변으로 검은색이 퍼지거나, 출혈이 종종 생기기도 하므로, 이러한 증상이 있을 때는, 병원에서 조직검사를 받는 편이 좋겠지요."
+                }
+            ]
+        }
+    ]
+}

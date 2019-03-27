@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "마주치다.v.Hostile_encounter",
+    "ko_pos": "v",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "lu_id": "2244",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58501",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "마주쳐서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sides",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "지우개를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "마주치다.v.Hostile_encounter",
+                    "text": "학생이 지우개를 마주쳐서 백묵가루를 털어 내고 있다."
+                }
+            ]
+        }
+    ]
+}

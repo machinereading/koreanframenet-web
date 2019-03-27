@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "양립하다.v.Competition",
+    "ko_pos": "v",
+    "frameID": 241,
+    "frameName": "Competition",
+    "lu_id": "4518",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-27787",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "양립하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "업계에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Participants",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 23
+                            },
+                            "text": "서로 다른 목표를 가진 두 집단이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "양립하다.v.Competition",
+                    "text": "업계에는 서로 다른 목표를 가진 두 집단이 양립하고 있다."
+                }
+            ]
+        }
+    ]
+}

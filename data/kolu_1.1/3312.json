@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "비뚤어지다.v.Damaging",
+    "ko_pos": "v",
+    "frameID": 415,
+    "frameName": "Damaging",
+    "lu_id": "3312",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-56988",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Damaging",
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "비뚤어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "철수의 생각은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비뚤어지다.v.Damaging",
+                    "text": "철수의 생각은 비뚤어졌다."
+                }
+            ]
+        }
+    ]
+}

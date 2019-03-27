@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "제명당하다.v.Exclude_member",
+    "ko_pos": "v",
+    "frameID": 1131,
+    "frameName": "Exclude_member",
+    "lu_id": "6021",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50880",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exclude_member",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "제명당했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Member",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Group",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "이번 인사에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제명당하다.v.Exclude_member",
+                    "text": "그는 이번 인사에서 제명당했다."
+                }
+            ]
+        }
+    ]
+}

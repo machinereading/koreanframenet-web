@@ -1,0 +1,103 @@
+{
+    "en_lus": [],
+    "ko_lu": "가능하다.a.Capability",
+    "ko_pos": "a",
+    "frameID": 990,
+    "frameName": "Capability",
+    "lu_id": "21",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4450",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "가능하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "화장실에서 만족스럽게 용무를 보지도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4450",
+                    "lu": "가능하다.a.Capability",
+                    "text": "화장실에서 만족스럽게 용무를 보지도 가능하지 못하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4716",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "가능합니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "입금은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4716",
+                    "lu": "가능하다.a.Capability",
+                    "text": "입금은 인터넷으로도 가능합니다."
+                }
+            ]
+        }
+    ]
+}

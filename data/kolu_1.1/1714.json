@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "당기다.v.Experience_bodily_harm",
+    "ko_pos": "v",
+    "frameID": 384,
+    "frameName": "Experience_bodily_harm",
+    "lu_id": "1714",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39095",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experience_bodily_harm",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "당겨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "고개를 숙이면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "등줄기가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "당기다.v.Experience_bodily_harm",
+                    "text": "고개를 숙이면 등줄기가 당겨 아프다."
+                }
+            ]
+        }
+    ]
+}

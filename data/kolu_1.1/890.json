@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "구입되다.v.Commerce_buy",
+    "ko_pos": "v",
+    "frameID": 171,
+    "frameName": "Commerce_buy",
+    "lu_id": "890",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52347",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_buy",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "구입돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "이들 모조품은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 36
+                            },
+                            "text": "서울 동대문과 남대문 일대에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구입되다.v.Commerce_buy",
+                    "text": "이들 모조품은 주로 소매상들에 의해 서울 동대문과 남대문 일대에서 구입돼 유입되고 있다."
+                }
+            ]
+        }
+    ]
+}

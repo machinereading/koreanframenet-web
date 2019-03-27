@@ -1,0 +1,61 @@
+{
+    "en_lus": [],
+    "ko_lu": "우기다.v.Statement",
+    "ko_pos": "v",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "5010",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49099",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "우겼다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 34
+                            },
+                            "text": "준영이는 미현이에게 신입생 환영회를 더 화려하게 치러야 한다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "우기다.v.Statement",
+                    "text": "준영이는 미현이에게 신입생 환영회를 더 화려하게 치러야 한다고 우겼다."
+                }
+            ]
+        }
+    ]
+}

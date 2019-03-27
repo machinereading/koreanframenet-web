@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "위자료.n.Resolve_problem",
+    "ko_pos": "n",
+    "frameID": 1523,
+    "frameName": "Resolve_problem",
+    "lu_id": "5101",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3848",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Resolve_problem",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "위자료"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "마사오는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Problem",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 42
+                            },
+                            "text": "조정이혼하였고,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3848",
+                    "lu": "위자료.n.Resolve_problem",
+                    "text": "출산을 2달 앞두고, 마사오는 히데코와 위자료 3백만 엔으로 조정이혼하였고, 이로써 이들 세 명의 생활이 새로이 시작되는 듯 보였다."
+                }
+            ]
+        }
+    ]
+}

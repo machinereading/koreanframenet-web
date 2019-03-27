@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "연장하다.v.Cause_expansion",
+    "ko_pos": "v",
+    "frameID": 77,
+    "frameName": "Cause_expansion",
+    "lu_id": "4751",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53279",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_expansion",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "연장하겠다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "건설교통부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "text": "서해안고속도로를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연장하다.v.Cause_expansion",
+                    "text": "건설교통부는 서해안고속도로를 목포까지 연장하겠다고 발표했다."
+                }
+            ]
+        }
+    ]
+}

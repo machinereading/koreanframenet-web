@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "등장하다.v.Performers_and_roles",
+    "ko_pos": "v",
+    "frameID": 413,
+    "frameName": "Performers_and_roles",
+    "lu_id": "2101",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28431",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Performers_and_roles",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "등장한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Performance",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "그 영화에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Performer",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "text": "많은 배우들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "등장하다.v.Performers_and_roles",
+                    "text": "그 영화에는 많은 배우들이 등장한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "en_lus": [],
+    "ko_lu": "생각되다.v.Opinion",
+    "ko_pos": "v",
+    "frameID": 1412,
+    "frameName": "Opinion",
+    "lu_id": "3638",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55943",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Opinion",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "생각됩니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Opinion",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "그 일이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Opinion",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "text": "잘못되었다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생각되다.v.Opinion",
+                    "text": "저에게는 그 일이 잘못되었다고 생각됩니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-55942",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Opinion",
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "생각됩니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Opinion",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "사람은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Opinion",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "입이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Opinion",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 22
+                            },
+                            "text": "무거워야 된다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생각되다.v.Opinion",
+                    "text": "제 생각에는 사람은 입이 무거워야 된다고 생각됩니다."
+                }
+            ]
+        }
+    ]
+}

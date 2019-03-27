@@ -1,0 +1,95 @@
+{
+    "en_lus": [],
+    "ko_lu": "수감시키다.v.Imprisonment",
+    "ko_pos": "v",
+    "frameID": 1111,
+    "frameName": "Imprisonment",
+    "lu_id": "3976",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46010",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Imprisonment",
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "수감시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authorities",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "검찰은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prisoner",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 27
+                            },
+                            "text": "뇌물 수수 혐의가 드러난 국회의원들 모두를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Prison",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "text": "교도소에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수감시키다.v.Imprisonment",
+                    "text": "검찰은 뇌물 수수 혐의가 드러난 국회의원들 모두를 교도소에 수감시켰다."
+                }
+            ]
+        }
+    ]
+}

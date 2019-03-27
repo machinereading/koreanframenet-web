@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "부치다.v.Apply_heat",
+    "ko_pos": "v",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "lu_id": "3195",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61010",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "부쳐"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "부치다.v.Apply_heat",
+                    "text": "우리 식구들은 두부든 가지든 무엇이나 부쳐 먹는 것을 좋아한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-61009",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부쳤다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "아내와 나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "전을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부치다.v.Apply_heat",
+                    "text": "아내와 나는 전을 부쳤다."
+                }
+            ]
+        }
+    ]
+}

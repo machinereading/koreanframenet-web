@@ -1,0 +1,152 @@
+{
+    "en_lus": [],
+    "ko_lu": "비하다.v.Evaluative_comparison",
+    "ko_pos": "v",
+    "frameID": 353,
+    "frameName": "Evaluative_comparison",
+    "lu_id": "3357",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-7",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "비해,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Standard_Attribute",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "지난 해 33 백만 달러의 수익에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 78
+                            },
+                            "text": "Aetna는 자동차 / 주택소유자 계열에서 23 백만 달러의 손실을 가져왔다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "7",
+                    "lu": "비하다.v.Evaluative_comparison",
+                    "text": "가장 최근 분기에서, 지난 해 33 백만 달러의 수익에 비해, Aetna는 자동차 / 주택소유자 계열에서 23 백만 달러의 손실을 가져왔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4681",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "비하면,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standard_Item",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "이 마을의 아이들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4681",
+                    "lu": "비하다.v.Evaluative_comparison",
+                    "text": "그에 비하면, 이 마을의 아이들은 마치 물고기처럼 물과 친했다."
+                }
+            ]
+        }
+    ]
+}

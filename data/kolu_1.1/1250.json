@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "끌다.v.Change_event_duration",
+    "ko_pos": "v",
+    "frameID": 1770,
+    "frameName": "Change_event_duration",
+    "lu_id": "1250",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-47933",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_event_duration",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "끌어서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "더위가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "제법 길게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "끌다.v.Change_event_duration",
+                    "text": "더위가 제법 길게 끌어서 가을이 온 줄 몰랐다."
+                }
+            ]
+        }
+    ]
+}

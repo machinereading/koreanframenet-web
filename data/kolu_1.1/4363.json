@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "아사삭거리다.v.Motion_noise",
+    "ko_pos": "v",
+    "frameID": 60,
+    "frameName": "Motion_noise",
+    "lu_id": "4363",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33055",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion_noise",
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "아사삭거린다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "사과가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "입안에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "아사삭거리다.v.Motion_noise",
+                    "text": "사과가 입안에서 아사삭거린다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-33056",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion_noise",
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "아사삭거린다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "속이 꽉 찬 배추가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "아사삭거리다.v.Motion_noise",
+                    "text": "속이 꽉 찬 배추가 아사삭거린다."
+                }
+            ]
+        }
+    ]
+}

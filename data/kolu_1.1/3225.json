@@ -1,0 +1,135 @@
+{
+    "en_lus": [],
+    "ko_lu": "분류하다.v.Categorization",
+    "ko_pos": "v",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "lu_id": "3225",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-11815",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "분류되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Category",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "비밀로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분류하다.v.Categorization",
+                    "text": "비밀로 분류되지 않은 부분만 공개된 이 보고서는 중국은 일부 전문적인 스파이들을 이용하는 것은 물론 미국내에 있는 유학생, 과학자, 연구원 및 기타 관광객 등 일반 방문객들까지 동원하고 있다고 말했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-57185",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "분류하면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "색깔을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "크게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Category",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "두 가지로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분류하다.v.Categorization",
+                    "text": "색깔을 크게 두 가지로 분류하면 무채색과 유채색으로 나눌 수 있다."
+                }
+            ]
+        }
+    ]
+}

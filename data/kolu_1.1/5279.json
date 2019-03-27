@@ -1,0 +1,139 @@
+{
+    "en_lus": [],
+    "ko_lu": "이끌다.v.Cause_motion",
+    "ko_pos": "v",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "lu_id": "5279",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1720",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "이끌었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "민주당은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "상원을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "보기 드문 비밀회의로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1720",
+                    "lu": "이끌다.v.Cause_motion",
+                    "text": "민주당은 상원을 보기 드문 비밀회의로 이끌었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-1053",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "이끌어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 61
+                            },
+                            "text": "중국의 긍정적인 변화를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이끌다.v.Cause_motion",
+                    "text": "클린턴 대통령은 이 법안이 30 년전 당시 리처드 닉슨 대통령의 역사적인 중국방문 이후 중국의 긍정적인 변화를 이끌어 낼 수 있는 가장 중요한 기회를 제공할 것이라고 의미를 부여했다."
+                }
+            ]
+        }
+    ]
+}

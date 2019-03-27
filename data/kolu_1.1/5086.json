@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "월.n.Temporal_collocation",
+    "ko_pos": "n",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "lu_id": "5086",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3245",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "4월"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "지난 해 4월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trajector",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 34
+                            },
+                            "text": "협약은 유엔 총회에서 채택되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3245",
+                    "lu": "월.n.Temporal_collocation",
+                    "text": "러시아 주도로 지난 해 4월 협약은 유엔 총회에서 채택되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "결과를_가져오다.v.Causation",
+    "ko_pos": "v",
+    "frameID": 5,
+    "frameName": "Causation",
+    "lu_id": "470",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-784",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 56,
+                                "end": 65
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "결과를 가져왔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "철도 수송에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 55
+                            },
+                            "text": "Union Pacific이 로스앤젤레스 - 솔트레이크 선로를 사들이는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "784",
+                    "lu": "결과를_가져오다.v.Causation",
+                    "text": "철도 수송에서 증가하는 경쟁은 Union Pacific이 로스앤젤레스 - 솔트레이크 선로를 사들이는 결과를 가져왔다."
+                }
+            ]
+        }
+    ]
+}

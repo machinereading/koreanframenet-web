@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "인증하다.v.Evidence",
+    "ko_pos": "v",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "lu_id": "5450",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23470",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "인증하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 13
+                            },
+                            "text": "실험실이 낸 통계를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인증하다.v.Evidence",
+                    "text": "그는 실험실이 낸 통계를 인증하여 자신의 주장을 피력했다."
+                }
+            ]
+        }
+    ]
+}

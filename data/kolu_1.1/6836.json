@@ -1,0 +1,103 @@
+{
+    "en_lus": [],
+    "ko_lu": "총회.n.Aggregate",
+    "ko_pos": "n",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "lu_id": "6836",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3245",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aggregate",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "총회에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 27
+                            },
+                            "text": "유엔 총회에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3245",
+                    "lu": "총회.n.Aggregate",
+                    "text": "러시아 주도로 지난 해 4월 협약은 유엔 총회에서 채택되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-1974",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Aggregate",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "총회에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 42
+                            },
+                            "text": "미대륙간 신문 협회",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1974",
+                    "lu": "총회.n.Aggregate",
+                    "text": "콜롬비아에서의 학살은 금주 멕시코 몬테레이에서의 제45차 미대륙간 신문 협회 제45차 총회에 참석하는 라틴 아메리카, 미국, 카리브 해 및 캐나다에서 온 450 명의 편집자 및 발행인 대부분의 마음 속에 많이 남아 있었다."
+                }
+            ]
+        }
+    ]
+}

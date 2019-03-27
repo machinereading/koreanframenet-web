@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "숙달되다.v.Education_teaching",
+    "ko_pos": "v",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "lu_id": "4068",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53913",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "숙달되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Skill",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "기능도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "숙달되다.v.Education_teaching",
+                    "text": "외국근로자들이 4년 이상은 근무해야 기능도 숙달되고 의사소통이 가능해진다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-53912",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "숙달되려면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "의사가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Subject",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "중환자의 수술에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "숙달되다.v.Education_teaching",
+                    "text": "의사가 중환자의 수술에 숙달되려면 많은 실습이 필요하다."
+                }
+            ]
+        }
+    ]
+}

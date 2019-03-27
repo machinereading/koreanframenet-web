@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "당선되다.v.Change_of_leadership",
+    "ko_pos": "v",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "lu_id": "1722",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36846",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 7,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "당선되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "New_Leader",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "국전에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "당선되다.v.Change_of_leadership",
+                    "text": "그가 국전에 당선되었다."
+                }
+            ]
+        }
+    ]
+}

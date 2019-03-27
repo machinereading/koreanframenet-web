@@ -1,0 +1,162 @@
+{
+    "en_lus": [],
+    "ko_lu": "자다.v.Sleep",
+    "ko_pos": "v",
+    "frameID": 264,
+    "frameName": "Sleep",
+    "lu_id": "5599",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39659",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "자고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "괘종시계가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자다.v.Sleep",
+                    "text": "괘종시계가 자고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39658",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "자고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "개가 양지바른 곳에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자다.v.Sleep",
+                    "text": "개가 양지바른 곳에서 잠을 자고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39660",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "자고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "광이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "밑에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자다.v.Sleep",
+                    "text": "광이 밑에서 자고 있었구나!."
+                }
+            ]
+        }
+    ]
+}

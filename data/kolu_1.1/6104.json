@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "조성시키다.v.Building",
+    "ko_pos": "v",
+    "frameID": 259,
+    "frameName": "Building",
+    "lu_id": "6104",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23147",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "조성시킬"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "택지를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "수도권에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "조성시키다.v.Building",
+                    "text": "정부는 택지를 수도권에 또 조성시킬 계획이다."
+                }
+            ]
+        }
+    ]
+}

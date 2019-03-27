@@ -1,0 +1,131 @@
+{
+    "en_lus": [],
+    "ko_lu": "지연되다.v.Hindering",
+    "ko_pos": "v",
+    "frameID": 480,
+    "frameName": "Hindering",
+    "lu_id": "6436",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2524",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hindering",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "지연될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hindrance",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 32
+                            },
+                            "text": "많은 국제적인 혹은 국내적인 요인들 중 어느 하나로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "text": "이 개발들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2524",
+                    "lu": "지연되다.v.Hindering",
+                    "text": "그러나 많은 국제적인 혹은 국내적인 요인들 중 어느 하나로 이 개발들은 가소되거나 지연될 수 있을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-35960",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hindering",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "지연되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 43
+                            },
+                            "text": "상하수도, 전기, 통신 등 도시 기반시설의 설치가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지연되다.v.Hindering",
+                    "text": "일부 상가는공사를 완료했으나 상하수도, 전기, 통신 등 도시 기반시설의 설치가 지연되고 있다."
+                }
+            ]
+        }
+    ]
+}

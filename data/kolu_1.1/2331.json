@@ -1,0 +1,199 @@
+{
+    "en_lus": [],
+    "ko_lu": "말하다.v.Communication",
+    "ko_pos": "v",
+    "frameID": 6,
+    "frameName": "Communication",
+    "lu_id": "2331",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3415",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 66,
+                                "end": 70
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "말한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "보고들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 65
+                            },
+                            "text": "이란이1980년대 말 남아공으로부터 수입된 우라늄을 농축하기 위한 도움을 요청하기 위해 파키스탄에 접근했다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3415",
+                    "lu": "말하다.v.Communication",
+                    "text": "보고들은 이란이1980년대 말 남아공으로부터 수입된 우라늄을 농축하기 위한 도움을 요청하기 위해 파키스탄에 접근했다고 말한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-901",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "말한대로,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "누군가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 43
+                            },
+                            "text": "콜럼버스는 단지 그가 자마이카를 발견했다고 생각했을 뿐이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "901",
+                    "lu": "말하다.v.Communication",
+                    "text": "누군가 말한대로, 콜럼버스는 단지 그가 자마이카를 발견했다고 생각했을 뿐이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4646",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "말하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "「육상 다발기」란,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4646",
+                    "lu": "말하다.v.Communication",
+                    "text": "여기서 말하는 「육상 다발기」란, 해상이나 호면에서 이착륙할 수 있는 수상기와 달리, 통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는 용어로 이해해주시기 바란다."
+                }
+            ]
+        }
+    ]
+}

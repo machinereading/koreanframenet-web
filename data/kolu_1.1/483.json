@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "결실시키다.v.Accomplishment",
+    "ko_pos": "v",
+    "frameID": 1519,
+    "frameName": "Accomplishment",
+    "lu_id": "483",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36125",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Accomplishment",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "결실시키기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "우리들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "그간의 연구를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결실시키다.v.Accomplishment",
+                    "text": "우리들은 그간의 연구를 결실시키기 위해 최선을 다했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "작살내다.v.Destroying",
+    "ko_pos": "v",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "lu_id": "5639",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35126",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "작살내고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "아이가 가지고 놀던 장난감 자동차를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작살내다.v.Destroying",
+                    "text": "아이가 가지고 놀던 장난감 자동차를 결국 작살내고 말았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-35127",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "작살내고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "그 놈을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작살내다.v.Destroying",
+                    "text": "내가 그 놈을 작살내고 말테다."
+                }
+            ]
+        }
+    ]
+}

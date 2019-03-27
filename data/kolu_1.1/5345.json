@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "이어지다.v.Motion",
+    "ko_pos": "v",
+    "frameID": 7,
+    "frameName": "Motion",
+    "lu_id": "5345",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3836",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "이어지는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "그곳이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "text": "규슈까지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3836",
+                    "lu": "이어지다.v.Motion",
+                    "text": "그보다 약간 동쪽에 스마노세키가 있는데, 그곳이 규슈까지 이어지는 기다란 기나이 지역의 출입구입니다."
+                }
+            ]
+        }
+    ]
+}

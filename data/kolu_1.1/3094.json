@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "보호되다.v.Defending",
+    "ko_pos": "v",
+    "frameID": 1330,
+    "frameName": "Defending",
+    "lu_id": "3094",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-651",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Defending",
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "보호되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "예루살렘은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Defender",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 48
+                            },
+                            "text": "Jaffa Gate 옆의 타워에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "651",
+                    "lu": "보호되다.v.Defending",
+                    "text": "예루살렘은 성장하였고 엄청난 성벽으로 둘러쌓여으며 Jaffa Gate 옆의 타워에 의해 보호되었다."
+                }
+            ]
+        }
+    ]
+}

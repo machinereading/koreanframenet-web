@@ -1,0 +1,99 @@
+{
+    "en_lus": [],
+    "ko_lu": "관련시키다.v.Rope_manipulation",
+    "ko_pos": "v",
+    "frameID": 246,
+    "frameName": "Rope_manipulation",
+    "lu_id": "770",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19916",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Rope_manipulation",
+                            "span": {
+                                "begin": 14,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "관련시키면해결책이"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "관련시키다.v.Rope_manipulation",
+                    "text": "이 사건과 그 사건을서로 관련시키면해결책이 나올 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-19915",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Rope_manipulation",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "관련시키면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Knot",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 사건을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Knot",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "그 사건과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관련시키다.v.Rope_manipulation",
+                    "text": "이 사건을 그 사건과 관련시키면 해결책이 나올 것이다."
+                }
+            ]
+        }
+    ]
+}

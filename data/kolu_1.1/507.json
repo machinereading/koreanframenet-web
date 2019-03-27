@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "결합하다.v.Amalgamation",
+    "ko_pos": "v",
+    "frameID": 790,
+    "frameName": "Amalgamation",
+    "lu_id": "507",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52251",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Amalgamation",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "결합하면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Parts",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "동양 철학과 현대 물리학이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결합하다.v.Amalgamation",
+                    "text": "동양 철학과 현대 물리학이 결합하면 어떤 사상 체계가 나올까?"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-52249",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Amalgamation",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "결합해서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part_1",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "동양 철학을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part_2",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "text": "현대 물리학에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결합하다.v.Amalgamation",
+                    "text": "그는 동양 철학을 현대 물리학에 결합해서 새로운 사상 체계를 만들어냈다."
+                }
+            ]
+        }
+    ]
+}

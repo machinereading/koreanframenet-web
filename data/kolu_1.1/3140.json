@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "부르다.v.Being_named",
+    "ko_pos": "v",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "lu_id": "3140",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3811",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_named",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이런 <단위>를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "<루프roof>라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3811",
+                    "lu": "부르다.v.Being_named",
+                    "text": "이런 <단위>를 <루프roof>라고 부른다."
+                }
+            ]
+        }
+    ]
+}

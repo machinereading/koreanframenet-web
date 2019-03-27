@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "위기.n.State_of_entity",
+    "ko_pos": "n",
+    "frameID": 1600,
+    "frameName": "State_of_entity",
+    "lu_id": "5091",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3565",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_of_entity",
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "위기에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 44
+                            },
+                            "text": "각 대학 산악부나 반더포겔부 등은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "text": "대가 끊길",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3565",
+                    "lu": "위기.n.State_of_entity",
+                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다."
+                }
+            ]
+        }
+    ]
+}

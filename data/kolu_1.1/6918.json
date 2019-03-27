@@ -1,0 +1,136 @@
+{
+    "en_lus": [],
+    "ko_lu": "출발하다.v.Departing",
+    "ko_pos": "v",
+    "frameID": 57,
+    "frameName": "Departing",
+    "lu_id": "6918",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-43147",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Departing",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "출발했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "어민들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "text": "부산에서 서울로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "출발하다.v.Departing",
+                    "text": "어민들은 어업협정의 부당성을 항의하러 부산에서 서울로 출발했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3598",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Departing",
+                            "span": {
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "출발합니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "text": "내일은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 49
+                            },
+                            "text": "윈체스터로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3598",
+                    "lu": "출발하다.v.Departing",
+                    "text": "바로 루커슬씨에게 편지를 보내고, 오늘밤 이런 머리카락은 잘라 버리고, 내일은 윈체스터로 출발합니다."
+                }
+            ]
+        }
+    ]
+}

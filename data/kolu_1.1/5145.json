@@ -1,0 +1,142 @@
+{
+    "en_lus": [],
+    "ko_lu": "유래되다.v.Origin",
+    "ko_pos": "v",
+    "frameID": 1103,
+    "frameName": "Origin",
+    "lu_id": "5145",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49513",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Origin",
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "유래되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 단어는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Origin",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "라틴어에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유래되다.v.Origin",
+                    "text": "그 단어는 라틴어에서 유래되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-798",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Origin",
+                            "span": {
+                                "begin": 27,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "유래되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Origin",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그래서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 33
+                            },
+                            "text": "라스 베이거스의 평판이 성인 테마 파크로 유래되었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "798",
+                    "lu": "유래되다.v.Origin",
+                    "text": "그래서 라스 베이거스의 평판이 성인 테마 파크로 유래되었다."
+                }
+            ]
+        }
+    ]
+}

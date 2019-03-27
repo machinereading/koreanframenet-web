@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "인정하다.v.Affirm_or_deny",
+    "ko_pos": "v",
+    "frameID": 2974,
+    "frameName": "Affirm_or_deny",
+    "lu_id": "5443",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18980",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Affirm_or_deny",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "인정하려"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "이 사실을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인정하다.v.Affirm_or_deny",
+                    "text": "그는 이 사실을 인정하려 들지 않았다."
+                }
+            ]
+        }
+    ]
+}

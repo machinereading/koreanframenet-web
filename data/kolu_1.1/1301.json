@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "나룻.n.Vehicle",
+    "ko_pos": "n",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "lu_id": "1301",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4376",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "나룻배가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Itinerary",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "낮 열두 시경에 가와고에로 향하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "나룻배가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4376",
+                    "lu": "나룻.n.Vehicle",
+                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다."
+                }
+            ]
+        }
+    ]
+}

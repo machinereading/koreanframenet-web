@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "감사하다.a.Experiencer_focus",
+    "ko_pos": "a",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "lu_id": "160",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4820",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "감사합니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "「말씀,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4820",
+                    "lu": "감사하다.a.Experiencer_focus",
+                    "text": "「말씀, 감사합니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3929",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "감사하겠습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "text": "정정해 주시면",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3929",
+                    "lu": "감사하다.a.Experiencer_focus",
+                    "text": "가능하면 틀린 경우에는, 정정해 주시면 감사하겠습니다."
+                }
+            ]
+        }
+    ]
+}

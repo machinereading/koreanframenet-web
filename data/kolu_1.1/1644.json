@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "단가.n.Commerce_scenario",
+    "ko_pos": "n",
+    "frameID": 82,
+    "frameName": "Commerce_scenario",
+    "lu_id": "1644",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4189",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_scenario",
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "단가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Money",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 38
+                            },
+                            "text": "70만엔 이상으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4189",
+                    "lu": "단가.n.Commerce_scenario",
+                    "text": "대부분의 사람이, 이 건물을 보면 적어도 평당 단가 70만엔 이상으로 예측할 것이라 생각합니다."
+                }
+            ]
+        }
+    ]
+}

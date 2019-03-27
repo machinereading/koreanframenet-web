@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "짜다.v.Purpose",
+    "ko_pos": "v",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "lu_id": "6588",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31297",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "짜고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "관련 업체의 직원들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "text": "서로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짜다.v.Purpose",
+                    "text": "관련 업체의 직원들이 서로 짜고 회사돈 수십억원을 유용하다가 경찰에 적발되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "내쉬다.v.Breathing",
+    "ko_pos": "v",
+    "frameID": 272,
+    "frameName": "Breathing",
+    "lu_id": "1441",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28461",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Breathing",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "내쉬었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "남편의 소식을 들은 영희는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Air",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "긴 한숨을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "내쉬다.v.Breathing",
+                    "text": "남편의 소식을 들은 영희는 긴 한숨을 내쉬었다."
+                }
+            ]
+        }
+    ]
+}

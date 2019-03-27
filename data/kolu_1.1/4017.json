@@ -1,0 +1,95 @@
+{
+    "en_lus": [],
+    "ko_lu": "수상자.n.Finish_competition",
+    "ko_pos": "n",
+    "frameID": 798,
+    "frameName": "Finish_competition",
+    "lu_id": "4017",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-975",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Finish_competition",
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "수상자를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competitor",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "예이츠, 쇼, 그리고 베케트 등",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Prize",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "text": "노벨",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Competition",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "text": "문학상",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "975",
+                    "lu": "수상자.n.Finish_competition",
+                    "text": "예이츠, 쇼, 그리고 베케트 등 세 명의 노벨 문학상 수상자를 배출한 유일한 도시인 더블린에서는 문학이 항상 번성하였다."
+                }
+            ]
+        }
+    ]
+}

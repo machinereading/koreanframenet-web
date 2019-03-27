@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "수용되다.v.Using",
+    "ko_pos": "v",
+    "frameID": 1141,
+    "frameName": "Using",
+    "lu_id": "4027",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17018",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Using",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "수용되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "그의 전략은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "사령관에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수용되다.v.Using",
+                    "text": "그의 전략은 결국 사령관에게 수용되지 않았다."
+                }
+            ]
+        }
+    ]
+}

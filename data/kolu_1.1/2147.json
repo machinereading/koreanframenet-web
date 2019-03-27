@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "떠오르다.v.Sidereal_appearance",
+    "ko_pos": "v",
+    "frameID": 1430,
+    "frameName": "Sidereal_appearance",
+    "lu_id": "2147",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58085",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sidereal_appearance",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "떠올랐다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Astronomical_Entity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "태양이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "수평선 너머에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "떠오르다.v.Sidereal_appearance",
+                    "text": "태양이 수평선 너머에 떠올랐다."
+                }
+            ]
+        }
+    ]
+}

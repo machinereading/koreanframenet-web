@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "피난소.n.Buildings",
+    "ko_pos": "n",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "lu_id": "7416",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1123",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "피난소가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Relative_Location",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 15
+                            },
+                            "text": "Causeway 만",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Function",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "text": "태풍",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1123",
+                    "lu": "피난소.n.Buildings",
+                    "text": "바닷쪽에 Causeway 만 태풍 피난소가 있는데, 이곳은 비싼 요트가 뱃전마다 정박되어 있고, 홍콩 요트 클럽 본부가 있다."
+                }
+            ]
+        }
+    ]
+}

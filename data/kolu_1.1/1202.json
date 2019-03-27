@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "깜빡하다.v.Light_movement",
+    "ko_pos": "v",
+    "frameID": 131,
+    "frameName": "Light_movement",
+    "lu_id": "1202",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38446",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Light_movement",
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "깜빡했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "방금",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Beam",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "불이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깜빡하다.v.Light_movement",
+                    "text": "방금 불이 깜빡했다."
+                }
+            ]
+        }
+    ]
+}

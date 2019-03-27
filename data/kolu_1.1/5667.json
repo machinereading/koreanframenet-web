@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "잠기다.v.Placing",
+    "ko_pos": "v",
+    "frameID": 62,
+    "frameName": "Placing",
+    "lu_id": "5667",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24614",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Placing",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "잠기도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "배추가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "소금물에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잠기다.v.Placing",
+                    "text": "배추가 소금물에 잠기도록 물을 더 부어라."
+                }
+            ]
+        }
+    ]
+}

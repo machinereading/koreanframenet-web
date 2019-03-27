@@ -1,0 +1,90 @@
+{
+    "en_lus": [],
+    "ko_lu": "허가하다.v.Deny_or_grant_permission",
+    "ko_pos": "v",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": "7634",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50791",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "허가했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authority",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "사장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "그에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Action",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "해외출장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "허가하다.v.Deny_or_grant_permission",
+                    "text": "사장은 그에게 해외출장을 허가했다."
+                }
+            ]
+        }
+    ]
+}

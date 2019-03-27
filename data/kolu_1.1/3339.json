@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "비치다.v.Light_movement",
+    "ko_pos": "v",
+    "frameID": 131,
+    "frameName": "Light_movement",
+    "lu_id": "3339",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-43369",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Light_movement",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "비치기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "방안에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Beam",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "햇빛이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비치다.v.Light_movement",
+                    "text": "방안에 햇빛이 비치기 시작했다."
+                }
+            ]
+        }
+    ]
+}

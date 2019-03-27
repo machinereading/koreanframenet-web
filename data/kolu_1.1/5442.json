@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "인정시키다.v.Verification",
+    "ko_pos": "v",
+    "frameID": 1230,
+    "frameName": "Verification",
+    "lu_id": "5442",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51294",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verification",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "인정시킨다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "그 사실을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인정시키다.v.Verification",
+                    "text": "그는 모든 사람들에게 그 사실을 인정시킨다."
+                }
+            ]
+        }
+    ]
+}

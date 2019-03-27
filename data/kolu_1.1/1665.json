@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "단체전.n.Competition",
+    "ko_pos": "n",
+    "frameID": 241,
+    "frameName": "Competition",
+    "lu_id": "1665",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4838",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "단체전과,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "text": "5월에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Competition",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "text": "단체전과,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4838",
+                    "lu": "단체전.n.Competition",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
+                }
+            ]
+        }
+    ]
+}

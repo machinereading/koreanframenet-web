@@ -1,0 +1,154 @@
+{
+    "en_lus": [],
+    "ko_lu": "교체되다.v.Take_place_of",
+    "ko_pos": "v",
+    "frameID": 1171,
+    "frameName": "Take_place_of",
+    "lu_id": "848",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-837",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Take_place_of",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "교체됨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "Dunes",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 23
+                            },
+                            "text": "Bellagio로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "837",
+                    "lu": "교체되다.v.Take_place_of",
+                    "text": "이 추세는 Dunes ( Bellagio로 교체됨 ), Aladdin ( 새로운 Aladdin ), 그리고 Sands ( Venetian ) 호텔들을 포함한 더 많은 건물들의 철거로 이어졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-43200",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Take_place_of",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "교체될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "공정거래법은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "내달",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "New",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 21
+                            },
+                            "text": "새로운 규칙으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교체되다.v.Take_place_of",
+                    "text": "공정거래법은 내달 모두 새로운 규칙으로 교체될 것이다."
+                }
+            ]
+        }
+    ]
+}

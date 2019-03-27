@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "되다.a.Statement",
+    "ko_pos": "a",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "1985",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-31",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 27
+                            },
+                            "text": "각 변동이나 변화는 단 한 번만 발생할 수 있다고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Medium",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "규칙에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "31",
+                    "lu": "되다.a.Statement",
+                    "text": "각 변동이나 변화는 단 한 번만 발생할 수 있다고 규칙에 되어 있다."
+                }
+            ]
+        }
+    ]
+}

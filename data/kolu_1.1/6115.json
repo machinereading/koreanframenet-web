@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "조작당하다.v.Feigning",
+    "ko_pos": "v",
+    "frameID": 12,
+    "frameName": "Feigning",
+    "lu_id": "6115",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39625",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Feigning",
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "조작당했다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Original",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "계약서를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "조작당하다.v.Feigning",
+                    "text": "그는 계약서를 조작당했다고 주장했다."
+                }
+            ]
+        }
+    ]
+}

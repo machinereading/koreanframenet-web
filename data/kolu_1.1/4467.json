@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "압축하다.v.Cause_expansion",
+    "ko_pos": "v",
+    "frameID": 77,
+    "frameName": "Cause_expansion",
+    "lu_id": "4467",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-37721",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_expansion",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "압축해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 14
+                            },
+                            "text": "시간관계상 발표내용을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "압축하다.v.Cause_expansion",
+                    "text": "나는 시간관계상 발표내용을 압축해야 했다."
+                }
+            ]
+        }
+    ]
+}

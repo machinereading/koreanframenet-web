@@ -1,0 +1,126 @@
+{
+    "en_lus": [],
+    "ko_lu": "사고.n.Catastrophe",
+    "ko_pos": "n",
+    "frameID": 115,
+    "frameName": "Catastrophe",
+    "lu_id": "3417",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4093",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Catastrophe",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사고를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undesirable_Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "이 끔찍한 사고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4093",
+                    "lu": "사고.n.Catastrophe",
+                    "text": "이 끔찍한 사고를 아름다운 것으로 바꾸고 싶었던 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-3171",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Catastrophe",
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "사고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 31
+                            },
+                            "text": "APG [ Aberdeen Proving Ground ]",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "text": "독성 가스",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3171",
+                    "lu": "사고.n.Catastrophe",
+                    "text": "APG [ Aberdeen Proving Ground ] 에서의 독성 가스 사고"
+                }
+            ]
+        }
+    ]
+}

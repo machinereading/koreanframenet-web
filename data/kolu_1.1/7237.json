@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "파멸당하다.v.Subversion",
+    "ko_pos": "v",
+    "frameID": 1090,
+    "frameName": "Subversion",
+    "lu_id": "7237",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59626",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Subversion",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "파멸당했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "악행 때문에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "파멸당하다.v.Subversion",
+                    "text": "그자는 악행 때문에 파멸당했다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "검토하다.v.Cogitation",
+    "ko_pos": "v",
+    "frameID": 22,
+    "frameName": "Cogitation",
+    "lu_id": "429",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3061",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "검토했다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 33
+                            },
+                            "text": "1980년대 초에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 41
+                            },
+                            "text": "그렇게 할려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3061",
+                    "lu": "검토하다.v.Cogitation",
+                    "text": "시리아는 핵무기를 추구한 것 같지 않지만, 1980년대 초에 그렇게 할려고 검토했다는 소문이 있었다."
+                }
+            ]
+        }
+    ]
+}

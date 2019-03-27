@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "선회하다.v.Change_direction",
+    "ko_pos": "v",
+    "frameID": 1653,
+    "frameName": "Change_direction",
+    "lu_id": "3760",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-10629",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_direction",
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "선회한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "text": "차량 1 대가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Direction",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 39
+                            },
+                            "text": "나윤양이 걸어간 갓길로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선회하다.v.Change_direction",
+                    "text": "바로 그때 차량 1 대가 그녀 앞으로 돌진하다가 나윤양이 걸어간 갓길로 방향을 선회한 뒤 다시 도로로 내려와 시야에서 사라졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-53851",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_direction",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "선회만"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "선회하다.v.Change_direction",
+                    "text": "자동차가 로타리에서 계속 선회만 하고 있다."
+                }
+            ]
+        }
+    ]
+}

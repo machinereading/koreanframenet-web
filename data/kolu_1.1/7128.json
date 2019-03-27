@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "터지다.v.Event",
+    "ko_pos": "v",
+    "frameID": 187,
+    "frameName": "Event",
+    "lu_id": "7128",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17523",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "터졌습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "김선수의 강펀치가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "터지다.v.Event",
+                    "text": "김선수의 강펀치가 터졌습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-17540",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "터졌구다."
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "터지다.v.Event",
+                    "text": "네가 일복이 터졌구다."
+                }
+            ]
+        }
+    ]
+}

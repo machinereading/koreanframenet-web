@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "없다.a.Expected_location_of_person",
+    "ko_pos": "a",
+    "frameID": 1619,
+    "frameName": "Expected_location_of_person",
+    "lu_id": "4618",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1812",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expected_location_of_person",
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "없을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "text": "다음 주 내내",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "사무실에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1812",
+                    "lu": "없다.a.Expected_location_of_person",
+                    "text": "당신을 위한 정보 - 나는 다음 주 내내 사무실에 없을 것이다."
+                }
+            ]
+        }
+    ]
+}

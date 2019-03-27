@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "비틀거리다.v.Precariousness",
+    "ko_pos": "v",
+    "frameID": 2703,
+    "frameName": "Precariousness",
+    "lu_id": "3345",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42038",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Precariousness",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "비틀거리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Falling_Event",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이번 사태로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "회사가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비틀거리다.v.Precariousness",
+                    "text": "이번 사태로 회사가 비틀거리고 있다."
+                }
+            ]
+        }
+    ]
+}

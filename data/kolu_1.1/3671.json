@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "생산되다.v.Creating",
+    "ko_pos": "v",
+    "frameID": 319,
+    "frameName": "Creating",
+    "lu_id": "3671",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-22699",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "생산되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "text": "한정되어 있기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생산되다.v.Creating",
+                    "text": "과일, 채소 등은 생산되는 계절이 한정되어 있기 때문에 일년 내내 먹을 수 없다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-22701",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "생산되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "text": "합성과정 중에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 40
+                            },
+                            "text": "부산물의 제거가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생산되다.v.Creating",
+                    "text": "화학 합성법은 원료 가격이 비싸고 합성과정 중에 생산되는 부산물의 제거가 용이하지 않다."
+                }
+            ]
+        }
+    ]
+}

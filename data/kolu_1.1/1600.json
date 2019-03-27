@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "늘어놓다.v.Complaining",
+    "ko_pos": "v",
+    "frameID": 1621,
+    "frameName": "Complaining",
+    "lu_id": "1600",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18003",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Complaining",
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "늘어놓았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "나는 선생님께 더 이상 공부를 못 하겠다고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Complaint",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "text": "이야기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "늘어놓다.v.Complaining",
+                    "text": "나는 선생님께 더 이상 공부를 못 하겠다고 이야기를 늘어놓았다."
+                }
+            ]
+        }
+    ]
+}

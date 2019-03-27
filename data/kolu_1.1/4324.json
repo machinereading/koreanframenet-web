@@ -1,0 +1,123 @@
+{
+    "en_lus": [],
+    "ko_lu": "쏘아붙이다.v.Judgment_communication",
+    "ko_pos": "v",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "lu_id": "4324",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52754",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "쏘아붙였더니"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "친구에게 짜증을 내며",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "한 마디",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쏘아붙이다.v.Judgment_communication",
+                    "text": "친구에게 짜증을 내며 한 마디 쏘아붙였더니 마음이 영 불편하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-52757",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "쏘아붙였더니"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "친구에게 그만 좀 허세를 부리라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쏘아붙이다.v.Judgment_communication",
+                    "text": "친구에게 그만 좀 허세를 부리라고 쏘아붙였더니 그 녀석은 금새 풀이 죽었다."
+                }
+            ]
+        }
+    ]
+}

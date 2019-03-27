@@ -1,0 +1,153 @@
+{
+    "en_lus": [],
+    "ko_lu": "언짢다.a.Experiencer_focus",
+    "ko_pos": "a",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "lu_id": "4580",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4858",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 54,
+                                "end": 60
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "언짢아졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "그때 옆에 있던 그녀는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 53
+                            },
+                            "text": "그 말이 다른 여성을 겨냥함과 동시에, 자신을 향해 한 말이라는 생각에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4858",
+                    "lu": "언짢다.a.Experiencer_focus",
+                    "text": "그때 옆에 있던 그녀는, 그 말이 다른 여성을 겨냥함과 동시에, 자신을 향해 한 말이라는 생각에 언짢아졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-3153",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "언짢은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 22
+                            },
+                            "text": "마을에 들어서는 새로운 산업에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 40
+                            },
+                            "text": "환경 테러리스트들이었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3153",
+                    "lu": "언짢다.a.Experiencer_focus",
+                    "text": "공격자들은 마을에 들어서는 새로운 산업에 언짢은 환경 테러리스트들이었다."
+                }
+            ]
+        }
+    ]
+}

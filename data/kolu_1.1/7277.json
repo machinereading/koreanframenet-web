@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "판정하다.v.Sentencing",
+    "ko_pos": "v",
+    "frameID": 297,
+    "frameName": "Sentencing",
+    "lu_id": "7277",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-60764",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sentencing",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "판정하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sentence",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "주임판사는 피고를 무죄라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판정하다.v.Sentencing",
+                    "text": "주임판사는 피고를 무죄라고 판정하였다."
+                }
+            ]
+        }
+    ]
+}

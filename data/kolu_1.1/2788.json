@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "발언하다.v.Telling",
+    "ko_pos": "v",
+    "frameID": 750,
+    "frameName": "Telling",
+    "lu_id": "2788",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20711",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Telling",
+                            "span": {
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "발언했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "국립국어연구원장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 27
+                            },
+                            "text": "21세기 세종계획의 추진 상황에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발언하다.v.Telling",
+                    "text": "국립국어연구원장은 21세기 세종계획의 추진 상황에 대해 발언했다."
+                }
+            ]
+        }
+    ]
+}

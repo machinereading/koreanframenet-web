@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "유래.n.Origin",
+    "ko_pos": "n",
+    "frameID": 1103,
+    "frameName": "Origin",
+    "lu_id": "5144",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4950",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Origin",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "유래가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 이름의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Origin",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "유래가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4950",
+                    "lu": "유래.n.Origin",
+                    "text": "그 이름의 유래가 재미있습니다."
+                }
+            ]
+        }
+    ]
+}

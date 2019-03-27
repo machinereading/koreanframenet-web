@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "까먹다.v.Expend_resource",
+    "ko_pos": "v",
+    "frameID": 2220,
+    "frameName": "Expend_resource",
+    "lu_id": "1189",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46488",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expend_resource",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "까먹고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "김사장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Resource",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "text": "사업 자금만",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "까먹다.v.Expend_resource",
+                    "text": "김사장은 홍보에 실패하여, 사업 자금만 까먹고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-46487",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expend_resource",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "까먹는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "사탕",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "까먹다.v.Expend_resource",
+                    "text": "철수는 엄마 몰래 사탕 까먹는 재미가 솔솔했다."
+                }
+            ]
+        }
+    ]
+}

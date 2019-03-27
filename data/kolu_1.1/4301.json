@@ -1,0 +1,91 @@
+{
+    "en_lus": [],
+    "ko_lu": "심문당하다.v.Court_examination",
+    "ko_pos": "v",
+    "frameID": 507,
+    "frameName": "Court_examination",
+    "lu_id": "4301",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36507",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Court_examination",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "심문당했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Witness",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "그 피의자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Questioner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "수사관에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "text": "지독하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "심문당하다.v.Court_examination",
+                    "text": "그 피의자는 수사관에게 지독하게 심문당했다."
+                }
+            ]
+        }
+    ]
+}

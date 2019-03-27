@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "집행되다.v.Execution",
+    "ko_pos": "v",
+    "frameID": 225,
+    "frameName": "Execution",
+    "lu_id": "6572",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42027",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Execution",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "집행되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Executed",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "죄인의 사형이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "text": "순간",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "집행되다.v.Execution",
+                    "text": "죄인의 사형이 집행되는 순간 구경꾼들은 눈을 질끈 감았다."
+                }
+            ]
+        }
+    ]
+}

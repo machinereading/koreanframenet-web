@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "부정하다.a.Statement",
+    "ko_pos": "a",
+    "frameID": 43,
+    "frameName": "Statement",
+    "lu_id": "3184",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1307",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "부정하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "러시아 관리들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "연구는 계속되었다는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1307",
+                    "lu": "부정하다.a.Statement",
+                    "text": "러시아 관리들은 연구는 계속되었다는 것을 부정하지 않지만 그것은 화학무기금지협약에 의해 금지되지 않은 목적인, 화학무기에 맞서는 방어용 개발을 목적으로 한다고 주장한다."
+                }
+            ]
+        }
+    ]
+}

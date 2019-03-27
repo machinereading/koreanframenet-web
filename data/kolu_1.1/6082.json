@@ -1,0 +1,82 @@
+{
+    "en_lus": [],
+    "ko_lu": "조립되다.v.Building",
+    "ko_pos": "v",
+    "frameID": 259,
+    "frameName": "Building",
+    "lu_id": "6082",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2882",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "조립된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Components",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 37
+                            },
+                            "text": "1989년과 1991년 사이에 플루토늄 재처리로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 58
+                            },
+                            "text": "하나 혹은 두 개의 핵 폭탄을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2882",
+                    "lu": "조립되다.v.Building",
+                    "text": "중앙정보원은 북한이 1989년과 1991년 사이에 플루토늄 재처리로 조립된 하나 혹은 두 개의 핵 폭탄을 가졌다고 추정한다."
+                }
+            ]
+        }
+    ]
+}

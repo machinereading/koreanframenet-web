@@ -1,0 +1,116 @@
+{
+    "en_lus": [],
+    "ko_lu": "킁킁거리다.v.Make_noise",
+    "ko_pos": "v",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "lu_id": "7046",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59134",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "킁킁거리며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "text": "강아지는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "킁킁거리다.v.Make_noise",
+                    "text": "사내가 집으로 들어서자 강아지는 킁킁거리며 뒷걸음질을 쳤다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-59135",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Make_noise",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "킁킁거리거나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "어린아이가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "text": "코를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "킁킁거리다.v.Make_noise",
+                    "text": "어린아이가 어깨를 들썩이고 코를 킁킁거리거나 헛기침을 하는 등 가만히 있지를 못한다는 것은 아토피의 한 증상이다."
+                }
+            ]
+        }
+    ]
+}

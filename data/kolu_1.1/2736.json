@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "반항하다.v.Repel",
+    "ko_pos": "v",
+    "frameID": 2026,
+    "frameName": "Repel",
+    "lu_id": "2736",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20731",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Repel",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "반항하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Enemy",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "체제에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Defender",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "불순분자는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "반항하다.v.Repel",
+                    "text": "체제에 반항하는 불순분자는 모조리 색출하라."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "버무리다.v.Amalgamation",
+    "ko_pos": "v",
+    "frameID": 790,
+    "frameName": "Amalgamation",
+    "lu_id": "2929",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18952",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Amalgamation",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "버무려"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Part_1",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "밥을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part_2",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "고추장으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "버무리다.v.Amalgamation",
+                    "text": "그는 밥을 고추장으로 버무려 먹었다."
+                }
+            ]
+        }
+    ]
+}

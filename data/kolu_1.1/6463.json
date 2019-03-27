@@ -1,0 +1,241 @@
+{
+    "en_lus": [],
+    "ko_lu": "지출하다.v.Commerce_pay",
+    "ko_pos": "v",
+    "frameID": 180,
+    "frameName": "Commerce_pay",
+    "lu_id": "6463",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52758",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "지출했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "정부는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Money",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "배상금을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지출하다.v.Commerce_pay",
+                    "text": "정부는 배상금을 국고에서 지출했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-749",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 56,
+                                "end": 60
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "지출하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 47
+                            },
+                            "text": "기업들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 55
+                            },
+                            "text": "컴퓨터 보안에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Money",
+                            "token_span": [
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 71
+                            },
+                            "text": "수백만 달러의 돈이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지출하다.v.Commerce_pay",
+                    "text": "그는 사람들이 어리석게도 너무 쉽게 패스워드 등의 접속 암호를 내주기 때문에 기업들이 컴퓨터 보안에 지출하는 수백만 달러의 돈이 낭비될 수 있다고 지적했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-747",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_pay",
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "지출한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 14
+                            },
+                            "text": "각 당 후보들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 31
+                            },
+                            "text": "지난해부터 1 월 31 일까지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Money",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "text": "선거비는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지출하다.v.Commerce_pay",
+                    "text": "이 신문은 각 당 후보들이 지난해부터 1 월 31 일까지 지출한 선거비는 총 2 억 1 천 100 만 달러였으며 2 월과 3 월에도 수천만 달러가 더 소요됐다고 전했다."
+                }
+            ]
+        }
+    ]
+}

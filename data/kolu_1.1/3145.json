@@ -1,0 +1,87 @@
+{
+    "en_lus": [],
+    "ko_lu": "부르다.v.Resolve_problem",
+    "ko_pos": "v",
+    "frameID": 1523,
+    "frameName": "Resolve_problem",
+    "lu_id": "3145",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2101",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Resolve_problem",
+                            "span": {
+                                "begin": 59,
+                                "end": 63
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "불렀다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "향상된 수출 통제법과 시행은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Problem",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 54
+                            },
+                            "text": "핵 및 화학무기와 관련된 확산에 대한 많은 ( 그러나 전부는 아닌 )",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2101",
+                    "lu": "부르다.v.Resolve_problem",
+                    "text": "향상된 수출 통제법과 시행은 핵 및 화학무기와 관련된 확산에 대한 많은 ( 그러나 전부는 아닌 ) 관심을 불렀다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "배출되다.v.Emitting",
+    "ko_pos": "v",
+    "frameID": 359,
+    "frameName": "Emitting",
+    "lu_id": "2903",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40069",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emitting",
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "배출되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source_Emitter",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "하수구에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Emission",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "오수에는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배출되다.v.Emitting",
+                    "text": "하수구에서 배출되는 오수에는 가축의 분뇨도 포함되어 있었다."
+                }
+            ]
+        }
+    ]
+}

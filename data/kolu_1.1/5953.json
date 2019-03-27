@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "정박시키다.v.Halt",
+    "ko_pos": "v",
+    "frameID": 1024,
+    "frameName": "Halt",
+    "lu_id": "5953",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-27871",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Halt",
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "정박시키도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "부산항 인근에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정박시키다.v.Halt",
+                    "text": "부산항 인근에 정박시키도록 지시했다."
+                }
+            ]
+        }
+    ]
+}

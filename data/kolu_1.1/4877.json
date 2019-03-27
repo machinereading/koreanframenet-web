@@ -1,0 +1,155 @@
+{
+    "en_lus": [],
+    "ko_lu": "올라가다.v.Change_position_on_a_scale",
+    "ko_pos": "v",
+    "frameID": 91,
+    "frameName": "Change_position_on_a_scale",
+    "lu_id": "4877",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52982",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_position_on_a_scale",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "올라갔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "어제",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "대구는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Attribute",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "text": "낮 최고 기온이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Final_Value",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "text": "38도까지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "올라가다.v.Change_position_on_a_scale",
+                    "text": "어제 대구는 낮 최고 기온이 38도까지 올라갔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-53001",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_position_on_a_scale",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "올라가기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Attribute",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 27
+                            },
+                            "text": "아군의 기세가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "올라가다.v.Change_position_on_a_scale",
+                    "text": "아군 장수가 적의 장수를 쓰러뜨리자 아군의 기세가 올라가기 시작했다."
+                }
+            ]
+        }
+    ]
+}

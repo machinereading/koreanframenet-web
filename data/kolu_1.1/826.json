@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "교류하다.v.Relation",
+    "ko_pos": "v",
+    "frameID": 248,
+    "frameName": "Relation",
+    "lu_id": "826",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3965",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relation",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "교류해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity1",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "「신과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3965",
+                    "lu": "교류하다.v.Relation",
+                    "text": "Q42 「신과 어떻게 교류해야 할까요」 A「일본의 신은 진정한 신이 아닙니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "en_lus": [],
+    "ko_lu": "깨뜨리다.v.Impact",
+    "ko_pos": "v",
+    "frameID": 311,
+    "frameName": "Impact",
+    "lu_id": "1212",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-54120",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Impact",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "깨뜨린"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactee",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "내 액자를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactor",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "것이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깨뜨리다.v.Impact",
+                    "text": "내 액자를 깨뜨린 것이 바로 너야?"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-54118",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Impact",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "깨뜨렸다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "명혜는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactee",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 17
+                            },
+                            "text": "어머니가 아끼시던 그릇을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "깨뜨리다.v.Impact",
+                    "text": "명혜는 어머니가 아끼시던 그릇을 깨뜨렸다."
+                }
+            ]
+        }
+    ]
+}

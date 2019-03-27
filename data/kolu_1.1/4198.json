@@ -1,0 +1,164 @@
+{
+    "en_lus": [],
+    "ko_lu": "시합시키다.v.Competition",
+    "ko_pos": "v",
+    "frameID": 241,
+    "frameName": "Competition",
+    "lu_id": "4198",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28355",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "시합시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Participants",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "text": "우리 닭과 점순이네 닭을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시합시키다.v.Competition",
+                    "text": "우리 가족은 우리 닭과 점순이네 닭을 시합시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-28354",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "시합시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "3반과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Participant_2",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "우리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시합시키다.v.Competition",
+                    "text": "선생님은 3반과 우리를 시합시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-28353",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Competition",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "시합시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "text": "점순이네 닭을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시합시키다.v.Competition",
+                    "text": "우리 가족은 점순이네 닭을 우리 닭과 시합시켰다."
+                }
+            ]
+        }
+    ]
+}

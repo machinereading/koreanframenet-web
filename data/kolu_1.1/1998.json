@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "두들기다.v.Cause_harm",
+    "ko_pos": "v",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "lu_id": "1998",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-37491",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "두들겨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "그 남자를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "두들기다.v.Cause_harm",
+                    "text": "나는 그 남자를 신나게 두들겨 주었다."
+                }
+            ]
+        }
+    ]
+}

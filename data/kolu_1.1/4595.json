@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "얼마.ad.Measure_duration",
+    "ko_pos": "ad",
+    "frameID": 224,
+    "frameName": "Measure_duration",
+    "lu_id": "4595",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1008",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Measure_duration",
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "얼마"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "text": "얼마 되지",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1008",
+                    "lu": "얼마.ad.Measure_duration",
+                    "text": "Lewinsky 이야기가 나온지 얼마 되지 않았던 지난 주에, Stephanopoulos는 갑자기 Good Morning America에 나타나 우려를 나타냈다."
+                }
+            ]
+        }
+    ]
+}

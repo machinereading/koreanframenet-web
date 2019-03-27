@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "가다.v.Motion_directional",
+    "ko_pos": "v",
+    "frameID": 362,
+    "frameName": "Motion_directional",
+    "lu_id": "29",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4483",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion_directional",
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "가지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 22
+                            },
+                            "text": "비교해부학을 바탕으로 하신 말씀은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "납득이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4483",
+                    "lu": "가다.v.Motion_directional",
+                    "text": "「지금 비교해부학을 바탕으로 하신 말씀은 아무래도 납득이 가지 않습니다."
+                }
+            ]
+        }
+    ]
+}

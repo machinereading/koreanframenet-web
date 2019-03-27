@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "선행되다.v.Relative_time",
+    "ko_pos": "v",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "lu_id": "3752",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61993",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "선행된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Occasion",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "연구와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선행되다.v.Relative_time",
+                    "text": "고객이 조사를 의뢰할 경우, 과거 그 보다 선행된 연구와 비교하여 조사를 진행합니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-61992",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relative_time",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "선행된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Focal_Occasion",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "자극과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선행되다.v.Relative_time",
+                    "text": "이 환자는 연속된 자극을 그 보다 선행된 자극과 구별 못 한다."
+                }
+            ]
+        }
+    ]
+}

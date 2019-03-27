@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "학습하다.v.Purpose",
+    "ko_pos": "v",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "lu_id": "7498",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4485",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 47,
+                                "end": 51
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "학습하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 51
+                            },
+                            "text": "더 깊이 학습하기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 73
+                            },
+                            "text": "연구회를 만드는 것도 좋겠습니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4485",
+                    "lu": "학습하다.v.Purpose",
+                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기 위한 연구회를 만드는 것도 좋겠습니다."
+                }
+            ]
+        }
+    ]
+}

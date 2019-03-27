@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "발화하다.v.Setting_fire",
+    "ko_pos": "v",
+    "frameID": 283,
+    "frameName": "Setting_fire",
+    "lu_id": "2812",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33988",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Setting_fire",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "발화하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "날씨가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "자연적으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발화하다.v.Setting_fire",
+                    "text": "날씨가 건조하면 자연적으로 발화하여 산불이 잘 일어난다."
+                }
+            ]
+        }
+    ]
+}

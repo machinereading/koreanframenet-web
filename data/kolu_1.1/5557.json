@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "입주시키다.v.Residence",
+    "ko_pos": "v",
+    "frameID": 110,
+    "frameName": "Residence",
+    "lu_id": "5557",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-30966",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "입주시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "공원들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "text": "그 아파트에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입주시키다.v.Residence",
+                    "text": "공단은 공원들을 그 아파트에 입주시켰다."
+                }
+            ]
+        }
+    ]
+}

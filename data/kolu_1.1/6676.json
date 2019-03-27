@@ -1,0 +1,57 @@
+{
+    "en_lus": [],
+    "ko_lu": "창립.n.Intentionally_create",
+    "ko_pos": "n",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "lu_id": "6676",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4501",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "창립"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 25
+                            },
+                            "text": "동 대학 산악부의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4501",
+                    "lu": "창립.n.Intentionally_create",
+                    "text": "창립 80주년의 역사를 지닌 동 대학 산악부의 현역 부원이 고작 5명이라는 사실에 놀랐다."
+                }
+            ]
+        }
+    ]
+}

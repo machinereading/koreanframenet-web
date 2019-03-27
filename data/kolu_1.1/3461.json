@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "사살되다.v.Hit_target",
+    "ko_pos": "v",
+    "frameID": 485,
+    "frameName": "Hit_target",
+    "lu_id": "3461",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1976",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hit_target",
+                            "span": {
+                                "begin": 55,
+                                "end": 60
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "사살되었고"
+                        }
+                    ],
+                    "relations": [],
+                    "sent_id": "1976",
+                    "lu": "사살되다.v.Hit_target",
+                    "text": "그 신문의 지역 관리자인 Maria Luz Lopez는 그녀의 차가 신호등 빨간 불에 멈추었을 때 사살되었고 그의 어머니는 부상 당하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-19335",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hit_target",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사살되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Target",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "포로들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "기관총으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사살되다.v.Hit_target",
+                    "text": "포로들이 기관총으로 사살되었다."
+                }
+            ]
+        }
+    ]
+}

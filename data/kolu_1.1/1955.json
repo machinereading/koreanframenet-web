@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "동생.n.Kinship",
+    "ko_pos": "n",
+    "frameID": 104,
+    "frameName": "Kinship",
+    "lu_id": "1955",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1983",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kinship",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동생"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "text": "1986년에 살해된",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ego",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 40
+                            },
+                            "text": "한 남성으로부터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1983",
+                    "lu": "동생.n.Kinship",
+                    "text": "이것은 그의 동생 Guillermo가 1986년에 살해된 한 남성으로부터 나왔다."
+                }
+            ]
+        }
+    ]
+}

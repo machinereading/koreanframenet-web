@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "채점하다.v.Assessing",
+    "ko_pos": "v",
+    "frameID": 519,
+    "frameName": "Assessing",
+    "lu_id": "6706",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46976",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "채점하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "text": "주관식 답안지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "채점하다.v.Assessing",
+                    "text": "객관식보다는 주관식 답안지를 채점하는 일이 훨씬 힘들다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-46975",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Assessing",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "채점하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Assessor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "선생님은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "학생들의 시험지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "채점하다.v.Assessing",
+                    "text": "선생님은 늦게까지 남아 학생들의 시험지를 채점하고 있었다."
+                }
+            ]
+        }
+    ]
+}

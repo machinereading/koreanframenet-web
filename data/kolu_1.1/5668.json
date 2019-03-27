@@ -1,0 +1,187 @@
+{
+    "en_lus": [],
+    "ko_lu": "잠자다.v.Sleep",
+    "ko_pos": "v",
+    "frameID": 264,
+    "frameName": "Sleep",
+    "lu_id": "5668",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35452",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "잠자고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "아기 원숭이가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "엄마 원숭이의 품에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잠자다.v.Sleep",
+                    "text": "아기 원숭이가 엄마 원숭이의 품에 안겨 잠자고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-35451",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "잠자는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "아이가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잠자다.v.Sleep",
+                    "text": "아이가 잠자는 모습은 참 아름답다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-35454",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sleep",
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "잠잘"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "text": "많은 돈을 들여 산 무기라도 사용법을 모르니",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "text": "창고에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잠자다.v.Sleep",
+                    "text": "많은 돈을 들여 산 무기라도 사용법을 모르니 창고에서 잠잘 수밖에 없다."
+                }
+            ]
+        }
+    ]
+}

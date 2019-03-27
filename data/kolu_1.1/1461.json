@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "넓이.n.Dimension",
+    "ko_pos": "n",
+    "frameID": 108,
+    "frameName": "Dimension",
+    "lu_id": "1461",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1563",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dimension",
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "넓이는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Measurement",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 32
+                            },
+                            "text": "20 센티미터이어야",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1563",
+                    "lu": "넓이.n.Dimension",
+                    "text": "도랑은 깊이가 30 센티미터이고 넓이는 20 센티미터이어야 한다."
+                }
+            ]
+        }
+    ]
+}

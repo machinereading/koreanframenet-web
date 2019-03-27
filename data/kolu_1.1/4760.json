@@ -1,0 +1,138 @@
+{
+    "en_lus": [],
+    "ko_lu": "연행하다.v.Arrest",
+    "ko_pos": "v",
+    "frameID": 202,
+    "frameName": "Arrest",
+    "lu_id": "4760",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39635",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arrest",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "연행하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 26
+                            },
+                            "text": "농성 중이던 학생들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연행하다.v.Arrest",
+                    "text": "형사들이 학생회실에 들어와 농성 중이던 학생들을 연행하는 과정에서 몸싸움이 일어났다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39634",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arrest",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "연행했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Authorities",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "경찰은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Suspect",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 17
+                            },
+                            "text": "시위에 참가한 노동자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "모두",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연행하다.v.Arrest",
+                    "text": "경찰은 시위에 참가한 노동자들은 모두 연행했다."
+                }
+            ]
+        }
+    ]
+}

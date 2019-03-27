@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "시청하다.v.Perception_active",
+    "ko_pos": "v",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "lu_id": "4196",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4216",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "시청하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "○NHK는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4216",
+                    "lu": "시청하다.v.Perception_active",
+                    "text": "○NHK는 시청하지 않으니까요."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "조사하다.v.Scrutiny",
+    "ko_pos": "v",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "lu_id": "6100",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-8373",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "조사됐다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "투표율은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 21
+                            },
+                            "text": "65 퍼센트 이상이 될 것으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "조사하다.v.Scrutiny",
+                    "text": "투표율은 65 퍼센트 이상이 될 것으로 조사됐다."
+                }
+            ]
+        }
+    ]
+}

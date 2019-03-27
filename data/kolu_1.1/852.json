@@ -1,0 +1,93 @@
+{
+    "en_lus": [],
+    "ko_lu": "교환하다.v.Exchange_currency",
+    "ko_pos": "v",
+    "frameID": 1184,
+    "frameName": "Exchange_currency",
+    "lu_id": "852",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51408",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Exchange_currency",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "교환했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Money_Owner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "영수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source_Currency",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 17
+                            },
+                            "text": "그 동안 모아둔 동전들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Target_Currency",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "지폐와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교환하다.v.Exchange_currency",
+                    "text": "영수는 그 동안 모아둔 동전들을 지폐와 교환했다."
+                }
+            ]
+        }
+    ]
+}

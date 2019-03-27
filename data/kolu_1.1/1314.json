@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "나오다.v.Circumscribed_existence",
+    "ko_pos": "v",
+    "frameID": 2612,
+    "frameName": "Circumscribed_existence",
+    "lu_id": "1314",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53750",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Circumscribed_existence",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "나와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "그런 내용은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "이 책에도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나오다.v.Circumscribed_existence",
+                    "text": "그런 내용은 이 책에도 나와 있다."
+                }
+            ]
+        }
+    ]
+}

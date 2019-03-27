@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "바꾸다.v.Replacing",
+    "ko_pos": "v",
+    "frameID": 1121,
+    "frameName": "Replacing",
+    "lu_id": "2661",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4239",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Replacing",
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "바꿀"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "「배를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "등과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4239",
+                    "lu": "바꾸다.v.Replacing",
+                    "text": "이외에 「배를 등과 바꿀 수 없다」 또는 「꽃보다 경단」 등도 좋아하는 부류에 속한다."
+                }
+            ]
+        }
+    ]
+}

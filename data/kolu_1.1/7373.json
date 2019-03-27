@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "폭파시키다.v.Explosion",
+    "ko_pos": "v",
+    "frameID": 2577,
+    "frameName": "Explosion",
+    "lu_id": "7373",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17645",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Explosion",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "폭파시켜"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 22
+                            },
+                            "text": "지금까지 매주 금요일마다",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Explosive",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 30
+                            },
+                            "text": "폭탄 잔해들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "폭파시키다.v.Explosion",
+                    "text": "팀장은 미군들이 지금까지 매주 금요일마다 폭탄 잔해들을 폭파시켜 왔다는 놀라운 소식을 전해왔습니다."
+                }
+            ]
+        }
+    ]
+}

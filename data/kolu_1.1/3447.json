@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "사로잡히다.v.Placing",
+    "ko_pos": "v",
+    "frameID": 62,
+    "frameName": "Placing",
+    "lu_id": "3447",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28232",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Placing",
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사로잡히면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "김소위는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "적에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사로잡히다.v.Placing",
+                    "text": "김소위는 적에게 사로잡히면 죽을 결심을 했다."
+                }
+            ]
+        }
+    ]
+}

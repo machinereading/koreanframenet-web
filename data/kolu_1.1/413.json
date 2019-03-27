@@ -1,0 +1,93 @@
+{
+    "en_lus": [],
+    "ko_lu": "검역시키다.v.Inspecting",
+    "ko_pos": "v",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "lu_id": "413",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46495",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "검역시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "소장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Unwanted_Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 19
+                            },
+                            "text": "중국에서 수입된 모든 식품을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Inspector",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "text": "직원들에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검역시키다.v.Inspecting",
+                    "text": "소장은 중국에서 수입된 모든 식품을 직원들에게 검역시켰다."
+                }
+            ]
+        }
+    ]
+}

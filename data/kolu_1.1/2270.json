@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "만들다.v.Cooking_creation",
+    "ko_pos": "v",
+    "frameID": 268,
+    "frameName": "Cooking_creation",
+    "lu_id": "2270",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-11220",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cooking_creation",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "만드는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Produced_Food",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "초콜릿을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cook",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "text": "과정에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만들다.v.Cooking_creation",
+                    "text": "이번 타협안은 영국 외에도 초콜릿을 만드는 과정에서 식물성기름을 넣는 아일랜드, 덴마크, 포르투갈, 오스트리아, 핀랜드, 스웨덴의 지지를 받았다."
+                }
+            ]
+        }
+    ]
+}

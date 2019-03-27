@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "짓밟다.v.Compliance",
+    "ko_pos": "v",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "lu_id": "6579",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46268",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "짓밟는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "스탈린의 전제적 공산주의는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 25
+                            },
+                            "text": "사회주의의 순수성을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓밟다.v.Compliance",
+                    "text": "스탈린의 전제적 공산주의는 사회주의의 순수성을 짓밟는 왜곡된 사상이다."
+                }
+            ]
+        }
+    ]
+}

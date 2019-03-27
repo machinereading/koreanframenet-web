@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "지속되다.v.Process_continue",
+    "ko_pos": "v",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "lu_id": "6419",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-26494",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "지속되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "아이들의 싸움이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지속되다.v.Process_continue",
+                    "text": "아이들의 싸움이 지속되고 끝나질 않자 선생님을 불러야겠다는 생각이 들었다."
+                }
+            ]
+        }
+    ]
+}

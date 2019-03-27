@@ -1,0 +1,125 @@
+{
+    "en_lus": [],
+    "ko_lu": "시대.n.Timespan",
+    "ko_pos": "n",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "lu_id": "4155",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3661",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "시대로,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 27
+                            },
+                            "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "text": "시대로,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3661",
+                    "lu": "시대.n.Timespan",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4060",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "시대를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 35
+                            },
+                            "text": "산업 기술이 미숙한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4060",
+                    "lu": "시대.n.Timespan",
+                    "text": "사실, 지금까지 일본의 전자기기 제조회사는, 산업 기술이 미숙한 시대를 상징하듯, 모든 회사가 비슷비슷한 일을 해왔으나, 산업기술이 고도화하는 미래에는 이러한 일은 있을 수 없다."
+                }
+            ]
+        }
+    ]
+}

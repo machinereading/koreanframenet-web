@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "훈계하다.v.Judgment_direct_address",
+    "ko_pos": "v",
+    "frameID": 711,
+    "frameName": "Judgment_direct_address",
+    "lu_id": "7873",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-58470",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_direct_address",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "훈계하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "학생부 선생님이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "단속에 걸린 학생들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "훈계하다.v.Judgment_direct_address",
+                    "text": "학생부 선생님이 단속에 걸린 학생들을 훈계하고 있었다."
+                }
+            ]
+        }
+    ]
+}

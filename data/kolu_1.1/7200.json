@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "트다.v.Sidereal_appearance",
+    "ko_pos": "v",
+    "frameID": 1430,
+    "frameName": "Sidereal_appearance",
+    "lu_id": "7200",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17282",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sidereal_appearance",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "트기도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "매일",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Astronomical_Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "text": "동이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "트다.v.Sidereal_appearance",
+                    "text": "그는 매일 동이 트기도 전에 일터로 향했다."
+                }
+            ]
+        }
+    ]
+}

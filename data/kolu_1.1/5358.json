@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "이월시키다.v.Change_event_time",
+    "ko_pos": "v",
+    "frameID": 691,
+    "frameName": "Change_event_time",
+    "lu_id": "5358",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55941",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_event_time",
+                            "span": {
+                                "begin": 64,
+                                "end": 68
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "이월시켜"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 63
+                            },
+                            "text": "익년도로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이월시키다.v.Change_event_time",
+                    "text": "이자 소득의 발생 시기는 이자를 실제로 찾아가는 날이므로 만기가 도래하는 이자 소득 중 일부를 찾지 않고 익년도로 이월시켜 찾는 방법이다."
+                }
+            ]
+        }
+    ]
+}

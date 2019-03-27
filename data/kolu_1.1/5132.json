@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "유괴하다.v.Kidnapping",
+    "ko_pos": "v",
+    "frameID": 122,
+    "frameName": "Kidnapping",
+    "lu_id": "5132",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-30726",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "유괴하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "유괴범이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "어린아이를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유괴하다.v.Kidnapping",
+                    "text": "유괴범이 어린아이를 유괴하여 아이 부모에게 삼천만 원을 요구했다."
+                }
+            ]
+        }
+    ]
+}

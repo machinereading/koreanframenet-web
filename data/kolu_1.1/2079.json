@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "들어주다.v.Sign_agreement",
+    "ko_pos": "v",
+    "frameID": 1151,
+    "frameName": "Sign_agreement",
+    "lu_id": "2079",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38206",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign_agreement",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "들어줄"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "미안하지만",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agreement",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "text": "당신 요구를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들어주다.v.Sign_agreement",
+                    "text": "미안하지만 당신 요구를 들어줄 수 없습니다."
+                }
+            ]
+        }
+    ]
+}

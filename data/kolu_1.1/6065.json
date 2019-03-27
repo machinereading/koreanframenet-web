@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "제한되다.v.Causation",
+    "ko_pos": "v",
+    "frameID": 5,
+    "frameName": "Causation",
+    "lu_id": "6065",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1128",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "제한되었고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Affected",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "상인들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 29
+                            },
+                            "text": "하루에 한 발의 발포로 제한되었고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1128",
+                    "lu": "제한되다.v.Causation",
+                    "text": "그 결과, 상인들은 하루에 한 발의 발포로 제한되었고 - 그리고 그때부터, 그들은 모두가 듣도록 매일 정오 시간을 알렸다."
+                }
+            ]
+        }
+    ]
+}

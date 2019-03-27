@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "들이다.v.Hiring",
+    "ko_pos": "v",
+    "frameID": 322,
+    "frameName": "Hiring",
+    "lu_id": "2082",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-18179",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hiring",
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "들인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "새로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Employee",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "가정부가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들이다.v.Hiring",
+                    "text": "새로 들인 가정부가 손버릇이 나빠 해고했다."
+                }
+            ]
+        }
+    ]
+}

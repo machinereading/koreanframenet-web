@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "저자.n.People_by_vocation",
+    "ko_pos": "n",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "lu_id": "5763",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4099",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_vocation",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "저자인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "그 저자인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4099",
+                    "lu": "저자.n.People_by_vocation",
+                    "text": "독서를 할 때, 그 저자인 나와 독자인 당신 사이에, 이처럼 바보스러운 「추리 게임」을 시작하게 한 것은 과연 무엇인가?"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "접어들다.v.Process_continue",
+    "ko_pos": "v",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "lu_id": "5935",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2422",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_continue",
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "접어들면서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "전쟁이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "2년째로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2422",
+                    "lu": "접어들다.v.Process_continue",
+                    "text": "1982년, 전쟁이 2년째로 접어들면서, 이라크의 작전은 FROG-7AS 타격의 사용을 확장하고 이란의 전략적 후방에 대한 공격에 스커드-B 단거리 탄도 미사일 ( SRBM ) 을 최초로 사용하는 새로운 단계로 진입하였다."
+                }
+            ]
+        }
+    ]
+}

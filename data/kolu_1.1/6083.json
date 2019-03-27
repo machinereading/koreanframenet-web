@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "조립되다.v.Manufacturing",
+    "ko_pos": "v",
+    "frameID": 408,
+    "frameName": "Manufacturing",
+    "lu_id": "6083",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-48381",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "조립되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "내가 사온 로보트가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "조립되다.v.Manufacturing",
+                    "text": "내가 사온 로보트가 드디어 조립되었다."
+                }
+            ]
+        }
+    ]
+}

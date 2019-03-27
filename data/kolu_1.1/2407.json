@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "먹다.v.Perception_active",
+    "ko_pos": "v",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "lu_id": "2407",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24533",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "먹어서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "할머니는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "왼쪽 귀를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "먹다.v.Perception_active",
+                    "text": "할머니는 왼쪽 귀를 먹어서 크게 말하지 않으면 잘 못 들으신다."
+                }
+            ]
+        }
+    ]
+}

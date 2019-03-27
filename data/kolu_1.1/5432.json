@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "인용하다.v.Purpose",
+    "ko_pos": "v",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "lu_id": "5432",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2289",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "인용한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 92,
+                                "end": 95
+                            },
+                            "text": "양용의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2289",
+                    "lu": "인용하다.v.Purpose",
+                    "text": "1997년 10월 30일에 Washington Times가 인용한 정보 보고에 의하면, 중국은 화학무기 생산에 사용되는 유리 내장 장비를 제조하기 위해 이란에 민군 양용의 공장 건설을 완료하였다."
+                }
+            ]
+        }
+    ]
+}

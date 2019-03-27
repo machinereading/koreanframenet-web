@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "구인하다.v.Kidnapping",
+    "ko_pos": "v",
+    "frameID": 122,
+    "frameName": "Kidnapping",
+    "lu_id": "888",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51630",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kidnapping",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "구인할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "함께 일할 사람을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 15
+                            },
+                            "text": "때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구인하다.v.Kidnapping",
+                    "text": "함께 일할 사람을 구인할 때 가장 중요한 것은 정직성과 성실성이다."
+                }
+            ]
+        }
+    ]
+}

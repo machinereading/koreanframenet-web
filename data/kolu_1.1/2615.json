@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "미리.ad.Change_event_time",
+    "ko_pos": "ad",
+    "frameID": 691,
+    "frameName": "Change_event_time",
+    "lu_id": "2615",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-39",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_event_time",
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "미리"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "숙련된 종지기들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 47
+                            },
+                            "text": "다음 스윙을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "39",
+                    "lu": "미리.ad.Change_event_time",
+                    "text": "숙련된 종지기들은 하나의 종이 다음 순서로 서로 위치를 바꿀 수 있도록, 다음 스윙을 미리 하거나 늦추도록 하기 위해 그들의 팔목을 사용한다."
+                }
+            ]
+        }
+    ]
+}

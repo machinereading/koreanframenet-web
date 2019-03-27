@@ -1,0 +1,117 @@
+{
+    "en_lus": [],
+    "ko_lu": "개장되다.v.Closure",
+    "ko_pos": "v",
+    "frameID": 254,
+    "frameName": "Closure",
+    "lu_id": "285",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42445",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Closure",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "개장되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Containing_Object",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이 스키장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 13
+                            },
+                            "text": "1984년에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개장되다.v.Closure",
+                    "text": "이 스키장은 1984년에 개장되어 울창한 산림으로 둘러싸여 주위 경관이 좋고 서울에서 무척 가까워 인기가 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-42446",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Closure",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "개장되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "1860년대에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개장되다.v.Closure",
+                    "text": "1860년대에 개장되어 100년이 넘는 역사를 자랑하는 이 공원이 미국 공공 조경 발달의 효시가 되었다 해도 과언이 아니다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "검증하다.v.Reasoning",
+    "ko_pos": "v",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "lu_id": "422",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-57368",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reasoning",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "검증할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이론을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검증하다.v.Reasoning",
+                    "text": "이론을 검증할 수 있는 도구를 개발하자."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "욕설.n.Communication_noise",
+    "ko_pos": "n",
+    "frameID": 39,
+    "frameName": "Communication_noise",
+    "lu_id": "4997",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4324",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_noise",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "욕설."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 20
+                            },
+                            "text": "「목사를 내놔라!!」",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4324",
+                    "lu": "욕설.n.Communication_noise",
+                    "text": "포켓몬스터 카드 「목사를 내놔라!!」 전화를 받자마자 욕설."
+                }
+            ]
+        }
+    ]
+}

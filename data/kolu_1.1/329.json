@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "거주시키다.v.Residence",
+    "ko_pos": "v",
+    "frameID": 110,
+    "frameName": "Residence",
+    "lu_id": "329",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-54458",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "거주시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "text": "유태인을 한정된 지역에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거주시키다.v.Residence",
+                    "text": "나치는 유태인을 한정된 지역에 거주시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-54459",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "거주시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "수재민들을 임시로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "text": "인근 가건물에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거주시키다.v.Residence",
+                    "text": "정부는 수재민들을 임시로 인근 가건물에 거주시켰다."
+                }
+            ]
+        }
+    ]
+}

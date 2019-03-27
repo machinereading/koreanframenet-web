@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "빠르다.a.Speed_description",
+    "ko_pos": "a",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "lu_id": "3384",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4322",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Speed_description",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "빠른"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "성장이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4322",
+                    "lu": "빠르다.a.Speed_description",
+                    "text": "좋게 말하면, 성장이 빠른 나머지, 영업력, 세일즈 노하우의 확립이 제때 이루어지지 못했다고도 생각할 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3732",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Speed_description",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "빨랐습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 31
+                            },
+                            "text": "낙찰자의 대응이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "매우",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3732",
+                    "lu": "빠르다.a.Speed_description",
+                    "text": "개최 일정이 가까운 티켓이었기 때문인지, 낙찰자의 대응이 매우 빨랐습니다."
+                }
+            ]
+        }
+    ]
+}

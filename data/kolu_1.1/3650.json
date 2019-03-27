@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "생기다.v.Creating",
+    "ko_pos": "v",
+    "frameID": 319,
+    "frameName": "Creating",
+    "lu_id": "3650",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2031",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Creating",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "생기는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 29
+                            },
+                            "text": "살아있는 식물, 곤충, 그리고 동물에 의해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 44
+                            },
+                            "text": "살아있지 않은 독소",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2031",
+                    "lu": "생기다.v.Creating",
+                    "text": "독소 -- 살아있는 식물, 곤충, 그리고 동물에 의해 생기는 살아있지 않은 독소 -- 는 화학무기와 생물 작용제 간의 중간 영역에 있다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "뒤틀다.v.Cause_change",
+    "ko_pos": "v",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "lu_id": "2027",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23798",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "뒤틀어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "갑작스런 사고가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            },
+                            "text": "그녀의 미래를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뒤틀다.v.Cause_change",
+                    "text": "갑작스런 사고가 그녀의 미래를 뒤틀어 버렸다."
+                }
+            ]
+        }
+    ]
+}

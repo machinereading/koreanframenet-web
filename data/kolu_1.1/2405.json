@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "머물다.v.Temporary_stay",
+    "ko_pos": "v",
+    "frameID": 1885,
+    "frameName": "Temporary_stay",
+    "lu_id": "2405",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49146",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporary_stay",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "머물자."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "오늘밤은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "여기서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "머물다.v.Temporary_stay",
+                    "text": "오늘밤은 여기서 머물자."
+                }
+            ]
+        }
+    ]
+}

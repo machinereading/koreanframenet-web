@@ -1,0 +1,81 @@
+{
+    "en_lus": [],
+    "ko_lu": "이주하다.v.Colonization",
+    "ko_pos": "v",
+    "frameID": 1794,
+    "frameName": "Colonization",
+    "lu_id": "5373",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55900",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Colonization",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "이주해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Colonists",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "스웨덴 같이 세금이 많은 나라의 갑부들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New_Area",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 47
+                            },
+                            "text": "세금이 적은 모나코 같은 곳으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이주하다.v.Colonization",
+                    "text": "스웨덴 같이 세금이 많은 나라의 갑부들은 고국을 떠나 세금이 적은 모나코 같은 곳으로 이주해 살기도 한다."
+                }
+            ]
+        }
+    ]
+}

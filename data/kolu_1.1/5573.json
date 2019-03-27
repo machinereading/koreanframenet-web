@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "잇닿다.v.Attaching",
+    "ko_pos": "v",
+    "frameID": 197,
+    "frameName": "Attaching",
+    "lu_id": "5573",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55917",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attaching",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "잇닿아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "우리 집은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "찻길에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잇닿다.v.Attaching",
+                    "text": "우리 집은 찻길에 잇닿아 있다."
+                }
+            ]
+        }
+    ]
+}

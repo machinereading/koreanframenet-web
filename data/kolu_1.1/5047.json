@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "울부짖다.v.Communication_noise",
+    "ko_pos": "v",
+    "frameID": 39,
+    "frameName": "Communication_noise",
+    "lu_id": "5047",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-37074",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_noise",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "울부짖으며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "아이는 나에게 한 번만 살려달라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "울부짖다.v.Communication_noise",
+                    "text": "아이는 나에게 한 번만 살려달라고 울부짖으며 매달렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-37072",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_noise",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "울부짖기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "아쉬운 듯",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "애처롭게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "울부짖다.v.Communication_noise",
+                    "text": "개는 주인과 헤어지기가 아쉬운 듯 애처롭게 울부짖기 시작했다."
+                }
+            ]
+        }
+    ]
+}

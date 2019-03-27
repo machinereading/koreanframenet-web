@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "접선시키다.v.Attaching",
+    "ko_pos": "v",
+    "frameID": 197,
+    "frameName": "Attaching",
+    "lu_id": "5926",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32360",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attaching",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "접선시켜볼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "김과장을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "경쟁회사 간부와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "접선시키다.v.Attaching",
+                    "text": "김과장을 경쟁회사 간부와 접선시켜볼 예정이다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "일치하다.v.Suitability",
+    "ko_pos": "v",
+    "frameID": 368,
+    "frameName": "Suitability",
+    "lu_id": "5509",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59866",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suitability",
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "일치해야만"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "회원들의 활동은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "우리 모임의 취지에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "일치하다.v.Suitability",
+                    "text": "회원들의 활동은 우리 모임의 취지에 일치해야만 지원을 받을 수 있다."
+                }
+            ]
+        }
+    ]
+}

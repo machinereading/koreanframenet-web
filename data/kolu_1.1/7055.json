@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "타다.v.Board_vehicle",
+    "ko_pos": "v",
+    "frameID": 1633,
+    "frameName": "Board_vehicle",
+    "lu_id": "7055",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-21978",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Board_vehicle",
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "타고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Traveller",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "사다리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "타다.v.Board_vehicle",
+                    "text": "우리는 사다리를 타고 이층에 올라갔다."
+                }
+            ]
+        }
+    ]
+}

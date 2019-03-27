@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "격돌하다.v.Impact",
+    "ko_pos": "v",
+    "frameID": 311,
+    "frameName": "Impact",
+    "lu_id": "454",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24581",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Impact",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "격돌했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "우리 반대편 차선에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactors",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "text": "트럭과 승용차가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "격돌하다.v.Impact",
+                    "text": "우리 반대편 차선에서 트럭과 승용차가 격돌했다."
+                }
+            ]
+        }
+    ]
+}

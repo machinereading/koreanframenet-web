@@ -1,0 +1,140 @@
+{
+    "en_lus": [],
+    "ko_lu": "입력시키다.v.Arriving",
+    "ko_pos": "v",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "lu_id": "5543",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20015",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "입력시켜서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 암호를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "컴퓨터에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입력시키다.v.Arriving",
+                    "text": "그 암호를 컴퓨터에 입력시켜서 아무나 이 정보를 얻지 못하도록 하세요."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-20016",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "입력시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "프로그램에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 28
+                            },
+                            "text": "그 실험 결과에 대한 모든 정보를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입력시키다.v.Arriving",
+                    "text": "우리는 프로그램에 그 실험 결과에 대한 모든 정보를 입력시켰다."
+                }
+            ]
+        }
+    ]
+}

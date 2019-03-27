@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "달리다.v.Possession",
+    "ko_pos": "v",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "1689",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-25824",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "달려서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "항상",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "힘이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "달리다.v.Possession",
+                    "text": "김 선수는 여름이면 항상 힘이 달려서 성적이 저조해진다."
+                }
+            ]
+        }
+    ]
+}

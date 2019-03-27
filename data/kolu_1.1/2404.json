@@ -1,0 +1,145 @@
+{
+    "en_lus": [],
+    "ko_lu": "머물다.v.State_continue",
+    "ko_pos": "v",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "lu_id": "2404",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3345",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_continue",
+                            "span": {
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "머물고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 88
+                            },
+                            "text": "화학전 관련 기술을 위해 외국 자원에 의존하는데",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3345",
+                    "lu": "머물다.v.State_continue",
+                    "text": "이란은 모든 측면의 화학무기 프로그램을 위한 독자적인 생산 능력을 갖추기 위한 혼신의 노력을 하고 있을지라도, 화학전 관련 기술을 위해 외국 자원에 의존하는데 머물고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-49147",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "State_continue",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "머물었다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "그 나라의 정치 수준은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "text": "아직",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "State",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "text": "후진국 수준에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "머물다.v.State_continue",
+                    "text": "그 나라의 정치 수준은 아직 후진국 수준에 머물었다고 한다."
+                }
+            ]
+        }
+    ]
+}

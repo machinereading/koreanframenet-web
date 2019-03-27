@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "절취되다.v.Theft",
+    "ko_pos": "v",
+    "frameID": 94,
+    "frameName": "Theft",
+    "lu_id": "5898",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55733",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Theft",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "절취된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "사기꾼에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "돈이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "절취되다.v.Theft",
+                    "text": "경찰은 사기꾼에게 절취된 돈이 100 억에 이를 것으로 추산한다."
+                }
+            ]
+        }
+    ]
+}

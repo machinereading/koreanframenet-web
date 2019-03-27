@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "연계하다.v.Relating_concepts",
+    "ko_pos": "v",
+    "frameID": 2060,
+    "frameName": "Relating_concepts",
+    "lu_id": "4706",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19333",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relating_concepts",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "연계되었음이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Concepts",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "경찰과 범죄 조직이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연계하다.v.Relating_concepts",
+                    "text": "경찰과 범죄 조직이 연계되었음이 분명하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-19332",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Relating_concepts",
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "연계되었음이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Concept_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "경찰이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연계하다.v.Relating_concepts",
+                    "text": "경찰이 범죄 조직과 연계되었음이 분명하다."
+                }
+            ]
+        }
+    ]
+}

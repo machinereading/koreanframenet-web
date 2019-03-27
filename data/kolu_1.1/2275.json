@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "만들어주다.v.Intentionally_create",
+    "ko_pos": "v",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "lu_id": "2275",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3585",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_create",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "만들어줄"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "초등학교에 다니는 동안",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 23
+                            },
+                            "text": "바른 인성의 기초를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3585",
+                    "lu": "만들어주다.v.Intentionally_create",
+                    "text": "초등학교에 다니는 동안 바른 인성의 기초를 만들어줄 수 있다면, 문제행동을 일으키는 십 대 청소년은 크게 줄 것이 틀림없다."
+                }
+            ]
+        }
+    ]
+}

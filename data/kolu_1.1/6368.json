@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "지글거리다.v.Absorb_heat",
+    "ko_pos": "v",
+    "frameID": 830,
+    "frameName": "Absorb_heat",
+    "lu_id": "6368",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45988",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Absorb_heat",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "지글거릴"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Heat_Source",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "더운 날씨에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "몸이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지글거리다.v.Absorb_heat",
+                    "text": "훈이는 더운 날씨에 몸이 지글거릴 정도로 아펐다."
+                }
+            ]
+        }
+    ]
+}

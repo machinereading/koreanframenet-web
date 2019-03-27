@@ -1,0 +1,93 @@
+{
+    "en_lus": [],
+    "ko_lu": "쓰다.v.Hiring",
+    "ko_pos": "v",
+    "frameID": 322,
+    "frameName": "Hiring",
+    "lu_id": "4332",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19539",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hiring",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "쓰려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Employer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "구조본은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Position",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "text": "자금 담당 이사로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Employee",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "이 박사를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쓰다.v.Hiring",
+                    "text": "구조본은 자금 담당 이사로 이 박사를 쓰려고 한다."
+                }
+            ]
+        }
+    ]
+}

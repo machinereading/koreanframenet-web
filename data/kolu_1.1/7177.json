@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "통치.n.Leadership",
+    "ko_pos": "n",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "lu_id": "7177",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1124",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 56,
+                                "end": 58
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "통치"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 55
+                            },
+                            "text": "영국",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1124",
+                    "lu": "통치.n.Leadership",
+                    "text": "세계무역센터 반대편의 Gloucester Road 건너에 Noonday Gun이 있고, 이곳은 영국 통치 하에서 정오 정각에 소리가 울렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-2410",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 59,
+                                "end": 61
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "통치"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 55
+                            },
+                            "text": "Shah Mohammed Reza Pahlavi의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2410",
+                    "lu": "통치.n.Leadership",
+                    "text": "이란의 미사일 프로그램의 기원은 1970년대 말과 Shah Mohammed Reza Pahlavi의 이란 통치 말년으로 거슬러 올라간다."
+                }
+            ]
+        }
+    ]
+}

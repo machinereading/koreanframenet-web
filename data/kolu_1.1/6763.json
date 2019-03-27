@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "첨부시키다.v.Inclusion",
+    "ko_pos": "v",
+    "frameID": 1153,
+    "frameName": "Inclusion",
+    "lu_id": "6763",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20446",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inclusion",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "첨부시켜야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Total",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "논문 위에 꼭 참고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "문헌을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "첨부시키다.v.Inclusion",
+                    "text": "논문 위에 꼭 참고 문헌을 첨부시켜야 한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "진입하다.v.Arriving",
+    "ko_pos": "v",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "lu_id": "6517",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-17081",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "진입해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "성산대교를 건너",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "성산로에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진입하다.v.Arriving",
+                    "text": "성산대교를 건너 성산로에 진입해 직진하다 좌회전하면 월드컵 경기장 남문에 닿는다."
+                }
+            ]
+        }
+    ]
+}

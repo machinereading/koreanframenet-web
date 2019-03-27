@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "불타다.v.Emotion_heat",
+    "ko_pos": "v",
+    "frameID": 49,
+    "frameName": "Emotion_heat",
+    "lu_id": "3278",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40698",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emotion_heat",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "불타"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "하이네는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Emotion",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "혁명 사상에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "불타다.v.Emotion_heat",
+                    "text": "하이네는 혁명 사상에 불타 있는 시인이었다."
+                }
+            ]
+        }
+    ]
+}

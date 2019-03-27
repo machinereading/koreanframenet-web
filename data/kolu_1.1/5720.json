@@ -1,0 +1,82 @@
+{
+    "en_lus": [],
+    "ko_lu": "재건되다.v.Building",
+    "ko_pos": "v",
+    "frameID": 259,
+    "frameName": "Building",
+    "lu_id": "5720",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-677",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "재건되었고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 32
+                            },
+                            "text": "계획된 새로운 로마 도시인 Aelia Capitolina는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 49
+                            },
+                            "text": "헤롯 왕의 예루살렘 폐허 위에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "677",
+                    "lu": "재건되다.v.Building",
+                    "text": "계획된 새로운 로마 도시인 Aelia Capitolina는 헤롯 왕의 예루살렘 폐허 위에 재건되었고, 유대인들은 거기에 거주하는 것이 금지되었었다."
+                }
+            ]
+        }
+    ]
+}

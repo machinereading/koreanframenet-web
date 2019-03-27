@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "결정하다.v.Contingency",
+    "ko_pos": "v",
+    "frameID": 900,
+    "frameName": "Contingency",
+    "lu_id": "500",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-2372",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Contingency",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "결정할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Outcome",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "text": "이란이 생물무기 프로그램을 추구하는지를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Determinant",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "text": "정보는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "2372",
+                    "lu": "결정하다.v.Contingency",
+                    "text": "이란이 생물무기 프로그램을 추구하는지를 결정할 공개적으로 가용한 정보는 아주 거의 없다."
+                }
+            ]
+        }
+    ]
+}

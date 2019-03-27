@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "찍다.v.Cause_impact",
+    "ko_pos": "v",
+    "frameID": 395,
+    "frameName": "Cause_impact",
+    "lu_id": "6606",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33352",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_impact",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "찍어다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactee",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "침을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찍다.v.Cause_impact",
+                    "text": "은하는 눈물 연기를 하기 위해 침을 찍어다 눈물 자국을 만들었다"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-33342",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_impact",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "찍으며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "신이 난 아이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactee",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "눈밭에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찍다.v.Cause_impact",
+                    "text": "신이 난 아이는 눈밭에 앙증맞은 작은 발자국을 찍으며 뛰어다녔다."
+                }
+            ]
+        }
+    ]
+}

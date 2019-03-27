@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "뜯다.v.Damaging",
+    "ko_pos": "v",
+    "frameID": 415,
+    "frameName": "Damaging",
+    "lu_id": "2190",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23237",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Damaging",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "뜯어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "논에서 한 나절 일을 했더니",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "거머리가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뜯다.v.Damaging",
+                    "text": "논에서 한 나절 일을 했더니 거머리가 뜯어 다리가 벌겋게 되었다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "취득되다.v.Getting",
+    "ko_pos": "v",
+    "frameID": 179,
+    "frameName": "Getting",
+    "lu_id": "6951",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31003",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Getting",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "취득되면,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "text": "원하는 물건만",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "핵심요원에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "취득되다.v.Getting",
+                    "text": "일단 원하는 물건만 핵심요원에게 취득되면, 다른 모든 요원들은 제자리로 돌아가 평범한 소시민이 된다."
+                }
+            ]
+        }
+    ]
+}

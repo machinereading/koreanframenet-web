@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "의문시되다.v.Suspicion",
+    "ko_pos": "v",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "lu_id": "5231",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45458",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "의문시되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Incident",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "새로운 팀장의 능력은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "text": "전혀",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의문시되다.v.Suspicion",
+                    "text": "새로운 팀장의 능력은 전혀 의문시되지 않는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-3126",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Suspicion",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "의문시되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "신뢰성이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3126",
+                    "lu": "의문시되다.v.Suspicion",
+                    "text": "신뢰성이 의문시되는 이 보고서를 국방부 ( MND ) 는 맹렬히 부인하였다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "그만두다.v.Activity_stop",
+    "ko_pos": "v",
+    "frameID": 166,
+    "frameName": "Activity_stop",
+    "lu_id": "1018",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53403",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_stop",
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "그만두었어요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "찾아뵐까",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "그만두다.v.Activity_stop",
+                    "text": "찾아뵐까 하다가 그만두었어요."
+                }
+            ]
+        }
+    ]
+}

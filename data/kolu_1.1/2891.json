@@ -1,0 +1,90 @@
+{
+    "en_lus": [],
+    "ko_lu": "배역하다.v.Change_of_leadership",
+    "ko_pos": "v",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "lu_id": "2891",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24197",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_leadership",
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "배역했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Selector",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "감독은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New_Leader",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "신인배우를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Role",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "주연으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배역하다.v.Change_of_leadership",
+                    "text": "감독은 신인배우를 주연으로 배역했다."
+                }
+            ]
+        }
+    ]
+}

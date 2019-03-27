@@ -1,0 +1,97 @@
+{
+    "en_lus": [],
+    "ko_lu": "한숨짓다.v.Breathing",
+    "ko_pos": "v",
+    "frameID": 272,
+    "frameName": "Breathing",
+    "lu_id": "7508",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55251",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Breathing",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "한숨지을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "짧게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "한숨짓다.v.Breathing",
+                    "text": "나의 물음에 그는 짧게 한숨지을 뿐이었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-55252",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Breathing",
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "한숨지으셨다."
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "한숨짓다.v.Breathing",
+                    "text": "아버지는 삼촌의 앞날이 걱정이라며 한숨지으셨다."
+                }
+            ]
+        }
+    ]
+}

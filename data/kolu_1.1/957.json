@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "굽다.v.Apply_heat",
+    "ko_pos": "v",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "lu_id": "957",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19376",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "굽고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "아버지는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "벽돌을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "굽다.v.Apply_heat",
+                    "text": "아버지는 벽돌을 굽고, 기왓장을 만드셨다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "en_lus": [],
+    "ko_lu": "앞당기다.v.Change_event_duration",
+    "ko_pos": "v",
+    "frameID": 1770,
+    "frameName": "Change_event_duration",
+    "lu_id": "4474",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40476",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_event_duration",
+                            "span": {
+                                "begin": 40,
+                                "end": 45
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "앞당겼다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "text": "26일에 입학 시험이 있다는 말을 듣고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 34
+                            },
+                            "text": "모임회의 날짜를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Time",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "text": "24일로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "앞당기다.v.Change_event_duration",
+                    "text": "26일에 입학 시험이 있다는 말을 듣고 우리는 모임회의 날짜를 24일로 앞당겼다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "가로놓이다.v.Being_located",
+    "ko_pos": "v",
+    "frameID": 960,
+    "frameName": "Being_located",
+    "lu_id": "43",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-37372",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_located",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "가로놓여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "태풍으로 쓰러진 가로수가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "길에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가로놓이다.v.Being_located",
+                    "text": "태풍으로 쓰러진 가로수가 길에 가로놓여 있어서 교통에 큰 장애가 되고 있다."
+                }
+            ]
+        }
+    ]
+}

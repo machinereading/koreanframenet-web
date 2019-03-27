@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "느끼다.v.Possession",
+    "ko_pos": "v",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "1592",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3950",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "느꼈다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "text": "강한 반감을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3950",
+                    "lu": "느끼다.v.Possession",
+                    "text": "어렸을 때부터, 나는 교회나 교회의 가르침과 관계된 것에, 강한 반감을 느꼈다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3952",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "느끼기도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "떨어지는 듯한 감각을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3952",
+                    "lu": "느끼다.v.Possession",
+                    "text": "떨어지는 듯한 감각을 느끼기도 합니다."
+                }
+            ]
+        }
+    ]
+}

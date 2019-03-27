@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "수상기.n.Vehicle",
+    "ko_pos": "n",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "lu_id": "4016",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4646",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "수상기와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 38
+                            },
+                            "text": "해상이나 호면에서 이착륙할 수 있는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "text": "수상기와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4646",
+                    "lu": "수상기.n.Vehicle",
+                    "text": "여기서 말하는 「육상 다발기」란, 해상이나 호면에서 이착륙할 수 있는 수상기와 달리, 통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는 용어로 이해해주시기 바란다."
+                }
+            ]
+        }
+    ]
+}

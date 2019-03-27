@@ -1,0 +1,116 @@
+{
+    "en_lus": [],
+    "ko_lu": "내놓다.v.Reveal_secret",
+    "ko_pos": "v",
+    "frameID": 1146,
+    "frameName": "Reveal_secret",
+    "lu_id": "1398",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-42797",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reveal_secret",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "내놓고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Information",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "속을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "내놓다.v.Reveal_secret",
+                    "text": "속을 내놓고 말씀드리기가 힘들군요."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-42789",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reveal_secret",
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "내놓은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Information",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "내의를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "밖으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "내놓다.v.Reveal_secret",
+                    "text": "너무 더워서 내의를 밖으로 내놓은 채 부채질을 하고 있다."
+                }
+            ]
+        }
+    ]
+}

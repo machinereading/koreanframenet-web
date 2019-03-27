@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "가지다.v.Bringing",
+    "ko_pos": "v",
+    "frameID": 240,
+    "frameName": "Bringing",
+    "lu_id": "104",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4096",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bringing",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "가지고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "간지가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "보고서를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4096",
+                    "lu": "가지다.v.Bringing",
+                    "text": "간지가 보고서를 가지고 돌아올 때면, 이미 시간이 간당간당하여, 어찌 됐든 시간에 맞출 수 있을지 없을지 일단은 서두르지 않을 수 없었다."
+                }
+            ]
+        }
+    ]
+}

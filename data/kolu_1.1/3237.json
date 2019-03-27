@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "분별하다.v.Perception_experience",
+    "ko_pos": "v",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "lu_id": "3237",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-41534",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_experience",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "분별할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "주위가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "형체를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "분별하다.v.Perception_experience",
+                    "text": "주위가 어두워 형체를 분별할 수 없다."
+                }
+            ]
+        }
+    ]
+}

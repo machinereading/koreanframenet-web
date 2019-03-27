@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "시무시키다.v.Process_start",
+    "ko_pos": "v",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "lu_id": "4161",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31783",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "시무시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "일이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "text": "바로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시무시키다.v.Process_start",
+                    "text": "공장장은 일이 급했는지 연수생들에게 바로 시무시켰다."
+                }
+            ]
+        }
+    ]
+}

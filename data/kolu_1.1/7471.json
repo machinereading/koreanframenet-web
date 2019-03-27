@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "하숙하다.v.Temporary_stay",
+    "ko_pos": "v",
+    "frameID": 1885,
+    "frameName": "Temporary_stay",
+    "lu_id": "7471",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20856",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporary_stay",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "하숙했어."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Guest",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "영희는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "2층 양옥에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하숙하다.v.Temporary_stay",
+                    "text": "영희는 2층 양옥에 하숙했어."
+                }
+            ]
+        }
+    ]
+}

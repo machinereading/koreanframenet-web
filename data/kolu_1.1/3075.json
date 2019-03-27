@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "보이다.v.Evidence",
+    "ko_pos": "v",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "lu_id": "3075",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1435",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Evidence",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "보여주는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "최소한 1972년부터 존재한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "text": "증거도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1435",
+                    "lu": "보이다.v.Evidence",
+                    "text": "이집트는 최소한 1972년부터 존재한 그 나라의 생물전 능력을 제거했다는 것을 보여주는 아무런 증거도 제공하지 않았다."
+                }
+            ]
+        }
+    ]
+}

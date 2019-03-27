@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "불만족스럽다.a.Experiencer_focus",
+    "ko_pos": "a",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "lu_id": "3263",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-234",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "불만족스럽다면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "부모들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "학교에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "234",
+                    "lu": "불만족스럽다.a.Experiencer_focus",
+                    "text": "부모들이 학교에 불만족스럽다면 그들은 다른 학교로 전학시킬 방안을 가져야 한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "적시다.v.Soaking",
+    "ko_pos": "v",
+    "frameID": 333,
+    "frameName": "Soaking",
+    "lu_id": "5792",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35347",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Soaking",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "적셨다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "text": "민중의 피로 온 들판을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "적시다.v.Soaking",
+                    "text": "우리는 민중의 피로 온 들판을 적셨다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "-마다.j.Temporal_collocation",
+    "ko_pos": "j",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "lu_id": "2221",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4117",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "마다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "때 마다",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 41
+                            },
+                            "text": "기억이 되살아나,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4117",
+                    "lu": "-마다.j.Temporal_collocation",
+                    "text": "한 장을 적어도 3번 이상 읽는데, 읽을 때 마다 그때의 기억이 되살아나, 그때의 감상에 젖어들었다."
+                }
+            ]
+        }
+    ]
+}

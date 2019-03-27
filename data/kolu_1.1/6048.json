@@ -1,0 +1,59 @@
+{
+    "en_lus": [],
+    "ko_lu": "제조되다.v.Building",
+    "ko_pos": "v",
+    "frameID": 259,
+    "frameName": "Building",
+    "lu_id": "6048",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3137",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 41,
+                                "end": 47
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "제조되었는지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 40
+                            },
+                            "text": "Ching Feng 미사일이 얼마나 많이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3137",
+                    "lu": "제조되다.v.Building",
+                    "text": "1980년대 초에 최초로 배치된 Ching Feng 미사일이 얼마나 많이 제조되었는지 그리고 그들이 아직도 운영되고 있는지는 불명확하다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "en_lus": [],
+    "ko_lu": "임대하다.v.Renting",
+    "ko_pos": "v",
+    "frameID": 1728,
+    "frameName": "Renting",
+    "lu_id": "5530",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-8360",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Renting",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "임대하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "천연가스층을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Lessee",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "외국회사에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "임대하다.v.Renting",
+                    "text": "야당은 천연가스층을 외국회사에 임대하고 인도에 천연가스를 수출하라는 미국의 압력에 굴복하는 일은 경제주권을 파는 행위가 될 것이라고 비난하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40047",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Renting",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "임대해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 28
+                            },
+                            "text": "아무한테나 점포를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "임대하다.v.Renting",
+                    "text": "건물 주인이 워낙 깐깐한 사람이라 아무한테나 점포를 임대해 주지 않는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40046",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Renting",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "임대해서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Lessee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "text": "사무실을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "임대하다.v.Renting",
+                    "text": "그는 빌딩을 하나 가지고 있어서 사무실을 임대해서 임대료로 먹고 산다."
+                }
+            ]
+        }
+    ]
+}

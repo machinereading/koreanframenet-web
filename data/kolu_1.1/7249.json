@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "파악하다.v.Cotheme",
+    "ko_pos": "v",
+    "frameID": 56,
+    "frameName": "Cotheme",
+    "lu_id": "7249",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3628",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cotheme",
+                            "span": {
+                                "begin": 67,
+                                "end": 71
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "파악하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 54
+                            },
+                            "text": "최초의 상품구성, 상품 종류별로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cotheme",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 66
+                            },
+                            "text": "단품 데이터의 추이를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3628",
+                    "lu": "파악하다.v.Cotheme",
+                    "text": "다만 단순히 단품별로 데이터를 파악하는 것이 아니라, 이 표처럼, 최초의 상품구성, 상품 종류별로 단품 데이터의 추이를 파악하는 것이 중요하다."
+                }
+            ]
+        }
+    ]
+}

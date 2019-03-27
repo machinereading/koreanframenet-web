@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "어기다.v.Going_back_on_a_commitment",
+    "ko_pos": "v",
+    "frameID": 1566,
+    "frameName": "Going_back_on_a_commitment",
+    "lu_id": "4537",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45598",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Going_back_on_a_commitment",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "어기지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "이번에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Commitment",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "시간을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "어기다.v.Going_back_on_a_commitment",
+                    "text": "이번에는 시간을 어기지 마세요."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "주장되다.v.Reasoning",
+    "ko_pos": "v",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "lu_id": "6251",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46148",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reasoning",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "주장되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 곳이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "통일 후 수도가 되야 한다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주장되다.v.Reasoning",
+                    "text": "그 곳이 통일 후 수도가 되야 한다고 주장되고 있다."
+                }
+            ]
+        }
+    ]
+}

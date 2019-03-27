@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "낄낄거리다.v.Communication_noise",
+    "ko_pos": "v",
+    "frameID": 39,
+    "frameName": "Communication_noise",
+    "lu_id": "1284",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-20493",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_noise",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "낄낄거리며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "저 또래의 아이들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "text": "굴러가는 나뭇잎만",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "낄낄거리다.v.Communication_noise",
+                    "text": "저 또래의 아이들은 굴러가는 나뭇잎만 보아도 낄낄거리며 좋아한다."
+                }
+            ]
+        }
+    ]
+}

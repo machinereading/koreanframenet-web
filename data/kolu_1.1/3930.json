@@ -1,0 +1,142 @@
+{
+    "en_lus": [],
+    "ko_lu": "속단하다.v.Awareness",
+    "ko_pos": "v",
+    "frameID": 19,
+    "frameName": "Awareness",
+    "lu_id": "3930",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33776",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Awareness",
+                            "span": {
+                                "begin": 38,
+                                "end": 43
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "속단했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 32
+                            },
+                            "text": "호텔의 화재사고 소식을 듣고나는 그날 그곳에 묵었던 친구가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "text": "죽었다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "속단하다.v.Awareness",
+                    "text": "호텔의 화재사고 소식을 듣고나는 그날 그곳에 묵었던 친구가 죽었다고 속단했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-33778",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Awareness",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "속단할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "그의 탑승여부를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "속단하다.v.Awareness",
+                    "text": "우리는 그의 탑승여부를 속단할 수 없다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "비틀다.v.Reshaping",
+    "ko_pos": "v",
+    "frameID": 344,
+    "frameName": "Reshaping",
+    "lu_id": "3348",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45867",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reshaping",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "비틀지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "말을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비틀다.v.Reshaping",
+                    "text": "말을 비틀지 말고 좀 똑똑히 말해라."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-45868",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reshaping",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "비트는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Deformer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "저 녀석이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "우리 일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비틀다.v.Reshaping",
+                    "text": "저 녀석이 우리 일을 비트는 바람에 일이 꼬였다."
+                }
+            ]
+        }
+    ]
+}

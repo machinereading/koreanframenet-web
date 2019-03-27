@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "실행.n.Intentionally_act",
+    "ko_pos": "n",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "lu_id": "4285",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4846",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "실행에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이런 사람들은,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4846",
+                    "lu": "실행.n.Intentionally_act",
+                    "text": "이런 사람들은, 일반적으로, 실행에 옮길지는 차치하고라도, 적어도 동감한다는 점에서는, 정치적으로 토리당와 한편이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3995",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "실행은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "나는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "text": "기업 회생의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3995",
+                    "lu": "실행.n.Intentionally_act",
+                    "text": "애초 나는, 이 안건은 조사만 하고, 기업 회생의 실행은 맡을 생각이 없었다."
+                }
+            ]
+        }
+    ]
+}

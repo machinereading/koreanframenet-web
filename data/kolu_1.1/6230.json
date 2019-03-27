@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "주시당하다.v.Intentionally_act",
+    "ko_pos": "v",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "lu_id": "6230",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-35909",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Intentionally_act",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "주시당하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "남들에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "분위기에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주시당하다.v.Intentionally_act",
+                    "text": "민철이는 남들에게 주시당하는 분위기에 갑갑함을 느끼고 자리를 떴다."
+                }
+            ]
+        }
+    ]
+}

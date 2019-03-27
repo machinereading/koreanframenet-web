@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "강변하다.v.Judgment_communication",
+    "ko_pos": "v",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "lu_id": "214",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-4809",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment_communication",
+                            "span": {
+                                "begin": 39,
+                                "end": 44
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "강변하면서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 28
+                            },
+                            "text": "3 만 2 천명의 정보통신 인력이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 38
+                            },
+                            "text": "실업상태에 있다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "강변하다.v.Judgment_communication",
+                    "text": "그는 독일 내에도 3 만 2 천명의 정보통신 인력이 실업상태에 있다고 강변하면서 기업이 외국인 전문가를 고용하려는 것은 오직 임금을 낮추기 위한 전략이라고 주장하고 있다."
+                }
+            ]
+        }
+    ]
+}

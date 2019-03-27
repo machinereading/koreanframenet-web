@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "진행하다.v.Self_motion",
+    "ko_pos": "v",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "lu_id": "6531",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51644",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "진행하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "버스가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "진행하다.v.Self_motion",
+                    "text": "버스가 진행하는 동안에 복도에 서서 노는 것은 대단히 위험하다."
+                }
+            ]
+        }
+    ]
+}

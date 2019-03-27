@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "감별하다.v.Categorization",
+    "ko_pos": "v",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "lu_id": "159",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-46951",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Categorization",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "감별하기가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "보통 사람들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "암수를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "감별하다.v.Categorization",
+                    "text": "보통 사람들은 암수를 감별하기가 쉽지 않다."
+                }
+            ]
+        }
+    ]
+}

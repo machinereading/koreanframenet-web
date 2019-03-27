@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "갈다.v.Activity_resume",
+    "ko_pos": "v",
+    "frameID": 1156,
+    "frameName": "Activity_resume",
+    "lu_id": "137",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-52319",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_resume",
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "갈기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "소정은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "새 붕대로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "갈다.v.Activity_resume",
+                    "text": "소정은 새 붕대로 갈기 위해 다시 병원을 찾았다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "웃다.v.Making_faces",
+    "ko_pos": "v",
+    "frameID": 794,
+    "frameName": "Making_faces",
+    "lu_id": "5058",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38785",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Making_faces",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "웃으며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "text": "쓴 웃음을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "웃다.v.Making_faces",
+                    "text": "나는 쓴 웃음을 웃으며 그와 헤어졌다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "만기되다.v.Bond_maturation",
+    "ko_pos": "v",
+    "frameID": 2371,
+    "frameName": "Bond_maturation",
+    "lu_id": "2262",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-57715",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bond_maturation",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "만기돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Financial_Instrument",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "은행 대출이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만기되다.v.Bond_maturation",
+                    "text": "은행 대출이 만기돼 연장하려고 했더니 담보로 잡힌 부동산 값이 떨어져 추가 담보가 필요하다고 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-57714",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Bond_maturation",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "만기돼"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "다음달 12일 이후에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Financial_Instrument",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "text": "공인인증서가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만기되다.v.Bond_maturation",
+                    "text": "다음달 12일 이후에 공인인증서가 만기돼 갱신하려고 하면 수수료를 내야 한다."
+                }
+            ]
+        }
+    ]
+}

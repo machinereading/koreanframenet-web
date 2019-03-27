@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "부시다.v.Grooming",
+    "ko_pos": "v",
+    "frameID": 159,
+    "frameName": "Grooming",
+    "lu_id": "3171",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-45532",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Grooming",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부시고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "개울 물에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "대야를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부시다.v.Grooming",
+                    "text": "개울 물에 대야를 부시고 깨끗한 물을 받아 다시 방으로 돌아왔다."
+                }
+            ]
+        }
+    ]
+}

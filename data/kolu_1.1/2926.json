@@ -1,0 +1,139 @@
+{
+    "en_lus": [],
+    "ko_lu": "뱉다.v.Emitting",
+    "ko_pos": "v",
+    "frameID": 359,
+    "frameName": "Emitting",
+    "lu_id": "2926",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-55640",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emitting",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "뱉았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source_Emitter",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "그 녀석은 옆 사람에게 죽일 놈이라고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Emission",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "욕을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뱉다.v.Emitting",
+                    "text": "그 녀석은 옆 사람에게 죽일 놈이라고 욕을 뱉았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-55638",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Emitting",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "뱉으세요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Emission",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "껌은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "종이에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뱉다.v.Emitting",
+                    "text": "껌은 종이에 뱉으세요."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "입다.v.Dressing",
+    "ko_pos": "v",
+    "frameID": 1211,
+    "frameName": "Dressing",
+    "lu_id": "5539",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-8274",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Dressing",
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "입고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Wearer",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 33
+                            },
+                            "text": "일 프로야구를 호령했던 `국보급 투수' 선동열(36)이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Clothing",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 41
+                            },
+                            "text": "현역 유니폼을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입다.v.Dressing",
+                    "text": "한, 일 프로야구를 호령했던 `국보급 투수' 선동열(36)이 현역 유니폼을 입고 마지막으로 마운드에 올라 야구팬들에게 작별인사를 한다."
+                }
+            ]
+        }
+    ]
+}

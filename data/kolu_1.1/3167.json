@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "부스럭대다.v.Cause_impact",
+    "ko_pos": "v",
+    "frameID": 395,
+    "frameName": "Cause_impact",
+    "lu_id": "3167",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-48482",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_impact",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "부스럭대며"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "호철이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Impactee",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "옷을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부스럭대다.v.Cause_impact",
+                    "text": "호철이는 옷을 부스럭대며 일어났다."
+                }
+            ]
+        }
+    ]
+}

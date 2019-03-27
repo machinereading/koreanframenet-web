@@ -1,0 +1,58 @@
+{
+    "en_lus": [],
+    "ko_lu": "사인하다.v.Text_creation",
+    "ko_pos": "v",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "lu_id": "3497",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34863",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Text_creation",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "사인했다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "박감독은 준호에게 공을 승준에게 패스하라고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사인하다.v.Text_creation",
+                    "text": "박감독은 준호에게 공을 승준에게 패스하라고 사인했다."
+                }
+            ]
+        }
+    ]
+}

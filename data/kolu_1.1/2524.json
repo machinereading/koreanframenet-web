@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "못하다.a.Capability",
+    "ko_pos": "a",
+    "frameID": 990,
+    "frameName": "Capability",
+    "lu_id": "2524",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4044",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Capability",
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "못한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "사과라는 단어를 줘도,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 48
+                            },
+                            "text": "사과의 붉은 색을 떠올리지는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4044",
+                    "lu": "못하다.a.Capability",
+                    "text": "사과라는 단어를 줘도, 떠올릴 수 있는 것은 사과의 모양뿐 사과의 붉은 색을 떠올리지는 못한다."
+                }
+            ]
+        }
+    ]
+}

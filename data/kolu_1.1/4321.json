@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "쏘다.v.Judgment",
+    "ko_pos": "v",
+    "frameID": 28,
+    "frameName": "Judgment",
+    "lu_id": "4321",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40115",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judgment",
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "쏘아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Reason",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "철수는 영희에게 너무 버릇없다고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "text": "따금하게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "쏘다.v.Judgment",
+                    "text": "철수는 영희에게 너무 버릇없다고 따금하게 쏘아 주었다."
+                }
+            ]
+        }
+    ]
+}

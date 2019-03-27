@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "구부러지다.v.Reshaping",
+    "ko_pos": "v",
+    "frameID": 344,
+    "frameName": "Reshaping",
+    "lu_id": "866",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-27521",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reshaping",
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "구부러진다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 철사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "너무 쉽게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구부러지다.v.Reshaping",
+                    "text": "이 철사는 너무 쉽게 구부러진다."
+                }
+            ]
+        }
+    ]
+}

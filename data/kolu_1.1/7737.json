@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "혼란되다.v.Experiencer_obj",
+    "ko_pos": "v",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "lu_id": "7737",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-34378",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "혼란된"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "혼란되다.v.Experiencer_obj",
+                    "text": "그는 당시의 혼란된 분위기를 바로잡기 위해 극단의 조치를 취할 수 밖에 없었다고 말했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-34377",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "혼란되자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "전쟁으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "사회 질서가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "혼란되다.v.Experiencer_obj",
+                    "text": "전쟁으로 사회 질서가 혼란되자 범죄 행위는 더욱 기승을 부리고 있었다."
+                }
+            ]
+        }
+    ]
+}

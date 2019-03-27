@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "지다.v.Finish_competition",
+    "ko_pos": "v",
+    "frameID": 798,
+    "frameName": "Finish_competition",
+    "lu_id": "6391",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32776",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Finish_competition",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "지지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "힘으로는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Opponent",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "text": "그 사람에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지다.v.Finish_competition",
+                    "text": "나는 힘으로는 그 사람에게 지지 않을 자신이 있었다."
+                }
+            ]
+        }
+    ]
+}

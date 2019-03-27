@@ -1,0 +1,138 @@
+{
+    "en_lus": [],
+    "ko_lu": "임차하다.v.Renting",
+    "ko_pos": "v",
+    "frameID": 1728,
+    "frameName": "Renting",
+    "lu_id": "5535",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51843",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Renting",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "임차해서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "목 좋은 데 가게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "하나",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "임차하다.v.Renting",
+                    "text": "목 좋은 데 가게 하나 임차해서 식당을 하려고 하는데 좋은 데 있으면 소개해 주시오."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-51844",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Renting",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "임차해서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Lessee",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "우리 회사에서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "창고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "임차하다.v.Renting",
+                    "text": "우리 회사에서는 창고를 임차해서 쓰고 있는데 재고가 워낙 많다 보니까 창고 임대료도 만만치 않다."
+                }
+            ]
+        }
+    ]
+}

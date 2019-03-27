@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "마마.n.Simple_name",
+    "ko_pos": "n",
+    "frameID": 1260,
+    "frameName": "Simple_name",
+    "lu_id": "2227",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4985",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Simple_name",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "마마는,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Term",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "마마는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "밥의 뜻.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4985",
+                    "lu": "마마.n.Simple_name",
+                    "text": "마마는, 밥의 뜻."
+                }
+            ]
+        }
+    ]
+}

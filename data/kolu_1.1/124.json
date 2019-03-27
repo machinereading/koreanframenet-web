@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "간.n.Temporal_collocation",
+    "ko_pos": "n",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "lu_id": "124",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-910",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Temporal_collocation",
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "년간"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Period",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "몇 년간",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 34
+                            },
+                            "text": "미국의 영향은 영국의 영향보다 훨씬 더 강했다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "910",
+                    "lu": "간.n.Temporal_collocation",
+                    "text": "최근 몇 년간 미국의 영향은 영국의 영향보다 훨씬 더 강했다."
+                }
+            ]
+        }
+    ]
+}

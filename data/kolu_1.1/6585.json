@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "짚다.v.Awareness",
+    "ko_pos": "v",
+    "frameID": 19,
+    "frameName": "Awareness",
+    "lu_id": "6585",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28282",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Awareness",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "짚어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 4
+                            },
+                            "text": "통",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "text": "그 여자의 마음을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짚다.v.Awareness",
+                    "text": "그는 통 그 여자의 마음을 짚어 낼 수가 없었다."
+                }
+            ]
+        }
+    ]
+}

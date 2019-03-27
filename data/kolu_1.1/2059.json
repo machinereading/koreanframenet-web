@@ -1,0 +1,60 @@
+{
+    "en_lus": [],
+    "ko_lu": "들리다.v.Appeal",
+    "ko_pos": "v",
+    "frameID": 504,
+    "frameName": "Appeal",
+    "lu_id": "2059",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1806",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Appeal",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "들린다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inference",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "이것은 멋진 총각 파티가 될 것",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1806",
+                    "lu": "들리다.v.Appeal",
+                    "text": "이것은 멋진 총각 파티가 될 것 같이 들린다."
+                }
+            ]
+        }
+    ]
+}

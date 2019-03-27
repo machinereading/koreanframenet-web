@@ -1,0 +1,343 @@
+{
+    "en_lus": [],
+    "ko_lu": "뚫리다.v.Path_shape",
+    "ko_pos": "v",
+    "frameID": 61,
+    "frameName": "Path_shape",
+    "lu_id": "2171",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-39991",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "뚫렸다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "우리 마을에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Road",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "text": "새로 큰 길이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뚫리다.v.Path_shape",
+                    "text": "우리 마을에 새로 큰 길이 뚫렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39996",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "뚫린"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path_Shape",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "약을 넣었더니 막혔던 코가 뚫린 듯하다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뚫리다.v.Path_shape",
+                    "text": "약을 넣었더니 막혔던 코가 뚫린 듯하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39994",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "뚫렸을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "상대팀의 수비벽이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 15
+                            },
+                            "text": "때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뚫리다.v.Path_shape",
+                    "text": "상대팀의 수비벽이 뚫렸을 때 공격을 늦추지 말아야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-772",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 73,
+                                "end": 77
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "뚫렸다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Road",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "text": "철로는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Direction",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 72
+                            },
+                            "text": "Las Vegas Valley 센터의 바로 아래로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "772",
+                    "lu": "뚫리다.v.Path_shape",
+                    "text": "1905년 초에, 로스앤젤레스와 솔트레이크시티 사이의 길은 완성되었졌고, 철로는 Las Vegas Valley 센터의 바로 아래로 뚫렸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39985",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "뚫려"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "벽이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뚫리다.v.Path_shape",
+                    "text": "벽이 뚫려 바람이 들어온다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-39989",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "뚫리고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "산이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뚫리다.v.Path_shape",
+                    "text": "산이 뚫리고 터널이 생겼다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "상용하다.v.Using",
+    "ko_pos": "v",
+    "frameID": 1141,
+    "frameName": "Using",
+    "lu_id": "3600",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-19345",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Using",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "상용하면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "환자들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "이 약물을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "상용하다.v.Using",
+                    "text": "환자들이 이 약물을 상용하면 위험합니다."
+                }
+            ]
+        }
+    ]
+}

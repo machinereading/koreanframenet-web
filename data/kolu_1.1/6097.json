@@ -1,0 +1,167 @@
+{
+    "en_lus": [],
+    "ko_lu": "조사하다.v.Criminal_investigation",
+    "ko_pos": "v",
+    "frameID": 500,
+    "frameName": "Criminal_investigation",
+    "lu_id": "6097",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1725",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Criminal_investigation",
+                            "span": {
+                                "begin": 69,
+                                "end": 73
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "조사하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Incident",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 68
+                            },
+                            "text": "백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Investigator",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "text": "공화당원들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1725",
+                    "lu": "조사하다.v.Criminal_investigation",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-8379",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Criminal_investigation",
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "조사해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "지난번",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "대선 당시",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Incident",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 45
+                            },
+                            "text": "빌 클린턴 대통령과 고어 부통령의 불법 선거자금에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "조사하다.v.Criminal_investigation",
+                    "text": "이러한 평결은 지난번 대선 당시 빌 클린턴 대통령과 고어 부통령의 불법 선거자금에 관해 조사해 온 법무부의 선거자금수사팀의 승리로 간주되며 금년 대통령선거 민주당후보로 유력한 고어 부통령을 곤경에 빠뜨릴 것으로 예상된다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "en_lus": [],
+    "ko_lu": "대체되다.v.Replacing",
+    "ko_pos": "v",
+    "frameID": 1121,
+    "frameName": "Replacing",
+    "lu_id": "1772",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53060",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Replacing",
+                            "span": {
+                                "begin": 32,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "대체된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "text": "내년부터 고속철도에 투입되 왔던 수입 기차가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "text": "국산 기차로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대체되다.v.Replacing",
+                    "text": "내년부터 고속철도에 투입되 왔던 수입 기차가 국산 기차로 대체된다."
+                }
+            ]
+        }
+    ]
+}

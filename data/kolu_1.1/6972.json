@@ -1,0 +1,80 @@
+{
+    "en_lus": [],
+    "ko_lu": "치다.v.Cause_to_make_noise",
+    "ko_pos": "v",
+    "frameID": 801,
+    "frameName": "Cause_to_make_noise",
+    "lu_id": "6972",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-50",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_to_make_noise",
+                            "span": {
+                                "begin": 27,
+                                "end": 28
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "칠"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sound_Maker",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 26
+                            },
+                            "text": "여덟 개 종들 중 여섯 개 이상을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 37
+                            },
+                            "text": "충분한 종지기가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "50",
+                    "lu": "치다.v.Cause_to_make_noise",
+                    "text": "그러나 아직도 여덟 개 종들 중 여섯 개 이상을 칠 충분한 종지기가 없다."
+                }
+            ]
+        }
+    ]
+}

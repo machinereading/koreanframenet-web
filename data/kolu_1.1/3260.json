@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "불리다.v.Referring_by_name",
+    "ko_pos": "v",
+    "frameID": 1253,
+    "frameName": "Referring_by_name",
+    "lu_id": "3260",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4688",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Referring_by_name",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "불리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "손님들께",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "「컨설턴트」라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4688",
+                    "lu": "불리다.v.Referring_by_name",
+                    "text": "손님들께 「컨설턴트」라 불리는 경우도 많지만, 그다지 진심으로 느껴지지는 않는다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "머무르다.v.Halt",
+    "ko_pos": "v",
+    "frameID": 1024,
+    "frameName": "Halt",
+    "lu_id": "2399",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4089",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Halt",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "머물러"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "바로 앞에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "북두칠성이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4089",
+                    "lu": "머무르다.v.Halt",
+                    "text": "바로 앞에 북두칠성이 머물러 있다."
+                }
+            ]
+        }
+    ]
+}

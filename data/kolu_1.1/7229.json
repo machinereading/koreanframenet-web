@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "파괴시키다.v.Destroying",
+    "ko_pos": "v",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "lu_id": "7229",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-50859",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "파괴시킨다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "암세포는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "text": "신체 조직을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "파괴시키다.v.Destroying",
+                    "text": "암세포는 정상 세포에 침윤하여 신체 조직을 파괴시킨다."
+                }
+            ]
+        }
+    ]
+}

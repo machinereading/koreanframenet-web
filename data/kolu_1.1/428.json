@@ -1,0 +1,74 @@
+{
+    "en_lus": [],
+    "ko_lu": "검토시키다.v.Inspecting",
+    "ko_pos": "v",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "lu_id": "428",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-31626",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Inspecting",
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "검토시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "나에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Unwanted_Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 19
+                            },
+                            "text": "프로젝트 관련 서류를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "검토시키다.v.Inspecting",
+                    "text": "사장은 나에게 프로젝트 관련 서류를 검토시켰다."
+                }
+            ]
+        }
+    ]
+}

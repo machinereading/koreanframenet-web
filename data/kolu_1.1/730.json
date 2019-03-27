@@ -1,0 +1,83 @@
+{
+    "en_lus": [],
+    "ko_lu": "공정하다.a.Fairness_evaluation",
+    "ko_pos": "a",
+    "frameID": 376,
+    "frameName": "Fairness_evaluation",
+    "lu_id": "730",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1683",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Fairness_evaluation",
+                            "span": {
+                                "begin": 61,
+                                "end": 65
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "공정하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 56
+                            },
+                            "text": "Sheik Bin Baz의 실수를 얕잡아보고 Sheik Maqdasi에 의한 실수를 과장할 때",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Actor",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 60
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1683",
+                    "lu": "공정하다.a.Fairness_evaluation",
+                    "text": "당신이 Sheik Bin Baz의 실수를 얕잡아보고 Sheik Maqdasi에 의한 실수를 과장할 때 당신은 공정하지 않다 …"
+                }
+            ]
+        }
+    ]
+}

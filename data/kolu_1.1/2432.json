@@ -1,0 +1,134 @@
+{
+    "en_lus": [],
+    "ko_lu": "면제시키다.v.Forgiveness",
+    "ko_pos": "v",
+    "frameID": 401,
+    "frameName": "Forgiveness",
+    "lu_id": "2432",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40996",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Forgiveness",
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "면제시켜줄"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Offense",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "수업을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "면제시키다.v.Forgiveness",
+                    "text": "체육시간이면 선생님이 내가 병든 줄 알고 수업을 면제시켜줄 정도로 내 건강은 악화되고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40995",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Forgiveness",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "면제시켜"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Judge",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "국가가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "text": "특정인에게서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Offense",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "형사책임을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "면제시키다.v.Forgiveness",
+                    "text": "사면은 국가가 특정인에게서 형사책임을 면제시켜 주거나 복권시키는 그 자체에 목적이 있다."
+                }
+            ]
+        }
+    ]
+}

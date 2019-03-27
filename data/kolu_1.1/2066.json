@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "들어가다.v.Path_shape",
+    "ko_pos": "v",
+    "frameID": 61,
+    "frameName": "Path_shape",
+    "lu_id": "2066",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49479",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "들어가는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "마을로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "모든 도로가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들어가다.v.Path_shape",
+                    "text": "홍수로 마을로 들어가는 모든 도로가 끊어졌다."
+                }
+            ]
+        }
+    ]
+}

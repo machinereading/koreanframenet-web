@@ -1,0 +1,54 @@
+{
+    "en_lus": [],
+    "ko_lu": "들어서다.v.Activity_start",
+    "ko_pos": "v",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "lu_id": "2070",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-59893",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "들어서자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "중문을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들어서다.v.Activity_start",
+                    "text": "중문을 들어서자 별채가 저멀리 보였다."
+                }
+            ]
+        }
+    ]
+}

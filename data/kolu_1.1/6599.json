@@ -1,0 +1,75 @@
+{
+    "en_lus": [],
+    "ko_lu": "찌그러지다.v.Damaging",
+    "ko_pos": "v",
+    "frameID": 415,
+    "frameName": "Damaging",
+    "lu_id": "6599",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-33585",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Damaging",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "찌그러졌지만"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "자동차에 받힌 철제 대문은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "text": "약간",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찌그러지다.v.Damaging",
+                    "text": "자동차에 받힌 철제 대문은 약간 찌그러졌지만 크게 부서지지는 않았다."
+                }
+            ]
+        }
+    ]
+}

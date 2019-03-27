@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "상의하다.v.Discussion",
+    "ko_pos": "v",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "lu_id": "3604",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-3886",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "상의해서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "회사명은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Interlocutors",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "모두가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3886",
+                    "lu": "상의하다.v.Discussion",
+                    "text": "회사명은 모두가 상의해서, 주식회사 시라카와로 했다."
+                }
+            ]
+        }
+    ]
+}

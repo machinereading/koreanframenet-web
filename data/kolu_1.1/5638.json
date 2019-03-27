@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "작살나다.v.Destroying",
+    "ko_pos": "v",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "lu_id": "5638",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-51623",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "작살났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "돌에 맞은 항아리가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작살나다.v.Destroying",
+                    "text": "돌에 맞은 항아리가 작살났다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-51624",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "작살났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "아버지의 사업 실패로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "온 집안이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작살나다.v.Destroying",
+                    "text": "아버지의 사업 실패로 온 집안이 작살났다."
+                }
+            ]
+        }
+    ]
+}

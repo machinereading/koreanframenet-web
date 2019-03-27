@@ -1,0 +1,85 @@
+{
+    "en_lus": [],
+    "ko_lu": "원인임.n.Causation",
+    "ko_pos": "n",
+    "frameID": 5,
+    "frameName": "Causation",
+    "lu_id": "5071",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4192",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "원인임이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 30
+                            },
+                            "text": "인쇄물을 상대로도 당신이 「게임」을 할 수 있는 것은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 54
+                            },
+                            "text": "당신이 처음에 전제로 하고 있던 사고방식이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4192",
+                    "lu": "원인임.n.Causation",
+                    "text": "인쇄물을 상대로도 당신이 「게임」을 할 수 있는 것은, 당신이 처음에 전제로 하고 있던 사고방식이 원인임이 틀림없다."
+                }
+            ]
+        }
+    ]
+}

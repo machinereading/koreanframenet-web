@@ -1,0 +1,142 @@
+{
+    "en_lus": [],
+    "ko_lu": "대체시키다.v.Take_place_of",
+    "ko_pos": "v",
+    "frameID": 1171,
+    "frameName": "Take_place_of",
+    "lu_id": "1775",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-53009",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Take_place_of",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "대체시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "New",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "직원들의 가불금을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Old",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "손익 계정에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대체시키다.v.Take_place_of",
+                    "text": "우리는 직원들의 가불금을 손익 계정에 대체시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-53008",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Take_place_of",
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "대체시키는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 33
+                            },
+                            "text": "그간 전적으로 수입에 의존하던 핵심 부품을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 41
+                            },
+                            "text": "국산 부품으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대체시키다.v.Take_place_of",
+                    "text": "이번 기술 개발은 그간 전적으로 수입에 의존하던 핵심 부품을 국산 부품으로 대체시키는 효과를 가져온다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "en_lus": [],
+    "ko_lu": "벗겨지다.v.Undressing",
+    "ko_pos": "v",
+    "frameID": 1210,
+    "frameName": "Undressing",
+    "lu_id": "2966",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-28089",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undressing",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "벗겨지고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Clothing",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "옷이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "text": "한꺼풀씩",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "벗겨지다.v.Undressing",
+                    "text": "옷이 한꺼풀씩 벗겨지고 드디어 알몸이 되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-28090",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Undressing",
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "벗겨졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Clothing",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "모자가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "벗겨지다.v.Undressing",
+                    "text": "바람이 불어 모자가 벗겨졌다."
+                }
+            ]
+        }
+    ]
+}

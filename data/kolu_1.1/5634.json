@@ -1,0 +1,121 @@
+{
+    "en_lus": [],
+    "ko_lu": "작동시키다.v.Being_in_operation",
+    "ko_pos": "v",
+    "frameID": 880,
+    "frameName": "Being_in_operation",
+    "lu_id": "5634",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40424",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_in_operation",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "작동시키는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Device",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "이런 경우 말고도 컴퓨터를 켜고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Device",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 25
+                            },
+                            "text": "웹 브라우저를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작동시키다.v.Being_in_operation",
+                    "text": "이런 경우 말고도 컴퓨터를 켜고 웹 브라우저를 작동시키는 것이 매우 곤란한 경우가 종종 있을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40423",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_in_operation",
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "작동시키면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Device",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "이장치를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "작동시키다.v.Being_in_operation",
+                    "text": "이장치를 작동시키면 에드벌룬이 공중으로 부상하여 식별가능한 시각적인 효과가 있다."
+                }
+            ]
+        }
+    ]
+}

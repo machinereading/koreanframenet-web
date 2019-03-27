@@ -1,0 +1,82 @@
+{
+    "en_lus": [],
+    "ko_lu": "어림잡다.v.Estimating",
+    "ko_pos": "v",
+    "frameID": 1513,
+    "frameName": "Estimating",
+    "lu_id": "4552",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24922",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Estimating",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "어림잡아"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "어림잡다.v.Estimating",
+                    "text": "나는 어림잡아 대답하는 것은 좋아하지 않으니 분명하게 말하는 편이 네게 이로울 거야."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-24921",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Estimating",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "어림잡아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Feature",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "파업에 참여한 조합원의 수는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "어림잡다.v.Estimating",
+                    "text": "파업에 참여한 조합원의 수는 어림잡아 오 백 명은 되어 보였다."
+                }
+            ]
+        }
+    ]
+}

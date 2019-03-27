@@ -1,0 +1,124 @@
+{
+    "en_lus": [],
+    "ko_lu": "찬양되다.v.Communication_manner",
+    "ko_pos": "v",
+    "frameID": 38,
+    "frameName": "Communication_manner",
+    "lu_id": "6654",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-36761",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_manner",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "찬양되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "text": "세종대왕의 업적이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "날이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찬양되다.v.Communication_manner",
+                    "text": "한글날은 세종대왕의 업적이 찬양되는 날이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-36762",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_manner",
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "찬양되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 31
+                            },
+                            "text": "기차역에서 아이를 구하고 목숨을 잃은 한 대학생의 행동이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "찬양되다.v.Communication_manner",
+                    "text": "기차역에서 아이를 구하고 목숨을 잃은 한 대학생의 행동이 찬양되어 추모식이 마련되었다."
+                }
+            ]
+        }
+    ]
+}

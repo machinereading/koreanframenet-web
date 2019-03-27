@@ -1,0 +1,100 @@
+{
+    "en_lus": [],
+    "ko_lu": "올바르다.a.Correctness",
+    "ko_pos": "a",
+    "frameID": 1512,
+    "frameName": "Correctness",
+    "lu_id": "4897",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4303",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Correctness",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "올바른"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "신을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4303",
+                    "lu": "올바르다.a.Correctness",
+                    "text": "올바른 신을 믿는다면, 옳지 않은 신은 자연히 소멸해 버릴 것입니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: en.FrameNet-74",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Correctness",
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "올바른"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Information",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "text": "결론을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "74",
+                    "lu": "올바르다.a.Correctness",
+                    "text": "스페인 수상 Felipe Gonzalez는 일요일 그의 간신히 이긴 선거 승리에서 올바른 결론을 내릴 것으로 희망할 수 있다."
+                }
+            ]
+        }
+    ]
+}

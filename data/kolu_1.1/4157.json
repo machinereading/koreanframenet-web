@@ -1,0 +1,56 @@
+{
+    "en_lus": [],
+    "ko_lu": "시도되다.v.Attempt",
+    "ko_pos": "v",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "lu_id": "4157",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-32506",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "시도되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "이런 방식의 연구는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시도되다.v.Attempt",
+                    "text": "이런 방식의 연구는 우리 대학 연구소에 의해 처음으로 시도되었다."
+                }
+            ]
+        }
+    ]
+}

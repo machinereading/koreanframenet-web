@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "북돋다.v.Supporting",
+    "ko_pos": "v",
+    "frameID": 2000,
+    "frameName": "Supporting",
+    "lu_id": "3209",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-24000",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supporting",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "북돋는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supported",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "내일 시험을 보는 우리 아이의 용기를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "방법이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "북돋다.v.Supporting",
+                    "text": "내일 시험을 보는 우리 아이의 용기를 북돋는 방법이 뭐 없을 까?"
+                }
+            ]
+        }
+    ]
+}

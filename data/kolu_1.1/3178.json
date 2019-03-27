@@ -1,0 +1,101 @@
+{
+    "en_lus": [],
+    "ko_lu": "부인되다.v.Affirm_or_deny",
+    "ko_pos": "v",
+    "frameID": 2974,
+    "frameName": "Affirm_or_deny",
+    "lu_id": "3178",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-23337",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Affirm_or_deny",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "부인되어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "그동안",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부인되다.v.Affirm_or_deny",
+                    "text": "박 의원은 ?노 대통령의 오늘 발언은 그동안 부인되어 왔던 신당 개입 사실을 시인한 것과 마찬가지?라며 비난했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-23336",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Affirm_or_deny",
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "부인되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "미군이 이라크를 공격했다는 보도가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부인되다.v.Affirm_or_deny",
+                    "text": "미군이 이라크를 공격했다는 보도가 부인되었다."
+                }
+            ]
+        }
+    ]
+}

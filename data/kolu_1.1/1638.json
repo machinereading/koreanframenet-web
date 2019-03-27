@@ -1,0 +1,135 @@
+{
+    "en_lus": [],
+    "ko_lu": "다투다.v.Hostile_encounter",
+    "ko_pos": "v",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "lu_id": "1638",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-62226",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "다투어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Side_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "장군은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "text": "초를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "다투다.v.Hostile_encounter",
+                    "text": "장군은 적군을 막으려면 초를 다투어 전쟁터로 가야 한다고 역설했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-62222",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "다투고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sides",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "두 나라가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Issue",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "왕권을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "다투다.v.Hostile_encounter",
+                    "text": "중국에서는 두 나라가 치열한 권력투쟁을 하며 왕권을 다투고 있었다."
+                }
+            ]
+        }
+    ]
+}

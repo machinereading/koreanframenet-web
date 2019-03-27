@@ -1,0 +1,55 @@
+{
+    "en_lus": [],
+    "ko_lu": "출연하다.v.Performers_and_roles",
+    "ko_pos": "v",
+    "frameID": 413,
+    "frameName": "Performers_and_roles",
+    "lu_id": "6929",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40075",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Performers_and_roles",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "출연하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Script",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "이번 영화에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "출연하다.v.Performers_and_roles",
+                    "text": "그녀는 이번 영화에 출연하는 것을 끝으로 연예계를 떠난다고 한다."
+                }
+            ]
+        }
+    ]
+}

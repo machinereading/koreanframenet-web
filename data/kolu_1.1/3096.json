@@ -1,0 +1,119 @@
+{
+    "en_lus": [],
+    "ko_lu": "보호받다.v.Protecting",
+    "ko_pos": "v",
+    "frameID": 1631,
+    "frameName": "Protecting",
+    "lu_id": "3096",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4833",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Protecting",
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "보호받는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "text": "범위",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4833",
+                    "lu": "보호받다.v.Protecting",
+                    "text": "우선, 보호의 범위에는 직접적으로 보호받는 범위 (직접 침해)와 간접적으로 보호받는 범위 (간접 침해)가 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3722",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Protecting",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "보호받을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Asset",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "특허가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "text": "범위에 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3722",
+                    "lu": "보호받다.v.Protecting",
+                    "text": "여기서, 그 특허가 보호받을 수 있는 범위에 대해 판례를 참고로 설명하도록 하겠습니다."
+                }
+            ]
+        }
+    ]
+}

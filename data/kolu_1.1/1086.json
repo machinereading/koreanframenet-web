@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "기대다.v.Reliance",
+    "ko_pos": "v",
+    "frameID": 901,
+    "frameName": "Reliance",
+    "lu_id": "1086",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-49166",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reliance",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "기대어"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Benefit",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "그런 호의에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기대다.v.Reliance",
+                    "text": "나는 그런 호의에 기대어 신세를 지고 싶지는 않다."
+                }
+            ]
+        }
+    ]
+}

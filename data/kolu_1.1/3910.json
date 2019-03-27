@@ -1,0 +1,76 @@
+{
+    "en_lus": [],
+    "ko_lu": "소유자.n.Possession",
+    "ko_pos": "n",
+    "frameID": 118,
+    "frameName": "Possession",
+    "lu_id": "3910",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1233",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "소유자인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "text": "Dayton에 있는Merit Awnings의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Owner",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 43
+                            },
+                            "text": "Kevin Tatman에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1233",
+                    "lu": "소유자.n.Possession",
+                    "text": "Dayton에 있는Merit Awnings의 소유자인 Kevin Tatman에 의하면, 직물 차양 가격은 알루미늄 차양 가격보다 변동이 더 심하다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "en_lus": [],
+    "ko_lu": "동거.n.Residence",
+    "ko_pos": "n",
+    "frameID": 110,
+    "frameName": "Residence",
+    "lu_id": "1933",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4800",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Residence",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "동거"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "text": "다카코와",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Co",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "text": "마사오의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4800",
+                    "lu": "동거.n.Residence",
+                    "text": "하지만, 출산 전부터 동거 생활을 시작했던 다카코와 마사오의 관계는, 이때 이미 톱니바퀴가 엇나가고 있었다."
+                }
+            ]
+        }
+    ]
+}

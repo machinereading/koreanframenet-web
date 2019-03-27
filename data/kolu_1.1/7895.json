@@ -1,0 +1,98 @@
+{
+    "en_lus": [],
+    "ko_lu": "휘어지다.v.Path_shape",
+    "ko_pos": "v",
+    "frameID": 61,
+    "frameName": "Path_shape",
+    "lu_id": "7895",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-40314",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "휘어진"
+                        }
+                    ],
+                    "relations": [],
+                    "lu": "휘어지다.v.Path_shape",
+                    "text": "굽이굽이 휘어진 길을 따라 하염없이 걸어가는저 나그네는 누구뇨?"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-40313",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Path_shape",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "휘어져"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "차창 너머로멀리",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path_Shape",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "구불구불",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "휘어지다.v.Path_shape",
+                    "text": "차창 너머로멀리 구불구불 휘어져 흐르는 낙동강의 모습이 보인다."
+                }
+            ]
+        }
+    ]
+}

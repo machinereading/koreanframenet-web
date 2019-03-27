@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "녹이다.v.Change_of_temperature",
+    "ko_pos": "v",
+    "frameID": 797,
+    "frameName": "Change_of_temperature",
+    "lu_id": "1520",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-61376",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Change_of_temperature",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "녹이고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "화롯불에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "손을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "녹이다.v.Change_of_temperature",
+                    "text": "그 어린 소년은 화롯불에 손을 녹이고 있었다."
+                }
+            ]
+        }
+    ]
+}

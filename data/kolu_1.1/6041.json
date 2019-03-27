@@ -1,0 +1,141 @@
+{
+    "en_lus": [],
+    "ko_lu": "제작하다.v.Manufacturing",
+    "ko_pos": "v",
+    "frameID": 408,
+    "frameName": "Manufacturing",
+    "lu_id": "6041",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-5161",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "제작된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "text": "리콜의 대상이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "97 년",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Product",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 54
+                            },
+                            "text": "EV1 전기차 450 대, 97-98 년",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제작하다.v.Manufacturing",
+                    "text": "로버트 퍼셀 GM 대변인은 리콜의 대상이 97 년 제작된 EV1 전기차 450 대, 97-98 년 제작돼 각종 회사의 수송차량으로 사용되고 있는 S10 전기 소형트럭 450 대 등이라고 말했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-5157",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "제작될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "text": "영국내에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제작하다.v.Manufacturing",
+                    "text": "버진사가 투입하려는 VGV는 영국내에서 제작될 것으로 보이며 이름은 프랑스의 TGV를 본뜬 것이지만 모양은 일본의 시속 187 마일짜리 총알열차를 더 닮게 될 것이라고 이 회사 관계자는 말했다."
+                }
+            ]
+        }
+    ]
+}

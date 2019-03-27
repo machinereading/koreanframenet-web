@@ -1,0 +1,118 @@
+{
+    "en_lus": [],
+    "ko_lu": "시발되다.v.Coming_to_be",
+    "ko_pos": "v",
+    "frameID": 316,
+    "frameName": "Coming_to_be",
+    "lu_id": "4165",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-21555",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Coming_to_be",
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "시발되었지만"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "간신히",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "전시회가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시발되다.v.Coming_to_be",
+                    "text": "간신히 전시회가 시발되었지만 진행은 여전히 엉망이었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: crowdsourcing-21554",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Coming_to_be",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "시발되자"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "한 번 폭동이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시발되다.v.Coming_to_be",
+                    "text": "한 번 폭동이 시발되자 상황은 걷잡을 수 없이 커져갔다."
+                }
+            ]
+        }
+    ]
+}

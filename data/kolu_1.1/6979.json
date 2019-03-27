@@ -1,0 +1,59 @@
+{
+    "en_lus": [],
+    "ko_lu": "치료제.n.Cure",
+    "ko_pos": "n",
+    "frameID": 50,
+    "frameName": "Cure",
+    "lu_id": "6979",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-3212",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cure",
+                            "span": {
+                                "begin": 48,
+                                "end": 52
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "치료제를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Affliction",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 37
+                            },
+                            "text": "희귀 질병과 장애 치료를 위한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3212",
+                    "lu": "치료제.n.Cure",
+                    "text": "FDA의 미국 희귀의약품법은 회사들이 희귀 질병과 장애 치료를 위한 안전하고 효율적인 치료제를 개발하도록 지원하고 격려하는 것을 목적으로 한다."
+                }
+            ]
+        }
+    ]
+}

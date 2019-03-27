@@ -1,0 +1,79 @@
+{
+    "en_lus": [],
+    "ko_lu": "건축가.n.Being_named",
+    "ko_pos": "n",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "lu_id": "372",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4857",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_named",
+                            "span": {
+                                "begin": 88,
+                                "end": 100
+                            },
+                            "token_span": [
+                                17,
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "건축물인 가설주택에조차"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 87
+                            },
+                            "text": "속담도 있을 정도로, 재해시에 짓는 조립식",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 88,
+                                "end": 92
+                            },
+                            "text": "건축물인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4857",
+                    "lu": "건축가.n.Being_named",
+                    "text": "An Englishman’s house is his castle (영국인은, 모름지기 일국 일성의 주인이다.)라는 속담도 있을 정도로, 재해시에 짓는 조립식 건축물인 가설주택에조차 만족한다."
+                }
+            ]
+        }
+    ]
+}

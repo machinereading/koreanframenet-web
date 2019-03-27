@@ -1,0 +1,77 @@
+{
+    "en_lus": [],
+    "ko_lu": "괴롭히다.v.Cause_harm",
+    "ko_pos": "v",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "lu_id": "816",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38338",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_harm",
+                            "span": {
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "괴롭혔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "그 못된 아이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 22
+                            },
+                            "text": "집 잃은 불쌍한 강아지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "괴롭히다.v.Cause_harm",
+                    "text": "그 못된 아이는 집 잃은 불쌍한 강아지를 괴롭혔다."
+                }
+            ]
+        }
+    ]
+}

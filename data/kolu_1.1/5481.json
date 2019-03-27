@@ -1,0 +1,120 @@
+{
+    "en_lus": [],
+    "ko_lu": "일반적.n.Typicality",
+    "ko_pos": "n",
+    "frameID": 1134,
+    "frameName": "Typicality",
+    "lu_id": "5481",
+    "patterns": [
+        {
+            "valenceText": "id: jp.FrameNet-4004",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Typicality",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "일반적인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "연회도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4004",
+                    "lu": "일반적.n.Typicality",
+                    "text": "일반적인 연회도 줄었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-4846",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Typicality",
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "일반적으로,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이런 사람들은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Feature",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 24
+                            },
+                            "text": "실행에 옮길지는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "4846",
+                    "lu": "일반적.n.Typicality",
+                    "text": "이런 사람들은, 일반적으로, 실행에 옮길지는 차치하고라도, 적어도 동감한다는 점에서는, 정치적으로 토리당와 한편이다."
+                }
+            ]
+        }
+    ]
+}

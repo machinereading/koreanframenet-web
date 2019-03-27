@@ -1,0 +1,72 @@
+{
+    "en_lus": [],
+    "ko_lu": "과용하다.v.Expend_resource",
+    "ko_pos": "v",
+    "frameID": 2220,
+    "frameName": "Expend_resource",
+    "lu_id": "742",
+    "patterns": [
+        {
+            "valenceText": "id: crowdsourcing-38382",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expend_resource",
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "과용하면"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "약을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "너무",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "과용하다.v.Expend_resource",
+                    "text": "약을 너무 과용하면 오히려 부작용이 생긴다."
+                }
+            ]
+        }
+    ]
+}

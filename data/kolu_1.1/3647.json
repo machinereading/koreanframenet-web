@@ -1,0 +1,127 @@
+{
+    "en_lus": [],
+    "ko_lu": "생각하다.v.Purpose",
+    "ko_pos": "v",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "lu_id": "3647",
+    "patterns": [
+        {
+            "valenceText": "id: en.FrameNet-1471",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "생각하나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "핵 국가가 되려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "1471",
+                    "lu": "생각하다.v.Purpose",
+                    "text": "QN : 이란은 핵 국가가 되려고 생각하나 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "id: jp.FrameNet-3570",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 44,
+                                "end": 52
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "생각도 했으나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 43
+                            },
+                            "text": "조금 더 사람들의 이목을 끄는 제목으로 할까",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "sent_id": "3570",
+                    "lu": "생각하다.v.Purpose",
+                    "text": "서점에 진열될지 모른다고 생각하면 조금 더 사람들의 이목을 끄는 제목으로 할까 생각도 했으나, 아름다운 제목이 낫다는 남편의 의견을 따랐다."
+                }
+            ]
+        }
+    ]
+}
