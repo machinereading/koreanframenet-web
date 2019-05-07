@@ -53,35 +53,34 @@
                         {
                             "id": 2,
                             "obj": "Possessor",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "리비아는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "리비아는"
                         },
                         {
                             "id": 3,
                             "obj": "Resource",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "생물학 무기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "생물학"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

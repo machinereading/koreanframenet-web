@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Subject",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "기초 지식이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기초"
                         }
                     ],
                     "relations": [
@@ -72,39 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Subject",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 26
+                                "end": 3
                             },
-                            "text": "부패한 사람들은 스스로 반성하지 않는다는 사실이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "부패한"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 27,
                                 "end": 32
                             },
-                            "text": "경험적으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "경험적으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

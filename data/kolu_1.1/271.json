@@ -26,17 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Container_Portal",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Container_portal",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "과자 포장을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "과자"
                         }
                     ],
                     "relations": [
@@ -72,38 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 19
+                                "end": 12
                             },
-                            "text": "짐바브웨 공항 세관이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "짐바브웨"
                         },
                         {
                             "id": 3,
-                            "obj": "Container_Portal",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Container_portal",
                             "span": {
                                 "begin": 20,
-                                "end": 33
+                                "end": 23
                             },
-                            "text": "영국의 외교행낭을 강제로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영국의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -138,57 +133,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "앞서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "앞서"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 18
+                                "end": 5
                             },
-                            "text": "지난 4 일 짐바브웨 세관은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                21,
-                                22
-                            ],
                             "span": {
                                 "begin": 78,
-                                "end": 84
+                                "end": 80
                             },
-                            "text": "이날 강제로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이날"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -222,44 +212,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 12,
-                                "end": 43
+                                "end": 14
                             },
-                            "text": "전체 8 천 442 개 투표소 가운데 700 개 투표함이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전체"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 48,
                                 "end": 50
                             },
-                            "text": "초반",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "초반"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -293,36 +274,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                2,
-                                3
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 6,
-                                "end": 14
+                                "end": 8
                             },
-                            "text": "모든 외교행낭은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모든"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 35,
                                 "end": 38
                             },
-                            "text": "강제로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "강제로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

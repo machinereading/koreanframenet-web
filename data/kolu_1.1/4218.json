@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 17
+                                "end": 12
                             },
-                            "text": "집에 있는 건",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "집에"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 18,
-                                "end": 35
+                                "end": 23
                             },
-                            "text": "주말이라는 한정된 시간뿐이므로,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주말이라는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -94,15 +90,15 @@
                         {
                             "id": 2,
                             "obj": "Ingestibles",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 11
                             },
-                            "text": "식사를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "식사를"
                         }
                     ],
                     "relations": [

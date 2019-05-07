@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 3,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 3,
-                                "end": 8
+                                "end": 5
                             },
-                            "text": "보던 책을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "보던"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 12
                             },
-                            "text": "조용히",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "조용히"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

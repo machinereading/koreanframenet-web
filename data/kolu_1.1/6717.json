@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 3
                             },
-                            "text": "복덕방 김영감은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "복덕방"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 25,
                                 "end": 28
                             },
-                            "text": "구전을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "구전을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

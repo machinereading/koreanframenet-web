@@ -27,79 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Traveler",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 37
+                                "end": 17
                             },
-                            "text": "콘스탄티누스 황제의 어머니인 Helena 여왕은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "콘스탄티누스"
                         },
                         {
                             "id": 3,
                             "obj": "Purpose",
-                            "token_span": [
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 38,
-                                "end": 61
+                                "end": 41
                             },
-                            "text": "예수의 일생과 관련된 장소를 확인하기 위해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예수의"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                13
-                            ],
                             "span": {
                                 "begin": 62,
                                 "end": 67
                             },
-                            "text": "326년에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "326년에"
                         },
                         {
                             "id": 5,
                             "obj": "Goal",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 68,
                                 "end": 71
                             },
-                            "text": "성지를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "성지를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

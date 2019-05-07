@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Prisoner",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 37,
-                                "end": 45
+                                "end": 41
                             },
-                            "text": "오카모토 코조를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오카모토"
                         }
                     ],
                     "relations": [
@@ -72,35 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Authorities",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "예수께서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예수께서"
                         },
                         {
                             "id": 3,
                             "obj": "Prisoner",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 11
+                                "end": 8
                             },
-                            "text": "우리의 죄를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

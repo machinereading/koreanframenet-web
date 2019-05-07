@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 11
+                                "end": 7
                             },
-                            "text": "그 사람은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 23
+                                "end": 15
                             },
-                            "text": "자신의 정치적 입지를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자신의"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 28
                             },
-                            "text": "확고하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "확고하게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 15
+                                "end": 10
                             },
-                            "text": "주관식 답안지를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주관식"
                         }
                     ],
                     "relations": [
@@ -72,35 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Assessor",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "선생님은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선생님은"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 22
+                                "end": 17
                             },
-                            "text": "학생들의 시험지를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "학생들의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

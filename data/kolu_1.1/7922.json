@@ -27,56 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Substance",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 4
                             },
-                            "text": "그리스의 헬레니즘 제국은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그리스의"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 29
+                                "end": 20
                             },
-                            "text": "점차적으로, 그리고 평화롭게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "점차적으로,"
                         },
                         {
                             "id": 4,
                             "obj": "Item",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 30,
                                 "end": 36
                             },
-                            "text": "로마제국으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "로마제국으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

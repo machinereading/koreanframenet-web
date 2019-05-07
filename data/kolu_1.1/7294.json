@@ -26,55 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Infection_Cause",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Infection_cause",
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 1
                             },
-                            "text": "그 에이즈 환자는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Infection",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 12
                             },
-                            "text": "병을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "병을"
                         },
                         {
                             "id": 4,
-                            "obj": "Infected_Entity",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Infected_entity",
                             "span": {
                                 "begin": 13,
                                 "end": 18
                             },
-                            "text": "아무에게나",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아무에게나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

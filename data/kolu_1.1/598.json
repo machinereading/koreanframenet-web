@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "요청은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "요청은"
                         }
                     ],
                     "relations": [
@@ -72,36 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "다음은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다음은"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 13
+                                "end": 8
                             },
-                            "text": "울타리를 세울 때",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "울타리를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

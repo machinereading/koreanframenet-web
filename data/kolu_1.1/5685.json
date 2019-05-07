@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Interval",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 1
                             },
-                            "text": "한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 19
+                                "end": 8
                             },
-                            "text": "적어도 3번 이상 읽는데,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "적어도"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,59 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "Tommie J.와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Tommie"
                         },
                         {
                             "id": 3,
                             "obj": "Reason",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 44
+                                "end": 22
                             },
-                            "text": "알코올 중독자인 아버지의 반복적인 구타 때문에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "알코올"
                         },
                         {
                             "id": 4,
-                            "obj": "Final",
-                            "token_span": [
-                                10,
-                                11
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 45,
-                                "end": 54
+                                "end": 48
                             },
-                            "text": "법원의 피보호자가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "법원의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

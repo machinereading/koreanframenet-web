@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Medication",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 12
+                                "end": 5
                             },
-                            "text": "이 심장병약으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
-                                "end": 26
+                                "end": 21
                             },
-                            "text": "소수의 남성들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소수의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -91,54 +89,52 @@
                         {
                             "id": 2,
                             "obj": "Healer",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "그 의사는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "죽어가는 환자를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "죽어가는"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 17
                             },
-                            "text": "우선",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우선"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -173,70 +169,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 55
+                                "end": 2
                             },
-                            "text": "이를 위해 중국인 의사 3 명이 20 일 자카르타에 도착, 와히드 대통령에게 종합 검진을 실시한 뒤",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이를"
                         },
                         {
                             "id": 3,
                             "obj": "Treatment",
-                            "token_span": [
-                                16,
-                                17,
-                                18,
-                                19
-                            ],
                             "span": {
                                 "begin": 56,
-                                "end": 72
+                                "end": 59
                             },
-                            "text": "침술과 전통적인 약초 처방으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "침술과"
                         },
                         {
                             "id": 4,
                             "obj": "Patient",
-                            "token_span": [
-                                20
-                            ],
                             "span": {
                                 "begin": 73,
                                 "end": 75
                             },
-                            "text": "그를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

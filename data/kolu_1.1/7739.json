@@ -27,18 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Parts",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 2
                             },
-                            "text": "빨간 액체와 노란 액체가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "빨간"
                         }
                     ],
                     "relations": [
@@ -74,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Part_1",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "빨간 액체가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "빨간"
                         },
                         {
                             "id": 3,
                             "obj": "Part_2",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 13
+                                "end": 9
                             },
-                            "text": "파랑 액체와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "파랑"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -138,35 +133,34 @@
                         {
                             "id": 2,
                             "obj": "Part_2",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "다른 물질과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다른"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 18
                             },
-                            "text": "때",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "때"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

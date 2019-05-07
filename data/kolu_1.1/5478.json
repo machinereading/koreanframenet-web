@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Item",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 10
                             },
-                            "text": "신문을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신문을"
                         }
                     ],
                     "relations": [
@@ -72,35 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Dimension",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 48
                             },
-                            "text": "세계적인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "세계적인"
                         },
                         {
                             "id": 3,
                             "obj": "Item",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 52,
-                                "end": 59
+                                "end": 54
                             },
-                            "text": "휴양 도시에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "휴양"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Stimulus",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 2
                             },
-                            "text": "중동 지역의 소요가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중동"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "때까지",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "때까지"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

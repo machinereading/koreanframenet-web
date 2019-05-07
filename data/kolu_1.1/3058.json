@@ -26,41 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Injured_Party",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Injured_party",
                             "span": {
                                 "begin": 4,
-                                "end": 15
+                                "end": 7
                             },
-                            "text": "산재를 당한 직원에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "산재를"
                         },
                         {
                             "id": 3,
                             "obj": "Injury",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 34
+                                "end": 18
                             },
-                            "text": "그가 입은 물질적, 정신적 손실을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

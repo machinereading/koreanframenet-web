@@ -26,54 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "형사 반장은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "형사"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 11
                             },
-                            "text": "흉악범을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "흉악범을"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 12,
                                 "end": 16
                             },
-                            "text": "집요하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "집요하게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

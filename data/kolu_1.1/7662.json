@@ -27,71 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "상추와 오이를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "상추와"
                         },
                         {
                             "id": 4,
                             "obj": "Means",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 13
                             },
-                            "text": "물에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "물에"
                         },
                         {
                             "id": 5,
                             "obj": "Manner",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
                                 "end": 17
                             },
-                            "text": "깨끗이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "깨끗이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

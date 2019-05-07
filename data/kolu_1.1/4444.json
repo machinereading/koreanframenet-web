@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 2
                             },
-                            "text": "내가 많이 실망하였다는 것을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내가"
                         },
                         {
                             "id": 3,
                             "obj": "Cognizer",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 16,
                                 "end": 18
                             },
-                            "text": "네가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "네가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

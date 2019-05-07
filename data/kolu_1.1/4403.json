@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 48,
                                 "end": 52
                             },
-                            "text": "치료제를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "치료제를"
                         }
                     ],
                     "relations": [
@@ -72,62 +72,52 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 53
+                                "end": 13
                             },
-                            "text": "지역의 혜택 추구에 비해 국가정책 결정에 너무 많은 관심을 기울이는 입법자들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지역의"
                         },
                         {
                             "id": 3,
                             "obj": "Domain",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 54,
                                 "end": 57
                             },
-                            "text": "재임에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "재임에"
                         },
                         {
                             "id": 4,
                             "obj": "Degree",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 58,
                                 "end": 59
                             },
-                            "text": "덜",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "덜"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -162,17 +152,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Dangerous_Entity",
-                            "token_span": [
-                                36,
-                                37
-                            ],
+                            "obj": "Dangerous_entity",
                             "span": {
                                 "begin": 132,
-                                "end": 141
+                                "end": 137
                             },
-                            "text": "어린이들의 장남감",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                36
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어린이들의"
                         }
                     ],
                     "relations": [
@@ -209,34 +198,34 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 29,
                                 "end": 33
                             },
-                            "text": "군인들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "군인들을"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 34,
                                 "end": 38
                             },
-                            "text": "내부에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내부에서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

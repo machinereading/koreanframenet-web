@@ -27,60 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 31
+                                "end": 3
                             },
-                            "text": "어두운 골목길 끝에 서있는 검은 옷을 입은 사람을 보고는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어두운"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 32,
                                 "end": 35
                             },
-                            "text": "갑자기",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "갑자기"
                         },
                         {
                             "id": 4,
                             "obj": "Patient",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 36,
                                 "end": 38
                             },
-                            "text": "몸이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "몸이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

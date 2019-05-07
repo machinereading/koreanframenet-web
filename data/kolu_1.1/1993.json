@@ -27,61 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Area",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 2
                             },
-                            "text": "우리 주위를 둘러싸고,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         },
                         {
                             "id": 3,
                             "obj": "Path",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 42
+                                "end": 16
                             },
-                            "text": "실제로 끊임없이 여러 기분 나쁜 일들만 초래한 사건을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실제로"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 43,
                                 "end": 47
                             },
-                            "text": "하나하나",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "하나하나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

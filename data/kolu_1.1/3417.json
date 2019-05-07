@@ -26,18 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Undesirable_Event",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Undesirable_event",
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 1
                             },
-                            "text": "이 끔찍한 사고를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
@@ -74,40 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 31
+                                "end": 3
                             },
-                            "text": "APG [ Aberdeen Proving Ground ]",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "APG"
                         },
                         {
                             "id": 3,
                             "obj": "Cause",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 36,
-                                "end": 41
+                                "end": 38
                             },
-                            "text": "독성 가스",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "독성"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

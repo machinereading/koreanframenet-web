@@ -27,73 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Communicator",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 2
                             },
-                            "text": "앞서 가던 병사가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "앞서"
                         },
                         {
                             "id": 3,
                             "obj": "Addressee",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 14
                             },
-                            "text": "우리에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리에게"
                         },
                         {
                             "id": 4,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "손짓으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손짓으로"
                         },
                         {
                             "id": 5,
                             "obj": "Message",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 26
+                                "end": 22
                             },
-                            "text": "적의 접근을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "적의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
@@ -128,19 +125,15 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 3
                             },
-                            "text": "우리는 철수에게 우리 쪽으로 오라고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리는"
                         }
                     ],
                     "relations": [

@@ -27,69 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 28
+                                "end": 1
                             },
-                            "text": "약 1983 - 1988 년 이라크와의 전쟁 동안,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "약"
                         },
                         {
                             "id": 3,
-                            "obj": "Undergoer",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Patient",
                             "span": {
                                 "begin": 29,
                                 "end": 32
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 4,
-                            "obj": "Undesirable_Event",
-                            "token_span": [
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19
-                            ],
+                            "obj": "Undesirable_event",
                             "span": {
                                 "begin": 33,
-                                "end": 73
+                                "end": 35
                             },
-                            "text": "수포 ( 겨자 ) 및 신경 작용제를 포함하여, 광범위한 화학무기 공격으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수포"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "영화관은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영화관은"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 14
+                                "end": 7
                             },
-                            "text": "영화 개봉 시간을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영화"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "2시로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "2시로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -109,16 +107,15 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 11
+                                "end": 7
                             },
-                            "text": "예정된 행사를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예정된"
                         }
                     ],
                     "relations": [

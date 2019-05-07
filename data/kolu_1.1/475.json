@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Degree",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 12
                             },
-                            "text": "막",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "막"
                         },
                         {
                             "id": 3,
                             "obj": "Process",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 38
+                                "end": 32
                             },
-                            "text": "이스라엘-미국-팔레스타인 정상회담을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이스라엘-미국-팔레스타인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

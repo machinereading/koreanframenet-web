@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 42,
                                 "end": 45
                             },
-                            "text": "중국이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중국이"
                         },
                         {
                             "id": 3,
                             "obj": "Activity",
-                            "token_span": [
-                                12,
-                                13,
-                                14,
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 46,
-                                "end": 64
+                                "end": 50
                             },
-                            "text": "이란과의 모든 핵 협력 프로그램을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란과의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

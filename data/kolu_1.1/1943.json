@@ -26,56 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Relative_Location",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Relative_location",
                             "span": {
                                 "begin": 4,
                                 "end": 12
                             },
-                            "text": "Bushehr에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Bushehr에"
                         },
                         {
                             "id": 3,
                             "obj": "Descriptor",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 26,
-                                "end": 40
+                                "end": 27
                             },
-                            "text": "2 개의 부분적으로 건설된",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "2"
                         },
                         {
                             "id": 4,
                             "obj": "Use",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 41,
                                 "end": 45
                             },
-                            "text": "동력로를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "동력로를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

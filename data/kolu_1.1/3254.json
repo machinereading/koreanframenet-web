@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 50
                             },
-                            "text": "2000년,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "2000년,"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 51,
                                 "end": 57
                             },
-                            "text": "미야케지마의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미야케지마의"
                         },
                         {
                             "id": 4,
                             "obj": "Event",
-                            "token_span": [
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 58,
-                                "end": 69
+                                "end": 62
                             },
-                            "text": "오야마가 분화하면서,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오야마가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

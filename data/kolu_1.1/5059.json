@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "문밖에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "문밖에서"
                         },
                         {
                             "id": 3,
                             "obj": "Voice",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 13
+                                "end": 8
                             },
-                            "text": "사람들 말소리가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사람들"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

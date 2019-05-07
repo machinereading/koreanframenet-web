@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Part",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 22
                             },
-                            "text": "특허발명이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "특허발명이"
                         },
                         {
                             "id": 3,
                             "obj": "Total",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 34
+                                "end": 30
                             },
-                            "text": "보호 범위에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "보호"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

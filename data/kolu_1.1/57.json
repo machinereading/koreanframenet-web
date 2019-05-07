@@ -27,52 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Communicator",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "나는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는"
                         },
                         {
                             "id": 3,
-                            "obj": "Indicated_Entity",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Indicated_entity",
                             "span": {
                                 "begin": 3,
                                 "end": 8
                             },
-                            "text": "인문대쪽을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "인문대쪽을"
                         },
                         {
                             "id": 4,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 9,
                                 "end": 14
                             },
-                            "text": "손가락으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손가락으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

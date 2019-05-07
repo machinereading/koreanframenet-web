@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Distributor",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "피의자는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "피의자는"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "일반인으로 하여금",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일반인으로"
                         },
                         {
                             "id": 4,
                             "obj": "Goods",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "마약을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "마약을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

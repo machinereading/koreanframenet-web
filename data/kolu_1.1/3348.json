@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "말을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "말을"
                         }
                     ],
                     "relations": [
@@ -71,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Deformer",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "저 녀석이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "저"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 11
+                                "end": 8
                             },
-                            "text": "우리 일을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

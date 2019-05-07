@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "장모님은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "장모님은"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "손으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손으로"
                         },
                         {
                             "id": 4,
                             "obj": "Victim",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 16
+                                "end": 13
                             },
-                            "text": "씨암탉의 목을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "씨암탉의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

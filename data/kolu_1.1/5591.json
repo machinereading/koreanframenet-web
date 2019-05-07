@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Persistent_Characteristic",
-                            "token_span": [
-                                8,
-                                9
-                            ],
+                            "obj": "Persistent_characteristic",
                             "span": {
                                 "begin": 33,
-                                "end": 40
+                                "end": 36
                             },
-                            "text": "교직에 몸담은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교직에"
                         },
                         {
                             "id": 3,
                             "obj": "Person",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 41,
                                 "end": 45
                             },
-                            "text": "자로서,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자로서,"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

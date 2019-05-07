@@ -27,34 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "영철이는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영철이는"
                         },
                         {
                             "id": 3,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "방문을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "방문을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -88,57 +88,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 1
                             },
-                            "text": "이 인공 눈꺼플은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 14
+                                "end": 11
                             },
-                            "text": "1 초에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 20
+                                "end": 16
                             },
-                            "text": "4 천번을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "4"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -172,16 +168,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                5
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 16,
                                 "end": 20
                             },
-                            "text": "공장문을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공장문을"
                         }
                     ],
                     "relations": [

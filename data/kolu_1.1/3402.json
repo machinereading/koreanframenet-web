@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "손을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손을"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 8
+                                "end": 5
                             },
-                            "text": "컵을 항해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "컵을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

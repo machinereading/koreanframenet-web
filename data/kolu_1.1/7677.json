@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Container_Possessor",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Container_possessor",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "이란의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란의"
                         },
                         {
                             "id": 3,
                             "obj": "Use",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 10
+                                "end": 7
                             },
-                            "text": "우라늄 농축",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우라늄"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

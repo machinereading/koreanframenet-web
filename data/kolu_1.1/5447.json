@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Descriptor",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 16
+                                "end": 8
                             },
-                            "text": "명분보다 실리를 취하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "명분보다"
                         },
                         {
                             "id": 3,
                             "obj": "Person",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 20
                             },
-                            "text": "인종인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "인종인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

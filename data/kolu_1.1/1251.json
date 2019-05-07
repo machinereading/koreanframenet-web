@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Offense",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 2
                             },
-                            "text": "나쁜 짓을 일삼으면",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나쁜"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 15
                             },
-                            "text": "감옥으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "감옥으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -91,34 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Suspect",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 3,
                             "obj": "Authorities",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 12,
                                 "end": 15
                             },
-                            "text": "경찰에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "경찰에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

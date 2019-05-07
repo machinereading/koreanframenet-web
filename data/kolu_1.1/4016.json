@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Descriptor",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 38
+                                "end": 23
                             },
-                            "text": "해상이나 호면에서 이착륙할 수 있는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해상이나"
                         },
                         {
                             "id": 3,
                             "obj": "Vehicle",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 39,
                                 "end": 43
                             },
-                            "text": "수상기와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수상기와"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

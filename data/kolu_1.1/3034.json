@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Group",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "무엇보다",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무엇보다"
                         },
                         {
                             "id": 3,
                             "obj": "Subset",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 14
+                                "end": 7
                             },
-                            "text": "가장 중요한 것은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "가장"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

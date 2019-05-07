@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Agentive",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Perceiver_agentive",
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "누군가가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "누군가가"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 13
+                                "end": 9
                             },
-                            "text": "연인들의 대화를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "연인들의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

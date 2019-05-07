@@ -27,72 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "정부는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정부는"
                         },
                         {
                             "id": 3,
                             "obj": "Old",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "수입 기차를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수입"
                         },
                         {
                             "id": 4,
                             "obj": "New",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 17
+                                "end": 13
                             },
-                            "text": "국산 기차로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국산"
                         },
                         {
                             "id": 5,
                             "obj": "Time",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
                                 "end": 22
                             },
-                            "text": "내년부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내년부터"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

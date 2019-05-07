@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Communicator",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 27,
-                                "end": 38
+                                "end": 31
                             },
-                            "text": "국무장관 콜린 파월의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국무장관"
                         },
                         {
                             "id": 3,
                             "obj": "Topic",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 39,
                                 "end": 41
                             },
-                            "text": "유엔",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유엔"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

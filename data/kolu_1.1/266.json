@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "오늘부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오늘부터"
                         },
                         {
                             "id": 3,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 5,
-                                "end": 15
+                                "end": 7
                             },
-                            "text": "우리 학교 도서관은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         },
                         {
                             "id": 4,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 16,
                                 "end": 22
                             },
-                            "text": "외부인들에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "외부인들에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -108,36 +106,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "교육 시장이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교육"
                         },
                         {
                             "id": 3,
-                            "obj": "Container_Portal",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Container_portal",
                             "span": {
                                 "begin": 7,
                                 "end": 10
                             },
-                            "text": "외국에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "외국에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,16 +27,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 31,
                                 "end": 34
                             },
-                            "text": "나를,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나를,"
                         }
                     ],
                     "relations": [
@@ -72,56 +72,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 7,
-                                "end": 16
+                                "end": 8
                             },
-                            "text": "온 동네 아이들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "온"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 19
                             },
-                            "text": "대거",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대거"
                         },
                         {
                             "id": 4,
                             "obj": "Place",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 26
+                                "end": 21
                             },
-                            "text": "그 바닷가에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

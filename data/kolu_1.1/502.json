@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Money",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 31,
-                                "end": 38
+                                "end": 34
                             },
-                            "text": "상품의 대금을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "상품의"
                         }
                     ],
                     "relations": [
@@ -72,54 +71,52 @@
                         {
                             "id": 2,
                             "obj": "Buyer",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "나는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는"
                         },
                         {
                             "id": 3,
                             "obj": "Goods",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 6
                             },
-                            "text": "컴퓨터 값을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "컴퓨터"
                         },
                         {
                             "id": 4,
                             "obj": "Money",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 17
+                                "end": 13
                             },
-                            "text": "6개월 할부로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "6개월"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

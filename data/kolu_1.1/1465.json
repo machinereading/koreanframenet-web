@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Donor",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "배달원은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "배달원은"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 18
+                                "end": 10
                             },
-                            "text": "김선생에게 배달된 서류를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "김선생에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

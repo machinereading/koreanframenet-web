@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Text",
-                            "token_span": [
-                                18,
-                                19,
-                                20,
-                                21
-                            ],
                             "span": {
                                 "begin": 64,
-                                "end": 82
+                                "end": 69
                             },
-                            "text": "의심스러운 활동이나 면허판 번호를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "의심스러운"
                         },
                         {
                             "id": 3,
                             "obj": "Instrument",
-                            "token_span": [
-                                24
-                            ],
                             "span": {
                                 "begin": 89,
                                 "end": 92
                             },
-                            "text": "필기물",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "필기물"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

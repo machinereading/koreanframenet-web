@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Inspector",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "나에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나에게"
                         },
                         {
                             "id": 3,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 8,
-                                "end": 19
+                                "end": 12
                             },
-                            "text": "프로젝트 관련 서류를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "프로젝트"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Degree",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 40,
-                                "end": 45
+                                "end": 42
                             },
-                            "text": "이와 같은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이와"
                         },
                         {
                             "id": 3,
                             "obj": "Entity",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 53,
                                 "end": 58
                             },
-                            "text": "예술가들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예술가들을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

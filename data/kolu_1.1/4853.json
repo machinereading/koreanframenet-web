@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 3,
                                 "end": 9
                             },
-                            "text": "아이들에게도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아이들에게도"
                         },
                         {
                             "id": 3,
                             "obj": "Purpose",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 24
+                                "end": 14
                             },
-                            "text": "이야기의 재미를 알게 하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이야기의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

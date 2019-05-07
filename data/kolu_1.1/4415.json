@@ -26,55 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Passive",
-                            "token_span": [
-                                10,
-                                11
-                            ],
+                            "obj": "Perceiver_passive",
                             "span": {
                                 "begin": 41,
-                                "end": 49
+                                "end": 46
                             },
-                            "text": "우키부네의 귀에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우키부네의"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 50,
-                                "end": 56
+                                "end": 52
                             },
-                            "text": "그런 말들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그런"
                         },
                         {
                             "id": 4,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                14
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 57,
                                 "end": 60
                             },
-                            "text": "들리지",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "들리지"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

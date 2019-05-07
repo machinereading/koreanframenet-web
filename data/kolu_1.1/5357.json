@@ -27,69 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 70
+                                "end": 2
                             },
-                            "text": "1등 당첨자가 없는 경우에는 해당 1등 당첨금은 이월되어 다음 회차 1등 당첨금에 합산되고, 2등~4등 당첨자가 없는 경우에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1등"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 71,
-                                "end": 78
+                                "end": 73
                             },
-                            "text": "해당 당첨금은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해당"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                19
-                            ],
                             "span": {
                                 "begin": 79,
                                 "end": 81
                             },
-                            "text": "전액",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전액"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

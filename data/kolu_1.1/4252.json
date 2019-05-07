@@ -27,20 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 24
+                                "end": 2
                             },
-                            "text": "이번 사태 진압에 2000명이나 되는 경찰이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이번"
                         }
                     ],
                     "relations": [
@@ -76,37 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 8
                             },
-                            "text": "1300억원이나 되는 거금이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1300억원이나"
                         },
                         {
                             "id": 3,
                             "obj": "Addressee",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 22
+                                "end": 18
                             },
-                            "text": "이번 공사에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이번"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

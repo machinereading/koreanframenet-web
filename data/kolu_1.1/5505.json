@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "글은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "글은"
                         },
                         {
                             "id": 3,
                             "obj": "Attribute",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 6
                             },
-                            "text": "처음과 끝이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "처음과"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -89,73 +88,71 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "이 책상은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
-                            "obj": "Standard_Item",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Standard_item",
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "의자와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "의자와"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 12
                             },
-                            "text": "서로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "서로"
                         },
                         {
                             "id": 5,
                             "obj": "Attribute",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 20
+                                "end": 15
                             },
-                            "text": "색깔 면에서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "색깔"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
@@ -189,59 +186,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Attribute",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Profiled_attribute",
                             "span": {
                                 "begin": 4,
-                                "end": 15
+                                "end": 7
                             },
-                            "text": "무지와 지적 무능력이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무지와"
                         },
                         {
                             "id": 3,
-                            "obj": "Standard_Attribute",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Standard_attribute",
                             "span": {
                                 "begin": 16,
-                                "end": 29
+                                "end": 18
                             },
-                            "text": "그들 자신의 좋은 생각과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들"
                         },
                         {
                             "id": 4,
-                            "obj": "Profiled_Attribute",
-                            "token_span": [
-                                9,
-                                10
-                            ],
+                            "obj": "Profiled_attribute",
                             "span": {
                                 "begin": 35,
-                                "end": 43
+                                "end": 37
                             },
-                            "text": "젊은 세대이다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "젊은"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

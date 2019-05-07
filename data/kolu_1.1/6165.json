@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 17
                             },
-                            "text": "회사들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "회사들을"
                         },
                         {
                             "id": 3,
                             "obj": "Act",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 30
+                                "end": 25
                             },
-                            "text": "전자 상거래에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전자"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

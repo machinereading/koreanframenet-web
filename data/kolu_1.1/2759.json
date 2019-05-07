@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "모기떼를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모기떼를"
                         }
                     ],
                     "relations": [
@@ -71,39 +71,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Agentive",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Perceiver_agentive",
                             "span": {
                                 "begin": 25,
-                                "end": 36
+                                "end": 27
                             },
-                            "text": "미군 수송기 1 대가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미군"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 37,
-                                "end": 44
+                                "end": 40
                             },
-                            "text": "피난민 행렬을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "피난민"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -138,35 +134,34 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 53,
-                                "end": 57
+                                "end": 55
                             },
-                            "text": "숨진 채",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "숨진"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 63,
                                 "end": 66
                             },
-                            "text": "영아를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영아를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

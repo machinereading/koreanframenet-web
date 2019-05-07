@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 11
                             },
-                            "text": "로비는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "로비는"
                         }
                     ],
                     "relations": [
@@ -72,35 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 41,
                                 "end": 44
                             },
-                            "text": "그것은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그것은"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 45,
-                                "end": 50
+                                "end": 47
                             },
-                            "text": "전쟁 후에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전쟁"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Occasion",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 22,
-                                "end": 27
+                                "end": 24
                             },
-                            "text": "봄과 가을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "봄과"
                         }
                     ],
                     "relations": [
@@ -72,36 +71,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Social_Event",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Social_event",
                             "span": {
                                 "begin": 18,
-                                "end": 29
+                                "end": 25
                             },
-                            "text": "시바라뜨리라는 축제가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시바라뜨리라는"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                18
-                            ],
                             "span": {
                                 "begin": 80,
                                 "end": 85
                             },
-                            "text": "바라나시에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "바라나시에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

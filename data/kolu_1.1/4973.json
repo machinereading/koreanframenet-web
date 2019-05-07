@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Co_Participant",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Co_participant",
                             "span": {
                                 "begin": 13,
-                                "end": 23
+                                "end": 16
                             },
-                            "text": "소금에 절인 대구로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소금에"
                         },
                         {
                             "id": 3,
                             "obj": "Food",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
                                 "end": 31
                             },
-                            "text": "아키의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아키의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

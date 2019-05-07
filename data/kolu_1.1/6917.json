@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "나는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 8
+                                "end": 5
                             },
-                            "text": "너와 함께",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "너와"
                         },
                         {
                             "id": 4,
                             "obj": "Activity",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 16
+                                "end": 12
                             },
-                            "text": "새로운 인생을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "새로운"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

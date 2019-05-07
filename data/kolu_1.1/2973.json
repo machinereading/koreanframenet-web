@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 29,
-                                "end": 35
+                                "end": 31
                             },
-                            "text": "연방 정부에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "연방"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                8
-                            ],
                             "span": {
                                 "begin": 36,
                                 "end": 39
                             },
-                            "text": "병원을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "병원을"
                         },
                         {
                             "id": 4,
                             "obj": "Source",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 40,
-                                "end": 46
+                                "end": 41
                             },
-                            "text": "주 통제에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

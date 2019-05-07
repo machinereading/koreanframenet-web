@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Participant_1",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 17
+                                "end": 10
                             },
-                            "text": "러시아 독립국가들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "러시아"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 18,
-                                "end": 40
+                                "end": 24
                             },
-                            "text": "대량살상무기 기술을 이란에 이전하는 것과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대량살상무기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

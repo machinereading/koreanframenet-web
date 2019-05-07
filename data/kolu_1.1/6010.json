@@ -27,43 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 25
+                                "end": 17
                             },
-                            "text": "공급 원료나 제품이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공급"
                         },
                         {
                             "id": 3,
                             "obj": "Supplier",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 26,
-                                "end": 49
+                                "end": 29
                             },
-                            "text": "공급자 국가 (연료 생산 공장 ) 에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공급자"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

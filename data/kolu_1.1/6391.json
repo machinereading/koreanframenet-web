@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Competition",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 3,
                                 "end": 7
                             },
-                            "text": "힘으로는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "힘으로는"
                         },
                         {
                             "id": 3,
                             "obj": "Opponent",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 14
+                                "end": 9
                             },
-                            "text": "그 사람에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

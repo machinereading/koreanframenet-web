@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Degree",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 47,
                                 "end": 49
                             },
-                            "text": "아주",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아주"
                         },
                         {
                             "id": 3,
                             "obj": "Individuals",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 53,
-                                "end": 60
+                                "end": 55
                             },
-                            "text": "미국 국회의원",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

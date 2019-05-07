@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Agentive",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Perceiver_agentive",
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "할머니는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "할머니는"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 10
+                                "end": 7
                             },
-                            "text": "왼쪽 귀를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "왼쪽"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

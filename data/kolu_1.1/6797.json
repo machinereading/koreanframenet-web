@@ -26,65 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "이 배는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
-                            "obj": "Standard_Item",
-                            "token_span": [
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
+                            "obj": "Standard_item",
                             "span": {
                                 "begin": 24,
-                                "end": 76
+                                "end": 26
                             },
-                            "text": "정규 속력은 브린디시, 수에즈 간이 1시간 10마일, 수에즈, 뭄바이 간이 9마일 반이었으나,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정규"
                         },
                         {
                             "id": 4,
-                            "obj": "Standard_Item",
-                            "token_span": [
-                                20
-                            ],
+                            "obj": "Standard_item",
                             "span": {
                                 "begin": 79,
                                 "end": 81
                             },
-                            "text": "이를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

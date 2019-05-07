@@ -27,17 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Money",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 17
+                                "end": 9
                             },
-                            "text": "철수에게 밀린 전화비를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "철수에게"
                         }
                     ],
                     "relations": [
@@ -73,34 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Money",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 9
                             },
-                            "text": "신문대금을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신문대금을"
                         },
                         {
                             "id": 3,
                             "obj": "Buyer",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 14
                             },
-                            "text": "동생에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "동생에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

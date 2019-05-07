@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 40,
-                                "end": 47
+                                "end": 43
                             },
-                            "text": "손님이 스스로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손님이"
                         },
                         {
                             "id": 3,
                             "obj": "Means",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 48,
                                 "end": 52
                             },
-                            "text": "해결책을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해결책을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

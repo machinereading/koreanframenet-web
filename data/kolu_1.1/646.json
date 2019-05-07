@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 23
+                                "end": 19
                             },
-                            "text": "곳의 지가를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "곳의"
                         }
                     ],
                     "relations": [
@@ -72,16 +71,15 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 36,
-                                "end": 44
+                                "end": 39
                             },
-                            "text": "손실을 안겼다며",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손실을"
                         }
                     ],
                     "relations": [
@@ -117,54 +115,52 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "학교에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "학교에서"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 16
+                                "end": 8
                             },
-                            "text": "새학기 등록금 인상을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "새학기"
                         },
                         {
                             "id": 4,
                             "obj": "Medium",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 22,
                                 "end": 25
                             },
-                            "text": "편지가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "편지가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

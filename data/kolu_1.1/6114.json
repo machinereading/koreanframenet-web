@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Signatory",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 3,
                             "obj": "Agreement",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 14
+                                "end": 7
                             },
-                            "text": "핵확산 방지 조약의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵확산"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

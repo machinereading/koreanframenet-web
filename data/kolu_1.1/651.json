@@ -26,41 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Undergoer",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Patient",
                             "span": {
                                 "begin": 20,
-                                "end": 37
+                                "end": 23
                             },
-                            "text": "이라크 어린이들의 1 / 4 이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이라크"
                         },
                         {
                             "id": 3,
-                            "obj": "Undesirable_Event",
-                            "token_span": [
-                                10,
-                                11
-                            ],
+                            "obj": "Undesirable_event",
                             "span": {
                                 "begin": 38,
-                                "end": 46
+                                "end": 40
                             },
-                            "text": "만성 영양실조로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "만성"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,73 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "사장은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사장은"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 14
+                                "end": 6
                             },
-                            "text": "이번 인사 이동에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이번"
                         },
                         {
                             "id": 4,
-                            "obj": "Scheduled_Time",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Scheduled_time",
                             "span": {
                                 "begin": 15,
-                                "end": 22
+                                "end": 18
                             },
-                            "text": "대리급 3명을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대리급"
                         },
                         {
                             "id": 5,
-                            "obj": "Scheduled_Time",
-                            "token_span": [
-                                6
-                            ],
+                            "obj": "Scheduled_time",
                             "span": {
                                 "begin": 23,
                                 "end": 28
                             },
-                            "text": "기획팀으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기획팀으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
@@ -128,35 +125,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "사장님은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사장님은"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "그 업무를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -191,15 +187,15 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 43,
                                 "end": 46
                             },
-                            "text": "예산을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예산을"
                         }
                     ],
                     "relations": [

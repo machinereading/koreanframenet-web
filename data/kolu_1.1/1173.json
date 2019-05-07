@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 59,
-                                "end": 64
+                                "end": 61
                             },
-                            "text": "책을 접할",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "책을"
                         }
                     ],
                     "relations": [
@@ -73,35 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "나는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 29
+                                "end": 26
                             },
-                            "text": "수영을 배울",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수영을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,95 +27,88 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 3
                             },
-                            "text": "이기호 청와대 경제수석은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이기호"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 18
+                                "end": 16
                             },
-                            "text": "16 일",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "16"
                         },
                         {
                             "id": 4,
                             "obj": "Purpose",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 38
+                                "end": 22
                             },
-                            "text": "김대중 대통령의 유럽순방 후속조치로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "김대중"
                         },
                         {
                             "id": 5,
                             "obj": "Place",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 39,
                                 "end": 43
                             },
-                            "text": "서해안에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "서해안에"
                         },
                         {
                             "id": 6,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                10,
-                                11
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 44,
-                                "end": 58
+                                "end": 52
                             },
-                            "text": "유럽연합(EU) 전용공단을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유럽연합(EU)"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 5,
                             "pred": "arg"
                         },
                         {
@@ -150,52 +143,34 @@
                         {
                             "id": 2,
                             "obj": "Components",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 90
+                                "end": 2
                             },
-                            "text": "이를 위해 벤처기업이 밀집돼 있는 서울 강남지역에 ASIC 산업지원센터를 설치하고 이곳을 중심으로 설계업체와 시스템업체, 전문투자, 마케팅, 컨설팅업체들을 집적해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이를"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                18,
-                                19
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 91,
-                                "end": 101
+                                "end": 96
                             },
-                            "text": "'ASIC 타운'을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "'ASIC"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,43 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "다음 개요는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다음"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 40,
-                                "end": 76
+                                "end": 43
                             },
-                            "text": "이란을 둘러싸고 있는 혐의와 화학무기 능력에 대한 객관적인 개관을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

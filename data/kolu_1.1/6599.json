@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 4
                             },
-                            "text": "자동차에 받힌 철제 대문은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자동차에"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 17
                             },
-                            "text": "약간",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "약간"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -52,57 +52,52 @@
                         {
                             "id": 2,
                             "obj": "Assailant",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "미군 전투기는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미군"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 25
+                                "end": 10
                             },
-                            "text": "적과 아무런 연관이 없는 민가를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "적과"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 26,
                                 "end": 31
                             },
-                            "text": "무자비하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무자비하게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -137,78 +132,70 @@
                         {
                             "id": 2,
                             "obj": "Assailant",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "그들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들은"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 8
+                                "end": 6
                             },
-                            "text": "지난 달",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난"
                         },
                         {
                             "id": 4,
                             "obj": "Victim",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 17
+                                "end": 12
                             },
-                            "text": "보고타 사무실을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "보고타"
                         },
                         {
                             "id": 5,
                             "obj": "Result",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 53
+                                "end": 28
                             },
-                            "text": "컴퓨터를 파괴하고 2.5 백만 달러의 피해를 입혔다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "컴퓨터를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

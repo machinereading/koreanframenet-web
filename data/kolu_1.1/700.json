@@ -26,39 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Goal_Area",
-                            "token_span": [
-                                10,
-                                11,
-                                12
-                            ],
+                            "obj": "Goal_area",
                             "span": {
                                 "begin": 42,
-                                "end": 51
+                                "end": 45
                             },
-                            "text": "이란과 전 세계에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란과"
                         },
                         {
                             "id": 3,
                             "obj": "Individuals",
-                            "token_span": [
-                                14,
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 57,
-                                "end": 66
+                                "end": 59
                             },
-                            "text": "값진 백신 제품을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "값진"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Medium",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 1
                             },
-                            "text": "이 문장에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "작가의 생각이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

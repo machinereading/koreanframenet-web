@@ -27,60 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 5
                             },
-                            "text": "2002년 8월에,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "2002년"
                         },
                         {
                             "id": 3,
                             "obj": "Creator",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 14
                             },
-                            "text": "중국은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중국은"
                         },
                         {
                             "id": 4,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 15,
-                                "end": 46
+                                "end": 19
                             },
-                            "text": "미사일과 미사일 기술 수출을 제한하는 규정과 통제 목록을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미사일과"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

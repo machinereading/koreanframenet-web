@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 4,
                                 "end": 6
                             },
-                            "text": "입을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "입을"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 12
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -89,38 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 3
                             },
-                            "text": "조용히 하라는 소리를 들은 강아지가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "조용히"
                         },
                         {
                             "id": 3,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                5
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 20,
                                 "end": 22
                             },
-                            "text": "입을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "입을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

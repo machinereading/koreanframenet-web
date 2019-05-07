@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 25
                             },
-                            "text": "Medellin",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Medellin"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 41,
-                                "end": 48
+                                "end": 44
                             },
-                            "text": "보고타 신문사",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "보고타"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

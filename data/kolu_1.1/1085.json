@@ -27,73 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "한 사람은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한"
                         },
                         {
                             "id": 3,
                             "obj": "Location",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 11
                             },
-                            "text": "아우디에,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아우디에,"
                         },
                         {
                             "id": 4,
                             "obj": "Agent",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 20
+                                "end": 14
                             },
-                            "text": "다른 한 사람은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다른"
                         },
                         {
                             "id": 5,
                             "obj": "Location",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 24
                             },
-                            "text": "나무에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나무에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

@@ -27,52 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Dependent",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 8
                             },
-                            "text": "남서부의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "남서부의"
                         },
                         {
                             "id": 3,
                             "obj": "Degree",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 13
                             },
-                            "text": "증가하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "증가하는"
                         },
                         {
                             "id": 4,
-                            "obj": "Required_Entity",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Required_entity",
                             "span": {
                                 "begin": 14,
                                 "end": 15
                             },
-                            "text": "물",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "물"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

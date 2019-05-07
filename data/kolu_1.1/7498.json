@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Goal",
-                            "token_span": [
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 42,
-                                "end": 51
+                                "end": 43
                             },
-                            "text": "더 깊이 학습하기",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "더"
                         },
                         {
                             "id": 3,
                             "obj": "Means",
-                            "token_span": [
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 55,
-                                "end": 73
+                                "end": 59
                             },
-                            "text": "연구회를 만드는 것도 좋겠습니다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "연구회를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

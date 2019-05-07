@@ -27,59 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Concessive",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 22
+                                "end": 2
                             },
-                            "text": "비록 이러한 시도가 성공적이지 않았지만,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "비록"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 38
+                                "end": 26
                             },
-                            "text": "그리스 국가를 위한 캠페인은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그리스"
                         },
                         {
                             "id": 4,
                             "obj": "Duration",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 39,
                                 "end": 44
                             },
-                            "text": "19세기에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "19세기에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

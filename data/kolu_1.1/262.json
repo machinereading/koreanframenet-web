@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 30,
                                 "end": 36
                             },
-                            "text": "생물학자들의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "생물학자들의"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 46,
-                                "end": 76
+                                "end": 53
                             },
-                            "text": "테러리스트들이 비밀리에 만드는 균주에 필적하는 병원균을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "테러리스트들이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

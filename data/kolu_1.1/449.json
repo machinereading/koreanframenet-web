@@ -27,72 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Participant_1",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "우리 학교는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         },
                         {
                             "id": 3,
                             "obj": "Participant_2",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 13
+                                "end": 9
                             },
-                            "text": "이웃 학교와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이웃"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
                                 "end": 17
                             },
-                            "text": "해마다",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해마다"
                         },
                         {
                             "id": 5,
                             "obj": "Competition",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
                                 "end": 21
                             },
-                            "text": "실력을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실력을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
@@ -127,37 +125,34 @@
                         {
                             "id": 2,
                             "obj": "Participants",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 2
                             },
-                            "text": "우리 학교와 이웃 학교는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         },
                         {
                             "id": 3,
                             "obj": "Competition",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 27,
                                 "end": 30
                             },
-                            "text": "실력을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실력을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

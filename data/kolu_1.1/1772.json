@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Old",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 24
+                                "end": 4
                             },
-                            "text": "내년부터 고속철도에 투입되 왔던 수입 기차가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내년부터"
                         },
                         {
                             "id": 3,
                             "obj": "New",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 31
+                                "end": 27
                             },
-                            "text": "국산 기차로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국산"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

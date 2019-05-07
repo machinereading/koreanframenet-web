@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Aggregateproperty",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Aggregate_property",
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "광범위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "광범위한"
                         },
                         {
                             "id": 3,
                             "obj": "Individuals",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 25
+                                "end": 22
                             },
-                            "text": "독성 염좌",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "독성"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

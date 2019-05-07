@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Predictive_Phenomenon",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Predictive_phenomenon",
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 3
                             },
-                            "text": "그녀의 말에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그녀의"
                         },
                         {
                             "id": 3,
-                            "obj": "Future_Phenomenon",
-                            "token_span": [
-                                2,
-                                3
-                            ],
+                            "obj": "Future_phenomenon",
                             "span": {
                                 "begin": 8,
-                                "end": 16
+                                "end": 12
                             },
-                            "text": "떠나려는 의도가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "떠나려는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 1
                             },
-                            "text": "김 대통령은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "김"
                         },
                         {
                             "id": 3,
                             "obj": "Item",
-                            "token_span": [
-                                17
-                            ],
                             "span": {
                                 "begin": 61,
                                 "end": 64
                             },
-                            "text": "감사를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "감사를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -90,53 +89,52 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 3,
                             "obj": "Category",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "자기 딸에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자기"
                         },
                         {
                             "id": 4,
                             "obj": "Item",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 14
                             },
-                            "text": "리본으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "리본으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

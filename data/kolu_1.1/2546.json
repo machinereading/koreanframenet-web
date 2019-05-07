@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 19,
                                 "end": 22
                             },
-                            "text": "지난달",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난달"
                         },
                         {
                             "id": 3,
                             "obj": "Perceiver",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 31
+                                "end": 27
                             },
-                            "text": "바그다드 당국이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "바그다드"
                         },
                         {
                             "id": 4,
                             "obj": "Figure",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 32,
-                                "end": 38
+                                "end": 34
                             },
-                            "text": "유엔 제재를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유엔"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

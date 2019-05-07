@@ -26,43 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Passive",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Perceiver_passive",
                             "span": {
                                 "begin": 6,
-                                "end": 26
+                                "end": 7
                             },
-                            "text": "전 세계의 건축물을 수없이 봐온 나의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전"
                         },
                         {
                             "id": 3,
                             "obj": "Source",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 39,
-                                "end": 58
+                                "end": 40
                             },
-                            "text": "그 디자인 감각의 훌륭함이었습니다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

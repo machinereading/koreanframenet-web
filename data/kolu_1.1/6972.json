@@ -26,42 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Sound_Maker",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
+                            "obj": "Sound_maker",
                             "span": {
                                 "begin": 8,
-                                "end": 26
+                                "end": 10
                             },
-                            "text": "여덟 개 종들 중 여섯 개 이상을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "여덟"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 29,
-                                "end": 37
+                                "end": 32
                             },
-                            "text": "충분한 종지기가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "충분한"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

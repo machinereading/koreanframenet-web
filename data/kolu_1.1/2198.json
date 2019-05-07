@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Descriptor",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 6
                             },
-                            "text": "주황",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주황"
                         },
                         {
                             "id": 3,
                             "obj": "Wearer",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 20
+                                "end": 15
                             },
-                            "text": "여성 유도인을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "여성"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

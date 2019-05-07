@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Buyer",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 31
+                                "end": 22
                             },
-                            "text": "Union Pacific이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Union"
                         },
                         {
                             "id": 3,
                             "obj": "Goods",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 32,
-                                "end": 50
+                                "end": 38
                             },
-                            "text": "로스앤젤레스 - 솔트레이크 선로를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "로스앤젤레스"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

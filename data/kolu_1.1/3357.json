@@ -26,49 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Standard_Attribute",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
+                            "obj": "Standard_attribute",
                             "span": {
                                 "begin": 12,
-                                "end": 30
+                                "end": 14
                             },
-                            "text": "지난 해 33 백만 달러의 수익에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난"
                         },
                         {
                             "id": 3,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 35,
-                                "end": 78
+                                "end": 41
                             },
-                            "text": "Aetna는 자동차 / 주택소유자 계열에서 23 백만 달러의 손실을 가져왔다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Aetna는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -103,37 +89,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그에"
                         },
                         {
                             "id": 3,
-                            "obj": "Standard_Item",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Standard_item",
                             "span": {
                                 "begin": 8,
-                                "end": 18
+                                "end": 9
                             },
-                            "text": "이 마을의 아이들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

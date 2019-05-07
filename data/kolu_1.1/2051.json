@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Specified_Entity",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Specified_entity",
                             "span": {
                                 "begin": 10,
-                                "end": 23
+                                "end": 14
                             },
-                            "text": "재판까지 가게 된 경우를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "재판까지"
                         },
                         {
                             "id": 3,
                             "obj": "Role",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 26
                             },
-                            "text": "예로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

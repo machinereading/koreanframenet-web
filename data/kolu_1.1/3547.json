@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 0,
                                 "end": 6
                             },
-                            "text": "「나으리는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "「나으리는,"
                         },
                         {
                             "id": 3,
                             "obj": "Path",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 18
+                                "end": 12
                             },
-                            "text": "무코가와의 강을 따라",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무코가와의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 26
+                                "end": 15
                             },
-                            "text": "이러한 아이들의 학습 성장",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이러한"
                         },
                         {
                             "id": 3,
                             "obj": "State",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 27,
                                 "end": 30
                             },
-                            "text": "실태에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실태에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

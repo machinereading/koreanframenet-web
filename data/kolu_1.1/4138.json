@@ -26,61 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 13,
                                 "end": 20
                             },
-                            "text": "Anthim은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Anthim은"
                         },
                         {
                             "id": 3,
-                            "obj": "Landmark_Event",
-                            "token_span": [
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20,
-                                21
-                            ],
+                            "obj": "Landmark_event",
                             "span": {
                                 "begin": 64,
-                                "end": 85
+                                "end": 68
                             },
-                            "text": "치명적인 도전 후 최대 이틀 간의 투여",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "치명적인"
                         },
                         {
                             "id": 4,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                23,
-                                24,
-                                25
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 88,
-                                "end": 102
+                                "end": 91
                             },
-                            "text": "상당한 보호를 보여주었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "상당한"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

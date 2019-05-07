@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 2
                             },
-                            "text": "땅에 떨어진물건을 주울 때는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "땅에"
                         },
                         {
                             "id": 3,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 16,
                                 "end": 19
                             },
-                            "text": "허리를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "허리를"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 20,
                                 "end": 23
                             },
-                            "text": "갑자기",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "갑자기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

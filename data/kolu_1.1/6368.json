@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Heat_Source",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Heat_source",
                             "span": {
                                 "begin": 4,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "더운 날씨에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "더운"
                         },
                         {
                             "id": 3,
                             "obj": "Entity",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 13
                             },
-                            "text": "몸이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "몸이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

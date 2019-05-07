@@ -27,42 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cognizer",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 23
+                                "end": 3
                             },
-                            "text": "스페인 수상 Felipe Gonzalez는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "스페인"
                         },
                         {
                             "id": 3,
                             "obj": "Evidence",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 45
+                                "end": 27
                             },
-                            "text": "일요일 그의 간신히 이긴 선거 승리에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일요일"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

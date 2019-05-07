@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 4
                             },
-                            "text": "Mike Campbell은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Mike"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "금요일",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "금요일"
                         },
                         {
                             "id": 4,
                             "obj": "Patient",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 30
+                                "end": 25
                             },
-                            "text": "그의 차 문을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

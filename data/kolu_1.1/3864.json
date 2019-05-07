@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Source",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "다음 수식에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다음"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 17
+                                "end": 12
                             },
-                            "text": "불필요한 문자들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "불필요한"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

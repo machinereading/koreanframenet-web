@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 10
                             },
-                            "text": "재료",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "재료"
                         },
                         {
                             "id": 3,
                             "obj": "Purpose",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 33
+                                "end": 20
                             },
-                            "text": "생물학적 환경에서 사용하기 위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "생물학적"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

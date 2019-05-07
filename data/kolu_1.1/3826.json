@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                14,
-                                15
-                            ],
                             "span": {
                                 "begin": 53,
-                                "end": 61
+                                "end": 55
                             },
-                            "text": "라스 베이거스에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "라스"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                18
-                            ],
                             "span": {
                                 "begin": 67,
                                 "end": 70
                             },
-                            "text": "번영을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "번영을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

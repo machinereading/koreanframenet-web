@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "New_Leader",
-                            "token_span": [
-                                13,
-                                14
-                            ],
+                            "obj": "New_leader",
                             "span": {
                                 "begin": 48,
-                                "end": 58
+                                "end": 52
                             },
-                            "text": "프랭크린 루즈벨트가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "프랭크린"
                         },
                         {
                             "id": 3,
                             "obj": "Role",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 59,
                                 "end": 64
                             },
-                            "text": "대통령으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대통령으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

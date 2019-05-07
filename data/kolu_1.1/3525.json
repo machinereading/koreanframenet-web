@@ -26,40 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Occasion",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Landmark_occasion",
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 4
                             },
-                            "text": "알렉산더 사후,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "알렉산더"
                         },
                         {
                             "id": 3,
-                            "obj": "Focal_Occasion",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Focal_occasion",
                             "span": {
                                 "begin": 9,
-                                "end": 31
+                                "end": 11
                             },
-                            "text": "그의 영토는 그의 장군들에게 분배되었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

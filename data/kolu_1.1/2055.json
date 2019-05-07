@@ -27,45 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 47
+                                "end": 3
                             },
-                            "text": "소각에 이은 가수분해를 이용하여 매년 350톤의 신경작용제를 파괴하도록 설계된 시설은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소각에"
                         },
                         {
                             "id": 3,
                             "obj": "Asset",
-                            "token_span": [
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 48,
-                                "end": 57
+                                "end": 50
                             },
-                            "text": "50 백만 루블이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "50"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -100,18 +89,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Intended_Event",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Intended_event",
                             "span": {
                                 "begin": 21,
-                                "end": 34
+                                "end": 24
                             },
-                            "text": "매주, 정기적으로 회의할",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "매주,"
                         }
                     ],
                     "relations": [
@@ -148,37 +135,34 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 1
                             },
-                            "text": "반 시간 여행에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "반"
                         },
                         {
                             "id": 3,
                             "obj": "Asset",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 17
+                                "end": 11
                             },
-                            "text": "50 홍콩달러가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "50"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

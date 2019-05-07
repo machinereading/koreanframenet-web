@@ -26,55 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Agentive",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Perceiver_agentive",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "나는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는"
                         },
                         {
                             "id": 3,
                             "obj": "Means",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 23
+                                "end": 15
                             },
-                            "text": "커피를 마시는 척하며",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "커피를"
                         },
                         {
                             "id": 4,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 27
                             },
-                            "text": "향기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "향기를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -110,35 +108,34 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "맥주 냄새를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "맥주"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 11
                             },
-                            "text": "조심스레",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "조심스레"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

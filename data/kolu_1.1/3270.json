@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Authority",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 11
+                                "end": 7
                             },
-                            "text": "입법 기관도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "입법"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 12,
                                 "end": 15
                             },
-                            "text": "도박을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도박을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

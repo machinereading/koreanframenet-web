@@ -26,61 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Passive",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Perceiver_passive",
                             "span": {
                                 "begin": 11,
-                                "end": 24
+                                "end": 15
                             },
-                            "text": "IAEA 조사관들에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "IAEA"
                         },
                         {
                             "id": 3,
                             "obj": "State",
-                            "token_span": [
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 37,
-                                "end": 53
+                                "end": 40
                             },
-                            "text": "적어도 두 개의 다른 장소에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "적어도"
                         },
                         {
                             "id": 4,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 61,
-                                "end": 72
+                                "end": 64
                             },
-                            "text": "고농축 우라늄 흔적은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "고농축"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 13
+                                "end": 8
                             },
-                            "text": "어느 기업이든",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어느"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 20
+                                "end": 17
                             },
-                            "text": "변하기 힘든",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "변하기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

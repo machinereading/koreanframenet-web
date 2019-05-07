@@ -52,36 +52,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Responsible_Party",
-                            "token_span": [
-                                5,
-                                6
-                            ],
+                            "obj": "Responsible_party",
                             "span": {
                                 "begin": 23,
-                                "end": 31
+                                "end": 25
                             },
-                            "text": "작가 에이전트의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가"
                         },
                         {
                             "id": 3,
                             "obj": "Duty",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 32,
                                 "end": 34
                             },
-                            "text": "일을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -116,47 +115,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Responsible_Party",
-                            "token_span": [
-                                5
-                            ],
+                            "obj": "Responsible_party",
                             "span": {
                                 "begin": 30,
                                 "end": 36
                             },
-                            "text": "생물학자들의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "생물학자들의"
                         },
                         {
                             "id": 3,
                             "obj": "Duty",
-                            "token_span": [
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20,
-                                21
-                            ],
                             "span": {
                                 "begin": 46,
-                                "end": 102
+                                "end": 53
                             },
-                            "text": "테러리스트들이 비밀리에 만드는 균주에 필적하는 병원균을 만들고 이들과 싸울 백신과 약을 개발하는 것일",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "테러리스트들이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

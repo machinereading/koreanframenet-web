@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Source_Emitter",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Source_emitter",
                             "span": {
                                 "begin": 35,
                                 "end": 38
                             },
-                            "text": "눈에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "눈에서"
                         },
                         {
                             "id": 3,
                             "obj": "Emission",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 39,
-                                "end": 46
+                                "end": 42
                             },
-                            "text": "뜨거운 광선을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "뜨거운"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

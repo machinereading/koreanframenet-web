@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cognizer",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "보통 사람들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "보통"
                         },
                         {
                             "id": 3,
                             "obj": "Category",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 11
                             },
-                            "text": "암수를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "암수를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

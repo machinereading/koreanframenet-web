@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 3
                             },
-                            "text": "그녀가 하는 생각이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그녀가"
                         },
                         {
                             "id": 3,
                             "obj": "Hearer",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 15
                             },
-                            "text": "우리에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

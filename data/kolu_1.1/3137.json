@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Item_1",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 16
+                                "end": 11
                             },
-                            "text": "마이크로소프트와 오라클은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "마이크로소프트와"
                         },
                         {
                             "id": 3,
                             "obj": "Item_2",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 45,
-                                "end": 53
+                                "end": 47
                             },
-                            "text": "우리 시스코와는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         },
                         {
                             "id": 4,
                             "obj": "Parameter",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 59,
                                 "end": 62
                             },
-                            "text": "분야가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "분야가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

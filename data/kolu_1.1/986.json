@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "그 사람은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 10
                             },
-                            "text": "스스로를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "스스로를"
                         },
                         {
                             "id": 4,
                             "obj": "Feature",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 21
+                                "end": 15
                             },
-                            "text": "세계적인 공학박사로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "세계적인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

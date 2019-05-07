@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Protagonist",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 9
                             },
-                            "text": "종지기들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "종지기들은"
                         }
                     ],
                     "relations": [
@@ -72,35 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Skill",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "선반 작업에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선반"
                         },
                         {
                             "id": 3,
                             "obj": "Protagonist",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 20
                             },
-                            "text": "기능공들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기능공들이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

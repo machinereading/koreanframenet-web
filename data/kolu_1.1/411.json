@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Inspector",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "경찰은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "경찰은"
                         },
                         {
                             "id": 3,
                             "obj": "Inspector",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 12
                             },
-                            "text": "국내과학연구소에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국내과학연구소에"
                         },
                         {
                             "id": 4,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                2,
-                                3
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 13,
-                                "end": 21
+                                "end": 17
                             },
-                            "text": "피살자의 시신을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "피살자의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

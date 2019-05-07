@@ -27,71 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "사내는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사내는"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 17
+                                "end": 13
                             },
-                            "text": "누운 상대를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "누운"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
                                 "end": 20
                             },
-                            "text": "계속",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "계속"
                         },
                         {
                             "id": 5,
                             "obj": "Means",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 25
                             },
-                            "text": "몽둥이로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "몽둥이로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

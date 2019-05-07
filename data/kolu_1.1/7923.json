@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Ingestor",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 23
+                                "end": 11
                             },
-                            "text": "수백 명에 달하는 사람들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수백"
                         },
                         {
                             "id": 3,
                             "obj": "Substance",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 27
                             },
-                            "text": "흡연을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "흡연을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Aggregate",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "고철을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "고철을"
                         }
                     ],
                     "relations": [
@@ -70,75 +70,71 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Event",
-                            "token_span": [
-                                5,
-                                6
-                            ],
+                            "obj": "Containing_event",
                             "span": {
                                 "begin": 19,
-                                "end": 27
+                                "end": 22
                             },
-                            "text": "우리의 보도에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리의"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 34
+                                "end": 30
                             },
-                            "text": "우리 모두가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         },
                         {
                             "id": 4,
                             "obj": "Frequency",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 35,
                                 "end": 38
                             },
-                            "text": "날마다",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "날마다"
                         },
                         {
                             "id": 5,
                             "obj": "Aggregate",
-                            "token_span": [
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 44,
-                                "end": 53
+                                "end": 46
                             },
-                            "text": "모든 좋은 자료를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모든"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
@@ -174,15 +170,15 @@
                         {
                             "id": 2,
                             "obj": "Aggregate",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 12
                             },
-                            "text": "우표를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우표를"
                         }
                     ],
                     "relations": [
@@ -218,57 +214,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 13
+                                "end": 6
                             },
-                            "text": "지난 10 년동안",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
                                 "end": 19
                             },
-                            "text": "미국내에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국내에서"
                         },
                         {
                             "id": 4,
                             "obj": "Aggregate",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 31
+                                "end": 22
                             },
-                            "text": "군사 및 경제 정보를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "군사"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

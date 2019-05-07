@@ -27,63 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 20
+                                "end": 1
                             },
-                            "text": "이 시설들과 이란의 총체적 프로그램은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19
-                            ],
                             "span": {
                                 "begin": 48,
-                                "end": 74
+                                "end": 51
                             },
-                            "text": "시설의 목적과 능력에 대한 논쟁이 해결될 때까지",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시설의"
                         },
                         {
                             "id": 4,
                             "obj": "State",
-                            "token_span": [
-                                20,
-                                21
-                            ],
                             "span": {
                                 "begin": 75,
-                                "end": 79
+                                "end": 77
                             },
-                            "text": "그럴 것",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그럴"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

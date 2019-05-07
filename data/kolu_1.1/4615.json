@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 26
                             },
-                            "text": "그의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그의"
                         },
                         {
                             "id": 3,
                             "obj": "Domain",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 27,
-                                "end": 32
+                                "end": 29
                             },
-                            "text": "자유 시장",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자유"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

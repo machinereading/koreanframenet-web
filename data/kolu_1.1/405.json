@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 10,
                                 "end": 14
                             },
-                            "text": "무기검사",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무기검사"
                         }
                     ],
                     "relations": [
@@ -98,37 +98,34 @@
                         {
                             "id": 2,
                             "obj": "Inspector",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 28
+                                "end": 18
                             },
-                            "text": "화학무기 금지 기구에 의한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화학무기"
                         },
                         {
                             "id": 3,
-                            "obj": "Location_Of_Inspector",
-                            "token_span": [
-                                9
-                            ],
+                            "obj": "Location_of_protagonist",
                             "span": {
                                 "begin": 35,
                                 "end": 37
                             },
-                            "text": "현장",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "현장"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

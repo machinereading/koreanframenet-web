@@ -27,62 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "그것이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그것이"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 30
+                                "end": 6
                             },
-                            "text": "기업 전자 스파이 행위에 관한 온종일의 회의에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기업"
                         },
                         {
                             "id": 4,
                             "obj": "Speaker",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 31,
-                                "end": 49
+                                "end": 34
                             },
-                            "text": "정부와 개인 안보 전문가들에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정부와"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

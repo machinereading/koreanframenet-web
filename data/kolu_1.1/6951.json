@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "원하는 물건만",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "원하는"
                         },
                         {
                             "id": 3,
                             "obj": "Recipient",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 17
                             },
-                            "text": "핵심요원에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵심요원에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

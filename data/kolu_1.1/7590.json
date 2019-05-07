@@ -27,61 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 3
                             },
-                            "text": "독립된 첫 10년 간,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "독립된"
                         },
                         {
                             "id": 3,
                             "obj": "Destroyer",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 19
                             },
-                            "text": "카자흐스탄은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "카자흐스탄은"
                         },
                         {
                             "id": 4,
-                            "obj": "Undergoer",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
+                            "obj": "Patient",
                             "span": {
                                 "begin": 20,
-                                "end": 46
+                                "end": 22
                             },
-                            "text": "자국 영토에 남은 소비에트 무기 시스템과 시설을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자국"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -113,28 +104,9 @@
                             ],
                             "role": "TARGET",
                             "text": "해체를"
-                        },
-                        {
-                            "id": 2,
-                            "obj": "Gov",
-                            "token_span": [
-                                8
-                            ],
-                            "span": {
-                                "begin": 33,
-                                "end": 38
-                            },
-                            "text": "이전하였고",
-                            "role": "ARGUMENT"
                         }
                     ],
-                    "relations": [
-                        {
-                            "subj": 1,
-                            "obj": 2,
-                            "pred": "arg"
-                        }
-                    ],
+                    "relations": [],
                     "sent_id": "2694",
                     "lu": "해체.n.Destroying",
                     "text": "모든 ICBM은 1996년 9월 까지 해체를 위해 러시아로 이전하였고 미사일 격납고와 격납고 구조물은 1999년 9월 까지 미국의 국방 협력 위협 감소부 ( CTR ) 관장 하에 파괴되었다."

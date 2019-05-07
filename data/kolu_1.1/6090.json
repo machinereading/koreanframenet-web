@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "이 안건은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
@@ -73,25 +72,15 @@
                         {
                             "id": 2,
                             "obj": "Question",
-                            "token_span": [
-                                28,
-                                29,
-                                30,
-                                31,
-                                32,
-                                33,
-                                34,
-                                35,
-                                36,
-                                37,
-                                38
-                            ],
                             "span": {
                                 "begin": 105,
-                                "end": 138
+                                "end": 107
                             },
-                            "text": "향상 ; 각종 해충과 질병에 도입된 후 토착 식물 종에 대한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                28
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "향상"
                         }
                     ],
                     "relations": [
@@ -128,35 +117,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                20
-                            ],
                             "span": {
                                 "begin": 76,
                                 "end": 79
                             },
-                            "text": "작년의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작년의"
                         },
                         {
                             "id": 3,
                             "obj": "Researcher",
-                            "token_span": [
-                                21,
-                                22
-                            ],
                             "span": {
                                 "begin": 80,
-                                "end": 86
+                                "end": 82
                             },
-                            "text": "해당 단체의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해당"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

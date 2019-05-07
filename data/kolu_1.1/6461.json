@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Possession",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 3
                             },
-                            "text": "노트북 컴퓨터를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "노트북"
                         }
                     ],
                     "relations": [
@@ -72,57 +71,52 @@
                         {
                             "id": 2,
                             "obj": "Owner",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "그들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들은"
                         },
                         {
                             "id": 3,
                             "obj": "Explanation",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 27
+                                "end": 9
                             },
-                            "text": "지속적으로 그들 주변 지역을 통제하기 위해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지속적으로"
                         },
                         {
                             "id": 4,
                             "obj": "Possession",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
                                 "end": 32
                             },
-                            "text": "망원경을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "망원경을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -158,53 +152,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "다음 회의는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다음"
                         },
                         {
                             "id": 3,
                             "obj": "Owner",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 9
                             },
-                            "text": "각자",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "각자"
                         },
                         {
                             "id": 4,
                             "obj": "Possession",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 14
                             },
-                            "text": "도시락을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도시락을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

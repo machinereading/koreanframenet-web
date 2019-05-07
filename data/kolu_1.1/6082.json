@@ -27,43 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Components",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 37
+                                "end": 17
                             },
-                            "text": "1989년과 1991년 사이에 플루토늄 재처리로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1989년과"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 42,
-                                "end": 58
+                                "end": 44
                             },
-                            "text": "하나 혹은 두 개의 핵 폭탄을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "하나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

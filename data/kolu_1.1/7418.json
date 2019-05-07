@@ -27,75 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 50
                             },
-                            "text": "2000년,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "2000년,"
                         },
                         {
                             "id": 3,
-                            "obj": "Undesirable",
-                            "token_span": [
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Undesirable_location",
                             "span": {
                                 "begin": 51,
-                                "end": 69
+                                "end": 57
                             },
-                            "text": "미야케지마의 오야마가 분화하면서,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미야케지마의"
                         },
                         {
                             "id": 4,
                             "obj": "Escapee",
-                            "token_span": [
-                                20,
-                                21,
-                                22
-                            ],
                             "span": {
                                 "begin": 90,
-                                "end": 98
+                                "end": 91
                             },
-                            "text": "섬 주민 전체가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "섬"
                         },
                         {
                             "id": 5,
                             "obj": "Goal",
-                            "token_span": [
-                                23,
-                                24
-                            ],
                             "span": {
                                 "begin": 99,
-                                "end": 104
+                                "end": 100
                             },
-                            "text": "섬 밖으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "섬"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

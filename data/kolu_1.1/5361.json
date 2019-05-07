@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "정치적",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정치적"
                         }
                     ],
                     "relations": [
@@ -72,15 +72,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "내리는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내리는"
                         }
                     ],
                     "relations": [
@@ -117,18 +117,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 19
+                                "end": 6
                             },
-                            "text": "이 주장이 사실이라고 믿을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
@@ -191,69 +188,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "우리가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리가"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 14
+                                "end": 11
                             },
-                            "text": "원하지 않는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "원하지"
                         },
                         {
                             "id": 4,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20,
-                                21
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 19,
-                                "end": 90
+                                "end": 23
                             },
-                            "text": "효과적인 교육은 일반적으로 인간 본성과 특히 젊은이들의 인간 본성에 대한 일부 소중히 간직한 추상적인 믿음을 우리가 포기하기를,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "효과적인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -289,26 +269,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 48
+                                "end": 2
                             },
-                            "text": "특정 테러리스트 단체나 개인이 다른 종류의 무기에 비해 화학 생물무기의 사용을 선호하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "특정"
                         }
                     ],
                     "relations": [
@@ -345,16 +314,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 16
+                                "end": 12
                             },
-                            "text": "이러한 조치의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이러한"
                         }
                     ],
                     "relations": [
@@ -391,21 +359,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 37
+                                "end": 12
                             },
-                            "text": "왜 표 분리가 남부에서 특히 두드러졌는지에 대해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "왜"
                         }
                     ],
                     "relations": [
@@ -520,34 +482,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "그녀의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그녀의"
                         },
                         {
                             "id": 3,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "허물의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "허물의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -583,18 +545,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 3
                             },
-                            "text": "이란이 생물무기 프로그램을 추구하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란이"
                         }
                     ],
                     "relations": [
@@ -631,17 +590,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 70,
-                                "end": 84
+                                "end": 72
                             },
-                            "text": "이런 사건이 발생했습니다,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이런"
                         }
                     ],
                     "relations": [
@@ -678,16 +635,15 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 51,
-                                "end": 60
+                                "end": 55
                             },
-                            "text": "처녀성을 중시하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "처녀성을"
                         }
                     ],
                     "relations": [

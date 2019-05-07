@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Manner",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 26
+                                "end": 23
                             },
-                            "text": "한정되어 있기",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한정되어"
                         }
                     ],
                     "relations": [
@@ -72,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 26
+                                "end": 23
                             },
-                            "text": "합성과정 중에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "합성과정"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                8,
-                                9
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 32,
-                                "end": 40
+                                "end": 36
                             },
-                            "text": "부산물의 제거가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "부산물의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

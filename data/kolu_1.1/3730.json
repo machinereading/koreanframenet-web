@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 3
                             },
-                            "text": "총리의 대외 정책이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "총리의"
                         },
                         {
                             "id": 3,
                             "obj": "Medium",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 17
+                                "end": 13
                             },
-                            "text": "이번 연설을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이번"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -92,35 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 3
                             },
-                            "text": "10분 전에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "10분"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 10
                             },
-                            "text": "개회가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "개회가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

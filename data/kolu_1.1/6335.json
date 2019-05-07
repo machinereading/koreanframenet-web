@@ -27,36 +27,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 15,
                                 "end": 20
                             },
-                            "text": "어린이들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어린이들은"
                         },
                         {
                             "id": 3,
                             "obj": "Area",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 29
+                                "end": 25
                             },
-                            "text": "선미갑판 위에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선미갑판"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

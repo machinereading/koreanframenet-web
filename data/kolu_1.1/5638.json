@@ -27,17 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 2
                             },
-                            "text": "돌에 맞은 항아리가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "돌에"
                         }
                     ],
                     "relations": [
@@ -73,37 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Destroyer",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 11
+                                "end": 4
                             },
-                            "text": "아버지의 사업 실패로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아버지의"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 17
+                                "end": 13
                             },
-                            "text": "온 집안이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "온"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

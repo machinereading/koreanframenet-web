@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "그것을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그것을"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 24
+                                "end": 15
                             },
-                            "text": "Lubbock 이나 어떤 곳에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Lubbock"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

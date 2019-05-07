@@ -26,22 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 4,
-                                "end": 27
+                                "end": 5
                             },
-                            "text": "그 동안 경찰의 수사망을 피해 다닌 것으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
@@ -76,36 +70,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "그의 주장은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그의"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 11
                             },
-                            "text": "거짓으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "거짓으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

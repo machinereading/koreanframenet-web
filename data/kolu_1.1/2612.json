@@ -52,17 +52,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Salient_Entity",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Salient_entity",
                             "span": {
                                 "begin": 4,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "이 나라의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
@@ -124,16 +123,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Salient_Entity",
-                            "token_span": [
-                                15
-                            ],
+                            "obj": "Salient_entity",
                             "span": {
                                 "begin": 59,
                                 "end": 62
                             },
-                            "text": "타운의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "타운의"
                         }
                     ],
                     "relations": [
@@ -170,15 +169,15 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그런",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그런"
                         }
                     ],
                     "relations": [
@@ -215,36 +214,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 31,
                                 "end": 34
                             },
-                            "text": "일본의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일본의"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 39,
-                                "end": 53
+                                "end": 44
                             },
-                            "text": "언제까지나 어두울 것이라는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "언제까지나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,18 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Parts",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 2
                             },
-                            "text": "동양 철학과 현대 물리학이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "동양"
                         }
                     ],
                     "relations": [
@@ -74,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Part_1",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "동양 철학을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "동양"
                         },
                         {
                             "id": 3,
                             "obj": "Part_2",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 17
+                                "end": 12
                             },
-                            "text": "현대 물리학에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "현대"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

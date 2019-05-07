@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 10
                             },
-                            "text": "Biodefense 센터에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Biodefense"
                         },
                         {
                             "id": 3,
-                            "obj": "Whole_Patient",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Whole_patient",
                             "span": {
                                 "begin": 20,
                                 "end": 22
                             },
-                            "text": "공사",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공사"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

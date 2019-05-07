@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 8
                             },
-                            "text": "증인에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "증인에게"
                         },
                         {
                             "id": 3,
                             "obj": "Topic",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 20
+                                "end": 12
                             },
-                            "text": "자신이 목격한 상황을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자신이"
                         },
                         {
                             "id": 4,
                             "obj": "Place",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 25
                             },
-                            "text": "법정에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "법정에서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

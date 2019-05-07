@@ -27,45 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 60
+                                "end": 15
                             },
-                            "text": "Natanz에 위치한 이란의 원심 분리기 농축 프로그램과 Arak에 있는 중수관련 활동에 대한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Natanz에"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 61,
                                 "end": 64
                             },
-                            "text": "새로운",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "새로운"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

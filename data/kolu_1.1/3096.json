@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Degree",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 47,
                                 "end": 49
                             },
-                            "text": "범위",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "범위"
                         }
                     ],
                     "relations": [
@@ -72,35 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 10
                             },
-                            "text": "특허가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "특허가"
                         },
                         {
                             "id": 3,
                             "obj": "Degree",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 27
+                                "end": 24
                             },
-                            "text": "범위에 대해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "범위에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

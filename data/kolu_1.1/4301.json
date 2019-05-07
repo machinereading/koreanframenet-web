@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Witness",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 1
                             },
-                            "text": "그 피의자는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Questioner",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 12
                             },
-                            "text": "수사관에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수사관에게"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 17
                             },
-                            "text": "지독하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지독하게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

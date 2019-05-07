@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Occasion",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Landmark_occasion",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "명절을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "명절을"
                         },
                         {
                             "id": 3,
-                            "obj": "Focal_Occasion",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Focal_occasion",
                             "span": {
                                 "begin": 7,
-                                "end": 25
+                                "end": 9
                             },
-                            "text": "2월 25일부터 3월 3일까지는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "2월"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

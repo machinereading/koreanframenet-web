@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 3,
                             "obj": "Topic",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 25
+                                "end": 6
                             },
-                            "text": "화학 시설과 과거 화학무기 비축에 관한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화학"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

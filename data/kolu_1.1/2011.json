@@ -27,18 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Manner",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 2
                             },
-                            "text": "그런 몰골로 살 바에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그런"
                         }
                     ],
                     "relations": [
@@ -74,37 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Protagonist",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 1
                             },
-                            "text": "저 미치광이 같은 놈은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "저"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 22,
                                 "end": 25
                             },
-                            "text": "어디서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어디서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

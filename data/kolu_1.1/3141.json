@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 39,
-                                "end": 46
+                                "end": 42
                             },
-                            "text": "저녁이 지면서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "저녁이"
                         },
                         {
                             "id": 3,
                             "obj": "Communicator",
-                            "token_span": [
-                                13
-                            ],
                             "span": {
                                 "begin": 56,
                                 "end": 61
                             },
-                            "text": "개구리들의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "개구리들의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

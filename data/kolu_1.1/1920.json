@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "나는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는"
                         },
                         {
                             "id": 3,
                             "obj": "Area",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 23
+                                "end": 19
                             },
-                            "text": "춘천 시내를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "춘천"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Manufacturer",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Producer",
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "만드는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "만드는"
                         }
                     ],
                     "relations": [
@@ -72,40 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Product",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 3
                             },
-                            "text": "생화학 무기는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "생화학"
                         },
                         {
                             "id": 3,
                             "obj": "Resource",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 45
+                                "end": 27
                             },
-                            "text": "쉽게 입수할 수 있는 물질이나 장비로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "쉽게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -141,16 +135,15 @@
                         {
                             "id": 2,
                             "obj": "Product",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 35,
-                                "end": 40
+                                "end": 37
                             },
-                            "text": "겨자 가스",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "겨자"
                         }
                     ],
                     "relations": [
@@ -187,18 +180,15 @@
                         {
                             "id": 2,
                             "obj": "Product",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 22
+                                "end": 10
                             },
-                            "text": "영업력이 없어도 팔리는 상품을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영업력이"
                         }
                     ],
                     "relations": [
@@ -234,38 +224,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Manufacturer",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Producer",
                             "span": {
                                 "begin": 4,
                                 "end": 9
                             },
-                            "text": "과학자들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "과학자들이"
                         },
                         {
                             "id": 3,
                             "obj": "Product",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 45,
-                                "end": 58
+                                "end": 47
                             },
-                            "text": "다른 탄도 미사일 기술을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다른"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

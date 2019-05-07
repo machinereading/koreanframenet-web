@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Process",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 5
                             },
-                            "text": "테러리즘을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "테러리즘을"
                         }
                     ],
                     "relations": [
@@ -72,15 +72,15 @@
                         {
                             "id": 2,
                             "obj": "Process",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "폭력을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "폭력을"
                         }
                     ],
                     "relations": [
@@ -116,38 +116,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Last_Subevent",
-                            "token_span": [
-                                6,
-                                7
-                            ],
+                            "obj": "Final_subevent",
                             "span": {
                                 "begin": 22,
-                                "end": 28
+                                "end": 24
                             },
-                            "text": "제재 해제로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "제재"
                         },
                         {
                             "id": 3,
                             "obj": "Process",
-                            "token_span": [
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 29,
-                                "end": 46
+                                "end": 35
                             },
-                            "text": "이라크에서의 인도주의적인 위기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이라크에서의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -183,36 +180,34 @@
                         {
                             "id": 2,
                             "obj": "Process",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "이번 공사는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이번"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 12
+                                "end": 9
                             },
-                            "text": "1년 안에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1년"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

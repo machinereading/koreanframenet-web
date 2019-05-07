@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 47
                             },
-                            "text": "미국이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국이"
                         },
                         {
                             "id": 3,
                             "obj": "Problem",
-                            "token_span": [
-                                12,
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 48,
-                                "end": 61
+                                "end": 51
                             },
-                            "text": "지역적 위협으로서 이란과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지역적"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

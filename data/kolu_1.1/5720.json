@@ -26,44 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 0,
-                                "end": 32
+                                "end": 3
                             },
-                            "text": "계획된 새로운 로마 도시인 Aelia Capitolina는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "계획된"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 33,
-                                "end": 49
+                                "end": 35
                             },
-                            "text": "헤롯 왕의 예루살렘 폐허 위에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "헤롯"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

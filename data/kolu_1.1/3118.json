@@ -26,55 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Old_Leader",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Old_leader",
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 5
                             },
-                            "text": "이스라엘의 점령에 반대하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이스라엘의"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 20,
                                 "end": 25
                             },
-                            "text": "1987년",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1987년"
                         },
                         {
                             "id": 4,
                             "obj": "Selector",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 26,
                                 "end": 32
                             },
-                            "text": "팔레스타인의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "팔레스타인의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

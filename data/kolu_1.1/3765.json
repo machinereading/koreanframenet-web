@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Idea",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 11
+                                "end": 6
                             },
-                            "text": "자기가 살 집을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자기가"
                         },
                         {
                             "id": 3,
                             "obj": "Cognizer",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 21
+                                "end": 15
                             },
-                            "text": "친구인 건축사에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "친구인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

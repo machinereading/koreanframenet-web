@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Noisy_Event",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Noisy_event",
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 4
                             },
-                            "text": "소나기를 맞아",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소나기를"
                         },
                         {
                             "id": 3,
-                            "obj": "Sound_Source",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Sound_source",
                             "span": {
                                 "begin": 8,
                                 "end": 10
                             },
-                            "text": "옷이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "옷이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -89,16 +88,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Sound_Source",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Sound_source",
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "도랑이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도랑이"
                         }
                     ],
                     "relations": [

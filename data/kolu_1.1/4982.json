@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Victim",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 20
+                                "end": 2
                             },
-                            "text": "무슨 수를 쓰더라도 이 놈을 찾아내서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무슨"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 24
                             },
-                            "text": "반드시",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "반드시"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Means",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 8
                             },
-                            "text": "자살",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자살"
                         }
                     ],
                     "relations": [
@@ -72,17 +72,15 @@
                         {
                             "id": 2,
                             "obj": "Victim",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 33
+                                "end": 22
                             },
-                            "text": "Bushehr 원자로 사이트에서의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Bushehr"
                         }
                     ],
                     "relations": [
@@ -119,75 +117,70 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "오클라호마 시티의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오클라호마"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 19
+                                "end": 12
                             },
-                            "text": "연방 건물에 대한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "연방"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 29
+                                "end": 25
                             },
-                            "text": "1995년 4월의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1995년"
                         },
                         {
                             "id": 5,
                             "obj": "Assailant",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 38,
-                                "end": 54
+                                "end": 45
                             },
-                            "text": "Timothy McVeigh는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Timothy"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

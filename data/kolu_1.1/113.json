@@ -27,36 +27,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                3,
-                                4
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 13,
-                                "end": 24
+                                "end": 18
                             },
-                            "text": "Grand Slam이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Grand"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 25,
                                 "end": 29
                             },
-                            "text": "존경받을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "존경받을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

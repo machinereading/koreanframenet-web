@@ -27,17 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Protection",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 22
+                                "end": 15
                             },
-                            "text": "여러 대의 차량에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "여러"
                         }
                     ],
                     "relations": [
@@ -73,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "장관은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "장관은"
                         },
                         {
                             "id": 3,
                             "obj": "Protection",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 15
+                                "end": 6
                             },
-                            "text": "여러 명의 경관들에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "여러"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

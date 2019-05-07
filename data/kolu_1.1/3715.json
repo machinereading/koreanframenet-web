@@ -26,54 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Contrast_Set",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Contrast_set",
                             "span": {
                                 "begin": 14,
-                                "end": 23
+                                "end": 18
                             },
-                            "text": "컨테이너 수송에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "컨테이너"
                         },
                         {
                             "id": 3,
-                            "obj": "Limits_Of_Consideration",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Limits_of_consideration",
                             "span": {
                                 "begin": 32,
                                 "end": 37
                             },
-                            "text": "국제적으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국제적으로"
                         },
                         {
                             "id": 4,
                             "obj": "Item",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 47,
                                 "end": 50
                             },
-                            "text": "지역인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지역인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

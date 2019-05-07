@@ -27,34 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 3,
                                 "end": 5
                             },
-                            "text": "매일",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "매일"
                         },
                         {
                             "id": 3,
-                            "obj": "Astronomical_Entity",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Astronomical_entity",
                             "span": {
                                 "begin": 6,
                                 "end": 8
                             },
-                            "text": "동이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "동이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

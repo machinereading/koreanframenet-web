@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Practitioner",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 33,
-                                "end": 40
+                                "end": 35
                             },
-                            "text": "서로 상대방의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "서로"
                         },
                         {
                             "id": 3,
                             "obj": "Activity",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 41,
                                 "end": 44
                             },
-                            "text": "영역에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영역에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,80 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Item",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 40
+                                "end": 7
                             },
-                            "text": "단체 건강보험 운영을 포함하는 Aetna의 피고용자 혜택 부서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "단체"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                9,
-                                10,
-                                11
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 41,
-                                "end": 51
+                                "end": 44
                             },
-                            "text": "106 백만 달러로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "106"
                         },
                         {
                             "id": 4,
                             "obj": "Difference",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 52,
-                                "end": 57
+                                "end": 54
                             },
-                            "text": "34 %의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "34"
                         },
                         {
                             "id": 5,
                             "obj": "Attribute",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 58,
                                 "end": 63
                             },
-                            "text": "실현이익을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실현이익을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

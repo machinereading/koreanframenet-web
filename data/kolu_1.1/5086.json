@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Landmark",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 15
+                                "end": 10
                             },
-                            "text": "지난 해 4월",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난"
                         },
                         {
                             "id": 3,
                             "obj": "Trajector",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 34
+                                "end": 19
                             },
-                            "text": "협약은 유엔 총회에서 채택되었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "협약은"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

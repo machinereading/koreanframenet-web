@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Mass_Theme",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Mass_theme",
                             "span": {
                                 "begin": 19,
                                 "end": 22
                             },
-                            "text": "무기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무기를"
                         },
                         {
                             "id": 3,
                             "obj": "Recipient",
-                            "token_span": [
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 68,
-                                "end": 74
+                                "end": 69
                             },
-                            "text": "군 민병대를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "군"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

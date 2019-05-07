@@ -27,56 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Perceiver",
-                            "token_span": [
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 50,
-                                "end": 58
+                                "end": 53
                             },
-                            "text": "공화당 의원들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공화당"
                         },
                         {
                             "id": 3,
                             "obj": "Figure",
-                            "token_span": [
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 59,
-                                "end": 75
+                                "end": 64
                             },
-                            "text": "선거구민의 관심을 좁히기 위해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선거구민의"
                         },
                         {
                             "id": 4,
                             "obj": "Degree",
-                            "token_span": [
-                                19
-                            ],
                             "span": {
                                 "begin": 76,
                                 "end": 77
                             },
-                            "text": "덜",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "덜"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

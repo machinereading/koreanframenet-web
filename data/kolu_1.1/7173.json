@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Controlling_Entity",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Controlling_entity",
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 2
                             },
-                            "text": "정문 수위실에서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정문"
                         },
                         {
                             "id": 3,
-                            "obj": "Dependent_Entity",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Dependent_entity",
                             "span": {
                                 "begin": 10,
-                                "end": 20
+                                "end": 12
                             },
-                            "text": "외부 차량의 출입을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "외부"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -91,16 +88,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Dependent_Entity",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Dependent_entity",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "위치를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "위치를"
                         }
                     ],
                     "relations": [

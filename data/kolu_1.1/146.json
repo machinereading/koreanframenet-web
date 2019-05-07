@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Prisoner",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 4
                             },
-                            "text": "흉악범인 그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "흉악범인"
                         },
                         {
                             "id": 3,
                             "obj": "Prison",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 11
                             },
-                            "text": "독방에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "독방에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

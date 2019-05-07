@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 2
                             },
-                            "text": "악성 검은 반점은,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "악성"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_State",
-                            "token_span": [
-                                7
-                            ],
+                            "obj": "Final_state",
                             "span": {
                                 "begin": 30,
                                 "end": 35
                             },
-                            "text": "커지거나,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "커지거나,"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

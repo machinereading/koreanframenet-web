@@ -27,60 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 29
+                                "end": 4
                             },
-                            "text": "자마이카 음악 ska -- 그리고 특히 레게 -- 는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자마이카"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 30,
                                 "end": 38
                             },
-                            "text": "1970년대부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1970년대부터"
                         },
                         {
                             "id": 4,
-                            "obj": "Importing_Area",
-                            "token_span": [
-                                11
-                            ],
+                            "obj": "Importing_area",
                             "span": {
                                 "begin": 45,
                                 "end": 51
                             },
-                            "text": "전세계적으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전세계적으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

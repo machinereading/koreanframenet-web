@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Figure",
-                            "token_span": [
-                                16,
-                                17,
-                                18,
-                                19,
-                                20
-                            ],
                             "span": {
                                 "begin": 73,
-                                "end": 97
+                                "end": 76
                             },
-                            "text": "고객, 제조회사, 서플라이어, 유통기업 등이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "고객,"
                         },
                         {
                             "id": 3,
                             "obj": "Ground",
-                            "token_span": [
-                                21,
-                                22
-                            ],
                             "span": {
                                 "begin": 98,
-                                "end": 105
+                                "end": 101
                             },
-                            "text": "단계의 차이를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "단계의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

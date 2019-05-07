@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Supplier",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "중국 회사들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중국"
                         },
                         {
                             "id": 3,
-                            "obj": "Purpose_Of_Recipient",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Imposed_purpose",
                             "span": {
                                 "begin": 8,
-                                "end": 25
+                                "end": 11
                             },
-                            "text": "이란의 화학무기 프로그램을 위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 16
+                                "end": 10
                             },
-                            "text": "연합 투자자들의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "연합"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 19
                             },
-                            "text": "8월",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "8월"
                         },
                         {
                             "id": 4,
                             "obj": "Money",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 33
+                                "end": 26
                             },
-                            "text": "27 백만 달러와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "27"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

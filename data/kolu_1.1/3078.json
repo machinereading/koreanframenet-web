@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19
-                            ],
                             "span": {
                                 "begin": 58,
-                                "end": 89
+                                "end": 62
                             },
-                            "text": "더블린을 연안 가까이에 붙들고 있는 Wicklow 산맥은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "더블린을"
                         },
                         {
                             "id": 3,
-                            "obj": "Location_Of_Protagonist",
-                            "token_span": [
-                                20
-                            ],
+                            "obj": "Location_of_protagonist",
                             "span": {
                                 "begin": 90,
                                 "end": 95
                             },
-                            "text": "어디에서나",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어디에서나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

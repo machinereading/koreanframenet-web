@@ -27,57 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "평양은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "평양은"
                         },
                         {
                             "id": 3,
                             "obj": "Purpose",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 24
+                                "end": 6
                             },
-                            "text": "중유 오일 보급 손실에 대한 보상으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중유"
                         },
                         {
                             "id": 4,
-                            "obj": "Created",
-                            "token_span": [
-                                7
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 25,
                                 "end": 28
                             },
-                            "text": "전기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전기를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -112,41 +107,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 0,
-                                "end": 10
+                                "end": 3
                             },
-                            "text": "육지의 많은 부분은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "육지의"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 19,
-                                "end": 36
+                                "end": 22
                             },
-                            "text": "다양한 열대 과일과 채소 작물을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다양한"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -181,56 +170,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Purpose_Of_Created_Entity",
-                            "token_span": [
-                                5,
-                                6
-                            ],
+                            "obj": "Beneficiary",
                             "span": {
                                 "begin": 20,
-                                "end": 27
+                                "end": 24
                             },
-                            "text": "산업용을 위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "산업용을"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 46,
-                                "end": 56
+                                "end": 49
                             },
-                            "text": "방사성 동위 원소를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "방사성"
                         },
                         {
                             "id": 4,
                             "obj": "Cause",
-                            "token_span": [
-                                17
-                            ],
                             "span": {
                                 "begin": 65,
                                 "end": 68
                             },
-                            "text": "능력을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "능력을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -265,56 +251,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Purpose_Of_Created_Entity",
-                            "token_span": [
-                                10,
-                                11
-                            ],
+                            "obj": "Beneficiary",
                             "span": {
                                 "begin": 39,
-                                "end": 45
+                                "end": 41
                             },
-                            "text": "훈련 목적의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "훈련"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 46,
-                                "end": 56
+                                "end": 49
                             },
-                            "text": "방사성 동위 원소를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "방사성"
                         },
                         {
                             "id": 4,
                             "obj": "Cause",
-                            "token_span": [
-                                17
-                            ],
                             "span": {
                                 "begin": 65,
                                 "end": 68
                             },
-                            "text": "능력을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "능력을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -349,55 +332,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Purpose_Of_Created_Entity",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Beneficiary",
                             "span": {
                                 "begin": 6,
-                                "end": 14
+                                "end": 7
                             },
-                            "text": "핵 분석을 위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "중성자,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중성자,"
                         },
                         {
                             "id": 4,
                             "obj": "Creator",
-                            "token_span": [
-                                18
-                            ],
                             "span": {
                                 "begin": 69,
                                 "end": 73
                             },
-                            "text": "시리아에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시리아에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -432,55 +413,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Purpose_Of_Created_Entity",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Beneficiary",
                             "span": {
                                 "begin": 6,
-                                "end": 14
+                                "end": 7
                             },
-                            "text": "핵 분석을 위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "중성자,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중성자,"
                         },
                         {
                             "id": 4,
                             "obj": "Cause",
-                            "token_span": [
-                                17
-                            ],
                             "span": {
                                 "begin": 65,
                                 "end": 68
                             },
-                            "text": "능력을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "능력을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -515,35 +494,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 23,
                                 "end": 27
                             },
-                            "text": "진균독을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "진균독을"
                         },
                         {
                             "id": 3,
                             "obj": "Cause",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 33,
                                 "end": 35
                             },
-                            "text": "균류",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "균류"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

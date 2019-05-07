@@ -26,43 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Event",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Landmark_event",
                             "span": {
                                 "begin": 5,
-                                "end": 30
+                                "end": 6
                             },
-                            "text": "두 번째 Intifada가 2000년에 시작된",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "두"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 35,
-                                "end": 59
+                                "end": 38
                             },
-                            "text": "700 명 이상의 이스라엘인들이 사살되었고,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "700"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

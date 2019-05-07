@@ -27,25 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Goal",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20
-                            ],
                             "span": {
                                 "begin": 30,
-                                "end": 73
+                                "end": 35
                             },
-                            "text": "교실안에서 교사와 다른 학생들이 지켜보고 있는 가운데 같은 반 롤랜드양의 목을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교실안에서"
                         }
                     ],
                     "relations": [
@@ -81,55 +71,52 @@
                         {
                             "id": 2,
                             "obj": "Purpose",
-                            "token_span": [
-                                14,
-                                15
-                            ],
                             "span": {
                                 "begin": 63,
-                                "end": 68
+                                "end": 65
                             },
-                            "text": "금을 찾아",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "금을"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 69,
-                                "end": 83
+                                "end": 75
                             },
-                            "text": "캘리포니아나 북부 네바다로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "캘리포니아나"
                         },
                         {
                             "id": 4,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                20
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 88,
                                 "end": 96
                             },
-                            "text": "탐사자들이었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "탐사자들이었다."
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

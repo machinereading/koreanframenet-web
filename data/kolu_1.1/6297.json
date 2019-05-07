@@ -26,42 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Event",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Landmark_event",
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 3
                             },
-                            "text": "제2차 세계대전",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "제2차"
                         },
                         {
                             "id": 3,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 12,
-                                "end": 38
+                                "end": 13
                             },
-                            "text": "그 교회는 일본 장교들을 위한 클럽으로 변하였고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

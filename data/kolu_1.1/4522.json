@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 4
                             },
-                            "text": "의료기술 발달로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "의료기술"
                         },
                         {
                             "id": 3,
                             "obj": "Effect",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 14
                             },
-                            "text": "노령인구가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "노령인구가"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 17
                             },
-                            "text": "많이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "많이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

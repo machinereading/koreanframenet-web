@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Part",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 22
+                                "end": 3
                             },
-                            "text": "작품의 중개와 잡무를 떠맡는 것만으로는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작품의"
                         },
                         {
                             "id": 3,
                             "obj": "Whole",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 35
+                                "end": 25
                             },
-                            "text": "작가 에이전트의 역할을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

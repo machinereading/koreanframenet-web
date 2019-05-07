@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 13
+                                "end": 6
                             },
-                            "text": "친구를 잃은 슬픔에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "친구를"
                         },
                         {
                             "id": 4,
                             "obj": "Voice",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
                                 "end": 16
                             },
-                            "text": "흑흑",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "흑흑"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

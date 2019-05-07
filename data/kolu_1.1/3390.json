@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Goal",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "즐거운 시간에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "즐거운"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
                                 "end": 22
                             },
-                            "text": "사람들로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사람들로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

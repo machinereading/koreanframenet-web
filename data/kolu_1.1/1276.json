@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Process",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "오늘 할 일은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오늘"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 10
                             },
-                            "text": "오늘",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오늘"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -91,17 +89,15 @@
                         {
                             "id": 2,
                             "obj": "Process",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 12
+                                "end": 6
                             },
-                            "text": "책을 읽는 것을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "책을"
                         }
                     ],
                     "relations": [
@@ -137,15 +133,15 @@
                         {
                             "id": 2,
                             "obj": "Process",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "작업을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작업을"
                         }
                     ],
                     "relations": [

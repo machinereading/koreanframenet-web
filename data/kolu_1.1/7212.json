@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "아이들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아이들은"
                         },
                         {
                             "id": 3,
                             "obj": "Item",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 5,
                                 "end": 9
                             },
-                            "text": "민영이를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "민영이를"
                         },
                         {
                             "id": 4,
                             "obj": "Category",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 22
+                                "end": 12
                             },
-                            "text": "키가 유난히 큰 아이로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "키가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

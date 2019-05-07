@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                22
-                            ],
                             "span": {
                                 "begin": 100,
                                 "end": 103
                             },
-                            "text": "북한이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                22
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "북한이"
                         },
                         {
                             "id": 3,
                             "obj": "Instrument",
-                            "token_span": [
-                                25,
-                                26
-                            ],
                             "span": {
                                 "begin": 112,
-                                "end": 118
+                                "end": 115
                             },
-                            "text": "대규모 공장",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대규모"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

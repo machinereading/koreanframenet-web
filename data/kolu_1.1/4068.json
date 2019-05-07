@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Skill",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 20,
                                 "end": 23
                             },
-                            "text": "기능도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기능도"
                         }
                     ],
                     "relations": [
@@ -71,35 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Student",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "의사가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "의사가"
                         },
                         {
                             "id": 3,
                             "obj": "Subject",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "중환자의 수술에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중환자의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

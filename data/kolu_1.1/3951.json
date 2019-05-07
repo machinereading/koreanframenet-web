@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 27,
-                                "end": 35
+                                "end": 31
                             },
-                            "text": "마사오를 상대로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "마사오를"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 50,
-                                "end": 61
+                                "end": 55
                             },
-                            "text": "「다카코와 마이카라의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "「다카코와"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

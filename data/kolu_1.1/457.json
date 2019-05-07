@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Instrument",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 17
+                                "end": 9
                             },
-                            "text": "요새화와 철조망에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "요새화와"
                         },
                         {
                             "id": 3,
                             "obj": "Whole",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 22,
                                 "end": 25
                             },
-                            "text": "도시로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도시로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Sound_Source",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Sound_source",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         }
                     ],
                     "relations": [
@@ -70,19 +70,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Sound_Source",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Sound_source",
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 1
                             },
-                            "text": "저 켠에 있던 홍사공이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "저"
                         }
                     ],
                     "relations": [
@@ -117,72 +114,71 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Sound_Source",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Sound_source",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "철호는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "철호는"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 5
                             },
-                            "text": "늘",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "늘"
                         },
                         {
                             "id": 4,
                             "obj": "Place",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 13
+                                "end": 8
                             },
-                            "text": "밥상 머리에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "밥상"
                         },
                         {
                             "id": 5,
-                            "obj": "Noisy_Event",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Noisy_event",
                             "span": {
                                 "begin": 14,
                                 "end": 17
                             },
-                            "text": "신물을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신물을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

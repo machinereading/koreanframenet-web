@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 2
                             },
-                            "text": "이런 사람들은,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이런"
                         }
                     ],
                     "relations": [
@@ -73,35 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 3,
                                 "end": 6
                             },
-                            "text": "나는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는,"
                         },
                         {
                             "id": 3,
                             "obj": "Act",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 27
+                                "end": 23
                             },
-                            "text": "기업 회생의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기업"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,73 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Whole",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "나와 동거인은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나와"
                         },
                         {
                             "id": 3,
                             "obj": "Part_1",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "파는 사람과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "파는"
                         },
                         {
                             "id": 4,
                             "obj": "Part_2",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 23
+                                "end": 18
                             },
-                            "text": "만드는 사람으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "만드는"
                         },
                         {
                             "id": 5,
                             "obj": "Degree",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 27
                             },
-                            "text": "확실히",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "확실히"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

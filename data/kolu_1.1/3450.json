@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Salient_Entity",
-                            "token_span": [
-                                17,
-                                18
-                            ],
+                            "obj": "Salient_entity",
                             "span": {
                                 "begin": 78,
-                                "end": 87
+                                "end": 82
                             },
-                            "text": "어린이와 노인층의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어린이와"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                20
-                            ],
                             "span": {
                                 "begin": 93,
                                 "end": 97
                             },
-                            "text": "사망률에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사망률에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

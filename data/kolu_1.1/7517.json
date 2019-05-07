@@ -27,78 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 2
                             },
-                            "text": "다음 해,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다음"
                         },
                         {
                             "id": 3,
                             "obj": "Buyer",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 4,
                             "obj": "Means",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 40
+                                "end": 15
                             },
-                            "text": "이스라엘에 280 백만 달러 어치의 기름을 제공함으로써",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이스라엘에"
                         },
                         {
                             "id": 5,
                             "obj": "Goods",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 41,
-                                "end": 53
+                                "end": 45
                             },
-                            "text": "프로젝트 Flower에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "프로젝트"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

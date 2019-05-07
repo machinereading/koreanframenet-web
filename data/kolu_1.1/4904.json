@@ -27,95 +27,88 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 20
+                                "end": 2
                             },
-                            "text": "내가 부인과 이야기하고 있는 동안에,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내가"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 24
                             },
-                            "text": "문제가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "문제가"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 25,
                                 "end": 28
                             },
-                            "text": "자연히",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자연히"
                         },
                         {
                             "id": 5,
                             "obj": "Source",
-                            "token_span": [
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 29,
-                                "end": 41
+                                "end": 32
                             },
-                            "text": "선생에 대한 이야기에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선생에"
                         },
                         {
                             "id": 6,
                             "obj": "Goal",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 42,
-                                "end": 46
+                                "end": 43
                             },
-                            "text": "그 일로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 5,
                             "pred": "arg"
                         },
                         {

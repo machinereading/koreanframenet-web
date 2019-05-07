@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 22
+                                "end": 18
                             },
-                            "text": "벤담 학파의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "벤담"
                         },
                         {
                             "id": 3,
                             "obj": "Feature",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 23,
                                 "end": 27
                             },
-                            "text": "반역사적",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "반역사적"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

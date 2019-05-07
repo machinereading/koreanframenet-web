@@ -27,53 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Victim",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 2
                             },
-                            "text": "많은 유대인들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "많은"
                         },
                         {
                             "id": 3,
                             "obj": "Killer",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 14
                             },
-                            "text": "히틀러에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "히틀러에게"
                         },
                         {
                             "id": 4,
                             "obj": "Means",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "독가스로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "독가스로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -108,37 +107,34 @@
                         {
                             "id": 2,
                             "obj": "Victim",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 16
+                                "end": 5
                             },
-                            "text": "화재건물에 있던 사람들 모두가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화재건물에"
                         },
                         {
                             "id": 3,
                             "obj": "Cause",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 22
                             },
-                            "text": "유독가스에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유독가스에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

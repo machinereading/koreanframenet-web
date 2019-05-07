@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 23
+                                "end": 18
                             },
-                            "text": "5,144 메가와트",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "5,144"
                         },
                         {
                             "id": 3,
                             "obj": "Entity",
-                            "token_span": [
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 40
+                                "end": 29
                             },
-                            "text": "세 개의 원자력발전소에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "세"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

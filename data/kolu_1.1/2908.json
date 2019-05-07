@@ -53,35 +53,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 64,
                                 "end": 67
                             },
-                            "text": "미국의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국의"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                16,
-                                17
-                            ],
                             "span": {
                                 "begin": 68,
-                                "end": 74
+                                "end": 71
                             },
-                            "text": "미사일 방어",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미사일"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,73 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Communicator",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 27,
                                 "end": 30
                             },
-                            "text": "그들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들은"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 31,
-                                "end": 39
+                                "end": 33
                             },
-                            "text": "오늘 판 신문에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오늘"
                         },
                         {
                             "id": 4,
                             "obj": "Medium",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 40,
                                 "end": 43
                             },
-                            "text": "사설로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사설로"
                         },
                         {
                             "id": 5,
                             "obj": "Content",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 44,
-                                "end": 51
+                                "end": 47
                             },
-                            "text": "그들의 분노를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

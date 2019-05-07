@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Convict",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 15
                             },
-                            "text": "살인자의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "살인자의"
                         }
                     ],
                     "relations": [
@@ -72,56 +72,52 @@
                         {
                             "id": 2,
                             "obj": "Convict",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 23
+                                "end": 3
                             },
-                            "text": "죄목이 어떤 것이든 잡혀들어온 사람들에게는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "죄목이"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 27
                             },
-                            "text": "무조건",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무조건"
                         },
                         {
                             "id": 4,
-                            "obj": "Term_Of_Sentence",
-                            "token_span": [
-                                6
-                            ],
+                            "obj": "Term_of_sentence",
                             "span": {
                                 "begin": 28,
                                 "end": 32
                             },
-                            "text": "25년이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "25년이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -156,40 +152,34 @@
                         {
                             "id": 2,
                             "obj": "Convict",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 27
+                                "end": 2
                             },
-                            "text": "수십 명이나 되는 사람을 잔인하게 살해한 범인에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수십"
                         },
                         {
                             "id": 3,
-                            "obj": "Term_Of_Sentence",
-                            "token_span": [
-                                7
-                            ],
+                            "obj": "Term_of_sentence",
                             "span": {
                                 "begin": 28,
                                 "end": 31
                             },
-                            "text": "사형이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사형이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

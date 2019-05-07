@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Employer",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "구조본은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "구조본은"
                         },
                         {
                             "id": 3,
                             "obj": "Position",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 14
+                                "end": 7
                             },
-                            "text": "자금 담당 이사로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자금"
                         },
                         {
                             "id": 4,
                             "obj": "Employee",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 20
+                                "end": 16
                             },
-                            "text": "이 박사를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

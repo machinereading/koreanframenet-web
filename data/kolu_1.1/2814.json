@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Support",
-                            "token_span": [
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 42,
-                                "end": 46
+                                "end": 43
                             },
-                            "text": "그 결과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Proposition",
-                            "token_span": [
-                                13,
-                                14,
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 47,
-                                "end": 64
+                                "end": 52
                             },
-                            "text": "Khan의 네트워크에 대해 많이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Khan의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cognizer",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 1
                             },
-                            "text": "이 적토마는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Item",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 24
                             },
-                            "text": "영웅을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영웅을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

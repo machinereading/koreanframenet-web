@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Attribute",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 31
+                                "end": 27
                             },
-                            "text": "힘의 균형이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "힘의"
                         },
                         {
                             "id": 3,
-                            "obj": "Particular_Iteration",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Particular_iteration",
                             "span": {
                                 "begin": 32,
                                 "end": 34
                             },
-                            "text": "다시",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다시"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,56 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Defendant",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 3,
                             "obj": "Charges",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 24
+                                "end": 4
                             },
-                            "text": "알 카이다와 유대관계를 가졌다는 고소가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "알"
                         },
                         {
                             "id": 4,
                             "obj": "Place",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 25,
                                 "end": 30
                             },
-                            "text": "요르단에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "요르단에서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

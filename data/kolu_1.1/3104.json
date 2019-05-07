@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Original",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 5
                             },
-                            "text": "레오나르도 다빈치의 작품 중",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "레오나르도"
                         },
                         {
                             "id": 3,
                             "obj": "Copy",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 20
+                                "end": 17
                             },
-                            "text": "몇 점은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "몇"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

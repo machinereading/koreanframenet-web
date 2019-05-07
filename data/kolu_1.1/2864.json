@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Ctrlr",
-                            "token_span": [
-                                6
-                            ],
+                            "obj": "Hindrance",
                             "span": {
                                 "begin": 26,
                                 "end": 30
                             },
-                            "text": "위로부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "위로부터"
                         }
                     ],
                     "relations": [
@@ -72,39 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Hindrance",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 48
+                                "end": 37
                             },
-                            "text": "재정적 및 다른 어려움으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "재정적"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 49,
-                                "end": 62
+                                "end": 53
                             },
-                            "text": "화학무기 비축량의 폐기는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화학무기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 18
+                                "end": 7
                             },
-                            "text": "나라를 운영하는 정치인들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나라를"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 28
+                                "end": 20
                             },
-                            "text": "이 사회의 발전을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

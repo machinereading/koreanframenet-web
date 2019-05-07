@@ -27,76 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 21
+                                "end": 4
                             },
-                            "text": "26일에 입학 시험이 있다는 말을 듣고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "26일에"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 22,
                                 "end": 25
                             },
-                            "text": "우리는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리는"
                         },
                         {
                             "id": 4,
                             "obj": "Event",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 26,
-                                "end": 34
+                                "end": 30
                             },
-                            "text": "모임회의 날짜를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모임회의"
                         },
                         {
                             "id": 5,
                             "obj": "Time",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 35,
                                 "end": 39
                             },
-                            "text": "24일로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "24일로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

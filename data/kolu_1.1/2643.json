@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Undergoer",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Patient",
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "판금을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "판금을"
                         },
                         {
                             "id": 3,
                             "obj": "Instrument",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 13
                             },
-                            "text": "롤러로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "롤러로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

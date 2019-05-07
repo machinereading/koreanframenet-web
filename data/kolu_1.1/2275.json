@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 5
                             },
-                            "text": "초등학교에 다니는 동안",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "초등학교에"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 13,
-                                "end": 23
+                                "end": 15
                             },
-                            "text": "바른 인성의 기초를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "바른"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

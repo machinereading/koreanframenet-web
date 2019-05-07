@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 15
+                                "end": 12
                             },
-                            "text": "문턱에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "문턱에"
                         },
                         {
                             "id": 3,
                             "obj": "Barrier",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 23,
                                 "end": 25
                             },
-                            "text": "영역",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영역"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

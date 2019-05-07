@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 3,
-                                "end": 12
+                                "end": 4
                             },
-                            "text": "이 주변 일대는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
-                            "obj": "Comparison_Set",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Comparison_set",
                             "span": {
                                 "begin": 13,
-                                "end": 25
+                                "end": 18
                             },
-                            "text": "시나가와의 스즈가모리와",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시나가와의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

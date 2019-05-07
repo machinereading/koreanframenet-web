@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Manner",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 3
                             },
-                            "text": "기름을 제때에 공급하지 못해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기름을"
                         },
                         {
                             "id": 3,
                             "obj": "Activity",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 26
+                                "end": 19
                             },
-                            "text": "공장의 모든 기계가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공장의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

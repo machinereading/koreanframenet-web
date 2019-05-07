@@ -27,61 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 5
                             },
-                            "text": "전시에는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전시에는,"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 14
+                                "end": 9
                             },
-                            "text": "처방된 작용제는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "처방된"
                         },
                         {
                             "id": 4,
                             "obj": "Goal",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 51
+                                "end": 19
                             },
-                            "text": "공중투하 폭탄과 탄도 미사일 탄두를 포함한, 다양한 투하 시스템에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공중투하"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

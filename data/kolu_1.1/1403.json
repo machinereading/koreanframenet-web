@@ -27,73 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Author",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "일본 외무성은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일본"
                         },
                         {
                             "id": 3,
                             "obj": "Publisher",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 17
+                                "end": 9
                             },
-                            "text": "알 하야트 보도에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "알"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
                                 "end": 20
                             },
-                            "text": "아직",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아직"
                         },
                         {
                             "id": 5,
                             "obj": "Work",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 24
                             },
-                            "text": "논평을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "논평을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

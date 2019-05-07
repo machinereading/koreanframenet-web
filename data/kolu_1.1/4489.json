@@ -27,40 +27,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Responsible_Party",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Responsible_party",
                             "span": {
                                 "begin": 10,
                                 "end": 13
                             },
-                            "text": "미국이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국이"
                         },
                         {
                             "id": 3,
                             "obj": "Duty",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 49
+                                "end": 30
                             },
-                            "text": "어떤 형태의 공격에 가장 관심을 갖어야",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어떤"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -97,18 +92,15 @@
                         {
                             "id": 2,
                             "obj": "Duty",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 4
                             },
-                            "text": "무언가를 위해 오래 기다려야",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무언가를"
                         }
                     ],
                     "relations": [

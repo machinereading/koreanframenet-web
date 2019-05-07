@@ -27,60 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Cognizer",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 2
                             },
-                            "text": "한국 국방부 ( MND ) 에 의한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한국"
                         },
                         {
                             "id": 3,
                             "obj": "Item",
-                            "token_span": [
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 30
+                                "end": 23
                             },
-                            "text": "북한의 화학 무기의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "북한의"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 31,
                                 "end": 33
                             },
-                            "text": "최근",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "최근"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 12
                             },
-                            "text": "공이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공이"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 17
+                                "end": 14
                             },
-                            "text": "더 많이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "더"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

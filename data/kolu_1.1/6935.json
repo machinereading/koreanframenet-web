@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                19
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 79,
                                 "end": 85
                             },
-                            "text": "쓰레기통들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "쓰레기통들이"
                         },
                         {
                             "id": 3,
                             "obj": "Path",
-                            "token_span": [
-                                20,
-                                21
-                            ],
                             "span": {
                                 "begin": 86,
-                                "end": 96
+                                "end": 91
                             },
-                            "text": "콘크리트를 가로질러",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "콘크리트를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

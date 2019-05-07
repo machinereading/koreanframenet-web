@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Reported_Fact",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Reported_fact",
                             "span": {
                                 "begin": 7,
                                 "end": 10
                             },
-                            "text": "평양은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "평양은"
                         },
                         {
                             "id": 3,
-                            "obj": "Reported_Fact",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Reported_fact",
                             "span": {
                                 "begin": 15,
-                                "end": 26
+                                "end": 18
                             },
-                            "text": "전기를 생산하기 위해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전기를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 30,
                                 "end": 36
                             },
-                            "text": "민주당원들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "민주당원들이"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 37,
-                                "end": 58
+                                "end": 39
                             },
-                            "text": "부시 행정부에 대한 더 광범위한 기소를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "부시"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

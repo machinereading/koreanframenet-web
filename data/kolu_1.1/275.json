@@ -27,85 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 5
                             },
-                            "text": "1985년 3월 12일에,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1985년"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 18
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 63
+                                "end": 23
                             },
-                            "text": "0240 시 부대가 리비아로부터 공급 받은 스커드-B를 Kirkuk에 발사함으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "0240"
                         },
                         {
                             "id": 5,
                             "obj": "Act",
-                            "token_span": [
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 64,
-                                "end": 86
+                                "end": 68
                             },
-                            "text": "이라크에 대한 최초의 탄도 미사일 공격을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이라크에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

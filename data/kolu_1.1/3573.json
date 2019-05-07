@@ -27,41 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 1
                             },
-                            "text": "큰 일을 하려는 사람은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "큰"
                         },
                         {
                             "id": 3,
-                            "obj": "Undesirable_Situation",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
+                            "obj": "Undesirable_situation",
                             "span": {
                                 "begin": 13,
-                                "end": 30
+                                "end": 17
                             },
-                            "text": "모름지기 말을 함부로 하는 것을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모름지기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -96,35 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "어른 앞에서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어른"
                         },
                         {
                             "id": 3,
-                            "obj": "Undesirable_Situation",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Undesirable_situation",
                             "span": {
                                 "begin": 8,
                                 "end": 11
                             },
-                            "text": "담배를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "담배를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

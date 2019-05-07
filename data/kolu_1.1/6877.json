@@ -27,59 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 30
+                                "end": 15
                             },
-                            "text": "소아시아에 있는 그의 새로운 영토에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소아시아에"
                         },
                         {
                             "id": 3,
                             "obj": "Entity",
-                            "token_span": [
-                                8
-                            ],
                             "span": {
                                 "begin": 38,
                                 "end": 41
                             },
-                            "text": "이곳은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이곳은"
                         },
                         {
                             "id": 4,
-                            "obj": "Final_Category",
-                            "token_span": [
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
+                            "obj": "Final_category",
                             "span": {
                                 "begin": 42,
-                                "end": 56
+                                "end": 45
                             },
-                            "text": "새로운 터키 국가의 일부가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "새로운"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

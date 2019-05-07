@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 19
+                                "end": 11
                             },
-                            "text": "초기 노예 시절부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "초기"
                         },
                         {
                             "id": 3,
                             "obj": "Entity",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 35
+                                "end": 27
                             },
-                            "text": "제2의 비공식 언어를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "제2의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

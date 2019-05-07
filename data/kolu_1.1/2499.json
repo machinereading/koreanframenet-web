@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Descriptor",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "가게가 있었던",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "가게가"
                         },
                         {
                             "id": 3,
                             "obj": "Locale",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 18
                             },
-                            "text": "모퉁이에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모퉁이에는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

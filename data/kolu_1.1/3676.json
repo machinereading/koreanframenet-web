@@ -27,45 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 41
+                                "end": 20
                             },
-                            "text": "이란이 주도하는 생명공학 연구와 개발 시설은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란이"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 42,
-                                "end": 66
+                                "end": 45
                             },
-                            "text": "이란과 전 세계에 공급되는 값진 백신 제품을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란과"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -100,16 +89,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                10
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 45,
                                 "end": 50
                             },
-                            "text": "화학무기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화학무기를"
                         }
                     ],
                     "relations": [
@@ -146,54 +135,52 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 13
                             },
-                            "text": "이란이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란이"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 30,
-                                "end": 37
+                                "end": 33
                             },
-                            "text": "10년 말까지",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "10년"
                         },
                         {
                             "id": 4,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                8,
-                                9
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 38,
-                                "end": 43
+                                "end": 39
                             },
-                            "text": "핵 폭탄을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

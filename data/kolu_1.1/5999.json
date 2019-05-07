@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Source",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 16
+                                "end": 13
                             },
-                            "text": "자국 내의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자국"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 27
+                                "end": 20
                             },
-                            "text": "핵무기 관련 활동의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵무기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -93,60 +90,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 41
+                                "end": 3
                             },
-                            "text": "미국이 이끈 Desert Storm 작전과 Iraqi Freedom 작전은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국이"
                         },
                         {
                             "id": 3,
                             "obj": "Source",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 45,
                                 "end": 52
                             },
-                            "text": "이라크로부터의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이라크로부터의"
                         },
                         {
                             "id": 4,
                             "obj": "Theme",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 53,
-                                "end": 60
+                                "end": 56
                             },
-                            "text": "군사적 위협을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "군사적"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

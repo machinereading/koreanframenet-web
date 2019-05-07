@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Cognizer",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 6
                             },
-                            "text": "선거인단들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선거인단들은"
                         },
                         {
                             "id": 3,
                             "obj": "Chosen",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 20
+                                "end": 11
                             },
-                            "text": "자신들이 지지하는 후보를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자신들이"
                         },
                         {
                             "id": 4,
                             "obj": "Chosen",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 26
                             },
-                            "text": "대통령으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대통령으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

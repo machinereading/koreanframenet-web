@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity_2",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 40
+                                "end": 36
                             },
-                            "text": "공항 타워를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공항"
                         },
                         {
                             "id": 3,
                             "obj": "Entity_1",
-                            "token_span": [
-                                14,
-                                15
-                            ],
                             "span": {
                                 "begin": 64,
-                                "end": 75
+                                "end": 68
                             },
-                            "text": "Peak Tower가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Peak"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

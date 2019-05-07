@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 3,
                                 "end": 6
                             },
-                            "text": "나는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나는,"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 31
+                                "end": 23
                             },
-                            "text": "기업 회생의 실행은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기업"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

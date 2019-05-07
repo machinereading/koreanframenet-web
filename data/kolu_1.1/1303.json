@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Remainder",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 22
+                                "end": 13
                             },
-                            "text": "돈 문제를 해결하면",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "돈"
                         },
                         {
                             "id": 3,
                             "obj": "Process",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
                                 "end": 31
                             },
-                            "text": "쉽다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "쉽다."
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

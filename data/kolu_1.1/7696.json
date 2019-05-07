@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Interlocutor_1",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 42
+                                "end": 28
                             },
-                            "text": "Melli Agrochmicals는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Melli"
                         },
                         {
                             "id": 3,
                             "obj": "Topic",
-                            "token_span": [
-                                8
-                            ],
                             "span": {
                                 "begin": 55,
                                 "end": 58
                             },
-                            "text": "거래를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "거래를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Trigger",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 4
                             },
-                            "text": "호출음이 한 번 울리는 중에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "호출음이"
                         },
                         {
                             "id": 3,
                             "obj": "Addressee",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 16,
                                 "end": 20
                             },
-                            "text": "어머니가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어머니가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -94,16 +90,15 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 18,
-                                "end": 32
+                                "end": 27
                             },
-                            "text": "「다카시냐？」라고 물었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "「다카시냐？」라고"
                         }
                     ],
                     "relations": [

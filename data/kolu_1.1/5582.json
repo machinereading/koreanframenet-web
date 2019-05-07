@@ -27,43 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 24
+                                "end": 13
                             },
-                            "text": "아침 일찍 외출했을 때,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아침"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 53
+                                "end": 27
                             },
-                            "text": "검고 불길한 기독교식 장례행렬을 만나게 되는 경우가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "검고"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

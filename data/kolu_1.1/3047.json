@@ -53,15 +53,15 @@
                         {
                             "id": 2,
                             "obj": "Author",
-                            "token_span": [
-                                22
-                            ],
                             "span": {
                                 "begin": 89,
                                 "end": 91
                             },
-                            "text": "언론",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                22
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "언론"
                         }
                     ],
                     "relations": [
@@ -98,16 +98,15 @@
                         {
                             "id": 2,
                             "obj": "Author",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 25
+                                "end": 22
                             },
-                            "text": "미국 언론",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국"
                         }
                     ],
                     "relations": [
@@ -144,45 +143,34 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 47
+                                "end": 2
                             },
-                            "text": "부시 대통령이 1,400 마일 길이의 북서 하와이 제도를 기념물로 지정한다는 데 대한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "부시"
                         },
                         {
                             "id": 3,
                             "obj": "Medium",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 56,
                                 "end": 58
                             },
-                            "text": "뉴스",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "뉴스"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

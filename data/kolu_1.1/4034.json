@@ -27,56 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 2
                             },
-                            "text": "여러 군민 양용 품목은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "여러"
                         },
                         {
                             "id": 3,
-                            "obj": "Exporting_Area",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Exporting_area",
                             "span": {
                                 "begin": 13,
-                                "end": 22
+                                "end": 15
                             },
-                            "text": "서방 국가들로부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "서방"
                         },
                         {
                             "id": 4,
-                            "obj": "Importing_Area",
-                            "token_span": [
-                                6
-                            ],
+                            "obj": "Importing_area",
                             "span": {
                                 "begin": 23,
                                 "end": 27
                             },
-                            "text": "이란으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

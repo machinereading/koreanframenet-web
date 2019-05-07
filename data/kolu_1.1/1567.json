@@ -27,43 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 55
+                                "end": 14
                             },
-                            "text": "오세요」「기다리시게 해서 죄송합니다」「감사합니다」 같은 활력 넘치는 목소리가 귓가에 들리면,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오세요」「기다리시게"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 56,
-                                "end": 63
+                                "end": 59
                             },
-                            "text": "손님의 긴장은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손님의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

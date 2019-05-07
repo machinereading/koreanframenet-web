@@ -26,46 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Period",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Landmark_period",
                             "span": {
                                 "begin": 5,
-                                "end": 19
+                                "end": 8
                             },
-                            "text": "화창한 토요일과 일요일에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화창한"
                         },
                         {
                             "id": 3,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 20,
-                                "end": 61
+                                "end": 23
                             },
-                            "text": "당신은 하부 터미널에서 줄서있는 많은 사람들을 용감히 직면해야 할 것이다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "당신은"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

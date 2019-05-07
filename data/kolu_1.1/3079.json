@@ -26,54 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 0,
-                                "end": 4
+                                "end": 1
                             },
-                            "text": "내 눈은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "아직도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아직도"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 10
                             },
-                            "text": "잘",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "잘"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

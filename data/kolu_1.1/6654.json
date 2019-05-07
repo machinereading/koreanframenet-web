@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "세종대왕의 업적이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "세종대왕의"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 20,
                                 "end": 24
                             },
-                            "text": "날이다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "날이다."
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -90,22 +89,15 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 31
+                                "end": 5
                             },
-                            "text": "기차역에서 아이를 구하고 목숨을 잃은 한 대학생의 행동이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기차역에서"
                         }
                     ],
                     "relations": [

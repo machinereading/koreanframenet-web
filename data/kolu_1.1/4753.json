@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 2
                             },
-                            "text": "파티 장소에서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "파티"
                         },
                         {
                             "id": 3,
-                            "obj": "Sound_Maker",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Sound_maker",
                             "span": {
                                 "begin": 9,
-                                "end": 20
+                                "end": 13
                             },
-                            "text": "베토벤의 피아노 곡이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "베토벤의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -92,36 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 3
+                                "end": 1
                             },
-                            "text": "그 날",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
-                            "obj": "Sound_Maker",
-                            "token_span": [
-                                3,
-                                4
-                            ],
+                            "obj": "Sound_maker",
                             "span": {
                                 "begin": 8,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "곡의 제목을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "곡의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

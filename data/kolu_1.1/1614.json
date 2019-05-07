@@ -27,58 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 3,
                                 "end": 5
                             },
-                            "text": "이날",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이날"
                         },
                         {
                             "id": 3,
                             "obj": "Topic",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 30
+                                "end": 9
                             },
-                            "text": "우리측 현안인 일본 교과서 한국사 왜곡문제가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리측"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 31,
-                                "end": 37
+                                "end": 33
                             },
-                            "text": "공식 의제로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공식"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

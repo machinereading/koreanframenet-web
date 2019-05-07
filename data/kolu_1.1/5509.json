@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Evaluee",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 4
                             },
-                            "text": "회원들의 활동은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "회원들의"
                         },
                         {
                             "id": 3,
                             "obj": "Purpose",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 19
+                                "end": 11
                             },
-                            "text": "우리 모임의 취지에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

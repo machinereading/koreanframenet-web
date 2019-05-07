@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Grantor",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Authority",
                             "span": {
                                 "begin": 9,
                                 "end": 12
                             },
-                            "text": "의사가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "의사가"
                         }
                     ],
                     "relations": [
@@ -72,54 +72,52 @@
                         {
                             "id": 2,
                             "obj": "Authority",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "은행은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "은행은"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 16
+                                "end": 12
                             },
-                            "text": "업무용 토지는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "업무용"
                         },
                         {
                             "id": 4,
                             "obj": "Action",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 25
+                                "end": 21
                             },
-                            "text": "매입해도 된다고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "매입해도"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

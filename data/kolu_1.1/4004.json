@@ -26,42 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 4
                             },
-                            "text": "타이완의 핵무기 프로그램은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "타이완의"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 59
+                                "end": 39
                             },
-                            "text": "1964년 10월 중국의 최초 핵실험에 뒤이어",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1964년"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -97,35 +90,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 4
+                                "end": 2
                             },
-                            "text": "전쟁 중",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전쟁"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 13,
                                 "end": 17
                             },
-                            "text": "기반으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기반으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

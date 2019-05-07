@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 5
                             },
-                            "text": "청소부들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "청소부들이"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 12
+                                "end": 7
                             },
-                            "text": "이 거리에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 4,
                             "obj": "Theme",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 22
+                                "end": 17
                             },
-                            "text": "지저분한 시설들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지저분한"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

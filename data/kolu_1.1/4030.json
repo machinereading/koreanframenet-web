@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 16
+                                "end": 14
                             },
-                            "text": "지난 해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난"
                         },
                         {
                             "id": 3,
                             "obj": "Earnings",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 26
+                                "end": 19
                             },
-                            "text": "33 백만 달러의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "33"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

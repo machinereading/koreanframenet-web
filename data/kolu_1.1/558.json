@@ -27,58 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 2
                             },
-                            "text": "국회 법사위는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국회"
                         },
                         {
                             "id": 3,
                             "obj": "Activity",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 34
+                                "end": 25
                             },
-                            "text": "66명이 발의한 개정안을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "66명이"
                         },
                         {
                             "id": 4,
                             "obj": "Purpose",
-                            "token_span": [
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 35,
-                                "end": 49
+                                "end": 37
                             },
-                            "text": "논란 사항이 많다는 이유로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "논란"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

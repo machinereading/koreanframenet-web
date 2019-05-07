@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 46
+                                "end": 36
                             },
-                            "text": "작가 에이전트도 운영이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 47,
                                 "end": 50
                             },
-                            "text": "곧바로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "곧바로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

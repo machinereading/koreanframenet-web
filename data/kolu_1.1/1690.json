@@ -27,17 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Depictive",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 21
+                                "end": 16
                             },
-                            "text": "입을 벌린 채",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "입을"
                         }
                     ],
                     "relations": [
@@ -73,93 +71,89 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "한국은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한국은"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 15
+                                "end": 6
                             },
-                            "text": "대회 10일째인 오늘",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대회"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 16,
                                 "end": 18
                             },
-                            "text": "현재",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "현재"
                         },
                         {
                             "id": 5,
                             "obj": "Means",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 27
+                                "end": 22
                             },
-                            "text": "금메달 20개로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "금메달"
                         },
                         {
                             "id": 6,
                             "obj": "Path",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 34
+                                "end": 30
                             },
-                            "text": "종합 3위를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "종합"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 6,
+                            "obj": 5,
                             "pred": "arg"
                         },
                         {
@@ -193,53 +187,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                9
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 38,
                                 "end": 41
                             },
-                            "text": "기차는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기차는"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 42,
                                 "end": 46
                             },
-                            "text": "대전으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대전으로"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 47,
                                 "end": 50
                             },
-                            "text": "묵묵히",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "묵묵히"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -274,55 +268,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 7
                             },
-                            "text": "1904년에,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1904년에,"
                         },
                         {
                             "id": 3,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 8,
-                                "end": 18
+                                "end": 10
                             },
-                            "text": "좁은 이층 전차들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "좁은"
                         },
                         {
                             "id": 4,
                             "obj": "Path",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 26
+                                "end": 23
                             },
-                            "text": "해안가를 따라",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해안가를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

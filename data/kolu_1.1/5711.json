@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 26
+                                "end": 10
                             },
-                            "text": "크게 염려되는 테러리스트 단체들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "크게"
                         },
                         {
                             "id": 3,
                             "obj": "Descriptor",
-                            "token_span": [
-                                20
-                            ],
                             "span": {
                                 "begin": 71,
                                 "end": 73
                             },
-                            "text": "내부",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내부"
                         },
                         {
                             "id": 4,
                             "obj": "Purpose",
-                            "token_span": [
-                                21
-                            ],
                             "span": {
                                 "begin": 74,
                                 "end": 76
                             },
-                            "text": "통제",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "통제"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Total",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 19
+                                "end": 8
                             },
-                            "text": "식탁에 올리는 모든 음식에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "식탁에"
                         },
                         {
                             "id": 3,
                             "obj": "Part",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 31
+                                "end": 21
                             },
-                            "text": "그 어떤 인공조미료도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

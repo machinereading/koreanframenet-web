@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Traveler",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 24
+                                "end": 3
                             },
-                            "text": "현대식 120 명의 승객이 승차하는 객차들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "현대식"
                         },
                         {
                             "id": 3,
                             "obj": "Duration",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 31
+                                "end": 26
                             },
-                            "text": "약 8분만에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "약"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

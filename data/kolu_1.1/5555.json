@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Location",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 30
+                                "end": 26
                             },
-                            "text": "리더의 입장인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "리더의"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 31,
                                 "end": 38
                             },
-                            "text": "사람으로부터,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사람으로부터,"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

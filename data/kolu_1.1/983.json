@@ -26,39 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Dependent_Entity",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Dependent_entity",
                             "span": {
                                 "begin": 0,
                                 "end": 6
                             },
-                            "text": "직접침해는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "직접침해는,"
                         },
                         {
                             "id": 3,
-                            "obj": "Controlling_Entity",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Controlling_entity",
                             "span": {
                                 "begin": 7,
-                                "end": 23
+                                "end": 9
                             },
-                            "text": "특허 청구 범위의 문언에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "특허"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -93,57 +89,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Dependent_Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
+                            "obj": "Dependent_entity",
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 3
                             },
-                            "text": "중국의 학생 군사훈련은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중국의"
                         },
                         {
                             "id": 3,
-                            "obj": "Controlling_Entity",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Controlling_entity",
                             "span": {
                                 "begin": 13,
                                 "end": 18
                             },
-                            "text": "관련조항에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "관련조항에"
                         },
                         {
                             "id": 4,
-                            "obj": "Controlling_Situation",
-                            "token_span": [
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Controlling_situation",
                             "span": {
                                 "begin": 19,
-                                "end": 30
+                                "end": 21
                             },
-                            "text": "남녀 무구분 훈련으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "남녀"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

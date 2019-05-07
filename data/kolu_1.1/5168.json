@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 17
+                                "end": 13
                             },
-                            "text": "나노튜브 수요가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나노튜브"
                         },
                         {
                             "id": 3,
                             "obj": "State",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 23,
                                 "end": 26
                             },
-                            "text": "이익이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이익이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

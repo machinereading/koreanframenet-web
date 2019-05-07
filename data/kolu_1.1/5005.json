@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Grantor",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Authority",
                             "span": {
                                 "begin": 33,
                                 "end": 36
                             },
-                            "text": "시즈는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시즈는"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 40,
-                                "end": 46
+                                "end": 43
                             },
-                            "text": "과거의 일은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "과거의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

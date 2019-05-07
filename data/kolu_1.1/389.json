@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                8
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 47
                             },
-                            "text": "시간이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시간이"
                         }
                     ],
                     "relations": [
@@ -71,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Activity",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 16
+                                "end": 10
                             },
-                            "text": "지진이 통과하는데",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지진이"
                         },
                         {
                             "id": 3,
-                            "obj": "Time_Length",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Time_length",
                             "span": {
                                 "begin": 17,
-                                "end": 23
+                                "end": 20
                             },
-                            "text": "얼마나 오래",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "얼마나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -136,35 +134,34 @@
                         {
                             "id": 2,
                             "obj": "Activity",
-                            "token_span": [
-                                17
-                            ],
                             "span": {
                                 "begin": 79,
                                 "end": 84
                             },
-                            "text": "수표결제에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수표결제에"
                         },
                         {
                             "id": 3,
-                            "obj": "Time_Length",
-                            "token_span": [
-                                18,
-                                19
-                            ],
+                            "obj": "Time_length",
                             "span": {
                                 "begin": 85,
-                                "end": 89
+                                "end": 86
                             },
-                            "text": "3 일이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "3"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -199,62 +196,52 @@
                         {
                             "id": 2,
                             "obj": "Activity",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 47
+                                "end": 3
                             },
-                            "text": "소각에 이은 가수분해를 이용하여 매년 350톤의 신경작용제를 파괴하도록 설계된 시설은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소각에"
                         },
                         {
                             "id": 3,
                             "obj": "Activity",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 62,
                                 "end": 65
                             },
-                            "text": "건설에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "건설에"
                         },
                         {
                             "id": 4,
-                            "obj": "Time_Length",
-                            "token_span": [
-                                15,
-                                16
-                            ],
+                            "obj": "Time_length",
                             "span": {
                                 "begin": 66,
-                                "end": 72
+                                "end": 68
                             },
-                            "text": "3년 이상이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "3년"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -316,34 +303,34 @@
                         {
                             "id": 2,
                             "obj": "Activity",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "지진이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지진이"
                         },
                         {
                             "id": 3,
-                            "obj": "Time_Length",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Time_length",
                             "span": {
                                 "begin": 8,
                                 "end": 11
                             },
-                            "text": "15초",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "15초"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -379,37 +366,34 @@
                         {
                             "id": 2,
                             "obj": "Activity",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 2
                             },
-                            "text": "캘크 시트를 만드는 것은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "캘크"
                         },
                         {
                             "id": 3,
-                            "obj": "Time_Length",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Time_length",
                             "span": {
                                 "begin": 14,
                                 "end": 16
                             },
-                            "text": "오래",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오래"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -444,17 +428,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Time_Length",
-                            "token_span": [
-                                24,
-                                25
-                            ],
+                            "obj": "Time_length",
                             "span": {
                                 "begin": 105,
-                                "end": 112
+                                "end": 108
                             },
-                            "text": "상당한 시일이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "상당한"
                         }
                     ],
                     "relations": [

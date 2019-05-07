@@ -27,58 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Competition",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "시합은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시합은"
                         },
                         {
                             "id": 3,
                             "obj": "Participants",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 25
+                                "end": 6
                             },
-                            "text": "주황 띠 이상의 여성 유도인을 대상으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주황"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 26,
-                                "end": 33
+                                "end": 29
                             },
-                            "text": "예선을 치뤄,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예선을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

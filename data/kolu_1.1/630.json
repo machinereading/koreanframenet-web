@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 40
+                                "end": 36
                             },
-                            "text": "그의 나라가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그의"
                         },
                         {
                             "id": 3,
                             "obj": "Goal",
-                            "token_span": [
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 41,
-                                "end": 54
+                                "end": 42
                             },
-                            "text": "그 과학자들을 고용하려고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

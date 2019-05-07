@@ -27,34 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Item",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 12
                             },
-                            "text": "주가가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주가가"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 13,
                                 "end": 18
                             },
-                            "text": "바닥권으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "바닥권으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -89,40 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 28
+                                "end": 15
                             },
-                            "text": "사람이 신경 작용제에 노출 시",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사람이"
                         },
                         {
                             "id": 3,
                             "obj": "Attribute",
-                            "token_span": [
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 47
+                                "end": 37
                             },
-                            "text": "피에서 생물학적 지시치를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "피에서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -158,62 +152,52 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 3
                             },
-                            "text": "내륙의 산과 언덕에서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내륙의"
                         },
                         {
                             "id": 3,
                             "obj": "Attribute",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 16
                             },
-                            "text": "온도가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "온도가"
                         },
                         {
                             "id": 4,
-                            "obj": "Correlate",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
+                            "obj": "Correlated_variable",
                             "span": {
                                 "begin": 17,
-                                "end": 52
+                                "end": 20
                             },
-                            "text": "고도에 따라 그리고 정상을 둘러싸고 있는 구름에 의해 떨어진다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "고도에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -248,36 +232,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Value_Range",
-                            "token_span": [
-                                2,
-                                3
-                            ],
+                            "obj": "Value_range",
                             "span": {
                                 "begin": 11,
-                                "end": 19
+                                "end": 14
                             },
-                            "text": "0.2 퍼센트가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "0.2"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                5
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 24,
                                 "end": 30
                             },
-                            "text": "103.4를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "103.4를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -312,18 +295,15 @@
                         {
                             "id": 2,
                             "obj": "Attribute",
-                            "token_span": [
-                                11,
-                                12,
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 40,
-                                "end": 56
+                                "end": 42
                             },
-                            "text": "일본 통신업체의 대외 경쟁력이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일본"
                         }
                     ],
                     "relations": [
@@ -358,19 +338,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                11,
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 42,
-                                "end": 55
+                                "end": 45
                             },
-                            "text": "지수가 250 선 아래로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지수가"
                         }
                     ],
                     "relations": [
@@ -406,34 +383,34 @@
                         {
                             "id": 2,
                             "obj": "Attribute",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 19,
                                 "end": 22
                             },
-                            "text": "시력이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시력이"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 23,
                                 "end": 25
                             },
-                            "text": "금방",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "금방"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -468,37 +445,34 @@
                         {
                             "id": 2,
                             "obj": "Difference",
-                            "token_span": [
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 38,
-                                "end": 44
+                                "end": 40
                             },
-                            "text": "97 센트가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "97"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                14,
-                                15,
-                                16
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 49,
-                                "end": 62
+                                "end": 52
                             },
-                            "text": "배럴당 30.72 달러에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "배럴당"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Food",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "오징어를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오징어를"
                         }
                     ],
                     "relations": [
@@ -70,54 +70,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Heating_Instrument",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Heating_instrument",
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 2
                             },
-                            "text": "끓는 물에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "끓는"
                         },
                         {
                             "id": 3,
                             "obj": "Food",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "야채를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "야채를"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 12
                             },
-                            "text": "살짝",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "살짝"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Victim",
-                            "token_span": [
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 60,
-                                "end": 66
+                                "end": 63
                             },
-                            "text": "도시에 대한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도시에"
                         },
                         {
                             "id": 3,
                             "obj": "Weapon",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 67,
                                 "end": 70
                             },
-                            "text": "미사일",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미사일"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

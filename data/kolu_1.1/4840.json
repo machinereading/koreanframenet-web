@@ -27,21 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Eventuality",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 26
+                                "end": 4
                             },
-                            "text": "일본에서 또 한차례의 대형 지진이 발생할 것으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일본에서"
                         }
                     ],
                     "relations": [
@@ -77,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 12
                             },
-                            "text": "우리는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리는"
                         },
                         {
                             "id": 3,
-                            "obj": "Time_Of_Eventuality",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Time_of_eventuality",
                             "span": {
                                 "begin": 16,
-                                "end": 22
+                                "end": 17
                             },
-                            "text": "5 일 전에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "5"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -142,53 +134,52 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 10
                             },
-                            "text": "우리는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리는"
                         },
                         {
                             "id": 3,
-                            "obj": "Time_Of_Eventuality",
-                            "token_span": [
-                                3,
-                                4
-                            ],
+                            "obj": "Time_of_eventuality",
                             "span": {
                                 "begin": 11,
-                                "end": 16
+                                "end": 13
                             },
-                            "text": "이틀 전에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이틀"
                         },
                         {
                             "id": 4,
                             "obj": "Eventuality",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 19
                             },
-                            "text": "돈을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "돈을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

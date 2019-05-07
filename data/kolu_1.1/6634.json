@@ -27,57 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 17
+                                "end": 2
                             },
-                            "text": "이리 저리 직장을 옮기던 시형은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이리"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
                                 "end": 20
                             },
-                            "text": "결국",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "결국"
                         },
                         {
                             "id": 4,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                6,
-                                7
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 21,
-                                "end": 27
+                                "end": 23
                             },
-                            "text": "자기 회사를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -112,34 +107,34 @@
                         {
                             "id": 2,
                             "obj": "Means",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 12,
                                 "end": 17
                             },
-                            "text": "나물거리로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나물거리로"
                         },
                         {
                             "id": 3,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 18,
                                 "end": 21
                             },
-                            "text": "좌판을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "좌판을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

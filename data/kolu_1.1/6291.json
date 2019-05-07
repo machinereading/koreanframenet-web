@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 2
                             },
-                            "text": "이만 글을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이만"
                         }
                     ],
                     "relations": [
@@ -72,35 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 42,
                                 "end": 46
                             },
-                            "text": "운전자가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "운전자가"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 47,
-                                "end": 53
+                                "end": 49
                             },
-                            "text": "당신 여행을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "당신"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

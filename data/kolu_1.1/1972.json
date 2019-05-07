@@ -27,20 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Cotheme",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 27
+                                "end": 3
                             },
-                            "text": "총회는 정상인이면서 수화가 완벽한 3명의 가이드를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "총회는"
                         }
                     ],
                     "relations": [
@@ -76,35 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "정부는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정부는"
                         },
                         {
                             "id": 3,
                             "obj": "Cotheme",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 15
+                                "end": 8
                             },
-                            "text": "사회복지 전담공무원을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사회복지"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

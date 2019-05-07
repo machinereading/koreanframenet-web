@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 10
                             },
-                            "text": "계약시에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "계약시에"
                         }
                     ],
                     "relations": [
@@ -71,80 +71,70 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 42
+                                "end": 4
                             },
-                            "text": "이태리가 한국전에서 지게 되면 분명히 심판 문제를 걸고 넘어질 것이라는 것은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이태리가"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 43,
                                 "end": 46
                             },
-                            "text": "어쩌면",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어쩌면"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 47,
                                 "end": 49
                             },
-                            "text": "이미",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이미"
                         },
                         {
                             "id": 5,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                14
-                            ],
                             "span": {
                                 "begin": 54,
                                 "end": 62
                             },
-                            "text": "사실이었습니다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사실이었습니다."
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

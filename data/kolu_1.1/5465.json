@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Items",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 15
+                                "end": 10
                             },
-                            "text": "모형 만들기는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모형"
                         },
                         {
                             "id": 3,
                             "obj": "Parameter",
-                            "token_span": [
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 29,
-                                "end": 41
+                                "end": 32
                             },
-                            "text": "중학교 이과 과목 안에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중학교"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

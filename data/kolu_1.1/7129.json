@@ -27,34 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Experiencer",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 7,
                                 "end": 9
                             },
-                            "text": "내가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내가"
                         },
                         {
                             "id": 3,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 10,
                                 "end": 12
                             },
-                            "text": "속이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "속이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -88,17 +88,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Body_Part",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Body_part",
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 3
                             },
-                            "text": "영수의 입술이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영수의"
                         }
                     ],
                     "relations": [

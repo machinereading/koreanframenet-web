@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "New_Leader",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "New_leader",
                             "span": {
                                 "begin": 7,
                                 "end": 9
                             },
-                            "text": "나를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나를"
                         },
                         {
                             "id": 3,
                             "obj": "Role",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 18
+                                "end": 13
                             },
-                            "text": "어린이 회장으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어린이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

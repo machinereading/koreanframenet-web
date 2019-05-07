@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Item",
-                            "token_span": [
-                                25,
-                                26,
-                                27,
-                                28,
-                                29,
-                                30
-                            ],
                             "span": {
                                 "begin": 96,
-                                "end": 117
+                                "end": 99
                             },
-                            "text": "장애인 수첩을 가지고 있지 않은 사람은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "장애인"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                31,
-                                32
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 118,
-                                "end": 124
+                                "end": 119
                             },
-                            "text": "약 20%로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                31
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "약"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

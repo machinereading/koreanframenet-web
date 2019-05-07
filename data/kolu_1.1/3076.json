@@ -27,62 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Circumstances",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 17
+                                "end": 5
                             },
-                            "text": "그 핵심 가정이 맞다면,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
-                            "obj": "Topical_Entity",
-                            "token_span": [
-                                25,
-                                26
-                            ],
+                            "obj": "Topical_entity",
                             "span": {
                                 "begin": 96,
-                                "end": 104
+                                "end": 99
                             },
-                            "text": "민주당 의원들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "민주당"
                         },
                         {
                             "id": 4,
                             "obj": "Entity",
-                            "token_span": [
-                                27,
-                                28,
-                                29,
-                                30,
-                                31,
-                                32,
-                                33
-                            ],
                             "span": {
                                 "begin": 105,
-                                "end": 132
+                                "end": 108
                             },
-                            "text": "공화당 의원들보다 호명 투표에서 더 낮은 참석률을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                27
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공화당"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

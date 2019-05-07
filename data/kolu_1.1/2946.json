@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 2
                             },
-                            "text": "논쟁 끝에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "논쟁"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "싸움이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "싸움이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

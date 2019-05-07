@@ -28,36 +28,34 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 49,
                                 "end": 54
                             },
-                            "text": "확산시키고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "확산시키고"
                         },
                         {
                             "id": 3,
-                            "obj": "Valued_Entity",
-                            "token_span": [
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Valued_entity",
                             "span": {
                                 "begin": 59,
-                                "end": 72
+                                "end": 63
                             },
-                            "text": "미국이나 다른 동맹국들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국이나"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

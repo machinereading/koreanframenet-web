@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 36,
-                                "end": 42
+                                "end": 38
                             },
-                            "text": "학습 내용을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "학습"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_Category",
-                            "token_span": [
-                                11,
-                                12,
-                                13
-                            ],
+                            "obj": "Final_category",
                             "span": {
                                 "begin": 43,
-                                "end": 55
+                                "end": 45
                             },
-                            "text": "보다 과학적인 내용으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "보다"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

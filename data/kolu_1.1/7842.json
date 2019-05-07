@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Topic",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 11
+                                "end": 8
                             },
-                            "text": "모든 것에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모든"
                         },
                         {
                             "id": 3,
                             "obj": "Content",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 28
+                                "end": 24
                             },
-                            "text": "염세적인 성향을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "염세적인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

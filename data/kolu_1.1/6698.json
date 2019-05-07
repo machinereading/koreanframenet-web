@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 3
                             },
-                            "text": "축구를 하다가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "축구를"
                         },
                         {
                             "id": 3,
-                            "obj": "Bodypart_Of_Agent",
-                            "token_span": [
-                                2,
-                                3
-                            ],
+                            "obj": "Bodypart_of_agent",
                             "span": {
                                 "begin": 8,
-                                "end": 14
+                                "end": 11
                             },
-                            "text": "상대편 발에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "상대편"
                         },
                         {
                             "id": 4,
                             "obj": "Entity",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "정강이를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정강이를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

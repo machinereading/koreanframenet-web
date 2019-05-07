@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 11
+                                "end": 1
                             },
-                            "text": "이 독특한 프로젝트의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Asset",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 22,
-                                "end": 38
+                                "end": 25
                             },
-                            "text": "200 백만 달러로 예상된다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "200"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -95,15 +90,15 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 51,
                                 "end": 55
                             },
-                            "text": "임상시험",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "임상시험"
                         }
                     ],
                     "relations": [
@@ -165,24 +160,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Intended_Event",
-                            "token_span": [
-                                29,
-                                30,
-                                31,
-                                32,
-                                33,
-                                34,
-                                35,
-                                36,
-                                37
-                            ],
+                            "obj": "Intended_event",
                             "span": {
                                 "begin": 127,
-                                "end": 160
+                                "end": 129
                             },
-                            "text": "자기 지역구민들을 위해 똑같이 하는 모든 다른 의원과 관련된",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                29
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자기"
                         }
                     ],
                     "relations": [
@@ -219,34 +206,34 @@
                         {
                             "id": 2,
                             "obj": "Goods",
-                            "token_span": [
-                                23
-                            ],
                             "span": {
                                 "begin": 84,
                                 "end": 87
                             },
-                            "text": "그것은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그것은"
                         },
                         {
                             "id": 3,
                             "obj": "Payer",
-                            "token_span": [
-                                24
-                            ],
                             "span": {
                                 "begin": 88,
                                 "end": 94
                             },
-                            "text": "납세자들에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "납세자들에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,76 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Explanation",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 23
+                                "end": 6
                             },
-                            "text": "그 벽은 각각의 장소이기 때문에,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Result",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 36
+                                "end": 27
                             },
-                            "text": "아무리 동사한다고 해도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아무리"
                         },
                         {
                             "id": 4,
                             "obj": "Theme",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 37,
                                 "end": 39
                             },
-                            "text": "그는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         },
                         {
                             "id": 5,
                             "obj": "Source",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 40,
                                 "end": 43
                             },
-                            "text": "그곳을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그곳을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

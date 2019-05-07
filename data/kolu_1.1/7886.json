@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Perpetrator",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 48,
                                 "end": 51
                             },
-                            "text": "범인이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "범인이"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 55,
-                                "end": 63
+                                "end": 59
                             },
-                            "text": "신용카드 정보를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신용카드"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

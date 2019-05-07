@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 13
+                                "end": 9
                             },
-                            "text": "화학물질과 질병이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화학물질과"
                         },
                         {
                             "id": 3,
                             "obj": "Path",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 23
+                                "end": 18
                             },
-                            "text": "국경선을 가로질러",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국경선을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

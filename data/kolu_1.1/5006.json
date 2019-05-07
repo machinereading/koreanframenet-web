@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Term",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 18
+                                "end": 11
                             },
-                            "text": "「육상 다발기」란,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "「육상"
                         },
                         {
                             "id": 3,
                             "obj": "Entity",
-                            "token_span": [
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 48,
-                                "end": 77
+                                "end": 52
                             },
-                            "text": "통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "통상적인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

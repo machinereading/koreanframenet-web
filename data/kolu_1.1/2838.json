@@ -26,69 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Grantor",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Authority",
                             "span": {
                                 "begin": 0,
-                                "end": 7
+                                "end": 3
                             },
-                            "text": "이라크 정부는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이라크"
                         },
                         {
                             "id": 3,
-                            "obj": "Grantee",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Protagonist",
                             "span": {
                                 "begin": 8,
-                                "end": 24
+                                "end": 10
                             },
-                            "text": "미국 대표 Tony Hall이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국"
                         },
                         {
                             "id": 4,
                             "obj": "Action",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 77
+                                "end": 30
                             },
-                            "text": "1990년 걸프전 이후 심해진 인도주의적인 위기를 평가하기 위해 다음 주 그 나라를 방문하도록",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1990년"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

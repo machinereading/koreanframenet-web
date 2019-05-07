@@ -28,61 +28,52 @@
                         {
                             "id": 2,
                             "obj": "Addressee",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 3
                             },
-                            "text": "유력한 후보자들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유력한"
                         },
                         {
                             "id": 3,
                             "obj": "Speaker",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 43
+                                "end": 13
                             },
-                            "text": "민주당 반대파에 의해 예상되는 패배보다 의원 급여 때문에 덜",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "민주당"
                         },
                         {
                             "id": 4,
                             "obj": "Content",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 47
                             },
-                            "text": "출마의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "출마의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

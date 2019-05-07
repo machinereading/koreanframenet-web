@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "홍수가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "홍수가"
                         },
                         {
                             "id": 3,
                             "obj": "Area",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 12
+                                "end": 5
                             },
-                            "text": "이 마을 전체를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

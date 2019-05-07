@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 32,
                                 "end": 35
                             },
-                            "text": "북한이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "북한이"
                         },
                         {
                             "id": 3,
                             "obj": "Theme",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 36,
-                                "end": 55
+                                "end": 39
                             },
-                            "text": "동결을 감시했던 IAEA 조사관들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "동결을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

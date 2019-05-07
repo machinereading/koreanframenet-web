@@ -26,21 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Service_Provider",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
+                            "obj": "Service_provider",
                             "span": {
                                 "begin": 9,
-                                "end": 27
+                                "end": 13
                             },
-                            "text": "처음으로 낸 한 평 남짓한 가게.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "처음으로"
                         }
                     ],
                     "relations": [
@@ -76,16 +71,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Service_Provider",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Service_provider",
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "가게가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "가게가"
                         }
                     ],
                     "relations": [
@@ -122,16 +117,15 @@
                         {
                             "id": 2,
                             "obj": "Product",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "자동차 페인트",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자동차"
                         }
                     ],
                     "relations": [
@@ -168,39 +162,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 1
                             },
-                            "text": "이 앞 신호등 바로 밑에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
-                            "obj": "Service_Provider",
-                            "token_span": [
-                                5,
-                                6
-                            ],
+                            "obj": "Service_provider",
                             "span": {
                                 "begin": 14,
-                                "end": 19
+                                "end": 15
                             },
-                            "text": "내 가게가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

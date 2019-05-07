@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 22,
-                                "end": 32
+                                "end": 25
                             },
-                            "text": "유엔의 경제 제재는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유엔의"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 33,
-                                "end": 47
+                                "end": 34
                             },
-                            "text": "수 백만의 그곳 시민들에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

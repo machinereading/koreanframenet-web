@@ -27,19 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 3
                             },
-                            "text": "아이가 가지고 놀던 장난감 자동차를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아이가"
                         }
                     ],
                     "relations": [
@@ -75,35 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Destroyer",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "내가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내가"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 7
+                                "end": 4
                             },
-                            "text": "그 놈을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Protagonist",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 4
                             },
-                            "text": "스탈린의 전제적 공산주의는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "스탈린의"
                         },
                         {
                             "id": 3,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                3,
-                                4
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 15,
-                                "end": 25
+                                "end": 20
                             },
-                            "text": "사회주의의 순수성을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사회주의의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -26,40 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Occasion",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Landmark_occasion",
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "회견",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "회견"
                         },
                         {
                             "id": 3,
-                            "obj": "Focal_Occasion",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Focal_occasion",
                             "span": {
                                 "begin": 7,
-                                "end": 30
+                                "end": 9
                             },
-                            "text": "그는 요르단 당국에 의해 다시 체포되었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

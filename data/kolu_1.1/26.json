@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 12,
                                 "end": 16
                             },
-                            "text": "그것들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그것들은"
                         },
                         {
                             "id": 3,
                             "obj": "Effect",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 25
+                                "end": 19
                             },
-                            "text": "탄핵 절차로까지",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "탄핵"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

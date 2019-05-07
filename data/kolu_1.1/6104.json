@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "택지를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "택지를"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 8,
                                 "end": 12
                             },
-                            "text": "수도권에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수도권에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

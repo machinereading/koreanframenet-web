@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Standard_Item",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Standard_item",
                             "span": {
                                 "begin": 4,
                                 "end": 6
                             },
-                            "text": "도에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도에"
                         },
                         {
                             "id": 3,
-                            "obj": "Profiled_Item",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Profiled_item",
                             "span": {
                                 "begin": 11,
                                 "end": 14
                             },
-                            "text": "혼수를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "혼수를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -88,17 +88,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Profiled_Attribute",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Profiled_attribute",
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "이런 대우가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이런"
                         }
                     ],
                     "relations": [

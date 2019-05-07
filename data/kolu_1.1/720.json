@@ -26,39 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Passive",
-                            "token_span": [
-                                3,
-                                4
-                            ],
+                            "obj": "Perceiver_passive",
                             "span": {
                                 "begin": 15,
-                                "end": 22
+                                "end": 17
                             },
-                            "text": "어떤 방문객도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어떤"
                         },
                         {
                             "id": 3,
                             "obj": "State",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 44
+                                "end": 28
                             },
-                            "text": "Abbey 극장이나 Gate 극장에서의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Abbey"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

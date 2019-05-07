@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 9,
                                 "end": 11
                             },
-                            "text": "돈이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "돈이"
                         },
                         {
                             "id": 3,
                             "obj": "Protagonist",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 23
+                                "end": 18
                             },
-                            "text": "공공 서비스에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공공"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

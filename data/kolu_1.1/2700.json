@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Connected_Item",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Connected_item",
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 4
                             },
-                            "text": "주워모은 종이 상자나 담요를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "주워모은"
                         },
                         {
                             "id": 3,
                             "obj": "Connector",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 16,
                                 "end": 21
                             },
-                            "text": "박스테이프",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "박스테이프"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Source",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 3
                             },
-                            "text": "포도를 수확 중인 밭에서는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "포도를"
                         },
                         {
                             "id": 3,
-                            "obj": "Sensory_Attribute",
-                            "token_span": [
-                                5
-                            ],
+                            "obj": "Sensory_attribute",
                             "span": {
                                 "begin": 22,
                                 "end": 26
                             },
-                            "text": "향기가.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "향기가."
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

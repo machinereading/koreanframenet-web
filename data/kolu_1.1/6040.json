@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Artist",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 7
                             },
-                            "text": "한국관광공사가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한국관광공사가"
                         },
                         {
                             "id": 3,
                             "obj": "Production",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 27,
-                                "end": 35
+                                "end": 29
                             },
-                            "text": "한국 홍보광고가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한국"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -90,59 +89,52 @@
                         {
                             "id": 2,
                             "obj": "Manner",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 29
+                                "end": 2
                             },
-                            "text": "우수 제품상을 수상한 저희 회사 소프트웨어를 사용하여",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우수"
                         },
                         {
                             "id": 3,
                             "obj": "Medium",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 30,
-                                "end": 39
+                                "end": 33
                             },
-                            "text": "귀하의 아이디어를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "귀하의"
                         },
                         {
                             "id": 4,
                             "obj": "Production",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 40,
                                 "end": 43
                             },
-                            "text": "영화로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "영화로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

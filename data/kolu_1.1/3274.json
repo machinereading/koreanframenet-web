@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 5,
                                 "end": 7
                             },
-                            "text": "것은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "것은"
                         }
                     ],
                     "relations": [
@@ -72,45 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20,
-                                21
-                            ],
                             "span": {
                                 "begin": 43,
-                                "end": 87
+                                "end": 45
                             },
-                            "text": "이란 내의 러시아, 중국, 그리고 북한의 여러 독립체 사이의 협력과 협동 수준은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                22
-                            ],
                             "span": {
                                 "begin": 88,
                                 "end": 90
                             },
-                            "text": "현재",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                22
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "현재"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

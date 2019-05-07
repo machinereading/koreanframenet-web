@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Time_Period",
-                            "token_span": [
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Time_period",
                             "span": {
                                 "begin": 4,
-                                "end": 15
+                                "end": 5
                             },
-                            "text": "이 여자 토너먼트전의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
-                            "obj": "Sub_Part",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Subpart",
                             "span": {
                                 "begin": 16,
                                 "end": 18
                             },
-                            "text": "서두",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "서두"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

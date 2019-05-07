@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 38,
                                 "end": 41
                             },
-                            "text": "하나를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "하나를"
                         },
                         {
                             "id": 3,
                             "obj": "Process",
-                            "token_span": [
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 47,
-                                "end": 51
+                                "end": 48
                             },
-                            "text": "한 시간",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

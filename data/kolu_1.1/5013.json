@@ -27,20 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 16
+                                "end": 2
                             },
-                            "text": "구름 한 점 없는 가을 하늘을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "구름"
                         }
                     ],
                     "relations": [
@@ -75,38 +70,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceiver_Agentive",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Perceiver_agentive",
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "교포들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교포들은"
                         },
                         {
                             "id": 3,
                             "obj": "Phenomenon",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 23
+                                "end": 8
                             },
-                            "text": "올림픽 시상식장에 게양된 태극기를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "올림픽"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

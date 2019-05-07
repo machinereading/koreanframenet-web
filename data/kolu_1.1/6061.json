@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Submittor",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "푸틴",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "푸틴"
                         },
                         {
                             "id": 3,
-                            "obj": "Purpose_Of_Theme",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Purpose_of_theme",
                             "span": {
                                 "begin": 3,
-                                "end": 8
+                                "end": 5
                             },
-                            "text": "비준 위한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "비준"
                         },
                         {
                             "id": 4,
                             "obj": "Documents",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 18
+                                "end": 14
                             },
-                            "text": "핵테러리즘 협약서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵테러리즘"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

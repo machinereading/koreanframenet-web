@@ -27,79 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 36
+                                "end": 3
                             },
-                            "text": "교대가 완료되었을 때, 그리고 그들이 땀이 날 때까지 작업한 후,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교대가"
                         },
                         {
                             "id": 3,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                10
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 37,
                                 "end": 42
                             },
-                            "text": "종지기들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "종지기들은"
                         },
                         {
                             "id": 4,
                             "obj": "Goal",
-                            "token_span": [
-                                19
-                            ],
                             "span": {
                                 "begin": 72,
                                 "end": 77
                             },
-                            "text": "선술집으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선술집으로"
                         },
                         {
                             "id": 5,
                             "obj": "Source",
-                            "token_span": [
-                                20
-                            ],
                             "span": {
                                 "begin": 78,
                                 "end": 84
                             },
-                            "text": "빠져나간다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "빠져나간다."
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

@@ -27,34 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "내일은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내일은"
                         },
                         {
                             "id": 3,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "손톱을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "손톱을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -88,49 +88,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 30,
-                                "end": 90
+                                "end": 33
                             },
-                            "text": "`저널 사이언스' 17 일자에 기고한 논문에서 미토콘드리아로 불리는 인체 세포내에서 일어나는 암 관련 변화는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "`저널"
                         },
                         {
                             "id": 3,
                             "obj": "Means",
-                            "token_span": [
-                                21,
-                                22
-                            ],
                             "span": {
                                 "begin": 91,
-                                "end": 98
+                                "end": 93
                             },
-                            "text": "인체 분비물로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "인체"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -165,35 +151,34 @@
                         {
                             "id": 2,
                             "obj": "Inspector",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "선생님은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선생님은"
                         },
                         {
                             "id": 3,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 5,
-                                "end": 14
+                                "end": 9
                             },
-                            "text": "학생들의 소지품을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "학생들의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Destroyer",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 4
                             },
-                            "text": "미공군의 폭격으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미공군의"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 17
+                                "end": 12
                             },
-                            "text": "건물 수십채가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "건물"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -26,17 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "술과 담배를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "술과"
                         }
                     ],
                     "relations": [
@@ -72,39 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                11,
-                                12,
-                                13,
-                                14,
-                                15
-                            ],
                             "span": {
                                 "begin": 38,
-                                "end": 57
+                                "end": 42
                             },
-                            "text": "카불시내 유일의 여성 전용 병원에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "카불시내"
                         },
                         {
                             "id": 3,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                16,
-                                17
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 58,
-                                "end": 66
+                                "end": 62
                             },
-                            "text": "남성들의 출입을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "남성들의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

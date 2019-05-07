@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 5
                             },
-                            "text": "국토안보부",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국토안보부"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 22
+                                "end": 17
                             },
-                            "text": "이 트럭들이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -91,18 +90,15 @@
                         {
                             "id": 2,
                             "obj": "Asset",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 18
+                                "end": 10
                             },
-                            "text": "도시 [ 시드니 ]",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도시"
                         }
                     ],
                     "relations": [
@@ -138,21 +134,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Bad_Outcome",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Bad_outcome",
                             "span": {
                                 "begin": 6,
-                                "end": 28
+                                "end": 9
                             },
-                            "text": "끔찍한 새로운 유기체가 세상에 놓이게 될",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "끔찍한"
                         }
                     ],
                     "relations": [

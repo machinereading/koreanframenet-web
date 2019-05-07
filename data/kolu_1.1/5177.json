@@ -27,60 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Manipulator",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 40
+                                "end": 12
                             },
-                            "text": "이슬람 혁명 당시 조국을 떠난 과학자들과 기술 전문가들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이슬람"
                         },
                         {
                             "id": 4,
-                            "obj": "Resulting_Action",
-                            "token_span": [
-                                10,
-                                11
-                            ],
+                            "obj": "Resulting_action",
                             "span": {
                                 "begin": 41,
-                                "end": 48
+                                "end": 43
                             },
-                            "text": "다시 유치하기",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다시"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

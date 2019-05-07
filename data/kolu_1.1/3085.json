@@ -26,16 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Benefited_Party",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Benefited_party",
                             "span": {
                                 "begin": 3,
                                 "end": 7
                             },
-                            "text": "사장님을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사장님을"
                         }
                     ],
                     "relations": [
@@ -70,35 +70,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Benefited_Party",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Benefited_party",
                             "span": {
                                 "begin": 13,
                                 "end": 16
                             },
-                            "text": "회장을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "회장을"
                         },
                         {
                             "id": 3,
                             "obj": "Helper",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 22,
                                 "end": 25
                             },
-                            "text": "직책을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "직책을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

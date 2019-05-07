@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 11
+                                "end": 2
                             },
-                            "text": "내가 그들을 쳐다보자",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내가"
                         },
                         {
                             "id": 3,
                             "obj": "Protagonist",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 12,
                                 "end": 18
                             },
-                            "text": "스테이플톤은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "스테이플톤은"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

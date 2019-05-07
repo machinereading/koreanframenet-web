@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "한여름에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한여름에"
                         }
                     ],
                     "relations": [
@@ -71,37 +71,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                4,
-                                5
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 17,
-                                "end": 23
+                                "end": 20
                             },
-                            "text": "언니의 입은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "언니의"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 29
+                                "end": 26
                             },
-                            "text": "잠시 굳게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "잠시"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -136,36 +134,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 2
                             },
-                            "text": "저녁 6시만 되면",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "저녁"
                         },
                         {
                             "id": 3,
-                            "obj": "Container_Portal",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Container_portal",
                             "span": {
                                 "begin": 10,
                                 "end": 15
                             },
-                            "text": "과사무실이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "과사무실이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -199,35 +195,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Containing_Object",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Containing_object",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "방문이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "방문이"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 15
                             },
-                            "text": "세게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "세게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

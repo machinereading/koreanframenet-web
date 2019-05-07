@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 1
                             },
-                            "text": "이 모형 만들기 과정에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Participants",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 17
                             },
-                            "text": "아이들도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아이들도"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

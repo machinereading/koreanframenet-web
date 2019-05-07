@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Astronomical_Entity",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Astronomical_entity",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "태양이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "태양이"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 11
+                                "end": 7
                             },
-                            "text": "수평선 너머에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수평선"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

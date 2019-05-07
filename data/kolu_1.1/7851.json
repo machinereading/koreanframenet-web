@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cognizer",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "이란이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란이"
                         },
                         {
                             "id": 3,
-                            "obj": "Sought",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Sought_entity",
                             "span": {
                                 "begin": 11,
-                                "end": 38
+                                "end": 14
                             },
-                            "text": "미사일 기술과 스커드-B 급의 전술 탄도 미사일을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미사일"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

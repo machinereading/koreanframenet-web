@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Item",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 6
                             },
-                            "text": "식품첨가물이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "식품첨가물이"
                         },
                         {
                             "id": 3,
                             "obj": "Category",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 33
+                                "end": 26
                             },
-                            "text": "원료명 및 함량란에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "원료명"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                8
-                            ],
                             "span": {
                                 "begin": 34,
                                 "end": 36
                             },
-                            "text": "함께",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "함께"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

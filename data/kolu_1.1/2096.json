@@ -26,39 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Path_Shape",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Path_shape",
                             "span": {
                                 "begin": 11,
                                 "end": 14
                             },
-                            "text": "등산로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "등산로"
                         },
                         {
                             "id": 3,
-                            "obj": "Self_Mover",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Self_mover",
                             "span": {
                                 "begin": 19,
-                                "end": 38
+                                "end": 21
                             },
-                            "text": "노인 세대에 의해 점령당하고 있다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "노인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

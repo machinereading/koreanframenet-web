@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                5
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 25,
                                 "end": 31
                             },
-                            "text": "Jerry는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Jerry는"
                         },
                         {
                             "id": 3,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                13,
-                                14,
-                                15
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 56,
-                                "end": 70
+                                "end": 60
                             },
-                            "text": "감옥으로 돌아가게 되었다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "감옥으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

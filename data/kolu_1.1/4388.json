@@ -26,58 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Target_Location",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Target_location",
                             "span": {
                                 "begin": 3,
-                                "end": 19
+                                "end": 7
                             },
-                            "text": "울타리와 통제 타워에서 떨어진",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "울타리와"
                         },
                         {
                             "id": 3,
                             "obj": "Targeted",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 28
+                                "end": 22
                             },
-                            "text": "특별 주차장으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "특별"
                         },
                         {
                             "id": 4,
                             "obj": "Instrument",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 29,
-                                "end": 35
+                                "end": 32
                             },
-                            "text": "방문자 차를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "방문자"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

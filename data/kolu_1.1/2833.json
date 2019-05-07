@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Item_Property",
-                            "token_span": [
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Item_property",
                             "span": {
                                 "begin": 28,
-                                "end": 39
+                                "end": 30
                             },
-                            "text": "미국 국회의원에 의한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국"
                         },
                         {
                             "id": 3,
-                            "obj": "Type_Property",
-                            "token_span": [
-                                10
-                            ],
+                            "obj": "Type_property",
                             "span": {
                                 "begin": 40,
                                 "end": 43
                             },
-                            "text": "최초인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "최초인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

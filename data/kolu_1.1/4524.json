@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Cause",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 3
                             },
-                            "text": "급격한 산업구조의 변화가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "급격한"
                         },
                         {
                             "id": 3,
                             "obj": "Effect",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 14,
                                 "end": 18
                             },
-                            "text": "실업자를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실업자를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

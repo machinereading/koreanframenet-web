@@ -26,40 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "State_Of_Affairs",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "State_of_affairs",
                             "span": {
                                 "begin": 5,
-                                "end": 30
+                                "end": 8
                             },
-                            "text": "가게가 있었던 모퉁이에는 빌딩이 새로 지어져,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "가게가"
                         },
                         {
                             "id": 3,
-                            "obj": "Reference_Occasion",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Reference_occasion",
                             "span": {
                                 "begin": 31,
                                 "end": 34
                             },
-                            "text": "현재에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "현재에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

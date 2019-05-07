@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 30,
                                 "end": 33
                             },
-                            "text": "교사의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교사의"
                         }
                     ],
                     "relations": [
@@ -72,89 +72,70 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 3
                             },
-                            "text": "Wen Jiabao 수상은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Wen"
                         },
                         {
                             "id": 3,
                             "obj": "Medium",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 82
+                                "end": 18
                             },
-                            "text": "제2차 세계대전 동안 일본이 중국, 아시아 그리고 세계의 나머지 국가들에 가한 엄청난 고통을 인정하고 \" 역사를 직시 \"",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "제2차"
                         },
                         {
                             "id": 4,
                             "obj": "Time",
-                            "token_span": [
-                                22
-                            ],
                             "span": {
                                 "begin": 87,
                                 "end": 89
                             },
-                            "text": "어제",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                22
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어제"
                         },
                         {
                             "id": 5,
                             "obj": "Addressee",
-                            "token_span": [
-                                23
-                            ],
                             "span": {
                                 "begin": 90,
                                 "end": 93
                             },
-                            "text": "일본에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일본에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

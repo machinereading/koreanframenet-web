@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Student",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 1
                             },
-                            "text": "내 동생을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내"
                         }
                     ],
                     "relations": [
@@ -72,37 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Teacher",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 5
                             },
-                            "text": "부모님들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "부모님들은"
                         },
                         {
                             "id": 3,
                             "obj": "Student",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 21
+                                "end": 11
                             },
-                            "text": "아이들에게 바르게 사는 법을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아이들에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -137,35 +133,34 @@
                         {
                             "id": 2,
                             "obj": "Student",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 10
                             },
-                            "text": "아이들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아이들을"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 18
+                                "end": 13
                             },
-                            "text": "좋은 환경에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "좋은"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

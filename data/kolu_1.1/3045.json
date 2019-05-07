@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Relative_Location",
-                            "token_span": [
-                                9,
-                                10,
-                                11
-                            ],
+                            "obj": "Relative_location",
                             "span": {
                                 "begin": 35,
-                                "end": 43
+                                "end": 38
                             },
-                            "text": "우리의 발 밑의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우리의"
                         },
                         {
                             "id": 3,
                             "obj": "Material",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 44,
                                 "end": 47
                             },
-                            "text": "벽돌로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "벽돌로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

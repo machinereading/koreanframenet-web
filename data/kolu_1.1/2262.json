@@ -26,17 +26,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Financial_Instrument",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Financial_instrument",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "은행 대출이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "은행"
                         }
                     ],
                     "relations": [
@@ -72,36 +71,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 11
+                                "end": 3
                             },
-                            "text": "다음달 12일 이후에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다음달"
                         },
                         {
                             "id": 3,
-                            "obj": "Financial_Instrument",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Financial_instrument",
                             "span": {
                                 "begin": 12,
                                 "end": 18
                             },
-                            "text": "공인인증서가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공인인증서가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

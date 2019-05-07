@@ -27,57 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Protagonist",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 20
+                                "end": 10
                             },
-                            "text": "작가 에이전트의 수입은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가"
                         },
                         {
                             "id": 3,
                             "obj": "Intermediary",
-                            "token_span": [
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 34
+                                "end": 25
                             },
-                            "text": "작가에게 들어오는 인세에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가에게"
                         },
                         {
                             "id": 4,
                             "obj": "Degree",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 35,
-                                "end": 41
+                                "end": 37
                             },
-                            "text": "많은 부분을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "많은"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

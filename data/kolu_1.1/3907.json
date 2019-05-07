@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Owner",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 20,
                                 "end": 23
                             },
-                            "text": "이란은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란은"
                         },
                         {
                             "id": 3,
                             "obj": "Possession",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 39
+                                "end": 35
                             },
-                            "text": "Eurodif 주식의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Eurodif"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

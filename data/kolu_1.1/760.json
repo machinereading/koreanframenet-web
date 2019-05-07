@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Goal",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 17
+                                "end": 2
                             },
-                            "text": "도시 외곽에 있는 명소들로 가는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도시"
                         },
                         {
                             "id": 3,
-                            "obj": "Mode_Of_Transportation",
-                            "token_span": [
-                                7
-                            ],
+                            "obj": "Mode_of_transportation",
                             "span": {
                                 "begin": 24,
                                 "end": 26
                             },
-                            "text": "버스",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "버스"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

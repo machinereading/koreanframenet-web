@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Item",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 26
+                                "end": 19
                             },
-                            "text": "나라의 총 인구는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나라의"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 50,
                                 "end": 55
                             },
-                            "text": "58년에는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "58년에는"
                         },
                         {
                             "id": 4,
-                            "obj": "Final_Value",
-                            "token_span": [
-                                12,
-                                13
-                            ],
+                            "obj": "Final_value",
                             "span": {
                                 "begin": 56,
-                                "end": 67
+                                "end": 58
                             },
-                            "text": "1억 1,948만명이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1억"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

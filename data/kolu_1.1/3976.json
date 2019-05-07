@@ -27,57 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Authorities",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "검찰은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "검찰은"
                         },
                         {
                             "id": 3,
                             "obj": "Prisoner",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 27
+                                "end": 6
                             },
-                            "text": "뇌물 수수 혐의가 드러난 국회의원들 모두를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "뇌물"
                         },
                         {
                             "id": 4,
                             "obj": "Prison",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
                                 "end": 32
                             },
-                            "text": "교도소에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "교도소에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

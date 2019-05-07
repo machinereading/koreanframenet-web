@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Perceptual",
-                            "token_span": [
-                                0,
-                                1
-                            ],
+                            "obj": "Perceptual_source",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "노예 제도의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "노예"
                         },
                         {
                             "id": 3,
-                            "obj": "Sensory",
-                            "token_span": [
-                                3
-                            ],
+                            "obj": "Sensory_attribute",
                             "span": {
                                 "begin": 11,
                                 "end": 13
                             },
-                            "text": "맛이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "맛이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

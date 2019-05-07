@@ -27,21 +27,15 @@
                         {
                             "id": 2,
                             "obj": "State",
-                            "token_span": [
-                                15,
-                                16,
-                                17,
-                                18,
-                                19,
-                                20,
-                                21
-                            ],
                             "span": {
                                 "begin": 62,
-                                "end": 88
+                                "end": 65
                             },
-                            "text": "화학전 관련 기술을 위해 외국 자원에 의존하는데",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "화학전"
                         }
                     ],
                     "relations": [
@@ -78,56 +72,52 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 1
                             },
-                            "text": "그 나라의 정치 수준은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 15
                             },
-                            "text": "아직",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아직"
                         },
                         {
                             "id": 4,
                             "obj": "State",
-                            "token_span": [
-                                5,
-                                6
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 23
+                                "end": 19
                             },
-                            "text": "후진국 수준에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "후진국"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

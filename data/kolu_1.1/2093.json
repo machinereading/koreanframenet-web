@@ -26,55 +26,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "New_Member",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "New_member",
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "자동차를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자동차를"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "아버지 명의로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아버지"
                         },
                         {
                             "id": 4,
                             "obj": "Group",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 19
+                                "end": 15
                             },
-                            "text": "해당 관청에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해당"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -108,35 +106,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "New_Member",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "New_member",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "상표를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "상표를"
                         },
                         {
                             "id": 3,
                             "obj": "Group",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "당국에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "당국에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

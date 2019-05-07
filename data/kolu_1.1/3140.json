@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 2
                             },
-                            "text": "이런 <단위>를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이런"
                         },
                         {
                             "id": 3,
                             "obj": "Name",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 19
                             },
-                            "text": "<루프roof>라고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "<루프roof>라고"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

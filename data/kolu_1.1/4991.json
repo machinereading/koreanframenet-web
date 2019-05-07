@@ -28,41 +28,34 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 23
+                                "end": 8
                             },
-                            "text": "공화당이 이끄는 상원 정보 위원회는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공화당이"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 38
+                                "end": 27
                             },
-                            "text": "오보에 대한 어려운 요청을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "오보에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Name",
-                            "token_span": [
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 40
+                                "end": 37
                             },
-                            "text": "Man Mo",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Man"
                         }
                     ],
                     "relations": [
@@ -73,53 +72,52 @@
                         {
                             "id": 2,
                             "obj": "Place",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "섬의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "섬의"
                         },
                         {
                             "id": 3,
                             "obj": "Descriptor",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 9
+                                "end": 5
                             },
-                            "text": "가장 오래된",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "가장"
                         },
                         {
                             "id": 4,
                             "obj": "Function",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 10,
                                 "end": 13
                             },
-                            "text": "예배소",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "예배소"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

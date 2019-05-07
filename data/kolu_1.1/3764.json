@@ -27,42 +27,21 @@
                         {
                             "id": 2,
                             "obj": "Manner",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 16
+                                "end": 2
                             },
-                            "text": "이론 한계치에 근접한 수준으로",
-                            "role": "ARGUMENT"
-                        },
-                        {
-                            "id": 3,
-                            "obj": "Invention",
                             "token_span": [
-                                6
+                                0
                             ],
-                            "span": {
-                                "begin": 25,
-                                "end": 29
-                            },
-                            "text": "제품을,",
-                            "role": "ARGUMENT"
+                            "role": "ARGUMENT",
+                            "text": "이론"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
-                            "pred": "arg"
-                        },
-                        {
-                            "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         }
                     ],
@@ -92,43 +71,22 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Invention",
-                            "token_span": [
-                                10,
-                                11
-                            ],
-                            "span": {
-                                "begin": 49,
-                                "end": 57
-                            },
-                            "text": "설계되는 제품은",
-                            "role": "ARGUMENT"
-                        },
-                        {
-                            "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                13,
-                                14,
-                                15
-                            ],
                             "span": {
                                 "begin": 62,
-                                "end": 74
+                                "end": 64
                             },
-                            "text": "이론 한계치에 근사하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이론"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
-                            "pred": "arg"
-                        },
-                        {
-                            "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         }
                     ],
@@ -155,28 +113,9 @@
                             ],
                             "role": "TARGET",
                             "text": "설계되는"
-                        },
-                        {
-                            "id": 2,
-                            "obj": "Invention",
-                            "token_span": [
-                                11
-                            ],
-                            "span": {
-                                "begin": 54,
-                                "end": 57
-                            },
-                            "text": "제품은",
-                            "role": "ARGUMENT"
                         }
                     ],
-                    "relations": [
-                        {
-                            "subj": 1,
-                            "obj": 2,
-                            "pred": "arg"
-                        }
-                    ],
+                    "relations": [],
                     "sent_id": "4174",
                     "lu": "설계되다.v.Ingestion",
                     "text": "실제로, 예를 들어 우리가 개발하고 있는 반도체분야는, 연속적인 성능향상이 요구되므로, 설계되는 제품은 대부분 이론 한계치에 근사하게 설계된다."

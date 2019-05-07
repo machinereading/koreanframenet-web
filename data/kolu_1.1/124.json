@@ -26,42 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Landmark_Period",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Landmark_period",
                             "span": {
                                 "begin": 3,
-                                "end": 7
+                                "end": 4
                             },
-                            "text": "몇 년간",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "몇"
                         },
                         {
                             "id": 3,
-                            "obj": "Trajector_Event",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9
-                            ],
+                            "obj": "Trajector_event",
                             "span": {
                                 "begin": 8,
-                                "end": 34
+                                "end": 11
                             },
-                            "text": "미국의 영향은 영국의 영향보다 훨씬 더 강했다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Communicator",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 42,
                                 "end": 45
                             },
-                            "text": "그들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들은"
                         },
                         {
                             "id": 3,
                             "obj": "Addressee",
-                            "token_span": [
-                                12,
-                                13
-                            ],
                             "span": {
                                 "begin": 46,
-                                "end": 53
+                                "end": 49
                             },
-                            "text": "모두가 듣도록",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모두가"
                         },
                         {
                             "id": 4,
                             "obj": "Message",
-                            "token_span": [
-                                15,
-                                16
-                            ],
                             "span": {
                                 "begin": 57,
-                                "end": 63
+                                "end": 59
                             },
-                            "text": "정오 시간을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정오"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

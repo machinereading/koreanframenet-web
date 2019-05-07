@@ -27,46 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 58
+                                "end": 11
                             },
-                            "text": "공공 서비스는 -- 법정 시스템, 학교, 우편 서비스, 전화 연결망 그리고 고속도로 --",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "공공"
                         },
                         {
                             "id": 3,
                             "obj": "Evaluation",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 59,
                                 "end": 64
                             },
-                            "text": "수치스러운",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "수치스러운"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

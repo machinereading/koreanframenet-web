@@ -27,54 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 12
+                                "end": 8
                             },
-                            "text": "Cycldaes 문화는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Cycldaes"
                         },
                         {
                             "id": 3,
-                            "obj": "Exporting_Area",
-                            "token_span": [
-                                2
-                            ],
+                            "obj": "Exporting_area",
                             "span": {
                                 "begin": 13,
                                 "end": 22
                             },
-                            "text": "메소포타미아로부터",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "메소포타미아로부터"
                         },
                         {
                             "id": 4,
                             "obj": "Goods",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 30
+                                "end": 26
                             },
-                            "text": "도자기 바퀴를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도자기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

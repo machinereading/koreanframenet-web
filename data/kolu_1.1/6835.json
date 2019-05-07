@@ -27,82 +27,71 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Time_Span",
-                            "token_span": [
-                                0
-                            ],
+                            "obj": "Time_span",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "지난해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지난해"
                         },
                         {
                             "id": 3,
                             "obj": "Attribute",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "재해 손실은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "재해"
                         },
                         {
                             "id": 4,
-                            "obj": "Time_Span",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
+                            "obj": "Time_span",
                             "span": {
                                 "begin": 11,
-                                "end": 43
+                                "end": 15
                             },
-                            "text": "순이익이 235.5 백만 달러 또는 주당 2.07 달러 시",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "순이익이"
                         },
                         {
                             "id": 5,
                             "obj": "Value",
-                            "token_span": [
-                                12,
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 44,
-                                "end": 52
+                                "end": 45
                             },
-                            "text": "5 백만 달러의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "5"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

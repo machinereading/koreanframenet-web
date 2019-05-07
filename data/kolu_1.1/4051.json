@@ -79,15 +79,15 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "미국의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국의"
                         }
                     ],
                     "relations": [
@@ -123,54 +123,53 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Importing_Area",
-                            "token_span": [
-                                2,
-                                3
-                            ],
+                            "obj": "Importing_area",
                             "span": {
                                 "begin": 6,
-                                "end": 12
+                                "end": 9
                             },
-                            "text": "이란에 대한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란에"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                4
-                            ],
                             "span": {
                                 "begin": 13,
                                 "end": 16
                             },
-                            "text": "중국의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중국의"
                         },
                         {
                             "id": 4,
                             "obj": "Goods",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 18
                             },
-                            "text": "핵",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
@@ -206,34 +205,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 6
                             },
-                            "text": "아르헨티나의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아르헨티나의"
                         },
                         {
                             "id": 3,
-                            "obj": "Importing_Area",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Importing_area",
                             "span": {
                                 "begin": 7,
                                 "end": 9
                             },
-                            "text": "이란",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

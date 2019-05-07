@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Factor",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 3
                             },
-                            "text": "중국과 러시아의 공급 정책은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중국과"
                         },
                         {
                             "id": 3,
                             "obj": "Undertaking",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 22
+                                "end": 19
                             },
-                            "text": "이란의 성공",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

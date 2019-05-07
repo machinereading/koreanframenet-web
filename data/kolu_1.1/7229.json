@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Destroyer",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 4
                             },
-                            "text": "암세포는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "암세포는"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
-                                "end": 23
+                                "end": 19
                             },
-                            "text": "신체 조직을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신체"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

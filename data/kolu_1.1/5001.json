@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Instrument",
-                            "token_span": [
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 55,
-                                "end": 63
+                                "end": 59
                             },
-                            "text": "핵분열성 물질이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵분열성"
                         },
                         {
                             "id": 3,
                             "obj": "Purpose",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 64,
                                 "end": 66
                             },
-                            "text": "군사",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "군사"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

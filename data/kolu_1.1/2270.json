@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Produced_Food",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Produced_food",
                             "span": {
                                 "begin": 15,
                                 "end": 19
                             },
-                            "text": "초콜릿을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "초콜릿을"
                         },
                         {
                             "id": 3,
                             "obj": "Cook",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 24,
                                 "end": 28
                             },
-                            "text": "과정에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "과정에서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

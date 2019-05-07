@@ -27,77 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 5
                             },
-                            "text": "1995년 3월 20일에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1995년"
                         },
                         {
                             "id": 3,
                             "obj": "Agent",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 29
+                                "end": 17
                             },
-                            "text": "일본의 한 광신 집단에 의한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일본의"
                         },
                         {
                             "id": 4,
                             "obj": "Place",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 30,
-                                "end": 39
+                                "end": 32
                             },
-                            "text": "도쿄 지하철에서의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "도쿄"
                         },
                         {
                             "id": 5,
                             "obj": "Theme",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 40,
                                 "end": 44
                             },
-                            "text": "신경가스",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신경가스"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

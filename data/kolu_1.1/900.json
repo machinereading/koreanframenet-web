@@ -27,63 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Creator",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 27
+                                "end": 4
                             },
-                            "text": "프로젝트 당담자인 Wouter Basson 박사는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "프로젝트"
                         },
                         {
                             "id": 3,
                             "obj": "Place",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 31,
                                 "end": 33
                             },
-                            "text": "해외",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해외"
                         },
                         {
                             "id": 4,
-                            "obj": "Created_Entity",
-                            "token_span": [
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14
-                            ],
+                            "obj": "Created_entity",
                             "span": {
                                 "begin": 34,
-                                "end": 67
+                                "end": 36
                             },
-                            "text": "조달 및 재무를 담당하는 표면상의 회사들의 정교한 네트워크를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "조달"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

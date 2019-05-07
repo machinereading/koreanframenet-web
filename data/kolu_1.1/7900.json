@@ -27,72 +27,70 @@
                         {
                             "id": 2,
                             "obj": "Ground",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 5
                             },
-                            "text": "양궁에서는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "양궁에서는"
                         },
                         {
                             "id": 3,
                             "obj": "Searcher",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "한국이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한국이"
                         },
                         {
                             "id": 4,
-                            "obj": "Sought_Entity",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
+                            "obj": "Sought_entity",
                             "span": {
                                 "begin": 10,
-                                "end": 20
+                                "end": 12
                             },
-                            "text": "금, 은, 동메달을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "금,"
                         },
                         {
                             "id": 5,
                             "obj": "Manner",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 21,
                                 "end": 24
                             },
-                            "text": "모조리",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모조리"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {
@@ -127,34 +125,34 @@
                         {
                             "id": 2,
                             "obj": "Searcher",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "어둠이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "어둠이"
                         },
                         {
                             "id": 3,
                             "obj": "Ground",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "거리를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "거리를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

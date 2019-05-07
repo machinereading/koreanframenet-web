@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Healer",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 2
                             },
-                            "text": "시민 운동이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시민"
                         },
                         {
                             "id": 3,
                             "obj": "Patient",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 22
+                                "end": 10
                             },
-                            "text": "한국의 부정부패라는 고질병을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "한국의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -92,36 +89,34 @@
                         {
                             "id": 2,
                             "obj": "Medication",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 4
+                                "end": 1
                             },
-                            "text": "그 약이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Affliction",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 5,
-                                "end": 10
+                                "end": 7
                             },
-                            "text": "그의 병을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

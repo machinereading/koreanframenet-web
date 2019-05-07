@@ -26,44 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Focal_Occasion",
-                            "token_span": [
-                                11,
-                                12,
-                                13,
-                                14,
-                                15,
-                                16,
-                                17
-                            ],
+                            "obj": "Focal_occasion",
                             "span": {
                                 "begin": 48,
-                                "end": 69
+                                "end": 51
                             },
-                            "text": "지휘관 ( Amir ) 의 서약에 의해",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지휘관"
                         },
                         {
                             "id": 3,
-                            "obj": "Landmark_Occasion",
-                            "token_span": [
-                                19,
-                                20,
-                                21,
-                                22
-                            ],
+                            "obj": "Landmark_occasion",
                             "span": {
                                 "begin": 75,
-                                "end": 89
+                                "end": 78
                             },
-                            "text": "정책과 목적에 대한 약속을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정책과"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

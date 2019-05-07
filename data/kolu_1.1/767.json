@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Event",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 33
+                                "end": 29
                             },
-                            "text": "우라늄염 생산에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "우라늄염"
                         },
                         {
                             "id": 3,
                             "obj": "Participant_1",
-                            "token_span": [
-                                10
-                            ],
                             "span": {
                                 "begin": 38,
                                 "end": 42
                             },
-                            "text": "시설들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시설들을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -26,36 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Relative_Location",
-                            "token_span": [
-                                13,
-                                14
-                            ],
+                            "obj": "Relative_location",
                             "span": {
                                 "begin": 59,
-                                "end": 65
+                                "end": 62
                             },
-                            "text": "그곳에 있는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그곳에"
                         },
                         {
                             "id": 3,
                             "obj": "Locale",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 66,
                                 "end": 70
                             },
-                            "text": "약국에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "약국에서"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

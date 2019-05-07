@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 37,
-                                "end": 48
+                                "end": 40
                             },
-                            "text": "유럽과 미국의 경제에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유럽과"
                         },
                         {
                             "id": 3,
                             "obj": "Degree",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 49,
                                 "end": 52
                             },
-                            "text": "심하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "심하게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

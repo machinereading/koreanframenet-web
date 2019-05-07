@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Action",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 18,
-                                "end": 26
+                                "end": 23
                             },
-                            "text": "기다리기만 하는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기다리기만"
                         },
                         {
                             "id": 3,
                             "obj": "Protagonist",
-                            "token_span": [
-                                7,
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 30,
-                                "end": 43
+                                "end": 32
                             },
-                            "text": "작가 에이전트는 아니다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

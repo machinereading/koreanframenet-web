@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Partner_1",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 18
+                                "end": 9
                             },
-                            "text": "이 마을의 아이들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이"
                         },
                         {
                             "id": 3,
                             "obj": "Partner_2",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
                                 "end": 30
                             },
-                            "text": "물과",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "물과"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

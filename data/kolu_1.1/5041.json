@@ -26,40 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Sound_Source",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Sound_source",
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 1
                             },
-                            "text": "백 개의 차 스테레오에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "백"
                         },
                         {
                             "id": 3,
                             "obj": "Sound",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 38
+                                "end": 26
                             },
-                            "text": "Bob Marley의 노래나",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Bob"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

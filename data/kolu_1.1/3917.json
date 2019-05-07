@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Name",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 29
+                                "end": 16
                             },
-                            "text": "Barefoot in the Grass",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "Barefoot"
                         },
                         {
                             "id": 3,
                             "obj": "Attendee",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 30,
                                 "end": 32
                             },
-                            "text": "가족",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "가족"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

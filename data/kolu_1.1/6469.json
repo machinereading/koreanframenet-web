@@ -27,55 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 7
                             },
-                            "text": "여자는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "여자는"
                         },
                         {
                             "id": 3,
-                            "obj": "Undergoer",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Manner",
                             "span": {
                                 "begin": 8,
-                                "end": 24
+                                "end": 10
                             },
-                            "text": "그녀 자신이 소유한 처녀성을,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그녀"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 51,
                                 "end": 55
                             },
-                            "text": "소중하게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소중하게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

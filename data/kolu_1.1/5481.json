@@ -27,15 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "연회도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "연회도"
                         }
                     ],
                     "relations": [
@@ -72,36 +72,34 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 2
                             },
-                            "text": "이런 사람들은,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이런"
                         },
                         {
                             "id": 3,
                             "obj": "Feature",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 24
+                                "end": 19
                             },
-                            "text": "실행에 옮길지는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "실행에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

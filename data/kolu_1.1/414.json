@@ -27,39 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Inspector",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "의사는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "의사는"
                         },
                         {
                             "id": 3,
-                            "obj": "Unwanted_Entity",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Unwanted_entity",
                             "span": {
                                 "begin": 4,
-                                "end": 30
+                                "end": 7
                             },
-                            "text": "구제역 바이러스 감염이 의심되는 모든 농산물들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "구제역"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -94,54 +89,52 @@
                         {
                             "id": 2,
                             "obj": "Inspector",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 19,
                                 "end": 22
                             },
-                            "text": "정부는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정부는"
                         },
                         {
                             "id": 3,
                             "obj": "Ground",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 36
+                                "end": 26
                             },
-                            "text": "국내에 들어오는 사람들을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "국내에"
                         },
                         {
                             "id": 4,
                             "obj": "Manner",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 37,
                                 "end": 39
                             },
-                            "text": "모두",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "모두"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

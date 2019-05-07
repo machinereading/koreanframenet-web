@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Factor",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "이것이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이것이"
                         },
                         {
                             "id": 3,
-                            "obj": "Interested_Party",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Interested_party",
                             "span": {
                                 "begin": 4,
-                                "end": 13
+                                "end": 6
                             },
-                            "text": "작가 에이전트에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "작가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

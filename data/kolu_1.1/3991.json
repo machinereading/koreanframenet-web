@@ -27,65 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Entity",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "제재는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "제재는"
                         },
                         {
                             "id": 3,
                             "obj": "Cause",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12,
-                                13,
-                                14
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 61
+                                "end": 6
                             },
-                            "text": "유엔 검사관들이 이라크가 대량 살상 무기와 그들을 생산하기 위한 수단을 제거하였다는 것을 확인할 때까지",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "유엔"
                         },
                         {
                             "id": 4,
                             "obj": "Event",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 62,
                                 "end": 65
                             },
-                            "text": "해제될",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "해제될"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

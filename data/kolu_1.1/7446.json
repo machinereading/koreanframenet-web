@@ -28,35 +28,34 @@
                         {
                             "id": 2,
                             "obj": "Dependent",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "철도는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "철도는"
                         },
                         {
                             "id": 3,
-                            "obj": "Required_Entity",
-                            "token_span": [
-                                1,
-                                2
-                            ],
+                            "obj": "Required_entity",
                             "span": {
                                 "begin": 4,
-                                "end": 11
+                                "end": 6
                             },
-                            "text": "중간 기착지를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중간"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

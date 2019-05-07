@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Salient_Entity",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Salient_entity",
                             "span": {
                                 "begin": 3,
                                 "end": 5
                             },
-                            "text": "셀프",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "셀프"
                         },
                         {
                             "id": 3,
                             "obj": "Complex",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 9
                             },
-                            "text": "방식인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "방식인"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

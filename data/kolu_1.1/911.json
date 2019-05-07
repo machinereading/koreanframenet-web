@@ -130,36 +130,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Container_Possessor",
-                            "token_span": [
-                                11
-                            ],
+                            "obj": "Container_possessor",
                             "span": {
                                 "begin": 38,
                                 "end": 41
                             },
-                            "text": "소련의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "소련의"
                         },
                         {
                             "id": 3,
-                            "obj": "Constituent_Parts",
-                            "token_span": [
-                                13,
-                                14
-                            ],
+                            "obj": "Constituent_parts",
                             "span": {
                                 "begin": 45,
-                                "end": 51
+                                "end": 47
                             },
-                            "text": "선박 회사로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "선박"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

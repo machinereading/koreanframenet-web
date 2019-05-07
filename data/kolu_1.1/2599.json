@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Speaker",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "text": "사장은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사장은"
                         },
                         {
                             "id": 3,
                             "obj": "Proposal",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 15,
-                                "end": 22
+                                "end": 18
                             },
-                            "text": "노조의 요구를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "노조의"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Perceiver",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 9,
                                 "end": 12
                             },
-                            "text": "이란의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란의"
                         },
                         {
                             "id": 3,
                             "obj": "Percept",
-                            "token_span": [
-                                8,
-                                9,
-                                10,
-                                11
-                            ],
                             "span": {
                                 "begin": 34,
-                                "end": 48
+                                "end": 37
                             },
-                            "text": "정치적 및 군사적 취약감에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "정치적"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

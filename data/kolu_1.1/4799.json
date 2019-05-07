@@ -27,40 +27,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Influencing_Situation",
-                            "token_span": [
-                                16
-                            ],
+                            "obj": "Influencing_situation",
                             "span": {
                                 "begin": 58,
                                 "end": 61
                             },
-                            "text": "질병에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "질병에"
                         },
                         {
                             "id": 3,
-                            "obj": "Dependent_Entity",
-                            "token_span": [
-                                28,
-                                29,
-                                30,
-                                31,
-                                32,
-                                33
-                            ],
+                            "obj": "Dependent_entity",
                             "span": {
                                 "begin": 101,
-                                "end": 119
+                                "end": 103
                             },
-                            "text": "인간 및 가축과 같은 다른 동물에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                28
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "인간"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Total",
-                            "token_span": [
-                                6,
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 38,
-                                "end": 50
+                                "end": 42
                             },
-                            "text": "알루미늄 등 금속분말에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "알루미늄"
                         },
                         {
                             "id": 3,
                             "obj": "Part",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 51,
                                 "end": 56
                             },
-                            "text": "혼합성분을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "혼합성분을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

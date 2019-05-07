@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Concept_1",
-                            "token_span": [
-                                7,
-                                8
-                            ],
                             "span": {
                                 "begin": 35,
-                                "end": 42
+                                "end": 38
                             },
-                            "text": "애착의 정도는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "애착의"
                         },
                         {
                             "id": 3,
                             "obj": "Concept_2",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 43,
-                                "end": 55
+                                "end": 48
                             },
-                            "text": "신차인지, 중고인지와는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신차인지,"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

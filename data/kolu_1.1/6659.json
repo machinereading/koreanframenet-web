@@ -26,37 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Co_Agent",
-                            "token_span": [
-                                6,
-                                7
-                            ],
+                            "obj": "Benefited_party",
                             "span": {
                                 "begin": 23,
-                                "end": 28
+                                "end": 25
                             },
-                            "text": "다른 사람",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "다른"
                         },
                         {
                             "id": 3,
-                            "obj": "Focal_Entity",
-                            "token_span": [
-                                8,
-                                9
-                            ],
+                            "obj": "Focal_entity",
                             "span": {
                                 "begin": 29,
-                                "end": 36
+                                "end": 33
                             },
-                            "text": "참견하는 것도",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "참견하는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

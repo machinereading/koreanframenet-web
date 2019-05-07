@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 39,
-                                "end": 47
+                                "end": 43
                             },
-                            "text": "관공서의 연회가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "관공서의"
                         },
                         {
                             "id": 3,
                             "obj": "Situation",
-                            "token_span": [
-                                11
-                            ],
                             "span": {
                                 "begin": 48,
                                 "end": 51
                             },
-                            "text": "중심을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중심을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Addressee",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 45,
                                 "end": 50
                             },
-                            "text": "아브라함이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "아브라함이"
                         },
                         {
                             "id": 3,
                             "obj": "Message",
-                            "token_span": [
-                                13,
-                                14,
-                                15,
-                                16,
-                                17
-                            ],
                             "span": {
                                 "begin": 51,
-                                "end": 69
+                                "end": 53
                             },
-                            "text": "자기 아들 이삭을 제물로 바치도록",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

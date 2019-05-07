@@ -27,42 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 55
+                                "end": 27
                             },
-                            "text": "그들이 폭탄을 제거하는 중 기름 파이프관에서 폭탄이 터져",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그들이"
                         },
                         {
                             "id": 3,
                             "obj": "Victim",
-                            "token_span": [
-                                18,
-                                19
-                            ],
                             "span": {
                                 "begin": 75,
-                                "end": 79
+                                "end": 76
                             },
-                            "text": "세 명이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "세"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Circumstance",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 2,
-                                "end": 18
+                                "end": 4
                             },
-                            "text": "랩을 씌워서 상온에 잠시 두면",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "랩을"
                         },
                         {
                             "id": 3,
-                            "obj": "Final_State",
-                            "token_span": [
-                                6
-                            ],
+                            "obj": "Final_state",
                             "span": {
                                 "begin": 19,
                                 "end": 23
                             },
-                            "text": "부드러워",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "부드러워"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

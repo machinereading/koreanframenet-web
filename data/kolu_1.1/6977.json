@@ -28,35 +28,34 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 21,
-                                "end": 29
+                                "end": 24
                             },
-                            "text": "1.5 백만명이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "1.5"
                         },
                         {
                             "id": 3,
                             "obj": "Affliction",
-                            "token_span": [
-                                12
-                            ],
                             "span": {
                                 "begin": 51,
                                 "end": 55
                             },
-                            "text": "질병으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "질병으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

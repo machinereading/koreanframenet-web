@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                0,
-                                1
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 4
                             },
-                            "text": "기다리던 소포가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "기다리던"
                         }
                     ],
                     "relations": [
@@ -72,15 +71,15 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                2
-                            ],
                             "span": {
                                 "begin": 6,
                                 "end": 10
                             },
-                            "text": "신문조차",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "신문조차"
                         }
                     ],
                     "relations": [
@@ -116,56 +115,52 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 21
+                                "end": 11
                             },
-                            "text": "대규모 양의 약과 치료가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "대규모"
                         },
                         {
                             "id": 3,
                             "obj": "Speed",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 22,
-                                "end": 28
+                                "end": 25
                             },
-                            "text": "얼마나 빨리",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "얼마나"
                         },
                         {
                             "id": 4,
                             "obj": "Recipient",
-                            "token_span": [
-                                8
-                            ],
                             "span": {
                                 "begin": 29,
                                 "end": 35
                             },
-                            "text": "일반인들에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "일반인들에게"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

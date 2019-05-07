@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Theme",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 4
                             },
-                            "text": "태풍으로 쓰러진 가로수가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "태풍으로"
                         },
                         {
                             "id": 3,
                             "obj": "Location",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 14,
                                 "end": 16
                             },
-                            "text": "길에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "길에"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

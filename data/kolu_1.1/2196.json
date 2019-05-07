@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Patient",
-                            "token_span": [
-                                0,
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 11
+                                "end": 3
                             },
-                            "text": "장롱과 책상의 간격을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "장롱과"
                         },
                         {
                             "id": 3,
                             "obj": "Manner",
-                            "token_span": [
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 15
+                                "end": 13
                             },
-                            "text": "좀 더",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "좀"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

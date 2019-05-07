@@ -27,37 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Degree",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 17,
                                 "end": 19
                             },
-                            "text": "높은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "높은"
                         },
                         {
                             "id": 3,
-                            "obj": "Toxic_Substance",
-                            "token_span": [
-                                14,
-                                15,
-                                16,
-                                17
-                            ],
+                            "obj": "Toxic_substance",
                             "span": {
                                 "begin": 48,
-                                "end": 68
+                                "end": 52
                             },
-                            "text": "살아있지 않고, 제조된 화학물질이다.",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "살아있지"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

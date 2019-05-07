@@ -27,62 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Time",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 15
+                                "end": 5
                             },
-                            "text": "IAEA의 이란 방문 동안,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "IAEA의"
                         },
                         {
                             "id": 3,
                             "obj": "Communicator",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 23
+                                "end": 18
                             },
-                            "text": "이란 관리들은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란"
                         },
                         {
                             "id": 4,
                             "obj": "Message",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 51
+                                "end": 27
                             },
-                            "text": "이란이 IAEA와의 안전 장치 협정을 지킬 것임을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란이"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

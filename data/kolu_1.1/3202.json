@@ -26,35 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Part_Prop",
-                            "token_span": [
-                                4
-                            ],
+                            "obj": "Part_prop",
                             "span": {
                                 "begin": 15,
                                 "end": 17
                             },
-                            "text": "핵심",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "핵심"
                         },
                         {
                             "id": 3,
                             "obj": "Part",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 22,
                                 "end": 29
                             },
-                            "text": "XYZ-11을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "XYZ-11을"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
@@ -89,16 +89,16 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Part_Prop",
-                            "token_span": [
-                                8
-                            ],
+                            "obj": "Part_prop",
                             "span": {
                                 "begin": 37,
                                 "end": 39
                             },
-                            "text": "관련",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "관련"
                         }
                     ],
                     "relations": [
@@ -135,16 +135,15 @@
                         {
                             "id": 2,
                             "obj": "Part",
-                            "token_span": [
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 35
+                                "end": 31
                             },
-                            "text": "개개의 부품에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "개개의"
                         }
                     ],
                     "relations": [

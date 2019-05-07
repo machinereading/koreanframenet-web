@@ -27,35 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Evaluee",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 23,
                                 "end": 26
                             },
-                            "text": "지역이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "지역이"
                         },
                         {
                             "id": 3,
-                            "obj": "Affected_Party",
-                            "token_span": [
-                                7,
-                                8
-                            ],
+                            "obj": "Affected_party",
                             "span": {
                                 "begin": 27,
-                                "end": 36
+                                "end": 29
                             },
-                            "text": "초기 여행자들에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "초기"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

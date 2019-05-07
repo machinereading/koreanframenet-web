@@ -27,16 +27,15 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                35,
-                                36
-                            ],
                             "span": {
                                 "begin": 136,
-                                "end": 142
+                                "end": 138
                             },
-                            "text": "이란 정부가",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                35
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이란"
                         }
                     ],
                     "relations": [
@@ -72,54 +71,52 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                1,
-                                2
-                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 10
+                                "end": 6
                             },
-                            "text": "미국 해군이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "미국"
                         },
                         {
                             "id": 3,
                             "obj": "Time",
-                            "token_span": [
-                                3
-                            ],
                             "span": {
                                 "begin": 11,
                                 "end": 13
                             },
-                            "text": "최근",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "최근"
                         },
                         {
                             "id": 4,
                             "obj": "Captive",
-                            "token_span": [
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 22
+                                "end": 17
                             },
-                            "text": "러시아 유조선을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "러시아"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

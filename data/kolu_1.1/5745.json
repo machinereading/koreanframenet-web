@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Message",
-                            "token_span": [
-                                2,
-                                3,
-                                4
-                            ],
                             "span": {
                                 "begin": 7,
-                                "end": 20
+                                "end": 10
                             },
-                            "text": "나에게 서둘러 귀가하라고",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "나에게"
                         },
                         {
                             "id": 3,
                             "obj": "Medium",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 26,
                                 "end": 29
                             },
-                            "text": "전화를",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "전화를"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

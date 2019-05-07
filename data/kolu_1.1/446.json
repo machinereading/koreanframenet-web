@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Host_Location",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6
-                            ],
+                            "obj": "Host_location",
                             "span": {
                                 "begin": 12,
-                                "end": 30
+                                "end": 14
                             },
-                            "text": "TV 프로그램 『보도 스테이션』에",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "TV"
                         },
                         {
                             "id": 3,
                             "obj": "Guest",
-                            "token_span": [
-                                7
-                            ],
                             "span": {
                                 "begin": 31,
                                 "end": 35
                             },
-                            "text": "게스트로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "게스트로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

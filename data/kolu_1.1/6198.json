@@ -27,38 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Experiencer",
-                            "token_span": [
-                                0
-                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 2
                             },
-                            "text": "저는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "저는"
                         },
                         {
                             "id": 3,
                             "obj": "Action",
-                            "token_span": [
-                                6,
-                                7,
-                                8,
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 47
+                                "end": 29
                             },
-                            "text": "이야기가 자꾸 오래전으로 거슬러 올라가서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이야기가"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

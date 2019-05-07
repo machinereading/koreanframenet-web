@@ -26,39 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Responsible_Party",
-                            "token_span": [
-                                1
-                            ],
+                            "obj": "Responsible_party",
                             "span": {
                                 "begin": 5,
                                 "end": 8
                             },
-                            "text": "계약한",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "계약한"
                         },
                         {
                             "id": 3,
                             "obj": "Duty",
-                            "token_span": [
-                                3,
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 33
+                                "end": 14
                             },
-                            "text": "잘 나가는 작품을 만들어내지 못하면,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "잘"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

@@ -27,40 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Agent",
-                            "token_span": [
-                                2,
-                                3
-                            ],
                             "span": {
                                 "begin": 9,
-                                "end": 14
+                                "end": 10
                             },
-                            "text": "그 조직이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그"
                         },
                         {
                             "id": 3,
                             "obj": "Project",
-                            "token_span": [
-                                13,
-                                14,
-                                15,
-                                16,
-                                17,
-                                18
-                            ],
                             "span": {
                                 "begin": 63,
-                                "end": 84
+                                "end": 66
                             },
-                            "text": "탄저병 생산을 위한 실행 가능한 계획을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "탄저병"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

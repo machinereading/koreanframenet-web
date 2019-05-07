@@ -27,36 +27,34 @@
                         {
                             "id": 2,
                             "obj": "Count",
-                            "token_span": [
-                                1
-                            ],
                             "span": {
                                 "begin": 2,
                                 "end": 5
                             },
-                            "text": "600",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "600"
                         },
                         {
                             "id": 3,
                             "obj": "Stuff",
-                            "token_span": [
-                                3,
-                                4,
-                                5
-                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 24
+                                "end": 15
                             },
-                            "text": "무기급 고농축 우라늄은",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "무기급"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

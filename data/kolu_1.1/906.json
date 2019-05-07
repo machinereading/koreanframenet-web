@@ -27,56 +27,52 @@
                         {
                             "id": 2,
                             "obj": "Participant_1",
-                            "token_span": [
-                                9
-                            ],
                             "span": {
                                 "begin": 42,
                                 "end": 47
                             },
-                            "text": "이스라엘의",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "이스라엘의"
                         },
                         {
                             "id": 3,
                             "obj": "Event",
-                            "token_span": [
-                                14,
-                                15,
-                                16,
-                                17
-                            ],
                             "span": {
                                 "begin": 64,
-                                "end": 82
+                                "end": 67
                             },
-                            "text": "중동과 아프리카의 정치적 문제에서",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "중동과"
                         },
                         {
                             "id": 4,
-                            "obj": "Degree_Of_Involvement",
-                            "token_span": [
-                                18,
-                                19
-                            ],
+                            "obj": "Degree_of_involvement",
                             "span": {
                                 "begin": 83,
-                                "end": 89
+                                "end": 84
                             },
-                            "text": "더 적극적인",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "더"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 4,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {

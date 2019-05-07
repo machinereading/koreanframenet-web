@@ -26,76 +26,71 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Standard_Item",
-                            "token_span": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5
-                            ],
+                            "obj": "Standard_item",
                             "span": {
                                 "begin": 7,
-                                "end": 30
+                                "end": 11
                             },
-                            "text": "자연주택 또는 건강주택을 부르짖는 회사는,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "자연주택"
                         },
                         {
                             "id": 3,
                             "obj": "Attribute",
-                            "token_span": [
-                                6
-                            ],
                             "span": {
                                 "begin": 31,
                                 "end": 34
                             },
-                            "text": "비용이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "비용이"
                         },
                         {
                             "id": 4,
                             "obj": "Attribute",
-                            "token_span": [
-                                8,
-                                9
-                            ],
                             "span": {
                                 "begin": 41,
-                                "end": 48
+                                "end": 44
                             },
-                            "text": "디자인 감각이",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "디자인"
                         },
                         {
                             "id": 5,
                             "obj": "Extent",
-                            "token_span": [
-                                15
-                            ],
                             "span": {
                                 "begin": 69,
                                 "end": 74
                             },
-                            "text": "종합적으로",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "종합적으로"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 3,
                             "pred": "arg"
                         },
                         {
                             "subj": 1,
-                            "obj": 5,
+                            "obj": 4,
                             "pred": "arg"
                         },
                         {

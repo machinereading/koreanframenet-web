@@ -26,38 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Proposed_Action",
-                            "token_span": [
-                                0,
-                                1,
-                                2,
-                                3
-                            ],
+                            "obj": "Proposed_action",
                             "span": {
                                 "begin": 0,
-                                "end": 20
+                                "end": 3
                             },
-                            "text": "내가, 병원까지 데려다주겠다고 하자,",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "내가,"
                         },
                         {
                             "id": 3,
                             "obj": "Speaker",
-                            "token_span": [
-                                5
-                            ],
                             "span": {
                                 "begin": 26,
                                 "end": 29
                             },
-                            "text": "그녀는",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "그녀는"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {

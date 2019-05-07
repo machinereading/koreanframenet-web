@@ -26,39 +26,35 @@
                         },
                         {
                             "id": 2,
-                            "obj": "Old_Leader",
-                            "token_span": [
-                                4,
-                                5,
-                                6,
-                                7
-                            ],
+                            "obj": "Old_leader",
                             "span": {
                                 "begin": 18,
-                                "end": 41
+                                "end": 22
                             },
-                            "text": "시리아의 Hafiz al-Assad 정권을",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "시리아의"
                         },
                         {
                             "id": 3,
                             "obj": "Selector",
-                            "token_span": [
-                                9,
-                                10
-                            ],
                             "span": {
                                 "begin": 49,
-                                "end": 57
+                                "end": 51
                             },
-                            "text": "사담 후세인에게",
-                            "role": "ARGUMENT"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "ARGUMENT",
+                            "text": "사담"
                         }
                     ],
                     "relations": [
                         {
                             "subj": 1,
-                            "obj": 3,
+                            "obj": 2,
                             "pred": "arg"
                         },
                         {
